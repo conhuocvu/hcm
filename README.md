@@ -6,13 +6,14 @@
 
 ## 🚀 Tính năng nổi bật
 
-- **Đầy đủ 5 bộ đề thi mới nhất**:
+- **Đầy đủ 6 bộ đề thi mới nhất**:
   - `SU26 RE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SU26 C1FE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `FA25 HALF1`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SU25 B5`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SU25 FEKTS`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
-- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (236 câu độc bản)**: Tự động gom các câu hỏi trùng lặp giữa các kỳ thi, ghi chú rõ nguồn gốc từng đề và biến thể phương án.
+  - `SP25 FE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
+- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (260 câu độc bản)**: Tự động gom các câu hỏi trùng lặp giữa các kỳ thi, ghi chú rõ nguồn gốc từng đề và biến thể phương án.
 - **Hai chế độ luyện thi**:
   - 🎴 **Chế độ Quizlet (Spaced Repetition)**: Lặp lại ngắt quãng, tự động đưa các câu "Chưa nhớ" vào vòng học lại cho đến khi thuộc 100%.
   - 📋 **Chế độ Danh sách & Tra cứu nhanh (Quick Key)**: Bảng tra đáp án nhanh toàn đề kèm công cụ tìm kiếm tức thì.
@@ -28,7 +29,7 @@
 ## 🛠️ Công nghệ sử dụng
 
 - **Frontend**: Pure HTML5, Modern CSS3 (CSS Variables, Flexbox/Grid, Dark/Light Mode), Vanilla JavaScript (ES6+).
-- **Dữ liệu**: Bộ dữ liệu JSON & JS cấu trúc đồng bộ, kèm 300 hình ảnh minh chứng đề thi thực tế.
+- **Dữ liệu**: Bộ dữ liệu JSON & JS cấu trúc đồng bộ, kèm 360 hình ảnh minh chứng đề thi thực tế.
 - Không cần cài đặt `node_modules` hay backend phức tạp - chạy trực tiếp 100% offline trên trình duyệt hoặc bất kỳ static hosting nào (GitHub Pages, Vercel, Netlify, Cloudflare Pages).
 
 ---

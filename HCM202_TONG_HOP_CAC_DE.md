@@ -1,6 +1,6 @@
-# HCM202 — TỔNG HỢP TOÀN BỘ CÂU HỎI CÁC ĐỀ (SU26 RE, SU26 C1FE, FA25 HALF1, SU25 B5 & SU25 FEKTS)
+# HCM202 — TỔNG HỢP TOÀN BỘ CÂU HỎI CÁC ĐỀ (SU26 RE, SU26 C1FE, FA25 HALF1, SU25 B5, SU25 FEKTS & SP25 FE)
 
-> Tổng số câu sau khi rà soát và lọc trùng: **236 câu** (Từ 5 đề gốc tổng cộng 300 lượt câu hỏi)
+> Tổng số câu sau khi rà soát và lọc trùng: **260 câu** (Từ 6 đề gốc tổng cộng 360 lượt câu hỏi)
 > Hỗ trợ đối chiếu nguồn xuất hiện của từng câu hỏi giữa các đề thi, tự động đánh dấu trùng lặp và ghi chú biến thể.
 
 ---
@@ -46,7 +46,7 @@
 
 ---
 
-### Câu 4 — [Nguồn: SU26 - RE (Câu 4)]
+### Câu 4 — [Nguồn: SU26 - RE (Câu 4), SP25 - FE (Câu 19)]
 **Câu hỏi:** Một trong những yêu cầu cơ bản trong nghiên cứu tư tưởng Hồ Chí Minh là gì?
 
 - **[A]** Đảm bảo thống nhất giữa nguyên tắc tính đảng và tính khoa học  *(ĐÁP ÁN ĐÚNG)*
@@ -59,7 +59,7 @@
 
 ---
 
-### Câu 5 — [Nguồn: SU26 - RE (Câu 5)]
+### Câu 5 — [Nguồn: SU26 - RE (Câu 5), SP25 - FE (Câu 21)]
 **Câu hỏi:** Nguyên tắc cơ bản nào sau đây cần phải quán triệt trong nghiên cứu tư tưởng Hồ Chí Minh?
 
 - **[A]** Quan điểm kế thừa và phát triển  *(ĐÁP ÁN ĐÚNG)*
@@ -578,7 +578,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 45 — [Nguồn: SU26 - RE (Câu 45)]
+### Câu 45 — [Nguồn: SU26 - RE (Câu 45), SP25 - FE (Câu 45)]
 **Câu hỏi:** Theo Hồ Chí Minh, đoàn kết là điểm nào sau đây?
 
 - **[A]** Điểm mẹ  *(ĐÁP ÁN ĐÚNG)*
@@ -669,7 +669,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 52 — [Nguồn: SU26 - RE (Câu 52)]
+### Câu 52 — [Nguồn: SU26 - RE (Câu 52), SU25 - B5 (Câu 11), SP25 - FE (Câu 16)]
 **Câu hỏi:** Theo Hồ Chí Minh, trình độ văn hóa của nhân dân nâng cao sẽ giúp cho chúng ta đẩy mạnh công cuộc gì?
 
 - A. Khôi phục kinh tế
@@ -732,7 +732,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 57 — [Nguồn: SU26 - RE (Câu 57)]
+### Câu 57 — [Nguồn: SU26 - RE (Câu 57), SP25 - FE (Câu 5)]
 **Câu hỏi:** Điền vào chỗ trống theo tư tưởng Hồ Chí Minh:
 "Nền văn hoá xã hội chủ nghĩa là một nền văn hoá lấy ....... của đồng bào làm cơ sở".
 
@@ -785,7 +785,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 61 — [Nguồn: SU26 - C1FE (Câu 1), SU25 - B5 (Câu 19)]
+### Câu 61 — [Nguồn: SU26 - C1FE (Câu 1), SU25 - B5 (Câu 19), SP25 - FE (Câu 18)]
 **Câu hỏi:** Trong nghiên cứu tư tưởng Hồ Chí Minh, cần quán triệt quan điểm nào dưới đây?
 
 - A. Quan điểm bộ phận
@@ -798,7 +798,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 62 — [Nguồn: SU26 - C1FE (Câu 2), SU25 - B5 (Câu 16)]
+### Câu 62 — [Nguồn: SU26 - C1FE (Câu 2), SU25 - B5 (Câu 16), SP25 - FE (Câu 17)]
 **Câu hỏi:** Cách diễn đạt nào dưới đây là của Hồ Chí Minh?
 
 - A. Lý luận mà không liên hệ với thực tiễn là lý luận mù quáng
@@ -811,7 +811,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 63 — [Nguồn: SU26 - C1FE (Câu 3)]
+### Câu 63 — [Nguồn: SU26 - C1FE (Câu 3), SP25 - FE (Câu 38)]
 **Câu hỏi:** Mục đích chính để Hồ Chí Minh muốn ra nước ngoài là gì?
 
 - **[A]** Xem nước Pháp và các nước khác làm như thế nào, tôi sẽ trở về giúp đồng bào chúng ta  *(ĐÁP ÁN ĐÚNG)*
@@ -912,7 +912,6 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 > **Đáp án:** **C**
 > **Giải thích:** Nguyễn Tất Thành đến nước Anh vào khoảng cuối năm 1913 và sống, lao động ở London cho đến cuối năm 1917 trước khi quay trở lại Paris (Pháp).
-> ⚠️ **Lưu ý:** Dạng câu hỏi tương tự câu #8 (Đề SU26 - RE), nhưng đáp án hoặc các phương án lựa chọn khác nhau.
 
 ---
 
@@ -929,7 +928,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 72 — [Nguồn: SU26 - C1FE (Câu 12)]
+### Câu 72 — [Nguồn: SU26 - C1FE (Câu 12), SP25 - FE (Câu 32)]
 **Câu hỏi:** Tư tưởng Hồ Chí Minh về cách mạng Việt Nam được hình thành về cơ bản trong thời kỳ nào?
 
 - A. Từ 1911 đến 1920
@@ -955,7 +954,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 74 — [Nguồn: SU26 - C1FE (Câu 14)]
+### Câu 74 — [Nguồn: SU26 - C1FE (Câu 14), SP25 - FE (Câu 1)]
 **Câu hỏi:** Nội dung cốt lõi của tư tưởng Hồ Chí Minh về mối quan hệ giữa độc lập dân tộc và chủ nghĩa xã hội là gì?
 
 - **[A]** Độc lập dân tộc là cơ sở, tiền đề để tiến lên chủ nghĩa xã hội, chủ nghĩa xã hội là điều kiện để bảo đảm nền độc lập dân tộc vững chắc  *(ĐÁP ÁN ĐÚNG)*
@@ -991,7 +990,6 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 > **Đáp án:** **A**
 > **Giải thích:** Bản chất ưu việt của chủ nghĩa xã hội trong tư tưởng Hồ Chí Minh là xóa bỏ áp bức bóc lột, xây dựng xã hội công bằng, không còn người bóc lột người.
-> ⚠️ **Lưu ý:** Dạng câu hỏi tương tự câu #16 (Đề SU26 - RE), nhưng đáp án hoặc các phương án lựa chọn khác nhau.
 
 ---
 
@@ -1021,7 +1019,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 79 — [Nguồn: SU26 - C1FE (Câu 19)]
+### Câu 79 — [Nguồn: SU26 - C1FE (Câu 19), SP25 - FE (Câu 52)]
 **Câu hỏi:** Hồ Chí Minh là người đấu tranh đòi quyền độc lập cho đối tượng nào?
 
 - A. Dân tộc Việt Nam
@@ -1229,7 +1227,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 95 — [Nguồn: SU26 - C1FE (Câu 35)]
+### Câu 95 — [Nguồn: SU26 - C1FE (Câu 35), SP25 - FE (Câu 43)]
 **Câu hỏi:** Đối với Hồ Chí Minh, toàn dân tộc chỉ trở thành lực lượng to lớn, có sức mạnh vô địch khi được tập hợp, tổ chức lại thành một khối vững chắc, được giác ngộ về mục tiêu chiến đấu chung và hoạt động theo:
 
 - A. Một Đảng chính trị đúng đắn
@@ -1317,7 +1315,6 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 > **Đáp án:** **A**
 > **Giải thích:** Nguyên tắc cơ bản khi đoàn kết quốc tế: Đoàn kết trên cơ sở thống nhất mục tiêu và lợi ích; có lý, có tình; giữ vững độc lập tự chủ và tự lực cánh sinh.
-> ⚠️ **Lưu ý:** Dạng câu hỏi tương tự câu #38 (Đề SU26 - RE), nhưng đáp án hoặc các phương án lựa chọn khác nhau.
 
 ---
 
@@ -1334,7 +1331,7 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 ---
 
-### Câu 103 — [Nguồn: SU26 - C1FE (Câu 43), SU25 - FEKTS (Câu 2)]
+### Câu 103 — [Nguồn: SU26 - C1FE (Câu 43), SU25 - FEKTS (Câu 2), SP25 - FE (Câu 6)]
 **Câu hỏi:** Đâu là chuẩn mực đạo đức cách mạng trong tư tưởng Hồ Chí Minh?
 
 - **[A]** Cần, kiệm, liêm, chính, chí công vô tư  *(ĐÁP ÁN ĐÚNG)*
@@ -1344,7 +1341,6 @@ Theo Hồ Chí Minh “Tất cả ... trong nước là của toàn thể nhân 
 
 > **Đáp án:** **A**
 > **Giải thích:** Bốn phẩm chất đạo đức cốt lõi hàng đầu của người cách mạng: Cần, kiệm, liêm, chính, chí công vô tư.
-> ⚠️ **Lưu ý:** Dạng câu hỏi tương tự câu #49 (Đề SU26 - RE), nhưng đáp án hoặc các phương án lựa chọn khác nhau.
 
 ---
 
@@ -1375,7 +1371,7 @@ Hồ Chí Minh có lần chỉ rõ: “Nói chung thì các dân tộc phương 
 
 ---
 
-### Câu 106 — [Nguồn: SU26 - C1FE (Câu 46), FA25 - Half1 (Câu 6)]
+### Câu 106 — [Nguồn: SU26 - C1FE (Câu 46), FA25 - Half1 (Câu 6), SP25 - FE (Câu 12)]
 **Câu hỏi:** Hồ Chí Minh cho rằng: “Vì ... loài người mới sáng tạo và phát minh ra ngôn ngữ, chữ viết, đạo đức, pháp luật, khoa học, tôn giáo, văn học, nghệ thuật, những công cụ cho sinh hoạt hằng ngày về mặc, ăn, ở và các phương thức sử dụng”. Từ nào còn thiếu trong dấu ...?
 
 - **[A]** lẽ sinh tồn cũng như mục đích của cuộc sống  *(ĐÁP ÁN ĐÚNG)*
@@ -1401,7 +1397,7 @@ Hồ Chí Minh có lần chỉ rõ: “Nói chung thì các dân tộc phương 
 
 ---
 
-### Câu 108 — [Nguồn: SU26 - C1FE (Câu 48)]
+### Câu 108 — [Nguồn: SU26 - C1FE (Câu 48), SP25 - FE (Câu 7)]
 **Câu hỏi:** Đâu là nguyên tắc xây dựng đạo đức mới trong tư tưởng Hồ Chí Minh?
 
 - **[A]** Phải tu dưỡng đạo đức suốt đời  *(ĐÁP ÁN ĐÚNG)*
@@ -1715,7 +1711,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 132 — [Nguồn: FA25 - Half1 (Câu 16)]
+### Câu 132 — [Nguồn: FA25 - Half1 (Câu 16), SP25 - FE (Câu 20)]
 **Câu hỏi:** Theo quan điểm của Đảng Cộng sản Việt Nam tại Đại hội đại biểu toàn quốc lần thứ XI. Tư tưởng Hồ Chí Minh là kết quả của sự vận dụng và kế thừa giá trị nào?
 
 - A. Sự vận dụng sáng tạo chủ nghĩa Mác - Lênin trong điều kiện cụ thể của nước ta
@@ -1845,7 +1841,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 142 — [Nguồn: FA25 - Half1 (Câu 32)]
+### Câu 142 — [Nguồn: FA25 - Half1 (Câu 32), SP25 - FE (Câu 33)]
 **Câu hỏi:** Giai đoạn nào sau đây hình thành cơ bản tư tưởng Hồ Chí Minh trong việc tìm thấy con đường cứu nước, giải phóng dân tộc ?
 
 - A. 1911 đến 1930
@@ -1858,7 +1854,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 143 — [Nguồn: FA25 - Half1 (Câu 37)]
+### Câu 143 — [Nguồn: FA25 - Half1 (Câu 37), SP25 - FE (Câu 41)]
 **Câu hỏi:** Tư tưởng tôn giáo nào sau đây ảnh hưởng đến sự hình thành tư tưởng Hồ Chí Minh?
 
 - **[A]** Tư duy, hành động, ứng xử của Phật giáo  *(ĐÁP ÁN ĐÚNG)*
@@ -1868,11 +1864,10 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 > **Đáp án:** **A**
 > **Giải thích:** Phật giáo du nhập vào Việt Nam từ rất sớm và ăn sâu vào tiềm thức nhân dân; Hồ Chí Minh đã tiếp thu và vận dụng tinh thần từ bi, hỉ xả, cứu khổ cứu nạn, tinh thần nhập thế tích cực của Phật giáo.
-> ⚠️ **Lưu ý:** Dạng câu hỏi tương tự câu #9 (Đề SU26 - RE), nhưng đáp án hoặc các phương án lựa chọn khác nhau.
 
 ---
 
-### Câu 144 — [Nguồn: FA25 - Half1 (Câu 38)]
+### Câu 144 — [Nguồn: FA25 - Half1 (Câu 38), SP25 - FE (Câu 36)]
 **Câu hỏi:** Giai đoạn nào sau đây Hồ Chí Minh bổ sung và hoàn thiện tư tưởng của mình?
 
 - A. 1911 đến 1920
@@ -1885,7 +1880,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 145 — [Nguồn: FA25 - Half1 (Câu 42)]
+### Câu 145 — [Nguồn: FA25 - Half1 (Câu 42), SP25 - FE (Câu 47)]
 **Câu hỏi:** Quan điểm nào sau đây thuộc vấn đề công tác cán bộ theo tư tưởng Hồ Chí Minh ?
 
 - **[A]** Gần dân, học hỏi nhân dân, lắng nghe ý kiến nhân dân  *(ĐÁP ÁN ĐÚNG)*
@@ -1911,7 +1906,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 147 — [Nguồn: FA25 - Half1 (Câu 44)]
+### Câu 147 — [Nguồn: FA25 - Half1 (Câu 44), SP25 - FE (Câu 48)]
 **Câu hỏi:** Theo Hồ Chí Minh, nguyên tắc hiệp thương dân chủ đòi hỏi tất cả mọi vấn đề của Mặt trận đều phải được đem ra cho tất cả các thành viên cùng nhau bàn bạc công khai, để đi đến nhất trí, loại trừ mọi sự áp đặt hay còn vấn đề nào khác nữa?
 
 - **[A]** Dân chủ hình thức  *(ĐÁP ÁN ĐÚNG)*
@@ -1950,7 +1945,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 150 — [Nguồn: FA25 - Half1 (Câu 47)]
+### Câu 150 — [Nguồn: FA25 - Half1 (Câu 47), SP25 - FE (Câu 50)]
 **Câu hỏi:** Hãy chọn phương án trả lời đúng nhất: Theo Hồ Chí Minh, để tập hợp được mọi lực lượng vào khối đại đoàn kết toàn dân, cần phải làm gì?
 
 - A. Có chính sách đúng đắn
@@ -1963,7 +1958,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 151 — [Nguồn: FA25 - Half1 (Câu 48)]
+### Câu 151 — [Nguồn: FA25 - Half1 (Câu 48), SP25 - FE (Câu 44)]
 **Câu hỏi:** Điều kiện thực hiện khối đại đoàn kết dân tộc trong tư tưởng Hồ Chí Minh là gì?
 
 - A. Truyền thống yêu thiên nhiên
@@ -1976,7 +1971,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 152 — [Nguồn: FA25 - Half1 (Câu 49)]
+### Câu 152 — [Nguồn: FA25 - Half1 (Câu 49), SP25 - FE (Câu 42)]
 **Câu hỏi:** Hồ Chí Minh cho rằng công tác cán bộ cần chú ý điều gì?
 
 - A. Hiểu và đánh giá đúng đảng viên
@@ -2090,7 +2085,6 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 > **Đáp án:** **A**
 > **Giải thích:** Hồ Chí Minh luôn quán triệt tinh thần bình đẳng giữa các dân tộc: 'Giữ vững độc lập của dân tộc mình đồng thời tôn trọng độc lập của các dân tộc khác' trên thế giới.
-> ⚠️ **Lưu ý:** Dạng câu hỏi tương tự câu #137 (Đề FA25 - Half1), nhưng đáp án hoặc các phương án lựa chọn khác nhau.
 
 ---
 
@@ -2133,7 +2127,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 164 — [Nguồn: SU25 - B5 (Câu 3), SU25 - FEKTS (Câu 12)]
+### Câu 164 — [Nguồn: SU25 - B5 (Câu 3), SU25 - FEKTS (Câu 12), SP25 - FE (Câu 13)]
 **Câu hỏi:** Hồ Chí Minh cho rằng:
 
 - **[A]** Văn hoá là tổng hợp của mọi phương thức sinh hoạt cùng với biểu hiện của nó mà loài người đã sản sinh ra nhằm thích ứng những nhu cầu đời sống và đòi hỏi của sự sinh tồn  *(ĐÁP ÁN ĐÚNG)*
@@ -2183,21 +2177,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 168 — [Nguồn: SU25 - B5 (Câu 11)]
-**Câu hỏi:** Theo Hồ Chí Minh, trình độ văn hóa của nhân dân nâng cao sẽ giúp cho chúng ta đẩy mạnh công cuộc gì? Chọn phương án chính xác nhất:
-
-- A. Khôi phục kinh tế
-- **[B]** Khôi phục kinh tế, phát triển dân chủ  *(ĐÁP ÁN ĐÚNG)*
-- C. Phát triển dân chủ
-- D. Khôi phục văn hóa
-
-> **Đáp án:** **B**
-> **Giải thích:** Hồ Chí Minh chỉ rõ: 'Trình độ văn hóa của nhân dân nâng cao sẽ giúp chúng ta đẩy mạnh công cuộc khôi phục kinh tế, phát triển dân chủ'.
-> ⚠️ **Lưu ý:** Dạng câu hỏi tương tự câu #52 (Đề SU26 - RE), nhưng đáp án hoặc các phương án lựa chọn khác nhau.
-
----
-
-### Câu 169 — [Nguồn: SU25 - B5 (Câu 15)]
+### Câu 168 — [Nguồn: SU25 - B5 (Câu 15)]
 **Câu hỏi:** Đâu là quan điểm của Hồ Chí Minh về văn hoá?
 
 - **[A]** Theo Hồ Chí Minh, văn hoá không thụ động, ngồi chờ cho kinh tế phát triển. Phát triển văn hoá tạo điều kiện thúc đẩy phát triển kinh tế  *(ĐÁP ÁN ĐÚNG)*
@@ -2210,7 +2190,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 170 — [Nguồn: SU25 - B5 (Câu 17)]
+### Câu 169 — [Nguồn: SU25 - B5 (Câu 17)]
 **Câu hỏi:** Nguyên tắc cơ bản trong nghiên cứu tư tưởng Hồ Chí Minh là gì?
 
 - **[A]** Thống nhất giữa lý luận và thực tiễn  *(ĐÁP ÁN ĐÚNG)*
@@ -2223,7 +2203,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 171 — [Nguồn: SU25 - B5 (Câu 20)]
+### Câu 170 — [Nguồn: SU25 - B5 (Câu 20)]
 **Câu hỏi:** Nội dung nào không đúng về giá trị lý luận và thực tiễn của Tư tưởng Hồ Chí Minh về vấn đề dân tộc và cách mạng giải phóng dân tộc?
 
 - A. Làm phong phú học thuyết Mác-Lênin về cách mạng thuộc địa
@@ -2236,7 +2216,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 172 — [Nguồn: SU25 - B5 (Câu 22)]
+### Câu 171 — [Nguồn: SU25 - B5 (Câu 22)]
 **Câu hỏi:** Theo Hồ Chí Minh, Đảng cộng sản Việt Nam là Đảng như thế nào?
 
 - **[A]** Cầm quyền  *(ĐÁP ÁN ĐÚNG)*
@@ -2249,7 +2229,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 173 — [Nguồn: SU25 - B5 (Câu 23)]
+### Câu 172 — [Nguồn: SU25 - B5 (Câu 23)]
 **Câu hỏi:** Hồ Chí Minh nhắc cán bộ nhà nước phải biết làm điều gì?
 
 - **[A]** Làm lợi cho dân  *(ĐÁP ÁN ĐÚNG)*
@@ -2262,7 +2242,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 174 — [Nguồn: SU25 - B5 (Câu 24)]
+### Câu 173 — [Nguồn: SU25 - B5 (Câu 24)]
 **Câu hỏi:** Theo tư tưởng Hồ Chí Minh, Đảng Cộng sản Việt Nam vừa là người lãnh đạo, vừa là người đầy tớ trung thành của nhân dân, Đảng phải chăm lo mối quan hệ giữa Đảng với dân là nhằm mục đích gì?
 
 - **[A]** Xác định vị thế cầm quyền của Đảng  *(ĐÁP ÁN ĐÚNG)*
@@ -2275,7 +2255,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 175 — [Nguồn: SU25 - B5 (Câu 25)]
+### Câu 174 — [Nguồn: SU25 - B5 (Câu 25)]
 **Câu hỏi:** Hồ Chí Minh nhấn mạnh xây dựng nhà nước trong sạch vững mạnh cần phải:
 
 - **[A]** Kết hợp giáo dục pháp luật và đạo đức, hình thành pháp quyền nhân nghĩa  *(ĐÁP ÁN ĐÚNG)*
@@ -2287,7 +2267,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 176 — [Nguồn: SU25 - B5 (Câu 27)]
+### Câu 175 — [Nguồn: SU25 - B5 (Câu 27)]
 **Câu hỏi:** Theo Hồ Chí Minh, Nhà nước Việt Nam được xây dựng phải là nhà nước như thế nào?
 
 - **[A]** Nhà nước hợp pháp, hợp hiến  *(ĐÁP ÁN ĐÚNG)*
@@ -2300,7 +2280,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 177 — [Nguồn: SU25 - B5 (Câu 28)]
+### Câu 176 — [Nguồn: SU25 - B5 (Câu 28)]
 **Câu hỏi:** Lực lượng đoàn kết quốc tế theo Hồ Chí Minh cần phải đoàn kết với đối tượng nào?
 
 - **[A]** Giai cấp công nhân, lực lượng xã hội chủ nghĩa, phong trào cộng sản và công nhân quốc tế, với các dân tộc thuộc địa bị áp bức và các lực lượng tiến bộ trên thế giới  *(ĐÁP ÁN ĐÚNG)*
@@ -2313,7 +2293,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 178 — [Nguồn: SU25 - B5 (Câu 29)]
+### Câu 177 — [Nguồn: SU25 - B5 (Câu 29)]
 **Câu hỏi:** Theo Hồ Chí Minh, Đảng cộng sản Việt Nam là Đảng:
 
 - A. Của xã hội
@@ -2322,11 +2302,10 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 > **Đáp án:** **B**
 > **Giải thích:** Hồ Chí Minh khẳng định Đảng Cộng sản Việt Nam là Đảng của giai cấp công nhân, đồng thời là Đảng của nhân dân lao động và của cả dân tộc Việt Nam.
-> ⚠️ **Lưu ý:** Dạng câu hỏi tương tự câu #172 (Đề SU25 - B5), nhưng đáp án hoặc các phương án lựa chọn khác nhau.
 
 ---
 
-### Câu 179 — [Nguồn: SU25 - B5 (Câu 33)]
+### Câu 178 — [Nguồn: SU25 - B5 (Câu 33)]
 **Câu hỏi:** Nguyễn Sinh Cung theo cha lần đầu tiên đến Huế vào thời gian nào?
 
 - **[A]** Từ năm 1895 đến năm 1901  *(ĐÁP ÁN ĐÚNG)*
@@ -2339,7 +2318,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 180 — [Nguồn: SU25 - B5 (Câu 34)]
+### Câu 179 — [Nguồn: SU25 - B5 (Câu 34), SP25 - FE (Câu 35)]
 **Câu hỏi:** Trong giai đoạn 1923 - 1924, Quảng Châu Trung Quốc được mệnh danh là:
 
 - **[A]** Moskva của Phương Đông  *(ĐÁP ÁN ĐÚNG)*
@@ -2352,7 +2331,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 181 — [Nguồn: SU25 - B5 (Câu 37), SU25 - FEKTS (Câu 34)]
+### Câu 180 — [Nguồn: SU25 - B5 (Câu 37), SU25 - FEKTS (Câu 34)]
 **Câu hỏi:** Nguồn gốc nào sau đây quyết định nhất tư tưởng Hồ Chí Minh?
 
 - A. Chủ nghĩa Tam dân của Tôn Trung Sơn
@@ -2365,7 +2344,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 182 — [Nguồn: SU25 - B5 (Câu 38)]
+### Câu 181 — [Nguồn: SU25 - B5 (Câu 38)]
 **Câu hỏi:** Nguyễn Ái Quốc đến Liên Xô lần đầu tiên học tại trường nào?
 
 - A. Đại học Liên Xô
@@ -2378,7 +2357,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 183 — [Nguồn: SU25 - B5 (Câu 39)]
+### Câu 182 — [Nguồn: SU25 - B5 (Câu 39)]
 **Câu hỏi:** Hồ Chí Minh tiếp thu tư tưởng về đạo đức của Nho giáo trong việc xây dựng, đổi mới, phát triển tư tưởng đạo đức trong công tác gì?
 
 - A. Xây dựng con người mới
@@ -2391,7 +2370,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 184 — [Nguồn: SU25 - B5 (Câu 40)]
+### Câu 183 — [Nguồn: SU25 - B5 (Câu 40)]
 **Câu hỏi:** Ngoại ngữ nào sau đây được Hồ Chí Minh sử dụng trong thời gian học tập ở trường Quốc học Huế?
 
 - A. Tiếng Anh
@@ -2404,7 +2383,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 185 — [Nguồn: SU25 - B5 (Câu 41)]
+### Câu 184 — [Nguồn: SU25 - B5 (Câu 41)]
 **Câu hỏi:** Trong tư tưởng Hồ Chí Minh, đại đoàn kết dân tộc là gì?
 
 - A. Đoàn kết công-nông
@@ -2414,11 +2393,10 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 > **Đáp án:** **D**
 > **Giải thích:** Khái niệm 'dân tộc' trong đại đoàn kết dân tộc của Hồ Chí Minh mang nghĩa đại đoàn kết toàn dân, tập hợp mọi người Việt Nam yêu nước, không phân biệt giai cấp, tôn giáo, dân tộc.
-> ⚠️ **Lưu ý:** Dạng câu hỏi tương tự câu #102 (Đề SU26 - C1FE), nhưng đáp án hoặc các phương án lựa chọn khác nhau.
 
 ---
 
-### Câu 186 — [Nguồn: SU25 - B5 (Câu 42)]
+### Câu 185 — [Nguồn: SU25 - B5 (Câu 42), SP25 - FE (Câu 49)]
 **Câu hỏi:** Đại đoàn kết dân tộc được xác định là nhiệm vụ nào trong những nhiệm vụ dưới đây của Đảng và của toàn dân tộc ta?
 
 - A. Cơ bản của Đảng và của dân tộc
@@ -2431,7 +2409,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 187 — [Nguồn: SU25 - B5 (Câu 43), SU25 - FEKTS (Câu 41)]
+### Câu 186 — [Nguồn: SU25 - B5 (Câu 43), SU25 - FEKTS (Câu 41)]
 **Câu hỏi:** Chọn câu trả lời đúng nhất với tư tưởng Hồ Chí Minh về vai trò của đại đoàn kết dân tộc?
 
 - A. Đại đoàn kết dân tộc là vấn đề sách lược
@@ -2444,7 +2422,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 188 — [Nguồn: SU25 - B5 (Câu 45)]
+### Câu 187 — [Nguồn: SU25 - B5 (Câu 45), SP25 - FE (Câu 60)]
 **Câu hỏi:** Trong tư tưởng Hồ Chí Minh, lực lượng nào là chủ thể của khối đại đoàn kết dân tộc?
 
 - A. Công nhân
@@ -2457,7 +2435,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 189 — [Nguồn: SU25 - B5 (Câu 47), SU25 - FEKTS (Câu 45)]
+### Câu 188 — [Nguồn: SU25 - B5 (Câu 47), SU25 - FEKTS (Câu 45)]
 **Câu hỏi:** Từ nào còn thiếu trong câu nói sau của Hồ Chí Minh: “Ai có tài, có đức, có sức, có lòng phụng sự Tổ quốc và phục vụ nhân dân thì ta (...) với họ”
 
 - A. Hợp tác
@@ -2470,7 +2448,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 190 — [Nguồn: SU25 - B5 (Câu 48)]
+### Câu 189 — [Nguồn: SU25 - B5 (Câu 48)]
 **Câu hỏi:** Luận điểm “Công cuộc giải phóng anh em chỉ có thể thực hiện bằng sự nỗ lực của bản thân anh em” là của:
 
 - A. C. Mác
@@ -2483,7 +2461,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 191 — [Nguồn: SU25 - B5 (Câu 49)]
+### Câu 190 — [Nguồn: SU25 - B5 (Câu 49)]
 **Câu hỏi:** Theo quan điểm Hồ Chí Minh, đại đoàn kết dân tộc phải luôn được nhận thức là vấn đề sống còn và quyết định đến điều gì trong cách mạng?
 
 - A. Lực lượng của cách mạng
@@ -2496,7 +2474,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 192 — [Nguồn: SU25 - B5 (Câu 51)]
+### Câu 191 — [Nguồn: SU25 - B5 (Câu 51)]
 **Câu hỏi:** Đề cập đến vấn đề dân tộc thuộc địa, khác với Mác và Lênin, Hồ Chí Minh bàn nhiều về cuộc đấu tranh nào:
 
 - A. Chống chủ nghĩa phát xít, giải phóng giai cấp
@@ -2509,7 +2487,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 193 — [Nguồn: SU25 - B5 (Câu 53)]
+### Câu 192 — [Nguồn: SU25 - B5 (Câu 53)]
 **Câu hỏi:** Theo Hồ Chí Minh, mâu thuẫn chủ yếu ở thuộc địa, không thể điều hòa được là gì?
 
 - A. Mâu thuẫn giữa giai cấp công nhân với chủ nghĩa thực dân
@@ -2522,7 +2500,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 194 — [Nguồn: SU25 - B5 (Câu 54)]
+### Câu 193 — [Nguồn: SU25 - B5 (Câu 54)]
 **Câu hỏi:** Đâu là sự sáng tạo của Hồ Chí Minh về Chủ nghĩa xã hội ở Việt Nam?
 
 - **[A]** Sáng tạo trong cách thức đi lên xây dựng chủ nghĩa xã hội  *(ĐÁP ÁN ĐÚNG)*
@@ -2535,7 +2513,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 195 — [Nguồn: SU25 - B5 (Câu 55)]
+### Câu 194 — [Nguồn: SU25 - B5 (Câu 55)]
 **Câu hỏi:** Theo Hồ Chí Minh, mục tiêu kinh tế của thời kỳ quá độ lên CNXH là:
 
 - A. Công, lâm nghiệp hiện đại, khoa học - kỹ thuật tiên tiến, bóc lột được bỏ dần, vật chất được cải thiện
@@ -2547,7 +2525,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 196 — [Nguồn: SU25 - B5 (Câu 58)]
+### Câu 195 — [Nguồn: SU25 - B5 (Câu 58)]
 **Câu hỏi:** Hồ Chí Minh vạch ra mục tiêu của cách mạng giải phóng dân tộc thuộc địa là:
 
 - **[A]** Đánh đổ ách thống trị của chủ nghĩa thực dân, giành độc lập dân tộc và thiết lập chính quyền của nhân dân  *(ĐÁP ÁN ĐÚNG)*
@@ -2560,7 +2538,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 197 — [Nguồn: SU25 - B5 (Câu 59)]
+### Câu 196 — [Nguồn: SU25 - B5 (Câu 59)]
 **Câu hỏi:** Con đường cứu nước của Hồ Chí Minh là gì?
 
 - **[A]** Độc lập dân tộc gắn liền với chủ nghĩa xã hội  *(ĐÁP ÁN ĐÚNG)*
@@ -2573,7 +2551,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 198 — [Nguồn: SU25 - FEKTS (Câu 1)]
+### Câu 197 — [Nguồn: SU25 - FEKTS (Câu 1)]
 **Câu hỏi:** Hồ Chí Minh ví tuổi trẻ như điều gì?
 
 - **[A]** Mùa xuân của xã hội  *(ĐÁP ÁN ĐÚNG)*
@@ -2586,7 +2564,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 199 — [Nguồn: SU25 - FEKTS (Câu 3)]
+### Câu 198 — [Nguồn: SU25 - FEKTS (Câu 3)]
 **Câu hỏi:** Hồ Chí Minh nhìn nhận con người như điều gì?
 
 - **[A]** Chỉnh thể  *(ĐÁP ÁN ĐÚNG)*
@@ -2599,7 +2577,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 200 — [Nguồn: SU25 - FEKTS (Câu 6)]
+### Câu 199 — [Nguồn: SU25 - FEKTS (Câu 6), SP25 - FE (Câu 14)]
 **Câu hỏi:** Đâu là đáp án chính xác nhất về Đảng theo tư tưởng Hồ Chí Minh?
 
 - **[A]** Một Đảng mà giấu giếm khuyết điểm của mình là một đảng hỏng  *(ĐÁP ÁN ĐÚNG)*
@@ -2612,7 +2590,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 201 — [Nguồn: SU25 - FEKTS (Câu 7)]
+### Câu 200 — [Nguồn: SU25 - FEKTS (Câu 7), SP25 - FE (Câu 4)]
 **Câu hỏi:** Theo Hồ Chí Minh, mối quan hệ giữa văn hóa với kinh tế và chính trị như thế nào?
 
 - A. Văn hóa đứng ngoài kinh tế
@@ -2625,7 +2603,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 202 — [Nguồn: SU25 - FEKTS (Câu 15)]
+### Câu 201 — [Nguồn: SU25 - FEKTS (Câu 15)]
 **Câu hỏi:** Trong các mệnh đề về đạo đức của mình, theo Hồ Chí Minh, đâu là cái đức lớn nhất ?
 
 - **[A]** Trung với nước, hiếu với dân  *(ĐÁP ÁN ĐÚNG)*
@@ -2638,7 +2616,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 203 — [Nguồn: SU25 - FEKTS (Câu 16)]
+### Câu 202 — [Nguồn: SU25 - FEKTS (Câu 16)]
 **Câu hỏi:** Theo văn kiện Đại hội XI của Đảng Cộng sản Việt Nam (2011), Tư tưởng Hồ Chí Minh là tư tưởng về những vấn đề gì?
 
 - **[A]** Những vấn đề cơ bản của cách mạng Việt Nam  *(ĐÁP ÁN ĐÚNG)*
@@ -2651,7 +2629,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 204 — [Nguồn: SU25 - FEKTS (Câu 17)]
+### Câu 203 — [Nguồn: SU25 - FEKTS (Câu 17)]
 **Câu hỏi:** Theo quan điểm của Đảng Cộng sản Việt Nam tại Đại hội đại biểu toàn quốc lần thứ VII, Tư tưởng Hồ Chí Minh là gì?
 
 - A. Tài sản tinh thần quý báu của Đảng và của cả dân tộc
@@ -2664,7 +2642,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 205 — [Nguồn: SU25 - FEKTS (Câu 19)]
+### Câu 204 — [Nguồn: SU25 - FEKTS (Câu 19)]
 **Câu hỏi:** Văn kiện nào của Đảng Lao động Việt Nam đã khẳng định: "Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ Tịch, người anh hùng dân tộc vĩ đại, và chính Người đã làm rạng rỡ dân tộc ta, nhân dân ta và non sông đất nước ta"?
 
 - A. Báo cáo chính trị tại Đại hội đại biểu toàn quốc lần thứ II của Đảng
@@ -2677,7 +2655,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 206 — [Nguồn: SU25 - FEKTS (Câu 20)]
+### Câu 205 — [Nguồn: SU25 - FEKTS (Câu 20)]
 **Câu hỏi:** Phạm vi vận dụng tư tưởng Hồ Chí Minh là đối tượng nào?
 
 - A. Đối với cách mạng Việt Nam
@@ -2690,7 +2668,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 207 — [Nguồn: SU25 - FEKTS (Câu 21)]
+### Câu 206 — [Nguồn: SU25 - FEKTS (Câu 21), SP25 - FE (Câu 26)]
 **Câu hỏi:** Chọn phương án trả lời đúng nhất theo tư tưởng Hồ Chí Minh về bản chất của nhà nước Việt Nam?
 
 - A. Mang bản chất giai cấp công nhân
@@ -2703,7 +2681,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 208 — [Nguồn: SU25 - FEKTS (Câu 22)]
+### Câu 207 — [Nguồn: SU25 - FEKTS (Câu 22)]
 **Câu hỏi:** Theo quan điểm của Chủ tịch Hồ Chí Minh, nhà nước của dân là gì:
 
 - A. Quyền lực nhà nước thuộc về giai cấp nông dân
@@ -2716,7 +2694,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 209 — [Nguồn: SU25 - FEKTS (Câu 23)]
+### Câu 208 — [Nguồn: SU25 - FEKTS (Câu 23)]
 **Câu hỏi:** Tóm tắt nội dung chữ "Cần" theo tư tưởng Hồ Chí Minh là gì?
 
 - **[A]** Cần tức là lao động cần cù, siêng năng; lao động có kế hoạch, sáng tạo, có năng suất cao  *(ĐÁP ÁN ĐÚNG)*
@@ -2729,7 +2707,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 210 — [Nguồn: SU25 - FEKTS (Câu 24)]
+### Câu 209 — [Nguồn: SU25 - FEKTS (Câu 24)]
 **Câu hỏi:** Theo Hồ Chí Minh, kỷ cương, phép nước thời nào cũng luôn được đề cao và phải được áp dụng cho tất cả mọi người. Từ đó Người đưa ra yêu cầu:
 
 - A. Pháp luật phải thẳng tay trừng trị những kẻ bất liêm, bất kỳ kẻ ấy ở địa vị nào, làm nghề nghiệp gì
@@ -2741,7 +2719,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 211 — [Nguồn: SU25 - FEKTS (Câu 26)]
+### Câu 210 — [Nguồn: SU25 - FEKTS (Câu 26)]
 **Câu hỏi:** Theo Hồ Chí Minh, Đảng Lao động Việt Nam là Đảng của ai?
 
 - **[A]** Đảng của giai cấp công nhân, nhân dân lao động và của toàn thể dân tộc Việt Nam  *(ĐÁP ÁN ĐÚNG)*
@@ -2754,7 +2732,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 212 — [Nguồn: SU25 - FEKTS (Câu 27)]
+### Câu 211 — [Nguồn: SU25 - FEKTS (Câu 27), SP25 - FE (Câu 24)]
 **Câu hỏi:** Theo Hồ Chí Minh, Đảng cộng sản Việt Nam ra đời trên cơ sở của những yếu tố nào?
 
 - A. Chủ nghĩa Mác - Lênin, phong trào công nhân, phong trào cách mạng thế giới
@@ -2767,7 +2745,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 213 — [Nguồn: SU25 - FEKTS (Câu 28)]
+### Câu 212 — [Nguồn: SU25 - FEKTS (Câu 28)]
 **Câu hỏi:** Hồ Chí Minh lưu ý:
 
 - **[A]** Đảng cầm quyền, Đảng lãnh đạo để cho dân làm chủ  *(ĐÁP ÁN ĐÚNG)*
@@ -2779,7 +2757,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 214 — [Nguồn: SU25 - FEKTS (Câu 29)]
+### Câu 213 — [Nguồn: SU25 - FEKTS (Câu 29)]
 **Câu hỏi:** Hồ Chí Minh cho rằng xây dựng nhà nước trong sạch vững mạnh cần phải làm gì?
 
 - **[A]** Tăng cường tính nghiêm minh của pháp luật đi đôi với giáo dục đạo đức cách mạng  *(ĐÁP ÁN ĐÚNG)*
@@ -2789,11 +2767,10 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 > **Đáp án:** **A**
 > **Giải thích:** Xây dựng nhà nước trong sạch vững mạnh phải kết hợp hài hòa giữa 'đức trị' và 'pháp trị': Tăng cường tính nghiêm minh của pháp luật đi đôi với giáo dục đạo đức cách mạng.
-> ⚠️ **Lưu ý:** Dạng câu hỏi tương tự câu #175 (Đề SU25 - B5), nhưng đáp án hoặc các phương án lựa chọn khác nhau.
 
 ---
 
-### Câu 215 — [Nguồn: SU25 - FEKTS (Câu 30)]
+### Câu 214 — [Nguồn: SU25 - FEKTS (Câu 30)]
 **Câu hỏi:** Chọn phương án trả lời không đúng với tư tưởng Hồ Chí Minh về nhà nước vì dân?
 
 - A. Phục vụ nhân dân
@@ -2806,7 +2783,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 216 — [Nguồn: SU25 - FEKTS (Câu 31)]
+### Câu 215 — [Nguồn: SU25 - FEKTS (Câu 31), SP25 - FE (Câu 40)]
 **Câu hỏi:** Khi nói về điều kiện hình thành tư tưởng Hồ Chí Minh, điều kiện nào bị viết sai?
 
 - A. Nhu cầu khách quan và bức thiết do cách mạng Việt Nam đặt ra là muốn cứu nước, phải tìm một con đường cách mạng mới
@@ -2819,7 +2796,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 217 — [Nguồn: SU25 - FEKTS (Câu 32)]
+### Câu 216 — [Nguồn: SU25 - FEKTS (Câu 32)]
 **Câu hỏi:** Một trong những giá trị của văn hoá phương Tây được Hồ Chí Minh tiếp thu để hình thành tư tưởng của mình là gì?
 
 - **[A]** Tư tưởng văn hoá dân chủ và cách mạng của cách mạng Pháp và cách mạng Mỹ  *(ĐÁP ÁN ĐÚNG)*
@@ -2832,7 +2809,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 218 — [Nguồn: SU25 - FEKTS (Câu 33)]
+### Câu 217 — [Nguồn: SU25 - FEKTS (Câu 33)]
 **Câu hỏi:** Theo Hồ Chí Minh, ưu điểm lớn nhất của học thuyết Khổng Tử là gì?
 
 - A. Tinh thần hiếu học
@@ -2844,7 +2821,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 219 — [Nguồn: SU25 - FEKTS (Câu 37)]
+### Câu 218 — [Nguồn: SU25 - FEKTS (Câu 37)]
 **Câu hỏi:** Chọn phương án trả lời đúng với một trong những giai đoạn hình thành và phát triển tư tưởng Hồ Chí Minh?
 
 - A. Từ năm 1890 - 1911: Thời kỳ nghiên cứu, khảo sát thực tế, đến với chủ nghĩa Mác - Lênin
@@ -2857,7 +2834,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 220 — [Nguồn: SU25 - FEKTS (Câu 38)]
+### Câu 219 — [Nguồn: SU25 - FEKTS (Câu 38)]
 **Câu hỏi:** Đối tượng chủ yếu của tư tưởng Hồ Chí Minh là gì?
 
 - A. Cách mạng xã hội chủ nghĩa
@@ -2870,7 +2847,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 221 — [Nguồn: SU25 - FEKTS (Câu 39)]
+### Câu 220 — [Nguồn: SU25 - FEKTS (Câu 39)]
 **Câu hỏi:** Việt Nam Độc lập Đồng minh được thành lập vào thời gian nào?
 
 - **[A]** 19/5/1941  *(ĐÁP ÁN ĐÚNG)*
@@ -2883,7 +2860,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 222 — [Nguồn: SU25 - FEKTS (Câu 40)]
+### Câu 221 — [Nguồn: SU25 - FEKTS (Câu 40)]
 **Câu hỏi:** Một trong những truyền thống tốt đẹp của tư tưởng và văn hoá Việt Nam được Hồ Chí Minh tiếp thu để hình thành tư tưởng của mình là:
 
 - **[A]** Chủ nghĩa yêu nước Việt Nam  *(ĐÁP ÁN ĐÚNG)*
@@ -2896,7 +2873,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 223 — [Nguồn: SU25 - FEKTS (Câu 43)]
+### Câu 222 — [Nguồn: SU25 - FEKTS (Câu 43)]
 **Câu hỏi:** Trong tư tưởng Hồ Chí Minh, đại đoàn kết dân tộc phải biến thành sức mạnh vật chất, trở thành lực lượng vật chất có tổ chức. Tổ chức đó chính là:
 
 - A. Đoàn thể chính trị quần chúng
@@ -2909,7 +2886,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 224 — [Nguồn: SU25 - FEKTS (Câu 44)]
+### Câu 223 — [Nguồn: SU25 - FEKTS (Câu 44), SP25 - FE (Câu 46)]
 **Câu hỏi:** Chọn phương án chính xác nhất điền vào chỗ trống. Đại đoàn kết dân tộc là một ....... hàng đầu của cách mạng Việt Nam"
 
 - **[A]** Mục tiêu, nhiệm vụ  *(ĐÁP ÁN ĐÚNG)*
@@ -2922,7 +2899,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 225 — [Nguồn: SU25 - FEKTS (Câu 46)]
+### Câu 224 — [Nguồn: SU25 - FEKTS (Câu 46)]
 **Câu hỏi:** Đâu là luận điểm sáng tạo của Hồ Chí Minh về vấn đề lãnh đạo của Đảng?
 
 - **[A]** Lý luận về Đảng Cộng sản cầm quyền  *(ĐÁP ÁN ĐÚNG)*
@@ -2934,7 +2911,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 226 — [Nguồn: SU25 - FEKTS (Câu 49)]
+### Câu 225 — [Nguồn: SU25 - FEKTS (Câu 49)]
 **Câu hỏi:** Theo Hồ Chí Minh, muốn tăng cường đoàn kết quốc tế trong cuộc đấu tranh vì mục tiêu chung, các Đảng Cộng sản phải tiến hành có hiệu quả việc giáo dục chủ nghĩa yêu nước chân chính kết hợp với điều gì?
 
 - **[A]** Chủ nghĩa quốc tế vô sản  *(ĐÁP ÁN ĐÚNG)*
@@ -2947,7 +2924,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 227 — [Nguồn: SU25 - FEKTS (Câu 50)]
+### Câu 226 — [Nguồn: SU25 - FEKTS (Câu 50)]
 **Câu hỏi:** Theo Hồ Chí Minh, để lãnh đạo Mặt trận, Đảng phải đi đúng đường lối quần chúng, không được làm điều gì?
 
 - A. Vận động, giáo dục, thuyết phục, nêu gương, lấy lòng chân thành để đối xử, cảm hóa, khơi gợi tinh thần tự giác, tự nguyện
@@ -2960,7 +2937,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 228 — [Nguồn: SU25 - FEKTS (Câu 51)]
+### Câu 227 — [Nguồn: SU25 - FEKTS (Câu 51)]
 **Câu hỏi:** Theo Hồ Chí Minh, nội dung nào không đúng để phát huy động lực con người?
 
 - A. Phát huy sức mạnh đoàn kết của cả cộng đồng dân tộc
@@ -2972,7 +2949,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 229 — [Nguồn: SU25 - FEKTS (Câu 52)]
+### Câu 228 — [Nguồn: SU25 - FEKTS (Câu 52)]
 **Câu hỏi:** Một trong những nội dung cơ bản của bản Yêu sách gồm tám điểm của Nguyễn Ái Quốc gửi đến Hội nghị Vécxay (Pháp) là gì?
 
 - **[A]** Đòi quyền tự do, dân chủ tối thiểu cho nhân dân  *(ĐÁP ÁN ĐÚNG)*
@@ -2985,7 +2962,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 230 — [Nguồn: SU25 - FEKTS (Câu 53)]
+### Câu 229 — [Nguồn: SU25 - FEKTS (Câu 53)]
 **Câu hỏi:** Mối quan hệ giữa vấn đề dân tộc và vấn đề giai cấp trong tư tưởng Hồ Chí Minh là:
 
 - A. Dân tộc với giai cấp có quan hệ chặt chẽ với nhau
@@ -2998,7 +2975,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 231 — [Nguồn: SU25 - FEKTS (Câu 54)]
+### Câu 230 — [Nguồn: SU25 - FEKTS (Câu 54)]
 **Câu hỏi:** Luận điểm sáng tạo của Hồ Chí Minh về cách mạng thuộc địa dựa trên cơ sở nào?
 
 - **[A]** Tinh thần đấu tranh cách mạng của các dân tộc ở các nước thuộc địa  *(ĐÁP ÁN ĐÚNG)*
@@ -3011,7 +2988,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 232 — [Nguồn: SU25 - FEKTS (Câu 55)]
+### Câu 231 — [Nguồn: SU25 - FEKTS (Câu 55)]
 **Câu hỏi:** Đâu là luận điểm của Hồ Chí Minh?
 
 - A. Hãy xóa bỏ tình trạng người bóc lột người thì tình trạng dân tộc này bóc lột dân tộc khác sẽ bị xóa bỏ.
@@ -3024,7 +3001,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 233 — [Nguồn: SU25 - FEKTS (Câu 56)]
+### Câu 232 — [Nguồn: SU25 - FEKTS (Câu 56)]
 **Câu hỏi:** Theo Hồ Chí Minh, chủ nghĩa xã hội phải do:
 
 - **[A]** Nhân dân lao động làm chủ  *(ĐÁP ÁN ĐÚNG)*
@@ -3036,7 +3013,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 234 — [Nguồn: SU25 - FEKTS (Câu 58)]
+### Câu 233 — [Nguồn: SU25 - FEKTS (Câu 58), SP25 - FE (Câu 58)]
 **Câu hỏi:** Hồ Chí Minh cho rằng quá độ lên chủ nghĩa xã hội ở Việt Nam phải tiến hành như thế nào?
 
 - **[A]** Từ từ, từng bước một  *(ĐÁP ÁN ĐÚNG)*
@@ -3049,7 +3026,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 235 — [Nguồn: SU25 - FEKTS (Câu 59)]
+### Câu 234 — [Nguồn: SU25 - FEKTS (Câu 59)]
 **Câu hỏi:** Trong mối quan hệ giữa văn hóa, kinh tế, chính trị, Hồ Chí Minh coi chế độ chính trị và nền kinh tế có quan hệ như thế nào đến văn hóa?
 
 - A. Nền tảng và quyết định tính chất của văn hóa
@@ -3062,7 +3039,7 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 ---
 
-### Câu 236 — [Nguồn: SU25 - FEKTS (Câu 60)]
+### Câu 235 — [Nguồn: SU25 - FEKTS (Câu 60)]
 **Câu hỏi:** Theo Hồ Chí Minh đối tượng cơ bản của cách mạng thuộc địa là ai?
 
 - **[A]** Thực dân, tay sai phản động  *(ĐÁP ÁN ĐÚNG)*
@@ -3072,5 +3049,327 @@ Hồ Chí Minh cho rằng: “Người cách mạng phải có (...) làm nền 
 
 > **Đáp án:** **A**
 > **Giải thích:** Ở các nước thuộc địa, kẻ thù chính và đối tượng cơ bản của cách mạng giải phóng dân tộc là chủ nghĩa thực dân xâm lược và bọn tay sai phản động bán nước.
+
+---
+
+### Câu 236 — [Nguồn: SP25 - FE (Câu 2)]
+**Câu hỏi:** Thực hành đạo đức cách mạng trong xã hội hiện nay, theo Hồ Chí Minh cần phải làm gì?
+
+- A. Làm đúng quyền hạn và bổn phận
+- B. Làm đúng theo trách nhiệm và quyền hạn
+- **[C]** Luôn nghĩ về nhân dân, xuất phát từ dân mà làm, không phạm pháp luật  *(ĐÁP ÁN ĐÚNG)*
+- D. Luôn luôn làm theo tư tưởng Hồ Chí Minh
+
+> **Đáp án:** **C**
+> **Giải thích:** Hồ Chí Minh căn dặn người cán bộ cách mạng phải luôn đặt lợi ích của nhân dân lên trên hết, việc gì có lợi cho dân phải hết sức làm, việc gì có hại cho dân phải hết sức tránh, tuyệt đối tuân thủ pháp luật.
+
+---
+
+### Câu 237 — [Nguồn: SP25 - FE (Câu 3)]
+**Câu hỏi:** Trong tác phẩm "Nâng cao đạo đức cách mạng, quét sạch chủ nghĩa cá nhân" viết trên báo Nhân dân, năm 1969, Hồ Chí Minh ví chủ nghĩa cá nhân như:
+
+- **[A]** Bệnh mẹ  *(ĐÁP ÁN ĐÚNG)*
+- B. Bệnh nguy hiểm
+- C. Giặc ngoại xâm
+- D. Bệnh cần loại bỏ
+
+> **Đáp án:** **A**
+> **Giải thích:** Trong tác phẩm này, Chủ tịch Hồ Chí Minh chỉ rõ chủ nghĩa cá nhân là 'bệnh mẹ', từ căn bệnh mẹ này mà sinh ra trăm thứ bệnh hư hỏng khác như quan liêu, tham ô, lãng phí, kiêu ngạo, chia rẽ.
+
+---
+
+### Câu 238 — [Nguồn: SP25 - FE (Câu 8)]
+**Câu hỏi:** Theo Hồ Chí Minh, Liêm là luôn tôn trọng của công và của dân, đồng thời phải như thế nào?
+
+- **[A]** "Trong sạch, không tham lam" tiền của, địa vị, danh tiếng  *(ĐÁP ÁN ĐÚNG)*
+- B. "Trong sáng, không tham lam" tiền của, địa vị, danh tiếng
+- C. "Trong sạch, không ham muốn" tiền của, địa vị, danh tiếng
+- D. "Trong sạch, không đòi hỏi" tiền của, địa vị, danh tiếng
+
+> **Đáp án:** **A**
+> **Giải thích:** Hồ Chí Minh định nghĩa: Liêm là trong sạch, không tham lam. Luôn tôn trọng gìn giữ của công và của dân, không tơ hào tiền của, địa vị, danh tiếng.
+
+---
+
+### Câu 239 — [Nguồn: SP25 - FE (Câu 9)]
+**Câu hỏi:** Đâu là chuẩn mực đạo đức cách mạng trong tư tưởng Hồ Chí Minh?
+
+- **[A]** Có tinh thần quốc tế trong sáng  *(ĐÁP ÁN ĐÚNG)*
+- B. Có tinh thần quốc tế cao đẹp
+- C. Có tinh thần quốc tế chân chính
+
+> **Đáp án:** **A**
+> **Giải thích:** Bốn chuẩn mực đạo đức cách mạng cốt lõi: 1) Trung với nước, hiếu với dân; 2) Yêu thương con người; 3) Cần, kiệm, liêm, chính, chí công vô tư; 4) Tinh thần quốc tế trong sáng.
+
+---
+
+### Câu 240 — [Nguồn: SP25 - FE (Câu 10)]
+**Câu hỏi:** Khi nói về nghĩa rộng của văn hóa, Hồ Chí Minh đã đề cập vì lí do gì mà con người sáng tạo ra các giá trị của văn hóa?
+
+- **[A]** Vì lẽ sinh tồn và mục đích của cuộc sống  *(ĐÁP ÁN ĐÚNG)*
+- B. Vì sự phân tầng chính trị của xã hội
+- C. Vì để thỏa mãn những đời sống tinh thần
+- D. Để nâng cao chất lượng giáo dục
+
+> **Đáp án:** **A**
+> **Giải thích:** Định nghĩa văn hóa (tháng 8/1943): 'Vì lẽ sinh tồn cũng như mục đích của cuộc sống, loài người mới sáng tạo và phát minh ra ngôn ngữ, chữ viết, đạo đức, pháp luật, khoa học...'
+
+---
+
+### Câu 241 — [Nguồn: SP25 - FE (Câu 11)]
+**Câu hỏi:** Theo Hồ Chí Minh, đạo đức mới chỉ có thể được xây dựng trên cơ sở sự tự giác tu dưỡng đạo đức của mỗi người thông qua hoạt động thực tiễn, phải kiên trì rèn luyện như việc gì?
+
+- **[A]** Việc rửa mặt hàng ngày  *(ĐÁP ÁN ĐÚNG)*
+- B. Việc đánh răng hàng ngày
+- C. Việc ăn uống hàng ngày
+- D. Việc hít thở hàng ngày
+
+> **Đáp án:** **A**
+> **Giải thích:** Bác ví: Đạo đức cách mạng phải rèn luyện kiên trì, bền bỉ mỗi ngày như rửa mặt hàng ngày, ngày nào cũng phải rửa mặt cho sạch sẽ.
+
+---
+
+### Câu 242 — [Nguồn: SP25 - FE (Câu 15)]
+**Câu hỏi:** Theo Hồ Chí Minh cho rằng đạo đức cách mạng không phải là điều gì?
+
+- **[A]** Từ trên trời sa xuống  *(ĐÁP ÁN ĐÚNG)*
+- B. Phẩm chất vốn có
+- C. Tự nhiên mà có
+- D. Có sẵn trong tự nhiên
+
+> **Đáp án:** **A**
+> **Giải thích:** Hồ Chí Minh chỉ rõ: 'Đạo đức cách mạng không phải trên trời sa xuống. Nó do đấu tranh, rèn luyện bền bỉ hằng ngày mà phát triển và củng cố. Cũng như ngọc càng mài càng sáng, vàng càng luyện càng trong'.
+
+---
+
+### Câu 243 — [Nguồn: SP25 - FE (Câu 22)]
+**Câu hỏi:** Theo Hồ Chí Minh, đánh giá cán bộ cần phải như thế nào?
+
+- **[A]** Tiến hành thường xuyên  *(ĐÁP ÁN ĐÚNG)*
+- B. Khách quan, trung thực
+- C. Phải tự biết mình, biết người
+- D. Phải đủ trong sạch
+
+> **Đáp án:** **A**
+> **Giải thích:** Theo Hồ Chí Minh, đánh giá cán bộ phải được tiến hành thường xuyên. Thực tiễn cho thấy cứ mỗi lần xem xét lại cán bộ, một mặt sẽ tìm thấy những nhân tài mới, mặt khác phát hiện và uốn nắn những sai lầm, thoái hóa.
+
+---
+
+### Câu 244 — [Nguồn: SP25 - FE (Câu 23)]
+**Câu hỏi:** Khái niệm "Đảng cầm quyền" được Hồ Chí Minh sử dụng trong tác phẩm nào?
+
+- A. Chánh cương vắn tắt của Đảng
+- B. Tuyên ngôn Độc lập
+- C. Sửa đổi lối làm việc
+- **[D]** Di chúc  *(ĐÁP ÁN ĐÚNG)*
+
+> **Đáp án:** **D**
+> **Giải thích:** Trong bản 'Di chúc' lịch sử (1969), Hồ Chí Minh đã trực tiếp viết: 'Đảng ta là một Đảng cầm quyền. Mỗi đảng viên và cán bộ phải thật sự thấm nhuần đạo đức cách mạng...'
+
+---
+
+### Câu 245 — [Nguồn: SP25 - FE (Câu 25)]
+**Câu hỏi:** Điểm đặc sắc nhất trong tư tưởng Hồ Chí Minh về nhà nước pháp quyền là gì?
+
+- **[A]** Kết hợp nhuần nhuyễn cả pháp luật và đạo đức trong quản lý  *(ĐÁP ÁN ĐÚNG)*
+- B. Đề cao đạo đức trong quản lý xã hội
+- C. Đề cao luật pháp trong quản lý xã hội
+- D. Đề cao công tác kiểm tra giám sát hoạt động của tổ chức đảng
+
+> **Đáp án:** **A**
+> **Giải thích:** Điểm độc đáo, đặc sắc nhất của nhà nước pháp quyền Hồ Chí Minh là kết hợp nhuần nhuyễn giữa 'pháp trị' (nghiêm minh của pháp luật) và 'đức trị' (giáo dục đạo đức cách mạng).
+
+---
+
+### Câu 246 — [Nguồn: SP25 - FE (Câu 27)]
+**Câu hỏi:** Hồ Chí Minh luôn nhấn mạnh việc thực hành dân chủ, mà trước hết là dân chủ trong đâu?
+
+- A. Trong nhân dân
+- **[B]** Trong nội bộ Đảng  *(ĐÁP ÁN ĐÚNG)*
+- C. Trong Nhà nước
+- D. Trong giai cấp công nhân
+
+> **Đáp án:** **B**
+> **Giải thích:** Hồ Chí Minh nhấn mạnh: Muốn thực hành dân chủ trong xã hội rộng rãi thì trước hết phải thực hành dân chủ thật sự trong nội bộ Đảng để phát huy trí tuệ tập thể và sự đoàn kết thống nhất.
+
+---
+
+### Câu 247 — [Nguồn: SP25 - FE (Câu 28)]
+**Câu hỏi:** Quan điểm nào sau đây thuộc vấn đề tiêu chuẩn cán bộ theo tư tưởng Hồ Chí Minh?
+
+- A. Đạo đức cán bộ
+- **[B]** Đạo đức cách mạng  *(ĐÁP ÁN ĐÚNG)*
+- C. Đạo đức lãnh đạo
+
+> **Đáp án:** **B**
+> **Giải thích:** Tiêu chuẩn cán bộ trong tư tưởng Hồ Chí Minh bao gồm phẩm chất và năng lực (Đức và Tài), trong đó Đạo đức cách mạng là cái gốc của người cán bộ.
+
+---
+
+### Câu 248 — [Nguồn: SP25 - FE (Câu 29)]
+**Câu hỏi:** Theo Hồ Chí Minh, trong Nhà nước vì dân, từ Chủ tịch nước đến công chức bình thường đều phải làm công bộc, làm đầy tớ cho nhân dân chứ không phải làm:
+
+- A. Tướng
+- B. Quan
+- **[C]** Quan cách mạng  *(ĐÁP ÁN ĐÚNG)*
+- D. Trâu, ngựa
+
+> **Đáp án:** **C**
+> **Giải thích:** Hồ Chí Minh nhắc nhở cán bộ: Các công việc của Chính phủ làm phải nhằm mục đích phục vụ dân, là công bộc, đầy tớ trung thành của nhân dân, chứ không phải để vác mặt làm 'quan cách mạng' đè đầu cưỡi cổ dân.
+
+---
+
+### Câu 249 — [Nguồn: SP25 - FE (Câu 30)]
+**Câu hỏi:** Để tăng cường tính nghiêm minh của pháp luật đi đôi với đẩy mạnh giáo dục đạo đức cách mạng, Hồ Chí Minh đã kết hợp nhuần nhuyễn giữa những yếu tố nào?
+
+- **[A]** "đức trị" và "pháp trị"  *(ĐÁP ÁN ĐÚNG)*
+- B. "nhân trị" và "pháp trị"
+- C. "pháp trị" và "tiền lệ"
+- D. "đức trị" và "tiền lệ"
+
+> **Đáp án:** **A**
+> **Giải thích:** Hồ Chí Minh chủ trương kết hợp nhuần nhuyễn giữa 'đức trị' (giáo dục đạo đức, nêu gương) và 'pháp trị' (pháp luật nghiêm minh, thưởng phạt phân minh).
+
+---
+
+### Câu 250 — [Nguồn: SP25 - FE (Câu 31)]
+**Câu hỏi:** Theo Hồ Chí Minh, những tiêu cực của đội ngũ cán bộ trong hoạt động của bộ máy nhà nước là:
+
+- A. Đặc quyền, đặc lợi
+- B. Tham ô, lãng phí, quan liêu
+- C. Tư túng, chia rẽ, kiêu ngạo
+- **[D]** Tất cả các phương án  *(ĐÁP ÁN ĐÚNG)*
+
+> **Đáp án:** **D**
+> **Giải thích:** Hồ Chí Minh đã chỉ rõ các tệ nạn tiêu cực trong bộ máy nhà nước cần kiên quyết đấu tranh đẩy lùi bao gồm: Đặc quyền đặc lợi; Tham ô, lãng phí, quan liêu; Tư túng, chia rẽ, kiêu ngạo.
+
+---
+
+### Câu 251 — [Nguồn: SP25 - FE (Câu 34)]
+**Câu hỏi:** Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa Tam dân của Tôn Trung Sơn là gì?
+
+- A. Chống phong kiến
+- B. Đấu tranh vì tự do, dân chủ
+- **[C]** Phù hợp với điều kiện thực tế nước ta  *(ĐÁP ÁN ĐÚNG)*
+- D. Phù hợp với truyền thống
+
+> **Đáp án:** **C**
+> **Giải thích:** Hồ Chí Minh đánh giá: Ưu điểm lớn nhất của chủ nghĩa Tam dân (Dân tộc độc lập, Dân quyền tự do, Dân sinh hạnh phúc) của Tôn Trung Sơn là chính sách của nó rất phù hợp với điều kiện thực tế của cách mạng nước ta.
+
+---
+
+### Câu 252 — [Nguồn: SP25 - FE (Câu 37)]
+**Câu hỏi:** Yếu tố nào sau đây ảnh hưởng đến sự hình thành tư tưởng Hồ Chí Minh?
+
+- A. Lý luận và kinh nghiệm các cuộc cách mạng điển hình phương Tây
+- B. Bài học kinh nghiệm các cuộc cách mạng điển hình ở phương Đông
+- **[C]** Lý luận và thực tiễn các cuộc cách mạng điển hình trên thế giới  *(ĐÁP ÁN ĐÚNG)*
+- D. Bài học xương máu của cách mạng Việt Nam
+
+> **Đáp án:** **C**
+> **Giải thích:** Hồ Chí Minh đã khảo cứu sâu sắc lý luận và thực tiễn của các cuộc cách mạng tư sản (Mỹ, Pháp) và đặc biệt là cuộc Cách mạng Tháng Mười Nga trên thế giới để đúc rút con đường giải phóng cho dân tộc mình.
+
+---
+
+### Câu 253 — [Nguồn: SP25 - FE (Câu 39)]
+**Câu hỏi:** Năm 1946 Hồ Chí Minh ví chính sách đối với Pháp sau khi giành độc lập như chính sách gì?
+
+- A. Tạm hòa
+- **[B]** Câu Tiễn  *(ĐÁP ÁN ĐÚNG)*
+- C. Tạm thời
+- D. Thân thiện và hoà bình
+
+> **Đáp án:** **B**
+> **Giải thích:** Sau Cách mạng Tháng Tám năm 1945, trước tình thế 'ngàn cân treo sợi tóc', Người chủ trương nhân nhượng hòa hoãn có nguyên tắc với Pháp (ký Hiệp định Sơ bộ 6/3/1946, Tạm ước 14/9/1946) và ví như tích Việt Vương Câu Tiễn nếm mật nằm gai để chuẩn bị lực lượng cho cuộc kháng chiến lâu dài.
+
+---
+
+### Câu 254 — [Nguồn: SP25 - FE (Câu 51)]
+**Câu hỏi:** Theo Hồ Chí Minh, kẻ thù hung ác của chủ nghĩa xã hội là ai?
+
+- A. Chủ nghĩa dân tộc
+- B. Chủ nghĩa đế quốc
+- **[C]** Chủ nghĩa cá nhân  *(ĐÁP ÁN ĐÚNG)*
+- D. Chủ nghĩa tư bản
+
+> **Đáp án:** **C**
+> **Giải thích:** Hồ Chí Minh chỉ rõ: 'Chủ nghĩa cá nhân là kẻ thù hung ác của chủ nghĩa xã hội. Người cách mạng phải tiêu diệt nó'.
+
+---
+
+### Câu 255 — [Nguồn: SP25 - FE (Câu 53)]
+**Câu hỏi:** Theo Hồ Chí Minh, muốn xây dựng chủ nghĩa xã hội trước hết cần có:
+
+- A. Khoa học - kỹ thuật tiên tiến
+- **[B]** Con người xã hội chủ nghĩa  *(ĐÁP ÁN ĐÚNG)*
+- C. Kinh tế phát triển
+- D. Tài nguyên thiên nhiên của đất nước
+
+> **Đáp án:** **B**
+> **Giải thích:** Hồ Chí Minh khẳng định: 'Muốn xây dựng chủ nghĩa xã hội, trước hết cần có những con người xã hội chủ nghĩa'.
+
+---
+
+### Câu 256 — [Nguồn: SP25 - FE (Câu 54)]
+**Câu hỏi:** Đâu không phải là một ý nghĩa của giải phóng dân tộc theo Hồ Chí Minh?
+
+- A. Đánh đổ ách áp bức, thống trị của đế quốc, thực dân giành độc lập dân tộc
+- B. Giành độc lập dân tộc, hình thành nhà nước dân tộc độc lập
+- C. Tự do lựa chọn con đường phát triển của dân tộc phù hợp với xu thế phát triển của thời đại
+- **[D]** Giành ruộng đất về cho nông dân, đảm bảo quyền thống trị của công nông trong chính quyền  *(ĐÁP ÁN ĐÚNG)*
+
+> **Đáp án:** **D**
+> **Giải thích:** Giải phóng dân tộc theo Hồ Chí Minh là đánh đổ ách thực dân giành độc lập, thành lập nhà nước dân tộc độc lập của toàn thể nhân dân (không phải xác lập quyền 'thống trị' riêng biệt).
+
+---
+
+### Câu 257 — [Nguồn: SP25 - FE (Câu 55)]
+**Câu hỏi:** Chọn phương án đúng nhất theo tư tưởng Hồ Chí Minh: Chủ nghĩa thực dân là kẻ thù của ai?
+
+- A. Các dân tộc thuộc địa
+- B. Giai cấp công nhân
+- C. Giai cấp nông dân
+- **[D]** Các dân tộc thuộc địa, giai cấp công nhân và nhân dân lao động toàn thế giới  *(ĐÁP ÁN ĐÚNG)*
+
+> **Đáp án:** **D**
+> **Giải thích:** Chủ nghĩa thực dân là kẻ thù chung của các dân tộc thuộc địa bị áp bức, đồng thời cũng là kẻ thù của giai cấp vô sản và nhân dân lao động chính quốc và toàn thế giới.
+
+---
+
+### Câu 258 — [Nguồn: SP25 - FE (Câu 56)]
+**Câu hỏi:** Theo Hồ Chí Minh, mục đích của chủ nghĩa xã hội là gì?
+
+- A. Xây dựng nền kinh tế hiện đại, có sức tăng trưởng cao.
+- **[B]** Không ngừng nâng cao đời sống vật chất và tinh thần của nhân dân  *(ĐÁP ÁN ĐÚNG)*
+- C. Phát triển mạnh mẽ khoa học - kỹ thuật
+- D. Bảo đảm quyền làm chủ của nhân dân lao động
+
+> **Đáp án:** **B**
+> **Giải thích:** Nói một cách tóm tắt mộc mạc và sâu sắc nhất, Hồ Chí Minh khẳng định mục đích của chủ nghĩa xã hội là không ngừng nâng cao đời sống vật chất và tinh thần của nhân dân.
+
+---
+
+### Câu 259 — [Nguồn: SP25 - FE (Câu 57)]
+**Câu hỏi:** Con người xã hội chủ nghĩa theo Hồ Chí Minh đó là:
+
+- **[A]** “Có tư tưởng và tác phong xã hội chủ nghĩa”  *(ĐÁP ÁN ĐÚNG)*
+- B. “Những người nằm trong xã hội chủ nghĩa”
+- C. “Có ý thức xây dựng đất nước”
+- D. “Chăm lao động”
+
+> **Đáp án:** **A**
+> **Giải thích:** Theo Hồ Chí Minh, con người xã hội chủ nghĩa là người 'có tư tưởng và tác phong xã hội chủ nghĩa', có tinh thần làm chủ, yêu lao động, cần kiệm xây dựng đất nước và quét sạch chủ nghĩa cá nhân.
+
+---
+
+### Câu 260 — [Nguồn: SP25 - FE (Câu 59)]
+**Câu hỏi:** Theo Hồ Chí Minh, hòa bình là phương pháp cách mạng:
+
+- A. Không hiệu quả
+- **[B]** Rất nhân văn  *(ĐÁP ÁN ĐÚNG)*
+- C. Không cần thiết
+
+> **Đáp án:** **B**
+> **Giải thích:** Hồ Chí Minh là biểu tượng của tinh thần hòa bình và hữu nghị giữa các dân tộc. Người luôn tận dụng mọi khả năng hòa bình để giải quyết xung đột, coi hòa bình là phương pháp cách mạng rất nhân văn, tránh đổ máu cho cả hai bên.
 
 ---
