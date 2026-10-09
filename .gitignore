@@ -1,0 +1,26 @@
+# Ignore all Python files and environments
+*.py
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.log
+
+# Ignore scratch and temporary work folders
+scratch/
+test_validate.js
+
+# Environment variables & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

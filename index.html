@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCM202 — Ôn Thi Trắc Nghiệm Đa Đề (SU26 RE, C1FE, FA25 Half1 & SU25 B5)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header>
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-icon">⚡</div>
+        <div>
+          <div class="brand-title" id="appMainTitle">HCM202 — SU26 — RE</div>
+          <div class="brand-sub" id="appSubTitle">Ôn thi Tư tưởng Hồ Chí Minh (Spaced Repetition & Multi-Exam)</div>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs & Theme Toggle -->
+      <div class="header-controls">
+        <nav class="nav-tabs">
+          <button id="tabQuizlet" class="tab-btn active">
+            <span>🎴 Chế độ Quizlet</span>
+          </button>
+          <button id="tabList" class="tab-btn">
+            <span id="tabListTitle">📋 Danh sách câu hỏi</span>
+          </button>
+        </nav>
+
+        <button id="btnThemeToggle" class="theme-toggle-btn" title="Chuyển chế độ Sáng / Tối (Phím T)" aria-label="Toggle Theme">
+          <span class="theme-icon" id="themeIcon">🌙</span>
+          <span class="theme-text" id="themeText">Tối</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- EXAM / DATASET SELECTOR TOOLBAR -->
+    <section class="exam-selector-card">
+      <div class="exam-selector-top">
+        <div class="exam-selector-heading">
+          <span class="selector-icon">🎯</span>
+          <div>
+            <div class="selector-title">CHỌN BỘ ĐỀ / CHẾ ĐỘ HỌC:</div>
+            <div class="selector-desc">Học riêng từng đề thi hoặc tổng hợp toàn bộ câu hỏi (có lọc trùng)</div>
+          </div>
+        </div>
+        <div class="dataset-stats-badge" id="activeExamStatsBadge">Đề SU26 - RE: 60 câu</div>
+      </div>
+      
+      <div class="exam-pills-row">
+        <button class="exam-pill-btn active" data-exam="re" id="btnExamRE">
+          <span class="pill-chip chip-re">Đề 1</span>
+          <span class="pill-name">HCM202 — SU26 — RE</span>
+          <span class="pill-meta">60 câu</span>
+        </button>
+
+        <button class="exam-pill-btn" data-exam="c1fe" id="btnExamC1FE">
+          <span class="pill-chip chip-c1fe">Đề 2</span>
+          <span class="pill-name">HCM202 — SU26 — C1FE</span>
+          <span class="pill-meta">60 câu</span>
+        </button>
+
+        <button class="exam-pill-btn pill-fa25" data-exam="fa25_half1" id="btnExamFA25">
+          <span class="pill-chip chip-fa25">Đề 3</span>
+          <span class="pill-name">HCM202 — FA25 — Half1</span>
+          <span class="pill-meta">60 câu</span>
+        </button>
+
+        <button class="exam-pill-btn pill-su25" data-exam="su25_b5" id="btnExamSU25">
+          <span class="pill-chip chip-su25">Đề 4</span>
+          <span class="pill-name">HCM202 — SU25 — B5</span>
+          <span class="pill-meta">60 câu</span>
+        </button>
+
+        <button class="exam-pill-btn pill-combined" data-exam="combined" id="btnExamCombined">
+          <span class="pill-chip chip-combined">🔥 Tổng Hợp</span>
+          <span class="pill-name">Toàn Bộ 4 Đề</span>
+          <span class="pill-meta">197 câu (Lọc trùng)</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Round Notice Toast -->
+    <div id="roundNotice" style="display:none; background:linear-gradient(135deg, #0284c7, #2563eb); color:#fff; padding:12px 20px; border-radius:12px; margin-bottom:16px; font-weight:700; text-align:center; box-shadow:0 10px 20px rgba(2,132,199,0.3); animation:fadeIn 0.3s ease;">
+      <span id="roundNoticeText">🎯 Bắt đầu vòng lặp lại các câu chưa nhớ!</span>
+    </div>
+
+    <!-- VIEW 1: QUIZLET FLASHCARD LEARNING MODE -->
+    <section id="quizletView">
+      
+      <!-- Progress Bar & Stats -->
+      <div class="quiz-progress-bar-container">
+        <div class="quiz-stats-row">
+          <div class="stat-group">
+            <span class="stat-tag remain">Còn lại: <strong class="stat-badge" id="statRemain">60 câu</strong></span>
+            <span class="stat-tag repeat">Chưa nhớ: <strong class="stat-badge" id="statRepeat">0 câu</strong></span>
+            <span class="stat-tag mastered">Đã thuộc: <strong class="stat-badge" id="statMastered">0/60 câu</strong></span>
+          </div>
+
+          <div style="display:flex; gap:8px;">
+            <button id="btnShuffle" class="icon-btn" title="Xáo trộn thứ tự câu hỏi">🔀</button>
+            <button id="btnReset" class="icon-btn" title="Đặt lại tiến độ học từ đầu">🔄</button>
+          </div>
+        </div>
+
+        <div class="progress-track">
+          <div class="progress-fill-mastered" id="fillMastered" style="width: 0%;"></div>
+          <div class="progress-fill-repeat" id="fillRepeat" style="width: 0%;"></div>
+        </div>
+      </div>
+
+      <!-- Flashcard Quiz Container -->
+      <div id="quizCardContainer" class="quiz-card">
+        
+        <div class="card-top">
+          <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+            <span class="q-badge" id="qBadge">CÂU 1 / 60</span>
+            <span class="q-exam-tag" id="qExamTag">SU26 - RE</span>
+          </div>
+          
+          <div class="card-actions-quick">
+            <button id="btnToggleImg" class="icon-btn" title="Xem ảnh đề gốc">🖼️ Xem ảnh gốc</button>
+          </div>
+        </div>
+
+        <!-- Question text -->
+        <div class="q-text" id="qText">Đang tải câu hỏi...</div>
+
+        <!-- Options list -->
+        <div class="quiz-options" id="optionsContainer"></div>
+
+        <!-- Feedback & Explanation drawer -->
+        <div class="quiz-feedback" id="feedbackBox">
+          <div class="feedback-status" id="feedbackStatus"></div>
+          <div class="feedback-text" id="feedbackText"></div>
+        </div>
+
+        <!-- Image preview if toggled -->
+        <div class="img-preview-box" id="imgPreviewBox">
+          <img id="cardImg" src="" alt="Ảnh gốc">
+        </div>
+
+        <!-- Bottom Action toolbar -->
+        <div class="card-footer">
+          <!-- Button to reveal without answering -->
+          <button id="btnReveal" class="btn-reveal">
+            <span>👁️ Hiện đáp án & giải thích</span>
+            <span class="kbd-hint">Space</span>
+          </button>
+
+          <!-- Decision buttons: Repeat vs Mastered -->
+          <div class="decision-buttons" id="decisionToolbar" style="display: none;">
+            <button id="btnRepeat" class="btn-decision btn-repeat">
+              <span>🔄 Chưa nhớ (Lặp lại sau)</span>
+              <span class="kbd-hint">Phím 1 hoặc ←</span>
+            </button>
+            <button id="btnMastered" class="btn-decision btn-mastered">
+              <span>✅ Đã nhớ (Thuộc rồi)</span>
+              <span class="kbd-hint">Phím 2 hoặc →</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Completion Celebration Screen -->
+      <div id="completedScreen" class="completed-screen">
+        <div class="completed-icon">🎉</div>
+        <h2 id="completedTitle">Chúc Mừng! Bạn Đã Thuộc Toàn Bộ Câu Hỏi!</h2>
+        <p id="completedDesc">Bạn đã hoàn thành tất cả các câu hỏi trong bộ đề và không còn câu nào trong danh sách cần lặp lại.</p>
+        <button id="btnRestartQuiz" class="btn-restart">🚀 Học lại bộ đề này</button>
+      </div>
+
+    </section>
+
+    <!-- VIEW 2: FULL LIST & SEARCH VIEW -->
+    <section id="listView">
+      
+      <!-- Quick key grid -->
+      <div class="quick-key-card">
+        <h3>
+          <span id="quickKeyHeader">⚡ Bảng tra đáp án nhanh (Quick Key)</span>
+          <span style="font-size:0.8rem; font-weight:normal; color:var(--text-muted);">Bấm vào số câu để xem chi tiết</span>
+        </h3>
+        <div class="key-grid" id="quickKeyGrid"></div>
+      </div>
+
+      <!-- Search bar & Filter bar -->
+      <div style="display:flex; flex-direction:column; gap:12px;">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Tìm kiếm câu hỏi, phương án, từ khóa giải thích, số câu...">
+        
+        <div class="list-filter-bar" id="listFilterBar" style="display:none;">
+          <span class="filter-label">🏷️ Lọc theo đề:</span>
+          <button class="filter-pill-btn active" data-filter="all">Tất cả</button>
+          <button class="filter-pill-btn" data-filter="SU26 - RE">Đề RE</button>
+          <button class="filter-pill-btn" data-filter="SU26 - C1FE">Đề C1FE</button>
+          <button class="filter-pill-btn" data-filter="FA25 - Half1">Đề FA25</button>
+          <button class="filter-pill-btn" data-filter="SU25 - B5">Đề SU25</button>
+        </div>
+      </div>
+
+      <!-- Full list cards -->
+      <div id="listContainer" style="display:flex; flex-direction:column; gap:16px;"></div>
+
+    </section>
+
+  </main>
+
+  <!-- Load Data and Logic -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
