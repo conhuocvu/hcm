@@ -402,6 +402,11 @@
         "exam": "SU26 - RE",
         "q_num": 12,
         "image": "images/q12.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 34,
+        "image": "images/fa24_re/q34.webp"
       }
     ]
   },
@@ -435,6 +440,11 @@
         "exam": "FA25 - Half1",
         "q_num": 35,
         "image": "images/fa25_half1/q35.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 38,
+        "image": "images/fa24_re/q38.webp"
       }
     ]
   },
@@ -903,6 +913,11 @@
         "exam": "FA25 - Half1",
         "q_num": 24,
         "image": "images/fa25_half1/q24.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 28,
+        "image": "images/fa24_re/q28.webp"
       }
     ]
   },
@@ -959,6 +974,11 @@
         "exam": "SU26 - RE",
         "q_num": 30,
         "image": "images/q30.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 24,
+        "image": "images/fa24_re/q24.webp"
       }
     ]
   },
@@ -1015,6 +1035,11 @@
         "exam": "SU26 - RE",
         "q_num": 32,
         "image": "images/q32.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 26,
+        "image": "images/fa24_re/q26.webp"
       }
     ]
   },
@@ -1330,6 +1355,11 @@
         "exam": "SU26 - RE",
         "q_num": 43,
         "image": "images/q43.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 46,
+        "image": "images/fa24_re/q46.webp"
       }
     ]
   },
@@ -1672,6 +1702,11 @@
         "exam": "SU26 - RE",
         "q_num": 54,
         "image": "images/q54.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 2,
+        "image": "images/fa24_re/q2.webp"
       }
     ]
   },
@@ -1902,6 +1937,11 @@
         "exam": "SP25 - FE",
         "q_num": 18,
         "image": "images/sp25_fe/q18.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 20,
+        "image": "images/fa24_re/q20.webp"
       }
     ]
   },
@@ -2062,6 +2102,11 @@
         "exam": "FA25 - Half1",
         "q_num": 39,
         "image": "images/fa25_half1/q39.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 36,
+        "image": "images/fa24_re/q36.webp"
       }
     ]
   },
@@ -2090,6 +2135,11 @@
         "exam": "SU26 - C1FE",
         "q_num": 7,
         "image": "images/c1fe/q7.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 33,
+        "image": "images/fa24_re/q33.webp"
       }
     ]
   },
@@ -2334,6 +2384,11 @@
         "exam": "SU26 - C1FE",
         "q_num": 15,
         "image": "images/c1fe/q15.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 53,
+        "image": "images/fa24_re/q53.webp"
       }
     ]
   },
@@ -2535,6 +2590,11 @@
         "exam": "SU26 - C1FE",
         "q_num": 22,
         "image": "images/c1fe/q22.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 51,
+        "image": "images/fa24_re/q51.webp"
       }
     ]
   },
@@ -2563,6 +2623,11 @@
         "exam": "SU26 - C1FE",
         "q_num": 23,
         "image": "images/c1fe/q23.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 29,
+        "image": "images/fa24_re/q29.webp"
       }
     ]
   },
@@ -2886,6 +2951,11 @@
         "exam": "SU26 - C1FE",
         "q_num": 34,
         "image": "images/c1fe/q34.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 49,
+        "image": "images/fa24_re/q49.webp"
       }
     ]
   },
@@ -3239,6 +3309,11 @@
         "exam": "SU25 - B5",
         "q_num": 10,
         "image": "images/su25_b5/q10.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 15,
+        "image": "images/fa24_re/q15.webp"
       }
     ]
   },
@@ -3399,6 +3474,11 @@
         "exam": "FA25 - Half1",
         "q_num": 12,
         "image": "images/fa25_half1/q12.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 7,
+        "image": "images/fa24_re/q7.webp"
       }
     ]
   },
@@ -3488,6 +3568,11 @@
         "exam": "SU25 - FEKTS",
         "q_num": 13,
         "image": "images/fekts/q13.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 13,
+        "image": "images/fa24_re/q13.webp"
       }
     ]
   },
@@ -3788,6 +3873,11 @@
         "exam": "FA25 - Half1",
         "q_num": 3,
         "image": "images/fa25_half1/q3.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 6,
+        "image": "images/fa24_re/q6.webp"
       }
     ]
   },
@@ -3849,6 +3939,11 @@
         "exam": "SU25 - B5",
         "q_num": 14,
         "image": "images/su25_b5/q14.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 3,
+        "image": "images/fa24_re/q3.webp"
       }
     ]
   },
@@ -3905,6 +4000,11 @@
         "exam": "FA25 - Half1",
         "q_num": 8,
         "image": "images/fa25_half1/q8.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 8,
+        "image": "images/fa24_re/q8.webp"
       }
     ]
   },
@@ -3971,6 +4071,11 @@
         "exam": "SU25 - FEKTS",
         "q_num": 11,
         "image": "images/fekts/q11.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 4,
+        "image": "images/fa24_re/q4.webp"
       }
     ]
   },
@@ -4027,6 +4132,11 @@
         "exam": "FA25 - Half1",
         "q_num": 14,
         "image": "images/fa25_half1/q14.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 16,
+        "image": "images/fa24_re/q16.webp"
       }
     ]
   },
@@ -4317,6 +4427,11 @@
         "exam": "FA25 - Half1",
         "q_num": 31,
         "image": "images/fa25_half1/q31.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 40,
+        "image": "images/fa24_re/q40.webp"
       }
     ]
   },
@@ -4383,6 +4498,11 @@
         "exam": "SP25 - FE",
         "q_num": 41,
         "image": "images/sp25_fe/q41.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 35,
+        "image": "images/fa24_re/q35.webp"
       }
     ]
   },
@@ -4449,6 +4569,11 @@
         "exam": "SP25 - FE",
         "q_num": 47,
         "image": "images/sp25_fe/q47.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 41,
+        "image": "images/fa24_re/q41.webp"
       }
     ]
   },
@@ -5043,6 +5168,11 @@
         "exam": "SU25 - FEKTS",
         "q_num": 9,
         "image": "images/fekts/q9.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 12,
+        "image": "images/fa24_re/q12.webp"
       }
     ]
   },
@@ -5154,6 +5284,11 @@
         "exam": "SU25 - B5",
         "q_num": 17,
         "image": "images/su25_b5/q17.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 18,
+        "image": "images/fa24_re/q18.webp"
       }
     ]
   },
@@ -5182,6 +5317,11 @@
         "exam": "SU25 - B5",
         "q_num": 20,
         "image": "images/su25_b5/q20.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 19,
+        "image": "images/fa24_re/q19.webp"
       }
     ]
   },
@@ -5293,6 +5433,11 @@
         "exam": "SU25 - B5",
         "q_num": 25,
         "image": "images/su25_b5/q25.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 27,
+        "image": "images/fa24_re/q27.webp"
       }
     ]
   },
@@ -5437,6 +5582,11 @@
         "exam": "SP25 - FE",
         "q_num": 35,
         "image": "images/sp25_fe/q35.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 39,
+        "image": "images/fa24_re/q39.webp"
       }
     ]
   },
@@ -5648,6 +5798,11 @@
         "exam": "SU25 - FEKTS",
         "q_num": 41,
         "image": "images/fekts/q41.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 44,
+        "image": "images/fa24_re/q44.webp"
       }
     ]
   },
@@ -6115,6 +6270,11 @@
         "exam": "SU25 - FEKTS",
         "q_num": 16,
         "image": "images/fekts/q16.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 17,
+        "image": "images/fa24_re/q17.webp"
       }
     ]
   },
@@ -6199,6 +6359,11 @@
         "exam": "SU25 - FEKTS",
         "q_num": 20,
         "image": "images/fekts/q20.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 21,
+        "image": "images/fa24_re/q21.webp"
       }
     ]
   },
@@ -6459,6 +6624,11 @@
         "exam": "SU25 - FEKTS",
         "q_num": 30,
         "image": "images/fekts/q30.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 25,
+        "image": "images/fa24_re/q25.webp"
       }
     ]
   },
@@ -6492,6 +6662,11 @@
         "exam": "SP25 - FE",
         "q_num": 40,
         "image": "images/sp25_fe/q40.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 37,
+        "image": "images/fa24_re/q37.webp"
       }
     ]
   },
@@ -6631,6 +6806,11 @@
         "exam": "SU25 - FEKTS",
         "q_num": 39,
         "image": "images/fekts/q39.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 32,
+        "image": "images/fa24_re/q32.webp"
       }
     ]
   },
@@ -7002,6 +7182,11 @@
         "exam": "SP25 - FE",
         "q_num": 58,
         "image": "images/sp25_fe/q58.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 59,
+        "image": "images/fa24_re/q59.webp"
       }
     ]
   },
@@ -7142,6 +7327,11 @@
         "exam": "SP25 - FE",
         "q_num": 8,
         "image": "images/sp25_fe/q8.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 14,
+        "image": "images/fa24_re/q14.webp"
       }
     ]
   },
@@ -7253,6 +7443,11 @@
         "exam": "SP25 - FE",
         "q_num": 15,
         "image": "images/sp25_fe/q15.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 5,
+        "image": "images/fa24_re/q5.webp"
       }
     ]
   },
@@ -7420,6 +7615,11 @@
         "exam": "SP25 - FE",
         "q_num": 29,
         "image": "images/sp25_fe/q29.webp"
+      },
+      {
+        "exam": "FA24 - RE",
+        "q_num": 30,
+        "image": "images/fa24_re/q30.webp"
       }
     ]
   },
@@ -7755,6 +7955,562 @@
         "exam": "SP25 - FE",
         "q_num": 59,
         "image": "images/sp25_fe/q59.webp"
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "combined_id": 261,
+    "exam_code": "FA24 - RE",
+    "question": "Theo Hồ Chí Minh, ngoài lợi ích của giai cấp, của nhân dân và toàn thể dân tộc Việt Nam, Đảng cần phải có thêm điều gì?",
+    "options": {
+      "A": "Không còn lợi ích nào khác",
+      "B": "Còn vì lợi ích của mình",
+      "C": "Còn vì lợi ích của nhà nước",
+      "D": "Còn vì lợi ích cá nhân"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 21,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Hồ Chí Minh khẳng định: 'Ngoài lợi ích của Tổ quốc, của nhân dân, Đảng ta không có lợi ích gì khác'. Đảng không có mục đích tự thân, toàn bộ hoạt động của Đảng đều phụng sự nhân dân và dân tộc.",
+    "image": "images/fa24_re/q1.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 1,
+        "image": "images/fa24_re/q1.webp"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "combined_id": 262,
+    "exam_code": "FA24 - RE",
+    "question": "Theo Hồ Chí Minh, vi trùng rất độc này đẻ ra... không dám đổi mới sáng tạo. Người đang đề cập đến vấn đề gì?",
+    "options": {
+      "A": "Chủ nghĩa cá nhân",
+      "B": "Đế quốc",
+      "C": "Chủ nghĩa tư bản",
+      "D": "Giặc đói"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 21,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Chủ tịch Hồ Chí Minh ví chủ nghĩa cá nhân như một thứ vi trùng rất độc, đẻ ra hàng trăm thứ bệnh hư hỏng, làm cho con người trở nên hẹp hòi, bảo thủ, không dám xông pha đổi mới sáng tạo vì việc chung.",
+    "image": "images/fa24_re/q9.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 9,
+        "image": "images/fa24_re/q9.webp"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "combined_id": 263,
+    "exam_code": "FA24 - RE",
+    "question": "Hồ Chí Minh cho rằng cán bộ muốn hướng dẫn nhân dân phải như thế nào?",
+    "options": {
+      "A": "Làm mực thước cho nhân dân bắt chước",
+      "B": "Làm gương cho nhân dân",
+      "C": "Làm mô hình cho dân theo",
+      "D": "Làm quan cách mạng"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 21,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Hồ Chí Minh nhấn mạnh vai trò nêu gương của người cán bộ: 'Một tấm gương sống còn có giá trị hơn một trăm bài diễn văn tuyên truyền', cán bộ phải tự mình làm mực thước cho nhân dân bắt chước.",
+    "image": "images/fa24_re/q10.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 10,
+        "image": "images/fa24_re/q10.webp"
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "combined_id": 264,
+    "exam_code": "FA24 - RE",
+    "question": "Theo Hồ Chí Minh, phải kiên quyết khắc phục kịp thời các phản động lực trong con người và tổ chức. Đó là:",
+    "options": {
+      "A": "Chủ nghĩa cá nhân",
+      "B": "Chủ nghĩa vị kỷ",
+      "C": "Phong cách tiểu tư sản",
+      "D": "Phong cách tư sản"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 21,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Chủ nghĩa cá nhân là trở lực, phản động lực nguy hại nhất kìm hãm sự phát triển của cá nhân và sức mạnh chiến đấu của tổ chức cách mạng.",
+    "image": "images/fa24_re/q11.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 11,
+        "image": "images/fa24_re/q11.webp"
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "combined_id": 265,
+    "exam_code": "FA24 - RE",
+    "question": "Theo Hồ Chí Minh, mọi người phải hiểu và tuyệt đối chấp hành pháp luật, bất kể người đó giữ cương vị nào. Vì thần linh pháp quyền là:",
+    "options": {
+      "A": "Sức mạnh do thần linh và vì con người",
+      "B": "Sức mạnh do con người và vì con người",
+      "C": "Sức mạnh do con người và vì thần linh"
+    },
+    "answer": "B",
+    "votes": {
+      "A": 0,
+      "B": 21,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Trong bài thơ 'Việt Nam yêu cầu ca' (1919), Người viết: 'Bảy xin hiến pháp ban hành / Trăm điều phải có thần linh pháp quyền'. Pháp quyền ở đây là sức mạnh do chính con người tạo ra và nhằm phụng sự quyền lợi của con người.",
+    "image": "images/fa24_re/q22.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 22,
+        "image": "images/fa24_re/q22.webp"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "combined_id": 266,
+    "exam_code": "FA24 - RE",
+    "question": "Nội dung nào sau đây thuộc luận điểm sáng tạo của Hồ Chí Minh về vấn đề Đảng cộng sản?",
+    "options": {
+      "A": "Về quy luật ra đời của Đảng Cộng sản Việt Nam",
+      "B": "Về vấn đề tổ chức của Đảng Cộng sản Việt Nam",
+      "C": "Về nguyên tắc xây dựng Đảng Cộng sản Việt Nam"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 20,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Đóng góp lý luận sáng tạo đặc sắc nhất của Hồ Chí Minh vào kho tàng chủ nghĩa Mác - Lênin về Đảng Cộng sản là phát hiện quy luật ra đời của Đảng ở một nước thuộc địa: kết hợp chủ nghĩa Mác - Lênin với phong trào công nhân và phong trào yêu nước.",
+    "image": "images/fa24_re/q23.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 23,
+        "image": "images/fa24_re/q23.webp"
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "combined_id": 267,
+    "exam_code": "FA24 - RE",
+    "question": "Điểm khác nhau trong tư tưởng về xây dựng nhà nước của Hồ Chí Minh và các bậc tiền nhân trong lịch sử là gì?",
+    "options": {
+      "A": "Con đường cứu nước",
+      "B": "Phương pháp cứu nước",
+      "C": "Tinh thần yêu nước",
+      "D": "Dựa vào tài năng, trí tuệ của các vị lãnh đạo"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 21,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Các bậc tiền nhân (Phan Bội Châu, Phan Chu Trinh...) chủ trương dựa vào phong kiến hoặc tư sản. Hồ Chí Minh đã chọn con đường cách mạng vô sản, xây dựng nhà nước dân chủ mới của nhân dân, do nhân dân, vì nhân dân.",
+    "image": "images/fa24_re/q31.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 31,
+        "image": "images/fa24_re/q31.webp"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "combined_id": 268,
+    "exam_code": "FA24 - RE",
+    "question": "Đại đoàn kết quốc tế trong tư tưởng Hồ Chí Minh được xác định là:",
+    "options": {
+      "A": "Một nhân tố thường xuyên và hết sức quan trọng giúp cho cách mạng Việt Nam đi đến thắng lợi hoàn toàn",
+      "B": "Có ý nghĩa sống còn đối với cách mạng Việt Nam",
+      "C": "Vấn đề cơ bản của cách mạng việt Nam",
+      "D": "Sức mạnh giúp cho dân tộc ta vượt qua mọi thử thách, khó khăn trong dựng nước và giữ nước"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 21,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Đoàn kết quốc tế theo Hồ Chí Minh là một nhân tố thường xuyên, hết sức quan trọng nhằm kết hợp sức mạnh dân tộc với sức mạnh thời đại tạo nên sức mạnh tổng hợp đưa cách mạng đến thắng lợi hoàn toàn.",
+    "image": "images/fa24_re/q42.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 42,
+        "image": "images/fa24_re/q42.webp"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "combined_id": 269,
+    "exam_code": "FA24 - RE",
+    "question": "Sức mạnh dân tộc trong tư tưởng Hồ Chí Minh bao gồm những thành tố nào?",
+    "options": {
+      "A": "Chủ nghĩa yêu nước và văn hóa truyền thống Việt Nam",
+      "B": "Tinh thần đoàn kết, ý thức đấu tranh cho độc lập, tự do",
+      "C": "Ý chí tự lực, tự cường và tinh thần quốc tế vô sản",
+      "D": "Chủ nghĩa yêu nước và truyền thống văn hóa Việt Nam; tinh thần đoàn kết, ý thức đấu tranh cho độc lập, tự do; và ý chí tự lực, tự cường"
+    },
+    "answer": "D",
+    "votes": {
+      "A": 8,
+      "B": 0,
+      "C": 0,
+      "D": 11
+    },
+    "explanation": "Sức mạnh dân tộc nội sinh theo tư tưởng Hồ Chí Minh là sự tổng hợp đầy đủ của: Chủ nghĩa yêu nước và truyền thống văn hóa Việt Nam; Tinh thần đại đoàn kết toàn dân; Ý thức quật cường đấu tranh cho độc lập tự do; và Ý chí tự lực cánh sinh, tự cường.",
+    "image": "images/fa24_re/q43.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 43,
+        "image": "images/fa24_re/q43.webp"
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "combined_id": 270,
+    "exam_code": "FA24 - RE",
+    "question": "Lực lượng làm nền tảng cho khối đại đoàn kết dân tộc theo tư tưởng Hồ Chí Minh là gì?",
+    "options": {
+      "A": "Công nhân",
+      "B": "Công nhân, nông dân",
+      "C": "Học trò, nhà buôn",
+      "D": "Công nhân, nông dân, lao động trí óc"
+    },
+    "answer": "D",
+    "votes": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 21
+    },
+    "explanation": "Hồ Chí Minh xác định khối đại đoàn kết toàn dân lấy liên minh công nhân - nông dân - lao động trí óc (trí thức) làm nền tảng vững chắc.",
+    "image": "images/fa24_re/q45.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 45,
+        "image": "images/fa24_re/q45.webp"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "combined_id": 271,
+    "exam_code": "FA24 - RE",
+    "question": "Theo Hồ Chí Minh, tại sao phải đoàn kết quốc tế?",
+    "options": {
+      "A": "Nhằm kết hợp sức mạnh dân tộc và sức mạnh thời đại, tạo sức mạnh tổng hợp cho cách mạng",
+      "B": "Góp phần cùng nhân dân thế giới thực hiện các mục tiêu cách mạng",
+      "C": "Vì đây là mục tiêu, nhiệm vụ hàng đầu của cách mạng Việt Nam",
+      "D": "Nhằm kế thừa truyền thống yêu nước, nhân nghĩa, đoàn kết của dân tộc"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 6,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Đoàn kết quốc tế nhằm tranh thủ sự ủng hộ rộng rãi của bạn bè quốc tế, kết hợp sức mạnh dân tộc với sức mạnh thời đại để đánh bại kẻ thù xâm lược.",
+    "image": "images/fa24_re/q47.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 47,
+        "image": "images/fa24_re/q47.webp"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "combined_id": 272,
+    "exam_code": "FA24 - RE",
+    "question": "Hồ Chí Minh cho rằng:",
+    "options": {
+      "A": "Đại đoàn kết dân tộc là vấn đề có ý nghĩa chiến lược, quyết định sự thành công của cách mạng",
+      "B": "Đoàn kết dân tộc là vấn đề có ý nghĩa chiến lược tác động trực tiếp đến sự thành công của cách mạng",
+      "C": "Đại đoàn kết toàn dân là vấn đề có ý nghĩa chiến lược, quyết định sự trường thành của cách mạng"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 21,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Hồ Chí Minh luôn nhấn mạnh vị trí chiến lược của đại đoàn kết dân tộc, coi đây là yếu tố quyết định hàng đầu dẫn đến thắng lợi của toàn bộ tiến trình cách mạng.",
+    "image": "images/fa24_re/q48.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 48,
+        "image": "images/fa24_re/q48.webp"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "combined_id": 273,
+    "exam_code": "FA24 - RE",
+    "question": "Trong tư tưởng Hồ Chí Minh, mối quan hệ giữa Đảng và Mặt trận được xác định là mối quan hệ:",
+    "options": {
+      "A": "Song song",
+      "B": "Máu thịt",
+      "C": "Biện chứng",
+      "D": "Độc lập"
+    },
+    "answer": "B",
+    "votes": {
+      "A": 0,
+      "B": 20,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Đảng vừa là người lãnh đạo Mặt trận, vừa là một thành viên của Mặt trận. Mối quan hệ giữa Đảng và Mặt trận gắn bó như máu thịt, cùng chung mục tiêu đấu tranh vì độc lập dân tộc và hạnh phúc nhân dân.",
+    "image": "images/fa24_re/q50.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 50,
+        "image": "images/fa24_re/q50.webp"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "combined_id": 274,
+    "exam_code": "FA24 - RE",
+    "question": "Theo Hồ Chí Minh, nguyên tắc phân phối chủ yếu trong chủ nghĩa xã hội là gì?",
+    "options": {
+      "A": "Làm theo năng lực, hưởng theo nhu cầu",
+      "B": "Làm nhiều hưởng nhiều, làm ít hưởng ít, không làm không hưởng",
+      "C": "Phân phối bình quân cho tất cả mọi người",
+      "D": "Phân phối theo thỏa thuận"
+    },
+    "answer": "B",
+    "votes": {
+      "A": 0,
+      "B": 19,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Trong CNXH áp dụng nguyên tắc phân phối theo lao động: 'Làm nhiều hưởng nhiều, làm ít hưởng ít, không làm không hưởng', khác với giai đoạn cao CNCS là 'hưởng theo nhu cầu'.",
+    "image": "images/fa24_re/q52.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 52,
+        "image": "images/fa24_re/q52.webp"
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "combined_id": 275,
+    "exam_code": "FA24 - RE",
+    "question": "Theo Hồ Chí Minh, về bước đi trong thời kỳ quá độ, chúng ta phải:",
+    "options": {
+      "A": "Theo bước đi của các nước xã hội chủ nghĩa",
+      "B": "Căn cứ vào đặc điểm lịch sử cụ thể của nước ta từ đó có bước đi phù hợp",
+      "C": "Căn cứ vào đặc điểm lịch sử cụ thể của nước ta từ đó có bước đi phù hợp, đi bước nào vững chắc bước ấy",
+      "D": "Bước đi chậm, mạnh, vững chắc"
+    },
+    "answer": "C",
+    "votes": {
+      "A": 0,
+      "B": 0,
+      "C": 21,
+      "D": 0
+    },
+    "explanation": "Hồ Chí Minh chỉ rõ: Về bước đi, phải căn cứ vào hoàn cảnh thực tiễn của Việt Nam để xác định bước đi phù hợp, 'tiến bước nào vững chắc bước ấy', tránh rập khuôn máy móc và nóng vội.",
+    "image": "images/fa24_re/q54.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 54,
+        "image": "images/fa24_re/q54.webp"
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "combined_id": 276,
+    "exam_code": "FA24 - RE",
+    "question": "Hồ Chí Minh cho rằng cách mạng giải phóng dân tộc cần tiến hành như thế nào?",
+    "options": {
+      "A": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng vô sản ở chính quốc",
+      "B": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng vô sản thế giới",
+      "C": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng thuộc địa",
+      "D": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng tư sản ở chính quốc"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 21,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Luận điểm sáng tạo lớn của Hồ Chí Minh: Cách mạng thuộc địa không phụ thuộc thụ động vào cách mạng chính quốc mà có thể chủ động, sáng tạo giành thắng lợi trước cách mạng vô sản ở chính quốc, tác động trở lại cách mạng chính quốc.",
+    "image": "images/fa24_re/q55.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 55,
+        "image": "images/fa24_re/q55.webp"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "combined_id": 277,
+    "exam_code": "FA24 - RE",
+    "question": "Hồ Chí Minh cho rằng giải phóng dân tộc là sự nghiệp của:",
+    "options": {
+      "A": "Toàn dân",
+      "B": "Toàn quân",
+      "C": "Toàn Đảng",
+      "D": "Giai cấp công nhân"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 21,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Hồ Chí Minh nêu cao tư tưởng cách mạng là sự nghiệp của quần chúng nhân dân: Giải phóng dân tộc là công việc chung của cả dân tộc, của toàn dân chứ không phải của một vài người.",
+    "image": "images/fa24_re/q56.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 56,
+        "image": "images/fa24_re/q56.webp"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "combined_id": 278,
+    "exam_code": "FA24 - RE",
+    "question": "Quan điểm nào sau đây đúng với tư tưởng của Hồ Chí Minh?",
+    "options": {
+      "A": "Chủ nghĩa dân tộc là động lực lớn của đất nước",
+      "B": "Chủ nghĩa dân tộc là khát khao lớn của đất nước",
+      "C": "Chủ nghĩa dân tộc là mục tiêu lớn của đất nước",
+      "D": "Chủ nghĩa dân tộc là chiến lược hàng đầu của cách mạng"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 20,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Hồ Chí Minh khẳng định: 'Chủ nghĩa dân tộc (chân chính) là động lực lớn của đất nước', phát huy chủ nghĩa yêu nước để tập hợp mọi người Việt Nam đánh đuổi ngoại xâm.",
+    "image": "images/fa24_re/q57.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 57,
+        "image": "images/fa24_re/q57.webp"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "combined_id": 279,
+    "exam_code": "FA24 - RE",
+    "question": "Hồ Chí Minh cho rằng:",
+    "options": {
+      "A": "Đạo đức cách mạng là hòa mình với quần chúng thành một khối, tin quần chúng, hiểu quần chúng, lắng nghe ý kiến của quần chúng",
+      "B": "Đạo đức cách mạng là tin quần chúng, hiểu quần chúng, lắng nghe ý kiến của quần chúng",
+      "C": "Đạo đức cách mạng là hòa mình cộng đồng, lắng nghe ý kiến của cộng đồng"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 20,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Hồ Chí Minh dạy cán bộ: Đạo đức cách mạng là hòa mình với quần chúng thành một khối, tin dân, hiểu dân, học hỏi dân và luôn lắng nghe ý kiến chính đáng của nhân dân.",
+    "image": "images/fa24_re/q58.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 58,
+        "image": "images/fa24_re/q58.webp"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "combined_id": 280,
+    "exam_code": "FA24 - RE",
+    "question": "Theo Hồ Chí Minh, nhiệm vụ lịch sử của thời kỳ quá độ ở nước ta là gì?",
+    "options": {
+      "A": "Đấu tranh cải tạo, xóa bỏ tàn tích của chế độ xã hội cũ, xây dựng các yếu tố mới phù hợp với quy luật tiến lên chủ nghĩa xã hội trên tất cả các lĩnh vực đời sống",
+      "B": "Xoá bỏ những tàn tích của chế độ xã hội cũ, xây dựng các giá trị mới phù hợp trên tất cả các lĩnh vực đời sống xã hội",
+      "C": "Cải cách xã hội, kiên quyết đấu tranh bài trừ các giá trị của xã hội cũ để xây dựng chủ nghĩa xã hội trên tất cả các lĩnh vực đời sống",
+      "D": "Củng cố và phát triển các giá trị của xã hội cũ vẫn còn phù hợp để xây dựng chủ nghĩa xã hội"
+    },
+    "answer": "A",
+    "votes": {
+      "A": 21,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "explanation": "Nhiệm vụ lịch sử của thời kỳ quá độ: vừa cải tạo xã hội cũ xóa bỏ tàn tích phong kiến, thực dân, vừa xây dựng xã hội mới về mọi mặt chính trị, kinh tế, văn hóa và xã hội theo con đường XHCN.",
+    "image": "images/fa24_re/q60.webp",
+    "sources": [
+      {
+        "exam": "FA24 - RE",
+        "q_num": 60,
+        "image": "images/fa24_re/q60.webp"
       }
     ]
   }

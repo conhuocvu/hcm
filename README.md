@@ -6,14 +6,15 @@
 
 ## 🚀 Tính năng nổi bật
 
-- **Đầy đủ 6 bộ đề thi mới nhất**:
+- **Đầy đủ 7 bộ đề thi mới nhất**:
   - `SU26 RE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SU26 C1FE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `FA25 HALF1`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SU25 B5`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SU25 FEKTS`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SP25 FE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
-- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (260 câu độc bản)**: Tự động gom các câu hỏi trùng lặp giữa các kỳ thi, ghi chú rõ nguồn gốc từng đề và biến thể phương án.
+  - `FA24 RE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
+- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (280 câu độc bản)**: Tự động gom các câu hỏi trùng lặp giữa các kỳ thi, ghi chú rõ nguồn gốc từng đề và biến thể phương án.
 - **Hai chế độ luyện thi**:
   - 🎴 **Chế độ Quizlet (Spaced Repetition)**: Lặp lại ngắt quãng, tự động đưa các câu "Chưa nhớ" vào vòng học lại cho đến khi thuộc 100%.
   - 📋 **Chế độ Danh sách & Tra cứu nhanh (Quick Key)**: Bảng tra đáp án nhanh toàn đề kèm công cụ tìm kiếm tức thì.
@@ -29,7 +30,7 @@
 ## 🛠️ Công nghệ sử dụng
 
 - **Frontend**: Pure HTML5, Modern CSS3 (CSS Variables, Flexbox/Grid, Dark/Light Mode), Vanilla JavaScript (ES6+).
-- **Dữ liệu**: Bộ dữ liệu JSON & JS cấu trúc đồng bộ, kèm 360 hình ảnh minh chứng đề thi thực tế.
+- **Dữ liệu**: Bộ dữ liệu JSON & JS cấu trúc đồng bộ, kèm 420 hình ảnh minh chứng đề thi thực tế.
 - Không cần cài đặt `node_modules` hay backend phức tạp - chạy trực tiếp 100% offline trên trình duyệt hoặc bất kỳ static hosting nào (GitHub Pages, Vercel, Netlify, Cloudflare Pages).
 
 ---
@@ -69,7 +70,7 @@
 
 Trong repository có kèm các tài liệu tổng hợp dạng Markdown phục vụ in ấn hoặc đọc offline:
 - `HCM202_TONG_HOP_CAC_DE.md`: Tổng hợp toàn bộ các đề thi và giải thích chi tiết.
-- Các file chi tiết từng đề: `HCM202_FA25_HALF1_DAP_AN_CHI_TIET.md`, `HCM202_SU25_B5_DAP_AN_CHI_TIET.md`, `HCM202_SU26_C1FE_DAP_AN_CHI_TIET.md`, `HCM202_SU26_RE_DAP_AN_CHI_TIET.md`.
+- Các file chi tiết từng đề: `HCM202_FA24_RE_DAP_AN_CHI_TIET.md`, `HCM202_SP25_FE_DAP_AN_CHI_TIET.md`, `HCM202_SU25_FEKTS_DAP_AN_CHI_TIET.md`, `HCM202_SU25_B5_DAP_AN_CHI_TIET.md`, `HCM202_FA25_HALF1_DAP_AN_CHI_TIET.md`, `HCM202_SU26_C1FE_DAP_AN_CHI_TIET.md`, `HCM202_SU26_RE_DAP_AN_CHI_TIET.md`.
 
 ---
 *Chúc các bạn ôn tập tốt và đạt điểm cao trong kỳ thi HCM202!*

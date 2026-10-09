@@ -1,5 +1,5 @@
 // HCM202 Multi-Exam Spaced Repetition Dataset
-// Generated automatically with 6 exams deduplication engine
+// Generated automatically with 7 exams deduplication engine
 
 window.EXAMS_DATA = {
   "re": {
@@ -8664,12 +8664,1452 @@ window.EXAMS_DATA = {
       }
     ]
   },
+  "fa24_re": {
+    "id": "fa24_re",
+    "name": "HCM202 — FA 2024 — RE",
+    "shortName": "FA24 - RE",
+    "badge": "Đề 7",
+    "total": 60,
+    "questions": [
+      {
+        "id": 1,
+        "uid": "fa24_re_1",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 1,
+        "question": "Theo Hồ Chí Minh, ngoài lợi ích của giai cấp, của nhân dân và toàn thể dân tộc Việt Nam, Đảng cần phải có thêm điều gì?",
+        "options": {
+          "A": "Không còn lợi ích nào khác",
+          "B": "Còn vì lợi ích của mình",
+          "C": "Còn vì lợi ích của nhà nước",
+          "D": "Còn vì lợi ích cá nhân"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh khẳng định: 'Ngoài lợi ích của Tổ quốc, của nhân dân, Đảng ta không có lợi ích gì khác'. Đảng không có mục đích tự thân, toàn bộ hoạt động của Đảng đều phụng sự nhân dân và dân tộc.",
+        "image": "images/fa24_re/q1.webp"
+      },
+      {
+        "id": 2,
+        "uid": "fa24_re_2",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 2,
+        "question": "Hồ Chí Minh cho rằng văn hóa có tính:",
+        "options": {
+          "A": "Dân tộc, khoa học và đại chúng",
+          "B": "Dân tộc, khoa học và nhân dân",
+          "C": "Dân tộc, khoa học và nhân bản"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đề cương văn hóa Việt Nam (1943) và tư tưởng Hồ Chí Minh xác định 3 tính chất căn bản của nền văn hóa mới là: Tính dân tộc, Tính khoa học và Tính đại chúng.",
+        "image": "images/fa24_re/q2.webp"
+      },
+      {
+        "id": 3,
+        "uid": "fa24_re_3",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 3,
+        "question": "Theo Hồ Chí Minh, chí công vô tư là nêu cao chủ nghĩa tập thể, trừ bỏ vấn đề gì?",
+        "options": {
+          "A": "Chủ nghĩa cá nhân",
+          "B": "Chủ nghĩa tư nhân",
+          "C": "Chủ nghĩa tư bản",
+          "D": "Chủ nghĩa vị kỷ"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh giải thích: Chí công vô tư là đem lòng chí công vô tư mà đối với người, với việc; đặt lợi ích công lên trên lợi ích tư, quét sạch chủ nghĩa cá nhân và nêu cao tinh thần tập thể.",
+        "image": "images/fa24_re/q3.webp"
+      },
+      {
+        "id": 4,
+        "uid": "fa24_re_4",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 4,
+        "question": "Theo Tư tưởng Hồ Chí Minh, văn hoá có mấy chức năng chủ yếu?",
+        "options": {
+          "A": "Hai",
+          "B": "Ba",
+          "C": "Bốn",
+          "D": "Năm"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Tư tưởng Hồ Chí Minh xác định văn hóa có 3 chức năng chủ yếu: 1. Bồi dưỡng tư tưởng đúng đắn và tình cảm cao đẹp; 2. Mở rộng hiểu biết, nâng cao dân trí; 3. Bồi dưỡng những phẩm chất tốt đẹp, phong cách lành mạnh hướng tới Chân - Thiện - Mỹ.",
+        "image": "images/fa24_re/q4.webp"
+      },
+      {
+        "id": 5,
+        "uid": "fa24_re_5",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 5,
+        "question": "Theo Hồ Chí Minh cho rằng đạo đức cách mạng không phải là điều gì?",
+        "options": {
+          "A": "Từ trên trời sa xuống",
+          "B": "Phẩm chất vốn có",
+          "C": "Tự nhiên mà có",
+          "D": "Có sẵn trong tự nhiên"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh chỉ rõ: 'Đạo đức cách mạng không phải trên trời sa xuống. Nó do đấu tranh, rèn luyện bền bỉ hằng ngày mà phát triển và củng cố. Cũng như ngọc càng mài càng sáng, vàng càng luyện càng trong'.",
+        "image": "images/fa24_re/q5.webp"
+      },
+      {
+        "id": 6,
+        "uid": "fa24_re_6",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 6,
+        "question": "Lối sống ích kỷ, chỉ biết có riêng mình, thu vén cho riêng mình, chỉ thấy công lao của mình mà quên công lao của người khác. Theo Hồ Chí Minh là gì?",
+        "options": {
+          "A": "Chủ nghĩa cá nhân",
+          "B": "Chủ nghĩa vị kỷ",
+          "C": "Chủ nghĩa tư bản",
+          "D": "Phong cách tiểu tư sản"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đó chính là biểu hiện điển hình của chủ nghĩa cá nhân - căn bệnh mẹ đẻ ra muôn vàn tật xấu làm suy yếu tinh thần đoàn kết và đạo đức cách mạng.",
+        "image": "images/fa24_re/q6.webp"
+      },
+      {
+        "id": 7,
+        "uid": "fa24_re_7",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 7,
+        "question": "Theo Hồ Chí Minh, trung với nước là tuyệt đối trung thành với sự nghiệp dựng nước và giữ nước, trung thành với con đường đi lên của đất nước; là suốt đời phấn đấu cho ai?",
+        "options": {
+          "A": "Đảng, cho cách mạng",
+          "B": "Nhà nước, cho cách mạng",
+          "C": "Dân tộc, cho cách mạng",
+          "D": "Cách mạng, quần chúng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Trung với nước theo tư tưởng Hồ Chí Minh là tuyệt đối trung thành với sự nghiệp dựng nước và giữ nước, suốt đời phấn đấu hy sinh cho mục tiêu lý tưởng của Đảng và sự nghiệp cách mạng của dân tộc.",
+        "image": "images/fa24_re/q7.webp"
+      },
+      {
+        "id": 8,
+        "uid": "fa24_re_8",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 8,
+        "question": "Hồ Chí Minh cho rằng khuyết điểm của thanh niên là gì?",
+        "options": {
+          "A": "Chuộng hình thức",
+          "B": "Chuộng tự do",
+          "C": "Chuộng lợi",
+          "D": "Chuộng bề ngoài"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh thẳng thắn chỉ rõ một trong những khuyết điểm dễ mắc của thanh niên là chuộng hình thức, ham bề nổi, thiếu kiên trì đi sâu vào thực chất của công việc.",
+        "image": "images/fa24_re/q8.webp"
+      },
+      {
+        "id": 9,
+        "uid": "fa24_re_9",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 9,
+        "question": "Theo Hồ Chí Minh, vi trùng rất độc này đẻ ra... không dám đổi mới sáng tạo. Người đang đề cập đến vấn đề gì?",
+        "options": {
+          "A": "Chủ nghĩa cá nhân",
+          "B": "Đế quốc",
+          "C": "Chủ nghĩa tư bản",
+          "D": "Giặc đói"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Chủ tịch Hồ Chí Minh ví chủ nghĩa cá nhân như một thứ vi trùng rất độc, đẻ ra hàng trăm thứ bệnh hư hỏng, làm cho con người trở nên hẹp hòi, bảo thủ, không dám xông pha đổi mới sáng tạo vì việc chung.",
+        "image": "images/fa24_re/q9.webp"
+      },
+      {
+        "id": 10,
+        "uid": "fa24_re_10",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 10,
+        "question": "Hồ Chí Minh cho rằng cán bộ muốn hướng dẫn nhân dân phải như thế nào?",
+        "options": {
+          "A": "Làm mực thước cho nhân dân bắt chước",
+          "B": "Làm gương cho nhân dân",
+          "C": "Làm mô hình cho dân theo",
+          "D": "Làm quan cách mạng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh nhấn mạnh vai trò nêu gương của người cán bộ: 'Một tấm gương sống còn có giá trị hơn một trăm bài diễn văn tuyên truyền', cán bộ phải tự mình làm mực thước cho nhân dân bắt chước.",
+        "image": "images/fa24_re/q10.webp"
+      },
+      {
+        "id": 11,
+        "uid": "fa24_re_11",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 11,
+        "question": "Theo Hồ Chí Minh, phải kiên quyết khắc phục kịp thời các phản động lực trong con người và tổ chức. Đó là:",
+        "options": {
+          "A": "Chủ nghĩa cá nhân",
+          "B": "Chủ nghĩa vị kỷ",
+          "C": "Phong cách tiểu tư sản",
+          "D": "Phong cách tư sản"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Chủ nghĩa cá nhân là trở lực, phản động lực nguy hại nhất kìm hãm sự phát triển của cá nhân và sức mạnh chiến đấu của tổ chức cách mạng.",
+        "image": "images/fa24_re/q11.webp"
+      },
+      {
+        "id": 12,
+        "uid": "fa24_re_12",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 12,
+        "question": "Theo Hồ Chí Minh, người cách mạng phải có đạo đức, không có đạo đức thì như thế nào?",
+        "options": {
+          "A": "Dù tài giỏi mấy cũng bỏ đi",
+          "B": "Dù tài giỏi mấy cũng không đáng dùng",
+          "C": "Dù tài giỏi mấy cũng không lãnh đạo được nhân dân",
+          "D": "Dù tài giỏi mấy cũng không xứng đáng là người cách mạng"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 21,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh khẳng định: Người cách mạng phải có đạo đức cách mạng làm nền tảng, mới hoàn thành được nhiệm vụ cách mạng vẻ vang. 'Không có đạo đức cách mạng thì tài giỏi mấy cũng không lãnh đạo được nhân dân'.",
+        "image": "images/fa24_re/q12.webp"
+      },
+      {
+        "id": 13,
+        "uid": "fa24_re_13",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 13,
+        "question": "Khi nói về Hồ Chí Minh, báo Uruguay viết:",
+        "options": {
+          "A": "Ông có một trái tim bao la như vũ trụ và tình yêu trẻ thơ vô bờ bến",
+          "B": "Ông người có tình cảm bao la như vũ trụ và tình yêu trẻ thơ vô bờ bến",
+          "C": "Ông có một trái tim như vũ trụ và tình yêu trẻ thơ vô bờ bến"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Báo chí quốc tế, trong đó có tờ báo tại Uruguay, đã ca ngợi phẩm chất nhân văn cao cả của Chủ tịch Hồ Chí Minh: 'Ông có một trái tim bao la như vũ trụ và tình yêu trẻ thơ vô bờ bến'.",
+        "image": "images/fa24_re/q13.webp"
+      },
+      {
+        "id": 14,
+        "uid": "fa24_re_14",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 14,
+        "question": "Theo Hồ Chí Minh, Liêm là luôn tôn trọng của công và của dân, đồng thời phải như thế nào?",
+        "options": {
+          "A": "“Trong sạch, không tham lam” tiền của, địa vị, danh tiếng",
+          "B": "“Trong sáng, không tham lam” tiền của, địa vị, danh tiếng",
+          "C": "“Trong sạch, không ham muốn” tiền của, địa vị, danh tiếng",
+          "D": "“Trong sạch, không đòi hỏi” tiền của, địa vị, danh tiếng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Liêm là trong sạch, không tham lam; luôn tôn trọng gìn giữ của công và của dân, không màng tiền của, địa vị, danh vọng cá nhân.",
+        "image": "images/fa24_re/q14.webp"
+      },
+      {
+        "id": 15,
+        "uid": "fa24_re_15",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 15,
+        "question": "Theo quan điểm của Hồ Chí Minh, nội dung xây dựng con người cần quan tâm xây dựng con người toàn diện như thế nào?",
+        "options": {
+          "A": "Vừa “hồng” vừa “chuyên”",
+          "B": "Vừa “chuyên” vừa “cần”",
+          "C": "Vừa “cần” vừa “kiệm”",
+          "D": "Vừa “kiệm” vừa “liêm”"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh căn dặn Đảng phải đào tạo thế hệ cách mạng cho đời sau, xây dựng con người phát triển toàn diện, kết hợp chặt chẽ giữa phẩm chất chính trị đạo đức cách mạng ('hồng') và trình độ năng lực chuyên môn ('chuyên').",
+        "image": "images/fa24_re/q15.webp"
+      },
+      {
+        "id": 16,
+        "uid": "fa24_re_16",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 16,
+        "question": "Theo Hồ Chí Minh, căn bệnh nào là một thứ vi trùng rất độc, đẻ ra hàng trăm thứ bệnh nguy hiểm?",
+        "options": {
+          "A": "Chủ nghĩa tư bản",
+          "B": "Chủ nghĩa cá nhân",
+          "C": "Sự lười biếng",
+          "D": "Thói quen và truyền thống lạc hậu"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 21,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Trong tác phẩm 'Sửa đổi lối làm việc' (1947), Người ví chủ nghĩa cá nhân như một thứ vi trùng rất độc đẻ ra hàng trăm thứ bệnh hư hỏng nguy hiểm khác.",
+        "image": "images/fa24_re/q16.webp"
+      },
+      {
+        "id": 17,
+        "uid": "fa24_re_17",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 17,
+        "question": "Theo văn kiện Đại hội XI của Đảng Cộng sản Việt Nam (2011), Tư tưởng Hồ Chí Minh là tư tưởng về những vấn đề gì?",
+        "options": {
+          "A": "Những vấn đề cơ bản của cách mạng Việt Nam",
+          "B": "Những vấn đề cơ bản của cách mạng thế giới",
+          "C": "Những vấn đề cơ bản của dân tộc",
+          "D": "Những vấn đề cơ bản của nhân loại"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Cương lĩnh bổ sung, phát triển năm 2011 (Đại hội XI) khẳng định: Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam.",
+        "image": "images/fa24_re/q17.webp"
+      },
+      {
+        "id": 18,
+        "uid": "fa24_re_18",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 18,
+        "question": "Nguyên tắc cơ bản trong nghiên cứu tư tưởng Hồ Chí Minh là gì?",
+        "options": {
+          "A": "Thống nhất giữa lí luận và thực tiễn",
+          "B": "Thống nhất giữa tính đảng và tính thực tiễn",
+          "C": "Thống nhất giữa tính khoa học và thực tiễn",
+          "D": "Thống nhất giữa tính khoa học và tính đảng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Thống nhất giữa lý luận và thực tiễn là nguyên tắc phương pháp luận cốt lõi, xuyên suốt trong việc nghiên cứu và vận dụng tư tưởng Hồ Chí Minh.",
+        "image": "images/fa24_re/q18.webp"
+      },
+      {
+        "id": 19,
+        "uid": "fa24_re_19",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 19,
+        "question": "Nội dung nào không đúng về giá trị lý luận và thực tiễn của Tư tưởng Hồ Chí Minh về vấn đề dân tộc và cách mạng giải phóng dân tộc?",
+        "options": {
+          "A": "Làm phong phú học thuyết Mác-Lênin về cách mạng thuộc địa",
+          "B": "Soi đường thắng lợi cho cách mạng giải phóng dân tộc ở Việt Nam",
+          "C": "Nền tảng tư tưởng và kim chỉ nam cho mọi hành động của cách mạng Việt Nam",
+          "D": "Là tiền đề cho thắng lợi của Cách mạng tháng 8"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 16,
+          "D": 1
+        },
+        "explanation": "Phương án C là đánh giá tổng quát về toàn bộ Tư tưởng Hồ Chí Minh (cùng với chủ nghĩa Mác - Lênin), chứ không phải là giá trị riêng của bộ phận lý luận về vấn đề dân tộc và cách mạng giải phóng dân tộc.",
+        "image": "images/fa24_re/q19.webp"
+      },
+      {
+        "id": 20,
+        "uid": "fa24_re_20",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 20,
+        "question": "Trong nghiên cứu tư tưởng Hồ Chí Minh, cần quán triệt quan điểm nào dưới đây?",
+        "options": {
+          "A": "Quan điểm bộ phận",
+          "B": "Quan điểm chỉnh thể",
+          "C": "Quan điểm toàn diện",
+          "D": "Quan điểm toàn cục"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 21,
+          "D": 0
+        },
+        "explanation": "Trong các nguyên tắc phương pháp luận nghiên cứu tư tưởng Hồ Chí Minh, quan điểm toàn diện và hệ thống là nguyên tắc cơ bản giúp nắm bắt các luận điểm trong một chỉnh thể thống nhất.",
+        "image": "images/fa24_re/q20.webp"
+      },
+      {
+        "id": 21,
+        "uid": "fa24_re_21",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 21,
+        "question": "Phạm vi vận dụng tư tưởng Hồ Chí Minh là đối tượng nào?",
+        "options": {
+          "A": "Đối với cách mạng Việt Nam",
+          "B": "Đối với các dân tộc đang bị xâm lược và áp bức trên toàn thế giới",
+          "C": "Đối với mọi quốc gia, dân tộc",
+          "D": "Đối với cách mạng giải phóng dân tộc ở Việt Nam"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 21,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Tư tưởng Hồ Chí Minh về giải phóng dân tộc không chỉ dẫn đường cho dân tộc Việt Nam mà còn là ngọn cờ cổ vũ, vận dụng cho phong trào đấu tranh của các dân tộc bị áp bức trên toàn thế giới.",
+        "image": "images/fa24_re/q21.webp"
+      },
+      {
+        "id": 22,
+        "uid": "fa24_re_22",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 22,
+        "question": "Theo Hồ Chí Minh, mọi người phải hiểu và tuyệt đối chấp hành pháp luật, bất kể người đó giữ cương vị nào. Vì thần linh pháp quyền là:",
+        "options": {
+          "A": "Sức mạnh do thần linh và vì con người",
+          "B": "Sức mạnh do con người và vì con người",
+          "C": "Sức mạnh do con người và vì thần linh"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 21,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Trong bài thơ 'Việt Nam yêu cầu ca' (1919), Người viết: 'Bảy xin hiến pháp ban hành / Trăm điều phải có thần linh pháp quyền'. Pháp quyền ở đây là sức mạnh do chính con người tạo ra và nhằm phụng sự quyền lợi của con người.",
+        "image": "images/fa24_re/q22.webp"
+      },
+      {
+        "id": 23,
+        "uid": "fa24_re_23",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 23,
+        "question": "Nội dung nào sau đây thuộc luận điểm sáng tạo của Hồ Chí Minh về vấn đề Đảng cộng sản?",
+        "options": {
+          "A": "Về quy luật ra đời của Đảng Cộng sản Việt Nam",
+          "B": "Về vấn đề tổ chức của Đảng Cộng sản Việt Nam",
+          "C": "Về nguyên tắc xây dựng Đảng Cộng sản Việt Nam"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đóng góp lý luận sáng tạo đặc sắc nhất của Hồ Chí Minh vào kho tàng chủ nghĩa Mác - Lênin về Đảng Cộng sản là phát hiện quy luật ra đời của Đảng ở một nước thuộc địa: kết hợp chủ nghĩa Mác - Lênin với phong trào công nhân và phong trào yêu nước.",
+        "image": "images/fa24_re/q23.webp"
+      },
+      {
+        "id": 24,
+        "uid": "fa24_re_24",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 24,
+        "question": "Luận điểm: “Cách mệnh trước hết phải có cái gì? Trước hết phải có đảng cách mệnh, để trong thì vận động và tổ chức dân chúng, ngoài thì liên lạc với dân tộc bị áp bức và vô sản giai cấp ở mọi nơi. Đảng có vững thì cách mạng mới thành công, cũng như người cầm lái có vững thuyền mới chạy” được trích từ tác phẩm nào của Hồ Chí Minh?",
+        "options": {
+          "A": "Bản án chế độ thực dân Pháp",
+          "B": "Đường kách mệnh",
+          "C": "Con rồng tre",
+          "D": "Thường thức chính trị"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 21,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đoạn trích nổi tiếng này nằm trong tác phẩm kinh điển 'Đường kách mệnh' (xuất bản năm 1927 tại Quảng Châu), khẳng định vai trò lãnh đạo quyết định của Đảng đối với cách mạng.",
+        "image": "images/fa24_re/q24.webp"
+      },
+      {
+        "id": 25,
+        "uid": "fa24_re_25",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 25,
+        "question": "Chọn phương án trả lời không đúng với tư tưởng Hồ Chí Minh về nhà nước vì dân?",
+        "options": {
+          "A": "Phục vụ nhân dân",
+          "B": "Chăm lo mọi mặt đời sống nhân dân",
+          "C": "Do dân làm chủ, tổ chức nên",
+          "D": "Đem lại lợi ích cho dân"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 20,
+          "D": 0
+        },
+        "explanation": "Phương án C ('Do dân làm chủ, tổ chức nên') phản ánh nội dung của 'Nhà nước do dân', không phải là tiêu chí định nghĩa trực tiếp của 'Nhà nước vì dân' (phục vụ nhân dân, mưu cầu hạnh phúc cho dân).",
+        "image": "images/fa24_re/q25.webp"
+      },
+      {
+        "id": 26,
+        "uid": "fa24_re_26",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 26,
+        "question": "Hồ Chí Minh nhấn mạnh vấn đề nào sau đây trong quan hệ giữa cán bộ nhà nước với nhân dân?",
+        "options": {
+          "A": "Kính trọng nhân dân",
+          "B": "Tự tôn dân tộc",
+          "C": "Nghiêm khắc",
+          "D": "Phục tùng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 19,
+          "B": 1,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Trong tư cách là công bộc của dân, Hồ Chí Minh căn dặn cán bộ đối với nhân dân phải: 'Kính trọng nhân dân, lễ phép với nhân dân, gần gũi nhân dân, học hỏi nhân dân'.",
+        "image": "images/fa24_re/q26.webp"
+      },
+      {
+        "id": 27,
+        "uid": "fa24_re_27",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 27,
+        "question": "Hồ Chí Minh nhấn mạnh xây dựng nhà nước trong sạch vững mạnh cần phải:",
+        "options": {
+          "A": "Kết hợp giáo dục pháp luật và đạo đức, hình thành pháp quyền nhân nghĩa",
+          "B": "Kết hợp giáo dục pháp luật và nhân cách, hình thành pháp quyền nhân nghĩa",
+          "C": "Kết hợp giáo dục pháp luật và nghề nghiệp, hình thành pháp quyền nhân nghĩa"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Nhà nước pháp quyền xã hội chủ nghĩa theo Hồ Chí Minh là nhà nước pháp quyền nhân nghĩa, kết hợp nhuần nhuyễn giữa giáo dục đạo đức và nghiêm minh của pháp luật.",
+        "image": "images/fa24_re/q27.webp"
+      },
+      {
+        "id": 28,
+        "uid": "fa24_re_28",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 28,
+        "question": "Luận điểm “Không có sự đồng tình ủng hộ của đại đa số nhân dân lao động đối với đội tiên phong của mình tức là đối với giai cấp vô sản, thì cách mạng vô sản không thể thực hiện được” là của ai?",
+        "options": {
+          "A": "C. Mác",
+          "B": "Ph. Ăngghen",
+          "C": "V.I. Lênin",
+          "D": "Hồ Chí Minh"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 21,
+          "D": 0
+        },
+        "explanation": "Đây là luận điểm kinh điển của V.I. Lênin về liên minh công nông và sự ủng hộ của quần chúng lao động đối với đội tiên phong vô sản.",
+        "image": "images/fa24_re/q28.webp"
+      },
+      {
+        "id": 29,
+        "uid": "fa24_re_29",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 29,
+        "question": "Hồ Chí Minh cho rằng mọi Cán bộ, Đảng viên phải thực hiện nguyên tắc:",
+        "options": {
+          "A": "Nói đi đôi với làm",
+          "B": "Làm trước, nói sau",
+          "C": "Nói trước, làm sau"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Nói đi đôi với làm, nêu gương về đạo đức là nguyên tắc thực hành đạo đức cách mạng quan trọng bậc nhất theo tư tưởng Hồ Chí Minh.",
+        "image": "images/fa24_re/q29.webp"
+      },
+      {
+        "id": 30,
+        "uid": "fa24_re_30",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 30,
+        "question": "Theo Hồ Chí Minh, trong Nhà nước vì dân, từ Chủ tịch nước đến công chức bình thường đều phải làm công bộc, làm đầy tớ cho nhân dân chứ không phải làm:",
+        "options": {
+          "A": "Tướng",
+          "B": "Quan",
+          "C": "Quan cách mạng",
+          "D": "Trâu, ngựa"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 21,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh căn dặn: 'Cán bộ từ Chủ tịch nước đến công chức bình thường đều phải là công bộc của dân, làm đầy tớ cho nhân dân, chứ không phải làm quan cách mạng đè đầu cưỡi cổ dân'.",
+        "image": "images/fa24_re/q30.webp"
+      },
+      {
+        "id": 31,
+        "uid": "fa24_re_31",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 31,
+        "question": "Điểm khác nhau trong tư tưởng về xây dựng nhà nước của Hồ Chí Minh và các bậc tiền nhân trong lịch sử là gì?",
+        "options": {
+          "A": "Con đường cứu nước",
+          "B": "Phương pháp cứu nước",
+          "C": "Tinh thần yêu nước",
+          "D": "Dựa vào tài năng, trí tuệ của các vị lãnh đạo"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Các bậc tiền nhân (Phan Bội Châu, Phan Chu Trinh...) chủ trương dựa vào phong kiến hoặc tư sản. Hồ Chí Minh đã chọn con đường cách mạng vô sản, xây dựng nhà nước dân chủ mới của nhân dân, do nhân dân, vì nhân dân.",
+        "image": "images/fa24_re/q31.webp"
+      },
+      {
+        "id": 32,
+        "uid": "fa24_re_32",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 32,
+        "question": "Việt Nam Độc lập Đồng minh được thành lập vào thời gian nào?",
+        "options": {
+          "A": "19/5/1941",
+          "B": "19/5/1930",
+          "C": "26/3/1941",
+          "D": "3/9/1945"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 16,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Mặt trận Việt Minh (Việt Nam Độc lập Đồng minh) được thành lập vào ngày 19/5/1941 tại Hội nghị Trung ương 8 Đảng Cộng sản Đông Dương do Nguyễn Ái Quốc chủ trì tại Pác Bó, Cao Bằng.",
+        "image": "images/fa24_re/q32.webp"
+      },
+      {
+        "id": 33,
+        "uid": "fa24_re_33",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 33,
+        "question": "Nguyễn Ái Quốc gửi bản “Bản yêu sách của nhân dân An Nam” tới Hội nghị Vécxây, đòi chính phủ Pháp thừa nhận các quyền tự do, dân chủ và bình đẳng của nhân dân Việt Nam vào thời gian nào?",
+        "options": {
+          "A": "6/1917",
+          "B": "6/1918",
+          "C": "6/1919",
+          "D": "6/1920"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "D": 0
+        },
+        "explanation": "Vào ngày 18 tháng 6 năm 1919, thay mặt Hội những người An Nam yêu nước, Nguyễn Ái Quốc đã gửi bản Yêu sách của nhân dân An Nam gồm 8 điểm tới Hội nghị Versailles.",
+        "image": "images/fa24_re/q33.webp"
+      },
+      {
+        "id": 34,
+        "uid": "fa24_re_34",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 34,
+        "question": "Theo Hồ Chí Minh, ưu điểm lớn nhất của chủ nghĩa Mác là gì?",
+        "options": {
+          "A": "Bản chất cách mạng",
+          "B": "Chủ nghĩa nhân đạo triệt để",
+          "C": "Phương pháp làm việc biện chứng",
+          "D": "Bản chất khoa học"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 6,
+          "C": 12,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh từng nhận định: 'Chúa Giêsu dạy: Lòng bác ái. Khổng Tử dạy: Đạo nhân nghĩa. Tôn Trung Sơn dạy: Dân tộc độc lập... Mác dạy: Phương pháp làm việc biện chứng'.",
+        "image": "images/fa24_re/q34.webp"
+      },
+      {
+        "id": 35,
+        "uid": "fa24_re_35",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 35,
+        "question": "Tư tưởng tôn giáo nào sau đây ảnh hưởng đến sự hình thành tư tưởng Hồ Chí Minh?",
+        "options": {
+          "A": "Tư duy, hành động, ứng xử của Phật giáo",
+          "B": "Tư duy, hành động, ứng xử của Hồi giáo",
+          "C": "Tư duy, hành động, ứng xử của Ấn Độ giáo"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Phật giáo Việt Nam với truyền thống gắn bó với dân tộc, tư tưởng từ bi hỉ xả, cứu khổ cứu nạn và nếp sống bình dị đã để lại dấu ấn sâu đậm trong tư tưởng nhân đạo Hồ Chí Minh.",
+        "image": "images/fa24_re/q35.webp"
+      },
+      {
+        "id": 36,
+        "uid": "fa24_re_36",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 36,
+        "question": "Tư tưởng văn hoá phương Tây nào sau đây ảnh hưởng đến sự hình thành tư tưởng dân chủ Hồ Chí Minh trước khi người ra đi tìm đường cứu nước?",
+        "options": {
+          "A": "Truyền thống văn hoá dân chủ, tiến bộ của Đức",
+          "B": "Truyền thống văn hoá dân chủ, tiến bộ của Pháp",
+          "C": "Chủ nghĩa thực chứng Hoa Kỳ",
+          "D": "Triết học phương Tây"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 21,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Ngay từ khi học ở trường Quốc học Huế, Nguyễn Tất Thành đã được tiếp xúc với khẩu hiệu nổi tiếng của Đại Cách mạng Pháp: 'Tự do - Bình đẳng - Bác ái', thôi thúc Người ra đi tìm hiểu thực chất nền dân chủ phương Tây.",
+        "image": "images/fa24_re/q36.webp"
+      },
+      {
+        "id": 37,
+        "uid": "fa24_re_37",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 37,
+        "question": "Khi nói về điều kiện hình thành tư tưởng Hồ Chí Minh, điều kiện nào bị viết sai?",
+        "options": {
+          "A": "Nhu cầu khách quan và bức thiết do cách mạng Việt Nam đặt ra là muốn cứu nước, phải tìm một con đường cách mạng mới",
+          "B": "Quê hương Hồ Chí Minh là mảnh đất giàu truyền thống yêu nước, chống giặc ngoại xâm",
+          "C": "Hồ Chí Minh sinh ra trong một gia đình nhà Nho yêu nước, gần gũi nhân dân, cụ thân sinh có tư tưởng thương dân, chủ trương lấy dân làm hậu thuẫn cho mọi cải cách chính trị",
+          "D": "Ngay từ khi còn nhỏ ở trong trường, Hồ Chí Minh đã nhận thức được đặc điểm thời đại"
+        },
+        "answer": "D",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 21
+        },
+        "explanation": "Phương án D sai vì khi còn nhỏ ở nhà trường, Người chưa thể nhận thức đầy đủ và sâu sắc về đặc điểm thời đại; nhận thức thời đại chỉ chín muồi khi Người bôn ba qua nhiều nước tư bản và thuộc địa trên thế giới.",
+        "image": "images/fa24_re/q37.webp"
+      },
+      {
+        "id": 38,
+        "uid": "fa24_re_38",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 38,
+        "question": "Hồ Chí Minh được coi là linh hồn của cuộc kháng chiến chống Pháp trong giai đoạn nào?",
+        "options": {
+          "A": "1946 - 1954",
+          "B": "1945 - 1954",
+          "C": "1930 - 1945",
+          "D": "1939 - 1945"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Giai đoạn 1946 - 1954 là 9 năm kháng chiến trường kỳ chống thực dân Pháp (từ Lời kêu gọi toàn quốc kháng chiến 19/12/1946 đến thắng lợi Điện Biên Phủ 1954), Hồ Chí Minh là linh hồn lãnh đạo cuộc kháng chiến toàn dân, toàn diện.",
+        "image": "images/fa24_re/q38.webp"
+      },
+      {
+        "id": 39,
+        "uid": "fa24_re_39",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 39,
+        "question": "Trong giai đoạn 1923 - 1924, Quảng Châu Trung Quốc được mệnh danh là:",
+        "options": {
+          "A": "Moskva của Phương Đông",
+          "B": "Trung tâm của cách mạng vô sản",
+          "C": "Thủ Phủ Cộng Sản",
+          "D": "Căn cứ quốc tế vô sản"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Quảng Châu thời kỳ này là trung tâm phong trào cách mạng châu Á và được mệnh danh là 'Moskva của Phương Đông'.",
+        "image": "images/fa24_re/q39.webp"
+      },
+      {
+        "id": 40,
+        "uid": "fa24_re_40",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 40,
+        "question": "Phẩm chất nào dưới đây không có trong nhân tố chủ quan dẫn đến hình thành tư tưởng Hồ Chí Minh?",
+        "options": {
+          "A": "Một trái tim yêu nước thương dân, sẵn sàng chịu đựng hy sinh",
+          "B": "Tư duy độc lập, tự chủ, sáng tạo, đầu óc phê phán tinh tường, sáng suốt",
+          "C": "Bản lĩnh kiên định, luôn tin vào nhân dân, khiêm tốn, bình dị, ham học hỏi",
+          "D": "Ham công danh, phú quý"
+        },
+        "answer": "D",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 21
+        },
+        "explanation": "Hồ Chí Minh cả đời chỉ có một ham muốn tột bậc là nước nhà được độc lập, dân được tự do, đồng bào ai cũng có cơm ăn, áo mặc, được học hành; hoàn toàn không màng danh lợi, phú quý cá nhân.",
+        "image": "images/fa24_re/q40.webp"
+      },
+      {
+        "id": 41,
+        "uid": "fa24_re_41",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 41,
+        "question": "Quan điểm nào sau đây thuộc vấn đề công tác cán bộ theo tư tưởng Hồ Chí Minh ?",
+        "options": {
+          "A": "Gần dân, học hỏi nhân dân, lắng nghe ý kiến nhân dân",
+          "B": "Gần dân, học hỏi nhân dân, lắng nghe ý kiến ngoài đảng",
+          "C": "Gần dân, học hỏi nhân dân, lắng nghe ý kiến mọi người",
+          "D": "Gần dân, học hỏi nhân dân, lắng nghe ý kiến của mọi tầng lớp"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh luôn căn dặn cán bộ cách mạng phải gần gũi quần chúng, học hỏi nhân dân và chân thành lắng nghe ý kiến đóng góp của nhân dân.",
+        "image": "images/fa24_re/q41.webp"
+      },
+      {
+        "id": 42,
+        "uid": "fa24_re_42",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 42,
+        "question": "Đại đoàn kết quốc tế trong tư tưởng Hồ Chí Minh được xác định là:",
+        "options": {
+          "A": "Một nhân tố thường xuyên và hết sức quan trọng giúp cho cách mạng Việt Nam đi đến thắng lợi hoàn toàn",
+          "B": "Có ý nghĩa sống còn đối với cách mạng Việt Nam",
+          "C": "Vấn đề cơ bản của cách mạng việt Nam",
+          "D": "Sức mạnh giúp cho dân tộc ta vượt qua mọi thử thách, khó khăn trong dựng nước và giữ nước"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đoàn kết quốc tế theo Hồ Chí Minh là một nhân tố thường xuyên, hết sức quan trọng nhằm kết hợp sức mạnh dân tộc với sức mạnh thời đại tạo nên sức mạnh tổng hợp đưa cách mạng đến thắng lợi hoàn toàn.",
+        "image": "images/fa24_re/q42.webp"
+      },
+      {
+        "id": 43,
+        "uid": "fa24_re_43",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 43,
+        "question": "Sức mạnh dân tộc trong tư tưởng Hồ Chí Minh bao gồm những thành tố nào?",
+        "options": {
+          "A": "Chủ nghĩa yêu nước và văn hóa truyền thống Việt Nam",
+          "B": "Tinh thần đoàn kết, ý thức đấu tranh cho độc lập, tự do",
+          "C": "Ý chí tự lực, tự cường và tinh thần quốc tế vô sản",
+          "D": "Chủ nghĩa yêu nước và truyền thống văn hóa Việt Nam; tinh thần đoàn kết, ý thức đấu tranh cho độc lập, tự do; và ý chí tự lực, tự cường"
+        },
+        "answer": "D",
+        "votes": {
+          "A": 8,
+          "B": 0,
+          "C": 0,
+          "D": 11
+        },
+        "explanation": "Sức mạnh dân tộc nội sinh theo tư tưởng Hồ Chí Minh là sự tổng hợp đầy đủ của: Chủ nghĩa yêu nước và truyền thống văn hóa Việt Nam; Tinh thần đại đoàn kết toàn dân; Ý thức quật cường đấu tranh cho độc lập tự do; và Ý chí tự lực cánh sinh, tự cường.",
+        "image": "images/fa24_re/q43.webp"
+      },
+      {
+        "id": 44,
+        "uid": "fa24_re_44",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 44,
+        "question": "Chọn câu trả lời đúng nhất với tư tưởng Hồ Chí Minh về vai trò của đại đoàn kết dân tộc?",
+        "options": {
+          "A": "Đại đoàn kết dân tộc là vấn đề sách lược",
+          "B": "Đại đoàn kết dân tộc là vấn đề chiến lược",
+          "C": "Đại đoàn kết dân tộc là thủ đoạn chính trị",
+          "D": "Đại đoàn kết dân tộc là phương pháp chính trị"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh khẳng định: Đại đoàn kết dân tộc không phải là sách lược nhất thời hay thủ đoạn chính trị, mà là vấn đề chiến lược sống còn, quyết định thành bại của cách mạng.",
+        "image": "images/fa24_re/q44.webp"
+      },
+      {
+        "id": 45,
+        "uid": "fa24_re_45",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 45,
+        "question": "Lực lượng làm nền tảng cho khối đại đoàn kết dân tộc theo tư tưởng Hồ Chí Minh là gì?",
+        "options": {
+          "A": "Công nhân",
+          "B": "Công nhân, nông dân",
+          "C": "Học trò, nhà buôn",
+          "D": "Công nhân, nông dân, lao động trí óc"
+        },
+        "answer": "D",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 21
+        },
+        "explanation": "Hồ Chí Minh xác định khối đại đoàn kết toàn dân lấy liên minh công nhân - nông dân - lao động trí óc (trí thức) làm nền tảng vững chắc.",
+        "image": "images/fa24_re/q45.webp"
+      },
+      {
+        "id": 46,
+        "uid": "fa24_re_46",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 46,
+        "question": "Hồ Chí Minh cho rằng đoàn kết có ý nghĩa thế nào?",
+        "options": {
+          "A": "Đoàn kết là yêu nước",
+          "B": "Đoàn kết là sáng tạo",
+          "C": "Đoàn kết là sức mạnh",
+          "D": "Đoàn kết là khôn ngoan"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 20,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh đúc kết chân lý: 'Đoàn kết là sức mạnh, đoàn kết là thắng lợi', 'Đoàn kết, đoàn kết, đại đoàn kết / Thành công, thành công, đại thành công'.",
+        "image": "images/fa24_re/q46.webp"
+      },
+      {
+        "id": 47,
+        "uid": "fa24_re_47",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 47,
+        "question": "Theo Hồ Chí Minh, tại sao phải đoàn kết quốc tế?",
+        "options": {
+          "A": "Nhằm kết hợp sức mạnh dân tộc và sức mạnh thời đại, tạo sức mạnh tổng hợp cho cách mạng",
+          "B": "Góp phần cùng nhân dân thế giới thực hiện các mục tiêu cách mạng",
+          "C": "Vì đây là mục tiêu, nhiệm vụ hàng đầu của cách mạng Việt Nam",
+          "D": "Nhằm kế thừa truyền thống yêu nước, nhân nghĩa, đoàn kết của dân tộc"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 6,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đoàn kết quốc tế nhằm tranh thủ sự ủng hộ rộng rãi của bạn bè quốc tế, kết hợp sức mạnh dân tộc với sức mạnh thời đại để đánh bại kẻ thù xâm lược.",
+        "image": "images/fa24_re/q47.webp"
+      },
+      {
+        "id": 48,
+        "uid": "fa24_re_48",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 48,
+        "question": "Hồ Chí Minh cho rằng:",
+        "options": {
+          "A": "Đại đoàn kết dân tộc là vấn đề có ý nghĩa chiến lược, quyết định sự thành công của cách mạng",
+          "B": "Đoàn kết dân tộc là vấn đề có ý nghĩa chiến lược tác động trực tiếp đến sự thành công của cách mạng",
+          "C": "Đại đoàn kết toàn dân là vấn đề có ý nghĩa chiến lược, quyết định sự trường thành của cách mạng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh luôn nhấn mạnh vị trí chiến lược của đại đoàn kết dân tộc, coi đây là yếu tố quyết định hàng đầu dẫn đến thắng lợi của toàn bộ tiến trình cách mạng.",
+        "image": "images/fa24_re/q48.webp"
+      },
+      {
+        "id": 49,
+        "uid": "fa24_re_49",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 49,
+        "question": "“Tinh thần yêu nước chân chính khác hẳn với tinh thần “vị quốc” của bọn đế quốc phản động. Nó là một bộ phận của tinh thần quốc tế” là câu nói được Hồ Chí Minh khẳng định trong Báo cáo chính trị của Đại hội đại biểu toàn quốc lần thứ mấy?",
+        "options": {
+          "A": "Lần thứ I",
+          "B": "Lần thứ II",
+          "C": "Lần thứ III",
+          "D": "Lần thứ IV"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 21,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Luận điểm sâu sắc này được Chủ tịch Hồ Chí Minh trình bày trong Báo cáo chính trị tại Đại hội đại biểu toàn quốc lần thứ II của Đảng (tháng 2/1951).",
+        "image": "images/fa24_re/q49.webp"
+      },
+      {
+        "id": 50,
+        "uid": "fa24_re_50",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 50,
+        "question": "Trong tư tưởng Hồ Chí Minh, mối quan hệ giữa Đảng và Mặt trận được xác định là mối quan hệ:",
+        "options": {
+          "A": "Song song",
+          "B": "Máu thịt",
+          "C": "Biện chứng",
+          "D": "Độc lập"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đảng vừa là người lãnh đạo Mặt trận, vừa là một thành viên của Mặt trận. Mối quan hệ giữa Đảng và Mặt trận gắn bó như máu thịt, cùng chung mục tiêu đấu tranh vì độc lập dân tộc và hạnh phúc nhân dân.",
+        "image": "images/fa24_re/q50.webp"
+      },
+      {
+        "id": 51,
+        "uid": "fa24_re_51",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 51,
+        "question": "Đâu không phải là điểm giống nhau giữa chủ nghĩa xã hội và chủ nghĩa cộng sản theo Hồ Chí Minh?",
+        "options": {
+          "A": "Sức sản xuất phát triển dựa trên chế độ tư hữu",
+          "B": "Tư liệu sản xuất là của chung",
+          "C": "Không còn giai cấp áp bức bóc lột",
+          "D": "Năng suất lao động phát triển"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Cả CNXH và CNCS đều dựa trên chế độ công hữu về tư liệu sản xuất (không phải chế độ tư hữu). Do đó phương án A là điểm sai/không phải điểm giống nhau.",
+        "image": "images/fa24_re/q51.webp"
+      },
+      {
+        "id": 52,
+        "uid": "fa24_re_52",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 52,
+        "question": "Theo Hồ Chí Minh, nguyên tắc phân phối chủ yếu trong chủ nghĩa xã hội là gì?",
+        "options": {
+          "A": "Làm theo năng lực, hưởng theo nhu cầu",
+          "B": "Làm nhiều hưởng nhiều, làm ít hưởng ít, không làm không hưởng",
+          "C": "Phân phối bình quân cho tất cả mọi người",
+          "D": "Phân phối theo thỏa thuận"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 19,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Trong CNXH áp dụng nguyên tắc phân phối theo lao động: 'Làm nhiều hưởng nhiều, làm ít hưởng ít, không làm không hưởng', khác với giai đoạn cao CNCS là 'hưởng theo nhu cầu'.",
+        "image": "images/fa24_re/q52.webp"
+      },
+      {
+        "id": 53,
+        "uid": "fa24_re_53",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 53,
+        "question": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc muốn thắng lợi phải do ai lãnh đạo?",
+        "options": {
+          "A": "Đảng Cộng sản",
+          "B": "Giai cấp công nhân",
+          "C": "Giai cấp vô sản",
+          "D": "Đảng của giai cấp tư sản"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh khẳng định: Muốn cứu nước và giải phóng dân tộc không có con đường nào khác con đường cách mạng vô sản, và phong trào cách mạng phải do Đảng Cộng sản lãnh đạo.",
+        "image": "images/fa24_re/q53.webp"
+      },
+      {
+        "id": 54,
+        "uid": "fa24_re_54",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 54,
+        "question": "Theo Hồ Chí Minh, về bước đi trong thời kỳ quá độ, chúng ta phải:",
+        "options": {
+          "A": "Theo bước đi của các nước xã hội chủ nghĩa",
+          "B": "Căn cứ vào đặc điểm lịch sử cụ thể của nước ta từ đó có bước đi phù hợp",
+          "C": "Căn cứ vào đặc điểm lịch sử cụ thể của nước ta từ đó có bước đi phù hợp, đi bước nào vững chắc bước ấy",
+          "D": "Bước đi chậm, mạnh, vững chắc"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 21,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh chỉ rõ: Về bước đi, phải căn cứ vào hoàn cảnh thực tiễn của Việt Nam để xác định bước đi phù hợp, 'tiến bước nào vững chắc bước ấy', tránh rập khuôn máy móc và nóng vội.",
+        "image": "images/fa24_re/q54.webp"
+      },
+      {
+        "id": 55,
+        "uid": "fa24_re_55",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 55,
+        "question": "Hồ Chí Minh cho rằng cách mạng giải phóng dân tộc cần tiến hành như thế nào?",
+        "options": {
+          "A": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng vô sản ở chính quốc",
+          "B": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng vô sản thế giới",
+          "C": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng thuộc địa",
+          "D": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng tư sản ở chính quốc"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Luận điểm sáng tạo lớn của Hồ Chí Minh: Cách mạng thuộc địa không phụ thuộc thụ động vào cách mạng chính quốc mà có thể chủ động, sáng tạo giành thắng lợi trước cách mạng vô sản ở chính quốc, tác động trở lại cách mạng chính quốc.",
+        "image": "images/fa24_re/q55.webp"
+      },
+      {
+        "id": 56,
+        "uid": "fa24_re_56",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 56,
+        "question": "Hồ Chí Minh cho rằng giải phóng dân tộc là sự nghiệp của:",
+        "options": {
+          "A": "Toàn dân",
+          "B": "Toàn quân",
+          "C": "Toàn Đảng",
+          "D": "Giai cấp công nhân"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh nêu cao tư tưởng cách mạng là sự nghiệp của quần chúng nhân dân: Giải phóng dân tộc là công việc chung của cả dân tộc, của toàn dân chứ không phải của một vài người.",
+        "image": "images/fa24_re/q56.webp"
+      },
+      {
+        "id": 57,
+        "uid": "fa24_re_57",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 57,
+        "question": "Quan điểm nào sau đây đúng với tư tưởng của Hồ Chí Minh?",
+        "options": {
+          "A": "Chủ nghĩa dân tộc là động lực lớn của đất nước",
+          "B": "Chủ nghĩa dân tộc là khát khao lớn của đất nước",
+          "C": "Chủ nghĩa dân tộc là mục tiêu lớn của đất nước",
+          "D": "Chủ nghĩa dân tộc là chiến lược hàng đầu của cách mạng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh khẳng định: 'Chủ nghĩa dân tộc (chân chính) là động lực lớn của đất nước', phát huy chủ nghĩa yêu nước để tập hợp mọi người Việt Nam đánh đuổi ngoại xâm.",
+        "image": "images/fa24_re/q57.webp"
+      },
+      {
+        "id": 58,
+        "uid": "fa24_re_58",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 58,
+        "question": "Hồ Chí Minh cho rằng:",
+        "options": {
+          "A": "Đạo đức cách mạng là hòa mình với quần chúng thành một khối, tin quần chúng, hiểu quần chúng, lắng nghe ý kiến của quần chúng",
+          "B": "Đạo đức cách mạng là tin quần chúng, hiểu quần chúng, lắng nghe ý kiến của quần chúng",
+          "C": "Đạo đức cách mạng là hòa mình cộng đồng, lắng nghe ý kiến của cộng đồng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh dạy cán bộ: Đạo đức cách mạng là hòa mình với quần chúng thành một khối, tin dân, hiểu dân, học hỏi dân và luôn lắng nghe ý kiến chính đáng của nhân dân.",
+        "image": "images/fa24_re/q58.webp"
+      },
+      {
+        "id": 59,
+        "uid": "fa24_re_59",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 59,
+        "question": "Hồ Chí Minh cho rằng quá độ lên chủ nghĩa xã hội ở Việt Nam phải tiến hành như thế nào?",
+        "options": {
+          "A": "Từ từ, từng bước một",
+          "B": "Nhanh chóng, chính xác",
+          "C": "Cẩn thận, không chủ quan",
+          "D": "Nhanh chóng, không chủ quan"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Việt Nam tiến lên CNXH từ một nền nông nghiệp lạc hậu, nên Người căn dặn phải tiến hành 'từ từ, từng bước một, vừa làm vừa rút kinh nghiệm, không được nóng vội chủ quan'.",
+        "image": "images/fa24_re/q59.webp"
+      },
+      {
+        "id": 60,
+        "uid": "fa24_re_60",
+        "exam": "fa24_re",
+        "exam_code": "FA24 - RE",
+        "exam_title": "HCM202 — FA 2024 — RE",
+        "q_num": 60,
+        "question": "Theo Hồ Chí Minh, nhiệm vụ lịch sử của thời kỳ quá độ ở nước ta là gì?",
+        "options": {
+          "A": "Đấu tranh cải tạo, xóa bỏ tàn tích của chế độ xã hội cũ, xây dựng các yếu tố mới phù hợp với quy luật tiến lên chủ nghĩa xã hội trên tất cả các lĩnh vực đời sống",
+          "B": "Xoá bỏ những tàn tích của chế độ xã hội cũ, xây dựng các giá trị mới phù hợp trên tất cả các lĩnh vực đời sống xã hội",
+          "C": "Cải cách xã hội, kiên quyết đấu tranh bài trừ các giá trị của xã hội cũ để xây dựng chủ nghĩa xã hội trên tất cả các lĩnh vực đời sống",
+          "D": "Củng cố và phát triển các giá trị của xã hội cũ vẫn còn phù hợp để xây dựng chủ nghĩa xã hội"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Nhiệm vụ lịch sử của thời kỳ quá độ: vừa cải tạo xã hội cũ xóa bỏ tàn tích phong kiến, thực dân, vừa xây dựng xã hội mới về mọi mặt chính trị, kinh tế, văn hóa và xã hội theo con đường XHCN.",
+        "image": "images/fa24_re/q60.webp"
+      }
+    ]
+  },
   "combined": {
     "id": "combined",
     "name": "Tổng Hợp Toàn Bộ Đề (Đã Lọc Trùng)",
     "shortName": "Toàn Bộ Đề (Lọc Trùng)",
     "badge": "Tổng hợp",
-    "total": 260,
+    "total": 280,
     "questions": [
       {
         "id": 1,
@@ -9074,6 +10514,11 @@ window.EXAMS_DATA = {
             "exam": "SU26 - RE",
             "q_num": 12,
             "image": "images/q12.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 34,
+            "image": "images/fa24_re/q34.webp"
           }
         ]
       },
@@ -9107,6 +10552,11 @@ window.EXAMS_DATA = {
             "exam": "FA25 - Half1",
             "q_num": 35,
             "image": "images/fa25_half1/q35.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 38,
+            "image": "images/fa24_re/q38.webp"
           }
         ]
       },
@@ -9575,6 +11025,11 @@ window.EXAMS_DATA = {
             "exam": "FA25 - Half1",
             "q_num": 24,
             "image": "images/fa25_half1/q24.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 28,
+            "image": "images/fa24_re/q28.webp"
           }
         ]
       },
@@ -9631,6 +11086,11 @@ window.EXAMS_DATA = {
             "exam": "SU26 - RE",
             "q_num": 30,
             "image": "images/q30.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 24,
+            "image": "images/fa24_re/q24.webp"
           }
         ]
       },
@@ -9687,6 +11147,11 @@ window.EXAMS_DATA = {
             "exam": "SU26 - RE",
             "q_num": 32,
             "image": "images/q32.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 26,
+            "image": "images/fa24_re/q26.webp"
           }
         ]
       },
@@ -10002,6 +11467,11 @@ window.EXAMS_DATA = {
             "exam": "SU26 - RE",
             "q_num": 43,
             "image": "images/q43.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 46,
+            "image": "images/fa24_re/q46.webp"
           }
         ]
       },
@@ -10344,6 +11814,11 @@ window.EXAMS_DATA = {
             "exam": "SU26 - RE",
             "q_num": 54,
             "image": "images/q54.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 2,
+            "image": "images/fa24_re/q2.webp"
           }
         ]
       },
@@ -10574,6 +12049,11 @@ window.EXAMS_DATA = {
             "exam": "SP25 - FE",
             "q_num": 18,
             "image": "images/sp25_fe/q18.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 20,
+            "image": "images/fa24_re/q20.webp"
           }
         ]
       },
@@ -10734,6 +12214,11 @@ window.EXAMS_DATA = {
             "exam": "FA25 - Half1",
             "q_num": 39,
             "image": "images/fa25_half1/q39.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 36,
+            "image": "images/fa24_re/q36.webp"
           }
         ]
       },
@@ -10762,6 +12247,11 @@ window.EXAMS_DATA = {
             "exam": "SU26 - C1FE",
             "q_num": 7,
             "image": "images/c1fe/q7.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 33,
+            "image": "images/fa24_re/q33.webp"
           }
         ]
       },
@@ -11006,6 +12496,11 @@ window.EXAMS_DATA = {
             "exam": "SU26 - C1FE",
             "q_num": 15,
             "image": "images/c1fe/q15.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 53,
+            "image": "images/fa24_re/q53.webp"
           }
         ]
       },
@@ -11207,6 +12702,11 @@ window.EXAMS_DATA = {
             "exam": "SU26 - C1FE",
             "q_num": 22,
             "image": "images/c1fe/q22.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 51,
+            "image": "images/fa24_re/q51.webp"
           }
         ]
       },
@@ -11235,6 +12735,11 @@ window.EXAMS_DATA = {
             "exam": "SU26 - C1FE",
             "q_num": 23,
             "image": "images/c1fe/q23.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 29,
+            "image": "images/fa24_re/q29.webp"
           }
         ]
       },
@@ -11558,6 +13063,11 @@ window.EXAMS_DATA = {
             "exam": "SU26 - C1FE",
             "q_num": 34,
             "image": "images/c1fe/q34.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 49,
+            "image": "images/fa24_re/q49.webp"
           }
         ]
       },
@@ -11911,6 +13421,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - B5",
             "q_num": 10,
             "image": "images/su25_b5/q10.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 15,
+            "image": "images/fa24_re/q15.webp"
           }
         ]
       },
@@ -12071,6 +13586,11 @@ window.EXAMS_DATA = {
             "exam": "FA25 - Half1",
             "q_num": 12,
             "image": "images/fa25_half1/q12.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 7,
+            "image": "images/fa24_re/q7.webp"
           }
         ]
       },
@@ -12160,6 +13680,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - FEKTS",
             "q_num": 13,
             "image": "images/fekts/q13.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 13,
+            "image": "images/fa24_re/q13.webp"
           }
         ]
       },
@@ -12460,6 +13985,11 @@ window.EXAMS_DATA = {
             "exam": "FA25 - Half1",
             "q_num": 3,
             "image": "images/fa25_half1/q3.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 6,
+            "image": "images/fa24_re/q6.webp"
           }
         ]
       },
@@ -12521,6 +14051,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - B5",
             "q_num": 14,
             "image": "images/su25_b5/q14.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 3,
+            "image": "images/fa24_re/q3.webp"
           }
         ]
       },
@@ -12577,6 +14112,11 @@ window.EXAMS_DATA = {
             "exam": "FA25 - Half1",
             "q_num": 8,
             "image": "images/fa25_half1/q8.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 8,
+            "image": "images/fa24_re/q8.webp"
           }
         ]
       },
@@ -12643,6 +14183,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - FEKTS",
             "q_num": 11,
             "image": "images/fekts/q11.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 4,
+            "image": "images/fa24_re/q4.webp"
           }
         ]
       },
@@ -12699,6 +14244,11 @@ window.EXAMS_DATA = {
             "exam": "FA25 - Half1",
             "q_num": 14,
             "image": "images/fa25_half1/q14.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 16,
+            "image": "images/fa24_re/q16.webp"
           }
         ]
       },
@@ -12989,6 +14539,11 @@ window.EXAMS_DATA = {
             "exam": "FA25 - Half1",
             "q_num": 31,
             "image": "images/fa25_half1/q31.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 40,
+            "image": "images/fa24_re/q40.webp"
           }
         ]
       },
@@ -13055,6 +14610,11 @@ window.EXAMS_DATA = {
             "exam": "SP25 - FE",
             "q_num": 41,
             "image": "images/sp25_fe/q41.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 35,
+            "image": "images/fa24_re/q35.webp"
           }
         ]
       },
@@ -13121,6 +14681,11 @@ window.EXAMS_DATA = {
             "exam": "SP25 - FE",
             "q_num": 47,
             "image": "images/sp25_fe/q47.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 41,
+            "image": "images/fa24_re/q41.webp"
           }
         ]
       },
@@ -13715,6 +15280,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - FEKTS",
             "q_num": 9,
             "image": "images/fekts/q9.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 12,
+            "image": "images/fa24_re/q12.webp"
           }
         ]
       },
@@ -13826,6 +15396,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - B5",
             "q_num": 17,
             "image": "images/su25_b5/q17.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 18,
+            "image": "images/fa24_re/q18.webp"
           }
         ]
       },
@@ -13854,6 +15429,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - B5",
             "q_num": 20,
             "image": "images/su25_b5/q20.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 19,
+            "image": "images/fa24_re/q19.webp"
           }
         ]
       },
@@ -13965,6 +15545,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - B5",
             "q_num": 25,
             "image": "images/su25_b5/q25.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 27,
+            "image": "images/fa24_re/q27.webp"
           }
         ]
       },
@@ -14109,6 +15694,11 @@ window.EXAMS_DATA = {
             "exam": "SP25 - FE",
             "q_num": 35,
             "image": "images/sp25_fe/q35.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 39,
+            "image": "images/fa24_re/q39.webp"
           }
         ]
       },
@@ -14320,6 +15910,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - FEKTS",
             "q_num": 41,
             "image": "images/fekts/q41.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 44,
+            "image": "images/fa24_re/q44.webp"
           }
         ]
       },
@@ -14787,6 +16382,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - FEKTS",
             "q_num": 16,
             "image": "images/fekts/q16.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 17,
+            "image": "images/fa24_re/q17.webp"
           }
         ]
       },
@@ -14871,6 +16471,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - FEKTS",
             "q_num": 20,
             "image": "images/fekts/q20.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 21,
+            "image": "images/fa24_re/q21.webp"
           }
         ]
       },
@@ -15131,6 +16736,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - FEKTS",
             "q_num": 30,
             "image": "images/fekts/q30.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 25,
+            "image": "images/fa24_re/q25.webp"
           }
         ]
       },
@@ -15164,6 +16774,11 @@ window.EXAMS_DATA = {
             "exam": "SP25 - FE",
             "q_num": 40,
             "image": "images/sp25_fe/q40.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 37,
+            "image": "images/fa24_re/q37.webp"
           }
         ]
       },
@@ -15303,6 +16918,11 @@ window.EXAMS_DATA = {
             "exam": "SU25 - FEKTS",
             "q_num": 39,
             "image": "images/fekts/q39.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 32,
+            "image": "images/fa24_re/q32.webp"
           }
         ]
       },
@@ -15674,6 +17294,11 @@ window.EXAMS_DATA = {
             "exam": "SP25 - FE",
             "q_num": 58,
             "image": "images/sp25_fe/q58.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 59,
+            "image": "images/fa24_re/q59.webp"
           }
         ]
       },
@@ -15814,6 +17439,11 @@ window.EXAMS_DATA = {
             "exam": "SP25 - FE",
             "q_num": 8,
             "image": "images/sp25_fe/q8.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 14,
+            "image": "images/fa24_re/q14.webp"
           }
         ]
       },
@@ -15925,6 +17555,11 @@ window.EXAMS_DATA = {
             "exam": "SP25 - FE",
             "q_num": 15,
             "image": "images/sp25_fe/q15.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 5,
+            "image": "images/fa24_re/q5.webp"
           }
         ]
       },
@@ -16092,6 +17727,11 @@ window.EXAMS_DATA = {
             "exam": "SP25 - FE",
             "q_num": 29,
             "image": "images/sp25_fe/q29.webp"
+          },
+          {
+            "exam": "FA24 - RE",
+            "q_num": 30,
+            "image": "images/fa24_re/q30.webp"
           }
         ]
       },
@@ -16427,6 +18067,562 @@ window.EXAMS_DATA = {
             "exam": "SP25 - FE",
             "q_num": 59,
             "image": "images/sp25_fe/q59.webp"
+          }
+        ]
+      },
+      {
+        "id": 261,
+        "combined_id": 261,
+        "exam_code": "FA24 - RE",
+        "question": "Theo Hồ Chí Minh, ngoài lợi ích của giai cấp, của nhân dân và toàn thể dân tộc Việt Nam, Đảng cần phải có thêm điều gì?",
+        "options": {
+          "A": "Không còn lợi ích nào khác",
+          "B": "Còn vì lợi ích của mình",
+          "C": "Còn vì lợi ích của nhà nước",
+          "D": "Còn vì lợi ích cá nhân"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh khẳng định: 'Ngoài lợi ích của Tổ quốc, của nhân dân, Đảng ta không có lợi ích gì khác'. Đảng không có mục đích tự thân, toàn bộ hoạt động của Đảng đều phụng sự nhân dân và dân tộc.",
+        "image": "images/fa24_re/q1.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 1,
+            "image": "images/fa24_re/q1.webp"
+          }
+        ]
+      },
+      {
+        "id": 262,
+        "combined_id": 262,
+        "exam_code": "FA24 - RE",
+        "question": "Theo Hồ Chí Minh, vi trùng rất độc này đẻ ra... không dám đổi mới sáng tạo. Người đang đề cập đến vấn đề gì?",
+        "options": {
+          "A": "Chủ nghĩa cá nhân",
+          "B": "Đế quốc",
+          "C": "Chủ nghĩa tư bản",
+          "D": "Giặc đói"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Chủ tịch Hồ Chí Minh ví chủ nghĩa cá nhân như một thứ vi trùng rất độc, đẻ ra hàng trăm thứ bệnh hư hỏng, làm cho con người trở nên hẹp hòi, bảo thủ, không dám xông pha đổi mới sáng tạo vì việc chung.",
+        "image": "images/fa24_re/q9.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 9,
+            "image": "images/fa24_re/q9.webp"
+          }
+        ]
+      },
+      {
+        "id": 263,
+        "combined_id": 263,
+        "exam_code": "FA24 - RE",
+        "question": "Hồ Chí Minh cho rằng cán bộ muốn hướng dẫn nhân dân phải như thế nào?",
+        "options": {
+          "A": "Làm mực thước cho nhân dân bắt chước",
+          "B": "Làm gương cho nhân dân",
+          "C": "Làm mô hình cho dân theo",
+          "D": "Làm quan cách mạng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh nhấn mạnh vai trò nêu gương của người cán bộ: 'Một tấm gương sống còn có giá trị hơn một trăm bài diễn văn tuyên truyền', cán bộ phải tự mình làm mực thước cho nhân dân bắt chước.",
+        "image": "images/fa24_re/q10.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 10,
+            "image": "images/fa24_re/q10.webp"
+          }
+        ]
+      },
+      {
+        "id": 264,
+        "combined_id": 264,
+        "exam_code": "FA24 - RE",
+        "question": "Theo Hồ Chí Minh, phải kiên quyết khắc phục kịp thời các phản động lực trong con người và tổ chức. Đó là:",
+        "options": {
+          "A": "Chủ nghĩa cá nhân",
+          "B": "Chủ nghĩa vị kỷ",
+          "C": "Phong cách tiểu tư sản",
+          "D": "Phong cách tư sản"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Chủ nghĩa cá nhân là trở lực, phản động lực nguy hại nhất kìm hãm sự phát triển của cá nhân và sức mạnh chiến đấu của tổ chức cách mạng.",
+        "image": "images/fa24_re/q11.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 11,
+            "image": "images/fa24_re/q11.webp"
+          }
+        ]
+      },
+      {
+        "id": 265,
+        "combined_id": 265,
+        "exam_code": "FA24 - RE",
+        "question": "Theo Hồ Chí Minh, mọi người phải hiểu và tuyệt đối chấp hành pháp luật, bất kể người đó giữ cương vị nào. Vì thần linh pháp quyền là:",
+        "options": {
+          "A": "Sức mạnh do thần linh và vì con người",
+          "B": "Sức mạnh do con người và vì con người",
+          "C": "Sức mạnh do con người và vì thần linh"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 21,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Trong bài thơ 'Việt Nam yêu cầu ca' (1919), Người viết: 'Bảy xin hiến pháp ban hành / Trăm điều phải có thần linh pháp quyền'. Pháp quyền ở đây là sức mạnh do chính con người tạo ra và nhằm phụng sự quyền lợi của con người.",
+        "image": "images/fa24_re/q22.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 22,
+            "image": "images/fa24_re/q22.webp"
+          }
+        ]
+      },
+      {
+        "id": 266,
+        "combined_id": 266,
+        "exam_code": "FA24 - RE",
+        "question": "Nội dung nào sau đây thuộc luận điểm sáng tạo của Hồ Chí Minh về vấn đề Đảng cộng sản?",
+        "options": {
+          "A": "Về quy luật ra đời của Đảng Cộng sản Việt Nam",
+          "B": "Về vấn đề tổ chức của Đảng Cộng sản Việt Nam",
+          "C": "Về nguyên tắc xây dựng Đảng Cộng sản Việt Nam"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đóng góp lý luận sáng tạo đặc sắc nhất của Hồ Chí Minh vào kho tàng chủ nghĩa Mác - Lênin về Đảng Cộng sản là phát hiện quy luật ra đời của Đảng ở một nước thuộc địa: kết hợp chủ nghĩa Mác - Lênin với phong trào công nhân và phong trào yêu nước.",
+        "image": "images/fa24_re/q23.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 23,
+            "image": "images/fa24_re/q23.webp"
+          }
+        ]
+      },
+      {
+        "id": 267,
+        "combined_id": 267,
+        "exam_code": "FA24 - RE",
+        "question": "Điểm khác nhau trong tư tưởng về xây dựng nhà nước của Hồ Chí Minh và các bậc tiền nhân trong lịch sử là gì?",
+        "options": {
+          "A": "Con đường cứu nước",
+          "B": "Phương pháp cứu nước",
+          "C": "Tinh thần yêu nước",
+          "D": "Dựa vào tài năng, trí tuệ của các vị lãnh đạo"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Các bậc tiền nhân (Phan Bội Châu, Phan Chu Trinh...) chủ trương dựa vào phong kiến hoặc tư sản. Hồ Chí Minh đã chọn con đường cách mạng vô sản, xây dựng nhà nước dân chủ mới của nhân dân, do nhân dân, vì nhân dân.",
+        "image": "images/fa24_re/q31.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 31,
+            "image": "images/fa24_re/q31.webp"
+          }
+        ]
+      },
+      {
+        "id": 268,
+        "combined_id": 268,
+        "exam_code": "FA24 - RE",
+        "question": "Đại đoàn kết quốc tế trong tư tưởng Hồ Chí Minh được xác định là:",
+        "options": {
+          "A": "Một nhân tố thường xuyên và hết sức quan trọng giúp cho cách mạng Việt Nam đi đến thắng lợi hoàn toàn",
+          "B": "Có ý nghĩa sống còn đối với cách mạng Việt Nam",
+          "C": "Vấn đề cơ bản của cách mạng việt Nam",
+          "D": "Sức mạnh giúp cho dân tộc ta vượt qua mọi thử thách, khó khăn trong dựng nước và giữ nước"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đoàn kết quốc tế theo Hồ Chí Minh là một nhân tố thường xuyên, hết sức quan trọng nhằm kết hợp sức mạnh dân tộc với sức mạnh thời đại tạo nên sức mạnh tổng hợp đưa cách mạng đến thắng lợi hoàn toàn.",
+        "image": "images/fa24_re/q42.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 42,
+            "image": "images/fa24_re/q42.webp"
+          }
+        ]
+      },
+      {
+        "id": 269,
+        "combined_id": 269,
+        "exam_code": "FA24 - RE",
+        "question": "Sức mạnh dân tộc trong tư tưởng Hồ Chí Minh bao gồm những thành tố nào?",
+        "options": {
+          "A": "Chủ nghĩa yêu nước và văn hóa truyền thống Việt Nam",
+          "B": "Tinh thần đoàn kết, ý thức đấu tranh cho độc lập, tự do",
+          "C": "Ý chí tự lực, tự cường và tinh thần quốc tế vô sản",
+          "D": "Chủ nghĩa yêu nước và truyền thống văn hóa Việt Nam; tinh thần đoàn kết, ý thức đấu tranh cho độc lập, tự do; và ý chí tự lực, tự cường"
+        },
+        "answer": "D",
+        "votes": {
+          "A": 8,
+          "B": 0,
+          "C": 0,
+          "D": 11
+        },
+        "explanation": "Sức mạnh dân tộc nội sinh theo tư tưởng Hồ Chí Minh là sự tổng hợp đầy đủ của: Chủ nghĩa yêu nước và truyền thống văn hóa Việt Nam; Tinh thần đại đoàn kết toàn dân; Ý thức quật cường đấu tranh cho độc lập tự do; và Ý chí tự lực cánh sinh, tự cường.",
+        "image": "images/fa24_re/q43.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 43,
+            "image": "images/fa24_re/q43.webp"
+          }
+        ]
+      },
+      {
+        "id": 270,
+        "combined_id": 270,
+        "exam_code": "FA24 - RE",
+        "question": "Lực lượng làm nền tảng cho khối đại đoàn kết dân tộc theo tư tưởng Hồ Chí Minh là gì?",
+        "options": {
+          "A": "Công nhân",
+          "B": "Công nhân, nông dân",
+          "C": "Học trò, nhà buôn",
+          "D": "Công nhân, nông dân, lao động trí óc"
+        },
+        "answer": "D",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 21
+        },
+        "explanation": "Hồ Chí Minh xác định khối đại đoàn kết toàn dân lấy liên minh công nhân - nông dân - lao động trí óc (trí thức) làm nền tảng vững chắc.",
+        "image": "images/fa24_re/q45.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 45,
+            "image": "images/fa24_re/q45.webp"
+          }
+        ]
+      },
+      {
+        "id": 271,
+        "combined_id": 271,
+        "exam_code": "FA24 - RE",
+        "question": "Theo Hồ Chí Minh, tại sao phải đoàn kết quốc tế?",
+        "options": {
+          "A": "Nhằm kết hợp sức mạnh dân tộc và sức mạnh thời đại, tạo sức mạnh tổng hợp cho cách mạng",
+          "B": "Góp phần cùng nhân dân thế giới thực hiện các mục tiêu cách mạng",
+          "C": "Vì đây là mục tiêu, nhiệm vụ hàng đầu của cách mạng Việt Nam",
+          "D": "Nhằm kế thừa truyền thống yêu nước, nhân nghĩa, đoàn kết của dân tộc"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 6,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đoàn kết quốc tế nhằm tranh thủ sự ủng hộ rộng rãi của bạn bè quốc tế, kết hợp sức mạnh dân tộc với sức mạnh thời đại để đánh bại kẻ thù xâm lược.",
+        "image": "images/fa24_re/q47.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 47,
+            "image": "images/fa24_re/q47.webp"
+          }
+        ]
+      },
+      {
+        "id": 272,
+        "combined_id": 272,
+        "exam_code": "FA24 - RE",
+        "question": "Hồ Chí Minh cho rằng:",
+        "options": {
+          "A": "Đại đoàn kết dân tộc là vấn đề có ý nghĩa chiến lược, quyết định sự thành công của cách mạng",
+          "B": "Đoàn kết dân tộc là vấn đề có ý nghĩa chiến lược tác động trực tiếp đến sự thành công của cách mạng",
+          "C": "Đại đoàn kết toàn dân là vấn đề có ý nghĩa chiến lược, quyết định sự trường thành của cách mạng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh luôn nhấn mạnh vị trí chiến lược của đại đoàn kết dân tộc, coi đây là yếu tố quyết định hàng đầu dẫn đến thắng lợi của toàn bộ tiến trình cách mạng.",
+        "image": "images/fa24_re/q48.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 48,
+            "image": "images/fa24_re/q48.webp"
+          }
+        ]
+      },
+      {
+        "id": 273,
+        "combined_id": 273,
+        "exam_code": "FA24 - RE",
+        "question": "Trong tư tưởng Hồ Chí Minh, mối quan hệ giữa Đảng và Mặt trận được xác định là mối quan hệ:",
+        "options": {
+          "A": "Song song",
+          "B": "Máu thịt",
+          "C": "Biện chứng",
+          "D": "Độc lập"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Đảng vừa là người lãnh đạo Mặt trận, vừa là một thành viên của Mặt trận. Mối quan hệ giữa Đảng và Mặt trận gắn bó như máu thịt, cùng chung mục tiêu đấu tranh vì độc lập dân tộc và hạnh phúc nhân dân.",
+        "image": "images/fa24_re/q50.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 50,
+            "image": "images/fa24_re/q50.webp"
+          }
+        ]
+      },
+      {
+        "id": 274,
+        "combined_id": 274,
+        "exam_code": "FA24 - RE",
+        "question": "Theo Hồ Chí Minh, nguyên tắc phân phối chủ yếu trong chủ nghĩa xã hội là gì?",
+        "options": {
+          "A": "Làm theo năng lực, hưởng theo nhu cầu",
+          "B": "Làm nhiều hưởng nhiều, làm ít hưởng ít, không làm không hưởng",
+          "C": "Phân phối bình quân cho tất cả mọi người",
+          "D": "Phân phối theo thỏa thuận"
+        },
+        "answer": "B",
+        "votes": {
+          "A": 0,
+          "B": 19,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Trong CNXH áp dụng nguyên tắc phân phối theo lao động: 'Làm nhiều hưởng nhiều, làm ít hưởng ít, không làm không hưởng', khác với giai đoạn cao CNCS là 'hưởng theo nhu cầu'.",
+        "image": "images/fa24_re/q52.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 52,
+            "image": "images/fa24_re/q52.webp"
+          }
+        ]
+      },
+      {
+        "id": 275,
+        "combined_id": 275,
+        "exam_code": "FA24 - RE",
+        "question": "Theo Hồ Chí Minh, về bước đi trong thời kỳ quá độ, chúng ta phải:",
+        "options": {
+          "A": "Theo bước đi của các nước xã hội chủ nghĩa",
+          "B": "Căn cứ vào đặc điểm lịch sử cụ thể của nước ta từ đó có bước đi phù hợp",
+          "C": "Căn cứ vào đặc điểm lịch sử cụ thể của nước ta từ đó có bước đi phù hợp, đi bước nào vững chắc bước ấy",
+          "D": "Bước đi chậm, mạnh, vững chắc"
+        },
+        "answer": "C",
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 21,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh chỉ rõ: Về bước đi, phải căn cứ vào hoàn cảnh thực tiễn của Việt Nam để xác định bước đi phù hợp, 'tiến bước nào vững chắc bước ấy', tránh rập khuôn máy móc và nóng vội.",
+        "image": "images/fa24_re/q54.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 54,
+            "image": "images/fa24_re/q54.webp"
+          }
+        ]
+      },
+      {
+        "id": 276,
+        "combined_id": 276,
+        "exam_code": "FA24 - RE",
+        "question": "Hồ Chí Minh cho rằng cách mạng giải phóng dân tộc cần tiến hành như thế nào?",
+        "options": {
+          "A": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng vô sản ở chính quốc",
+          "B": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng vô sản thế giới",
+          "C": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng thuộc địa",
+          "D": "Chủ động, sáng tạo và có khả năng giành thắng lợi trước cách mạng tư sản ở chính quốc"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Luận điểm sáng tạo lớn của Hồ Chí Minh: Cách mạng thuộc địa không phụ thuộc thụ động vào cách mạng chính quốc mà có thể chủ động, sáng tạo giành thắng lợi trước cách mạng vô sản ở chính quốc, tác động trở lại cách mạng chính quốc.",
+        "image": "images/fa24_re/q55.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 55,
+            "image": "images/fa24_re/q55.webp"
+          }
+        ]
+      },
+      {
+        "id": 277,
+        "combined_id": 277,
+        "exam_code": "FA24 - RE",
+        "question": "Hồ Chí Minh cho rằng giải phóng dân tộc là sự nghiệp của:",
+        "options": {
+          "A": "Toàn dân",
+          "B": "Toàn quân",
+          "C": "Toàn Đảng",
+          "D": "Giai cấp công nhân"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh nêu cao tư tưởng cách mạng là sự nghiệp của quần chúng nhân dân: Giải phóng dân tộc là công việc chung của cả dân tộc, của toàn dân chứ không phải của một vài người.",
+        "image": "images/fa24_re/q56.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 56,
+            "image": "images/fa24_re/q56.webp"
+          }
+        ]
+      },
+      {
+        "id": 278,
+        "combined_id": 278,
+        "exam_code": "FA24 - RE",
+        "question": "Quan điểm nào sau đây đúng với tư tưởng của Hồ Chí Minh?",
+        "options": {
+          "A": "Chủ nghĩa dân tộc là động lực lớn của đất nước",
+          "B": "Chủ nghĩa dân tộc là khát khao lớn của đất nước",
+          "C": "Chủ nghĩa dân tộc là mục tiêu lớn của đất nước",
+          "D": "Chủ nghĩa dân tộc là chiến lược hàng đầu của cách mạng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh khẳng định: 'Chủ nghĩa dân tộc (chân chính) là động lực lớn của đất nước', phát huy chủ nghĩa yêu nước để tập hợp mọi người Việt Nam đánh đuổi ngoại xâm.",
+        "image": "images/fa24_re/q57.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 57,
+            "image": "images/fa24_re/q57.webp"
+          }
+        ]
+      },
+      {
+        "id": 279,
+        "combined_id": 279,
+        "exam_code": "FA24 - RE",
+        "question": "Hồ Chí Minh cho rằng:",
+        "options": {
+          "A": "Đạo đức cách mạng là hòa mình với quần chúng thành một khối, tin quần chúng, hiểu quần chúng, lắng nghe ý kiến của quần chúng",
+          "B": "Đạo đức cách mạng là tin quần chúng, hiểu quần chúng, lắng nghe ý kiến của quần chúng",
+          "C": "Đạo đức cách mạng là hòa mình cộng đồng, lắng nghe ý kiến của cộng đồng"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Hồ Chí Minh dạy cán bộ: Đạo đức cách mạng là hòa mình với quần chúng thành một khối, tin dân, hiểu dân, học hỏi dân và luôn lắng nghe ý kiến chính đáng của nhân dân.",
+        "image": "images/fa24_re/q58.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 58,
+            "image": "images/fa24_re/q58.webp"
+          }
+        ]
+      },
+      {
+        "id": 280,
+        "combined_id": 280,
+        "exam_code": "FA24 - RE",
+        "question": "Theo Hồ Chí Minh, nhiệm vụ lịch sử của thời kỳ quá độ ở nước ta là gì?",
+        "options": {
+          "A": "Đấu tranh cải tạo, xóa bỏ tàn tích của chế độ xã hội cũ, xây dựng các yếu tố mới phù hợp với quy luật tiến lên chủ nghĩa xã hội trên tất cả các lĩnh vực đời sống",
+          "B": "Xoá bỏ những tàn tích của chế độ xã hội cũ, xây dựng các giá trị mới phù hợp trên tất cả các lĩnh vực đời sống xã hội",
+          "C": "Cải cách xã hội, kiên quyết đấu tranh bài trừ các giá trị của xã hội cũ để xây dựng chủ nghĩa xã hội trên tất cả các lĩnh vực đời sống",
+          "D": "Củng cố và phát triển các giá trị của xã hội cũ vẫn còn phù hợp để xây dựng chủ nghĩa xã hội"
+        },
+        "answer": "A",
+        "votes": {
+          "A": 21,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "explanation": "Nhiệm vụ lịch sử của thời kỳ quá độ: vừa cải tạo xã hội cũ xóa bỏ tàn tích phong kiến, thực dân, vừa xây dựng xã hội mới về mọi mặt chính trị, kinh tế, văn hóa và xã hội theo con đường XHCN.",
+        "image": "images/fa24_re/q60.webp",
+        "sources": [
+          {
+            "exam": "FA24 - RE",
+            "q_num": 60,
+            "image": "images/fa24_re/q60.webp"
           }
         ]
       }

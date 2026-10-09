@@ -53,6 +53,7 @@ class QuizletApp {
     this.btnExamSU25 = document.getElementById('btnExamSU25');
     this.btnExamFEKTS = document.getElementById('btnExamFEKTS');
     this.btnExamSP25 = document.getElementById('btnExamSP25');
+    this.btnExamFA24RE = document.getElementById('btnExamFA24RE');
     this.btnExamCombined = document.getElementById('btnExamCombined');
 
     // Tabs
@@ -128,7 +129,7 @@ class QuizletApp {
     this.allQuestions = examInfo.questions || [];
 
     // Update active pill UI
-    [this.btnExamRE, this.btnExamC1FE, this.btnExamFA25, this.btnExamSU25, this.btnExamFEKTS, this.btnExamSP25, this.btnExamCombined].forEach(btn => {
+    [this.btnExamRE, this.btnExamC1FE, this.btnExamFA25, this.btnExamSU25, this.btnExamFEKTS, this.btnExamSP25, this.btnExamFA24RE, this.btnExamCombined].forEach(btn => {
       if (btn) btn.classList.remove('active');
     });
     if (examKey === 're' && this.btnExamRE) this.btnExamRE.classList.add('active');
@@ -137,6 +138,7 @@ class QuizletApp {
     if (examKey === 'su25_b5' && this.btnExamSU25) this.btnExamSU25.classList.add('active');
     if (examKey === 'fekts' && this.btnExamFEKTS) this.btnExamFEKTS.classList.add('active');
     if (examKey === 'sp25_fe' && this.btnExamSP25) this.btnExamSP25.classList.add('active');
+    if (examKey === 'fa24_re' && this.btnExamFA24RE) this.btnExamFA24RE.classList.add('active');
     if (examKey === 'combined' && this.btnExamCombined) this.btnExamCombined.classList.add('active');
 
     // Update headers
@@ -229,6 +231,7 @@ class QuizletApp {
     if (this.btnExamSU25) this.btnExamSU25.addEventListener('click', () => this.loadExam('su25_b5'));
     if (this.btnExamFEKTS) this.btnExamFEKTS.addEventListener('click', () => this.loadExam('fekts'));
     if (this.btnExamSP25) this.btnExamSP25.addEventListener('click', () => this.loadExam('sp25_fe'));
+    if (this.btnExamFA24RE) this.btnExamFA24RE.addEventListener('click', () => this.loadExam('fa24_re'));
     if (this.btnExamCombined) this.btnExamCombined.addEventListener('click', () => this.loadExam('combined'));
 
     // Mode Switcher
@@ -383,20 +386,23 @@ class QuizletApp {
       else if (src.exam.includes('FEKTS')) tagClass = 'tag-fekts';
       else if (src.exam.includes('SP25')) tagClass = 'tag-sp25';
       else if (src.exam.includes('SU25') || src.exam.includes('B5')) tagClass = 'tag-su25';
+      else if (src.exam.includes('FA24')) tagClass = 'tag-fa24-re';
       this.qExamTag.className = `q-exam-tag ${tagClass}`;
       this.qExamTag.textContent = `Đề ${src.exam} #${src.q_num}`;
     } else {
-      const isRe = (q.exam_code || '').includes('RE');
+      const isFA24 = (q.exam_code || '').includes('FA24');
+      const isRe = (q.exam_code || '').includes('SU26') && (q.exam_code || '').includes('RE');
       const isC1 = (q.exam_code || '').includes('C1FE');
       const isFEKTS = (q.exam_code || '').includes('FEKTS');
       const isSP25 = (q.exam_code || '').includes('SP25');
       const isB5 = (q.exam_code || '').includes('SU25') || (q.exam_code || '').includes('B5');
       let tagClass = 'tag-fa25';
-      if (isRe) tagClass = 'tag-re';
+      if (isFA24) tagClass = 'tag-fa24-re';
       else if (isC1) tagClass = 'tag-c1fe';
       else if (isFEKTS) tagClass = 'tag-fekts';
       else if (isSP25) tagClass = 'tag-sp25';
       else if (isB5) tagClass = 'tag-su25';
+      else if (isRe) tagClass = 'tag-re';
       this.qExamTag.className = `q-exam-tag ${tagClass}`;
       this.qExamTag.textContent = q.exam_code || `Đề ${this.currentExam.toUpperCase()}`;
     }
@@ -626,19 +632,22 @@ class QuizletApp {
         else if (s.exam.includes('FEKTS')) tagClass = 'tag-fekts';
         else if (s.exam.includes('SP25')) tagClass = 'tag-sp25';
         else if (s.exam.includes('SU25') || s.exam.includes('B5')) tagClass = 'tag-su25';
+        else if (s.exam.includes('FA24')) tagClass = 'tag-fa24-re';
         sourceTagHtml = `<span class="q-exam-tag ${tagClass}">Đề ${s.exam} #${s.q_num}</span>`;
       } else {
-        const isRe = (q.exam_code || '').includes('RE');
+        const isFA24 = (q.exam_code || '').includes('FA24');
+        const isRe = (q.exam_code || '').includes('SU26') && (q.exam_code || '').includes('RE');
         const isC1 = (q.exam_code || '').includes('C1FE');
         const isFEKTS = (q.exam_code || '').includes('FEKTS');
         const isSP25 = (q.exam_code || '').includes('SP25');
         const isB5 = (q.exam_code || '').includes('SU25') || (q.exam_code || '').includes('B5');
         let tagClass = 'tag-fa25';
-        if (isRe) tagClass = 'tag-re';
+        if (isFA24) tagClass = 'tag-fa24-re';
         else if (isC1) tagClass = 'tag-c1fe';
         else if (isFEKTS) tagClass = 'tag-fekts';
         else if (isSP25) tagClass = 'tag-sp25';
         else if (isB5) tagClass = 'tag-su25';
+        else if (isRe) tagClass = 'tag-re';
         sourceTagHtml = `<span class="q-exam-tag ${tagClass}">${q.exam_code || ''}</span>`;
       }
 
