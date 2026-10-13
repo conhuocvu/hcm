@@ -70,11 +70,11 @@ class QuizletApp {
         icon: '🏛️',
         badgeText: '🏛️ MLN131',
         badgeClass: 'course-badge-mln',
-        subTitle: 'Kho Đề Chuẩn FPT University — Đề Thi FE (SP26, SU26 C1FE, C1RE, C2RE, FA25 RE & Bản Lọc Trùng 272 Câu)',
+        subTitle: 'Kho Đề Chuẩn FPT University — 9 Đề Thi FE/RE (SP26, SU26, FA25, SU25, SP25 & Bản Lọc Trùng 384 Câu)',
         selectorHeadingTitle: 'CHỌN ĐỀ / CHẾ ĐỘ HỌC:',
-        selectorHeadingDesc: 'Học riêng từng đề thi hoặc bản tổng hợp toàn bộ 272 câu hỏi độc bản (đã lọc trùng)',
+        selectorHeadingDesc: 'Học riêng từng đề thi hoặc bản tổng hợp toàn bộ 384 câu hỏi độc bản (đã lọc trùng)',
         defaultExam: 'combined',
-        totalQuestions: 272,
+        totalQuestions: 384,
         exams: window.MLN_DATA || {}
       }
     };
@@ -270,6 +270,9 @@ class QuizletApp {
         else if (key === 'mln131_su26_c1re') chipClass = 'chip-re';
         else if (key === 'mln131_su26_c2re') chipClass = 'chip-c1fe';
         else if (key === 'mln131_su26_c1fe') chipClass = 'chip-c1fe';
+        else if (key === 'mln131_su25_b5_re' || key === 'mln131_su25_b5_1') chipClass = 'chip-su25';
+        else if (key === 'mln131_su25_fekts') chipClass = 'chip-fekts';
+        else if (key === 'mln131_sp25_fe') chipClass = 'chip-sp25';
       } else {
         if (key === 'c1fe') chipClass = 'chip-c1fe';
         else if (key === 'fa25_half1') chipClass = 'chip-fa25';
@@ -397,12 +400,16 @@ class QuizletApp {
       ];
     } else {
       filterOptions = [
-        { label: 'Tất cả (272c)', val: 'all' },
+        { label: 'Tất cả (384c)', val: 'all' },
         { label: 'Đề SP26', val: 'SP26' },
         { label: 'Đề C1FE', val: 'C1FE' },
         { label: 'Đề C1RE', val: 'C1RE' },
         { label: 'Đề C2RE', val: 'C2RE' },
-        { label: 'Đề FA25 RE', val: 'FA25 - RE' }
+        { label: 'Đề FA25 RE', val: 'FA25 - RE' },
+        { label: 'Đề SU25 B5 RE', val: 'SU25 - B5 RE' },
+        { label: 'Đề SU25 B5 (1)', val: 'SU25 - B5 (1)' },
+        { label: 'Đề SU25 FEKTS', val: 'SU25 - FEKTS' },
+        { label: 'Đề SP25 FE', val: 'SP25 - FE' }
       ];
     }
 

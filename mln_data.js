@@ -1,13 +1,17 @@
 /**
  * MLN131 EXAMS DATA
  * Generated with full deduplication & multi-source cross-referencing
- * Total unique questions: 272
- * Exams included:
+ * Total unique questions: 384
+ * Exams included (9 exams total):
  *   - MLN131 SU26 C1FE (60 questions)
  *   - MLN131 SU26 C1RE (60 questions)
  *   - MLN131 SU26 C2RE (60 questions)
  *   - MLN131 SP26 (60 questions)
  *   - MLN131 FA25 RE (60 questions)
+ *   - MLN131 SU25 B5 RE (60 questions)
+ *   - MLN131 SU25 B5 (1) (60 questions)
+ *   - MLN131 SU 2025 FEKTS (60 questions)
+ *   - MLN131 SP 2025 FE (60 questions)
  */
 
 window.MLN_DATA = {
@@ -16,7 +20,7 @@ window.MLN_DATA = {
     "name": "Toàn Bộ Câu Hỏi MLN131 (Đã Lọc Trùng)",
     "shortName": "Tổng Hợp Lọc Trùng",
     "semester": "ALL",
-    "total": 272,
+    "total": 384,
     "questions": [
       {
         "id": "mln131_comb_1",
@@ -135,6 +139,14 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 6
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 25
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 26
           }
         ]
       },
@@ -215,6 +227,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 10
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 50
           }
         ]
       },
@@ -235,6 +251,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 11
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 48
           }
         ]
       },
@@ -255,6 +275,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 12
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 52
           }
         ]
       },
@@ -315,6 +339,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 15
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 49
           }
         ]
       },
@@ -375,6 +403,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 18
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 58
           }
         ]
       },
@@ -415,6 +447,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 20
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 56
           }
         ]
       },
@@ -435,6 +471,14 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 21
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 55
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 56
           }
         ]
       },
@@ -483,6 +527,14 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 16
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 15
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 11
           }
         ]
       },
@@ -523,6 +575,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 25
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 14
           }
         ]
       },
@@ -543,6 +599,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 26
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 16
           }
         ]
       },
@@ -623,6 +683,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 30
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 35
           }
         ]
       },
@@ -763,6 +827,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 37
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 6
           }
         ]
       },
@@ -783,6 +851,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 38
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 4
           }
         ]
       },
@@ -927,6 +999,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 45
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 21
           }
         ]
       },
@@ -947,6 +1023,14 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 46
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 21
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 21
           }
         ]
       },
@@ -975,6 +1059,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 18
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 24
           }
         ]
       },
@@ -995,6 +1083,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 48
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 18
           }
         ]
       },
@@ -1055,6 +1147,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 51
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 19
           }
         ]
       },
@@ -1115,6 +1211,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 54
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 40
           }
         ]
       },
@@ -1135,6 +1235,14 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 55
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 43
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 43
           }
         ]
       },
@@ -1195,6 +1303,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 58
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 11
           }
         ]
       },
@@ -1299,6 +1411,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 3
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 26
           }
         ]
       },
@@ -1319,6 +1435,14 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 4
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 50
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 51
           }
         ]
       },
@@ -1339,6 +1463,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 5
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 45
           }
         ]
       },
@@ -1507,6 +1635,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 13
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 54
           }
         ]
       },
@@ -1571,6 +1703,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 60
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 55
           }
         ]
       },
@@ -1611,6 +1747,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 18
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 10
           }
         ]
       },
@@ -1743,6 +1883,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 24
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 12
           }
         ]
       },
@@ -1827,6 +1971,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 28
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 38
           }
         ]
       },
@@ -1847,6 +1995,14 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 29
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 35
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 35
           }
         ]
       },
@@ -1907,6 +2063,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 32
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 38
           }
         ]
       },
@@ -1971,6 +2131,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 49
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 3
           }
         ]
       },
@@ -2051,6 +2215,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 39
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 3
           }
         ]
       },
@@ -2091,6 +2259,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 41
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 2
           }
         ]
       },
@@ -2114,6 +2286,10 @@ window.MLN_DATA = {
           },
           {
             "exam": "FA25 - RE",
+            "q_num": 24
+          },
+          {
+            "exam": "SU25 - FEKTS",
             "q_num": 24
           }
         ]
@@ -2155,6 +2331,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 44
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 17
           }
         ]
       },
@@ -2215,6 +2395,14 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 47
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 20
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 23
           }
         ]
       },
@@ -2487,6 +2675,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 1
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 47
           }
         ]
       },
@@ -2531,6 +2723,14 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 51
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 48
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 46
           }
         ]
       },
@@ -2671,6 +2871,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 10
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 53
           }
         ]
       },
@@ -2711,6 +2915,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 12
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 15
           }
         ]
       },
@@ -3099,6 +3307,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 32
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 21
           }
         ]
       },
@@ -3159,6 +3371,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 35
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 23
           }
         ]
       },
@@ -3179,6 +3395,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 36
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 20
           }
         ]
       },
@@ -3199,6 +3419,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 37
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 20
           }
         ]
       },
@@ -3243,6 +3467,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 39
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 42
           }
         ]
       },
@@ -3283,6 +3511,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 41
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 40
           }
         ]
       },
@@ -3551,6 +3783,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 59
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 36
           }
         ]
       },
@@ -3717,6 +3953,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 7
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 22
           }
         ],
         "image": "mln131_sp26_images/q7.webp"
@@ -3767,6 +4007,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 12
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 19
           }
         ],
         "image": "mln131_sp26_images/q9.webp"
@@ -3788,6 +4032,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 10
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 18
           }
         ],
         "image": "mln131_sp26_images/q10.webp"
@@ -3872,6 +4120,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 15
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 5
           }
         ],
         "image": "mln131_sp26_images/q15.webp"
@@ -3922,6 +4174,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 6
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 8
           }
         ],
         "image": "mln131_sp26_images/q17.webp"
@@ -3964,6 +4220,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 19
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 1
           }
         ],
         "image": "mln131_sp26_images/q19.webp"
@@ -3985,6 +4245,14 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 20
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 5
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 2
           }
         ],
         "image": "mln131_sp26_images/q20.webp"
@@ -4069,6 +4337,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 24
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 37
           }
         ],
         "image": "mln131_sp26_images/q24.webp"
@@ -4090,6 +4362,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 25
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 32
           }
         ],
         "image": "mln131_sp26_images/q25.webp"
@@ -4174,6 +4450,14 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 29
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 38
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 35
           }
         ],
         "image": "mln131_sp26_images/q29.webp"
@@ -4216,6 +4500,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 31
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 9
           }
         ],
         "image": "mln131_sp26_images/q31.webp"
@@ -4258,6 +4546,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 33
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 9
           }
         ],
         "image": "mln131_sp26_images/q33.webp"
@@ -4279,6 +4571,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 34
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 16
           }
         ],
         "image": "mln131_sp26_images/q34.webp"
@@ -4342,6 +4638,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 38
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 59
           }
         ],
         "image": "mln131_sp26_images/q38.webp"
@@ -4363,6 +4663,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 39
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 56
           }
         ],
         "image": "mln131_sp26_images/q39.webp"
@@ -4426,6 +4730,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 43
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 54
           }
         ],
         "image": "mln131_sp26_images/q43.webp"
@@ -4468,6 +4776,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 45
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 57
           }
         ],
         "image": "mln131_sp26_images/q45.webp"
@@ -4510,6 +4822,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 47
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 45
           }
         ],
         "image": "mln131_sp26_images/q47.webp"
@@ -4573,6 +4889,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 51
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 52
           }
         ],
         "image": "mln131_sp26_images/q51.webp"
@@ -4636,6 +4956,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 54
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 30
           }
         ],
         "image": "mln131_sp26_images/q54.webp"
@@ -4678,6 +5002,14 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 56
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 30
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 25
           }
         ],
         "image": "mln131_sp26_images/q56.webp"
@@ -4699,6 +5031,14 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 57
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 26
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 28
           }
         ],
         "image": "mln131_sp26_images/q57.webp"
@@ -4741,6 +5081,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 59
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 24
           }
         ],
         "image": "mln131_sp26_images/q59.webp"
@@ -4762,6 +5106,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 60
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 31
           }
         ],
         "image": "mln131_sp26_images/q60.webp"
@@ -4903,6 +5251,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 12
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 15
           }
         ]
       },
@@ -4923,6 +5275,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 13
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 9
           }
         ]
       },
@@ -5023,6 +5379,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 23
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 17
           }
         ]
       },
@@ -5042,6 +5402,10 @@ window.MLN_DATA = {
         "sources": [
           {
             "exam": "FA25 - RE",
+            "q_num": 25
+          },
+          {
+            "exam": "SU25 - B5 RE",
             "q_num": 25
           }
         ]
@@ -5063,6 +5427,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 26
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 28
           }
         ]
       },
@@ -5323,6 +5691,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 40
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 42
           }
         ]
       },
@@ -5383,6 +5755,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 44
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 41
           }
         ]
       },
@@ -5423,6 +5799,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 47
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 48
           }
         ]
       },
@@ -5443,6 +5823,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 48
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 47
           }
         ]
       },
@@ -5463,6 +5847,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 49
+          },
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 46
           }
         ]
       },
@@ -5543,6 +5931,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 55
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 58
           }
         ]
       },
@@ -5623,6 +6015,2338 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 59
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_273",
+        "combined_id": 273,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Trong một quốc gia đa tộc người thì vấn đề gì cần giải quyết được coi là có ý nghĩa cơ bản nhất để thực hiện quyền bình đẳng giữa các dân tộc?",
+        "options": {
+          "A": "Ban hành hệ thống hiến pháp và pháp luật về quyền bình đẳng giữa các dân tộc",
+          "B": "Nâng cao trình độ dân trí, văn hoá cho đồng bào",
+          "C": "Chống tư tưởng phân biệt chủng tộc, kì thị và chia rẽ dân tộc",
+          "D": "Xoá bỏ dần sự chênh lệch về mọi mặt giữa các dân tộc do lịch sử để lại"
+        },
+        "answer": "D",
+        "explanation": "Xóa bỏ dần sự chênh lệch về trình độ phát triển kinh tế, văn hóa, xã hội giữa các dân tộc do lịch sử để lại là điều kiện cơ bản nhất để thực hiện bình đẳng dân tộc trên thực tế.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 1
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_274",
+        "combined_id": 274,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyIQuestion: 2 Van de: \"Tap hop dong bao theo tin nguong, ton giao va dong bao khong theo tin nguong, ton giao xay dung khoi dai doan ket toan dan toc, xay dung va bao ve To quoc\" duoc de cap trong Luat nao?",
+        "options": {
+          "A": "Luat giao duc",
+          "B": "Luat phong, chong bao luc gia dinh",
+          "C": "Luat tin nguong, ton giao",
+          "D": "Luat me tin, ton giao FUOVERFLOWCOIV!"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 2
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_275",
+        "combined_id": 275,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyIQuestion:3 Nam hien nay la gi?",
+        "options": {
+          "A": "Dam bao su lanh dao cua Dang Cong san Viet Nam, tuan thu nguyen tac, lap truiong chinh tri cua giai cap cong nhan",
+          "B": "Dam bao cac ton giao, dan toc chuyen bien tich cuc",
+          "C": "Dam bao hai hoa loi ich, giam thieu toi muc toi da mau thuan loi ich, nhat la mau thuan loi ich kinh te",
+          "D": "Cung co moi quan he tot dep giua dan toc va ton giao, cung co khoi dai doan ket toan dan toc va doan ket FUOVERLOAICOIM ton giao"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 3
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_276",
+        "combined_id": 276,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyI Question: 4 Noi dung cot loi cua cong tac ton giao d nuoc ta hien nay la gi?",
+        "options": {
+          "A": "Cong tac giao duc chu nghia duy vat bien chuing",
+          "B": "Cong tac cam hoa giao dan",
+          "C": "Cong tac van dong quan chung",
+          "D": "Cong tac dieu hoa mau thuan giua cac ton giao RUNERRLOWEOM"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 4
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 6
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_277",
+        "combined_id": 277,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyIQuestion: 6 De tang cuiong, cung co khoi dai doan ket dan toc o nuoc ta hien nay thi chinh sach cu the nao cua Dang va Nha nudc ta dtioc coila van de cuc ky quan trong?",
+        "options": {
+          "A": "Uu tien dau tu phat trien kinh te - xa hoi cac vung dan toc va mien nui",
+          "B": "Ton trong loi ich, truyen thong, van hoa cua cac dan toc",
+          "C": "Phat huy truyen thong doan ket giua cac dan toc",
+          "D": "Tang cuong boi duong, dao tao doi ngu can bo la nguoi dan toc thieu so FUONERFLOWICOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 6
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 8
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_278",
+        "combined_id": 278,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyIQuestion:7",
+        "options": {
+          "A": "Quyen dan toc tu quyet",
+          "B": "Quyen hoan toan binh dang giua cac dan toc",
+          "C": "Quyén song, quyen tu do va quyen hanh phuc cua cac dan toc",
+          "D": "Quyén cong bang xa hoi FUONERFLONCOM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 7
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 7
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_279",
+        "combined_id": 279,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question: 10 Dan chu xa hoi chu nghia co ban chat co ban la gi?",
+        "options": {
+          "A": "Ban chat chinh tri, ban chat kinh te",
+          "B": "E Ban chat tui tuiong -van hoa -xa hoi",
+          "C": "E Ban chat tui tuiong-van hoa-xa hoi, ban chat ly luan",
+          "D": "A va B deu dung FUONERFLOANCOM"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 10
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_280",
+        "combined_id": 280,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyI Question: 11 Co so kinh te cua nen dan chu xa hoi chu nghia la gi?",
+        "options": {
+          "A": "Nen kinh te hang hoa nhieu thanh phan",
+          "B": "Che do cong huu ve nhung tui lieu san xuat chu yeu cua xa hoi",
+          "C": "Che do so huu tui nhan ve tui lieu san xuat",
+          "D": "Nen kinh te thi truong xa hoi chu nghia FUONERFLOANCOM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 11
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_281",
+        "combined_id": 281,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question:12 Nha nuoc xa hoi chu nghia la nha nudc cua ai?",
+        "options": {
+          "A": "Nhan dan lao dong",
+          "B": "Cong nhan - Nong dan",
+          "C": "Cong nhan -Nong dan- Tri thuic",
+          "D": "Lanh dao, Dang vien RUONERFLOWCON"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 12
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_282",
+        "combined_id": 282,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question: 13 Nha nudc xa hoi chu nghia ra doi la ket qua cua dieu gi?",
+        "options": {
+          "A": "Cuoc cach mang do giai cap vo san va nhan dan lao dong tien hanh dudi su lanh dao cua Dang Cong san",
+          "B": "Su chuyen bien tich cuc cua nha nudc tu san",
+          "C": "Cuoc cach mang tui san do giai cap tu san va nhan dan lao dong tien hanh duoi su lanh dao cua Dang Cong san",
+          "D": "Cuoc cach mang vo san do giai cap nong nhan tien hanh FUONERFLOANCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 13
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_283",
+        "combined_id": 283,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question: 17 Hon nhan tien bo la hon nhan xuat phat tui dau?",
+        "options": {
+          "A": "Tui tinh yeu giua nam va nu",
+          "B": "Tu quan he kinh te - xa hoi",
+          "C": "Tu co so phap ly duoc xa hoi cong nhan",
+          "D": "Tui cac yeu to dao duic truyen thong RUONERFLOWCOIM!"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 17
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_284",
+        "combined_id": 284,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question:18",
+        "options": {
+          "A": "Su coket chat ché giua cac thanh vien",
+          "B": "Phong tuc cuidi hoi",
+          "C": "Gia dinh dong con",
+          "D": "Uy quyen tuyet doi ctia nguoi chong RUOVERFLOLUEOIL"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 18
+          },
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 39
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_285",
+        "combined_id": 285,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyIQuestion: 20 Chuic nang nao duoc coi la chuic nang co ban va rieng co cua gia dinh?",
+        "options": {
+          "A": "To chuc doi song gia dinh",
+          "B": "Tai san xuat ra con nguoi",
+          "C": "Giao duc gia dinh",
+          "D": "Thoa man tam sinh ly FUONERELOUNCOIM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 20
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_286",
+        "combined_id": 286,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Cơ sở văn hóa để xây dựng gia đình trong chủ nghĩa xã hội là gì?",
+        "options": {
+          "A": "Thiết lập chính quyền nhà nước của giai cấp công nhân và nhân dân lao động, nhà nước xã hội chủ nghĩa",
+          "B": "Thiết lập chế độ công hữu về tư liệu sản xuất",
+          "C": "Giá trị văn hóa được xây dựng trên nền tảng hệ tư tưởng chính trị của giai cấp công nhân",
+          "D": "Xây dựng nền văn hóa tiên tiến mang đậm bản sắc dân tộc"
+        },
+        "answer": "C",
+        "explanation": "Cơ sở văn hóa để xây dựng gia đình trong CNXH là những giá trị văn hóa mới được xây dựng trên nền tảng hệ tư tưởng chính trị của giai cấp công nhân và từng bước loại bỏ các hủ tục, tàn dư lạc hậu.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 23
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 17
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_287",
+        "combined_id": 287,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyIQuestion: 26 Cuoc dau tranh cua giai cap vo san chong lai noi dung gi cua giai cap tu san?",
+        "options": {
+          "A": "Chong lai su thong tri, ap buic",
+          "B": "Chong lai che do doc tai",
+          "C": "Chong lai su boc lot",
+          "D": "Chong lai su thong tri, doc ton FUOVERFLOANCOIM!"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 26
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_288",
+        "combined_id": 288,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy I Question: 27 Cau noi sau day do ai noi: \"Vo san tat ca cac nuoc va cac dan toc bi ap buic, doan ket lail\"?",
+        "options": {
+          "A": "V.I.Lenin",
+          "B": "Chu tich Ho Chi Minh",
+          "C": "C.Mac",
+          "D": "Ph.Angghen RUOAERELOWEOIUI"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 27
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_289",
+        "combined_id": 289,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Sau khi chế độ xã hội chủ nghĩa Liên Xô và Đông Âu sụp đổ, chủ nghĩa xã hội khoa học được bổ sung và phát triển như thế nào?",
+        "options": {
+          "A": "Được giới trí thức thế giới nghiên cứu như một học thuyết đã lỗi thời",
+          "B": "Được các nước xã hội chủ nghĩa bổ sung và phát triển trong tình hình mới, phù hợp với bối cảnh từng nước",
+          "C": "Các nước tư bản chủ nghĩa nghiên cứu chủ nghĩa xã hội khoa học như một học thuyết nhằm khắc phục các khuyết tật của thời đại mới",
+          "D": "Được dung hòa cùng với các học thuyết tư sản khác"
+        },
+        "answer": "B",
+        "explanation": "Sau biến cố Liên Xô sụp đổ, các nước XHCN còn lại (như Việt Nam, Trung Quốc) đã kiên định và vận dụng sáng tạo, bổ sung, phát triển CNXHKH phù hợp với đặc điểm và bối cảnh cụ thể của từng nước.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 28
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_290",
+        "combined_id": 290,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyIQuestion: 29 Ai da danh gia ve chu nghia cua C. Mac la:“Hoc thuyet cua Mac la hoc thuyet van nang vi no la mot hoc thuyet chinh xac\"?",
+        "options": {
+          "A": "Chu tich Ho Chi Minh",
+          "B": "V.I.Lenin",
+          "C": "Ph.Angghen",
+          "D": "Tap Can Binh RUNVERELOWCOW"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 29
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_291",
+        "combined_id": 291,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question: 31 nghia xa hoi khong tuiong Phap?",
+        "options": {
+          "A": "Hoc thuyet ve su menh lich stui toan the gidi cua giai cap cong nhan",
+          "B": "Chu nghia duy vat lich sti",
+          "C": "Hoc thuyet ve gia tri thang dui",
+          "D": "Chu nghia duy vat bien chung FUONERFLONICOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 31
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_292",
+        "combined_id": 292,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyI Question: 33 Lam the nao de co the tao su dong thuan va phat huy tinh than doan ket thong nhat giua cac luc luong trong khoilienminhvatoanxa hoi VietNam hien nay?",
+        "options": {
+          "A": "Xay dung chu truiong, chinh sach phu hop, dung dan, giai quyet hai hoa loi ich cua tuing doi tuong lien minh cu the va dam bao loi ich chung",
+          "B": "Moi van de, moi phap luat khi duia ra deu phai thong qua tat ca cong dan de duoc ban hanh, dam bao tinh dong thuan tuyet doi",
+          "C": "Co chinh sach gan ket, rang buoc loi ich kinh te giua cac giai cap, tang lop de ho thong nhat loi ich kinh te vdi nhau, tui do dong thuan va doan ket trong moi van de FUONERFLONICOM",
+          "D": "Tat ca dap an deu duing"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 33
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_293",
+        "combined_id": 293,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyIQuestion: 34 D tao suic manh tong hop dam bao cho thang loi cua cuoc cach mang xa hoi chu nghia thi can phai co su lanhdao cuatochuic nao?",
+        "options": {
+          "A": "Cong doan",
+          "B": "Dang Cong san",
+          "C": "Hoi Thanh nien",
+          "D": "Doan Thanh nien Cong san Ho Chi Minh RUONERFLOUWEOIU"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 34
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_294",
+        "combined_id": 294,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyIQuestion: 36 Su bien doi cua co cau xa hoi - giai cap gan lien va duoc quy dinh boi su bien dong cua co cau nao?",
+        "options": {
+          "A": "Cocaudanso",
+          "B": "Co cau kinh te",
+          "C": "Co cau dan toc",
+          "D": "Co cau dan cu FUOVERLOWCOIM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 36
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_295",
+        "combined_id": 295,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyI Question: 37 Co cau kinh te trong thoi ky qua do len chu nghia xa hoio Viet Nam tuy van dong theo co che thi truong, song van co suquan ly cua chu the nao?",
+        "options": {
+          "A": "Giai cap cong nhan",
+          "B": "Dang Cong san Viet Nam",
+          "C": "Nha nuoc phap quyen xa hoi chu nghia",
+          "D": "Tang lop thong tri trong xa hoi RUONERFLONEQIU"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 37
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_296",
+        "combined_id": 296,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question:39 cac giai cap, tang lop?",
+        "options": {
+          "A": "Ho cung nhau cai tao xa hoi cu, xay duing xa hoi mdi trong moi inh vuc cua doi song xa hoi",
+          "B": "Ho cung nhau xay dung xa hoi moi trong moi linh vuc cua doi song xa hoi",
+          "C": "Ho cung nhau cai tao xa hoi cui trong moi linh vuc cua doi song xa hoi",
+          "D": "Ho cung nhau cai tao xa hoi cui, xay duing xa hoi moi trong linh vuc kinh te, chinh tri FUONERFLONCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 39
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_297",
+        "combined_id": 297,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Mức độ tác động của gia đình đối với xã hội phụ thuộc vào yếu tố nào? Lựa chọn các đáp án đúng. (Chọn 3 đáp án)",
+        "options": {
+          "A": "Vào bản chất của từng chế độ xã hội",
+          "B": "Vào đường lối, chủ trương của giai cấp cầm quyền",
+          "C": "Vào bản thân mô hình, kết cấu, đặc điểm của mỗi hình thức gia đình trong lịch sử",
+          "D": "Vào ý chí, nguyện vọng của các thành viên trong gia đình"
+        },
+        "answer": "A, B, C",
+        "explanation": "Mức độ tác động của gia đình đối với xã hội phụ thuộc vào: 1) Bản chất của từng chế độ xã hội; 2) Đường lối, chính sách của giai cấp cầm quyền; 3) Mô hình, kết cấu, đặc điểm của bản thân gia đình trong từng thời kỳ.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 40
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_298",
+        "combined_id": 298,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Đặc trưng bản chất của chủ nghĩa xã hội về phương diện kinh tế là gì? Chọn các đáp án đúng. (Chọn 2 đáp án)",
+        "options": {
+          "A": "Nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại",
+          "B": "Chế độ công hữu về tư liệu sản xuất chủ yếu",
+          "C": "Nền kinh tế phát triển cao dựa trên lực lượng sản xuất công nghiệp cơ khí",
+          "D": "Chế độ sở hữu tập thể, hỗn hợp của tư nhân và công cộng"
+        },
+        "answer": "A, B",
+        "explanation": "Về kinh tế, CNXH có 2 đặc trưng bản chất: lực lượng sản xuất phát triển cao hiện đại và chế độ công hữu về các tư liệu sản xuất chủ yếu.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 41
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 41
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_299",
+        "combined_id": 299,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question: 42 Xa hoi loai nguoi da trai qua 5 hinh thai kinh te - xa hoi, trong 5 hinh thai kinh te - xa hoi do, hinh thai nao duoc xem la thai nghen\" trong long xa hoi tu ban chu nghia?",
+        "options": {
+          "A": "Hinh thai kinh te -xa hoi chiem huu no le",
+          "B": "Hinh thai kinh te -xa hoi phong kien",
+          "C": "Hinh thai kinh te -xa hoi tu ban chu nghia",
+          "D": "Hinh thai kinh te -xa hoi cong san chu nghia FUONERFLOANCOM"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 42
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_300",
+        "combined_id": 300,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Chế độ hôn nhân tiến bộ được đảm bảo trên nguyên tắc nào? Chọn các đáp án đúng. (Chọn 3 đáp án)",
+        "options": {
+          "A": "Hôn nhân tự nguyện",
+          "B": "Hôn nhân một vợ một chồng, vợ chồng bình đẳng",
+          "C": "Hôn nhân được đảm bảo về mặt pháp lý",
+          "D": "Hôn nhân được đảm bảo về mặt kinh tế"
+        },
+        "answer": "A, B, C",
+        "explanation": "Ba nguyên tắc cơ bản của chế độ hôn nhân tiến bộ là: Hôn nhân tự nguyện; Hôn nhân một vợ một chồng, vợ chồng bình đẳng; Hôn nhân được đảm bảo về mặt pháp lý.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 43
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 43
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_301",
+        "combined_id": 301,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Cơ cấu xã hội - giai cấp của nước ta trước thời kì đổi mới bao gồm các giai cấp, tầng lớp nào? (Chọn 3 đáp án)",
+        "options": {
+          "A": "Giai cấp công nhân",
+          "B": "Giai cấp nông dân",
+          "C": "Đội ngũ trí thức",
+          "D": "Đội ngũ đảng viên"
+        },
+        "answer": "A, B, C",
+        "explanation": "Trước thời kỳ Đổi mới (năm 1986), cơ cấu xã hội - giai cấp ở Việt Nam khá thuần nhất và đơn giản, bao gồm giai cấp công nhân, giai cấp nông dân tập thể và tầng lớp trí thức XHCN.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 44
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_302",
+        "combined_id": 302,
+        "exam_code": "SU25 - B5 RE",
+        "question": "fuoverflow io Theo chu nghia Mac -Lenin, de thuc hien duoc su menh lich su cua minh, giai cap cong nhan phai thiet lap duoc su lien minh voi giai cap, tang lop nao?",
+        "options": {
+          "A": "Lien minh voi giai cap nong dan va tang lop tieutu san",
+          "B": "Lien minh voi giai cap nong dan va cac tang lop lao dong khac",
+          "C": "Lien minh voi mot bo phan giai cap tui san tien bo",
+          "D": "Lien minh voi giai cap nong dan"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 49
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 50
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_303",
+        "combined_id": 303,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1 Question: 50 O Viet Nam hien nay, to chuc nao dai dien cho quyen loi, loi ich hop phap va la noi de giai cap cong nhan chu dong, tich cuc tham gia xay dung, chinh don Dang, bao ve che do xa hoi chu nghia, bao ve nhan dan?",
+        "options": {
+          "A": "He thong to chuc Cong doan",
+          "B": "Quoc hoi",
+          "C": "Mat tran To quoc Viet Nam",
+          "D": "Hoi dong nhan dan cac cap FUONERFLOWEOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 50
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_304",
+        "combined_id": 304,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Đâu không phải là một trong những điểm tương đối ổn định của giai cấp công nhân ngày nay so với thế kỉ XIX?",
+        "options": {
+          "A": "Giai cấp công nhân vẫn là lực lượng sản xuất hàng đầu của xã hội hiện đại",
+          "B": "Giai cấp công nhân vẫn bị chủ nghĩa tư bản và giai cấp tư sản bóc lột giá trị thặng dư",
+          "C": "Giai cấp công nhân vẫn có lợi ích cơ bản xung đột với lợi ích cơ bản của giai cấp tư sản",
+          "D": "Giai cấp công nhân vẫn làm việc với cường độ cao, trình độ lao động ngày càng yếu kém"
+        },
+        "answer": "D",
+        "explanation": "Ngày nay, trình độ của giai cấp công nhân ngày càng được tri thức hóa, nâng cao tay nghề và tiếp cận công nghệ cao chứ không phải 'ngày càng yếu kém'.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 51
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_305",
+        "combined_id": 305,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question: 54 Co bao nhieu phuong huong duoc de ra tai Van kien Dai hoi dai bieu toan quoc lan thu XI trong thdi ky qua do len chu nghia xa hoi?",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "8",
+          "D": "9 RUEAERELONVCOIU"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 54
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_306",
+        "combined_id": 306,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Mâu thuẫn cơ bản và chủ yếu trong xã hội tư bản chủ nghĩa, bắt buộc nó phải được thay thế bằng hình thái kinh tế - xã hội khác phù hợp hơn là gì?",
+        "options": {
+          "A": "Mâu thuẫn giữa tính chất xã hội hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân tư bản chủ nghĩa về tư liệu sản xuất",
+          "B": "Mâu thuẫn giữa tính chất tư nhân hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân về tư liệu sản xuất",
+          "C": "Mâu thuẫn giữa tính chất chuyên môn hóa của lực lượng sản xuất với chế độ chiếm hữu tập thể tư bản chủ nghĩa về tư liệu sản xuất",
+          "D": "Mâu thuẫn giữa tính chất xã hội hóa về lực lượng sản xuất với chế độ chiếm hữu công cộng về tư liệu sản xuất"
+        },
+        "answer": "A",
+        "explanation": "Mâu thuẫn kinh tế cơ bản của CNTB là mâu thuẫn giữa lực lượng sản xuất có trình độ xã hội hóa ngày càng cao với quan hệ sản xuất dựa trên chế độ chiếm hữu tư nhân TBCN về tư liệu sản xuất.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 55
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 59
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 56
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_307",
+        "combined_id": 307,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question: 57 Dai hoi XIll cua Dang Cong san Vist Nam da de ra muc tieu gi vao nam 2045 tren con duong xay dung chu nghia xa hoi?",
+        "options": {
+          "A": "Tro thanh nuioc phat trien, co kinh te tri thuc, thu nhap trung binh cao",
+          "B": "Tro thanh con rong Chau A",
+          "C": "Tro thanh nuoc phat trien, thu nhap cao",
+          "D": "Trd thanh nudc dang phat trien, co thu nhap trung binh cao FUONERFLONCOM"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 57
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_308",
+        "combined_id": 308,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1Question: 58 xa hoi truioc day la gi?",
+        "options": {
+          "A": "Phai duoc thuc hien thong qua cuoc cach mang vo san",
+          "B": "Phai duioc thuic hien thong qua cuoc cach mang tui san",
+          "C": "Phai duoc thuc hien thong qua mot su cai bien sau sac ve trinh do phat trien cua cong nghiep va nguoi lao buop",
+          "D": "Phai co su hoi tu day du cac yeu to ve kinh te va chinh tri FUOVERLOAICOL!"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 58
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_309",
+        "combined_id": 309,
+        "exam_code": "SU25 - B5 RE",
+        "question": "KizspyIQuestion: 59 thuc nao?",
+        "options": {
+          "A": "Qua do gian tiep",
+          "B": "Qua do truc tiep",
+          "C": "Qua do bo phan",
+          "D": "Qua do toan dien RUOVERFLOUWCOIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 59
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_310",
+        "combined_id": 310,
+        "exam_code": "SU25 - B5 RE",
+        "question": "Kizspy1 Question: 60 Thoi ky qua do tu tu ban len chu nghia xa hoi con ton tai nhieu tu tuiong khac nhau, chu yeu trong do la cac tu joeu buon",
+        "options": {
+          "A": "Tu tuong vo san va tui tuong tui san",
+          "B": "Tu tuong vo san va tui tuong dia chu phong kien",
+          "C": "Tu tuong chu no va tui tuong tu san",
+          "D": "Tu tuiong vo san va tu tuiong chu no FUONERFLONCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 RE",
+            "q_num": 60
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_311",
+        "combined_id": 311,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Ưu tiên đầu tư phát triển kinh tế - xã hội ở các vùng dân tộc và miền núi, trước hết, tập trung vào phát triển vấn đề gì?",
+        "options": {
+          "A": "Giao thông và cơ sở hạ tầng, xóa đói, giảm nghèo",
+          "B": "Kết cấu hạ tầng kỹ thuật, xóa đói giảm nghèo, y tế, giáo dục",
+          "C": "Giao thông và kiến trúc thượng tầng, xóa đói giảm nghèo",
+          "D": "Giao thông và kết cấu hạ tầng, y tế, giáo dục"
+        },
+        "answer": "A",
+        "explanation": "Chính sách ưu tiên hàng đầu tại vùng đồng bào dân tộc thiểu số và miền núi là phát triển hệ thống giao thông, cơ sở hạ tầng thiết yếu và đẩy mạnh chương trình mục tiêu quốc gia xóa đói, giảm nghèo.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 1
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 5
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 5
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_312",
+        "combined_id": 312,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyI Question: 2",
+        "options": {
+          "A": "Do su dan ap, thong tri qua khat nghiet cua chu nghia thuc dan",
+          "B": "Do mau thuan loi ich, quyen loi",
+          "C": "Do su thuic tinh, truong thanh ve y thuic dan toc",
+          "D": "Do su phat trien ve so luong qua lon FUONERFLOWCOM"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 2
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_313",
+        "combined_id": 313,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 4 Ve phuiong dien the gioi quan, da so cac ton giao mang the gioi quan nao?",
+        "options": {
+          "A": "Duy tam",
+          "B": "Duy vat",
+          "C": "Duy vat bien chung",
+          "D": "Duy vat sieu hinh RUONERFLOWEOIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 4
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 4
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_314",
+        "combined_id": 314,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyI Question: 6 Theo quan diem cua chu nghia Mac -Lenin, loainguoi da trai qua cac hinh thuic cong dong tu thap den cao theo thu tu la gi?",
+        "options": {
+          "A": "Thi toc, bo lac, bo toc va dan toc",
+          "B": "Bo toc, bo lac, thi toc va dan toc",
+          "C": "Dan toc, thi toc, bo lac va bo toc",
+          "D": "Bo lac, bo toc, thi toc va dan toc RUONERELONEQIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 6
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_315",
+        "combined_id": 315,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 8 O nuioc ta, cac dan toc thieu so phan bo chu yeu o cac dia ban co dac diem nhu the nao?",
+        "options": {
+          "A": "Co vi tri chien luioc quan trong",
+          "B": "Co dieu kien phat trien kinh te - xa hoi tot nhat",
+          "C": "O dong bang tru phu",
+          "D": "O cac hai dao xa xoi RUONERFLOUWEOIU!"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 8
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_316",
+        "combined_id": 316,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Nen dan chu xa hoi chu nghia mang ban chat cua giai cap nao?",
+        "options": {
+          "A": "Giai cap tui san",
+          "B": "Giai cap nong dan",
+          "C": "C Giaicap cong nhan",
+          "D": "Giai cap tieu tu san RUONERFLOUWCOIU"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 11
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_317",
+        "combined_id": 317,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 12 Hinh thuc dan chu o Viet Nam ma nguoi dan bau ra co quan guyen luc nha nuidc cao nhat, uy quyen cho ho",
+        "options": {
+          "A": "Hinh thuic dan chu truc tiep",
+          "B": "Hinh thuic dan chu gian tiep",
+          "C": "Hinh thuic dan chu dai nghi",
+          "D": "Hinh thuic dan chu cong khai FUONERFLOWCOM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 12
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_318",
+        "combined_id": 318,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Kizspy1Question:13 Ban chat dan chu cua che do nuoc ta hien nay duoc hieu nhu the nao?",
+        "options": {
+          "A": "Che do ta la do nhan dan lam chu, quyen luic thuoc ve nhan dan",
+          "B": "Che do ta la do Dang Cong san Viet Nam lam chu, la dai dien y chi, nguyen vong cua nhan dan",
+          "C": "Che do ta la do giai cap cong nhan lam chu, quyen luc thuoc ve giai cap cong nhan",
+          "D": "Che do ta la do ca nhan lam chu, duoc hien thuc hoa thong qua vai tro lam chu duy nhat cua Dang Cong san Viet Nam FUOVERFLOWCO"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 13
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_319",
+        "combined_id": 319,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 14 Onuoc ta, han dan coquyen bau ra nhung nguoi dai dien cho minh de thuc thi quyen lam chu, va dong thoi co quyen gi voi quyen bau cui do?",
+        "options": {
+          "A": "Quyen bai mien nhung dai bieu khong xung dang",
+          "B": "Quyen tu minh tham gia tro thanh dai bieu khong qua bau cui",
+          "C": "Quyén giai tan he thong chinh tri",
+          "D": "Quyen tu do ngon luan FUONERFLONCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 14
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_320",
+        "combined_id": 320,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Kizspy1Question:15 Can cu vao tinh chat cua quyen luc nha nuoc, chuc nang cua nha nudc bao gom chuc nang nao sau day?",
+        "options": {
+          "A": "Chtic nang xa hoi va chuic nang giai cap",
+          "B": "Chuic nang doi ngoai, doi noi",
+          "C": "Chuic nang kinh te - chinh tri",
+          "D": "Chuic nang van hoa - xa hoi FUONERFLONCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 15
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_321",
+        "combined_id": 321,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Tại sao nói nhà nước xã hội chủ nghĩa là nhà nước kiểu mới?",
+        "options": {
+          "A": "Vì nó xuất hiện trễ nhất trong các kiểu nhà nước",
+          "B": "Vì bản chất của nó đối lập với các kiểu nhà nước bóc lột từng có trong lịch sử",
+          "C": "Vì do không tuân theo các quy tắc tổ chức nhà nước cổ điển",
+          "D": "Vì nó thực hiện dân chủ cho thiểu số nhân dân lao động"
+        },
+        "answer": "B",
+        "explanation": "Nhà nước XHCN là kiểu nhà nước 'nửa nhà nước', nhà nước kiểu mới vì về bản chất nó mang bản chất của giai cấp công nhân, phục vụ đa số nhân dân lao động, hoàn toàn đối lập với các nhà nước bóc lột của giai cấp thiểu số trong lịch sử.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 16
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_322",
+        "combined_id": 322,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Kizspy1Question: 19 Gia dinh Viet Nam hien dai co may the he cung song chung?",
+        "options": {
+          "A": "1 the he",
+          "B": "2 the he",
+          "C": "3 the he",
+          "D": "4 the he RUONERFLOWEOIU"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 19
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_323",
+        "combined_id": 323,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyI Question: 22 Chuic nang van hoa cua gia dinh the hien dieu gi?",
+        "options": {
+          "A": "Gia dinh la noi luu giu truyen thong van hoa cua dan toc, la noi sang tao va thu huidng nhung gia tri van hoa cua xa hoi",
+          "B": "Gia dinh la noi chiu su chi phoi, che udc cua cac yeu to van hoa ciui va mdi dan xen",
+          "C": "Gia dinh la noi thuc thi cac chinh sach van hoa, mang dam dau an cua giai cap thong tri",
+          "D": "Gia dinh la noi giao luu van hoa cua cac cong dong toc nguoi FUONERFLOWCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 22
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_324",
+        "combined_id": 324,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyI Question: 23 Nguon goc gay nen tinh trang thong tri cua nguoi dan ong trong gia dinh, su bat binh dang nam, nu, giua vo chong, su no dich doi voi phu nui trong gia dinh la gi?",
+        "options": {
+          "A": "La che do phong kien",
+          "B": "La che do hon nhan phu he",
+          "C": "Lachedotuhuuvetuilieusanxuat",
+          "D": "La cac quan niem dao dtic loi thoi FUONERFLONCOM"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 23
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_325",
+        "combined_id": 325,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyI Question: 25 Mot trong ba phat kien vi dai cua C.Mac va Ph.Angghen la gi?",
+        "options": {
+          "A": "Thanh lap quoc te cong san",
+          "B": "Ung ho nhan dan lao dong",
+          "C": "Hoc thuyet ve sui menh lich sui toan the gidi cua giai cap cong nhan",
+          "D": "Nhan dinh va tim ra mau thuan giai cap trong xa hoi BUOVERFLOWCO"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 25
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_326",
+        "combined_id": 326,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyI Question: 29 Ve mat thuic tien, dau khong phai la mot y nghia cua viec nghien cuu chu nghia xa hoi khoa hoc?",
+        "options": {
+          "A": "Thay ro khoang cach giuia ly luan chu nghia xa hoi khoa hoc va thuc tien van dung no",
+          "B": "Su sup do cua Lien Xo va Dong Au la do da nhan thuc va hanh dong tren nhieu van de trai voi chu nghia xa cac nudc nay khung hoang",
+          "C": "Can co ban linh vuing vang, sang suot va sang tao trong viec van dung chu nghia xa hoi khoa hoc vao boi canh lich sti cu the cua tuing quoc gia, tranh giao dieu, bao thu, duy y chi FUOVERFLOWCO!",
+          "D": "Giup chung ta co can cu nhan thuic khoa hoc de luon canh giac, phan tich dung va dau tranh chong lai nhuing nhan thuic sai lech ve chu nghia xa hoi"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 29
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_327",
+        "combined_id": 327,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Kizspy1Question: 30 Theo nghia rong, chu nghia xa hoi khoa hoc duoc hieu la gi?",
+        "options": {
+          "A": "La mot trong ba bo phan hop thanh chu nghia Mac - Lenin",
+          "B": "La chu nghia Mac - Lenin, luan giai tui cac giac do triet hoc, kinh te hoc chinh tri va chinh tri xa hoi ve su",
+          "C": "La mot hoc thuyet trinh bay su ra doi, phat trien va suy vong cua chu nghia tu ban",
+          "D": "La mot hinh thai kinh te - xa hoi trong tien trinh lich sui tu nhien cua loai nguoi FUOVERFLOAWCO"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 30
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_328",
+        "combined_id": 328,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 31 nghia xa hoi khoa hoc?",
+        "options": {
+          "A": "J.Xtalin",
+          "B": "G.Di-mi-trop",
+          "C": "S.Phurie",
+          "D": "S.Simon RUONERFLOEOIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 31
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_329",
+        "combined_id": 329,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "fuoverflow13 Noi dung van hoa -xa hoi trong lien minh giai cap, tang lop o nuoc ta hien nay doi hoi phai dam bao dieu gi?",
+        "options": {
+          "A": "Gan tang truong kinh te voi phat trien van hoa, phat trien con nguoi va thuc hien tien bo, cong bang xa hoi",
+          "B": "Gan tang truong kinh te voi doc lap, tu do, phat huy nguon luc lanh dao cua kinh te tu nhan",
+          "C": "Thuc hien tang truong kinh te bang moi gia, tien nhanh den nen kinh te thi truong hien dai",
+          "D": "Tiep thu toan bo cac yeu to van hoa nhan loai trong tien trinh hoi nhap va tang truong kinh te"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 32
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 33
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_330",
+        "combined_id": 330,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Cơ cấu xã hội là gì?",
+        "options": {
+          "A": "Là những cộng đồng người hợp thành một chế độ xã hội",
+          "B": "Là những người trong cùng một giai cấp, tầng lớp thực hiện phân chia quyền lực",
+          "C": "Là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tác động lẫn nhau của các cộng đồng ấy tạo nên",
+          "D": "Là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tác động của cộng đồng người ấy với tự nhiên tạo nên"
+        },
+        "answer": "C",
+        "explanation": "Cơ cấu xã hội là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tác động lẫn nhau của các cộng đồng ấy tạo nên trong một hình thái kinh tế - xã hội nhất định.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 33
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 34
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_331",
+        "combined_id": 331,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 34 Trong thoi ki qua do len chu nghia xa hoi, ben canh su lien minh chat che tren co sd thong nhat loi ich kinh te giua giai cap cong nhan, nong dan va tri thuc, con xuat hien van de gi?",
+        "options": {
+          "A": "Xuat hien nhung mau thuan loi ich d nhung muic do khac nhau",
+          "B": "Xuat hien su dau tranh kich liet trong he thong chuyen chinh vo san",
+          "C": "Xuat hien su chong pha cua cac giai cap trong lien minh",
+          "D": "Xuat hien su chuyen quyen, doc doan cua mot bo phan FUOVERFLOWCO!"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 34
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_332",
+        "combined_id": 332,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyI Question: 36 Dau khong phai la mot trong nhung nhiem vu cua cac chinh sach lien quan den co cau xa hoi -giai cap?",
+        "options": {
+          "A": "Giai quyet tot cac moi quan he noi bo tuing giai cap",
+          "B": "Huong toi dam bao cong bang xa hoi, thu hep dan khoang cach phat trien va su phan hoa giau ngheo giua cac giai cap, tang lop",
+          "C": "Giai quyet tot cac moi quan he giua giai cap, tang lop nay vdi giai cap, tang lop khac",
+          "D": "Tao dieu kien thuan loi de cac giai cap cong nhan co the canh tranh tot tren tat ca cac linh vuc cua doi song xa hoi FUOVERELOAICOIV!"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 36
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_333",
+        "combined_id": 333,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Trong cách mạng xã hội chủ nghĩa, giai cấp công nhân phải liên minh được với giai cấp nông dân và các tầng lớp nhân dân lao động khác trong giai đoạn nào? Lựa chọn các đáp án đúng. (Chọn 2 đáp án)",
+        "options": {
+          "A": "Giai đoạn giành chính quyền",
+          "B": "Giai đoạn xây dựng chế độ xã hội mới",
+          "C": "Giai đoạn đấu tranh đòi các quyền tự do, dân chủ",
+          "D": "Giai đoạn xóa bỏ giai cấp sau khi xây dựng thành công chủ nghĩa xã hội"
+        },
+        "answer": "A, B",
+        "explanation": "Liên minh công - nông - trí thức là tất yếu khách quan diễn ra xuyên suốt trong cả 2 giai đoạn: giành chính quyền cách mạng và xây dựng chế độ xã hội mới.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 40
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 41
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_334",
+        "combined_id": 334,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyI Question: 44 Van de nao de dan toi nguy co gay mat on dinh chinh tri, xa hoi, de tao co hoi cho cac th luc thu dich ben ngoaican thiepvaocongviec noibocuadat nuidc?",
+        "options": {
+          "A": "Van de ton giao va dan toc",
+          "B": "Van de me tin di doan va tho cung ong ba",
+          "C": "Van de ngoai giao",
+          "D": "Van de chinh tri RUONERFLONCOI"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 44
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_335",
+        "combined_id": 335,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 45 Ai da khang dinh van de: “Trong cong truong thu cong va trong nghe thu cong. nguoi cong nhan su dung cong cu cua minh, con trong cong xuong thi nguoi cong nhan phai phuc vu may moc\"?",
+        "options": {
+          "A": "Chu tich Ho Chi Minh",
+          "B": "V.I.Lenin",
+          "C": "C.Mac va Ph.Angghen",
+          "D": "Tap Can Binh RUONERFLOUWEOIU"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 45
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_336",
+        "combined_id": 336,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Điều kiện chủ quan để giai cấp công nhân thực hiện sứ mệnh lịch sử của mình là gì? Lựa chọn các đáp án đúng. (Chọn 3 đáp án)",
+        "options": {
+          "A": "Sự phát triển của bản thân giai cấp công nhân về cả số lượng và chất lượng",
+          "B": "Phải có Đảng Cộng sản lãnh đạo",
+          "C": "Phải có sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác",
+          "D": "Giai cấp công nhân đại diện cho phương thức sản xuất tiên tiến và lực lượng sản xuất hiện đại"
+        },
+        "answer": "A, B, C",
+        "explanation": "Ba điều kiện chủ quan gồm: sự trưởng thành của giai cấp công nhân; vai trò lãnh đạo của Đảng Cộng sản; và sự liên minh chặt chẽ công - nông và các tầng lớp lao động (D là điều kiện khách quan).",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 46
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_337",
+        "combined_id": 337,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 47 Giai cap nao la dai bieu cho luc luong san xuat tien tien, cho phuong thuc san xuat hien dai?",
+        "options": {
+          "A": "Tu san",
+          "B": "Nong dan",
+          "C": "Cong nhan",
+          "D": "Thong tri RUOVERFLOUWCOIL"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 47
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_338",
+        "combined_id": 338,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 49 Trong thoi dai hien nay, hao phi lao dong chu yeu cua giai cap cong nhan da bien doi nhu the nao?",
+        "options": {
+          "A": "Giam bot hao phi suic luic co bap, gia tang hao phi ve tri luc",
+          "B": "Dong thoi gia tang ca hao phi stic luc va tri luc",
+          "C": "Gia tang yeu to tam luic trong qua trinh lao dong",
+          "D": "Giam bot hao phi ve tri luc, gia tang hao phi stuic luc FUONERFLOWCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 49
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 48
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 51
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_339",
+        "combined_id": 339,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 51 cac cong cu san xuat cho tinh chat cong nghiep ngay cang hien dai va xa hoi hoa cao?",
+        "options": {
+          "A": "Tusan",
+          "B": "Cong nhan",
+          "C": "Nong dan",
+          "D": "Dia chu RUONERFLOUWEOIU"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 51
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_340",
+        "combined_id": 340,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Kizspy1Question:52 Dac truing ban chat nao cua chu nghia xa hoi the hien day la che do xa hoi vi con ngudi, do con nguoi?",
+        "options": {
+          "A": "Chu nghia xa hoi co nen kinh te phat trien cao, dua tren che do tui huu ve tu lieu san xuat chu yeu",
+          "B": "Chu nghia xa hoi la che do xa hoi do nhan dan lao dong lam chu",
+          "C": "Chu nghia xa hoi giai phong giai cap cong nhan, nhan dan lao dong va dong thoi dan ap giai cap thong tri tan bao la giai cap tui san",
+          "D": "Chu nghia xa hoi co nha nuidc kieu moi mang ban chat giai cap cong nhan, dai bieu cho loi ich, quyen luc va y chi cua rieng giai cap cong nhan FUONERFLONCOM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 52
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_341",
+        "combined_id": 341,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "Kizspy1Question: 53 Dien cum tu thich hop vao (.): Ve ly luan, khong the nghi ngo gi duoc rang giua .. va... co mot thoi ky qua do rquip teyu",
+        "options": {
+          "A": "Chu nghia tui ban/ chui nghia cong san",
+          "B": "Chu nghia tu ban/ Giai cap cong nhan",
+          "C": "Nhan dan lao dong/ chinh quyen",
+          "D": "Chinh tri/ xa hoi RUONERFLONEOIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 53
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_342",
+        "combined_id": 342,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 59 Dac trung co ban dau tien cua chu nghia xa hoi la gi?",
+        "options": {
+          "A": "Chu nghia xa hoi co nha nuidc kieu moi mang ban chat giai cap cong nhan, dai bieu cho loi ich, quyen luc va y chi cua nhan dan lao dong",
+          "B": "Chu nghia xa hoi giai phong giai cap, giai phong dan toc, giai phong xa hoi, giai phong con nguoi, tao dieu kien de con nguoi phat trien toan dien",
+          "C": "Chu nghia xa hoi la xa hoi do nhan dan lao dong lam chu",
+          "D": "Chu nghia xa hoi co nen kinh te phat trien cao dua tren luc luidng san xuat hien dai va che do cong huu ve FUONERFLOWCOM tu lieu san xuat chu yeu"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 59
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_343",
+        "combined_id": 343,
+        "exam_code": "SU25 - B5 (1)",
+        "question": "KizspyIQuestion: 60 Tinh chat xa hoi hoa cao cua luc luong san xuat doi hoi van de gi?",
+        "options": {
+          "A": "Mot quan he san xuat mdi, phu hop vdi che do cong huu cac tu lieu san xuat chu yeu cua xa hoi",
+          "B": "Mot co so ha tang mdi, phu hop vdi che do cong huu cac tu lieu san xuat chu yeu cua xa hoi",
+          "C": "Mot luc luiong san xuat mdi, phu hop vdi che do cong huu cac tu lieu san xuat chu yeu cua xa hoi",
+          "D": "Mot kien truic thuong tang moi, phu hop voi luc luong san xuat mdi FUOVERFLOWCO"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - B5 (1)",
+            "q_num": 60
+          },
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 47
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_344",
+        "combined_id": 344,
+        "exam_code": "SU25 - FEKTS",
+        "question": "Theo quan điểm của chủ nghĩa Mác - Lênin, loài người đã trải qua các hình thức cộng đồng từ thấp đến cao theo thứ tự là gì?",
+        "options": {
+          "A": "Thị tộc, bộ lạc, bộ tộc và dân tộc",
+          "B": "Bộ tộc, bộ lạc, thị tộc và dân tộc",
+          "C": "Dân tộc, thị tộc, bộ lạc và bộ tộc",
+          "D": "Bộ lạc, bộ tộc, thị tộc và dân tộc"
+        },
+        "answer": "A",
+        "explanation": "Tiến trình phát triển lịch sử của các hình thái cộng đồng người diễn ra theo tuần tự: Thị tộc -> Bộ lạc -> Bộ tộc -> Dân tộc.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 1
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_345",
+        "combined_id": 345,
+        "exam_code": "SU25 - FEKTS",
+        "question": "Đảng Cộng sản Việt Nam đã nêu rõ vấn đề nào trong Văn kiện Đại hội đại biểu toàn quốc lần thứ XII?",
+        "options": {
+          "A": "Vấn đề dân tộc có vai trò quan trọng đối với sự nghiệp phát triển kinh tế - xã hội ở nước ta hiện nay.",
+          "B": "Vấn đề dân tộc và đoàn kết các dân tộc có vị trí quyết định đến sự sống còn của dân tộc ta hiện nay.",
+          "C": "Vấn đề dân tộc và đoàn kết các dân tộc luôn có vị trí chiến lược trong sự nghiệp cách mạng.",
+          "D": "Vấn đề đoàn kết dân tộc là điều kiện cần cho sự nghiệp cách mạng ở nước ta hiện nay."
+        },
+        "answer": "C",
+        "explanation": "Đại hội XII của Đảng khẳng định: 'Vấn đề dân tộc và đoàn kết các dân tộc có vị trí chiến lược lâu dài trong sự nghiệp cách mạng nước ta'.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 7
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 3
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_346",
+        "combined_id": 346,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow",
+        "options": {
+          "A": "Dan chu la mot gia tri nhan loai chung",
+          "B": "Dan chu la nguoi dan dudc tu do, hanh phuc",
+          "C": "Dan chu la phat trien dat nudc Xa hoi chu nghia o Viet Nam",
+          "D": "B va C deu dung"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 9
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 44
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_347",
+        "combined_id": 347,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow Trong cac nen dan chu da va dang ton tai trong lich su loai nguoi, thi nen dan chu nao la nen dan chu phat trien cao nhat ve chat?",
+        "options": {
+          "A": "Dan chu chu no",
+          "B": "Dan chu tu san",
+          "C": "Dan chu xa hoichu nghia",
+          "D": "Dan chu cong san chu nghia"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 10
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_348",
+        "combined_id": 348,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow Van de:\"Xay dung nha nuoc do nhan dan lao dong lam chu, do la Nha nuoc cua dan, do dan, vi dan\"la dac diem thu may trong cac dac diem cua Nha nudc phap quyen xa hoi chu nghia Viet Nam?",
+        "options": {
+          "A": "1",
+          "B": "3",
+          "C": "5",
+          "D": "6"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 13
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_349",
+        "combined_id": 349,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow 4 To chuic va hoat dong cua bo may nha nuoc phap quyen xa hoi chu nghia Viet Nam thuc hien theo nguyen tac nao?",
+        "options": {
+          "A": "Nguyentac.taptrungdanchu",
+          "B": "Nguyentac dan churongrai",
+          "C": "Nguyen tac ca nhan phu trach",
+          "D": "Nguyén tac lap phap"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 14
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_350",
+        "combined_id": 350,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow :8 Danh gia sau duoc trich trong tac pham nao:tac pham chu yeu va co ban ay trinh bay chu nghia xa hoi khoa hoc... nhuingyeutotuido nay sinh ra chedotuonglai\"?",
+        "options": {
+          "A": "Chong Duyring",
+          "B": "DuongKach menh",
+          "C": "Tuyen ngon cua Dang Congsan",
+          "D": "Tu ban"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 28
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_351",
+        "combined_id": 351,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow :9 san?",
+        "options": {
+          "A": "Nong dan",
+          "B": "Tu san",
+          "C": "Chu no",
+          "D": "Cong nhan"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 29
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_352",
+        "combined_id": 352,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow 2 nao trong xa hoi cang tro nen quan trong?",
+        "options": {
+          "A": "Cong nhan",
+          "B": "Nong dan",
+          "C": "Tri thuc",
+          "D": "Doanh nhan"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 32
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_353",
+        "combined_id": 353,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow /33 Trong.cocauxahoi-giaicapo VietNam hien nay.giai cap,tang lopnao dang donggoptichcuc vao viec thuc hien chien lugc phat trien kinh te -xa hoi, tao viec lam cho ngudi lao dong?",
+        "options": {
+          "A": "Giai cap cong nhan",
+          "B": "Giai cap nong dan",
+          "C": "Tang Iop tri thuc",
+          "D": "Tang lop doanh nhan"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 33
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_354",
+        "combined_id": 354,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow 6 Co cau kinh te trong thoiky qua dolen chunghia xahoi Viet Nam tuy van dong theo co che thi truong,song vancosuquanlycuachuthenao?",
+        "options": {
+          "A": "Giai cap cong nhan",
+          "B": "DangCongsanVietNam",
+          "C": "Nha nuoc phap quyen xa hoichu nghia",
+          "D": "Tang lop thong tri trong xa hoi"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 36
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_355",
+        "combined_id": 355,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow \"7 tuu khoa hoc -cong nghe hien dai?",
+        "options": {
+          "A": "Doi ngu tri thtic, doi ngu doanh nhan",
+          "B": ". Giai cap cong nhan, doi ngutri thuic",
+          "C": "Doi ngu tri thuic, giai cap nong dan",
+          "D": "Doi ngu doanh nhan, tang lop lao dong trong xa hoi"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 37
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_356",
+        "combined_id": 356,
+        "exam_code": "SU25 - FEKTS",
+        "question": "Thực chất của liên minh công - nông - trí thức ở nước ta về nội dung kinh tế là gì?",
+        "options": {
+          "A": "Là sự hợp tác giữa họ, đồng thời mở rộng liên kết với các lực lượng khác để xây dựng nền kinh tế mới xã hội chủ nghĩa hiện đại",
+          "B": "Là sự hợp tác giữa họ, đồng thời mở rộng liên kết với các lực lượng khác để xây dựng nền kinh tế thị trường tự do hiện đại",
+          "C": "Là sự hợp tác và đấu tranh giữa họ, đồng thời mở rộng liên kết và đấu tranh với các lực lượng khác để xây dựng nền kinh tế mới",
+          "D": "Là sự hợp tác giữa họ, đồng thời mở rộng liên kết với các lực lượng khác để xây dựng nền chính trị dân chủ"
+        },
+        "answer": "A",
+        "explanation": "Thực chất kinh tế của liên minh là hợp tác cùng phát triển lực lượng sản xuất, xây dựng cơ sở vật chất kỹ thuật của CNXH.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 38
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 34
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_357",
+        "combined_id": 357,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow 9 Trong thoi ky qua do len chu nghia xa hoi, yeu to nao quyet dinh moiquan he hop tac, gan bo chat che giua cac giai cap, tang lop?",
+        "options": {
+          "A": "Ho cung nhau cai tao xa hoi cui,xaydungxahoimdi trong moilinh vuc cua doi song xahoi",
+          "B": "Ho cung nhau xay dung xa hoi moi trong moi linh vuc cua doi song xa hoi",
+          "C": "Ho cung nhau cai tao xa hoi cui trong moi linh vuc cua doi song xa hoi",
+          "D": "Ho cung nhau cai tao xa hoi cui, xay dung xa hoi moi trong linh vuc kinh te, chinh tri"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 39
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_358",
+        "combined_id": 358,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow 12 cho rang \"khac tuoi', neu Anh A va Chi B den voi nhau thi gia dinh se co nguoi\"gap xui xeo, chet\". Day duoc xem la niem tin (loai hinh) nao sau day?",
+        "options": {
+          "A": "Ton giao",
+          "B": "Hoi nhom",
+          "C": "Me tin di doan",
+          "D": "Tin nguong"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 42
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_359",
+        "combined_id": 359,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow 14 Dien cum tui thich hop vao (.) \"can phai co mot thoi ky qua do kha lau dai tui... en..",
+        "options": {
+          "A": "Chu nghia tu ban/ Chu nghia xa hoi",
+          "B": "Chu nghia xa hoi/ Chu nghia cong san",
+          "C": "Giai cap cong nhan/ nguoi nam chinh quyen",
+          "D": "Nguoi bi boc lot/ len lam chu"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 44
+          },
+          {
+            "exam": "SP25 - FE",
+            "q_num": 39
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_360",
+        "combined_id": 360,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow 16 Su menh lich su the gidi cua giai cap cong nhan la gi?",
+        "options": {
+          "A": "Xoa bo su thong tri ap buic cua chu nghia tu ban, xay dung thanh cong che do xa hoi moi-xa hoi chu nghia va cong san chu nghia, tien toi mot xa hoi khong con giai cap",
+          "B": "Xoa bo su thong tri ap buc cua che do phong kien, xay dung thanh cong che do xa hoimdi -xa hoi chu nghia va cong san chu nghia, tien toi mot xa hoi khong con giai cap",
+          "C": "Xoa bo su thong tri ap buic cua che do cong xa nguyen thuy,xay dung thanh cong che do xa hoi moi-xa",
+          "D": "Xoa bo su thong tri ap buic cua chu nghia tu ban, xay dung thanh cong che do xa hoi moi - phong kien"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 46
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_361",
+        "combined_id": 361,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow Dai hoiXI, trong Cuong linh xay dung dat nuoc trong thoi qua do len chu nghia xa hoi (Bo sung va phat trien nam 2011) xac dinh bao nhieu phuong hudng phan anh con duong di len chu nghia xa hoi d nuoc ta?",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 53
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_362",
+        "combined_id": 362,
+        "exam_code": "SU25 - FEKTS",
+        "question": "fuoverflow i7 Theo chu nghia Mac -Lenin, hinh thai kinh te-xa hoi cong san chu nghia co khac biet dac truing nao voi cac hinh thai kinh te -xa hoi chiem huu no le, phong kien va tu ban chu nghia?",
+        "options": {
+          "A": "Hinh thai kinh te-xa hoi cong san chu nghia la giai doan phat trien cao nhat va cuoi cung cua lich su loai nguoi",
+          "B": "Hinh thai kinh te-xa hoi cong san chu nghia khac biet ve chat, do la xa hoi khong co giai cap doi khang nhu cac xa hoi truoc do",
+          "C": "Hinh thai kinh te -xa hoi cong san chu nghia la phien ban dieu chinh tot hon tu tu ban chu nghia",
+          "D": "Hinh thai kinh te - xa hoi cong san chu nghia la quay tro lai cong san nguyen thuy"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 57
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_363",
+        "combined_id": 363,
+        "exam_code": "SU25 - FEKTS",
+        "question": "Chủ nghĩa xã hội có mấy đặc trưng bản chất?",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "7"
+        },
+        "answer": "C",
+        "explanation": "Theo giáo trình Chủ nghĩa xã hội khoa học, chủ nghĩa xã hội có 6 đặc trưng bản chất cơ bản.",
+        "sources": [
+          {
+            "exam": "SU25 - FEKTS",
+            "q_num": 60
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_364",
+        "combined_id": 364,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow Cac ton giao o nuoc ta co dac diem ton tai nhu the nao trong long quoc gia -dan toc?",
+        "options": {
+          "A": "Da dang, dan xen, chung song hoa binh va khong co xung dot, chien tranh ton giao",
+          "B": "Da dang, dan xen, canh tranh voi nhau",
+          "C": "Da dang, dan xen, dau tranh voi nhau de gianh vi tri thong tri",
+          "D": "Thong nhat duoi su thong tri cua Dang Cong san Viet Nam"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 7
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_365",
+        "combined_id": 365,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow: chu nghia de quoc di boc lot thuoc dia?",
+        "options": {
+          "A": "Cong dong dan cu muon tach ra de hinh thanh cong dong dan toc doc lap",
+          "B": "Cac dan toc trong tuing quoc gia, tham chi cac dan toc d nhieuquoc gia muon lien hiep lai vdi nhau",
+          "C": "Cong dong dan toc yeu the co xu huong xac nhap voi cac dan toc co trinh do phat trien cao hon",
+          "D": "Cong dong dan toc phat trien hung thinh se co y dinh tach ra hinh thanh quoc gia -dan toc doc lap"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 8
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_366",
+        "combined_id": 366,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow Hinh thuc dan chuoViet Nam ma nguoi dan bau ra co quan quyen luc nha nuidc cao nhat,uy quyen cho ho thuc hien quyen luc cua nhan dan duioc goi la hinh thuic dan chu gi?",
+        "options": {
+          "A": "Hinh thuic dan chu truc tiep",
+          "B": "Hinh thuic dan chu gian tiep",
+          "C": "Hinh thtic dan chu dai nghi",
+          "D": "Hinh thuic dan chu cong khai"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 10
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_367",
+        "combined_id": 367,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow Cuoi the ky XiV-dau theky XV,giai cap tu san vdi nhung tu tuong tien bo ve tu do, cong bang, dan chu da mo duong cho su ra doi cua nen dan chu nao?",
+        "options": {
+          "A": "Dan chunongdan",
+          "B": "Danchutusan",
+          "C": "Dan chu vo san",
+          "D": "Dan chu hoa binh"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 12
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_368",
+        "combined_id": 368,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow Trong cackieu nha nuoc dudi day,nha nuoc naola nha nuoc cua tat ca moi nguoi,moi giai cap?",
+        "options": {
+          "A": "Nhanuocchiemhuunole",
+          "B": "Nha nudc tu san",
+          "C": "Nha nuoc xa hoichu nghia",
+          "D": "Khong co kieunhanudc nao la cua tat ca giaicap"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 13
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_369",
+        "combined_id": 369,
+        "exam_code": "SP25 - FE",
+        "question": "Sứ mệnh của nhà nước xã hội chủ nghĩa là gì?",
+        "options": {
+          "A": "Xây dựng thành công chủ nghĩa cộng sản, đưa tất cả các giai cấp, tầng lớp lên địa vị làm chủ trên tất cả các mặt của đời sống xã hội trong một xã hội phát triển cao - xã hội cộng sản chủ nghĩa",
+          "B": "Xây dựng thành công chủ nghĩa xã hội, đưa giai cấp công nhân lên địa vị thống trị trên tất cả các mặt của đời sống xã hội trong một xã hội phát triển cao - xã hội xã hội chủ nghĩa",
+          "C": "Xây dựng thành công chủ nghĩa xã hội, đưa nhân dân lao động lên địa vị làm chủ trên tất cả các mặt của đời sống xã hội trong một xã hội phát triển cao - xã hội xã hội chủ nghĩa",
+          "D": "Xây dựng thành công xã hội chủ nghĩa, đưa tất cả các giai cấp, tầng lớp lên địa vị làm chủ trên tất cả các mặt của đời sống xã hội trong một xã hội phát triển cao - xã hội xã hội chủ nghĩa"
+        },
+        "answer": "C",
+        "explanation": "Sứ mệnh lịch sử của nhà nước XHCN là tổ chức xây dựng thành công CNXH, đưa nhân dân lao động thực sự trở thành người làm chủ mọi mặt đời sống xã hội.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 14
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_370",
+        "combined_id": 370,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow Dau khong phai la mot chuic nang cua gia dinh?",
+        "options": {
+          "A": "Chuc nang kinh te va to chuic tieu dung",
+          "B": "Chuic nang nuoi duong, giao duc",
+          "C": "Chuic nang thoa man nhu cau tam sinh ly, duy tri tinh cam",
+          "D": "Chtic nang nghe nghiep"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 18
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_371",
+        "combined_id": 371,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow Hinh thuic gia dinh nao hinh thanh som nhat trong lich su?",
+        "options": {
+          "A": "Gia dinh mot vo mot chong",
+          "B": "Gia dinh phu he",
+          "C": "Dai gia dinh phu he",
+          "D": "C Gia dinh mau he"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 19
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_372",
+        "combined_id": 372,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow 2 Neu truioc kia, gia dinh Viet Nam tieu dung san pham do minhlam ra la chinh,thi hien nay,gia dinh Viet Nam dang tien toi xu huong tieu dung chu yeu nao?",
+        "options": {
+          "A": "Xu huong su dung hang hoa, dich vu cua phuc loi Nha nuoc",
+          "B": "Xu huiong tieu dung san pham do nguioi khac lam ra",
+          "C": "Xu huong tieu dung san pham nuoc ngoai",
+          "D": "Tieu dung san pham duoc cap phat"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 22
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_373",
+        "combined_id": 373,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow 7 \"Tukhibo Tu ban ra doi-quan niem duy vat lich su khong con la mot gia thuyet nua, ma la mot nguyen ly da duoc chting minh mot cach khoa hoc\". Nhandinhtren la cuaai?",
+        "options": {
+          "A": "V.I.Lenin",
+          "B": "C.Mac",
+          "C": "Ph.Angghen",
+          "D": "S.Phurie"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 27
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_374",
+        "combined_id": 374,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow :9 Theo nghia hep, chu nghia xa hoi khoa hoc duoc hieu la gi?",
+        "options": {
+          "A": "La mot trong ba bo phan hop thanh chu nghia Mac- Lenin",
+          "B": "La nhung thanh tuu cua con nguoi dat duoc trong qua trinh dau tranh giai cap",
+          "C": "La su chuyen bien tat yeu cua xa hoi loai nguoi tu chu nghia tu ban len mot xa hoi tot dep hon",
+          "D": "La mot hinh thai kinh te -xa hoi"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 29
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_375",
+        "combined_id": 375,
+        "exam_code": "SP25 - FE",
+        "question": "Các khẩu hiệu “sống có việc làm hay là chết trong đấu tranh” (1831) và “cộng hòa hay là chết” (1834) xuất hiện trong phong trào đấu tranh của công nhân dệt ở Lion (Pháp) có ý nghĩa gì?",
+        "options": {
+          "A": "Phong trào đấu tranh của giai cấp công nhân đã chuyển từ mục đích kinh tế sang mục đích chính trị",
+          "B": "Phong trào đấu tranh của giai cấp công nhân đã có lý luận soi đường",
+          "C": "Phong trào đấu tranh của giai cấp công nhân đã có những thắng lợi to lớn",
+          "D": "Phong trào đấu tranh của giai cấp công nhân chuyển từ tự phát sang tự giác"
+        },
+        "answer": "A",
+        "explanation": "Sự chuyển biến từ khẩu hiệu kinh tế (1831: đòi việc làm) sang khẩu hiệu chính trị (1834: đòi nền cộng hòa) đánh dấu bước tiến chuyển từ mục đích kinh tế sang mục đích chính trị.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 30
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_376",
+        "combined_id": 376,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow \"1 Cau truc co ban cua mot hinh thai kinh te - xa hoi la gi?",
+        "options": {
+          "A": "Luc luiong san xuat, quan he san xuat va kien truc thuong tang",
+          "B": "Co so kinh te va the che nha nuioc",
+          "C": "Co so ha tang va luc luiong san xuat",
+          "D": "Luc luong san xuat va quan he san xuat"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 31
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_377",
+        "combined_id": 377,
+        "exam_code": "SP25 - FE",
+        "question": "Trong thời kì quá độ lên chủ nghĩa xã hội, giai cấp tư sản có vị thế như thế nào?",
+        "options": {
+          "A": "Đã bị loại bỏ hoàn toàn",
+          "B": "Đã bị chuyển hóa thành giai cấp công nhân",
+          "C": "Đã bị đánh bại nhưng vẫn còn sức mạnh về kinh tế",
+          "D": "Đã tự thân mình chuyển biến thành giai cấp liên minh với giai cấp cách mạng"
+        },
+        "answer": "C",
+        "explanation": "Trong thời kỳ quá độ, giai cấp tư sản đã bị lật đổ chính quyền nhưng chưa bị xóa bỏ hoàn toàn, chúng vẫn còn sức mạnh kinh tế và tìm cách chống đối chính quyền nhân dân.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 32
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_378",
+        "combined_id": 378,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow Dau khong phaila mot trong nhuing loai cua co cau xa hoi?",
+        "options": {
+          "A": "Co cau xa hoi-giai cap",
+          "B": "Co cau xa hoi -nghe nghiep",
+          "C": "Co cau xa hoi-ha tang",
+          "D": "C Co cau xa hoi-ton giao"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 37
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_379",
+        "combined_id": 379,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow i2 Thoi ky qua do len chu nghia xa hoi la thoi ky dau tranh giai cap trong dieu kien moi, dieu kien do la gi?",
+        "options": {
+          "A": "Giai cap tu san da tro thanh luc luong phan dong",
+          "B": "Giai cap cong nhan va nhan dan lao dong da tro thanh giai cap cam quyen",
+          "C": "Su phat trien cua cong nghiep hoa dan den that nghiep tran lan",
+          "D": "Dang Cong san da duoc thanh lap,va ngay cang the hien vai tro lanh dao tich cuc trong phong trao dau tranh gianh chinh quyen"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 52
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_380",
+        "combined_id": 380,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow /i3 Thoi ky qua do len chu nghia xahoio Viet Nam la bo qua che do gi?",
+        "options": {
+          "A": "Phong kien",
+          "B": "Tu ban chu nghia",
+          "C": "Chiem huuno le",
+          "D": "Cong san nguyen thuy"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 53
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_381",
+        "combined_id": 381,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow i4 Theo chu nghia Mac -Lenin, su thay the hinh thai kinh te -xa hoi tu ban chu nghia bang hinh thai kinh te -xa hoi cong san chu nghia la gi?",
+        "options": {
+          "A": "Motsucai bienmangtinhchatchuquan",
+          "B": "Mot buidc ngoat phat trien mdi, dua nhan loai thoat khoi loi mon cu",
+          "C": "Mot qua trinh lich su-tui nhien",
+          "D": "Mot qua trinh can thiep cua con nguoi bang y chi nham cai bien lich su theo hudng nhan van, tich cuc hon"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 54
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_382",
+        "combined_id": 382,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow i5 Cach mang vo san la gi?",
+        "options": {
+          "A": "Cuoc cach mang cua giai cap nong dan va nhan dan lao dong duoi su lanh dao cua Dang Cong san, duoc thuc hien bang con duong bao luc cach mang nham lat do che do tu ban chu nghia, thiet lap nha nudc chuyen chinh vo san",
+          "B": "Cuoc cach mang cua giai cap cong nhan va nhan dan lao dong dudi su lanh dao cua Dang Cong san, tren thuc te duoc thuic hien bang con duong tuyen truyen giao duc nham lat do che do tu ban chu nghia, thiet lap nha nudc chuyen chinh vo san",
+          "C": "Cuoc cach mang cua giai cap cong nhan va nhan dan lao dong duoi su lanh dao cua Dang Cong san, tren chuyen chinh vo san",
+          "D": "Cuoc cach mang cua giai cap cong nhan va nhan dan lao dong duidi su lanh dao cua Dang Cong san, duioc thuc hien bang con duong bao luc cach mang nham lat do che do tu ban chu nghia, thiet lap nha nuoc chuyen chinh vo san"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 55
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_383",
+        "combined_id": 383,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow i7 Cho den nay, hinh thuc qua do len xa hoi chu nghia nao da tuing dien ra tren thuc te o Viet Nam?",
+        "options": {
+          "A": "Qua do gian tiep",
+          "B": "Qua do truc tiep",
+          "C": "C Quadobophan",
+          "D": "Qua do toan dien"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 57
+          }
+        ]
+      },
+      {
+        "id": "mln131_comb_384",
+        "combined_id": 384,
+        "exam_code": "SP25 - FE",
+        "question": "fuoverflow i8 Dai hoi XIll cua Dang Cong san VietNamda deramuc tieugi vaonam 2030 tren con duong xay dung chu nghia xa hoi?",
+        "options": {
+          "A": "La nuioc dang phat trien, co thu nhap trung binh",
+          "B": "La nuoc dang phat trien, co cong nghiep hien dai, thu nhap trung binh cao",
+          "C": "La nudc phat trien, co thu nhap trung binh cao",
+          "D": "La nuoc phat trién, co thu nhap cao"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "sources": [
+          {
+            "exam": "SP25 - FE",
+            "q_num": 58
           }
         ]
       }
@@ -9810,6 +12534,3162 @@ window.MLN_DATA = {
         },
         "answer": "A",
         "explanation": "Các nước như Liên Xô trước đây, Đông Âu và các nước XHCN hiện nay đều xuất phát từ các nước có nền kinh tế nông nghiệp lạc hậu hoặc tiền tư bản, do đó đều thực hiện con đường quá độ gián tiếp lên chủ nghĩa xã hội (bỏ qua chế độ TBCN)."
+      }
+    ]
+  },
+  "mln131_su25_b5_re": {
+    "id": "mln131_su25_b5_re",
+    "name": "Đề Thi MLN131 - SU25 B5 RE",
+    "shortName": "SU25 - B5 RE",
+    "semester": "SU25",
+    "total": 60,
+    "questions": [
+      {
+        "id": "mln131_su25_b5_re_1",
+        "q_num": 1,
+        "question": "Trong một quốc gia đa tộc người thì vấn đề gì cần giải quyết được coi là có ý nghĩa cơ bản nhất để thực hiện quyền bình đẳng giữa các dân tộc?",
+        "options": {
+          "A": "Ban hành hệ thống hiến pháp và pháp luật về quyền bình đẳng giữa các dân tộc",
+          "B": "Nâng cao trình độ dân trí, văn hoá cho đồng bào",
+          "C": "Chống tư tưởng phân biệt chủng tộc, kì thị và chia rẽ dân tộc",
+          "D": "Xoá bỏ dần sự chênh lệch về mọi mặt giữa các dân tộc do lịch sử để lại"
+        },
+        "answer": "D",
+        "explanation": "Xóa bỏ dần sự chênh lệch về trình độ phát triển kinh tế, văn hóa, xã hội giữa các dân tộc do lịch sử để lại là điều kiện cơ bản nhất để thực hiện bình đẳng dân tộc trên thực tế."
+      },
+      {
+        "id": "mln131_su25_b5_re_2",
+        "q_num": 2,
+        "question": "KizspyIQuestion: 2 Van de: \"Tap hop dong bao theo tin nguong, ton giao va dong bao khong theo tin nguong, ton giao xay dung khoi dai doan ket toan dan toc, xay dung va bao ve To quoc\" duoc de cap trong Luat nao?",
+        "options": {
+          "A": "Luat giao duc",
+          "B": "Luat phong, chong bao luc gia dinh",
+          "C": "Luat tin nguong, ton giao",
+          "D": "Luat me tin, ton giao FUOVERFLOWCOIV!"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_3",
+        "q_num": 3,
+        "question": "KizspyIQuestion:3 Nam hien nay la gi?",
+        "options": {
+          "A": "Dam bao su lanh dao cua Dang Cong san Viet Nam, tuan thu nguyen tac, lap truiong chinh tri cua giai cap cong nhan",
+          "B": "Dam bao cac ton giao, dan toc chuyen bien tich cuc",
+          "C": "Dam bao hai hoa loi ich, giam thieu toi muc toi da mau thuan loi ich, nhat la mau thuan loi ich kinh te",
+          "D": "Cung co moi quan he tot dep giua dan toc va ton giao, cung co khoi dai doan ket toan dan toc va doan ket FUOVERLOAICOIM ton giao"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_4",
+        "q_num": 4,
+        "question": "KizspyI Question: 4 Noi dung cot loi cua cong tac ton giao d nuoc ta hien nay la gi?",
+        "options": {
+          "A": "Cong tac giao duc chu nghia duy vat bien chuing",
+          "B": "Cong tac cam hoa giao dan",
+          "C": "Cong tac van dong quan chung",
+          "D": "Cong tac dieu hoa mau thuan giua cac ton giao RUNERRLOWEOM"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_5",
+        "q_num": 5,
+        "question": "Các chủ trương, chính sách phát triển kinh tế - xã hội miền núi, vùng đồng bào các dân tộc thiểu số ở nước ta nhằm mục đích gì?",
+        "options": {
+          "A": "Phát huy tiềm năng phát triển, rút ngắn khoảng cách chênh lệch giữa các vùng, các dân tộc",
+          "B": "Bù đắp cho đồng bào ở các nơi này để động viên họ cố gắng giữ gìn bờ cõi quốc gia",
+          "C": "Giảm thiểu sự lợi dụng điều kiện sống cực khổ của các nơi này để kích động thực hiện mưu đồ chia rẽ",
+          "D": "Tận dụng mọi nguồn lực để tăng trưởng kinh tế khi ở các vùng đồng bằng đã cạn kiệt"
+        },
+        "answer": "A",
+        "explanation": "Mục tiêu chính là phát huy tiềm năng phát triển và từng bước thu hẹp khoảng cách phát triển giữa các vùng miền, các dân tộc."
+      },
+      {
+        "id": "mln131_su25_b5_re_6",
+        "q_num": 6,
+        "question": "KizspyIQuestion: 6 De tang cuiong, cung co khoi dai doan ket dan toc o nuoc ta hien nay thi chinh sach cu the nao cua Dang va Nha nudc ta dtioc coila van de cuc ky quan trong?",
+        "options": {
+          "A": "Uu tien dau tu phat trien kinh te - xa hoi cac vung dan toc va mien nui",
+          "B": "Ton trong loi ich, truyen thong, van hoa cua cac dan toc",
+          "C": "Phat huy truyen thong doan ket giua cac dan toc",
+          "D": "Tang cuong boi duong, dao tao doi ngu can bo la nguoi dan toc thieu so FUONERFLOWICOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_7",
+        "q_num": 7,
+        "question": "KizspyIQuestion:7",
+        "options": {
+          "A": "Quyen dan toc tu quyet",
+          "B": "Quyen hoan toan binh dang giua cac dan toc",
+          "C": "Quyén song, quyen tu do va quyen hanh phuc cua cac dan toc",
+          "D": "Quyén cong bang xa hoi FUONERFLONCOM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_8",
+        "q_num": 8,
+        "question": "Ở nước ta, cư trú của các dân tộc có đặc trưng như thế nào?",
+        "options": {
+          "A": "Mỗi dân tộc tập trung cư trú duy nhất trên một địa bàn, ngoại trừ dân tộc Kinh",
+          "B": "Các dân tộc cư trú xen kẽ nhau, không có một dân tộc nào tập trung duy nhất trên một địa bàn",
+          "C": "Các dân tộc phân bố đồng đều",
+          "D": "Các dân tộc được phân chia lãnh thổ theo vị trí địa lý và đặc điểm ra đời, phát triển của dân tộc đó"
+        },
+        "answer": "B",
+        "explanation": "Đặc điểm nổi bật của các dân tộc ở Việt Nam là cư trú xen kẽ nhau, không có dân tộc nào cư trú hoàn toàn biệt lập."
+      },
+      {
+        "id": "mln131_su25_b5_re_9",
+        "q_num": 9,
+        "question": "Dân chủ xã hội chủ nghĩa được xem là phôi thai từ thực tiễn đấu tranh giai cấp ở quốc gia nào?",
+        "options": {
+          "A": "Ở Đức",
+          "B": "Ở Pháp",
+          "C": "Ở Liên Xô",
+          "D": "Ở Trung Quốc"
+        },
+        "answer": "B",
+        "explanation": "Nền dân chủ XHCN được phôi thai từ thực tiễn đấu tranh của giai cấp công nhân và nhân dân lao động Pháp qua sự kiện Công xã Pari năm 1871."
+      },
+      {
+        "id": "mln131_su25_b5_re_10",
+        "q_num": 10,
+        "question": "Kizspy1Question: 10 Dan chu xa hoi chu nghia co ban chat co ban la gi?",
+        "options": {
+          "A": "Ban chat chinh tri, ban chat kinh te",
+          "B": "E Ban chat tui tuiong -van hoa -xa hoi",
+          "C": "E Ban chat tui tuiong-van hoa-xa hoi, ban chat ly luan",
+          "D": "A va B deu dung FUONERFLOANCOM"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_11",
+        "q_num": 11,
+        "question": "KizspyI Question: 11 Co so kinh te cua nen dan chu xa hoi chu nghia la gi?",
+        "options": {
+          "A": "Nen kinh te hang hoa nhieu thanh phan",
+          "B": "Che do cong huu ve nhung tui lieu san xuat chu yeu cua xa hoi",
+          "C": "Che do so huu tui nhan ve tui lieu san xuat",
+          "D": "Nen kinh te thi truong xa hoi chu nghia FUONERFLOANCOM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_12",
+        "q_num": 12,
+        "question": "Kizspy1Question:12 Nha nuoc xa hoi chu nghia la nha nudc cua ai?",
+        "options": {
+          "A": "Nhan dan lao dong",
+          "B": "Cong nhan - Nong dan",
+          "C": "Cong nhan -Nong dan- Tri thuic",
+          "D": "Lanh dao, Dang vien RUONERFLOWCON"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_13",
+        "q_num": 13,
+        "question": "Kizspy1Question: 13 Nha nudc xa hoi chu nghia ra doi la ket qua cua dieu gi?",
+        "options": {
+          "A": "Cuoc cach mang do giai cap vo san va nhan dan lao dong tien hanh dudi su lanh dao cua Dang Cong san",
+          "B": "Su chuyen bien tich cuc cua nha nudc tu san",
+          "C": "Cuoc cach mang tui san do giai cap tu san va nhan dan lao dong tien hanh duoi su lanh dao cua Dang Cong san",
+          "D": "Cuoc cach mang vo san do giai cap nong nhan tien hanh FUONERFLOANCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_14",
+        "q_num": 14,
+        "question": "Tại sao nói dân chủ trong xã hội chiếm hữu nô lệ là dân chủ thiểu số?",
+        "options": {
+          "A": "Vì số lượng con người thời đó rất ít",
+          "B": "Vì nội hàm của khái niệm “dân” chỉ bao gồm giai cấp chủ nô và một bộ phận nhỏ công dân tự do",
+          "C": "Vì sức tập trung lãnh thổ của các lãnh chúa nhỏ bé",
+          "D": "Vì quyền lực thực sự thuộc vào tay một lãnh chúa lớn nhất"
+        },
+        "answer": "B",
+        "explanation": "Trong nền dân chủ chủ nô, 'dân' chỉ bao gồm giai cấp chủ nô và một số công dân tự do, còn đa số dân cư là nô lệ không được coi là công dân (chỉ là công cụ biết nói), do đó là dân chủ thiểu số."
+      },
+      {
+        "id": "mln131_su25_b5_re_15",
+        "q_num": 15,
+        "question": "Nhiệm vụ cấp bách, lâu dài của quá trình xây dựng Nhà nước pháp quyền xã hội chủ nghĩa ở nước ta là gì?",
+        "options": {
+          "A": "Phòng chống tham nhũng, lãng phí và thực hành tiết kiệm",
+          "B": "Miễn nhiệm những người không hoàn thành nhiệm vụ",
+          "C": "Nâng cao chất lượng đội ngũ cán bộ, công chức",
+          "D": "Có chính sách đãi ngộ, động viên, khuyến khích cán bộ, công chức"
+        },
+        "answer": "A",
+        "explanation": "Đảng ta xác định phòng chống tham nhũng, lãng phí và thực hành tiết kiệm là nhiệm vụ cấp bách, lâu dài của quá trình xây dựng Nhà nước pháp quyền XHCN."
+      },
+      {
+        "id": "mln131_su25_b5_re_16",
+        "q_num": 16,
+        "question": "Cần làm gì để tăng cường công tác giám sát, phản biện xã hội, phát huy quyền làm chủ của nhân dân ở nước ta?",
+        "options": {
+          "A": "Cong khai hoa, minh bach hoa, dan chu hoa ve thong tin, chu truong, chinh sach cua Dang va Nha nuoc",
+          "B": "Cong khai hoa, phap luat hoa chu truiong, chinh sach cua Dang va Nha nuoc",
+          "C": "Cong khai hoa, thuc thi hoa chu truiong, chinh sach cua Dang, Nha nudc va cua ca he thong chinh tri",
+          "D": "Trien khai manh me, dong bo hoa he thong phap luat FUOVERFLOWCOM"
+        },
+        "answer": "A",
+        "explanation": "Phát huy vai trò của Mặt trận Tổ quốc Việt Nam và các tổ chức chính trị - xã hội là phương thức cốt lõi để thực hiện giám sát và phản biện xã hội."
+      },
+      {
+        "id": "mln131_su25_b5_re_17",
+        "q_num": 17,
+        "question": "Kizspy1Question: 17 Hon nhan tien bo la hon nhan xuat phat tui dau?",
+        "options": {
+          "A": "Tui tinh yeu giua nam va nu",
+          "B": "Tu quan he kinh te - xa hoi",
+          "C": "Tu co so phap ly duoc xa hoi cong nhan",
+          "D": "Tui cac yeu to dao duic truyen thong RUONERFLOWCOIM!"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_18",
+        "q_num": 18,
+        "question": "Kizspy1Question:18",
+        "options": {
+          "A": "Su coket chat ché giua cac thanh vien",
+          "B": "Phong tuc cuidi hoi",
+          "C": "Gia dinh dong con",
+          "D": "Uy quyen tuyet doi ctia nguoi chong RUOVERFLOLUEOIL"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_19",
+        "q_num": 19,
+        "question": "Cơ sở kinh tế - xã hội để xây dựng gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
+        "options": {
+          "A": "Là sự phát triển của lực lượng sản xuất và tương ứng với nó là quan hệ sản xuất mới, xã hội chủ nghĩa",
+          "B": "Là sự phát triển của trình độ lao động, khoa học kỹ thuật của xã hội",
+          "C": "Là điều kiện lao động, công ăn, việc làm và thu nhập của công dân",
+          "D": "Thiết lập chính quyền nhà nước của giai cấp công nhân và nhân dân lao động"
+        },
+        "answer": "A",
+        "explanation": "Cơ sở kinh tế - xã hội của gia đình trong thời kỳ quá độ là sự phát triển của lực lượng sản xuất và tương ứng với nó là quan hệ sản xuất mới xã hội chủ nghĩa."
+      },
+      {
+        "id": "mln131_su25_b5_re_20",
+        "q_num": 20,
+        "question": "KizspyIQuestion: 20 Chuic nang nao duoc coi la chuic nang co ban va rieng co cua gia dinh?",
+        "options": {
+          "A": "To chuc doi song gia dinh",
+          "B": "Tai san xuat ra con nguoi",
+          "C": "Giao duc gia dinh",
+          "D": "Thoa man tam sinh ly FUONERELOUNCOIM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_21",
+        "q_num": 21,
+        "question": "Nhân tố nào sau đây có vai trò quyết định đến sự tồn tại và phát triển của xã hội?",
+        "options": {
+          "A": "Con người",
+          "B": "Gia đình",
+          "C": "Tư duy",
+          "D": "Khoa học kỹ thuật"
+        },
+        "answer": "A",
+        "explanation": "Ph.Ăngghen chỉ rõ: Sản xuất ra tư liệu sinh hoạt và tái sản xuất ra bản thân con người (thông qua thiết chế gia đình) là hai nhân tố quyết định sự tồn tại và phát triển của xã hội."
+      },
+      {
+        "id": "mln131_su25_b5_re_22",
+        "q_num": 22,
+        "question": "KizspyIQuestion:7",
+        "options": {
+          "A": "Chinh tri va phap quyén",
+          "B": "Chinh tri va tu tuiong",
+          "C": "Tu tuong va van hoa",
+          "D": "Giao duc va tui tuidng RUOVERFLONCOIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_23",
+        "q_num": 23,
+        "question": "Cơ sở văn hóa để xây dựng gia đình trong chủ nghĩa xã hội là gì?",
+        "options": {
+          "A": "Thiết lập chính quyền nhà nước của giai cấp công nhân và nhân dân lao động, nhà nước xã hội chủ nghĩa",
+          "B": "Thiết lập chế độ công hữu về tư liệu sản xuất",
+          "C": "Giá trị văn hóa được xây dựng trên nền tảng hệ tư tưởng chính trị của giai cấp công nhân",
+          "D": "Xây dựng nền văn hóa tiên tiến mang đậm bản sắc dân tộc"
+        },
+        "answer": "C",
+        "explanation": "Cơ sở văn hóa để xây dựng gia đình trong CNXH là những giá trị văn hóa mới được xây dựng trên nền tảng hệ tư tưởng chính trị của giai cấp công nhân và từng bước loại bỏ các hủ tục, tàn dư lạc hậu."
+      },
+      {
+        "id": "mln131_su25_b5_re_24",
+        "q_num": 24,
+        "question": "Kizspy1Question: 24",
+        "options": {
+          "A": "Quan hegituia chong va vo, quan he giuia cha me va con cai",
+          "B": "Quan he giua ong ba voi con cai, quan he gitia vd va chong",
+          "C": "Quan he gituia to tien va ong ba, cha me",
+          "D": "Quan he gitia con cai va cha me FUONERFLONICOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_25",
+        "q_num": 25,
+        "question": "Chủ nghĩa xã hội khoa học có chức năng giác ngộ và hướng dẫn giai cấp công nhân thực hiện sứ mệnh lịch sử của mình trong thời kỳ nào?",
+        "options": {
+          "A": "Thời kỳ đấu tranh lật đổ sự thống trị của giai cấp tư sản, giành chính quyền, xây dựng chủ nghĩa xã hội",
+          "B": "Thời kỳ đấu tranh lật đổ sự thống trị của giai cấp địa chủ, giành chính quyền, xây dựng chủ nghĩa xã hội",
+          "C": "Thời kỳ đấu tranh lật đổ sự thống trị của giai cấp tư sản, giành chính quyền,",
+          "D": "Thời kỳ đấu tranh lật đổ sự thống trị của giai cấp chủ nô, giành chính quyền, xây dựng chủ nghĩa xã hội"
+        },
+        "answer": "A",
+        "explanation": "CNXHKH trang bị thế giới quan và phương pháp luận cách mạng, giác ngộ và dẫn dắt giai cấp công nhân xuyên suốt quá trình thực hiện sứ mệnh lịch sử: từ đấu tranh lật đổ giai cấp tư sản giành chính quyền cho tới xây dựng thành công chế độ XHCN."
+      },
+      {
+        "id": "mln131_su25_b5_re_26",
+        "q_num": 26,
+        "question": "KizspyIQuestion: 26 Cuoc dau tranh cua giai cap vo san chong lai noi dung gi cua giai cap tu san?",
+        "options": {
+          "A": "Chong lai su thong tri, ap buic",
+          "B": "Chong lai che do doc tai",
+          "C": "Chong lai su boc lot",
+          "D": "Chong lai su thong tri, doc ton FUOVERFLOANCOIM!"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_27",
+        "q_num": 27,
+        "question": "Kizspy I Question: 27 Cau noi sau day do ai noi: \"Vo san tat ca cac nuoc va cac dan toc bi ap buic, doan ket lail\"?",
+        "options": {
+          "A": "V.I.Lenin",
+          "B": "Chu tich Ho Chi Minh",
+          "C": "C.Mac",
+          "D": "Ph.Angghen RUOAERELOWEOIUI"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_28",
+        "q_num": 28,
+        "question": "Sau khi chế độ xã hội chủ nghĩa Liên Xô và Đông Âu sụp đổ, chủ nghĩa xã hội khoa học được bổ sung và phát triển như thế nào?",
+        "options": {
+          "A": "Được giới trí thức thế giới nghiên cứu như một học thuyết đã lỗi thời",
+          "B": "Được các nước xã hội chủ nghĩa bổ sung và phát triển trong tình hình mới, phù hợp với bối cảnh từng nước",
+          "C": "Các nước tư bản chủ nghĩa nghiên cứu chủ nghĩa xã hội khoa học như một học thuyết nhằm khắc phục các khuyết tật của thời đại mới",
+          "D": "Được dung hòa cùng với các học thuyết tư sản khác"
+        },
+        "answer": "B",
+        "explanation": "Sau biến cố Liên Xô sụp đổ, các nước XHCN còn lại (như Việt Nam, Trung Quốc) đã kiên định và vận dụng sáng tạo, bổ sung, phát triển CNXHKH phù hợp với đặc điểm và bối cảnh cụ thể của từng nước."
+      },
+      {
+        "id": "mln131_su25_b5_re_29",
+        "q_num": 29,
+        "question": "KizspyIQuestion: 29 Ai da danh gia ve chu nghia cua C. Mac la:“Hoc thuyet cua Mac la hoc thuyet van nang vi no la mot hoc thuyet chinh xac\"?",
+        "options": {
+          "A": "Chu tich Ho Chi Minh",
+          "B": "V.I.Lenin",
+          "C": "Ph.Angghen",
+          "D": "Tap Can Binh RUNVERELOWCOW"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_30",
+        "q_num": 30,
+        "question": "Đối tượng nghiên cứu của chủ nghĩa xã hội khoa học là gì?",
+        "options": {
+          "A": "Là những quy luật, tính quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển của hình thái kinh tế - xã hội cộng sản chủ nghĩa",
+          "B": "Là những quy luật, tính quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển của hình thái kinh tế - xã hội xã hội chủ nghĩa",
+          "C": "Là những quy luật, tính quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển của hình thái kinh tế - xã hội tư bản chủ nghĩa",
+          "D": "Là những quy luật, tính quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển của hình thái kinh tế - xã hội tư bản chủ nghĩa và cộng sản chủ nghĩa"
+        },
+        "answer": "A",
+        "explanation": "Đối tượng nghiên cứu của CNXHKH là những quy luật và tính quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển của hình thái kinh tế - xã hội cộng sản chủ nghĩa."
+      },
+      {
+        "id": "mln131_su25_b5_re_31",
+        "q_num": 31,
+        "question": "Kizspy1Question: 31 nghia xa hoi khong tuiong Phap?",
+        "options": {
+          "A": "Hoc thuyet ve su menh lich stui toan the gidi cua giai cap cong nhan",
+          "B": "Chu nghia duy vat lich sti",
+          "C": "Hoc thuyet ve gia tri thang dui",
+          "D": "Chu nghia duy vat bien chung FUONERFLONICOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_32",
+        "q_num": 32,
+        "question": "Trong thời kì quá độ lên chủ nghĩa xã hội ở Việt Nam hiện nay, giai cấp công nhân có vị trí, vai trò như thế nào trong khối liên minh giai cấp?",
+        "options": {
+          "A": "La luic luiong nong cot, tien phong trong lien minh giai cap",
+          "B": "La luc luiong ho trd duy tri lien minh",
+          "C": "La luc luong duy tri khoi dai doan ket cua giai cap cong nhan, nong dan vdi tui san va tri thuic",
+          "D": "Tat ca dap an deu dung FUONERFLOWCOM"
+        },
+        "answer": "A",
+        "explanation": "Giai cấp công nhân là lực lượng lãnh đạo khối liên minh công - nông - trí thức thông qua đội tiền phong là Đảng Cộng sản Việt Nam."
+      },
+      {
+        "id": "mln131_su25_b5_re_33",
+        "q_num": 33,
+        "question": "KizspyI Question: 33 Lam the nao de co the tao su dong thuan va phat huy tinh than doan ket thong nhat giua cac luc luong trong khoilienminhvatoanxa hoi VietNam hien nay?",
+        "options": {
+          "A": "Xay dung chu truiong, chinh sach phu hop, dung dan, giai quyet hai hoa loi ich cua tuing doi tuong lien minh cu the va dam bao loi ich chung",
+          "B": "Moi van de, moi phap luat khi duia ra deu phai thong qua tat ca cong dan de duoc ban hanh, dam bao tinh dong thuan tuyet doi",
+          "C": "Co chinh sach gan ket, rang buoc loi ich kinh te giua cac giai cap, tang lop de ho thong nhat loi ich kinh te vdi nhau, tui do dong thuan va doan ket trong moi van de FUONERFLONICOM",
+          "D": "Tat ca dap an deu duing"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_34",
+        "q_num": 34,
+        "question": "KizspyIQuestion: 34 D tao suic manh tong hop dam bao cho thang loi cua cuoc cach mang xa hoi chu nghia thi can phai co su lanhdao cuatochuic nao?",
+        "options": {
+          "A": "Cong doan",
+          "B": "Dang Cong san",
+          "C": "Hoi Thanh nien",
+          "D": "Doan Thanh nien Cong san Ho Chi Minh RUONERFLOUWEOIU"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_35",
+        "q_num": 35,
+        "question": "Cơ sở để xác định thời đại và phân chia thời đại là gì?",
+        "options": {
+          "A": "Hình thái kinh tế - xã hội và vị trí của một giai cấp đứng ở vị trí trung tâm",
+          "B": "Vị trí của một giai cấp đứng ở vị trí trung tâm",
+          "C": "Sự phát triển của lực lượng sản xuất và một quan hệ sản xuất phù hợp",
+          "D": "Cách mạng xã hội chủ nghĩa do giai cấp công nhân lãnh đạo thành công"
+        },
+        "answer": "A",
+        "explanation": "Theo V.I.Lênin: cơ sở để phân chia thời đại là căn cứ vào hình thái kinh tế - xã hội và việc giai cấp nào đứng ở vị trí trung tâm quyết định phương hướng phát triển của xã hội."
+      },
+      {
+        "id": "mln131_su25_b5_re_36",
+        "q_num": 36,
+        "question": "KizspyIQuestion: 36 Su bien doi cua co cau xa hoi - giai cap gan lien va duoc quy dinh boi su bien dong cua co cau nao?",
+        "options": {
+          "A": "Cocaudanso",
+          "B": "Co cau kinh te",
+          "C": "Co cau dan toc",
+          "D": "Co cau dan cu FUOVERLOWCOIM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_37",
+        "q_num": 37,
+        "question": "KizspyI Question: 37 Co cau kinh te trong thoi ky qua do len chu nghia xa hoio Viet Nam tuy van dong theo co che thi truong, song van co suquan ly cua chu the nao?",
+        "options": {
+          "A": "Giai cap cong nhan",
+          "B": "Dang Cong san Viet Nam",
+          "C": "Nha nuoc phap quyen xa hoi chu nghia",
+          "D": "Tang lop thong tri trong xa hoi RUONERFLONEQIU"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_38",
+        "q_num": 38,
+        "question": "Nội dung văn hóa - xã hội của liên minh giai cấp, tầng lớp là gì?",
+        "options": {
+          "A": "Xây dựng nền văn hóa và con người Việt Nam phát triển toàn diện",
+          "B": "Tập trung phát triển công nghiệp nặng",
+          "C": "Xóa bỏ các phong tục tập quán truyền thống",
+          "D": "Phát triển mạng lưới thương mại quốc tế"
+        },
+        "answer": "A",
+        "explanation": "Nội dung văn hóa - xã hội của liên minh là xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc và con người Việt Nam phát triển toàn diện."
+      },
+      {
+        "id": "mln131_su25_b5_re_39",
+        "q_num": 39,
+        "question": "Kizspy1Question:39 cac giai cap, tang lop?",
+        "options": {
+          "A": "Ho cung nhau cai tao xa hoi cu, xay duing xa hoi mdi trong moi inh vuc cua doi song xa hoi",
+          "B": "Ho cung nhau xay dung xa hoi moi trong moi linh vuc cua doi song xa hoi",
+          "C": "Ho cung nhau cai tao xa hoi cui trong moi linh vuc cua doi song xa hoi",
+          "D": "Ho cung nhau cai tao xa hoi cui, xay duing xa hoi moi trong linh vuc kinh te, chinh tri FUONERFLONCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_40",
+        "q_num": 40,
+        "question": "Mức độ tác động của gia đình đối với xã hội phụ thuộc vào yếu tố nào? Lựa chọn các đáp án đúng. (Chọn 3 đáp án)",
+        "options": {
+          "A": "Vào bản chất của từng chế độ xã hội",
+          "B": "Vào đường lối, chủ trương của giai cấp cầm quyền",
+          "C": "Vào bản thân mô hình, kết cấu, đặc điểm của mỗi hình thức gia đình trong lịch sử",
+          "D": "Vào ý chí, nguyện vọng của các thành viên trong gia đình"
+        },
+        "answer": "A, B, C",
+        "explanation": "Mức độ tác động của gia đình đối với xã hội phụ thuộc vào: 1) Bản chất của từng chế độ xã hội; 2) Đường lối, chính sách của giai cấp cầm quyền; 3) Mô hình, kết cấu, đặc điểm của bản thân gia đình trong từng thời kỳ."
+      },
+      {
+        "id": "mln131_su25_b5_re_41",
+        "q_num": 41,
+        "question": "Đặc trưng bản chất của chủ nghĩa xã hội về phương diện kinh tế là gì? Chọn các đáp án đúng. (Chọn 2 đáp án)",
+        "options": {
+          "A": "Nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại",
+          "B": "Chế độ công hữu về tư liệu sản xuất chủ yếu",
+          "C": "Nền kinh tế phát triển cao dựa trên lực lượng sản xuất công nghiệp cơ khí",
+          "D": "Chế độ sở hữu tập thể, hỗn hợp của tư nhân và công cộng"
+        },
+        "answer": "A, B",
+        "explanation": "Về kinh tế, CNXH có 2 đặc trưng bản chất: lực lượng sản xuất phát triển cao hiện đại và chế độ công hữu về các tư liệu sản xuất chủ yếu."
+      },
+      {
+        "id": "mln131_su25_b5_re_42",
+        "q_num": 42,
+        "question": "Kizspy1Question: 42 Xa hoi loai nguoi da trai qua 5 hinh thai kinh te - xa hoi, trong 5 hinh thai kinh te - xa hoi do, hinh thai nao duoc xem la thai nghen\" trong long xa hoi tu ban chu nghia?",
+        "options": {
+          "A": "Hinh thai kinh te -xa hoi chiem huu no le",
+          "B": "Hinh thai kinh te -xa hoi phong kien",
+          "C": "Hinh thai kinh te -xa hoi tu ban chu nghia",
+          "D": "Hinh thai kinh te -xa hoi cong san chu nghia FUONERFLOANCOM"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_43",
+        "q_num": 43,
+        "question": "Chế độ hôn nhân tiến bộ được đảm bảo trên nguyên tắc nào? Chọn các đáp án đúng. (Chọn 3 đáp án)",
+        "options": {
+          "A": "Hôn nhân tự nguyện",
+          "B": "Hôn nhân một vợ một chồng, vợ chồng bình đẳng",
+          "C": "Hôn nhân được đảm bảo về mặt pháp lý",
+          "D": "Hôn nhân được đảm bảo về mặt kinh tế"
+        },
+        "answer": "A, B, C",
+        "explanation": "Ba nguyên tắc cơ bản của chế độ hôn nhân tiến bộ là: Hôn nhân tự nguyện; Hôn nhân một vợ một chồng, vợ chồng bình đẳng; Hôn nhân được đảm bảo về mặt pháp lý."
+      },
+      {
+        "id": "mln131_su25_b5_re_44",
+        "q_num": 44,
+        "question": "Cơ cấu xã hội - giai cấp của nước ta trước thời kì đổi mới bao gồm các giai cấp, tầng lớp nào? (Chọn 3 đáp án)",
+        "options": {
+          "A": "Giai cấp công nhân",
+          "B": "Giai cấp nông dân",
+          "C": "Đội ngũ trí thức",
+          "D": "Đội ngũ đảng viên"
+        },
+        "answer": "A, B, C",
+        "explanation": "Trước thời kỳ Đổi mới (năm 1986), cơ cấu xã hội - giai cấp ở Việt Nam khá thuần nhất và đơn giản, bao gồm giai cấp công nhân, giai cấp nông dân tập thể và tầng lớp trí thức XHCN."
+      },
+      {
+        "id": "mln131_su25_b5_re_45",
+        "q_num": 45,
+        "question": "KizspyIQuestion: 45",
+        "options": {
+          "A": "La nhung nguoi nam giu tu lieu san xuat cua xa hoi tu ban chu nghia, tu to chuic san xuat kinh doanh lon ma khong hop tac vdi giai cap nao",
+          "B": "La nhung nguoi khong co so huu tu lieu san xuat chu yeu cua xa hoi, phai ban suc lao dong cho nha tu ban va bi boc lot gia tri thang du",
+          "C": "La nhung nguoi so huu tu lieu san xuat, hop tac voi nha tu ban de kiem song",
+          "D": "La nhung nguoi co so huu mot so tu lieu san xuat nho, co the tu san xuat, nhuing nho le, de pha san nen FUONERFLONCOM phai ban suc lao dong cho nha tui ban la chinh"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_46",
+        "q_num": 46,
+        "question": "Trong thời đại hiện nay, ở các nước tư bản chủ nghĩa, mục tiêu đấu tranh lâu dài để thực hiện sứ mệnh lịch sử của giai cấp công nhân về chính trị - xã hội là gì?",
+        "options": {
+          "A": "Chống bất công, bất bình đẳng xã hội",
+          "B": "Thỏa hiệp với giai cấp tư sản để tiến tới chủ nghĩa xã hội bằng con đường hòa bình",
+          "C": "Giành chính quyền về tay giai cấp công nhân và nhân dân lao động",
+          "D": "Đấu tranh đòi các quyền tự do, dân chủ"
+        },
+        "answer": "A",
+        "explanation": "Ở các nước TBCN hiện nay, mục tiêu trực tiếp là đòi cải thiện đời sống dân sinh, dân chủ; nhưng mục tiêu chính trị cơ bản lâu dài của giai cấp công nhân vẫn là giành chính quyền về tay giai cấp công nhân và nhân dân lao động."
+      },
+      {
+        "id": "mln131_su25_b5_re_47",
+        "q_num": 47,
+        "question": "Sự thống trị của giai cấp tư sản, đặc biệt là bộ phận tư sản công nghiệp là điều kiện ban đầu cho sự phát triển của giai cấp nào?",
+        "options": {
+          "A": "Sự phát triển giai cấp tư sản",
+          "B": "Sự phát triển giai cấp chủ nô",
+          "C": "Sự phát triển giai cấp nông dân",
+          "D": "Sự phát triển giai cấp công nhân"
+        },
+        "answer": "D",
+        "explanation": "Giai cấp tư sản công nghiệp và giai cấp công nhân hiện đại là hai mặt đối lập không thể tách rời của cùng một phương thức sản xuất TBCN; sự ra đời và bành trướng của nền công nghiệp tư bản chính là điều kiện trực tiếp làm nảy sinh và phát triển giai cấp công nhân."
+      },
+      {
+        "id": "mln131_su25_b5_re_48",
+        "q_num": 48,
+        "question": "Về nội dung kinh tế, sứ mệnh lịch sử của giai cấp công nhân được thể hiện như thế nào?",
+        "options": {
+          "A": "Giai cấp công nhân thiết lập một quan hệ sản xuất mới phù hợp với sự phát triển của lực lượng sản xuất",
+          "B": "Giai cấp công nhân chống bất công và bất bình đẳng trong xã hội",
+          "C": "Giai cấp công nhân thực hiện công nghiệp hóa, hiện đại hóa đất nước",
+          "D": "Giai cấp công nhân bảo vệ nền tảng tư tưởng của Đảng Cộng sản"
+        },
+        "answer": "A",
+        "explanation": "Về nội dung kinh tế, sứ mệnh của giai cấp công nhân là xác lập quan hệ sản xuất mới dựa trên sở hữu công cộng về tư liệu sản xuất chủ yếu, phù hợp với tính chất xã hội hóa cao của lực lượng sản xuất hiện đại."
+      },
+      {
+        "id": "mln131_su25_b5_re_49",
+        "q_num": 49,
+        "question": "fuoverflow io Theo chu nghia Mac -Lenin, de thuc hien duoc su menh lich su cua minh, giai cap cong nhan phai thiet lap duoc su lien minh voi giai cap, tang lop nao?",
+        "options": {
+          "A": "Lien minh voi giai cap nong dan va tang lop tieutu san",
+          "B": "Lien minh voi giai cap nong dan va cac tang lop lao dong khac",
+          "C": "Lien minh voi mot bo phan giai cap tui san tien bo",
+          "D": "Lien minh voi giai cap nong dan"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_50",
+        "q_num": 50,
+        "question": "Kizspy1 Question: 50 O Viet Nam hien nay, to chuc nao dai dien cho quyen loi, loi ich hop phap va la noi de giai cap cong nhan chu dong, tich cuc tham gia xay dung, chinh don Dang, bao ve che do xa hoi chu nghia, bao ve nhan dan?",
+        "options": {
+          "A": "He thong to chuc Cong doan",
+          "B": "Quoc hoi",
+          "C": "Mat tran To quoc Viet Nam",
+          "D": "Hoi dong nhan dan cac cap FUONERFLOWEOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_51",
+        "q_num": 51,
+        "question": "Đâu không phải là một trong những điểm tương đối ổn định của giai cấp công nhân ngày nay so với thế kỉ XIX?",
+        "options": {
+          "A": "Giai cấp công nhân vẫn là lực lượng sản xuất hàng đầu của xã hội hiện đại",
+          "B": "Giai cấp công nhân vẫn bị chủ nghĩa tư bản và giai cấp tư sản bóc lột giá trị thặng dư",
+          "C": "Giai cấp công nhân vẫn có lợi ích cơ bản xung đột với lợi ích cơ bản của giai cấp tư sản",
+          "D": "Giai cấp công nhân vẫn làm việc với cường độ cao, trình độ lao động ngày càng yếu kém"
+        },
+        "answer": "D",
+        "explanation": "Ngày nay, trình độ của giai cấp công nhân ngày càng được tri thức hóa, nâng cao tay nghề và tiếp cận công nghệ cao chứ không phải 'ngày càng yếu kém'."
+      },
+      {
+        "id": "mln131_su25_b5_re_52",
+        "q_num": 52,
+        "question": "Vấn đề nổi bật nhất đối với việc thực hiện sứ mệnh lịch sử của giai cấp công nhân Việt Nam hiện nay là gì?",
+        "options": {
+          "A": "Phát huy vai trò và trách nhiệm của lực lượng đi đầu trong sự nghiệp đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước",
+          "B": "Phát huy vai trò của lực lượng đi đầu trong sự nghiệp đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước",
+          "C": "Phát huy trách nhiệm của lực lượng đi đầu trong sự nghiệp đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước",
+          "D": "Phát huy sức chiến đấu của bản thân trong sự nghiệp đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước"
+        },
+        "answer": "A",
+        "explanation": "Vấn đề nổi bật nhất hiện nay là phải phát huy đồng thời cả 'vai trò và trách nhiệm' của lực lượng đi đầu trong sự nghiệp đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước."
+      },
+      {
+        "id": "mln131_su25_b5_re_53",
+        "q_num": 53,
+        "question": "Đâu là một trong những nội dung của mối quan hệ lớn trong xây dựng chủ nghĩa xã hội ở Việt Nam hiện nay?",
+        "options": {
+          "A": "Giữa tăng trưởng kinh tế, thực hiện tiến bộ, công bằng xã hội, bảo vệ môi trường sống",
+          "B": "Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ, bảo vệ môi trường, y tế, giáo dục",
+          "C": "Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ, công bằng xã hội, bảo vệ môi trường",
+          "D": "Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ, công bằng xã hội"
+        },
+        "answer": "C",
+        "explanation": "Đại hội Đảng xác định mối quan hệ lớn: 'Giữa tăng trưởng kinh tế và phát triển văn hóa, thực hiện tiến bộ và công bằng xã hội, bảo vệ môi trường'."
+      },
+      {
+        "id": "mln131_su25_b5_re_54",
+        "q_num": 54,
+        "question": "Kizspy1Question: 54 Co bao nhieu phuong huong duoc de ra tai Van kien Dai hoi dai bieu toan quoc lan thu XI trong thdi ky qua do len chu nghia xa hoi?",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "8",
+          "D": "9 RUEAERELONVCOIU"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_55",
+        "q_num": 55,
+        "question": "Mâu thuẫn cơ bản và chủ yếu trong xã hội tư bản chủ nghĩa, bắt buộc nó phải được thay thế bằng hình thái kinh tế - xã hội khác phù hợp hơn là gì?",
+        "options": {
+          "A": "Mâu thuẫn giữa tính chất xã hội hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân tư bản chủ nghĩa về tư liệu sản xuất",
+          "B": "Mâu thuẫn giữa tính chất tư nhân hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân về tư liệu sản xuất",
+          "C": "Mâu thuẫn giữa tính chất chuyên môn hóa của lực lượng sản xuất với chế độ chiếm hữu tập thể tư bản chủ nghĩa về tư liệu sản xuất",
+          "D": "Mâu thuẫn giữa tính chất xã hội hóa về lực lượng sản xuất với chế độ chiếm hữu công cộng về tư liệu sản xuất"
+        },
+        "answer": "A",
+        "explanation": "Mâu thuẫn kinh tế cơ bản của CNTB là mâu thuẫn giữa lực lượng sản xuất có trình độ xã hội hóa ngày càng cao với quan hệ sản xuất dựa trên chế độ chiếm hữu tư nhân TBCN về tư liệu sản xuất."
+      },
+      {
+        "id": "mln131_su25_b5_re_56",
+        "q_num": 56,
+        "question": "Đại hội XIII của Đảng Cộng sản Việt Nam đã đề ra mục tiêu gì vào năm 2025 trên con đường xây dựng chủ nghĩa xã hội?",
+        "options": {
+          "A": "Là nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập trung bình thấp",
+          "B": "Là nước phát triển, có công nghiệp hóa, hiện đại hóa cao, đạt mức thu nhập cao",
+          "C": "Là nước đang phát triển, có công nghiệp theo hướng hiện đại, đạt được mức thu nhập trung bình",
+          "D": "Là nước phát triển, có thành tựu khoa học - kỹ thuật hiện đại, phát triển nguồn lực nội sinh"
+        },
+        "answer": "A",
+        "explanation": "Mục tiêu đến năm 2025: Là nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập trung bình thấp."
+      },
+      {
+        "id": "mln131_su25_b5_re_57",
+        "q_num": 57,
+        "question": "Kizspy1Question: 57 Dai hoi XIll cua Dang Cong san Vist Nam da de ra muc tieu gi vao nam 2045 tren con duong xay dung chu nghia xa hoi?",
+        "options": {
+          "A": "Tro thanh nuioc phat trien, co kinh te tri thuc, thu nhap trung binh cao",
+          "B": "Tro thanh con rong Chau A",
+          "C": "Tro thanh nuoc phat trien, thu nhap cao",
+          "D": "Trd thanh nudc dang phat trien, co thu nhap trung binh cao FUONERFLONCOM"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_58",
+        "q_num": 58,
+        "question": "Kizspy1Question: 58 xa hoi truioc day la gi?",
+        "options": {
+          "A": "Phai duoc thuc hien thong qua cuoc cach mang vo san",
+          "B": "Phai duioc thuic hien thong qua cuoc cach mang tui san",
+          "C": "Phai duoc thuc hien thong qua mot su cai bien sau sac ve trinh do phat trien cua cong nghiep va nguoi lao buop",
+          "D": "Phai co su hoi tu day du cac yeu to ve kinh te va chinh tri FUOVERLOAICOL!"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_59",
+        "q_num": 59,
+        "question": "KizspyIQuestion: 59 thuc nao?",
+        "options": {
+          "A": "Qua do gian tiep",
+          "B": "Qua do truc tiep",
+          "C": "Qua do bo phan",
+          "D": "Qua do toan dien RUOVERFLOUWCOIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_re_60",
+        "q_num": 60,
+        "question": "Kizspy1 Question: 60 Thoi ky qua do tu tu ban len chu nghia xa hoi con ton tai nhieu tu tuiong khac nhau, chu yeu trong do la cac tu joeu buon",
+        "options": {
+          "A": "Tu tuong vo san va tui tuong tui san",
+          "B": "Tu tuong vo san va tui tuong dia chu phong kien",
+          "C": "Tu tuong chu no va tui tuong tu san",
+          "D": "Tu tuiong vo san va tu tuiong chu no FUONERFLONCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      }
+    ]
+  },
+  "mln131_su25_b5_1": {
+    "id": "mln131_su25_b5_1",
+    "name": "Đề Thi MLN131 - SU25 B5 (1)",
+    "shortName": "SU25 - B5 (1)",
+    "semester": "SU25",
+    "total": 60,
+    "questions": [
+      {
+        "id": "mln131_su25_b5_1_1",
+        "q_num": 1,
+        "question": "Ưu tiên đầu tư phát triển kinh tế - xã hội ở các vùng dân tộc và miền núi, trước hết, tập trung vào phát triển vấn đề gì?",
+        "options": {
+          "A": "Giao thông và cơ sở hạ tầng, xóa đói, giảm nghèo",
+          "B": "Kết cấu hạ tầng kỹ thuật, xóa đói giảm nghèo, y tế, giáo dục",
+          "C": "Giao thông và kiến trúc thượng tầng, xóa đói giảm nghèo",
+          "D": "Giao thông và kết cấu hạ tầng, y tế, giáo dục"
+        },
+        "answer": "A",
+        "explanation": "Chính sách ưu tiên hàng đầu tại vùng đồng bào dân tộc thiểu số và miền núi là phát triển hệ thống giao thông, cơ sở hạ tầng thiết yếu và đẩy mạnh chương trình mục tiêu quốc gia xóa đói, giảm nghèo."
+      },
+      {
+        "id": "mln131_su25_b5_1_2",
+        "q_num": 2,
+        "question": "KizspyI Question: 2",
+        "options": {
+          "A": "Do su dan ap, thong tri qua khat nghiet cua chu nghia thuc dan",
+          "B": "Do mau thuan loi ich, quyen loi",
+          "C": "Do su thuic tinh, truong thanh ve y thuic dan toc",
+          "D": "Do su phat trien ve so luong qua lon FUONERFLOWCOM"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_3",
+        "q_num": 3,
+        "question": "Quan hệ dân tộc và tôn giáo ở Việt Nam chịu sự chi phối mạnh mẽ bởi yếu tố nào?",
+        "options": {
+          "A": "Yếu tố giai cấp",
+          "B": "Yếu tố quản lý của Nhà nước",
+          "C": "Yếu tố tín ngưỡng truyền thống",
+          "D": "Yếu tố đại đoàn kết dân tộc"
+        },
+        "answer": "C",
+        "explanation": "Truyền thống yêu nước và khối đại đoàn kết toàn dân tộc luôn là sợi dây bền chặt chi phối mọi mối quan hệ dân tộc và tôn giáo ở nước ta."
+      },
+      {
+        "id": "mln131_su25_b5_1_4",
+        "q_num": 4,
+        "question": "KizspyIQuestion: 4 Ve phuiong dien the gioi quan, da so cac ton giao mang the gioi quan nao?",
+        "options": {
+          "A": "Duy tam",
+          "B": "Duy vat",
+          "C": "Duy vat bien chung",
+          "D": "Duy vat sieu hinh RUONERFLOWEOIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_5",
+        "q_num": 5,
+        "question": "Theo cấp độ quốc gia, đâu là tín ngưỡng truyền thống quan trọng của dân tộc Việt Nam?",
+        "options": {
+          "A": "Tín ngưỡng thờ cúng tổ tiên",
+          "B": "Tín ngưỡng thờ cúng Hùng Vương",
+          "C": "Tín ngưỡng thờ Mẫu",
+          "D": "Tín ngưỡng thờ Thành hoàng làng"
+        },
+        "answer": "C",
+        "explanation": "Ở cấp độ quốc gia, Tín ngưỡng thờ cúng Hùng Vương là biểu tượng đại đoàn kết và cội nguồn dân tộc sâu sắc nhất của người Việt."
+      },
+      {
+        "id": "mln131_su25_b5_1_6",
+        "q_num": 6,
+        "question": "KizspyI Question: 6 Theo quan diem cua chu nghia Mac -Lenin, loainguoi da trai qua cac hinh thuic cong dong tu thap den cao theo thu tu la gi?",
+        "options": {
+          "A": "Thi toc, bo lac, bo toc va dan toc",
+          "B": "Bo toc, bo lac, thi toc va dan toc",
+          "C": "Dan toc, thi toc, bo lac va bo toc",
+          "D": "Bo lac, bo toc, thi toc va dan toc RUONERELONEQIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_7",
+        "q_num": 7,
+        "question": "KizspyIQuestion:7",
+        "options": {
+          "A": "Chinh tri va phap quyén",
+          "B": "Chinh tri va tu tuiong",
+          "C": "Tu tuong va van hoa",
+          "D": "Giao duc va tui tuidng RUOVERFLONCOIU"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_8",
+        "q_num": 8,
+        "question": "KizspyIQuestion: 8 O nuioc ta, cac dan toc thieu so phan bo chu yeu o cac dia ban co dac diem nhu the nao?",
+        "options": {
+          "A": "Co vi tri chien luioc quan trong",
+          "B": "Co dieu kien phat trien kinh te - xa hoi tot nhat",
+          "C": "O dong bang tru phu",
+          "D": "O cac hai dao xa xoi RUONERFLOUWEOIU!"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_9",
+        "q_num": 9,
+        "question": "Bản chất chính trị của dân chủ xã hội chủ nghĩa được thể hiện như thế nào?",
+        "options": {
+          "A": "Thực hiện dân chủ đối với tất cả mọi người",
+          "B": "Nền dân chủ do Đảng Cộng sản là đảng duy nhất lãnh đạo, thực hiện quyền lợi và lợi ích của toàn thể nhân dân lao động",
+          "C": "Nền dân chủ do các đảng phái đối lập nhau cạnh tranh công bằng để nhận được sự tín nhiệm của mọi người",
+          "D": "Thực hiện nhất quán một nguyên tắc duy nhất là tập trung dân chủ"
+        },
+        "answer": "B",
+        "explanation": "Bản chất chính trị của nền dân chủ XHCN là đặt dưới sự lãnh đạo duy nhất của Đảng Cộng sản - đội tiên phong của giai cấp công nhân, nhằm bảo vệ và thực hiện quyền làm chủ của toàn thể nhân dân lao động."
+      },
+      {
+        "id": "mln131_su25_b5_1_10",
+        "q_num": 10,
+        "question": "Dựa vào bản chất chính trị thì yếu tố nào được xem là yếu tố quan trọng để đảm bảo quyền lực thực sự thuộc về nhân dân?",
+        "options": {
+          "A": "Giai cấp nông dân lãnh đạo",
+          "B": "Đảng Cộng sản lãnh đạo",
+          "C": "Nhà nước lãnh đạo",
+          "D": "Giai cấp tư sản lãnh đạo"
+        },
+        "answer": "B",
+        "explanation": "Bản chất chính trị của nền dân chủ XHCN là sự lãnh đạo chính trị của giai cấp công nhân thông qua Đảng Cộng sản để đảm bảo quyền lực nhà nước thực sự thuộc về nhân dân."
+      },
+      {
+        "id": "mln131_su25_b5_1_11",
+        "q_num": 11,
+        "question": "Nen dan chu xa hoi chu nghia mang ban chat cua giai cap nao?",
+        "options": {
+          "A": "Giai cap tui san",
+          "B": "Giai cap nong dan",
+          "C": "C Giaicap cong nhan",
+          "D": "Giai cap tieu tu san RUONERFLOUWCOIU"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_12",
+        "q_num": 12,
+        "question": "KizspyIQuestion: 12 Hinh thuc dan chu o Viet Nam ma nguoi dan bau ra co quan guyen luc nha nuidc cao nhat, uy quyen cho ho",
+        "options": {
+          "A": "Hinh thuic dan chu truc tiep",
+          "B": "Hinh thuic dan chu gian tiep",
+          "C": "Hinh thuic dan chu dai nghi",
+          "D": "Hinh thuic dan chu cong khai FUONERFLOWCOM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_13",
+        "q_num": 13,
+        "question": "Kizspy1Question:13 Ban chat dan chu cua che do nuoc ta hien nay duoc hieu nhu the nao?",
+        "options": {
+          "A": "Che do ta la do nhan dan lam chu, quyen luic thuoc ve nhan dan",
+          "B": "Che do ta la do Dang Cong san Viet Nam lam chu, la dai dien y chi, nguyen vong cua nhan dan",
+          "C": "Che do ta la do giai cap cong nhan lam chu, quyen luc thuoc ve giai cap cong nhan",
+          "D": "Che do ta la do ca nhan lam chu, duoc hien thuc hoa thong qua vai tro lam chu duy nhat cua Dang Cong san Viet Nam FUOVERFLOWCO"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_14",
+        "q_num": 14,
+        "question": "KizspyIQuestion: 14 Onuoc ta, han dan coquyen bau ra nhung nguoi dai dien cho minh de thuc thi quyen lam chu, va dong thoi co quyen gi voi quyen bau cui do?",
+        "options": {
+          "A": "Quyen bai mien nhung dai bieu khong xung dang",
+          "B": "Quyen tu minh tham gia tro thanh dai bieu khong qua bau cui",
+          "C": "Quyén giai tan he thong chinh tri",
+          "D": "Quyen tu do ngon luan FUONERFLONCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_15",
+        "q_num": 15,
+        "question": "Kizspy1Question:15 Can cu vao tinh chat cua quyen luc nha nuoc, chuc nang cua nha nudc bao gom chuc nang nao sau day?",
+        "options": {
+          "A": "Chtic nang xa hoi va chuic nang giai cap",
+          "B": "Chuic nang doi ngoai, doi noi",
+          "C": "Chuic nang kinh te - chinh tri",
+          "D": "Chuic nang van hoa - xa hoi FUONERFLONCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_16",
+        "q_num": 16,
+        "question": "Tại sao nói nhà nước xã hội chủ nghĩa là nhà nước kiểu mới?",
+        "options": {
+          "A": "Vì nó xuất hiện trễ nhất trong các kiểu nhà nước",
+          "B": "Vì bản chất của nó đối lập với các kiểu nhà nước bóc lột từng có trong lịch sử",
+          "C": "Vì do không tuân theo các quy tắc tổ chức nhà nước cổ điển",
+          "D": "Vì nó thực hiện dân chủ cho thiểu số nhân dân lao động"
+        },
+        "answer": "B",
+        "explanation": "Nhà nước XHCN là kiểu nhà nước 'nửa nhà nước', nhà nước kiểu mới vì về bản chất nó mang bản chất của giai cấp công nhân, phục vụ đa số nhân dân lao động, hoàn toàn đối lập với các nhà nước bóc lột của giai cấp thiểu số trong lịch sử."
+      },
+      {
+        "id": "mln131_su25_b5_1_17",
+        "q_num": 17,
+        "question": "Quyền tự do kết hôn trên cơ sở tình yêu và quyền tự do ly hôn là hai quyền thực hiện nguyên tắc nào của chế độ hôn nhân tiến bộ?",
+        "options": {
+          "A": "Hôn nhân tự nguyện",
+          "B": "Hôn nhân một vợ một chồng, vợ chồng bình đẳng",
+          "C": "Hôn nhân được đảm bảo về mặt pháp lý",
+          "D": "Hôn nhân được đảm bảo về mặt kinh tế"
+        },
+        "answer": "A",
+        "explanation": "Hôn nhân tự nguyện bao gồm quyền tự do lựa chọn kết hôn xuất phát từ tình yêu và quyền tự do ly hôn khi tình yêu thực sự không còn và đời sống hôn nhân không thể tiếp tục."
+      },
+      {
+        "id": "mln131_su25_b5_1_18",
+        "q_num": 18,
+        "question": "Hiện nay, kiểu gia đình nào đang trở nên rất phổ biến ở các đô thị và cả ở nông thôn Việt Nam?",
+        "options": {
+          "A": "Gia đình hạt nhân",
+          "B": "Gia đình truyền thống",
+          "C": "Gia đình dòng đại",
+          "D": "Gia đình kết nối"
+        },
+        "answer": "A",
+        "explanation": "Gia đình hạt nhân (chỉ gồm cha mẹ và con cái) đang trở nên phổ biến ở cả đô thị và nông thôn Việt Nam hiện nay."
+      },
+      {
+        "id": "mln131_su25_b5_1_19",
+        "q_num": 19,
+        "question": "Kizspy1Question: 19 Gia dinh Viet Nam hien dai co may the he cung song chung?",
+        "options": {
+          "A": "1 the he",
+          "B": "2 the he",
+          "C": "3 the he",
+          "D": "4 the he RUONERFLOWEOIU"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_20",
+        "q_num": 20,
+        "question": "Trong xã hội phong kiến, các mối quan hệ của gia đình có đặc điểm như thế nào?",
+        "options": {
+          "A": "Tuyệt đối hóa vai trò của người đàn ông, người chồng, người cha",
+          "B": "Tuyệt đối hóa vai trò của người phụ nữ, người vợ, người mẹ",
+          "C": "Mối quan hệ bình đẳng, sẻ chia",
+          "D": "Các mối quan hệ chịu sự chi phối của điều kiện kinh tế gia đình"
+        },
+        "answer": "A",
+        "explanation": "Gia đình phong kiến mang nặng tính gia trưởng, tuyệt đối hóa uy quyền của người đàn ông, người chồng, người cha theo tư tưởng 'phu xướng phụ tùy'."
+      },
+      {
+        "id": "mln131_su25_b5_1_21",
+        "q_num": 21,
+        "question": "Tại sao nói gia đình là tế bào của xã hội?",
+        "options": {
+          "A": "Vì bất kì ai cũng có gia đình riêng, có con cái và cha mẹ",
+          "B": "Vì gia đình sản xuất ra tư liệu tiêu dùng, tư liệu sản xuất và tái sản xuất ra con người",
+          "C": "Vì gia đình là cơ chế quản lý xã hội ở cấp độ nhỏ nhất, không thể phân chia được nữa",
+          "D": "Vì gia đình là nền tảng tinh thần của xã hội"
+        },
+        "answer": "B",
+        "explanation": "Gia đình là tế bào của xã hội bởi gia đình trực tiếp sản xuất ra tư liệu tiêu dùng, tư liệu sản xuất và đặc biệt là tái sản xuất ra bản thân con người để xã hội tồn tại và phát triển."
+      },
+      {
+        "id": "mln131_su25_b5_1_22",
+        "q_num": 22,
+        "question": "KizspyI Question: 22 Chuic nang van hoa cua gia dinh the hien dieu gi?",
+        "options": {
+          "A": "Gia dinh la noi luu giu truyen thong van hoa cua dan toc, la noi sang tao va thu huidng nhung gia tri van hoa cua xa hoi",
+          "B": "Gia dinh la noi chiu su chi phoi, che udc cua cac yeu to van hoa ciui va mdi dan xen",
+          "C": "Gia dinh la noi thuc thi cac chinh sach van hoa, mang dam dau an cua giai cap thong tri",
+          "D": "Gia dinh la noi giao luu van hoa cua cac cong dong toc nguoi FUONERFLOWCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_23",
+        "q_num": 23,
+        "question": "KizspyI Question: 23 Nguon goc gay nen tinh trang thong tri cua nguoi dan ong trong gia dinh, su bat binh dang nam, nu, giua vo chong, su no dich doi voi phu nui trong gia dinh la gi?",
+        "options": {
+          "A": "La che do phong kien",
+          "B": "La che do hon nhan phu he",
+          "C": "Lachedotuhuuvetuilieusanxuat",
+          "D": "La cac quan niem dao dtic loi thoi FUONERFLONCOM"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_24",
+        "q_num": 24,
+        "question": "Câu nói sau do ai khẳng định: “Nếu không giải phóng phụ nữ là xây dựng chủ nghĩa xã hội chỉ một nửa”?",
+        "options": {
+          "A": "V.I.Lênin",
+          "B": "C.Mác",
+          "C": "Chủ tịch Hồ Chí Minh",
+          "D": "Ph.Ăngghen"
+        },
+        "answer": "C",
+        "explanation": "Chủ tịch Hồ Chí Minh đã khẳng định: 'Nếu không giải phóng phụ nữ là xây dựng chủ nghĩa xã hội chỉ một nửa' (Bài nói chuyện tại Hội nghị thảo luận Luật Hôn nhân và Gia đình, 1959)."
+      },
+      {
+        "id": "mln131_su25_b5_1_25",
+        "q_num": 25,
+        "question": "KizspyI Question: 25 Mot trong ba phat kien vi dai cua C.Mac va Ph.Angghen la gi?",
+        "options": {
+          "A": "Thanh lap quoc te cong san",
+          "B": "Ung ho nhan dan lao dong",
+          "C": "Hoc thuyet ve sui menh lich sui toan the gidi cua giai cap cong nhan",
+          "D": "Nhan dinh va tim ra mau thuan giai cap trong xa hoi BUOVERFLOWCO"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_26",
+        "q_num": 26,
+        "question": "Đâu không phải là tiền đề khoa học tự nhiên cho sự ra đời của chủ nghĩa xã hội khoa học?",
+        "options": {
+          "A": "Học thuyết tiến hóa",
+          "B": "Học thuyết tế bào",
+          "C": "Định luật bảo toàn và chuyển hóa năng lượng",
+          "D": "Chủ nghĩa xã hội không tưởng của Pháp"
+        },
+        "answer": "D",
+        "explanation": "Chủ nghĩa xã hội không tưởng - phê phán của Pháp và Anh là tiền đề tư tưởng lý luận, không phải là tiền đề khoa học tự nhiên."
+      },
+      {
+        "id": "mln131_su25_b5_1_27",
+        "q_num": 27,
+        "question": "KizspyIQuestion: 27",
+        "options": {
+          "A": "V.I.Lenin",
+          "B": "C.Mac",
+          "C": "G.V.Ph.Heghen",
+          "D": "Ph. Angghen RUONERFLOWEOIU!"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_28",
+        "q_num": 28,
+        "question": "Tác phẩm nào đánh dấu sự ra đời của chủ nghĩa xã hội khoa học?",
+        "options": {
+          "A": "Tuyên ngôn của Đảng Cộng sản",
+          "B": "Tình cảnh nước Anh",
+          "C": "Bộ Tư bản",
+          "D": "Góp phần phê phán triết học pháp quyền của Hêghen - Lời nói đầu"
+        },
+        "answer": "A",
+        "explanation": "Tác phẩm 'Tuyên ngôn của Đảng Cộng sản' do C.Mác và Ph.Ăngghen soạn thảo, xuất bản tháng 2 năm 1848, là văn kiện có tính chất cương lĩnh đầu tiên đánh dấu sự ra đời chính thức của chủ nghĩa xã hội khoa học."
+      },
+      {
+        "id": "mln131_su25_b5_1_29",
+        "q_num": 29,
+        "question": "KizspyI Question: 29 Ve mat thuic tien, dau khong phai la mot y nghia cua viec nghien cuu chu nghia xa hoi khoa hoc?",
+        "options": {
+          "A": "Thay ro khoang cach giuia ly luan chu nghia xa hoi khoa hoc va thuc tien van dung no",
+          "B": "Su sup do cua Lien Xo va Dong Au la do da nhan thuc va hanh dong tren nhieu van de trai voi chu nghia xa cac nudc nay khung hoang",
+          "C": "Can co ban linh vuing vang, sang suot va sang tao trong viec van dung chu nghia xa hoi khoa hoc vao boi canh lich sti cu the cua tuing quoc gia, tranh giao dieu, bao thu, duy y chi FUOVERFLOWCO!",
+          "D": "Giup chung ta co can cu nhan thuic khoa hoc de luon canh giac, phan tich dung va dau tranh chong lai nhuing nhan thuic sai lech ve chu nghia xa hoi"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_30",
+        "q_num": 30,
+        "question": "Kizspy1Question: 30 Theo nghia rong, chu nghia xa hoi khoa hoc duoc hieu la gi?",
+        "options": {
+          "A": "La mot trong ba bo phan hop thanh chu nghia Mac - Lenin",
+          "B": "La chu nghia Mac - Lenin, luan giai tui cac giac do triet hoc, kinh te hoc chinh tri va chinh tri xa hoi ve su",
+          "C": "La mot hoc thuyet trinh bay su ra doi, phat trien va suy vong cua chu nghia tu ban",
+          "D": "La mot hinh thai kinh te - xa hoi trong tien trinh lich sui tu nhien cua loai nguoi FUOVERFLOAWCO"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_31",
+        "q_num": 31,
+        "question": "KizspyIQuestion: 31 nghia xa hoi khoa hoc?",
+        "options": {
+          "A": "J.Xtalin",
+          "B": "G.Di-mi-trop",
+          "C": "S.Phurie",
+          "D": "S.Simon RUONERFLOEOIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_32",
+        "q_num": 32,
+        "question": "fuoverflow13 Noi dung van hoa -xa hoi trong lien minh giai cap, tang lop o nuoc ta hien nay doi hoi phai dam bao dieu gi?",
+        "options": {
+          "A": "Gan tang truong kinh te voi phat trien van hoa, phat trien con nguoi va thuc hien tien bo, cong bang xa hoi",
+          "B": "Gan tang truong kinh te voi doc lap, tu do, phat huy nguon luc lanh dao cua kinh te tu nhan",
+          "C": "Thuc hien tang truong kinh te bang moi gia, tien nhanh den nen kinh te thi truong hien dai",
+          "D": "Tiep thu toan bo cac yeu to van hoa nhan loai trong tien trinh hoi nhap va tang truong kinh te"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_33",
+        "q_num": 33,
+        "question": "Cơ cấu xã hội là gì?",
+        "options": {
+          "A": "Là những cộng đồng người hợp thành một chế độ xã hội",
+          "B": "Là những người trong cùng một giai cấp, tầng lớp thực hiện phân chia quyền lực",
+          "C": "Là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tác động lẫn nhau của các cộng đồng ấy tạo nên",
+          "D": "Là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tác động của cộng đồng người ấy với tự nhiên tạo nên"
+        },
+        "answer": "C",
+        "explanation": "Cơ cấu xã hội là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tác động lẫn nhau của các cộng đồng ấy tạo nên trong một hình thái kinh tế - xã hội nhất định."
+      },
+      {
+        "id": "mln131_su25_b5_1_34",
+        "q_num": 34,
+        "question": "KizspyIQuestion: 34 Trong thoi ki qua do len chu nghia xa hoi, ben canh su lien minh chat che tren co sd thong nhat loi ich kinh te giua giai cap cong nhan, nong dan va tri thuc, con xuat hien van de gi?",
+        "options": {
+          "A": "Xuat hien nhung mau thuan loi ich d nhung muic do khac nhau",
+          "B": "Xuat hien su dau tranh kich liet trong he thong chuyen chinh vo san",
+          "C": "Xuat hien su chong pha cua cac giai cap trong lien minh",
+          "D": "Xuat hien su chuyen quyen, doc doan cua mot bo phan FUOVERFLOWCO!"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_35",
+        "q_num": 35,
+        "question": "Trong hệ thống chính sách xã hội, các chính sách liên quan đến vấn đề gì được đặt lên vị trí hàng đầu?",
+        "options": {
+          "A": "Tôn giáo, y tế",
+          "B": "Giáo dục, y tế",
+          "C": "Cơ cấu xã hội - giai cấp",
+          "D": "Cơ cấu giai cấp, giáo dục"
+        },
+        "answer": "C",
+        "explanation": "Các chính sách liên quan đến cơ cấu xã hội - giai cấp luôn giữ vị trí hàng đầu trong hệ thống chính sách xã hội vì nó liên quan trực tiếp đến các chủ thể động lực của toàn bộ tiến trình cách mạng."
+      },
+      {
+        "id": "mln131_su25_b5_1_36",
+        "q_num": 36,
+        "question": "KizspyI Question: 36 Dau khong phai la mot trong nhung nhiem vu cua cac chinh sach lien quan den co cau xa hoi -giai cap?",
+        "options": {
+          "A": "Giai quyet tot cac moi quan he noi bo tuing giai cap",
+          "B": "Huong toi dam bao cong bang xa hoi, thu hep dan khoang cach phat trien va su phan hoa giau ngheo giua cac giai cap, tang lop",
+          "C": "Giai quyet tot cac moi quan he giua giai cap, tang lop nay vdi giai cap, tang lop khac",
+          "D": "Tao dieu kien thuan loi de cac giai cap cong nhan co the canh tranh tot tren tat ca cac linh vuc cua doi song xa hoi FUOVERELOAICOIV!"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_37",
+        "q_num": 37,
+        "question": "Sự biến đổi của cơ cấu xã hội - giai cấp tất yếu sẽ ảnh hưởng và tác động như thế nào đến toàn bộ cơ cấu xã hội?",
+        "options": {
+          "A": "Tác động gián tiếp và làm chậm sự phát triển",
+          "B": "Tác động trực tiếp, chi phối và quyết định sự biến đổi của các cơ cấu xã hội khác",
+          "C": "Không ảnh hưởng đáng kể đến cơ cấu dân số và nghề nghiệp",
+          "D": "Chỉ ảnh hưởng đến cơ cấu dân tộc và tôn giáo"
+        },
+        "answer": "C",
+        "explanation": "Cơ cấu xã hội - giai cấp giữ vị trí trung tâm, biến đổi của nó tác động và chi phối mọi loại hình cơ cấu xã hội khác."
+      },
+      {
+        "id": "mln131_su25_b5_1_38",
+        "q_num": 38,
+        "question": "Trong cơ cấu xã hội - giai cấp ở Việt Nam hiện nay, giai cấp, tầng lớp nào là lực lượng sáng tạo đặc biệt quan trọng trong tiến trình đẩy mạnh công nghiệp hóa, hiện đại hóa, xây dựng nền kinh tế tri thức?",
+        "options": {
+          "A": "Giai cấp công nhân",
+          "B": "Giai cấp nông dân",
+          "C": "Tầng lớp trí thức",
+          "D": "Tầng lớp doanh nhân"
+        },
+        "answer": "C",
+        "explanation": "Đội ngũ trí thức là lực lượng lao động sáng tạo đặc biệt quan trọng trong tiến trình đẩy mạnh CNH, HĐH đất nước và hội nhập quốc tế, xây dựng kinh tế tri thức."
+      },
+      {
+        "id": "mln131_su25_b5_1_39",
+        "q_num": 39,
+        "question": "Kizspy1Question:39",
+        "options": {
+          "A": "Tang lop doanh nhan, tiéu chu",
+          "B": "Tang lop nhung nguoi giau co",
+          "C": "Tang lop trung luu",
+          "D": "Tang lop tri thuic FUOVERFLOANCOM"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_40",
+        "q_num": 40,
+        "question": "Trong cách mạng xã hội chủ nghĩa, giai cấp công nhân phải liên minh được với giai cấp nông dân và các tầng lớp nhân dân lao động khác trong giai đoạn nào? Lựa chọn các đáp án đúng. (Chọn 2 đáp án)",
+        "options": {
+          "A": "Giai đoạn giành chính quyền",
+          "B": "Giai đoạn xây dựng chế độ xã hội mới",
+          "C": "Giai đoạn đấu tranh đòi các quyền tự do, dân chủ",
+          "D": "Giai đoạn xóa bỏ giai cấp sau khi xây dựng thành công chủ nghĩa xã hội"
+        },
+        "answer": "A, B",
+        "explanation": "Liên minh công - nông - trí thức là tất yếu khách quan diễn ra xuyên suốt trong cả 2 giai đoạn: giành chính quyền cách mạng và xây dựng chế độ xã hội mới."
+      },
+      {
+        "id": "mln131_su25_b5_1_41",
+        "q_num": 41,
+        "question": "Cơ cấu xã hội - giai cấp của nước ta trong thời kì quá độ lên chủ nghĩa xã hội hiện nay bao gồm những giai cấp, tầng lớp cơ bản nào? (Chọn 3 đáp án)",
+        "options": {
+          "A": "Giai cấp công nhân",
+          "B": "Giai cấp nông dân",
+          "C": "Đội ngũ trí thức và đội ngũ doanh nhân",
+          "D": "Đội ngũ trí thức và đội ngũ đảng viên"
+        },
+        "answer": "A, B, C",
+        "explanation": "Bao gồm giai cấp công nhân, giai cấp nông dân, đội ngũ trí thức, đội ngũ doanh nhân... Đảng viên là tư cách chính trị chứ không phải một tầng lớp giai cấp riêng biệt."
+      },
+      {
+        "id": "mln131_su25_b5_1_42",
+        "q_num": 42,
+        "question": "Đâu là tác phẩm kinh điển chủ yếu của chủ nghĩa xã hội khoa học?",
+        "options": {
+          "A": "“Tuyên ngôn của Đảng Cộng sản”",
+          "B": "“Ngày 18 tháng Sương mù”",
+          "C": "“Tình cảnh công nhân Anh”",
+          "D": "“Tư bản”"
+        },
+        "answer": "A",
+        "explanation": "'Tuyên ngôn của Đảng Cộng sản' (1848) là tác phẩm kinh điển chủ yếu, hoàn chỉnh đầu tiên trình bày toàn diện các nguyên lý cốt lõi của chủ nghĩa xã hội khoa học."
+      },
+      {
+        "id": "mln131_su25_b5_1_43",
+        "q_num": 43,
+        "question": "Lợi ích cơ bản của giai cấp công nhân có quan hệ như thế nào với lợi ích cơ bản của các giai cấp khác trong xã hội? (Chọn 2 đáp án)",
+        "options": {
+          "A": "Đối lập trực tiếp với lợi ích cơ bản của giai cấp nông dân?",
+          "B": "Đối lập trực tiếp với lợi ích cơ bản của giai cấp tư sản?",
+          "C": "Thống nhất với lợi ích cơ bản của giai cấp tư sản?",
+          "D": "Thống nhất với lợi ích cơ bản của đa số nhân dân lao động?"
+        },
+        "answer": "B, D",
+        "explanation": "Lợi ích của giai cấp công nhân đối lập trực tiếp với giai cấp tư sản, nhưng lại thống nhất căn bản với lợi ích của giai cấp nông dân và toàn thể nhân dân lao động."
+      },
+      {
+        "id": "mln131_su25_b5_1_44",
+        "q_num": 44,
+        "question": "KizspyI Question: 44 Van de nao de dan toi nguy co gay mat on dinh chinh tri, xa hoi, de tao co hoi cho cac th luc thu dich ben ngoaican thiepvaocongviec noibocuadat nuidc?",
+        "options": {
+          "A": "Van de ton giao va dan toc",
+          "B": "Van de me tin di doan va tho cung ong ba",
+          "C": "Van de ngoai giao",
+          "D": "Van de chinh tri RUONERFLONCOI"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_45",
+        "q_num": 45,
+        "question": "KizspyIQuestion: 45 Ai da khang dinh van de: “Trong cong truong thu cong va trong nghe thu cong. nguoi cong nhan su dung cong cu cua minh, con trong cong xuong thi nguoi cong nhan phai phuc vu may moc\"?",
+        "options": {
+          "A": "Chu tich Ho Chi Minh",
+          "B": "V.I.Lenin",
+          "C": "C.Mac va Ph.Angghen",
+          "D": "Tap Can Binh RUONERFLOUWEOIU"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_46",
+        "q_num": 46,
+        "question": "Điều kiện chủ quan để giai cấp công nhân thực hiện sứ mệnh lịch sử của mình là gì? Lựa chọn các đáp án đúng. (Chọn 3 đáp án)",
+        "options": {
+          "A": "Sự phát triển của bản thân giai cấp công nhân về cả số lượng và chất lượng",
+          "B": "Phải có Đảng Cộng sản lãnh đạo",
+          "C": "Phải có sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác",
+          "D": "Giai cấp công nhân đại diện cho phương thức sản xuất tiên tiến và lực lượng sản xuất hiện đại"
+        },
+        "answer": "A, B, C",
+        "explanation": "Ba điều kiện chủ quan gồm: sự trưởng thành của giai cấp công nhân; vai trò lãnh đạo của Đảng Cộng sản; và sự liên minh chặt chẽ công - nông và các tầng lớp lao động (D là điều kiện khách quan)."
+      },
+      {
+        "id": "mln131_su25_b5_1_47",
+        "q_num": 47,
+        "question": "KizspyIQuestion: 47 Giai cap nao la dai bieu cho luc luong san xuat tien tien, cho phuong thuc san xuat hien dai?",
+        "options": {
+          "A": "Tu san",
+          "B": "Nong dan",
+          "C": "Cong nhan",
+          "D": "Thong tri RUOVERFLOUWCOIL"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_48",
+        "q_num": 48,
+        "question": "Vai trò của giai cấp công nhân là gì?",
+        "options": {
+          "A": "Là chủ thể của quá trình sản xuất vật chất để sản xuất ra của cải vật chất ngày càng nhiều đáp ứng nhu cầu ngày càng tăng của con người và xã hội",
+          "B": "Là chủ thể của quá trình phát triển, xây dựng nông thôn mới gắn với xây dựng các cơ sở công nghiệp, dịch vụ và phát triển đô thị",
+          "C": "Là chủ thể của quá trình tổ chức sản xuất, kinh doanh hàng hóa nhằm thúc đẩy trao đổi và mở rộng thị trường, tối đa hoá lợi nhuận cho doanh nghiệp",
+          "D": "Là chủ thể của quá trình nghiên cứu khoa học và phát triển công nghệ nhằm tạo ra tri thức mới cho xã hội"
+        },
+        "answer": "A",
+        "explanation": "Giai cấp công nhân là lực lượng sản xuất hàng đầu, là chủ thể trực tiếp của quá trình sản xuất vật chất hiện đại, tạo ra phần lớn của cải vật chất cho xã hội."
+      },
+      {
+        "id": "mln131_su25_b5_1_49",
+        "q_num": 49,
+        "question": "KizspyIQuestion: 49 Trong thoi dai hien nay, hao phi lao dong chu yeu cua giai cap cong nhan da bien doi nhu the nao?",
+        "options": {
+          "A": "Giam bot hao phi suic luic co bap, gia tang hao phi ve tri luc",
+          "B": "Dong thoi gia tang ca hao phi stic luc va tri luc",
+          "C": "Gia tang yeu to tam luic trong qua trinh lao dong",
+          "D": "Giam bot hao phi ve tri luc, gia tang hao phi stuic luc FUONERFLOWCOM"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_50",
+        "q_num": 50,
+        "question": "Nền sản xuất đại công nghiệp và phương thức sản xuất tiên tiến đã rèn luyện giai cấp công nhân có những phẩm chất gì đặc biệt hơn các giai cấp khác?",
+        "options": {
+          "A": "Tính tổ chức, kỷ luật lao động, tinh thần hợp tác cao",
+          "B": "Tinh thần yêu thương, đùm bọc lẫn nhau",
+          "C": "Sự khổ luyện, kiên trì lao động vì tiền lương",
+          "D": "Phẩm chất cần cù, siêng năng và chịu khó"
+        },
+        "answer": "A",
+        "explanation": "Nền đại công nghiệp với quy trình công nghệ hiện đại rèn luyện cho giai cấp công nhân tính tổ chức, kỷ luật lao động và tác phong công nghiệp cao."
+      },
+      {
+        "id": "mln131_su25_b5_1_51",
+        "q_num": 51,
+        "question": "KizspyIQuestion: 51 cac cong cu san xuat cho tinh chat cong nghiep ngay cang hien dai va xa hoi hoa cao?",
+        "options": {
+          "A": "Tusan",
+          "B": "Cong nhan",
+          "C": "Nong dan",
+          "D": "Dia chu RUONERFLOUWEOIU"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_52",
+        "q_num": 52,
+        "question": "Kizspy1Question:52 Dac truing ban chat nao cua chu nghia xa hoi the hien day la che do xa hoi vi con ngudi, do con nguoi?",
+        "options": {
+          "A": "Chu nghia xa hoi co nen kinh te phat trien cao, dua tren che do tui huu ve tu lieu san xuat chu yeu",
+          "B": "Chu nghia xa hoi la che do xa hoi do nhan dan lao dong lam chu",
+          "C": "Chu nghia xa hoi giai phong giai cap cong nhan, nhan dan lao dong va dong thoi dan ap giai cap thong tri tan bao la giai cap tui san",
+          "D": "Chu nghia xa hoi co nha nuidc kieu moi mang ban chat giai cap cong nhan, dai bieu cho loi ich, quyen luc va y chi cua rieng giai cap cong nhan FUONERFLONCOM"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_53",
+        "q_num": 53,
+        "question": "Kizspy1Question: 53 Dien cum tu thich hop vao (.): Ve ly luan, khong the nghi ngo gi duoc rang giua .. va... co mot thoi ky qua do rquip teyu",
+        "options": {
+          "A": "Chu nghia tui ban/ chui nghia cong san",
+          "B": "Chu nghia tu ban/ Giai cap cong nhan",
+          "C": "Nhan dan lao dong/ chinh quyen",
+          "D": "Chinh tri/ xa hoi RUONERFLONEOIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_54",
+        "q_num": 54,
+        "question": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (Bổ sung và phát triển năm 2011) xác định phương hướng thứ hai, phản ánh con đường đi lên chủ nghĩa xã hội ở nước ta là gì?",
+        "options": {
+          "A": "Phát triển nền kinh tế thị trường định hướng xã hội chủ nghĩa",
+          "B": "Xây dựng nền văn hoá tiên tiến, đậm đà bản sắc dân tộc; xây dựng con người, nâng cao đời sống nhân dân, thực hiện tiến bộ và công bằng xã hội",
+          "C": "Bảo đảm vững chắc quốc phòng và an ninh quốc gia, trật tự, an toàn xã hội",
+          "D": "Thực hiện đường lối đối ngoại độc lập, tự chủ, hoà bình, hữu nghị, hợp tác và phát triển; chủ động và tích cực hội nhập quốc tế"
+        },
+        "answer": "A",
+        "explanation": "Phương hướng thứ 2 trong Cương lĩnh 2011 là 'Phát triển nền kinh tế thị trường định hướng xã hội chủ nghĩa'."
+      },
+      {
+        "id": "mln131_su25_b5_1_55",
+        "q_num": 55,
+        "question": "Trên lĩnh vực kinh tế, trong thời kỳ quá độ lên chủ nghĩa xã hội tất yếu tồn tại nền kinh tế như thế nào?",
+        "options": {
+          "A": "Kinh tế nhiều thành phần, trong đó có thành phần đối lập",
+          "B": "Kinh tế kế hoạch hóa tập trung cao độ",
+          "C": "Kinh tế thị trường tự do",
+          "D": "Kinh tế hàng hóa giản đơn"
+        },
+        "answer": "A",
+        "explanation": "Về kinh tế trong thời kỳ quá độ tất yếu tồn tại một nền kinh tế nhiều thành phần, trong đó có cả các thành phần kinh tế đối lập nhau (kinh tế XHCN và kinh tế TBCN/tư nhân)."
+      },
+      {
+        "id": "mln131_su25_b5_1_56",
+        "q_num": 56,
+        "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam hiện nay, hình thức phân phối nào giữ vai trò chủ đạo?",
+        "options": {
+          "A": "Phân phối theo lao động",
+          "B": "Phân phối quỹ phúc lợi xã hội",
+          "C": "Phân phối theo nhu cầu",
+          "D": "Phân phối theo bao cấp"
+        },
+        "answer": "A",
+        "explanation": "Trong nền kinh tế thị trường định hướng XHCN, hình thức phân phối theo lao động (theo kết quả lao động và hiệu quả kinh tế) giữ vai trò chủ đạo."
+      },
+      {
+        "id": "mln131_su25_b5_1_57",
+        "q_num": 57,
+        "question": "Khó khăn về xuất phát điểm của Việt Nam khi tiến vào thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
+        "options": {
+          "A": "Xuất phát từ một xã hội vốn là thuộc địa, nửa phong kiến, lực lượng sản xuất rất thấp, chiến tranh kéo dài, để lại nhiều tàn dư tiêu cực",
+          "B": "Xuất phát từ một xã hội phong kiến phát triển, trải qua thời kỳ thuộc địa nên bị đồng hóa nhiều về tư tưởng, văn hóa",
+          "C": "Xuất phát từ một xã hội phong kiến lạc hậu, trình độ lực lượng sản xuất nông nghiệp kém, được sự khai hóa của thực dân Pháp nhưng không có sự cải biến tốt hơn",
+          "D": "Xuất phát từ một nước công nghiệp phát triển tiến lên chủ nghĩa xã hội"
+        },
+        "answer": "A",
+        "explanation": "Việt Nam bước vào thời kỳ quá độ từ một xã hội thuộc địa nửa phong kiến với lực lượng sản xuất rất thấp kém và hậu quả chiến tranh tàn phá."
+      },
+      {
+        "id": "mln131_su25_b5_1_58",
+        "q_num": 58,
+        "question": "Đại hội XIII của Đảng Cộng sản Việt Nam đã đề ra mục tiêu gì vào năm 2030 trên con đường xây dựng chủ nghĩa xã hội?",
+        "options": {
+          "A": "Là nước đang phát triển, có thu nhập trung bình",
+          "B": "Là nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao",
+          "C": "Là nước phát triển, có thu nhập trung bình cao",
+          "D": "Là nước phát triển, có thu nhập cao"
+        },
+        "answer": "B",
+        "explanation": "Nghị quyết Đại hội XIII xác định mục tiêu đến năm 2030 (kỷ niệm 100 năm thành lập Đảng): Là nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao (và đến năm 2045 trở thành nước phát triển, thu nhập cao)."
+      },
+      {
+        "id": "mln131_su25_b5_1_59",
+        "q_num": 59,
+        "question": "KizspyIQuestion: 59 Dac trung co ban dau tien cua chu nghia xa hoi la gi?",
+        "options": {
+          "A": "Chu nghia xa hoi co nha nuidc kieu moi mang ban chat giai cap cong nhan, dai bieu cho loi ich, quyen luc va y chi cua nhan dan lao dong",
+          "B": "Chu nghia xa hoi giai phong giai cap, giai phong dan toc, giai phong xa hoi, giai phong con nguoi, tao dieu kien de con nguoi phat trien toan dien",
+          "C": "Chu nghia xa hoi la xa hoi do nhan dan lao dong lam chu",
+          "D": "Chu nghia xa hoi co nen kinh te phat trien cao dua tren luc luidng san xuat hien dai va che do cong huu ve FUONERFLOWCOM tu lieu san xuat chu yeu"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_b5_1_60",
+        "q_num": 60,
+        "question": "KizspyIQuestion: 60 Tinh chat xa hoi hoa cao cua luc luong san xuat doi hoi van de gi?",
+        "options": {
+          "A": "Mot quan he san xuat mdi, phu hop vdi che do cong huu cac tu lieu san xuat chu yeu cua xa hoi",
+          "B": "Mot co so ha tang mdi, phu hop vdi che do cong huu cac tu lieu san xuat chu yeu cua xa hoi",
+          "C": "Mot luc luiong san xuat mdi, phu hop vdi che do cong huu cac tu lieu san xuat chu yeu cua xa hoi",
+          "D": "Mot kien truic thuong tang moi, phu hop voi luc luong san xuat mdi FUOVERFLOWCO"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      }
+    ]
+  },
+  "mln131_su25_fekts": {
+    "id": "mln131_su25_fekts",
+    "name": "Đề Thi MLN131 - SU 2025 FEKTS",
+    "shortName": "SU25 - FEKTS",
+    "semester": "SU25",
+    "total": 60,
+    "questions": [
+      {
+        "id": "mln131_su25_fekts_1",
+        "q_num": 1,
+        "question": "Theo quan điểm của chủ nghĩa Mác - Lênin, loài người đã trải qua các hình thức cộng đồng từ thấp đến cao theo thứ tự là gì?",
+        "options": {
+          "A": "Thị tộc, bộ lạc, bộ tộc và dân tộc",
+          "B": "Bộ tộc, bộ lạc, thị tộc và dân tộc",
+          "C": "Dân tộc, thị tộc, bộ lạc và bộ tộc",
+          "D": "Bộ lạc, bộ tộc, thị tộc và dân tộc"
+        },
+        "answer": "A",
+        "explanation": "Tiến trình phát triển lịch sử của các hình thái cộng đồng người diễn ra theo tuần tự: Thị tộc -> Bộ lạc -> Bộ tộc -> Dân tộc."
+      },
+      {
+        "id": "mln131_su25_fekts_2",
+        "q_num": 2,
+        "question": "Đặc trưng nào dưới đây là quan trọng nhất, là cơ sở gắn kết các bộ phận, các thành viên trong dân tộc, tạo nên tính thống nhất, ổn định, bền vững của dân tộc?",
+        "options": {
+          "A": "Chung một vùng lãnh thổ",
+          "B": "Chung một phương thức sinh hoạt kinh tế",
+          "C": "Chung một ngôn ngữ làm công cụ giao tiếp",
+          "D": "Chung một nền văn hóa và tâm lý"
+        },
+        "answer": "B",
+        "explanation": "Cộng đồng về kinh tế (chung phương thức sinh hoạt kinh tế) là đặc trưng quan trọng nhất gắn kết bền chặt các thành viên của dân tộc quốc gia."
+      },
+      {
+        "id": "mln131_su25_fekts_3",
+        "q_num": 3,
+        "question": "Giải quyết hai vấn đề nào sau đây cần phải đặt trong mối quan hệ với cộng đồng quốc gia - dân tộc thống nhất theo định hướng xã hội chủ nghĩa?",
+        "options": {
+          "A": "Văn hóa và hội nhập quốc tế",
+          "B": "Tư sản và vô sản",
+          "C": "Giáo dục và y tế",
+          "D": "Dân tộc và tôn giáo"
+        },
+        "answer": "D",
+        "explanation": "Giải quyết mối quan hệ giữa dân tộc và tôn giáo phải luôn gắn liền với lợi ích tối cao của quốc gia - dân tộc thống nhất."
+      },
+      {
+        "id": "mln131_su25_fekts_4",
+        "q_num": 4,
+        "question": "Điền cụm từ thích hợp vào (...): “Các dân tộc hoàn toàn ... , các dân tộc được quyền tự quyết, liên hiệp ... tất cả các dân tộc lại”.",
+        "options": {
+          "A": "Bình đẳng/ công nhân",
+          "B": "Hòa bình/ công nhân",
+          "C": "Công nhân/ nông dân",
+          "D": "Hòa bình/ bình đẳng"
+        },
+        "answer": "A",
+        "explanation": "Cương lĩnh dân tộc của chủ nghĩa Mác - Lênin (do V.I.Lênin soạn thảo) nêu ba nội dung cơ bản: 'Các dân tộc hoàn toàn bình đẳng, các dân tộc được quyền tự quyết, liên hiệp công nhân tất cả các dân tộc lại'."
+      },
+      {
+        "id": "mln131_su25_fekts_5",
+        "q_num": 5,
+        "question": "fuoverflow ; Uu tien dau tu phat trien kinh t-xa hoio cac vung dan toc va mien nui, truoc het, tap trung vao phat trien van de gi?",
+        "options": {
+          "A": "Giao thong va co so ha tang, xoa doi, giam ngheo",
+          "B": "Ket cau ha tang ky thuat, xoa doi giam ngheo, y te, giao duc",
+          "C": "Giao thong va kien truic thuiong tang, xoa doi giam ngheo",
+          "D": "Giao thong va ket cau ha tang,y te, giao duc [()"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_6",
+        "q_num": 6,
+        "question": "fuoverflow Noi dung cot loi cua cong tac ton giao o nuoc ta hien nay la gi?",
+        "options": {
+          "A": "Cong tac giao duc chu nghia duy vat bien chung",
+          "B": "Cong tac cam hoa giao dan",
+          "C": "Cong tac van dong quan chung",
+          "D": "Cong tac dieu hoa mau thuan giuia cac ton giao"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_7",
+        "q_num": 7,
+        "question": "Đảng Cộng sản Việt Nam đã nêu rõ vấn đề nào trong Văn kiện Đại hội đại biểu toàn quốc lần thứ XII?",
+        "options": {
+          "A": "Vấn đề dân tộc có vai trò quan trọng đối với sự nghiệp phát triển kinh tế - xã hội ở nước ta hiện nay.",
+          "B": "Vấn đề dân tộc và đoàn kết các dân tộc có vị trí quyết định đến sự sống còn của dân tộc ta hiện nay.",
+          "C": "Vấn đề dân tộc và đoàn kết các dân tộc luôn có vị trí chiến lược trong sự nghiệp cách mạng.",
+          "D": "Vấn đề đoàn kết dân tộc là điều kiện cần cho sự nghiệp cách mạng ở nước ta hiện nay."
+        },
+        "answer": "C",
+        "explanation": "Đại hội XII của Đảng khẳng định: 'Vấn đề dân tộc và đoàn kết các dân tộc có vị trí chiến lược lâu dài trong sự nghiệp cách mạng nước ta'."
+      },
+      {
+        "id": "mln131_su25_fekts_8",
+        "q_num": 8,
+        "question": "fuoverflow : De tang cuiong, cung co khoi dai doan ket dan toc o nuoc ta hien nay thi chinh sach cu the nao cua Dang va Nha nuioc ta dtioc coi la van de cuc ky quan trong?",
+        "options": {
+          "A": "Phat trienkinh tehang hoa o cac vung dan toc thieuso",
+          "B": "Ton trong loi ich, truyen thong, van hoa cua cac dan toc",
+          "C": "Phat huy truyen thong doan ket giua cac dan toc",
+          "D": "Tang cuong boi duong, dao tao doi ngu can bo la nguoi dan toc thieu so"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_9",
+        "q_num": 9,
+        "question": "fuoverflow",
+        "options": {
+          "A": "Dan chu la mot gia tri nhan loai chung",
+          "B": "Dan chu la nguoi dan dudc tu do, hanh phuc",
+          "C": "Dan chu la phat trien dat nudc Xa hoi chu nghia o Viet Nam",
+          "D": "B va C deu dung"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_10",
+        "q_num": 10,
+        "question": "fuoverflow Trong cac nen dan chu da va dang ton tai trong lich su loai nguoi, thi nen dan chu nao la nen dan chu phat trien cao nhat ve chat?",
+        "options": {
+          "A": "Dan chu chu no",
+          "B": "Dan chu tu san",
+          "C": "Dan chu xa hoichu nghia",
+          "D": "Dan chu cong san chu nghia"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_11",
+        "q_num": 11,
+        "question": "Nền dân chủ xã hội chủ nghĩa đầu tiên chính thức được xác lập khi nào?",
+        "options": {
+          "A": "Cách mạng tháng 8 năm 1945 thành công",
+          "B": "Bản tuyên ngôn nhân quyền và dân quyền của Pháp (1789)",
+          "C": "Tuyên ngôn độc lập của Mỹ (1776)",
+          "D": "Cách mạng Tháng Mười Nga thành công với sự ra đời của nhà nước xã hội chủ nghĩa đầu tiên trên thế giới (1917)"
+        },
+        "answer": "D",
+        "explanation": "Nền dân chủ XHCN đầu tiên được chính thức xác lập sau khi Cách mạng Tháng Mười Nga thành công năm 1917, dẫn tới sự ra đời của Nhà nước Xô viết - nhà nước XHCN đầu tiên trên thế giới."
+      },
+      {
+        "id": "mln131_su25_fekts_12",
+        "q_num": 12,
+        "question": "Nhà nước xã hội chủ nghĩa có vai trò như thế nào đối với dân chủ xã hội chủ nghĩa?",
+        "options": {
+          "A": "Nhà nước xã hội chủ nghĩa là công cụ trấn áp dân chủ xã hội chủ nghĩa",
+          "B": "Nhà nước xã hội chủ nghĩa trở thành công cụ quan trọng cho việc thực thi quyền làm chủ của người dân",
+          "C": "Nhà nước xã hội chủ nghĩa là động lực, nền tảng thực hiện dân chủ xã hội chủ nghĩa",
+          "D": "Nhà nước xã hội chủ nghĩa là cơ sở, điều kiện tiên quyết cho việc tổ chức dân chủ triệt để đối với mọi giai cấp"
+        },
+        "answer": "C",
+        "explanation": "Nhà nước XHCN là phương thức, công cụ thể chế hóa và bảo đảm thực thi quyền làm chủ của nhân dân lao động bằng hiến pháp và pháp luật."
+      },
+      {
+        "id": "mln131_su25_fekts_13",
+        "q_num": 13,
+        "question": "fuoverflow Van de:\"Xay dung nha nuoc do nhan dan lao dong lam chu, do la Nha nuoc cua dan, do dan, vi dan\"la dac diem thu may trong cac dac diem cua Nha nudc phap quyen xa hoi chu nghia Viet Nam?",
+        "options": {
+          "A": "1",
+          "B": "3",
+          "C": "5",
+          "D": "6"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_14",
+        "q_num": 14,
+        "question": "fuoverflow 4 To chuic va hoat dong cua bo may nha nuoc phap quyen xa hoi chu nghia Viet Nam thuc hien theo nguyen tac nao?",
+        "options": {
+          "A": "Nguyentac.taptrungdanchu",
+          "B": "Nguyentac dan churongrai",
+          "C": "Nguyen tac ca nhan phu trach",
+          "D": "Nguyén tac lap phap"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_15",
+        "q_num": 15,
+        "question": "Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam mang bản chất giai cấp của giai cấp nào?",
+        "options": {
+          "A": "Công nhân",
+          "B": "Nông dân",
+          "C": "Tư sản",
+          "D": "Trí thức"
+        },
+        "answer": "A",
+        "explanation": "Nhà nước pháp quyền XHCN Việt Nam là nhà nước của nhân dân, do nhân dân, vì nhân dân, mang bản chất của giai cấp công nhân."
+      },
+      {
+        "id": "mln131_su25_fekts_16",
+        "q_num": 16,
+        "question": "fuoverflow",
+        "options": {
+          "A": "Vi so luong con nguoi thoi do rat it",
+          "B": "Vi noi ham cua khai niem \"dan\" chi bao gom giai cap chu no va mot bo phan nho cong dan tu do",
+          "C": "Visuic taptrung lanh tho cua cac lanh chua nhobe",
+          "D": "Vi quyen luc thuc su thuoc vao tay mot lanh chua lon nhat"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_17",
+        "q_num": 17,
+        "question": "Cơ sở chính trị - xã hội để xây dựng gia đình trong chủ nghĩa xã hội là gì?",
+        "options": {
+          "A": "Thiết lập chính quyền nhà nước của giai cấp công nhân và nhân dân lao động, nhà nước xã hội chủ nghĩa",
+          "B": "Thiết lập chế độ công hữu về tư liệu sản xuất",
+          "C": "Xây dựng văn hóa xã hội chủ nghĩa",
+          "D": "Xây dựng một chế độ bình đẳng về quyền và nghĩa vụ trong kinh tế"
+        },
+        "answer": "A",
+        "explanation": "Cơ sở chính trị - xã hội là việc thiết lập nhà nước XHCN của nhân dân lao động, bảo vệ quyền lợi hợp pháp của gia đình thông qua hệ thống pháp luật tiến bộ."
+      },
+      {
+        "id": "mln131_su25_fekts_18",
+        "q_num": 18,
+        "question": "Tại sao trong gia đình Việt Nam truyền thống trước kia lại quan niệm có càng đông con càng tốt và nhất thiết phải có con trai nối dõi?",
+        "options": {
+          "A": "Do dân số ít và nam giới quá hiếm",
+          "B": "Do không có các biện pháp kế hoạch hóa gia đình",
+          "C": "Do con cái mang họ cha",
+          "D": "Do ảnh hưởng phong tục, tập quán và nhu cầu sản xuất nông nghiệp"
+        },
+        "answer": "D",
+        "explanation": "Xã hội nông nghiệp lúa nước cổ truyền đòi hỏi nhiều lao động cơ bắp, kết hợp với ảnh hưởng của tư tưởng Nho giáo phụ quyền dẫn đến quan niệm cần đông con và chuộng con trai nối dõi tông đường."
+      },
+      {
+        "id": "mln131_su25_fekts_19",
+        "q_num": 19,
+        "question": "Ở Việt Nam, từ những năm 70 và 80 của thế kỉ XX, Nhà nước đã tuyên truyền, phổ biến và vận động, khuyến khích mỗi cặp vợ chồng có bao nhiêu con?",
+        "options": {
+          "A": "Chỉ nên có từ 1 đến 2 con",
+          "B": "Có từ 4 con trở lên",
+          "C": "Có đủ 3 con",
+          "D": "Càng đông con càng tốt"
+        },
+        "answer": "A",
+        "explanation": "Chính sách dân số - kế hoạch hóa gia đình của Việt Nam từ thập niên 70-80 vận động mỗi cặp vợ chồng 'chỉ nên có từ 1 đến 2 con' để nuôi dạy cho tốt."
+      },
+      {
+        "id": "mln131_su25_fekts_20",
+        "q_num": 20,
+        "question": "Trong các chế độ xã hội trước, sự thống trị của người đàn ông trong gia đình là kết quả của việc gì?",
+        "options": {
+          "A": "Của sự thống trị về kinh tế",
+          "B": "Của sự phát triển chế độ quân chủ",
+          "C": "Của sự thống trị về văn hóa",
+          "D": "Của sự thống trị về chính trị"
+        },
+        "answer": "A",
+        "explanation": "Sự thống trị của người đàn ông trong gia đình phụ quyền bắt nguồn từ sự thống trị về kinh tế (người đàn ông nắm giữ tư liệu sản xuất và tài sản chủ yếu của gia đình)."
+      },
+      {
+        "id": "mln131_su25_fekts_21",
+        "q_num": 21,
+        "question": "Nhân tố nào sau đây có vai trò quyết định đến sự tồn tại và phát triển của xã hội?",
+        "options": {
+          "A": "Con người",
+          "B": "Gia đình",
+          "C": "Tư duy",
+          "D": "Khoa học kỹ thuật"
+        },
+        "answer": "A",
+        "explanation": "Ph.Ăngghen chỉ rõ: Sản xuất ra tư liệu sinh hoạt và tái sản xuất ra bản thân con người (thông qua thiết chế gia đình) là hai nhân tố quyết định sự tồn tại và phát triển của xã hội."
+      },
+      {
+        "id": "mln131_su25_fekts_22",
+        "q_num": 22,
+        "question": "Có bao nhiêu phương hướng cơ bản xây dựng và phát triển gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội?",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "5",
+          "D": "6"
+        },
+        "answer": "B",
+        "explanation": "Có 4 phương hướng cơ bản nhằm xây dựng và phát triển gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội."
+      },
+      {
+        "id": "mln131_su25_fekts_23",
+        "q_num": 23,
+        "question": "Quy mô gia đình ở Việt Nam hiện nay tồn tại theo xu hướng nào?",
+        "options": {
+          "A": "Thu nhỏ số lượng thành viên trong gia đình",
+          "B": "Mở rộng số lượng thành viên trong gia đình",
+          "C": "Liên kết các gia đình đơn",
+          "D": "Quy mô nhỏ ở nông thôn và quy mô lớn ở thành thị"
+        },
+        "answer": "A",
+        "explanation": "Quy mô gia đình Việt Nam hiện đại đang biến đổi theo xu hướng thu nhỏ số thế hệ và số thành viên (từ gia đình truyền thống nhiều thế hệ chuyển sang gia đình hạt nhân 1 - 2 thế hệ)."
+      },
+      {
+        "id": "mln131_su25_fekts_24",
+        "q_num": 24,
+        "question": "Nếu thiếu đi cơ sở văn hóa, hoặc cơ sở văn hóa không đi liền với cơ sở kinh tế, chính trị thì việc xây dựng gia đình sẽ bị ảnh hưởng như thế nào?",
+        "options": {
+          "A": "Việc xây dựng gia đình sẽ lệch lạc, không đạt hiệu quả",
+          "B": "Hệ thống chính sách, pháp luật về xây dựng gia đình sẽ không thể hoàn thiện",
+          "C": "Việc xây dựng gia đình không còn dựa trên nền tảng hệ tư tưởng chính trị",
+          "D": "Việc xây dựng gia đình sẽ không hướng tới đời sống văn hóa, tinh thần"
+        },
+        "answer": "A",
+        "explanation": "Cơ sở văn hóa cung cấp hệ giá trị chuẩn mực đạo đức; nếu thiếu nó, gia đình sẽ phát triển lệch lạc, xuống cấp đạo đức và không đạt hiệu quả tiến bộ."
+      },
+      {
+        "id": "mln131_su25_fekts_25",
+        "q_num": 25,
+        "question": "Điền cụm từ thích hợp vào (...): 'Giai cấp ..., trong quá trình thống trị giai cấp chưa đầy một thế kỷ, đã tạo ra những ... nhiều hơn và đồ sộ hơn lực lượng sản xuất của tất cả các thế hệ trước kia gộp lại'.",
+        "options": {
+          "A": "Tư sản/ Lực lượng sản xuất",
+          "B": "Tư sản/ Quan hệ sản xuất",
+          "C": "Vô sản/ Tư sản",
+          "D": "Vô sản/ Giai cấp nông dân"
+        },
+        "answer": "A",
+        "explanation": "Theo Tuyên ngôn của Đảng Cộng sản: 'Giai cấp tư sản, trong quá trình thống trị giai cấp chưa đầy một thế kỷ, đã tạo ra những lực lượng sản xuất nhiều hơn và đồ sộ hơn lực lượng sản xuất của tất cả các thế hệ trước kia gộp lại'."
+      },
+      {
+        "id": "mln131_su25_fekts_26",
+        "q_num": 26,
+        "question": "Ba bộ phận hợp thành chủ nghĩa Mác - Lênin là gì?",
+        "options": {
+          "A": "Triết học Mác - Lênin, Lịch sử Đảng, Kinh tế chính trị Mác - Lênin",
+          "B": "Triết học Mác - Lênin, Tư tưởng Hồ Chí Minh, Chủ nghĩa xã hội khoa học",
+          "C": "Kinh tế chính trị học, Chủ nghĩa xã hội không tưởng, Triết học cổ điển Đức",
+          "D": "Triết học Mác - Lênin, Kinh tế chính trị Mác - Lênin, Chủ nghĩa xã hội khoa học"
+        },
+        "answer": "D",
+        "explanation": "Ba bộ phận cấu thành chủ nghĩa Mác - Lênin: 1. Triết học Mác - Lênin; 2. Kinh tế chính trị Mác - Lênin; 3. Chủ nghĩa xã hội khoa học."
+      },
+      {
+        "id": "mln131_su25_fekts_27",
+        "q_num": 27,
+        "question": "fuoverflow :7",
+        "options": {
+          "A": "Phuiong phap truiu tuiong hoa khoa hoc",
+          "B": "Phuiong phap ket hop lich su va logic",
+          "C": "Phuong phap khao sat va phan tich ve mat chinh tri xa hoi",
+          "D": "Phuong phap so sanh"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_28",
+        "q_num": 28,
+        "question": "fuoverflow :8 Danh gia sau duoc trich trong tac pham nao:tac pham chu yeu va co ban ay trinh bay chu nghia xa hoi khoa hoc... nhuingyeutotuido nay sinh ra chedotuonglai\"?",
+        "options": {
+          "A": "Chong Duyring",
+          "B": "DuongKach menh",
+          "C": "Tuyen ngon cua Dang Congsan",
+          "D": "Tu ban"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_29",
+        "q_num": 29,
+        "question": "fuoverflow :9 san?",
+        "options": {
+          "A": "Nong dan",
+          "B": "Tu san",
+          "C": "Chu no",
+          "D": "Cong nhan"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_30",
+        "q_num": 30,
+        "question": "Về mặt thực tiễn, đâu không phải là một ý nghĩa của việc nghiên cứu chủ nghĩa xã hội khoa học?",
+        "options": {
+          "A": "Thay rokhoang cach giuia ly luan chu nghia xa hoi khoa hoc va thuc tien van dung no",
+          "B": "Su sup do cua Lien Xo va Dong Au la do da nhan thuc va hanh dong tren nhieu van de trai voi chu nghia xa cac nuoc nay khung hoang",
+          "C": "Can co ban linh vuing vang, sang suot va sang tao trong viec van dung chu nghia xa hoi khoa hoc vao boi canh lich su cu the cua tuing quoc gia, tranh giao dieu, bao thu, duy y chi",
+          "D": "Giup chung ta co can cu nhan thuic khoa hoc de luon canh giac, phan tich dung va dau tranh chong lai nhung nhan thuic sai lech ve chu nghiaxa hoi"
+        },
+        "answer": "D",
+        "explanation": "Nghiên cứu CNXHKH khẳng định tính tích cực cách mạng và vai trò chủ thể của con người, hoàn toàn trái ngược với tư tưởng thụ động, trông chờ."
+      },
+      {
+        "id": "mln131_su25_fekts_31",
+        "q_num": 31,
+        "question": "Sau Hội nghị Mátxcơva (1960), hoạt động lý luận và thực tiễn của Đảng Cộng sản và công nhân như thế nào?",
+        "options": {
+          "A": "Không phát triển",
+          "B": "Tăng cường hơn trước",
+          "C": "Bị chủ nghĩa tư bản thủ tiêu",
+          "D": "Chỉ có công nhân phát triển"
+        },
+        "answer": "B",
+        "explanation": "Sau Hội nghị Mátxcơva (1960), phong trào cộng sản và công nhân quốc tế được củng cố, hoạt động lý luận và thực tiễn của các Đảng tăng cường hơn trước."
+      },
+      {
+        "id": "mln131_su25_fekts_32",
+        "q_num": 32,
+        "question": "fuoverflow 2 nao trong xa hoi cang tro nen quan trong?",
+        "options": {
+          "A": "Cong nhan",
+          "B": "Nong dan",
+          "C": "Tri thuc",
+          "D": "Doanh nhan"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_33",
+        "q_num": 33,
+        "question": "fuoverflow /33 Trong.cocauxahoi-giaicapo VietNam hien nay.giai cap,tang lopnao dang donggoptichcuc vao viec thuc hien chien lugc phat trien kinh te -xa hoi, tao viec lam cho ngudi lao dong?",
+        "options": {
+          "A": "Giai cap cong nhan",
+          "B": "Giai cap nong dan",
+          "C": "Tang Iop tri thuc",
+          "D": "Tang lop doanh nhan"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_34",
+        "q_num": 34,
+        "question": "Cơ cấu xã hội là gì?",
+        "options": {
+          "A": "Là những cộng đồng người hợp thành một chế độ xã hội",
+          "B": "Là những người trong cùng một giai cấp, tầng lớp thực hiện phân chia quyền lực",
+          "C": "Là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tác động lẫn nhau của các cộng đồng ấy tạo nên",
+          "D": "Là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tác động của cộng đồng người ấy với tự nhiên tạo nên"
+        },
+        "answer": "C",
+        "explanation": "Cơ cấu xã hội là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tác động lẫn nhau của các cộng đồng ấy tạo nên."
+      },
+      {
+        "id": "mln131_su25_fekts_35",
+        "q_num": 35,
+        "question": "Cơ sở để xác định thời đại và phân chia thời đại là gì?",
+        "options": {
+          "A": "Hình thái kinh tế - xã hội và vị trí của một giai cấp đứng ở vị trí trung tâm",
+          "B": "Vị trí của một giai cấp đứng ở vị trí trung tâm",
+          "C": "Sự phát triển của lực lượng sản xuất và một quan hệ sản xuất phù hợp",
+          "D": "Cách mạng xã hội chủ nghĩa do giai cấp công nhân lãnh đạo thành công"
+        },
+        "answer": "A",
+        "explanation": "Theo V.I.Lênin: cơ sở để phân chia thời đại là căn cứ vào hình thái kinh tế - xã hội và việc giai cấp nào đứng ở vị trí trung tâm quyết định phương hướng phát triển của xã hội."
+      },
+      {
+        "id": "mln131_su25_fekts_36",
+        "q_num": 36,
+        "question": "fuoverflow 6 Co cau kinh te trong thoiky qua dolen chunghia xahoi Viet Nam tuy van dong theo co che thi truong,song vancosuquanlycuachuthenao?",
+        "options": {
+          "A": "Giai cap cong nhan",
+          "B": "DangCongsanVietNam",
+          "C": "Nha nuoc phap quyen xa hoichu nghia",
+          "D": "Tang lop thong tri trong xa hoi"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_37",
+        "q_num": 37,
+        "question": "fuoverflow \"7 tuu khoa hoc -cong nghe hien dai?",
+        "options": {
+          "A": "Doi ngu tri thtic, doi ngu doanh nhan",
+          "B": ". Giai cap cong nhan, doi ngutri thuic",
+          "C": "Doi ngu tri thuic, giai cap nong dan",
+          "D": "Doi ngu doanh nhan, tang lop lao dong trong xa hoi"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_38",
+        "q_num": 38,
+        "question": "Thực chất của liên minh công - nông - trí thức ở nước ta về nội dung kinh tế là gì?",
+        "options": {
+          "A": "Là sự hợp tác giữa họ, đồng thời mở rộng liên kết với các lực lượng khác để xây dựng nền kinh tế mới xã hội chủ nghĩa hiện đại",
+          "B": "Là sự hợp tác giữa họ, đồng thời mở rộng liên kết với các lực lượng khác để xây dựng nền kinh tế thị trường tự do hiện đại",
+          "C": "Là sự hợp tác và đấu tranh giữa họ, đồng thời mở rộng liên kết và đấu tranh với các lực lượng khác để xây dựng nền kinh tế mới",
+          "D": "Là sự hợp tác giữa họ, đồng thời mở rộng liên kết với các lực lượng khác để xây dựng nền chính trị dân chủ"
+        },
+        "answer": "A",
+        "explanation": "Thực chất kinh tế của liên minh là hợp tác cùng phát triển lực lượng sản xuất, xây dựng cơ sở vật chất kỹ thuật của CNXH."
+      },
+      {
+        "id": "mln131_su25_fekts_39",
+        "q_num": 39,
+        "question": "fuoverflow 9 Trong thoi ky qua do len chu nghia xa hoi, yeu to nao quyet dinh moiquan he hop tac, gan bo chat che giua cac giai cap, tang lop?",
+        "options": {
+          "A": "Ho cung nhau cai tao xa hoi cui,xaydungxahoimdi trong moilinh vuc cua doi song xahoi",
+          "B": "Ho cung nhau xay dung xa hoi moi trong moi linh vuc cua doi song xa hoi",
+          "C": "Ho cung nhau cai tao xa hoi cui trong moi linh vuc cua doi song xa hoi",
+          "D": "Ho cung nhau cai tao xa hoi cui, xay dung xa hoi moi trong linh vuc kinh te, chinh tri"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_40",
+        "q_num": 40,
+        "question": "Điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân là gì? (Chọn 2 đáp án đúng)",
+        "options": {
+          "A": "Địa vị kinh tế của giai cấp công nhân",
+          "B": "Địa vị chính trị - xã hội của giai cấp công nhân",
+          "C": "Xuất thân từ giai cấp nông dân trong xã hội phong kiến cũ",
+          "D": "Là giai cấp có khả năng thống trị được toàn thể xã hội xây dựng xã hội mới"
+        },
+        "answer": "A, B",
+        "explanation": "Hai điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân là địa vị kinh tế và địa vị chính trị - xã hội của họ trong nền đại công nghiệp TBCN."
+      },
+      {
+        "id": "mln131_su25_fekts_41",
+        "q_num": 41,
+        "question": "Đặc trưng bản chất của chủ nghĩa xã hội về phương diện kinh tế là gì? Chọn các đáp án đúng. (Chọn 2 đáp án)",
+        "options": {
+          "A": "Nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại",
+          "B": "Chế độ công hữu về tư liệu sản xuất chủ yếu",
+          "C": "Nền kinh tế phát triển cao dựa trên lực lượng sản xuất công nghiệp cơ khí",
+          "D": "Chế độ sở hữu tập thể, hỗn hợp của tư nhân và công cộng"
+        },
+        "answer": "A, B",
+        "explanation": "Về kinh tế, CNXH có nền kinh tế phát triển cao dựa trên LLSX hiện đại và chế độ công hữu về TLSX chủ yếu."
+      },
+      {
+        "id": "mln131_su25_fekts_42",
+        "q_num": 42,
+        "question": "fuoverflow 12 cho rang \"khac tuoi', neu Anh A va Chi B den voi nhau thi gia dinh se co nguoi\"gap xui xeo, chet\". Day duoc xem la niem tin (loai hinh) nao sau day?",
+        "options": {
+          "A": "Ton giao",
+          "B": "Hoi nhom",
+          "C": "Me tin di doan",
+          "D": "Tin nguong"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_43",
+        "q_num": 43,
+        "question": "Chế độ hôn nhân tiến bộ được đảm bảo trên nguyên tắc nào? Chọn các đáp án đúng. (Chọn 3 đáp án)",
+        "options": {
+          "A": "Hôn nhân tự nguyện",
+          "B": "Hôn nhân một vợ một chồng, vợ chồng bình đẳng",
+          "C": "Hôn nhân được đảm bảo về mặt pháp lý",
+          "D": "Hôn nhân được đảm bảo về mặt kinh tế"
+        },
+        "answer": "A, B, C",
+        "explanation": "Ba nguyên tắc: Hôn nhân tự nguyện; Một vợ một chồng bình đẳng; Đảm bảo về mặt pháp lý."
+      },
+      {
+        "id": "mln131_su25_fekts_44",
+        "q_num": 44,
+        "question": "fuoverflow 14 Dien cum tui thich hop vao (.) \"can phai co mot thoi ky qua do kha lau dai tui... en..",
+        "options": {
+          "A": "Chu nghia tu ban/ Chu nghia xa hoi",
+          "B": "Chu nghia xa hoi/ Chu nghia cong san",
+          "C": "Giai cap cong nhan/ nguoi nam chinh quyen",
+          "D": "Nguoi bi boc lot/ len lam chu"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_45",
+        "q_num": 45,
+        "question": "Dựa trên phương diện chính trị - xã hội, giai cấp công nhân được hiểu như thế nào?",
+        "options": {
+          "A": "Là những người nông dân nghèo bị bóc lột sức lao động",
+          "B": "Là những người tri thức tham gia vào sản xuất",
+          "C": "Là sản phẩm xã hội của quá trình phát triển tư bản chủ nghĩa",
+          "D": "A và B đều đúng"
+        },
+        "answer": "C",
+        "explanation": "Về phương diện chính trị - xã hội: Giai cấp công nhân là sản phẩm xã hội của quá trình phát triển TBCN, không có tư liệu sản xuất, phải bán sức lao động và bị bóc lột giá trị thặng dư."
+      },
+      {
+        "id": "mln131_su25_fekts_46",
+        "q_num": 46,
+        "question": "fuoverflow 16 Su menh lich su the gidi cua giai cap cong nhan la gi?",
+        "options": {
+          "A": "Xoa bo su thong tri ap buic cua chu nghia tu ban, xay dung thanh cong che do xa hoi moi-xa hoi chu nghia va cong san chu nghia, tien toi mot xa hoi khong con giai cap",
+          "B": "Xoa bo su thong tri ap buc cua che do phong kien, xay dung thanh cong che do xa hoimdi -xa hoi chu nghia va cong san chu nghia, tien toi mot xa hoi khong con giai cap",
+          "C": "Xoa bo su thong tri ap buic cua che do cong xa nguyen thuy,xay dung thanh cong che do xa hoi moi-xa",
+          "D": "Xoa bo su thong tri ap buic cua chu nghia tu ban, xay dung thanh cong che do xa hoi moi - phong kien"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_47",
+        "q_num": 47,
+        "question": "fuoverflow 17 Tinh chat xa hoi hoa cao cua luc luong san xuat doi hoi van de gi?",
+        "options": {
+          "A": "Motquan hesanxuatmdi,phu hopvoi chedo conghuu cactu lieusanxuatchuyeu cuaxahoi",
+          "B": "Mot co so ha tang moi, phu hop voi che do cong huu cac tu lieu san xuat chu yeu cua xa hoi",
+          "C": "Mot luc luiong san xuat mdi,phu hopvdi che do cong huu cac tui lieu san xuat chu yeu cua xa hoi",
+          "D": "Mot kien truic thuiong tang moi, phu hop voi luc luong san xuat mdi"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_48",
+        "q_num": 48,
+        "question": "fuoverflow 18 Trong thoi dai hien nay, hao phi lao dong chu yeu cua giai cap cong nhan da bien doi nhu the nao?",
+        "options": {
+          "A": "Giam bot hao phi suic luc co bap, gia tang hao phi ve tri luc",
+          "B": "Dong thoi gia tang ca hao phi suc luc va tri luc",
+          "C": "Gia tang yeu to tam luic trong qua trinh lao dong",
+          "D": "Giam bot hao phi ve tri luc, gia tang hao phi suc luc"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_49",
+        "q_num": 49,
+        "question": "Dựa trên phương diện kinh tế - xã hội, giai cấp công nhân được hiểu như thế nào?",
+        "options": {
+          "A": "Sản phẩm của nền sản xuất đại công nghiệp",
+          "B": "Chủ thể của nền sản xuất đại công nghiệp",
+          "C": "Là người mua sức lao động và đi bóc lột giá trị thặng dư",
+          "D": "Chủ thể và sản phẩm của nền sản xuất đại công nghiệp"
+        },
+        "answer": "D",
+        "explanation": "Dựa trên phương diện kinh tế - xã hội, giai cấp công nhân vừa là sản phẩm, vừa là chủ thể của nền sản xuất đại công nghiệp hiện đại."
+      },
+      {
+        "id": "mln131_su25_fekts_50",
+        "q_num": 50,
+        "question": "fuoverflow io Theo chu nghia Mac -Lenin, de thuc hien duoc su menh lich su cua minh, giai cap cong nhan phai thiet lap duoc su lien minh voi giai cap, tang lop nao?",
+        "options": {
+          "A": "Lien minh voi giai cap nong dan va tang lop tieutu san",
+          "B": "Lien minh voi giai cap nong dan va cac tang lop lao dong khac",
+          "C": "Lien minh voi mot bo phan giai cap tui san tien bo",
+          "D": "Lien minh voi giai cap nong dan"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_51",
+        "q_num": 51,
+        "question": "Nền sản xuất đại công nghiệp và phương thức sản xuất tiên tiến đã rèn luyện giai cấp công nhân có những phẩm chất gì đặc biệt hơn các giai cấp khác?",
+        "options": {
+          "A": "Tính tổ chức, kỷ luật lao động, tinh thần hợp tác cao",
+          "B": "Tinh thần yêu thương, đùm bọc lẫn nhau",
+          "C": "Sự khổ luyện, kiên trì lao động vì tiền lương",
+          "D": "Phẩm chất cần cù, siêng năng và chịu khó"
+        },
+        "answer": "A",
+        "explanation": "Nền đại công nghiệp với quy trình công nghệ hiện đại rèn luyện cho giai cấp công nhân tính tổ chức, kỷ luật lao động và tác phong công nghiệp cao."
+      },
+      {
+        "id": "mln131_su25_fekts_52",
+        "q_num": 52,
+        "question": "Sau khi lật đổ được giai cấp thống trị, sứ mệnh lịch sử của giai cấp công nhân không thực hiện điều gì sau đây?",
+        "options": {
+          "A": "Thiết lập nhà nước kiểu mới, mang bản chất giai cấp công nhân",
+          "B": "Xây dựng nền dân chủ xã hội chủ nghĩa",
+          "C": "Thực hiện quyền lực, quyền làm chủ của tuyệt đại đa số nhân dân lao động",
+          "D": "Tiếp tục chiến đấu giải phóng giai cấp công nhân"
+        },
+        "answer": "D",
+        "explanation": "Sau khi giành chính quyền, GCCN chuyển trọng tâm sang xây dựng xã hội mới, bảo vệ chính quyền và lãnh đạo toàn thể nhân dân xây dựng CNXH, chứ không còn là 'tiếp tục chiến đấu giải phóng giai cấp công nhân' đơn thuần theo nghĩa đấu tranh vũ trang lật đổ."
+      },
+      {
+        "id": "mln131_su25_fekts_53",
+        "q_num": 53,
+        "question": "fuoverflow Dai hoiXI, trong Cuong linh xay dung dat nuoc trong thoi qua do len chu nghia xa hoi (Bo sung va phat trien nam 2011) xac dinh bao nhieu phuong hudng phan anh con duong di len chu nghia xa hoi d nuoc ta?",
+        "options": {
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_54",
+        "q_num": 54,
+        "question": "Theo V.I.Lênin, đối với những nước chưa có chủ nghĩa tư bản phát triển cao thì cần phải có một thời kỳ gì để từ chủ nghĩa tư bản lên chủ nghĩa xã hội?",
+        "options": {
+          "A": "Thời kỳ khai sáng",
+          "B": "Thời kỳ tiến lên",
+          "C": "Thời kỳ quá độ",
+          "D": "Thời kỳ phát triển"
+        },
+        "answer": "C",
+        "explanation": "V.I.Lênin khẳng định đối với các nước chưa có CNTB phát triển cao cần phải trải qua một thời kỳ quá độ lịch sử lâu dài để tiến lên CNXH."
+      },
+      {
+        "id": "mln131_su25_fekts_55",
+        "q_num": 55,
+        "question": "Liên Xô, Đông Âu và các nước xã hội chủ nghĩa hiện nay, đã và đang quá độ lên chủ nghĩa xã hội bằng hình thức nào?",
+        "options": {
+          "A": "Quá độ gián tiếp",
+          "B": "Quá độ trực tiếp",
+          "C": "Quá độ bộ phận",
+          "D": "Quá độ toàn diện"
+        },
+        "answer": "A",
+        "explanation": "Các nước xã hội chủ nghĩa như Liên Xô, Đông Âu, Trung Quốc, Việt Nam... trong lịch sử đều xuất phát từ các nước chưa trải qua CNTB phát triển, nên đều thực hiện hình thức quá độ gián tiếp."
+      },
+      {
+        "id": "mln131_su25_fekts_56",
+        "q_num": 56,
+        "question": "Trên lĩnh vực kinh tế, trong thời kỳ quá độ lên chủ nghĩa xã hội tất yếu tồn tại nền kinh tế như thế nào?",
+        "options": {
+          "A": "Kinh tế nhiều thành phần, trong đó có thành phần đối lập",
+          "B": "Kinh tế kế hoạch hóa tập trung cao độ",
+          "C": "Kinh tế thị trường tự do",
+          "D": "Kinh tế hàng hóa giản đơn"
+        },
+        "answer": "A",
+        "explanation": "Về kinh tế trong thời kỳ quá độ tất yếu tồn tại một nền kinh tế nhiều thành phần, trong đó có cả các thành phần kinh tế đối lập nhau (kinh tế XHCN và kinh tế TBCN/tư nhân)."
+      },
+      {
+        "id": "mln131_su25_fekts_57",
+        "q_num": 57,
+        "question": "fuoverflow i7 Theo chu nghia Mac -Lenin, hinh thai kinh te-xa hoi cong san chu nghia co khac biet dac truing nao voi cac hinh thai kinh te -xa hoi chiem huu no le, phong kien va tu ban chu nghia?",
+        "options": {
+          "A": "Hinh thai kinh te-xa hoi cong san chu nghia la giai doan phat trien cao nhat va cuoi cung cua lich su loai nguoi",
+          "B": "Hinh thai kinh te-xa hoi cong san chu nghia khac biet ve chat, do la xa hoi khong co giai cap doi khang nhu cac xa hoi truoc do",
+          "C": "Hinh thai kinh te -xa hoi cong san chu nghia la phien ban dieu chinh tot hon tu tu ban chu nghia",
+          "D": "Hinh thai kinh te - xa hoi cong san chu nghia la quay tro lai cong san nguyen thuy"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_su25_fekts_58",
+        "q_num": 58,
+        "question": "Quá độ từ chủ nghĩa tư bản phát triển lên chủ nghĩa xã hội là hình thức quá độ nào?",
+        "options": {
+          "A": "Quá độ gián tiếp",
+          "B": "Quá độ trực tiếp",
+          "C": "Quá độ bộ phận",
+          "D": "Quá độ toàn diện"
+        },
+        "answer": "A",
+        "explanation": "Có hai hình thức quá độ lên CNXH: Quá độ trực tiếp (từ các nước tư bản chủ nghĩa phát triển lên CNXH) và Quá độ gián tiếp (từ các nước chưa trải qua CNTB phát triển, bỏ qua chế độ TBCN tiến lên CNXH)."
+      },
+      {
+        "id": "mln131_su25_fekts_59",
+        "q_num": 59,
+        "question": "Mâu thuẫn cơ bản và chủ yếu trong xã hội tư bản chủ nghĩa, bắt buộc nó phải được thay thế bằng hình thái kinh tế - xã hội khác phù hợp hơn là gì?",
+        "options": {
+          "A": "Mâu thuẫn giữa tính chất xã hội hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân tư bản chủ nghĩa về tư liệu sản xuất",
+          "B": "Mâu thuẫn giữa tính chất tư nhân hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân về tư liệu sản xuất",
+          "C": "Mâu thuẫn giữa tính chất chuyên môn hóa của lực lượng sản xuất với chế độ chiếm hữu tập thể tư bản chủ nghĩa về tư liệu sản xuất",
+          "D": "Mâu thuẫn giữa tính chất xã hội hóa về lực lượng sản xuất với chế độ chiếm hữu công cộng về tư liệu sản xuất"
+        },
+        "answer": "A",
+        "explanation": "Mâu thuẫn cơ bản của CNTB là mâu thuẫn giữa tính chất xã hội hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân TBCN về TLSX."
+      },
+      {
+        "id": "mln131_su25_fekts_60",
+        "q_num": 60,
+        "question": "Chủ nghĩa xã hội có mấy đặc trưng bản chất?",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "7"
+        },
+        "answer": "C",
+        "explanation": "Theo giáo trình Chủ nghĩa xã hội khoa học, chủ nghĩa xã hội có 6 đặc trưng bản chất cơ bản."
+      }
+    ]
+  },
+  "mln131_sp25_fe": {
+    "id": "mln131_sp25_fe",
+    "name": "Đề Thi MLN131 - SP 2025 FE",
+    "shortName": "SP25 - FE",
+    "semester": "SP25",
+    "total": 60,
+    "questions": [
+      {
+        "id": "mln131_sp25_fe_1",
+        "q_num": 1,
+        "question": "Quan hệ dân tộc và tôn giáo ở nước ta được thiết lập và củng cố trên cơ sở nào?",
+        "options": {
+          "A": "Sự thống nhất quản lý của Đảng Cộng sản Việt Nam",
+          "B": "Sự thống nhất lợi ích kinh tế giữa các giai cấp",
+          "C": "Sự thống nhất trong cùng cộng đồng quốc gia - dân tộc",
+          "D": "Sự liên minh trong giáo hội và Quốc hội"
+        },
+        "answer": "C",
+        "explanation": "Ở Việt Nam, quan hệ dân tộc và tôn giáo được thiết lập và củng cố trên nền tảng khối đại đoàn kết toàn dân tộc, sự thống nhất trong cùng một cộng đồng quốc gia - dân tộc thống nhất."
+      },
+      {
+        "id": "mln131_sp25_fe_2",
+        "q_num": 2,
+        "question": "Theo cấp độ quốc gia, đâu là tín ngưỡng truyền thống quan trọng của dân tộc Việt Nam?",
+        "options": {
+          "A": "Tín ngưỡng thờ cúng tổ tiên",
+          "B": "Tín ngưỡng thờ cúng Hùng Vương",
+          "C": "Tín ngưỡng thờ Mẫu",
+          "D": "Tín ngưỡng thờ Thành hoàng làng"
+        },
+        "answer": "C",
+        "explanation": "Ở cấp độ quốc gia, Tín ngưỡng thờ cúng Hùng Vương là biểu tượng đại đoàn kết và cội nguồn dân tộc sâu sắc nhất của người Việt."
+      },
+      {
+        "id": "mln131_sp25_fe_3",
+        "q_num": 3,
+        "question": "Đảng Cộng sản Việt Nam đã nêu rõ vấn đề nào trong Văn kiện Đại hội đại biểu toàn quốc lần thứ XII?",
+        "options": {
+          "A": "Vấn đề dân tộc có vai trò quan trọng đối với sự nghiệp phát triển kinh tế - xã hội ở nước ta hiện nay.",
+          "B": "Vấn đề dân tộc và đoàn kết các dân tộc có vị trí quyết định đến sự sống còn của dân tộc ta hiện nay.",
+          "C": "Vấn đề dân tộc và đoàn kết các dân tộc luôn có vị trí chiến lược trong sự nghiệp cách mạng.",
+          "D": "Vấn đề đoàn kết dân tộc là điều kiện cần cho sự nghiệp cách mạng ở nước ta hiện nay."
+        },
+        "answer": "C",
+        "explanation": "Văn kiện Đại hội XII khẳng định vấn đề dân tộc và đoàn kết các dân tộc luôn có vị trí chiến lược lâu dài trong sự nghiệp cách mạng."
+      },
+      {
+        "id": "mln131_sp25_fe_4",
+        "q_num": 4,
+        "question": "fuoverflow Ve phuiong dien the gioi quan, da so cac ton giao mang the gioi quan nao?",
+        "options": {
+          "A": "Duy tam",
+          "B": "Duy vat",
+          "C": "Duy vat bien chung",
+          "D": "Duy vat sieu hinh"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_5",
+        "q_num": 5,
+        "question": "fuoverflow ; Uu tien dau tu phat trien kinh t-xa hoio cac vung dan toc va mien nui, truoc het, tap trung vao phat trien van de gi?",
+        "options": {
+          "A": "Giao thong va co so ha tang, xoa doi, giam ngheo",
+          "B": "Ket cau ha tang ky thuat, xoa doi giam ngheo, y te, giao duc",
+          "C": "Giao thong va kien truic thuiong tang, xoa doi giam ngheo",
+          "D": "Giao thong va ket cau ha tang,y te, giao duc [()"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_6",
+        "q_num": 6,
+        "question": "Đâu là truyền thống quý báu của các dân tộc ở Việt Nam góp phần quyết định mọi thắng lợi của dân tộc trong các giai đoạn lịch sử?",
+        "options": {
+          "A": "Chống giặc ngoại xâm",
+          "B": "Đoàn kết dân tộc",
+          "C": "Tinh thần học tập không ngừng",
+          "D": "Hiếu thảo với ông bà cha mẹ"
+        },
+        "answer": "B",
+        "explanation": "Truyền thống đoàn kết dân tộc là giá trị tinh thần thiêng liêng, nguồn sức mạnh vô địch quyết định mọi thắng lợi trong lịch sử dựng nước và giữ nước của dân tộc Việt Nam."
+      },
+      {
+        "id": "mln131_sp25_fe_7",
+        "q_num": 7,
+        "question": "fuoverflow Cac ton giao o nuoc ta co dac diem ton tai nhu the nao trong long quoc gia -dan toc?",
+        "options": {
+          "A": "Da dang, dan xen, chung song hoa binh va khong co xung dot, chien tranh ton giao",
+          "B": "Da dang, dan xen, canh tranh voi nhau",
+          "C": "Da dang, dan xen, dau tranh voi nhau de gianh vi tri thong tri",
+          "D": "Thong nhat duoi su thong tri cua Dang Cong san Viet Nam"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_8",
+        "q_num": 8,
+        "question": "fuoverflow: chu nghia de quoc di boc lot thuoc dia?",
+        "options": {
+          "A": "Cong dong dan cu muon tach ra de hinh thanh cong dong dan toc doc lap",
+          "B": "Cac dan toc trong tuing quoc gia, tham chi cac dan toc d nhieuquoc gia muon lien hiep lai vdi nhau",
+          "C": "Cong dong dan toc yeu the co xu huong xac nhap voi cac dan toc co trinh do phat trien cao hon",
+          "D": "Cong dong dan toc phat trien hung thinh se co y dinh tach ra hinh thanh quoc gia -dan toc doc lap"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_9",
+        "q_num": 9,
+        "question": "Dân chủ trong lĩnh vực nào là quan trọng hàng đầu và nổi bật nhất?",
+        "options": {
+          "A": "Trong linh vuc kinh te va chinh tri",
+          "B": "Trong linh vuic van hoa tinh than va tui tuong",
+          "C": "Trong linh vuc chinh tri va tu tuong",
+          "D": "Trong linh vuic kinh te va tu tuong"
+        },
+        "answer": "A",
+        "explanation": "Dân chủ trong lĩnh vực chính trị là quan trọng hàng đầu và biểu hiện tập trung nhất của nền dân chủ."
+      },
+      {
+        "id": "mln131_sp25_fe_10",
+        "q_num": 10,
+        "question": "fuoverflow Hinh thuc dan chuoViet Nam ma nguoi dan bau ra co quan quyen luc nha nuidc cao nhat,uy quyen cho ho thuc hien quyen luc cua nhan dan duioc goi la hinh thuic dan chu gi?",
+        "options": {
+          "A": "Hinh thuic dan chu truc tiep",
+          "B": "Hinh thuic dan chu gian tiep",
+          "C": "Hinh thtic dan chu dai nghi",
+          "D": "Hinh thuic dan chu cong khai"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_11",
+        "q_num": 11,
+        "question": "Nhiệm vụ cấp bách, lâu dài của quá trình xây dựng Nhà nước pháp quyền xã hội chủ nghĩa ở nước ta là gì?",
+        "options": {
+          "A": "Phòng chống tham nhũng, lãng phí và thực hành tiết kiệm",
+          "B": "Miễn nhiệm những người không hoàn thành nhiệm vụ",
+          "C": "Nâng cao chất lượng đội ngũ cán bộ, công chức",
+          "D": "Có chính sách đãi ngộ, động viên, khuyến khích cán bộ, công chức"
+        },
+        "answer": "A",
+        "explanation": "Đảng ta xác định phòng chống tham nhũng, lãng phí và thực hành tiết kiệm là nhiệm vụ cấp bách, lâu dài của quá trình xây dựng Nhà nước pháp quyền XHCN."
+      },
+      {
+        "id": "mln131_sp25_fe_12",
+        "q_num": 12,
+        "question": "fuoverflow Cuoi the ky XiV-dau theky XV,giai cap tu san vdi nhung tu tuong tien bo ve tu do, cong bang, dan chu da mo duong cho su ra doi cua nen dan chu nao?",
+        "options": {
+          "A": "Dan chunongdan",
+          "B": "Danchutusan",
+          "C": "Dan chu vo san",
+          "D": "Dan chu hoa binh"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_13",
+        "q_num": 13,
+        "question": "fuoverflow Trong cackieu nha nuoc dudi day,nha nuoc naola nha nuoc cua tat ca moi nguoi,moi giai cap?",
+        "options": {
+          "A": "Nhanuocchiemhuunole",
+          "B": "Nha nudc tu san",
+          "C": "Nha nuoc xa hoichu nghia",
+          "D": "Khong co kieunhanudc nao la cua tat ca giaicap"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_14",
+        "q_num": 14,
+        "question": "Sứ mệnh của nhà nước xã hội chủ nghĩa là gì?",
+        "options": {
+          "A": "Xây dựng thành công chủ nghĩa cộng sản, đưa tất cả các giai cấp, tầng lớp lên địa vị làm chủ trên tất cả các mặt của đời sống xã hội trong một xã hội phát triển cao - xã hội cộng sản chủ nghĩa",
+          "B": "Xây dựng thành công chủ nghĩa xã hội, đưa giai cấp công nhân lên địa vị thống trị trên tất cả các mặt của đời sống xã hội trong một xã hội phát triển cao - xã hội xã hội chủ nghĩa",
+          "C": "Xây dựng thành công chủ nghĩa xã hội, đưa nhân dân lao động lên địa vị làm chủ trên tất cả các mặt của đời sống xã hội trong một xã hội phát triển cao - xã hội xã hội chủ nghĩa",
+          "D": "Xây dựng thành công xã hội chủ nghĩa, đưa tất cả các giai cấp, tầng lớp lên địa vị làm chủ trên tất cả các mặt của đời sống xã hội trong một xã hội phát triển cao - xã hội xã hội chủ nghĩa"
+        },
+        "answer": "C",
+        "explanation": "Sứ mệnh lịch sử của nhà nước XHCN là tổ chức xây dựng thành công CNXH, đưa nhân dân lao động thực sự trở thành người làm chủ mọi mặt đời sống xã hội."
+      },
+      {
+        "id": "mln131_sp25_fe_15",
+        "q_num": 15,
+        "question": "Thuật ngữ “dân chủ” được ra đời khi nào?",
+        "options": {
+          "A": "Thế kỷ VI - VIII",
+          "B": "Thế kỷ VII - VI trước Công nguyên",
+          "C": "Thế kỷ V - IV trước Công nguyên",
+          "D": "Thế kỷ XXI"
+        },
+        "answer": "B",
+        "explanation": "Thuật ngữ 'dân chủ' (Demokratia) xuất hiện vào khoảng thế kỷ VII - VI trước Công nguyên tại các thị quốc cổ đại Hy Lạp (điển hình là thành bang Aten)."
+      },
+      {
+        "id": "mln131_sp25_fe_16",
+        "q_num": 16,
+        "question": "Tổ chức quyền lực của Nhà nước pháp quyền xã hội chủ nghĩa đảm bảo quyền lực nhà nước như thế nào?",
+        "options": {
+          "A": "Đồng nhất, có sự phân công và phối hợp giữa các cơ quan nhà nước",
+          "B": "Cùng nhau, có sự phân công và phối hợp giữa các cơ quan nhà nước",
+          "C": "Thống nhất, có sự phân công và phối hợp giữa các cơ quan nhà nước",
+          "D": "Chia đều, có sự phân công và phối hợp giữa các cơ quan nhà nước"
+        },
+        "answer": "C",
+        "explanation": "Quyền lực nhà nước là thống nhất, có sự phân công, phối hợp và kiểm soát giữa các cơ quan trong việc thực hiện các quyền lập pháp, hành pháp và tư pháp."
+      },
+      {
+        "id": "mln131_sp25_fe_17",
+        "q_num": 17,
+        "question": "Cơ sở văn hóa để xây dựng gia đình trong chủ nghĩa xã hội là gì?",
+        "options": {
+          "A": "Thiết lập chính quyền nhà nước của giai cấp công nhân và nhân dân lao động, nhà nước xã hội chủ nghĩa",
+          "B": "Thiết lập chế độ công hữu về tư liệu sản xuất",
+          "C": "Giá trị văn hóa được xây dựng trên nền tảng hệ tư tưởng chính trị của giai cấp công nhân",
+          "D": "Xây dựng nền văn hóa tiên tiến mang đậm bản sắc dân tộc"
+        },
+        "answer": "C",
+        "explanation": "Cơ sở văn hóa là những giá trị văn hóa mới xây dựng trên nền tảng hệ tư tưởng của giai cấp công nhân."
+      },
+      {
+        "id": "mln131_sp25_fe_18",
+        "q_num": 18,
+        "question": "fuoverflow Dau khong phai la mot chuic nang cua gia dinh?",
+        "options": {
+          "A": "Chuc nang kinh te va to chuic tieu dung",
+          "B": "Chuic nang nuoi duong, giao duc",
+          "C": "Chuic nang thoa man nhu cau tam sinh ly, duy tri tinh cam",
+          "D": "Chtic nang nghe nghiep"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_19",
+        "q_num": 19,
+        "question": "fuoverflow Hinh thuic gia dinh nao hinh thanh som nhat trong lich su?",
+        "options": {
+          "A": "Gia dinh mot vo mot chong",
+          "B": "Gia dinh phu he",
+          "C": "Dai gia dinh phu he",
+          "D": "C Gia dinh mau he"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_20",
+        "q_num": 20,
+        "question": "Các quan hệ gia đình biến đổi, phát triển phụ thuộc vào điều gì?",
+        "options": {
+          "A": "Trình độ phát triển kinh tế và thể chế chính trị - xã hội",
+          "B": "Số lượng thành viên trong gia đình",
+          "C": "Điều kiện kinh tế của từng cá nhân trong gia đình",
+          "D": "Các yếu tố đạo đức của một xã hội"
+        },
+        "answer": "A",
+        "explanation": "Quan hệ gia đình là quan hệ xã hội đặc thù, luôn biến đổi và phát triển phụ thuộc vào trình độ phát triển của kinh tế và thể chế chính trị - xã hội của mỗi thời kỳ lịch sử."
+      },
+      {
+        "id": "mln131_sp25_fe_21",
+        "q_num": 21,
+        "question": "Đâu không phải là một cơ sở xây dựng gia đình trong thời kì quá độ lên chủ nghĩa xã hội?",
+        "options": {
+          "A": "Cơ sở kinh tế - xã hội",
+          "B": "Cơ sở chính trị - xã hội",
+          "C": "Cơ sở văn hóa",
+          "D": "Cơ sở lao động, sản xuất"
+        },
+        "answer": "D",
+        "explanation": "Các cơ sở xây dựng gia đình trong thời kỳ quá độ lên CNXH gồm: cơ sở kinh tế - xã hội, cơ sở chính trị - xã hội, cơ sở văn hóa và chế độ hôn nhân tiến bộ."
+      },
+      {
+        "id": "mln131_sp25_fe_22",
+        "q_num": 22,
+        "question": "fuoverflow 2 Neu truioc kia, gia dinh Viet Nam tieu dung san pham do minhlam ra la chinh,thi hien nay,gia dinh Viet Nam dang tien toi xu huong tieu dung chu yeu nao?",
+        "options": {
+          "A": "Xu huong su dung hang hoa, dich vu cua phuc loi Nha nuoc",
+          "B": "Xu huiong tieu dung san pham do nguioi khac lam ra",
+          "C": "Xu huong tieu dung san pham nuoc ngoai",
+          "D": "Tieu dung san pham duoc cap phat"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_23",
+        "q_num": 23,
+        "question": "Trong xã hội phong kiến, các mối quan hệ của gia đình có đặc điểm như thế nào?",
+        "options": {
+          "A": "Tuyệt đối hóa vai trò của người đàn ông, người chồng, người cha",
+          "B": "Tuyệt đối hóa vai trò của người phụ nữ, người vợ, người mẹ",
+          "C": "Mối quan hệ bình đẳng, sẻ chia",
+          "D": "Các mối quan hệ chịu sự chi phối của điều kiện kinh tế gia đình"
+        },
+        "answer": "A",
+        "explanation": "Gia đình phong kiến mang nặng tính gia trưởng, tuyệt đối hóa uy quyền của người đàn ông, người chồng, người cha theo tư tưởng 'phu xướng phụ tùy'."
+      },
+      {
+        "id": "mln131_sp25_fe_24",
+        "q_num": 24,
+        "question": "Vấn đề \"Giai cấp tư sản, trong quá trình thống trị giai cấp chưa đầy một thế kỷ, đã tạo ra những lực lượng sản xuất nhiều hơn và đồ sộ hơn lực lượng sản xuất của tất cả các thế hệ trước kia gộp lại\" được C.Mác và Ph.Ăngghen viết trong tác phẩm nào dưới đây?",
+        "options": {
+          "A": "Gia đình thần thánh",
+          "B": "Tuyên ngôn của Đảng Cộng sản",
+          "C": "Tư bản",
+          "D": "Góp phần phê phán triết học pháp quyền của Hêghen"
+        },
+        "answer": "B",
+        "explanation": "Luận điểm nổi tiếng đánh giá vai trò lịch sử tiến bộ của giai cấp tư sản nằm trong tác phẩm kinh điển 'Tuyên ngôn của Đảng Cộng sản' (1848)."
+      },
+      {
+        "id": "mln131_sp25_fe_25",
+        "q_num": 25,
+        "question": "Về mặt thực tiễn, đâu không phải là một ý nghĩa của việc nghiên cứu chủ nghĩa xã hội khoa học?",
+        "options": {
+          "A": "Thayrokhoang cach giuia ly luan chu nghia xa hoi khoa hoc va thuc tien van dung no",
+          "B": "Su sup do cua Lien Xo va Dong Au la do da nhan thuc va hanh dong tren nhieu van de trai voi chu nghia xa cac nuoc nay khung hoang",
+          "C": "Can co ban linh vuing vang, sang suot va sang tao trong viec van dung chu nghia xa hoi khoa hoc vao boi canh lich sui cu the cua tuing quoc gia, tranh giao dieu, bao thu, duy y chi",
+          "D": "Giup chung ta co can cu nhan thuic khoa hoc de luon canh giac, phan tich dung va dau tranh chong lai nhung nhan thuic sai lech ve chu nghiaxa hoi"
+        },
+        "answer": "D",
+        "explanation": "Nghiên cứu CNXHKH khẳng định tính tích cực cách mạng và vai trò chủ thể của con người, hoàn toàn trái ngược với tư tưởng thụ động, trông chờ."
+      },
+      {
+        "id": "mln131_sp25_fe_26",
+        "q_num": 26,
+        "question": "Điền cụm từ thích hợp vào (...): 'Giai cấp ..., trong quá trình thống trị giai cấp chưa đầy một thế kỷ, đã tạo ra những ... nhiều hơn và đồ sộ hơn lực lượng sản xuất của tất cả các thế hệ trước kia gộp lại'.",
+        "options": {
+          "A": "Tư sản/ Lực lượng sản xuất",
+          "B": "Tư sản/ Quan hệ sản xuất",
+          "C": "Vô sản/ Tư sản",
+          "D": "Vô sản/ Giai cấp nông dân"
+        },
+        "answer": "A",
+        "explanation": "Theo Tuyên ngôn của Đảng Cộng sản: 'Giai cấp tư sản, trong quá trình thống trị giai cấp chưa đầy một thế kỷ, đã tạo ra những lực lượng sản xuất nhiều hơn và đồ sộ hơn lực lượng sản xuất của tất cả các thế hệ trước kia gộp lại'."
+      },
+      {
+        "id": "mln131_sp25_fe_27",
+        "q_num": 27,
+        "question": "fuoverflow 7 \"Tukhibo Tu ban ra doi-quan niem duy vat lich su khong con la mot gia thuyet nua, ma la mot nguyen ly da duoc chting minh mot cach khoa hoc\". Nhandinhtren la cuaai?",
+        "options": {
+          "A": "V.I.Lenin",
+          "B": "C.Mac",
+          "C": "Ph.Angghen",
+          "D": "S.Phurie"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_28",
+        "q_num": 28,
+        "question": "Ba bộ phận hợp thành chủ nghĩa Mác - Lênin là gì?",
+        "options": {
+          "A": "Triết học Mác - Lênin, Lịch sử Đảng, Kinh tế chính trị Mác - Lênin",
+          "B": "Triết học Mác - Lênin, Tư tưởng Hồ Chí Minh, Chủ nghĩa xã hội khoa học",
+          "C": "Kinh tế chính trị học, Chủ nghĩa xã hội không tưởng, Triết học cổ điển Đức",
+          "D": "Triết học Mác - Lênin, Kinh tế chính trị Mác - Lênin, Chủ nghĩa xã hội khoa học"
+        },
+        "answer": "D",
+        "explanation": "Ba bộ phận cấu thành chủ nghĩa Mác - Lênin: 1. Triết học Mác - Lênin; 2. Kinh tế chính trị Mác - Lênin; 3. Chủ nghĩa xã hội khoa học."
+      },
+      {
+        "id": "mln131_sp25_fe_29",
+        "q_num": 29,
+        "question": "fuoverflow :9 Theo nghia hep, chu nghia xa hoi khoa hoc duoc hieu la gi?",
+        "options": {
+          "A": "La mot trong ba bo phan hop thanh chu nghia Mac- Lenin",
+          "B": "La nhung thanh tuu cua con nguoi dat duoc trong qua trinh dau tranh giai cap",
+          "C": "La su chuyen bien tat yeu cua xa hoi loai nguoi tu chu nghia tu ban len mot xa hoi tot dep hon",
+          "D": "La mot hinh thai kinh te -xa hoi"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_30",
+        "q_num": 30,
+        "question": "Các khẩu hiệu “sống có việc làm hay là chết trong đấu tranh” (1831) và “cộng hòa hay là chết” (1834) xuất hiện trong phong trào đấu tranh của công nhân dệt ở Lion (Pháp) có ý nghĩa gì?",
+        "options": {
+          "A": "Phong trào đấu tranh của giai cấp công nhân đã chuyển từ mục đích kinh tế sang mục đích chính trị",
+          "B": "Phong trào đấu tranh của giai cấp công nhân đã có lý luận soi đường",
+          "C": "Phong trào đấu tranh của giai cấp công nhân đã có những thắng lợi to lớn",
+          "D": "Phong trào đấu tranh của giai cấp công nhân chuyển từ tự phát sang tự giác"
+        },
+        "answer": "A",
+        "explanation": "Sự chuyển biến từ khẩu hiệu kinh tế (1831: đòi việc làm) sang khẩu hiệu chính trị (1834: đòi nền cộng hòa) đánh dấu bước tiến chuyển từ mục đích kinh tế sang mục đích chính trị."
+      },
+      {
+        "id": "mln131_sp25_fe_31",
+        "q_num": 31,
+        "question": "fuoverflow \"1 Cau truc co ban cua mot hinh thai kinh te - xa hoi la gi?",
+        "options": {
+          "A": "Luc luiong san xuat, quan he san xuat va kien truc thuong tang",
+          "B": "Co so kinh te va the che nha nuioc",
+          "C": "Co so ha tang va luc luiong san xuat",
+          "D": "Luc luong san xuat va quan he san xuat"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_32",
+        "q_num": 32,
+        "question": "Trong thời kì quá độ lên chủ nghĩa xã hội, giai cấp tư sản có vị thế như thế nào?",
+        "options": {
+          "A": "Đã bị loại bỏ hoàn toàn",
+          "B": "Đã bị chuyển hóa thành giai cấp công nhân",
+          "C": "Đã bị đánh bại nhưng vẫn còn sức mạnh về kinh tế",
+          "D": "Đã tự thân mình chuyển biến thành giai cấp liên minh với giai cấp cách mạng"
+        },
+        "answer": "C",
+        "explanation": "Trong thời kỳ quá độ, giai cấp tư sản đã bị lật đổ chính quyền nhưng chưa bị xóa bỏ hoàn toàn, chúng vẫn còn sức mạnh kinh tế và tìm cách chống đối chính quyền nhân dân."
+      },
+      {
+        "id": "mln131_sp25_fe_33",
+        "q_num": 33,
+        "question": "fuoverflow13 Noi dung van hoa -xa hoi trong lien minh giai cap, tang lop o nuoc ta hien nay doi hoi phai dam bao dieu gi?",
+        "options": {
+          "A": "Gan tang truong kinh te voi phat trien van hoa, phat trien con nguoi va thuc hien tien bo, cong bang xa hoi",
+          "B": "Gan tang truong kinh te voi doc lap, tu do, phat huy nguon luc lanh dao cua kinh te tu nhan",
+          "C": "Thuc hien tang truong kinh te bang moi gia, tien nhanh den nen kinh te thi truong hien dai",
+          "D": "Tiep thu toan bo cac yeu to van hoa nhan loai trong tien trinh hoi nhap va tang truong kinh te"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_34",
+        "q_num": 34,
+        "question": "Thực chất của liên minh công - nông - trí thức ở nước ta về nội dung kinh tế là gì?",
+        "options": {
+          "A": "Là sự hợp tác giữa họ, đồng thời mở rộng liên kết với các lực lượng khác để xây dựng nền kinh tế mới xã hội chủ nghĩa hiện đại",
+          "B": "Là sự hợp tác giữa họ, đồng thời mở rộng liên kết với các lực lượng khác để xây dựng nền kinh tế thị trường tự do hiện đại",
+          "C": "Là sự hợp tác và đấu tranh giữa họ, đồng thời mở rộng liên kết và đấu tranh với các lực lượng khác để xây dựng nền kinh tế mới",
+          "D": "Là sự hợp tác giữa họ, đồng thời mở rộng liên kết với các lực lượng khác để xây dựng nền chính trị dân chủ"
+        },
+        "answer": "A",
+        "explanation": "Hợp tác xây dựng nền kinh tế mới xã hội chủ nghĩa hiện đại."
+      },
+      {
+        "id": "mln131_sp25_fe_35",
+        "q_num": 35,
+        "question": "Nội dung văn hóa - xã hội của liên minh giai cấp, tầng lớp là gì?",
+        "options": {
+          "A": "Xây dựng nền văn hóa và con người Việt Nam phát triển toàn diện",
+          "B": "Tập trung phát triển công nghiệp nặng",
+          "C": "Xóa bỏ các phong tục tập quán truyền thống",
+          "D": "Phát triển mạng lưới thương mại quốc tế"
+        },
+        "answer": "A",
+        "explanation": "Nội dung văn hóa - xã hội của liên minh là xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc và con người Việt Nam phát triển toàn diện."
+      },
+      {
+        "id": "mln131_sp25_fe_36",
+        "q_num": 36,
+        "question": "Trong quá trình xây dựng chủ nghĩa xã hội, liên minh giữa giai cấp công nhân, giai cấp nông dân và tầng lớp trí thức dưới góc độ nào giữ vai trò quyết định?",
+        "options": {
+          "A": "Chính trị",
+          "B": "Kinh tế",
+          "C": "Văn hoá",
+          "D": "Tư tưởng"
+        },
+        "answer": "B",
+        "explanation": "Liên minh về kinh tế giữ vai trò quyết định nhất vì nó tạo nên cơ sở vật chất - kỹ thuật cho chế độ mới và bảo đảm lợi ích thiết thân của các giai cấp."
+      },
+      {
+        "id": "mln131_sp25_fe_37",
+        "q_num": 37,
+        "question": "fuoverflow Dau khong phaila mot trong nhuing loai cua co cau xa hoi?",
+        "options": {
+          "A": "Co cau xa hoi-giai cap",
+          "B": "Co cau xa hoi -nghe nghiep",
+          "C": "Co cau xa hoi-ha tang",
+          "D": "C Co cau xa hoi-ton giao"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_38",
+        "q_num": 38,
+        "question": "Xu hướng phát triển cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ mang tính đa dạng và thống nhất chủ yếu do yếu tố nào quyết định?",
+        "options": {
+          "A": "Do trình độ phát triển không đồng đều",
+          "B": "Do nền kinh tế nhiều thành phần",
+          "C": "Do sự mong muốn của giai cấp công nhân",
+          "D": "Do lịch sử đấu tranh giai cấp để lại"
+        },
+        "answer": "B",
+        "explanation": "Nền kinh tế nhiều thành phần định hướng XHCN quyết định tính đa dạng (nhiều giai cấp tầng lớp khác nhau về lợi ích) và tính thống nhất (chung mục tiêu dân giàu nước mạnh)."
+      },
+      {
+        "id": "mln131_sp25_fe_39",
+        "q_num": 39,
+        "question": "fuoverflow Dien cum tui thich hop vao (.) “can phai co mot thoi ky qua do kha lau dai tui... en..",
+        "options": {
+          "A": "Chu nghia tu ban/ Chu nghia xa hoi",
+          "B": "Chu nghia xa hoi/ Chu nghia cong san",
+          "C": "Giai cap cong nhan/ nguoi nam chinh quyen",
+          "D": "Nguoi bi boc lot/len lam chu"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_40",
+        "q_num": 40,
+        "question": "Bản chất dân chủ xã hội chủ nghĩa ở Việt Nam được thực hiện thông qua hình thức nào? (Chọn 2 đáp án)",
+        "options": {
+          "A": "Hình thức dân chủ trực tiếp",
+          "B": "Hình thức dân chủ gián tiếp",
+          "C": "Hình thức dân chủ đại nghị",
+          "D": "Hình thức dân chủ công khai"
+        },
+        "answer": "A, B",
+        "explanation": "Ở Việt Nam, quyền làm chủ của nhân dân được thực hiện thông qua 2 hình thức: dân chủ trực tiếp và dân chủ gián tiếp (đại diện)."
+      },
+      {
+        "id": "mln131_sp25_fe_41",
+        "q_num": 41,
+        "question": "Trong cách mạng xã hội chủ nghĩa, giai cấp công nhân phải liên minh được với giai cấp nông dân và các tầng lớp nhân dân lao động khác trong giai đoạn nào? Lựa chọn các đáp án đúng. (Chọn 2 đáp án)",
+        "options": {
+          "A": "Giai đoạn giành chính quyền",
+          "B": "Giai đoạn xây dựng chế độ xã hội mới",
+          "C": "Giai đoạn đấu tranh đòi các quyền tự do, dân chủ",
+          "D": "Giai đoạn xóa bỏ giai cấp sau khi xây dựng thành công chủ nghĩa xã hội"
+        },
+        "answer": "A, B",
+        "explanation": "Liên minh công - nông diễn ra trong cả 2 giai đoạn: giành chính quyền và xây dựng xã hội mới."
+      },
+      {
+        "id": "mln131_sp25_fe_42",
+        "q_num": 42,
+        "question": "Theo quan điểm của chủ nghĩa Mác - Lênin, tôn giáo có các nguồn gốc nào? Chọn các đáp án đúng. (Chọn 3 đáp án)",
+        "options": {
+          "A": "Nguồn gốc tự nhiên, kinh tế - xã hội",
+          "B": "Nguồn gốc nhận thức",
+          "C": "Nguồn gốc tâm lý",
+          "D": "Nguồn gốc siêu nhiên"
+        },
+        "answer": "A, B, C",
+        "explanation": "Chủ nghĩa Mác - Lênin chỉ ra 3 nguồn gốc của tôn giáo: 1) Tự nhiên, kinh tế - xã hội; 2) Nhận thức; 3) Tâm lý."
+      },
+      {
+        "id": "mln131_sp25_fe_43",
+        "q_num": 43,
+        "question": "Lợi ích cơ bản của giai cấp công nhân có quan hệ như thế nào với lợi ích cơ bản của các giai cấp khác trong xã hội? (Chọn 2 đáp án)",
+        "options": {
+          "A": "Đối lập trực tiếp với lợi ích cơ bản của giai cấp nông dân?",
+          "B": "Đối lập trực tiếp với lợi ích cơ bản của giai cấp tư sản?",
+          "C": "Thống nhất với lợi ích cơ bản của giai cấp tư sản?",
+          "D": "Thống nhất với lợi ích cơ bản của đa số nhân dân lao động?"
+        },
+        "answer": "B, D",
+        "explanation": "Đối lập trực tiếp với giai cấp tư sản; thống nhất với lợi ích của đa số nhân dân lao động."
+      },
+      {
+        "id": "mln131_sp25_fe_44",
+        "q_num": 44,
+        "question": "fuoverflow 14",
+        "options": {
+          "A": "Tusan",
+          "B": "Nong dan",
+          "C": "Cong nhan",
+          "D": "Bi boc lot"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_45",
+        "q_num": 45,
+        "question": "Về nội dung chính trị - xã hội, sứ mệnh lịch sử của giai cấp công nhân được thể hiện như thế nào?",
+        "options": {
+          "A": "Giai cấp công nhân cùng với nhân dân lao động dưới sự lãnh đạo của Đảng Cộng sản phải tiến hành cách mạng chính trị lật đổ quyền thống trị của giai cấp tư sản",
+          "B": "Giai cấp công nhân phải lãnh đạo được các giai cấp khác và lãnh đạo được Đảng Cộng sản để tiến hành cách mạng tư sản xóa bỏ chế độ thống trị của giai cấp tư sản",
+          "C": "Giai cấp công nhân phải cùng với nhân dân lao động lãnh đạo Đảng Cộng sản tiến hành cách mạng chính trị lật đổ chính quyền của giai cấp phong kiến",
+          "D": "Giai cấp công nhân phải xác lập được quyền thống trị nhân dân lao động và các giai cấp khác bằng cách thực hiện cách mạng lật đổ chính quyền của giai cấp tư sản"
+        },
+        "answer": "A",
+        "explanation": "Nội dung chính trị - xã hội là tiến hành cách mạng lật đổ ách thống trị của giai cấp tư sản dưới sự lãnh đạo của Đảng Cộng sản."
+      },
+      {
+        "id": "mln131_sp25_fe_46",
+        "q_num": 46,
+        "question": "Vai trò của giai cấp công nhân là gì?",
+        "options": {
+          "A": "Là chủ thể của quá trình sản xuất vật chất để sản xuất ra của cải vật chất ngày càng nhiều đáp ứng nhu cầu ngày càng tăng của con người và xã hội",
+          "B": "Là chủ thể của quá trình phát triển, xây dựng nông thôn mới gắn với xây dựng các cơ sở công nghiệp, dịch vụ và phát triển đô thị",
+          "C": "Là chủ thể của quá trình tổ chức sản xuất, kinh doanh hàng hóa nhằm thúc đẩy trao đổi và mở rộng thị trường, tối đa hoá lợi nhuận cho doanh nghiệp",
+          "D": "Là chủ thể của quá trình nghiên cứu khoa học và phát triển công nghệ nhằm tạo ra tri thức mới cho xã hội"
+        },
+        "answer": "A",
+        "explanation": "Giai cấp công nhân là lực lượng sản xuất hàng đầu, là chủ thể trực tiếp của quá trình sản xuất vật chất hiện đại, tạo ra phần lớn của cải vật chất cho xã hội."
+      },
+      {
+        "id": "mln131_sp25_fe_47",
+        "q_num": 47,
+        "question": "Tại sao trong thời gian đầu, giai cấp công nhân Việt Nam chậm phát triển?",
+        "options": {
+          "A": "Vì sinh ra và lớn lên ở một nước thuộc địa, nửa phong kiến dưới ách thống trị của thực dân Pháp",
+          "B": "Vì lực lượng không thực sự đông đảo",
+          "C": "Vì không có tinh thần kỷ luật và cách mạng triệt để như đặc điểm chung của giai cấp công nhân các nước tư bản phát triển",
+          "D": "Vì chưa có tinh thần đấu tranh giai cấp, đấu tranh giải phóng dân tộc"
+        },
+        "answer": "A",
+        "explanation": "Giai cấp công nhân Việt Nam sinh ra và lớn lên ở một nước thuộc địa nửa phong kiến, dưới ách áp bức bóc lột hà khắc của thực dân Pháp và phong kiến tay sai, nền công nghiệp què quặt nên giai đoạn đầu số lượng phát triển chậm."
+      },
+      {
+        "id": "mln131_sp25_fe_48",
+        "q_num": 48,
+        "question": "Theo chủ nghĩa Mác - Lênin, quy luật chung, phổ biến cho sự ra đời của Đảng Cộng sản là gì?",
+        "options": {
+          "A": "Là sự kết hợp giữa chủ nghĩa xã hội khoa học với phong trào công nhân",
+          "B": "Là sự kết hợp giữa phong trào công nhân với phong trào nông dân",
+          "C": "Là sự kết hợp giữa phong trào công nhân và phong trào yêu nước",
+          "D": "Là sự kết hợp giữa chủ nghĩa xã hội khoa học và phong trào yêu nước"
+        },
+        "answer": "A",
+        "explanation": "Quy luật chung phổ biến trên thế giới: Đảng Cộng sản ra đời là sản phẩm của sự kết hợp giữa Chủ nghĩa xã hội khoa học (chủ nghĩa Mác - Lênin) với phong trào công nhân. (Riêng ở Việt Nam có thêm yếu tố phong trào yêu nước)."
+      },
+      {
+        "id": "mln131_sp25_fe_49",
+        "q_num": 49,
+        "question": "fuoverflow 19",
+        "options": {
+          "A": "Vi giai cap cong nhan co loi ich co ban thong nhat voi dai da sonhan dan lao dong, co su menh lich su xoa bo moichedo boc lot, batcong",
+          "B": "Vigiaicapcongnhan lagiai capdong dao nhat trongxa hoi",
+          "C": "Vi giai cap cong nhan la giai cap duy nhat bi boc lot va co mau thuan doi khang truc tiep voi giai cap thong tri",
+          "D": "Vigiai cap cong nhan duioc lanh dao boi Dang Cong san"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_50",
+        "q_num": 50,
+        "question": "Trong thời đại hiện nay, sứ mệnh lịch sử của giai cấp công nhân trong lĩnh vực văn hóa, tư tưởng là gì?",
+        "options": {
+          "A": "Đấu tranh bảo vệ nền tảng tư tưởng của Đảng Cộng sản, giáo dục nhận thức và củng cố niềm tin khoa học đối với lí tưởng, mục tiêu của chủ nghĩa xã hội",
+          "B": "Tuyên truyền cho quần chúng lao động về hệ tư tưởng Mác - Lênin để tiến đến chủ nghĩa cộng sản",
+          "C": "Bổ sung chủ nghĩa Mác - Lênin với các trào lưu chủ nghĩa xã hội toàn thế giới",
+          "D": "Dung hòa chủ nghĩa dân tộc vào tư tưởng chủ nghĩa xã hội không tưởng"
+        },
+        "answer": "A",
+        "explanation": "Trong lĩnh vực văn hóa, tư tưởng: Giai cấp công nhân và chính đảng của mình có sứ mệnh đấu tranh bảo vệ nền tảng tư tưởng của Đảng Cộng sản, giáo dục nhận thức và củng cố niềm tin khoa học đối với lý tưởng, mục tiêu của CNXH."
+      },
+      {
+        "id": "mln131_sp25_fe_51",
+        "q_num": 51,
+        "question": "fuoverflow i1 Trong thoi dai hien nay, hao phi lao dong chu yeu cua giai cap cong nhan da bien doi nhu the nao?",
+        "options": {
+          "A": "Giam bot hao phi suic luc co bap, gia tang hao phi ve tri luc",
+          "B": "Dong thoi gia tang ca hao phi suc luc va tri luc",
+          "C": "Gia tang yeu totam luic trong qua trinh lao dong",
+          "D": "Giam bot hao phi ve tri luc, gia tang hao phi stic luc"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_52",
+        "q_num": 52,
+        "question": "fuoverflow i2 Thoi ky qua do len chu nghia xa hoi la thoi ky dau tranh giai cap trong dieu kien moi, dieu kien do la gi?",
+        "options": {
+          "A": "Giai cap tu san da tro thanh luc luong phan dong",
+          "B": "Giai cap cong nhan va nhan dan lao dong da tro thanh giai cap cam quyen",
+          "C": "Su phat trien cua cong nghiep hoa dan den that nghiep tran lan",
+          "D": "Dang Cong san da duoc thanh lap,va ngay cang the hien vai tro lanh dao tich cuc trong phong trao dau tranh gianh chinh quyen"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_53",
+        "q_num": 53,
+        "question": "fuoverflow /i3 Thoi ky qua do len chu nghia xahoio Viet Nam la bo qua che do gi?",
+        "options": {
+          "A": "Phong kien",
+          "B": "Tu ban chu nghia",
+          "C": "Chiem huuno le",
+          "D": "Cong san nguyen thuy"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_54",
+        "q_num": 54,
+        "question": "fuoverflow i4 Theo chu nghia Mac -Lenin, su thay the hinh thai kinh te -xa hoi tu ban chu nghia bang hinh thai kinh te -xa hoi cong san chu nghia la gi?",
+        "options": {
+          "A": "Motsucai bienmangtinhchatchuquan",
+          "B": "Mot buidc ngoat phat trien mdi, dua nhan loai thoat khoi loi mon cu",
+          "C": "Mot qua trinh lich su-tui nhien",
+          "D": "Mot qua trinh can thiep cua con nguoi bang y chi nham cai bien lich su theo hudng nhan van, tich cuc hon"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_55",
+        "q_num": 55,
+        "question": "fuoverflow i5 Cach mang vo san la gi?",
+        "options": {
+          "A": "Cuoc cach mang cua giai cap nong dan va nhan dan lao dong duoi su lanh dao cua Dang Cong san, duoc thuc hien bang con duong bao luc cach mang nham lat do che do tu ban chu nghia, thiet lap nha nudc chuyen chinh vo san",
+          "B": "Cuoc cach mang cua giai cap cong nhan va nhan dan lao dong dudi su lanh dao cua Dang Cong san, tren thuc te duoc thuic hien bang con duong tuyen truyen giao duc nham lat do che do tu ban chu nghia, thiet lap nha nudc chuyen chinh vo san",
+          "C": "Cuoc cach mang cua giai cap cong nhan va nhan dan lao dong duoi su lanh dao cua Dang Cong san, tren chuyen chinh vo san",
+          "D": "Cuoc cach mang cua giai cap cong nhan va nhan dan lao dong duidi su lanh dao cua Dang Cong san, duioc thuc hien bang con duong bao luc cach mang nham lat do che do tu ban chu nghia, thiet lap nha nuoc chuyen chinh vo san"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_56",
+        "q_num": 56,
+        "question": "Mâu thuẫn cơ bản và chủ yếu trong xã hội tư bản chủ nghĩa, bắt buộc nó phải được thay thế bằng hình thái kinh tế - xã hội khác phù hợp hơn là gì?",
+        "options": {
+          "A": "Mâu thuẫn giữa tính chất xã hội hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân tư bản chủ nghĩa về tư liệu sản xuất",
+          "B": "Mâu thuẫn giữa tính chất tư nhân hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân về tư liệu sản xuất",
+          "C": "Mâu thuẫn giữa tính chất chuyên môn hóa của lực lượng sản xuất với chế độ chiếm hữu tập thể tư bản chủ nghĩa về tư liệu sản xuất",
+          "D": "Mâu thuẫn giữa tính chất xã hội hóa về lực lượng sản xuất với chế độ chiếm hữu công cộng về tư liệu sản xuất"
+        },
+        "answer": "A",
+        "explanation": "Mâu thuẫn giữa tính chất xã hội hóa của LLSX với chế độ chiếm hữu tư nhân TBCN về TLSX."
+      },
+      {
+        "id": "mln131_sp25_fe_57",
+        "q_num": 57,
+        "question": "fuoverflow i7 Cho den nay, hinh thuc qua do len xa hoi chu nghia nao da tuing dien ra tren thuc te o Viet Nam?",
+        "options": {
+          "A": "Qua do gian tiep",
+          "B": "Qua do truc tiep",
+          "C": "C Quadobophan",
+          "D": "Qua do toan dien"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_58",
+        "q_num": 58,
+        "question": "fuoverflow i8 Dai hoi XIll cua Dang Cong san VietNamda deramuc tieugi vaonam 2030 tren con duong xay dung chu nghia xa hoi?",
+        "options": {
+          "A": "La nuioc dang phat trien, co thu nhap trung binh",
+          "B": "La nuoc dang phat trien, co cong nghiep hien dai, thu nhap trung binh cao",
+          "C": "La nudc phat trien, co thu nhap trung binh cao",
+          "D": "La nuoc phat trién, co thu nhap cao"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
+      },
+      {
+        "id": "mln131_sp25_fe_59",
+        "q_num": 59,
+        "question": "Theo C.Mác và Ph.Ăngghen: \"Giai cấp tư sản không chỉ tạo ra vũ khí sẽ giết chết mình mà còn tạo ra những người sử dụng vũ khí đó...\" - những người đó là ai?",
+        "options": {
+          "A": "Giai cấp nông dân",
+          "B": "Giai cấp công nhân hiện đại (những người vô sản)",
+          "C": "Tầng lớp trí thức",
+          "D": "Tầng lớp tiểu tư sản"
+        },
+        "answer": "A",
+        "explanation": "Trong Tuyên ngôn của Đảng Cộng sản, Mác và Ăngghen khẳng định vũ khí mà giai cấp tư sản dùng để lật đổ chế độ phong kiến nay quay lại chĩa vào chính giai cấp tư sản, và người cầm vũ khí đó chính là giai cấp công nhân hiện đại."
+      },
+      {
+        "id": "mln131_sp25_fe_60",
+        "q_num": 60,
+        "question": "fuoverflow",
+        "options": {
+          "A": "To chuic doi song gia dinh",
+          "B": "Tai san xuat ra con nguoi",
+          "C": "Giao duc gia dinh",
+          "D": "Thoa man tam sinh ly"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
       }
     ]
   }
