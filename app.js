@@ -1,23 +1,31 @@
 /**
- * HCM202 - SU26 | Multi-Exam Spaced Repetition Study Engine
- * Supports: SU26 - RE, SU26 - C1FE, and Merged/Deduplicated Combined dataset.
- * Features: Dark/Light Mode, Spaced Repetition, Keyboard Shortcuts, Image Previews.
+ * FPT Quiz Master — Multi-Subject Spaced Repetition Learning Platform
+ * Supported Subjects:
+ *  - HCM202: Tư tưởng Hồ Chí Minh (7 Đề thi FE/RE + Tổng hợp lọc trùng 280 câu)
+ *  - MLN111: Triết học Mác - Lênin (Cửu Âm Chân Kinh 334 câu theo 3 Chương chuẩn FPT)
+ * Features:
+ *  - Portal View (Trang chọn môn học trước khi vào)
+ *  - Course Switcher ("Đổi môn" navigation anytime)
+ *  - Spaced Repetition Flashcards & Quick Key List View
+ *  - Dark / Light Theme Sync
+ *  - Independent LocalStorage Progress Tracking
  */
 
 class QuizletApp {
   constructor() {
-    this.examsData = window.EXAMS_DATA || {};
-    
-    // Theme setup
-    this.theme = localStorage.getItem('hcm202_theme') || 'dark';
+    this.initCoursesData();
 
-    // Default active exam
-    const savedExam = localStorage.getItem('hcm202_active_exam');
-    this.currentExam = (savedExam && this.examsData[savedExam]) ? savedExam : 're';
+    // Theme setup
+    this.theme = localStorage.getItem('fpt_quiz_theme') || localStorage.getItem('hcm202_theme') || 'dark';
+
+    // Current State
+    this.currentView = 'portal'; // 'portal' | 'study'
+    this.currentCourse = 'hcm202'; // 'hcm202' | 'mln111'
+    this.currentExam = 're';
     this.currentMode = 'quizlet'; // 'quizlet' | 'list'
-    this.listFilter = 'all'; // 'all' | 'SU26 - RE' | 'SU26 - C1FE'
-    
-    // Learning state for current exam
+    this.listFilter = 'all';
+
+    // Learning state for current active exam
     this.queue = [];
     this.repeatQueue = [];
     this.masteredIds = new Set();
@@ -25,36 +33,95 @@ class QuizletApp {
     this.currentCardAnswered = false;
     this.round = 1;
 
-    // DOM Elements
+    // Initialize UI
     this.initElements();
     this.applyTheme(this.theme);
     this.initEvents();
 
-    // Load active exam
-    this.loadExam(this.currentExam);
+    // Route based on URL hash or initial load
+    this.handleInitialRouting();
+    this.updatePortalProgress();
   }
 
+  /* ================= DATA ENGINE ================= */
+  initCoursesData() {
+    this.courses = {
+      hcm202: {
+        id: 'hcm202',
+        code: 'HCM202',
+        name: 'HCM202 — Tư tưởng Hồ Chí Minh',
+        shortName: 'HCM202',
+        icon: '🇻🇳',
+        badgeText: '🇻🇳 HCM202',
+        badgeClass: 'course-badge-hcm',
+        subTitle: 'Ôn thi Tư tưởng Hồ Chí Minh (Spaced Repetition & Multi-Exam)',
+        selectorHeadingTitle: 'CHỌN BỘ ĐỀ / CHẾ ĐỘ HỌC:',
+        selectorHeadingDesc: 'Học riêng từng đề thi hoặc tổng hợp toàn bộ câu hỏi (có lọc trùng)',
+        defaultExam: 're',
+        totalQuestions: 280,
+        exams: window.EXAMS_DATA || {}
+      },
+      mln111: {
+        id: 'mln111',
+        code: 'MLN131',
+        name: 'MLN131 — Chủ nghĩa xã hội khoa học',
+        shortName: 'MLN131',
+        icon: '🏛️',
+        badgeText: '🏛️ MLN131',
+        badgeClass: 'course-badge-mln',
+        subTitle: 'Kho Đề Chuẩn FPT University — Đề Thi FE SU26 (C1RE, C2RE & Bản Lọc Trùng 119 Câu)',
+        selectorHeadingTitle: 'CHỌN ĐỀ / CHẾ ĐỘ HỌC:',
+        selectorHeadingDesc: 'Học riêng từng đề thi hoặc bản tổng hợp toàn bộ 119 câu hỏi độc bản (đã lọc trùng)',
+        defaultExam: 'combined',
+        totalQuestions: 119,
+        exams: window.MLN_DATA || {}
+      }
+    };
+
+    // Aliases for convenient course routing
+    this.courses.mln131 = this.courses.mln111;
+    this.courses.mln133 = this.courses.mln111;
+
+    // Backward compatibility for external scripts
+    window.COURSES_DATA = this.courses;
+  }
+
+  /* ================= DOM INITIALIZATION ================= */
   initElements() {
-    // Header & Titles
+    // Views
+    this.portalView = document.getElementById('portalView');
+    this.appStudyView = document.getElementById('appStudyView');
+
+    // Portal Elements
+    this.btnEnterHCM = document.getElementById('btnEnterHCM');
+    this.btnEnterMLN = document.getElementById('btnEnterMLN');
+    this.cardSelectHCM = document.getElementById('cardSelectHCM');
+    this.cardSelectMLN = document.getElementById('cardSelectMLN');
+    this.portalHcmProgressText = document.getElementById('portalHcmProgressText');
+    this.portalHcmProgressBar = document.getElementById('portalHcmProgressBar');
+    this.portalMlnProgressText = document.getElementById('portalMlnProgressText');
+    this.portalMlnProgressBar = document.getElementById('portalMlnProgressBar');
+
+    // Portal Theme Toggle
+    this.btnPortalThemeToggle = document.getElementById('btnPortalThemeToggle');
+    this.portalThemeIcon = document.getElementById('portalThemeIcon');
+    this.portalThemeText = document.getElementById('portalThemeText');
+
+    // Header & Titles in Study View
+    this.btnBackToPortal = document.getElementById('btnBackToPortal');
+    this.currentCourseBadge = document.getElementById('currentCourseBadge');
     this.appMainTitle = document.getElementById('appMainTitle');
     this.appSubTitle = document.getElementById('appSubTitle');
     this.tabListTitle = document.getElementById('tabListTitle');
     this.activeExamStatsBadge = document.getElementById('activeExamStatsBadge');
+    this.selectorHeadingTitle = document.getElementById('selectorHeadingTitle');
+    this.selectorHeadingDesc = document.getElementById('selectorHeadingDesc');
+    this.examPillsContainer = document.getElementById('examPillsContainer');
 
-    // Theme Toggle
+    // Study View Theme Toggle
     this.btnThemeToggle = document.getElementById('btnThemeToggle');
     this.themeIcon = document.getElementById('themeIcon');
     this.themeText = document.getElementById('themeText');
-
-    // Exam Selector buttons
-    this.btnExamRE = document.getElementById('btnExamRE');
-    this.btnExamC1FE = document.getElementById('btnExamC1FE');
-    this.btnExamFA25 = document.getElementById('btnExamFA25');
-    this.btnExamSU25 = document.getElementById('btnExamSU25');
-    this.btnExamFEKTS = document.getElementById('btnExamFEKTS');
-    this.btnExamSP25 = document.getElementById('btnExamSP25');
-    this.btnExamFA24RE = document.getElementById('btnExamFA24RE');
-    this.btnExamCombined = document.getElementById('btnExamCombined');
 
     // Tabs
     this.tabQuizlet = document.getElementById('tabQuizlet');
@@ -98,48 +165,184 @@ class QuizletApp {
     this.listContainer = document.getElementById('listContainer');
     this.searchInput = document.getElementById('searchInput');
     this.listFilterBar = document.getElementById('listFilterBar');
+    this.filterPillsContainer = document.getElementById('filterPillsContainer');
   }
 
-  /* ================= THEME ENGINE ================= */
-  toggleTheme() {
-    this.theme = this.theme === 'dark' ? 'light' : 'dark';
-    localStorage.setItem('hcm202_theme', this.theme);
-    this.applyTheme(this.theme);
+  /* ================= ROUTING & VIEW NAVIGATION ================= */
+  handleInitialRouting() {
+    const hash = window.location.hash.toLowerCase();
+    if (hash === '#hcm202' || hash.startsWith('#hcm202')) {
+      this.selectCourse('hcm202', false);
+    } else if (hash === '#mln131' || hash.startsWith('#mln131') || hash === '#mln133' || hash.startsWith('#mln133') || hash === '#mln111' || hash.startsWith('#mln111') || hash.startsWith('#mln')) {
+      this.selectCourse('mln111', false);
+    } else {
+      // By default, display the Portal View for user to select course
+      this.showPortal(false);
+    }
   }
 
-  applyTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    if (this.themeIcon) {
-      this.themeIcon.textContent = theme === 'light' ? '☀️' : '🌙';
+  showPortal(updateHash = true) {
+    this.currentView = 'portal';
+    if (this.portalView) this.portalView.style.display = 'flex';
+    if (this.appStudyView) this.appStudyView.style.display = 'none';
+    if (updateHash) {
+      window.location.hash = '#portal';
     }
-    if (this.themeText) {
-      this.themeText.textContent = theme === 'light' ? 'Sáng' : 'Tối';
+    this.updatePortalProgress();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  selectCourse(courseKey, updateHash = true) {
+    if (!this.courses[courseKey]) {
+      courseKey = 'hcm202';
     }
+    this.currentCourse = courseKey;
+    this.currentView = 'study';
+    localStorage.setItem('fpt_last_course', courseKey);
+
+    if (this.portalView) this.portalView.style.display = 'none';
+    if (this.appStudyView) this.appStudyView.style.display = 'block';
+
+    const courseData = this.courses[courseKey];
+
+    // Update Header Brand
+    if (this.currentCourseBadge) {
+      this.currentCourseBadge.textContent = courseData.badgeText;
+      this.currentCourseBadge.className = `current-course-badge ${courseData.badgeClass}`;
+    }
+    if (this.appSubTitle) {
+      this.appSubTitle.textContent = courseData.subTitle;
+    }
+    if (this.selectorHeadingTitle) {
+      this.selectorHeadingTitle.textContent = courseData.selectorHeadingTitle;
+    }
+    if (this.selectorHeadingDesc) {
+      this.selectorHeadingDesc.textContent = courseData.selectorHeadingDesc;
+    }
+
+    // Render Exam Selector pills for this course
+    this.renderExamPills();
+
+    // Load active exam for this course
+    const savedExam = localStorage.getItem(`fpt_active_exam_${courseKey}`);
+    const activeExam = (savedExam && courseData.exams[savedExam]) ? savedExam : courseData.defaultExam;
+    this.loadExam(activeExam);
+
+    if (updateHash) {
+      window.location.hash = `#${courseKey}`;
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  /* ================= EXAM PILLS GENERATOR ================= */
+  renderExamPills() {
+    if (!this.examPillsContainer) return;
+    const courseData = this.courses[this.currentCourse];
+    const exams = courseData.exams;
+
+    this.examPillsContainer.innerHTML = '';
+
+    const examEntries = Object.entries(exams);
+    if (examEntries.length === 0) {
+      const emptyNote = document.createElement('div');
+      emptyNote.style.cssText = 'color: var(--text-muted); font-size: 0.9rem; padding: 0.5rem 0; font-style: italic;';
+      emptyNote.textContent = '⏳ Hiện chưa có đề thi nào cho môn này. Đang chờ cung cấp đề thi để tải câu hỏi.';
+      this.examPillsContainer.appendChild(emptyNote);
+      return;
+    }
+
+    examEntries.forEach(([key, examInfo]) => {
+      const btn = document.createElement('button');
+      btn.className = 'exam-pill-btn';
+      btn.dataset.exam = key;
+      btn.id = `btnExam_${key}`;
+
+      // Pick chip class
+      let chipClass = 'chip-re';
+      if (this.currentCourse === 'mln111') {
+        if (key === 'combined') chipClass = 'chip-combined';
+        else if (key === 'mln131_su26_c1re') chipClass = 'chip-re';
+        else if (key === 'mln131_su26_c2re') chipClass = 'chip-c1fe';
+      } else {
+        if (key === 'c1fe') chipClass = 'chip-c1fe';
+        else if (key === 'fa25_half1') chipClass = 'chip-fa25';
+        else if (key === 'su25_b5') chipClass = 'chip-su25';
+        else if (key === 'fekts') chipClass = 'chip-fekts';
+        else if (key === 'sp25_fe') chipClass = 'chip-sp25';
+        else if (key === 'fa24_re') chipClass = 'chip-fa24-re';
+        else if (key === 'combined') chipClass = 'chip-combined';
+      }
+
+      btn.innerHTML = `
+        <span class="pill-chip ${chipClass}">${examInfo.badge || examInfo.shortName}</span>
+        <span class="pill-name">${examInfo.name}</span>
+        <span class="pill-meta">${examInfo.total} câu</span>
+      `;
+
+      btn.addEventListener('click', () => this.loadExam(key));
+      this.examPillsContainer.appendChild(btn);
+    });
   }
 
   /* ================= EXAM ENGINE ================= */
   loadExam(examKey) {
-    if (!this.examsData[examKey]) {
-      examKey = 're';
-    }
-    this.currentExam = examKey;
-    localStorage.setItem('hcm202_active_exam', examKey);
+    const courseData = this.courses[this.currentCourse];
+    const examKeys = Object.keys(courseData.exams);
 
-    const examInfo = this.examsData[examKey];
-    this.allQuestions = examInfo.questions || [];
+    if (examKeys.length === 0) {
+      this.currentExam = '';
+      this.allQuestions = [];
+      if (this.appMainTitle) this.appMainTitle.textContent = courseData.name;
+      if (this.tabListTitle) this.tabListTitle.textContent = '📋 Danh sách 0 câu';
+      if (this.activeExamStatsBadge) {
+        this.activeExamStatsBadge.textContent = '0 câu';
+      }
+
+      this.loadProgress();
+      if (this.currentMode === 'quizlet') {
+        this.render();
+      } else {
+        this.renderListView();
+      }
+      return;
+    }
+
+    if (!courseData.exams[examKey]) {
+      examKey = courseData.defaultExam && courseData.exams[courseData.defaultExam] ? courseData.defaultExam : examKeys[0];
+    }
+
+    this.currentExam = examKey;
+    localStorage.setItem(`fpt_active_exam_${this.currentCourse}`, examKey);
+
+    const examInfo = courseData.exams[examKey];
+    this.allQuestions = (examInfo.questions || []).map((q, idx) => {
+      const questionText = q.question || q.q || '';
+      let optionsObj = {};
+      if (Array.isArray(q.options)) {
+        const letters = ['A', 'B', 'C', 'D'];
+        q.options.forEach((opt, oIdx) => {
+          optionsObj[letters[oIdx] || `${oIdx}`] = opt.replace(/^[A-D]\.\s*/, '').trim();
+        });
+      } else {
+        optionsObj = q.options || {};
+      }
+      let answerStr = typeof q.answer === 'string' ? q.answer : (typeof q.answer === 'number' ? (['A', 'B', 'C', 'D'][q.answer] || 'A') : `${q.answer || 'A'}`);
+      return {
+        ...q,
+        q_num: q.q_num || (idx + 1),
+        question: questionText,
+        options: optionsObj,
+        answer: answerStr,
+        explanation: q.explanation || ''
+      };
+    });
 
     // Update active pill UI
-    [this.btnExamRE, this.btnExamC1FE, this.btnExamFA25, this.btnExamSU25, this.btnExamFEKTS, this.btnExamSP25, this.btnExamFA24RE, this.btnExamCombined].forEach(btn => {
-      if (btn) btn.classList.remove('active');
-    });
-    if (examKey === 're' && this.btnExamRE) this.btnExamRE.classList.add('active');
-    if (examKey === 'c1fe' && this.btnExamC1FE) this.btnExamC1FE.classList.add('active');
-    if (examKey === 'fa25_half1' && this.btnExamFA25) this.btnExamFA25.classList.add('active');
-    if (examKey === 'su25_b5' && this.btnExamSU25) this.btnExamSU25.classList.add('active');
-    if (examKey === 'fekts' && this.btnExamFEKTS) this.btnExamFEKTS.classList.add('active');
-    if (examKey === 'sp25_fe' && this.btnExamSP25) this.btnExamSP25.classList.add('active');
-    if (examKey === 'fa24_re' && this.btnExamFA24RE) this.btnExamFA24RE.classList.add('active');
-    if (examKey === 'combined' && this.btnExamCombined) this.btnExamCombined.classList.add('active');
+    if (this.examPillsContainer) {
+      this.examPillsContainer.querySelectorAll('.exam-pill-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.exam === examKey);
+      });
+    }
 
     // Update headers
     if (this.appMainTitle) this.appMainTitle.textContent = examInfo.name;
@@ -148,10 +351,8 @@ class QuizletApp {
       this.activeExamStatsBadge.textContent = `${examInfo.shortName}: ${examInfo.total} câu`;
     }
 
-    // Toggle filter bar in list view
-    if (this.listFilterBar) {
-      this.listFilterBar.style.display = examKey === 'combined' ? 'flex' : 'none';
-    }
+    // Configure filter bar for list view
+    this.configureListFilterBar(examKey);
 
     // Load saved progress for this exam
     this.loadProgress();
@@ -164,10 +365,67 @@ class QuizletApp {
     }
   }
 
+  configureListFilterBar(examKey) {
+    if (!this.listFilterBar || !this.filterPillsContainer) return;
+
+    const isCombined = examKey === 'combined' || examKey === 'cuu_am_combined';
+    this.listFilterBar.style.display = isCombined ? 'flex' : 'none';
+    this.listFilter = 'all';
+
+    if (!isCombined) return;
+
+    this.filterPillsContainer.innerHTML = '';
+
+    let filterOptions = [];
+    if (this.currentCourse === 'hcm202') {
+      filterOptions = [
+        { label: 'Tất cả', val: 'all' },
+        { label: 'Đề RE', val: 'SU26 - RE' },
+        { label: 'Đề C1FE', val: 'SU26 - C1FE' },
+        { label: 'Đề FA25', val: 'FA25 - Half1' },
+        { label: 'Đề SU25 B5', val: 'SU25 - B5' },
+        { label: 'Đề FEKTS', val: 'SU25 - FEKTS' },
+        { label: 'Đề SP25', val: 'SP25 - FE' },
+        { label: 'Đề FA24 RE', val: 'FA24 - RE' }
+      ];
+    } else {
+      filterOptions = [
+        { label: 'Tất cả (119c)', val: 'all' },
+        { label: 'Đề C1RE', val: 'C1RE' },
+        { label: 'Đề C2RE', val: 'C2RE' }
+      ];
+    }
+
+    filterOptions.forEach(opt => {
+      const btn = document.createElement('button');
+      btn.className = `filter-pill-btn ${opt.val === 'all' ? 'active' : ''}`;
+      btn.dataset.filter = opt.val;
+      btn.textContent = opt.label;
+      btn.addEventListener('click', () => {
+        this.filterPillsContainer.querySelectorAll('.filter-pill-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        this.listFilter = opt.val;
+        this.filterList(this.searchInput.value);
+      });
+      this.filterPillsContainer.appendChild(btn);
+    });
+  }
+
+  /* ================= PROGRESS & STORAGE ENGINE ================= */
+  getProgressStorageKey() {
+    return `fpt_progress_${this.currentCourse}_${this.currentExam}`;
+  }
+
   loadProgress() {
-    const storageKey = `hcm202_progress_${this.currentExam}`;
+    const key = this.getProgressStorageKey();
+    let saved = localStorage.getItem(key);
+
+    // Backward compatibility for old HCM202 progress keys
+    if (!saved && this.currentCourse === 'hcm202') {
+      saved = localStorage.getItem(`hcm202_progress_${this.currentExam}`);
+    }
+
     try {
-      const saved = localStorage.getItem(storageKey);
       if (saved) {
         const parsed = JSON.parse(saved);
         this.masteredIds = new Set(parsed.masteredIds || []);
@@ -189,9 +447,9 @@ class QuizletApp {
   }
 
   saveProgress() {
-    const storageKey = `hcm202_progress_${this.currentExam}`;
+    const key = this.getProgressStorageKey();
     try {
-      localStorage.setItem(storageKey, JSON.stringify({
+      localStorage.setItem(key, JSON.stringify({
         masteredIds: Array.from(this.masteredIds),
         round: this.round
       }));
@@ -205,10 +463,13 @@ class QuizletApp {
   }
 
   resetProgress() {
-    const examInfo = this.examsData[this.currentExam];
+    const courseData = this.courses[this.currentCourse];
+    const examInfo = courseData.exams[this.currentExam] || { name: courseData.name };
     if (confirm(`Bạn có chắc muốn đặt lại tiến độ học cho "${examInfo.name}" và bắt đầu lại từ đầu?`)) {
-      const storageKey = `hcm202_progress_${this.currentExam}`;
-      localStorage.removeItem(storageKey);
+      localStorage.removeItem(this.getProgressStorageKey());
+      if (this.currentCourse === 'hcm202') {
+        localStorage.removeItem(`hcm202_progress_${this.currentExam}`);
+      }
       this.masteredIds.clear();
       this.queue = [...this.allQuestions];
       this.repeatQueue = [];
@@ -218,54 +479,128 @@ class QuizletApp {
     }
   }
 
+  updatePortalProgress() {
+    // 1. Calculate HCM202 progress
+    let hcmMastered = 0;
+    const hcmTotal = this.courses.hcm202.totalQuestions || 280;
+    try {
+      const hcmSaved = localStorage.getItem('fpt_progress_hcm202_combined') || localStorage.getItem('hcm202_progress_combined');
+      if (hcmSaved) {
+        const parsed = JSON.parse(hcmSaved);
+        hcmMastered = (parsed.masteredIds || []).length;
+      }
+    } catch (e) {}
+
+    const hcmPct = Math.min(100, Math.round((hcmMastered / hcmTotal) * 100));
+    if (this.portalHcmProgressText) {
+      this.portalHcmProgressText.textContent = `${hcmMastered} / ${hcmTotal} câu (${hcmPct}%)`;
+    }
+    if (this.portalHcmProgressBar) {
+      this.portalHcmProgressBar.style.width = `${hcmPct}%`;
+    }
+
+    // 2. Calculate MLN progress
+    let mlnMastered = 0;
+    const mlnTotal = this.courses.mln111.totalQuestions || 0;
+    try {
+      const mlnSaved = localStorage.getItem('fpt_progress_mln111_combined') || localStorage.getItem('fpt_progress_mln111_mln131_su26_c1re');
+      if (mlnSaved) {
+        const parsed = JSON.parse(mlnSaved);
+        mlnMastered = (parsed.masteredIds || []).length;
+      }
+    } catch (e) {}
+
+    const mlnPct = mlnTotal > 0 ? Math.min(100, Math.round((mlnMastered / mlnTotal) * 100)) : 0;
+    if (this.portalMlnProgressText) {
+      if (mlnTotal > 0) {
+        this.portalMlnProgressText.textContent = `${mlnMastered} / ${mlnTotal} câu (${mlnPct}%)`;
+      } else {
+        this.portalMlnProgressText.textContent = `0 câu (Chờ cung cấp đề)`;
+      }
+    }
+    if (this.portalMlnProgressBar) {
+      this.portalMlnProgressBar.style.width = `${mlnPct}%`;
+    }
+  }
+
+  /* ================= THEME ENGINE ================= */
+  toggleTheme() {
+    this.theme = this.theme === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('fpt_quiz_theme', this.theme);
+    localStorage.setItem('hcm202_theme', this.theme);
+    this.applyTheme(this.theme);
+  }
+
+  applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    const icon = theme === 'light' ? '☀️' : '🌙';
+    const text = theme === 'light' ? 'Sáng' : 'Tối';
+
+    if (this.themeIcon) this.themeIcon.textContent = icon;
+    if (this.themeText) this.themeText.textContent = text;
+    if (this.portalThemeIcon) this.portalThemeIcon.textContent = icon;
+    if (this.portalThemeText) this.portalThemeText.textContent = text;
+  }
+
+  /* ================= EVENTS ENGINE ================= */
   initEvents() {
-    // Theme toggle
+    // Theme toggles
     if (this.btnThemeToggle) {
       this.btnThemeToggle.addEventListener('click', () => this.toggleTheme());
     }
+    if (this.btnPortalThemeToggle) {
+      this.btnPortalThemeToggle.addEventListener('click', () => this.toggleTheme());
+    }
 
-    // Exam pills
-    if (this.btnExamRE) this.btnExamRE.addEventListener('click', () => this.loadExam('re'));
-    if (this.btnExamC1FE) this.btnExamC1FE.addEventListener('click', () => this.loadExam('c1fe'));
-    if (this.btnExamFA25) this.btnExamFA25.addEventListener('click', () => this.loadExam('fa25_half1'));
-    if (this.btnExamSU25) this.btnExamSU25.addEventListener('click', () => this.loadExam('su25_b5'));
-    if (this.btnExamFEKTS) this.btnExamFEKTS.addEventListener('click', () => this.loadExam('fekts'));
-    if (this.btnExamSP25) this.btnExamSP25.addEventListener('click', () => this.loadExam('sp25_fe'));
-    if (this.btnExamFA24RE) this.btnExamFA24RE.addEventListener('click', () => this.loadExam('fa24_re'));
-    if (this.btnExamCombined) this.btnExamCombined.addEventListener('click', () => this.loadExam('combined'));
+    // Portal course selection
+    if (this.btnEnterHCM) this.btnEnterHCM.addEventListener('click', () => this.selectCourse('hcm202'));
+    if (this.btnEnterMLN) this.btnEnterMLN.addEventListener('click', () => this.selectCourse('mln111'));
+    if (this.cardSelectHCM) this.cardSelectHCM.addEventListener('click', () => this.selectCourse('hcm202'));
+    if (this.cardSelectMLN) this.cardSelectMLN.addEventListener('click', () => this.selectCourse('mln111'));
+
+    // Switch Course (back to Portal)
+    if (this.btnBackToPortal) {
+      this.btnBackToPortal.addEventListener('click', () => this.showPortal());
+    }
 
     // Mode Switcher
-    this.tabQuizlet.addEventListener('click', () => this.switchMode('quizlet'));
-    this.tabList.addEventListener('click', () => this.switchMode('list'));
+    if (this.tabQuizlet) this.tabQuizlet.addEventListener('click', () => this.switchMode('quizlet'));
+    if (this.tabList) this.tabList.addEventListener('click', () => this.switchMode('list'));
 
     // Card buttons
-    this.btnReveal.addEventListener('click', () => this.revealAnswer());
-    this.btnRepeat.addEventListener('click', () => this.handleDecision(false));
-    this.btnMastered.addEventListener('click', () => this.handleDecision(true));
-    this.btnToggleImg.addEventListener('click', () => this.toggleImage());
-    
-    document.getElementById('btnReset').addEventListener('click', () => this.resetProgress());
-    document.getElementById('btnRestartQuiz').addEventListener('click', () => this.resetProgress());
-    document.getElementById('btnShuffle').addEventListener('click', () => this.shuffleQueue());
+    if (this.btnReveal) this.btnReveal.addEventListener('click', () => this.revealAnswer());
+    if (this.btnRepeat) this.btnRepeat.addEventListener('click', () => this.handleDecision(false));
+    if (this.btnMastered) this.btnMastered.addEventListener('click', () => this.handleDecision(true));
+    if (this.btnToggleImg) this.btnToggleImg.addEventListener('click', () => this.toggleImage());
+
+    const btnReset = document.getElementById('btnReset');
+    if (btnReset) btnReset.addEventListener('click', () => this.resetProgress());
+
+    const btnRestartQuiz = document.getElementById('btnRestartQuiz');
+    if (btnRestartQuiz) btnRestartQuiz.addEventListener('click', () => this.resetProgress());
+
+    const btnShuffle = document.getElementById('btnShuffle');
+    if (btnShuffle) btnShuffle.addEventListener('click', () => this.shuffleQueue());
 
     // Search input
-    this.searchInput.addEventListener('input', (e) => this.filterList(e.target.value));
-
-    // List filter buttons
-    if (this.listFilterBar) {
-      this.listFilterBar.querySelectorAll('.filter-pill-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          this.listFilterBar.querySelectorAll('.filter-pill-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          this.listFilter = btn.dataset.filter;
-          this.filterList(this.searchInput.value);
-        });
-      });
+    if (this.searchInput) {
+      this.searchInput.addEventListener('input', (e) => this.filterList(e.target.value));
     }
+
+    // URL Hash listener
+    window.addEventListener('hashchange', () => {
+      const hash = window.location.hash.toLowerCase();
+      if (hash === '#portal' || hash === '') {
+        if (this.currentView !== 'portal') this.showPortal(false);
+      } else if (hash.includes('hcm202')) {
+        if (this.currentCourse !== 'hcm202' || this.currentView !== 'study') this.selectCourse('hcm202', false);
+      } else if (hash.includes('mln111')) {
+        if (this.currentCourse !== 'mln111' || this.currentView !== 'study') this.selectCourse('mln111', false);
+      }
+    });
 
     // Keyboard shortcuts
     window.addEventListener('keydown', (e) => {
-      // Don't trigger if user is typing in search
       if (document.activeElement === this.searchInput) return;
 
       const key = e.key.toUpperCase();
@@ -274,6 +609,28 @@ class QuizletApp {
       if (key === 'T') {
         e.preventDefault();
         this.toggleTheme();
+        return;
+      }
+
+      // Portal View shortcuts
+      if (this.currentView === 'portal') {
+        if (key === '1' || key === 'H') {
+          e.preventDefault();
+          this.selectCourse('hcm202');
+          return;
+        }
+        if (key === '2' || key === 'M') {
+          e.preventDefault();
+          this.selectCourse('mln111');
+          return;
+        }
+        return;
+      }
+
+      // Study View shortcuts: Return to Portal (ESC or P)
+      if (key === 'ESCAPE' || key === 'P') {
+        e.preventDefault();
+        this.showPortal();
         return;
       }
 
@@ -333,8 +690,14 @@ class QuizletApp {
     return this.queue[this.currentIndex];
   }
 
+  /* ================= QUIZLET CARD ENGINE ================= */
   render() {
     this.updateStats();
+
+    if (this.allQuestions.length === 0) {
+      this.showEmptyScreen();
+      return;
+    }
 
     const q = this.getCurrentQuestion();
     if (!q) {
@@ -374,7 +737,7 @@ class QuizletApp {
     const qNumber = q.combined_id || q.q_num || q.id;
     this.qBadge.textContent = `CÂU ${qNumber} / ${totalQ} • VÒNG ${this.round}`;
 
-    // Exam tag
+    // Exam tag rendering
     if (q.sources && q.sources.length > 1) {
       this.qExamTag.className = 'q-exam-tag tag-combined';
       this.qExamTag.textContent = `Xuất hiện ở ${q.sources.length} đề (${q.sources.map(s => s.exam).join(', ')})`;
@@ -390,19 +753,18 @@ class QuizletApp {
       this.qExamTag.className = `q-exam-tag ${tagClass}`;
       this.qExamTag.textContent = `Đề ${src.exam} #${src.q_num}`;
     } else {
-      const isFA24 = (q.exam_code || '').includes('FA24');
-      const isRe = (q.exam_code || '').includes('SU26') && (q.exam_code || '').includes('RE');
-      const isC1 = (q.exam_code || '').includes('C1FE');
-      const isFEKTS = (q.exam_code || '').includes('FEKTS');
-      const isSP25 = (q.exam_code || '').includes('SP25');
-      const isB5 = (q.exam_code || '').includes('SU25') || (q.exam_code || '').includes('B5');
-      let tagClass = 'tag-fa25';
-      if (isFA24) tagClass = 'tag-fa24-re';
-      else if (isC1) tagClass = 'tag-c1fe';
-      else if (isFEKTS) tagClass = 'tag-fekts';
-      else if (isSP25) tagClass = 'tag-sp25';
-      else if (isB5) tagClass = 'tag-su25';
-      else if (isRe) tagClass = 'tag-re';
+      const code = q.exam_code || '';
+      let tagClass = 'tag-re';
+      if (code.includes('Chương 1')) tagClass = 'tag-chuong1';
+      else if (code.includes('Chương 2')) tagClass = 'tag-chuong2';
+      else if (code.includes('Chương 3')) tagClass = 'tag-chuong3';
+      else if (code.includes('Tổng Hợp') || code.includes('Cửu Âm')) tagClass = 'tag-cuu-am';
+      else if (code.includes('C1FE')) tagClass = 'tag-c1fe';
+      else if (code.includes('FA25')) tagClass = 'tag-fa25';
+      else if (code.includes('FEKTS')) tagClass = 'tag-fekts';
+      else if (code.includes('SP25')) tagClass = 'tag-sp25';
+      else if (code.includes('SU25')) tagClass = 'tag-su25';
+      else if (code.includes('FA24')) tagClass = 'tag-fa24-re';
       this.qExamTag.className = `q-exam-tag ${tagClass}`;
       this.qExamTag.textContent = q.exam_code || `Đề ${this.currentExam.toUpperCase()}`;
     }
@@ -410,8 +772,14 @@ class QuizletApp {
     // Question content
     this.qText.textContent = q.question;
 
-    // Set image src
-    this.cardImg.src = q.image || `images/q${q.id}.webp`;
+    // Toggle Image button: Only show if an image exists
+    const hasImage = Boolean(q.image);
+    if (this.btnToggleImg) {
+      this.btnToggleImg.style.display = hasImage ? 'inline-flex' : 'none';
+      if (hasImage) {
+        this.cardImg.src = q.image;
+      }
+    }
 
     // Render options
     this.optionsContainer.innerHTML = '';
@@ -436,7 +804,7 @@ class QuizletApp {
     this.currentCardAnswered = true;
 
     const q = this.getCurrentQuestion();
-    const correctAnswers = q.answer.split(',').map(s => s.trim());
+    const correctAnswers = `${q.answer || 'A'}`.split(',').map(s => s.trim());
     const isCorrect = correctAnswers.includes(selectedKey);
 
     const buttons = this.optionsContainer.querySelectorAll('.quiz-option-btn');
@@ -459,7 +827,7 @@ class QuizletApp {
     this.currentCardAnswered = true;
 
     const q = this.getCurrentQuestion();
-    const correctAnswers = q.answer.split(',').map(s => s.trim());
+    const correctAnswers = `${q.answer || 'A'}`.split(',').map(s => s.trim());
 
     const buttons = this.optionsContainer.querySelectorAll('.quiz-option-btn');
     buttons.forEach(btn => {
@@ -492,12 +860,15 @@ class QuizletApp {
 
     let votesStr = '';
     if (q.votes && Object.keys(q.votes).length > 0) {
-      votesStr = `<div style="font-size:0.82rem; color:var(--text-muted); margin-top:4px;">✓ Bình chọn cộng đồng: ${JSON.stringify(q.votes).replace(/[{"}]/g, '').replace(/:/g, ': ').replace(/,/g, ' | ')}</div>`;
+      const voteEntries = Object.entries(q.votes).filter(([_, v]) => v > 0);
+      if (voteEntries.length > 0) {
+        votesStr = `<div style="font-size:0.82rem; color:var(--text-muted); margin-top:4px;">✓ Bình chọn đáp án: ${voteEntries.map(([k, v]) => `${k}: ${v}`).join(' | ')}</div>`;
+      }
     }
 
     this.feedbackText.innerHTML = `
       ${extraHtml}
-      <div style="margin-bottom:6px;"><strong>Giải thích:</strong> ${q.explanation || 'Xem nội dung bài giảng và tài liệu HCM202.'}</div>
+      <div style="margin-bottom:6px;"><strong>Giải thích:</strong> ${q.explanation || 'Xem nội dung bài giảng và tài liệu môn học.'}</div>
       ${votesStr}
     `;
 
@@ -522,7 +893,6 @@ class QuizletApp {
     }
 
     this.saveProgress();
-
     this.currentIndex++;
     this.render();
   }
@@ -557,20 +927,69 @@ class QuizletApp {
     }, 3500);
   }
 
+  showEmptyScreen() {
+    this.cardContainer.style.display = 'none';
+    this.completedScreen.style.display = 'block';
+    const courseData = this.courses[this.currentCourse];
+    this.completedTitle.textContent = `⏳ Đang Chờ Cung Cấp Đề Thi (${courseData.shortName})`;
+    this.completedDesc.textContent = `Hiện tại chưa có câu hỏi nào cho môn ${courseData.name}. Hệ thống đang chờ nhận bộ đề thi mới để trích xuất câu hỏi!`;
+    const actionsBox = this.completedScreen.querySelector('.completed-actions');
+    if (actionsBox) {
+      actionsBox.innerHTML = `
+        <button class="btn btn-primary" onclick="window.quizApp.showPortal()">
+          <span>🏠 Quay Lại Chọn Môn</span>
+        </button>
+      `;
+    }
+    this.updateStats();
+  }
+
   showCompletedScreen() {
     this.cardContainer.style.display = 'none';
     this.completedScreen.style.display = 'block';
-    const examInfo = this.examsData[this.currentExam];
+    const courseData = this.courses[this.currentCourse];
+    const examInfo = courseData.exams[this.currentExam] || { name: courseData.name, total: this.allQuestions.length };
     this.completedTitle.textContent = `🎉 Chúc Mừng! Bạn Đã Thuộc Toàn Bộ ${examInfo.total} Câu!`;
     this.completedDesc.textContent = `Bạn đã hoàn thành toàn bộ câu hỏi trong "${examInfo.name}" và không còn câu nào trong danh sách cần lặp lại.`;
+    const actionsBox = this.completedScreen.querySelector('.completed-actions');
+    if (actionsBox) {
+      actionsBox.innerHTML = `
+        <button class="btn btn-secondary" id="btnRestartQuiz">
+          <span>🔄 Học Lại Từ Đầu</span>
+        </button>
+        <button class="btn btn-primary" id="btnViewListMode">
+          <span>📋 Xem Bảng Đáp Án</span>
+        </button>
+      `;
+      const btnRestart = document.getElementById('btnRestartQuiz');
+      const btnViewList = document.getElementById('btnViewListMode');
+      if (btnRestart) btnRestart.onclick = () => this.resetProgress();
+      if (btnViewList) btnViewList.onclick = () => this.switchMode('list');
+    }
     this.updateStats();
   }
 
   /* ================= LIST VIEW LOGIC ================= */
   renderListView() {
-    const examInfo = this.examsData[this.currentExam];
+    const courseData = this.courses[this.currentCourse];
+    const examInfo = courseData.exams[this.currentExam] || { shortName: courseData.shortName, name: courseData.name, total: 0 };
     if (this.quickKeyHeader) {
       this.quickKeyHeader.textContent = `⚡ Bảng tra đáp án nhanh — ${examInfo.shortName} (${this.allQuestions.length} câu)`;
+    }
+
+    if (this.allQuestions.length === 0) {
+      if (this.quickKeyGrid) this.quickKeyGrid.innerHTML = '';
+      if (this.listContainer) {
+        this.listContainer.innerHTML = `
+          <div style="text-align: center; padding: 3rem 1rem; color: var(--text-muted);">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🏛️</div>
+            <p style="font-weight: 600; font-size: 1.1rem; color: var(--text-color);">Chưa có câu hỏi nào</p>
+            <p style="font-size: 0.9rem;">Đang chờ người dùng cung cấp đề thi để tải câu hỏi.</p>
+            <button class="btn btn-secondary" style="margin-top: 1rem;" onclick="window.quizApp.showPortal()">⬅️ Quay lại chọn môn</button>
+          </div>
+        `;
+      }
+      return;
     }
 
     // Quick Key Grid
@@ -592,9 +1011,11 @@ class QuizletApp {
     const filter = this.listFilter;
 
     const filtered = this.allQuestions.filter(q => {
-      // 1. Exam source filter if combined
+      // 1. Exam source or chapter filter
       if (filter !== 'all') {
-        const matchesExam = (q.sources || []).some(s => s.exam.includes(filter)) || (q.exam_code || '').includes(filter);
+        const matchesExam = (q.sources || []).some(s => s.exam.includes(filter)) || 
+                            (q.exam_code || '').includes(filter) ||
+                            (q.chapter || '').includes(filter);
         if (!matchesExam) return false;
       }
 
@@ -617,7 +1038,7 @@ class QuizletApp {
     this.listContainer.innerHTML = filtered.map(q => {
       const qKey = this.getQuestionUniqueKey(q);
       const qNum = q.combined_id || q.q_num || q.id;
-      const correctAnswers = q.answer.split(',').map(s => s.trim());
+      const correctAnswers = `${q.answer || 'A'}`.split(',').map(s => s.trim());
       const isMastered = this.masteredIds.has(qKey);
 
       // Source Tag
@@ -635,19 +1056,18 @@ class QuizletApp {
         else if (s.exam.includes('FA24')) tagClass = 'tag-fa24-re';
         sourceTagHtml = `<span class="q-exam-tag ${tagClass}">Đề ${s.exam} #${s.q_num}</span>`;
       } else {
-        const isFA24 = (q.exam_code || '').includes('FA24');
-        const isRe = (q.exam_code || '').includes('SU26') && (q.exam_code || '').includes('RE');
-        const isC1 = (q.exam_code || '').includes('C1FE');
-        const isFEKTS = (q.exam_code || '').includes('FEKTS');
-        const isSP25 = (q.exam_code || '').includes('SP25');
-        const isB5 = (q.exam_code || '').includes('SU25') || (q.exam_code || '').includes('B5');
-        let tagClass = 'tag-fa25';
-        if (isFA24) tagClass = 'tag-fa24-re';
-        else if (isC1) tagClass = 'tag-c1fe';
-        else if (isFEKTS) tagClass = 'tag-fekts';
-        else if (isSP25) tagClass = 'tag-sp25';
-        else if (isB5) tagClass = 'tag-su25';
-        else if (isRe) tagClass = 'tag-re';
+        const code = q.exam_code || '';
+        let tagClass = 'tag-re';
+        if (code.includes('Chương 1')) tagClass = 'tag-chuong1';
+        else if (code.includes('Chương 2')) tagClass = 'tag-chuong2';
+        else if (code.includes('Chương 3')) tagClass = 'tag-chuong3';
+        else if (code.includes('Tổng Hợp') || code.includes('Cửu Âm')) tagClass = 'tag-cuu-am';
+        else if (code.includes('C1FE')) tagClass = 'tag-c1fe';
+        else if (code.includes('FA25')) tagClass = 'tag-fa25';
+        else if (code.includes('FEKTS')) tagClass = 'tag-fekts';
+        else if (code.includes('SP25')) tagClass = 'tag-sp25';
+        else if (code.includes('SU25')) tagClass = 'tag-su25';
+        else if (code.includes('FA24')) tagClass = 'tag-fa24-re';
         sourceTagHtml = `<span class="q-exam-tag ${tagClass}">${q.exam_code || ''}</span>`;
       }
 
@@ -684,7 +1104,7 @@ class QuizletApp {
           <div>${optsHtml}</div>
           
           <div class="list-exp-box">
-            <strong style="color:var(--primary)">Đáp án: ${q.answer}</strong> — ${q.explanation || 'Xem tài liệu và giáo trình HCM202.'}
+            <strong style="color:var(--primary)">Đáp án: ${q.answer}</strong> — ${q.explanation || 'Xem tài liệu và giáo trình môn học.'}
           </div>
         </article>
       `;

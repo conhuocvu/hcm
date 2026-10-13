@@ -1,12 +1,27 @@
-# 🇻🇳 HCM202 - Hệ Thống Ôn Luyện & Giải Đề Tư Tưởng Hồ Chí Minh
+# 🎓 FPT Quiz Master — Nền Tảng Ôn Thi Trắc Nghiệm Đa Môn FPT University
 
-Ứng dụng web ôn thi trắc nghiệm môn **Tư tưởng Hồ Chí Minh (HCM202)** dành cho sinh viên FPT University. Bao gồm ngân hàng câu hỏi thực tế từ các kỳ thi gần nhất kèm giải thích chi tiết, dẫn chứng giáo trình và ảnh chụp đề gốc.
+Ứng dụng web ôn thi trắc nghiệm thông minh dành cho sinh viên **FPT University**, tích hợp trang chọn môn học trực quan trước khi vào, hỗ trợ hai môn lý luận chính trị trọng điểm: **HCM202 (Tư tưởng Hồ Chí Minh)** và **MLN131 (Chủ nghĩa xã hội khoa học)**.
 
 ---
 
 ## 🚀 Tính năng nổi bật
 
-- **Đầy đủ 7 bộ đề thi mới nhất**:
+### 1. 🧭 Trang Chọn Môn Học (Portal Landing View)
+- Giao diện chào đón hiện đại, trực quan trước khi vào ôn tập.
+- Thẻ thông tin chi tiết từng môn kèm tiến độ ghi nhớ theo thời gian thực (real-time progress bar).
+- Phím tắt chọn nhanh (`Phím 1` cho HCM202, `Phím 2` cho MLN131).
+- Nút **"🏠 Đổi môn"** (Phím `ESC` hoặc `P`) trên thanh điều hướng giúp chuyển đổi linh hoạt bất cứ lúc nào.
+- Hỗ trợ URL Hash: `#portal`, `#hcm202`, `#mln131`, `#mln133`.
+
+### 2. 🏛️ Môn MLN131 — Chủ Nghĩa Xã Hội Khoa Học
+- **2 Bộ đề thi FE thực tế mới nhất**:
+  - `SU26 C1RE`: 60 câu hỏi có đáp án chi tiết & phân tích chuyên sâu, hỗ trợ câu hỏi chọn nhiều đáp án (Câu 54 & 55)
+  - `SU26 C2RE`: 60 câu hỏi có đáp án chi tiết, hỗ trợ các câu hỏi chọn nhiều đáp án (Câu 53, 57, 58)
+- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (119 câu độc bản)**: Tự động loại bỏ câu hỏi trùng lặp, giữ lại nguồn đối chiếu chéo giữa các đợt thi.
+- Hỗ trợ cả 2 chế độ học: **Quizlet Lặp Lại Thông Minh (Spaced Repetition)** và **Bảng Tra Đáp Án Nhanh (Quick Key Tra Cứu)**.
+
+### 3. 🇻🇳 Môn HCM202 — Tư Tưởng Hồ Chí Minh
+- **Đầy đủ 7 bộ đề thi thực tế mới nhất**:
   - `SU26 RE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SU26 C1FE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `FA25 HALF1`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
@@ -14,16 +29,13 @@
   - `SU25 FEKTS`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SP25 FE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `FA24 RE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
-- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (280 câu độc bản)**: Tự động gom các câu hỏi trùng lặp giữa các kỳ thi, ghi chú rõ nguồn gốc từng đề và biến thể phương án.
-- **Hai chế độ luyện thi**:
-  - 🎴 **Chế độ Quizlet (Spaced Repetition)**: Lặp lại ngắt quãng, tự động đưa các câu "Chưa nhớ" vào vòng học lại cho đến khi thuộc 100%.
-  - 📋 **Chế độ Danh sách & Tra cứu nhanh (Quick Key)**: Bảng tra đáp án nhanh toàn đề kèm công cụ tìm kiếm tức thì.
-- **Tính năng hỗ trợ học tập**:
-  - Tìm kiếm câu hỏi tức thì theo từ khóa hoặc số câu.
-  - Bộ lọc thông minh theo kỳ thi.
-  - Xem ảnh chụp đề thi gốc trực tiếp trong từng câu hỏi.
-  - Dark Mode / Light Mode mượt mà (Phím tắt `T`).
-  - Phím tắt chọn nhanh phương án (`1-4`, `A-D`, `Space/Enter`, mũi tên điều hướng).
+- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (280 câu độc bản)** kèm 420 ảnh chụp đề gốc và đối chiếu biến thể.
+
+### 4. 🎴 Hai chế độ luyện thi chuyên sâu
+- **Chế độ Quizlet (Spaced Repetition)**: Tự động ghi nhớ các câu chưa thuộc, lặp lại ngắt quãng theo vòng đến khi thuộc 100%.
+- **Chế độ Danh sách & Tra cứu nhanh (Quick Key)**: Bảng tra đáp án toàn bộ câu hỏi và bộ tìm kiếm tức thì theo từ khóa.
+- **Tiện ích học tập**: Dark/Light mode (`Phím T`), phím tắt số (`1-4`, `A-D`, `Space/Enter`, `← / →`).
+
 
 ---
 

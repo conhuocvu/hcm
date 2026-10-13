@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HCM202 — Ôn Thi Trắc Nghiệm Đa Đề (6 Đề Thi Full: SU26 RE, C1FE, FA25, SU25 B5, FEKTS & SP25 FE)</title>
+  <title>FPT Quiz Master — Ôn Thi Trắc Nghiệm Đa Môn (HCM202 & MLN131)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
@@ -11,234 +11,339 @@
 </head>
 <body>
 
-  <!-- App Header -->
-  <header>
-    <div class="header-inner">
-      <div class="brand">
-        <div class="brand-icon">⚡</div>
+  <!-- ============================================================
+       PORTAL VIEW / TRANG CHỌN MÔN HỌC TRƯỚC KHI VÀO
+       ============================================================ -->
+  <div id="portalView" class="portal-view">
+    
+    <!-- Portal Top Bar -->
+    <header class="portal-topbar">
+      <div class="portal-brand">
+        <div class="portal-brand-icon">⚡</div>
         <div>
-          <div class="brand-title" id="appMainTitle">HCM202 — SU26 — RE</div>
-          <div class="brand-sub" id="appSubTitle">Ôn thi Tư tưởng Hồ Chí Minh (Spaced Repetition & Multi-Exam)</div>
+          <div class="portal-brand-name">FPT Quiz Master</div>
+          <div style="font-size:0.8rem; color:var(--text-muted); font-weight:600;">Hệ thống ôn thi trắc nghiệm thông minh</div>
         </div>
       </div>
 
-      <!-- Navigation Tabs & Theme Toggle -->
-      <div class="header-controls">
-        <nav class="nav-tabs">
-          <button id="tabQuizlet" class="tab-btn active">
-            <span>🎴 Chế độ Quizlet</span>
-          </button>
-          <button id="tabList" class="tab-btn">
-            <span id="tabListTitle">📋 Danh sách câu hỏi</span>
-          </button>
-        </nav>
+      <button id="btnPortalThemeToggle" class="theme-toggle-btn" title="Chuyển chế độ Sáng / Tối (Phím T)" aria-label="Toggle Theme">
+        <span class="theme-icon" id="portalThemeIcon">🌙</span>
+        <span class="theme-text" id="portalThemeText">Tối</span>
+      </button>
+    </header>
 
-        <button id="btnThemeToggle" class="theme-toggle-btn" title="Chuyển chế độ Sáng / Tối (Phím T)" aria-label="Toggle Theme">
-          <span class="theme-icon" id="themeIcon">🌙</span>
-          <span class="theme-text" id="themeText">Tối</span>
+    <!-- Portal Hero Section -->
+    <section class="portal-hero">
+      <div class="portal-hero-badge">
+        <span>🎓 Nền Tảng Ôn Thi Trắc Nghiệm FPT University</span>
+      </div>
+      <h1 class="portal-hero-title">
+        Chọn Môn Học Để <span class="gradient-text">Bắt Đầu Luyện Thi</span>
+      </h1>
+      <p class="portal-hero-desc">
+        Hệ thống ôn luyện trắc nghiệm Spaced Repetition (Lặp lại ngắt quãng), bám sát ngân hàng đề thi thực tế tại FPT University, hỗ trợ tra cứu Quick Key và thống kê tiến độ thông minh.
+      </p>
+    </section>
+
+    <!-- Courses Selection Grid -->
+    <section class="portal-courses-grid">
+
+      <!-- Course Card 1: HCM202 -->
+      <article class="course-card card-hcm" id="cardSelectHCM" tabindex="0" role="button" aria-label="Chọn ôn thi môn HCM202">
+        <div class="course-card-top">
+          <div class="course-icon-badge">🇻🇳</div>
+          <span class="course-badge-pill">7 Đề + 1 Tổng Hợp</span>
+        </div>
+
+        <div class="course-code">HCM202</div>
+        <h2 class="course-name">Tư tưởng Hồ Chí Minh</h2>
+        <p class="course-desc">
+          Bộ đề trắc nghiệm qua 7 kỳ thi gần nhất (SU26 RE, C1FE, FA25, SU25 B5, FEKTS, SP25 FE, FA24 RE) kèm 420 ảnh chụp đề gốc, dẫn chứng giáo trình và bản tổng hợp lọc trùng 280 câu.
+        </p>
+
+        <div class="course-tags-row">
+          <span class="course-tag">📝 280 câu lọc trùng</span>
+          <span class="course-tag">🖼️ 420 ảnh gốc</span>
+          <span class="course-tag">🔥 7 kỳ thi FE/RE</span>
+          <span class="course-tag">💡 Giải thích chi tiết</span>
+        </div>
+
+        <div class="course-progress-box">
+          <div class="course-progress-header">
+            <span>Tiến độ ghi nhớ:</span>
+            <strong id="portalHcmProgressText">0 / 280 câu (0%)</strong>
+          </div>
+          <div class="course-progress-track">
+            <div class="course-progress-fill" id="portalHcmProgressBar" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <button class="btn-enter-course" id="btnEnterHCM">
+          <span>🚀 Vào Ôn Thi HCM202</span>
+          <span style="font-size:0.85rem; opacity:0.85; font-family:'JetBrains Mono',monospace;">[Phím 1]</span>
         </button>
+      </article>
+
+      <!-- Course Card 2: MLN131 -->
+      <article class="course-card card-mln" id="cardSelectMLN" tabindex="0" role="button" aria-label="Chọn ôn thi môn MLN131">
+        <div class="course-card-top">
+          <div class="course-icon-badge">🏛️</div>
+          <span class="course-badge-pill">2 Đề + 1 Tổng Hợp</span>
+        </div>
+
+        <div class="course-code">MLN131</div>
+        <h2 class="course-name">Chủ nghĩa xã hội khoa học</h2>
+        <p class="course-desc">
+          Bộ đề trắc nghiệm qua 2 kỳ thi mới nhất (SU26 C1RE & C2RE) và bản tổng hợp lọc trùng 119 câu chuẩn format FPT University kèm giải thích chi tiết.
+        </p>
+
+        <div class="course-tags-row">
+          <span class="course-tag">🏷️ 119 câu lọc trùng</span>
+          <span class="course-tag">📝 2 đề FE (C1RE, C2RE)</span>
+          <span class="course-tag">⚡ Giải Thích Chi Tiết</span>
+        </div>
+
+        <div class="course-progress-box">
+          <div class="course-progress-header">
+            <span>Tiến độ ghi nhớ:</span>
+            <strong id="portalMlnProgressText">0 / 119 câu (0%)</strong>
+          </div>
+          <div class="course-progress-track">
+            <div class="course-progress-fill" id="portalMlnProgressBar" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <button class="btn-enter-course" id="btnEnterMLN">
+          <span>🚀 Vào Ôn Thi MLN131</span>
+          <span style="font-size:0.85rem; opacity:0.85; font-family:'JetBrains Mono',monospace;">[Phím 2]</span>
+        </button>
+      </article>
+
+    </section>
+
+    <!-- Portal Features Row -->
+    <div class="portal-features-row">
+      <div class="portal-feature-item">
+        <div class="portal-feature-icon">🎴</div>
+        <div>
+          <strong>Spaced Repetition</strong>
+          <span>Tự động lặp lại câu chưa nhớ đến khi thuộc</span>
+        </div>
+      </div>
+
+      <div class="portal-feature-item">
+        <div class="portal-feature-icon">⚡</div>
+        <div>
+          <strong>Quick Key & Tra cứu</strong>
+          <span>Bảng tra đáp án toàn đề & tìm kiếm siêu tốc</span>
+        </div>
+      </div>
+
+      <div class="portal-feature-item">
+        <div class="portal-feature-icon">⌨️</div>
+        <div>
+          <strong>Phím tắt tiện lợi</strong>
+          <span>Chọn đáp án 1-4, Space, Enter, Mũi tên</span>
+        </div>
+      </div>
+
+      <div class="portal-feature-item">
+        <div class="portal-feature-icon">💾</div>
+        <div>
+          <strong>Lưu tiến độ độc lập</strong>
+          <span>Tự động lưu tiến độ riêng biệt từng môn trên máy</span>
+        </div>
       </div>
     </div>
-  </header>
 
-  <!-- Main Content -->
-  <main>
+  </div>
 
-    <!-- EXAM / DATASET SELECTOR TOOLBAR -->
-    <section class="exam-selector-card">
-      <div class="exam-selector-top">
-        <div class="exam-selector-heading">
-          <span class="selector-icon">🎯</span>
+  <!-- ============================================================
+       APP STUDY VIEW / KHÔNG GIAN HỌC VÀ LUYỆN THI
+       ============================================================ -->
+  <div id="appStudyView" class="app-study-view" style="display:none;">
+
+    <!-- App Header -->
+    <header>
+      <div class="header-inner">
+        <div class="brand">
+          <button id="btnBackToPortal" class="btn-switch-course" title="Quay lại trang chọn môn (Phím ESC hoặc P)">
+            <span>🏠 Đổi môn</span>
+          </button>
+          <span class="current-course-badge course-badge-hcm" id="currentCourseBadge">🇻🇳 HCM202</span>
           <div>
-            <div class="selector-title">CHỌN BỘ ĐỀ / CHẾ ĐỘ HỌC:</div>
-            <div class="selector-desc">Học riêng từng đề thi hoặc tổng hợp toàn bộ câu hỏi (có lọc trùng)</div>
-          </div>
-        </div>
-        <div class="dataset-stats-badge" id="activeExamStatsBadge">Đề SU26 - RE: 60 câu</div>
-      </div>
-      
-      <div class="exam-pills-row">
-        <button class="exam-pill-btn active" data-exam="re" id="btnExamRE">
-          <span class="pill-chip chip-re">Đề 1</span>
-          <span class="pill-name">HCM202 — SU26 — RE</span>
-          <span class="pill-meta">60 câu</span>
-        </button>
-
-        <button class="exam-pill-btn" data-exam="c1fe" id="btnExamC1FE">
-          <span class="pill-chip chip-c1fe">Đề 2</span>
-          <span class="pill-name">HCM202 — SU26 — C1FE</span>
-          <span class="pill-meta">60 câu</span>
-        </button>
-
-        <button class="exam-pill-btn pill-fa25" data-exam="fa25_half1" id="btnExamFA25">
-          <span class="pill-chip chip-fa25">Đề 3</span>
-          <span class="pill-name">HCM202 — FA25 — Half1</span>
-          <span class="pill-meta">60 câu</span>
-        </button>
-
-        <button class="exam-pill-btn pill-su25" data-exam="su25_b5" id="btnExamSU25">
-          <span class="pill-chip chip-su25">Đề 4</span>
-          <span class="pill-name">HCM202 — SU25 — B5</span>
-          <span class="pill-meta">60 câu</span>
-        </button>
-
-        <button class="exam-pill-btn pill-fekts" data-exam="fekts" id="btnExamFEKTS">
-          <span class="pill-chip chip-fekts">Đề 5</span>
-          <span class="pill-name">HCM202 — SU25 — FEKTS</span>
-          <span class="pill-meta">60 câu</span>
-        </button>
-
-        <button class="exam-pill-btn pill-sp25" data-exam="sp25_fe" id="btnExamSP25">
-          <span class="pill-chip chip-sp25">Đề 6</span>
-          <span class="pill-name">HCM202 — SP25 — FE</span>
-          <span class="pill-meta">60 câu</span>
-        </button>
-
-        <button class="exam-pill-btn pill-fa24-re" data-exam="fa24_re" id="btnExamFA24RE">
-          <span class="pill-chip chip-fa24-re">Đề 7</span>
-          <span class="pill-name">HCM202 — FA24 — RE</span>
-          <span class="pill-meta">60 câu</span>
-        </button>
-
-        <button class="exam-pill-btn pill-combined" data-exam="combined" id="btnExamCombined">
-          <span class="pill-chip chip-combined">🔥 Tổng Hợp</span>
-          <span class="pill-name">Toàn Bộ 7 Đề</span>
-          <span class="pill-meta">280 câu (Lọc trùng)</span>
-        </button>
-      </div>
-    </section>
-
-    <!-- Round Notice Toast -->
-    <div id="roundNotice" style="display:none; background:linear-gradient(135deg, #0284c7, #2563eb); color:#fff; padding:12px 20px; border-radius:12px; margin-bottom:16px; font-weight:700; text-align:center; box-shadow:0 10px 20px rgba(2,132,199,0.3); animation:fadeIn 0.3s ease;">
-      <span id="roundNoticeText">🎯 Bắt đầu vòng lặp lại các câu chưa nhớ!</span>
-    </div>
-
-    <!-- VIEW 1: QUIZLET FLASHCARD LEARNING MODE -->
-    <section id="quizletView">
-      
-      <!-- Progress Bar & Stats -->
-      <div class="quiz-progress-bar-container">
-        <div class="quiz-stats-row">
-          <div class="stat-group">
-            <span class="stat-tag remain">Còn lại: <strong class="stat-badge" id="statRemain">60 câu</strong></span>
-            <span class="stat-tag repeat">Chưa nhớ: <strong class="stat-badge" id="statRepeat">0 câu</strong></span>
-            <span class="stat-tag mastered">Đã thuộc: <strong class="stat-badge" id="statMastered">0/60 câu</strong></span>
-          </div>
-
-          <div style="display:flex; gap:8px;">
-            <button id="btnShuffle" class="icon-btn" title="Xáo trộn thứ tự câu hỏi">🔀</button>
-            <button id="btnReset" class="icon-btn" title="Đặt lại tiến độ học từ đầu">🔄</button>
+            <div class="brand-title" id="appMainTitle">HCM202 — SU26 — RE</div>
+            <div class="brand-sub" id="appSubTitle">Ôn thi Tư tưởng Hồ Chí Minh (Spaced Repetition & Multi-Exam)</div>
           </div>
         </div>
 
-        <div class="progress-track">
-          <div class="progress-fill-mastered" id="fillMastered" style="width: 0%;"></div>
-          <div class="progress-fill-repeat" id="fillRepeat" style="width: 0%;"></div>
-        </div>
-      </div>
+        <!-- Navigation Tabs & Theme Toggle -->
+        <div class="header-controls">
+          <nav class="nav-tabs">
+            <button id="tabQuizlet" class="tab-btn active">
+              <span>🎴 Chế độ Quizlet</span>
+            </button>
+            <button id="tabList" class="tab-btn">
+              <span id="tabListTitle">📋 Danh sách câu hỏi</span>
+            </button>
+          </nav>
 
-      <!-- Flashcard Quiz Container -->
-      <div id="quizCardContainer" class="quiz-card">
-        
-        <div class="card-top">
-          <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
-            <span class="q-badge" id="qBadge">CÂU 1 / 60</span>
-            <span class="q-exam-tag" id="qExamTag">SU26 - RE</span>
-          </div>
-          
-          <div class="card-actions-quick">
-            <button id="btnToggleImg" class="icon-btn" title="Xem ảnh đề gốc">🖼️ Xem ảnh gốc</button>
-          </div>
-        </div>
-
-        <!-- Question text -->
-        <div class="q-text" id="qText">Đang tải câu hỏi...</div>
-
-        <!-- Options list -->
-        <div class="quiz-options" id="optionsContainer"></div>
-
-        <!-- Feedback & Explanation drawer -->
-        <div class="quiz-feedback" id="feedbackBox">
-          <div class="feedback-status" id="feedbackStatus"></div>
-          <div class="feedback-text" id="feedbackText"></div>
-        </div>
-
-        <!-- Image preview if toggled -->
-        <div class="img-preview-box" id="imgPreviewBox">
-          <img id="cardImg" src="" alt="Ảnh gốc">
-        </div>
-
-        <!-- Bottom Action toolbar -->
-        <div class="card-footer">
-          <!-- Button to reveal without answering -->
-          <button id="btnReveal" class="btn-reveal">
-            <span>👁️ Hiện đáp án & giải thích</span>
-            <span class="kbd-hint">Space</span>
+          <button id="btnThemeToggle" class="theme-toggle-btn" title="Chuyển chế độ Sáng / Tối (Phím T)" aria-label="Toggle Theme">
+            <span class="theme-icon" id="themeIcon">🌙</span>
+            <span class="theme-text" id="themeText">Tối</span>
           </button>
+        </div>
+      </div>
+    </header>
 
-          <!-- Decision buttons: Repeat vs Mastered -->
-          <div class="decision-buttons" id="decisionToolbar" style="display: none;">
-            <button id="btnRepeat" class="btn-decision btn-repeat">
-              <span>🔄 Chưa nhớ (Lặp lại sau)</span>
-              <span class="kbd-hint">Phím 1 hoặc ←</span>
-            </button>
-            <button id="btnMastered" class="btn-decision btn-mastered">
-              <span>✅ Đã nhớ (Thuộc rồi)</span>
-              <span class="kbd-hint">Phím 2 hoặc →</span>
-            </button>
+    <!-- Main Content -->
+    <main>
+
+      <!-- EXAM / DATASET SELECTOR TOOLBAR -->
+      <section class="exam-selector-card">
+        <div class="exam-selector-top">
+          <div class="exam-selector-heading">
+            <span class="selector-icon">🎯</span>
+            <div>
+              <div class="selector-title" id="selectorHeadingTitle">CHỌN BỘ ĐỀ / CHẾ ĐỘ HỌC:</div>
+              <div class="selector-desc" id="selectorHeadingDesc">Học riêng từng đề thi hoặc tổng hợp toàn bộ câu hỏi (có lọc trùng)</div>
+            </div>
+          </div>
+          <div class="dataset-stats-badge" id="activeExamStatsBadge">Đang tải...</div>
+        </div>
+        
+        <!-- Dynamic Pills Container -->
+        <div class="exam-pills-row" id="examPillsContainer">
+          <!-- Populated dynamically based on selected course -->
+        </div>
+      </section>
+
+      <!-- Round Notice Toast -->
+      <div id="roundNotice" style="display:none; background:linear-gradient(135deg, #0284c7, #2563eb); color:#fff; padding:12px 20px; border-radius:12px; margin-bottom:16px; font-weight:700; text-align:center; box-shadow:0 10px 20px rgba(2,132,199,0.3); animation:fadeIn 0.3s ease;">
+        <span id="roundNoticeText">🎯 Bắt đầu vòng lặp lại các câu chưa nhớ!</span>
+      </div>
+
+      <!-- VIEW 1: QUIZLET FLASHCARD LEARNING MODE -->
+      <section id="quizletView">
+        
+        <!-- Progress Bar & Stats -->
+        <div class="quiz-progress-bar-container">
+          <div class="quiz-stats-row">
+            <div class="stat-group">
+              <span class="stat-tag remain">Còn lại: <strong class="stat-badge" id="statRemain">0 câu</strong></span>
+              <span class="stat-tag repeat">Chưa nhớ: <strong class="stat-badge" id="statRepeat">0 câu</strong></span>
+              <span class="stat-tag mastered">Đã thuộc: <strong class="stat-badge" id="statMastered">0/0 câu</strong></span>
+            </div>
+
+            <div style="display:flex; gap:8px;">
+              <button id="btnShuffle" class="icon-btn" title="Xáo trộn thứ tự câu hỏi">🔀</button>
+              <button id="btnReset" class="icon-btn" title="Đặt lại tiến độ học từ đầu">🔄</button>
+            </div>
+          </div>
+
+          <div class="progress-track">
+            <div class="progress-fill-mastered" id="fillMastered" style="width: 0%;"></div>
+            <div class="progress-fill-repeat" id="fillRepeat" style="width: 0%;"></div>
           </div>
         </div>
 
-      </div>
+        <!-- Flashcard Quiz Container -->
+        <div id="quizCardContainer" class="quiz-card">
+          
+          <div class="card-top">
+            <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+              <span class="q-badge" id="qBadge">CÂU 1 / 60</span>
+              <span class="q-exam-tag" id="qExamTag">Đang tải...</span>
+            </div>
+            
+            <div class="card-actions-quick">
+              <button id="btnToggleImg" class="icon-btn" title="Xem ảnh đề gốc" style="display:none;">🖼️ Xem ảnh gốc</button>
+            </div>
+          </div>
 
-      <!-- Completion Celebration Screen -->
-      <div id="completedScreen" class="completed-screen">
-        <div class="completed-icon">🎉</div>
-        <h2 id="completedTitle">Chúc Mừng! Bạn Đã Thuộc Toàn Bộ Câu Hỏi!</h2>
-        <p id="completedDesc">Bạn đã hoàn thành tất cả các câu hỏi trong bộ đề và không còn câu nào trong danh sách cần lặp lại.</p>
-        <button id="btnRestartQuiz" class="btn-restart">🚀 Học lại bộ đề này</button>
-      </div>
+          <!-- Question text -->
+          <div class="q-text" id="qText">Đang tải câu hỏi...</div>
 
-    </section>
+          <!-- Options list -->
+          <div class="quiz-options" id="optionsContainer"></div>
 
-    <!-- VIEW 2: FULL LIST & SEARCH VIEW -->
-    <section id="listView">
-      
-      <!-- Quick key grid -->
-      <div class="quick-key-card">
-        <h3>
-          <span id="quickKeyHeader">⚡ Bảng tra đáp án nhanh (Quick Key)</span>
-          <span style="font-size:0.8rem; font-weight:normal; color:var(--text-muted);">Bấm vào số câu để xem chi tiết</span>
-        </h3>
-        <div class="key-grid" id="quickKeyGrid"></div>
-      </div>
+          <!-- Feedback & Explanation drawer -->
+          <div class="quiz-feedback" id="feedbackBox">
+            <div class="feedback-status" id="feedbackStatus"></div>
+            <div class="feedback-text" id="feedbackText"></div>
+          </div>
 
-      <!-- Search bar & Filter bar -->
-      <div style="display:flex; flex-direction:column; gap:12px;">
-        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Tìm kiếm câu hỏi, phương án, từ khóa giải thích, số câu...">
-        
-        <div class="list-filter-bar" id="listFilterBar" style="display:none;">
-          <span class="filter-label">🏷️ Lọc theo đề:</span>
-          <button class="filter-pill-btn active" data-filter="all">Tất cả</button>
-          <button class="filter-pill-btn" data-filter="SU26 - RE">Đề RE</button>
-          <button class="filter-pill-btn" data-filter="SU26 - C1FE">Đề C1FE</button>
-          <button class="filter-pill-btn" data-filter="FA25 - Half1">Đề FA25</button>
-          <button class="filter-pill-btn" data-filter="SU25 - B5">Đề SU25 B5</button>
-          <button class="filter-pill-btn" data-filter="SU25 - FEKTS">Đề FEKTS</button>
-          <button class="filter-pill-btn" data-filter="SP25 - FE">Đề SP25</button>
-          <button class="filter-pill-btn" data-filter="FA24 - RE">Đề FA24 RE</button>
+          <!-- Image preview if toggled -->
+          <div class="img-preview-box" id="imgPreviewBox">
+            <img id="cardImg" src="" alt="Ảnh gốc">
+          </div>
+
+          <!-- Bottom Action toolbar -->
+          <div class="card-footer">
+            <!-- Button to reveal without answering -->
+            <button id="btnReveal" class="btn-reveal">
+              <span>👁️ Hiện đáp án & giải thích</span>
+              <span class="kbd-hint">Space</span>
+            </button>
+
+            <!-- Decision buttons: Repeat vs Mastered -->
+            <div class="decision-buttons" id="decisionToolbar" style="display: none;">
+              <button id="btnRepeat" class="btn-decision btn-repeat">
+                <span>🔄 Chưa nhớ (Lặp lại sau)</span>
+                <span class="kbd-hint">Phím 1 hoặc ←</span>
+              </button>
+              <button id="btnMastered" class="btn-decision btn-mastered">
+                <span>✅ Đã nhớ (Thuộc rồi)</span>
+                <span class="kbd-hint">Phím 2 hoặc →</span>
+              </button>
+            </div>
+          </div>
+
         </div>
-      </div>
 
-      <!-- Full list cards -->
-      <div id="listContainer" style="display:flex; flex-direction:column; gap:16px;"></div>
+        <!-- Completion Celebration Screen -->
+        <div id="completedScreen" class="completed-screen">
+          <div class="completed-icon">🎉</div>
+          <h2 id="completedTitle">Chúc Mừng! Bạn Đã Thuộc Toàn Bộ Câu Hỏi!</h2>
+          <p id="completedDesc">Bạn đã hoàn thành tất cả các câu hỏi trong bộ đề và không còn câu nào trong danh sách cần lặp lại.</p>
+          <button id="btnRestartQuiz" class="btn-restart">🚀 Học lại bộ đề này</button>
+        </div>
 
-    </section>
+      </section>
 
-  </main>
+      <!-- VIEW 2: FULL LIST & SEARCH VIEW -->
+      <section id="listView">
+        
+        <!-- Quick key grid -->
+        <div class="quick-key-card">
+          <h3>
+            <span id="quickKeyHeader">⚡ Bảng tra đáp án nhanh (Quick Key)</span>
+            <span style="font-size:0.8rem; font-weight:normal; color:var(--text-muted);">Bấm vào số câu để xem chi tiết</span>
+          </h3>
+          <div class="key-grid" id="quickKeyGrid"></div>
+        </div>
+
+        <!-- Search bar & Filter bar -->
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <input type="text" id="searchInput" class="search-input" placeholder="🔍 Tìm kiếm câu hỏi, phương án, từ khóa giải thích, số câu...">
+          
+          <div class="list-filter-bar" id="listFilterBar" style="display:none;">
+            <span class="filter-label">🏷️ Lọc theo nguồn:</span>
+            <div id="filterPillsContainer" style="display:flex; flex-wrap:wrap; gap:8px;"></div>
+          </div>
+        </div>
+
+        <!-- Full list cards -->
+        <div id="listContainer" style="display:flex; flex-direction:column; gap:16px;"></div>
+
+      </section>
+
+    </main>
+  </div>
 
   <!-- Load Data and Logic -->
   <script src="data.js"></script>
+  <script src="mln_data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
