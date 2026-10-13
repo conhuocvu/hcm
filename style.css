@@ -711,6 +711,75 @@ main {
   font-weight: 600;
 }
 
+/* Multi-select Pending State */
+.quiz-option-btn.is-selected {
+  background: rgba(99, 102, 241, 0.14) !important;
+  border-color: #818cf8 !important;
+  box-shadow: 0 0 0 1px #818cf8, 0 4px 14px rgba(99, 102, 241, 0.25);
+  transform: translateX(4px);
+}
+.quiz-option-btn.is-selected .opt-prefix {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
+  color: #ffffff !important;
+  font-weight: 800;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.4);
+}
+.quiz-option-btn.is-selected .opt-content {
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+/* Multi-choice Badge & Submit Button */
+.badge-multi-select {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.22), rgba(99, 102, 241, 0.28));
+  color: #c084fc;
+  border: 1px solid rgba(168, 85, 247, 0.45);
+  font-size: 0.76rem;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.2);
+  animation: pulseBadge 2.5s infinite;
+}
+
+@keyframes pulseBadge {
+  0%, 100% { box-shadow: 0 2px 8px rgba(139, 92, 246, 0.2); }
+  50% { box-shadow: 0 2px 14px rgba(168, 85, 247, 0.45); }
+}
+
+.btn-submit-multi {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 13px 24px;
+  font-weight: 700;
+  font-size: 0.98rem;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.4);
+  width: 100%;
+}
+.btn-submit-multi:hover:not(:disabled) {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(99, 102, 241, 0.55);
+}
+.btn-submit-multi:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
 /* Feedback & Explanation Box */
 .quiz-feedback {
   background: var(--code-bg);

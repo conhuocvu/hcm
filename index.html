@@ -254,6 +254,7 @@
             <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
               <span class="q-badge" id="qBadge">CÂU 1 / 60</span>
               <span class="q-exam-tag" id="qExamTag">Đang tải...</span>
+              <span class="badge-multi-select" id="qMultiBadge" style="display:none;">✨ Chọn 2 đáp án</span>
             </div>
             
             <div class="card-actions-quick">
@@ -266,6 +267,14 @@
 
           <!-- Options list -->
           <div class="quiz-options" id="optionsContainer"></div>
+
+          <!-- Multi-choice submit button row -->
+          <div id="multiSubmitRow" style="display:none; margin-bottom:20px;">
+            <button id="btnSubmitMulti" class="btn-submit-multi">
+              <span>🚀 Xác Nhận Đáp Án</span>
+              <span class="kbd-hint" style="background:rgba(255,255,255,0.25); color:#fff; border:none;">Enter</span>
+            </button>
+          </div>
 
           <!-- Feedback & Explanation drawer -->
           <div class="quiz-feedback" id="feedbackBox">

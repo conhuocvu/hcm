@@ -31,6 +31,7 @@ class QuizletApp {
     this.masteredIds = new Set();
     this.currentIndex = 0;
     this.currentCardAnswered = false;
+    this.selectedOptions = new Set();
     this.round = 1;
 
     // Initialize UI
@@ -158,6 +159,9 @@ class QuizletApp {
     this.imgPreviewBox = document.getElementById('imgPreviewBox');
     this.cardImg = document.getElementById('cardImg');
     this.btnToggleImg = document.getElementById('btnToggleImg');
+    this.qMultiBadge = document.getElementById('qMultiBadge');
+    this.multiSubmitRow = document.getElementById('multiSubmitRow');
+    this.btnSubmitMulti = document.getElementById('btnSubmitMulti');
 
     // List View Elements
     this.quickKeyHeader = document.getElementById('quickKeyHeader');
@@ -574,6 +578,7 @@ class QuizletApp {
     if (this.btnRepeat) this.btnRepeat.addEventListener('click', () => this.handleDecision(false));
     if (this.btnMastered) this.btnMastered.addEventListener('click', () => this.handleDecision(true));
     if (this.btnToggleImg) this.btnToggleImg.addEventListener('click', () => this.toggleImage());
+    if (this.btnSubmitMulti) this.btnSubmitMulti.addEventListener('click', () => this.submitMultiAnswer());
 
     const btnReset = document.getElementById('btnReset');
     if (btnReset) btnReset.addEventListener('click', () => this.resetProgress());
@@ -640,13 +645,32 @@ class QuizletApp {
 
       // Options select (1, 2, 3, 4 or A, B, C, D)
       if (!this.currentCardAnswered) {
-        if (key === '1' || key === 'A') this.selectOption('A');
-        else if (key === '2' || key === 'B') this.selectOption('B');
-        else if (key === '3' || key === 'C') this.selectOption('C');
-        else if (key === '4' || key === 'D') this.selectOption('D');
-        else if (key === ' ' || key === 'ENTER') {
-          e.preventDefault();
-          this.revealAnswer();
+        const q = this.getCurrentQuestion();
+        const correctAnswers = q ? `${q.answer || 'A'}`.split(',').map(s => s.trim()) : [];
+        const isMulti = correctAnswers.length > 1;
+
+        if (isMulti) {
+          if (key === '1' || key === 'A') { e.preventDefault(); this.toggleOption('A'); }
+          else if (key === '2' || key === 'B') { e.preventDefault(); this.toggleOption('B'); }
+          else if (key === '3' || key === 'C') { e.preventDefault(); this.toggleOption('C'); }
+          else if (key === '4' || key === 'D') { e.preventDefault(); this.toggleOption('D'); }
+          else if (key === 'ENTER') {
+            e.preventDefault();
+            if (this.selectedOptions.size > 0) this.submitMultiAnswer();
+            else this.revealAnswer();
+          } else if (key === ' ') {
+            e.preventDefault();
+            this.revealAnswer();
+          }
+        } else {
+          if (key === '1' || key === 'A') this.selectOption('A');
+          else if (key === '2' || key === 'B') this.selectOption('B');
+          else if (key === '3' || key === 'C') this.selectOption('C');
+          else if (key === '4' || key === 'D') this.selectOption('D');
+          else if (key === ' ' || key === 'ENTER') {
+            e.preventDefault();
+            this.revealAnswer();
+          }
         }
       } else {
         // After card answered / revealed: Decision
@@ -729,6 +753,7 @@ class QuizletApp {
 
     // Reset card state
     this.currentCardAnswered = false;
+    this.selectedOptions.clear();
     this.imgPreviewBox.style.display = 'none';
     this.feedbackBox.style.display = 'none';
     this.btnReveal.style.display = 'inline-flex';
@@ -738,6 +763,19 @@ class QuizletApp {
     const totalQ = this.allQuestions.length;
     const qNumber = q.combined_id || q.q_num || q.id;
     this.qBadge.textContent = `CÂU ${qNumber} / ${totalQ} • VÒNG ${this.round}`;
+
+    const correctAnswers = `${q.answer || 'A'}`.split(',').map(s => s.trim());
+    const isMultiChoice = correctAnswers.length > 1;
+
+    // Multi-choice Badge
+    if (this.qMultiBadge) {
+      if (isMultiChoice) {
+        this.qMultiBadge.style.display = 'inline-flex';
+        this.qMultiBadge.textContent = `✨ Chọn ${correctAnswers.length} đáp án`;
+      } else {
+        this.qMultiBadge.style.display = 'none';
+      }
+    }
 
     // Exam tag rendering
     if (q.sources && q.sources.length > 1) {
@@ -796,9 +834,85 @@ class QuizletApp {
         <span class="opt-content">${q.options[key]}</span>
         <span class="kbd-hint">${idx + 1}</span>
       `;
-      btn.addEventListener('click', () => this.selectOption(key));
+      btn.addEventListener('click', () => {
+        if (isMultiChoice) this.toggleOption(key);
+        else this.selectOption(key);
+      });
       this.optionsContainer.appendChild(btn);
     });
+
+    // Multi-choice submit row setup
+    if (this.multiSubmitRow) {
+      if (isMultiChoice) {
+        this.multiSubmitRow.style.display = 'block';
+        if (this.btnSubmitMulti) {
+          this.btnSubmitMulti.innerHTML = `<span>🚀 Xác Nhận Đáp Án (Đã chọn 0/${correctAnswers.length})</span> <span class="kbd-hint" style="background:rgba(255,255,255,0.25); color:#fff; border:none;">Enter</span>`;
+        }
+      } else {
+        this.multiSubmitRow.style.display = 'none';
+      }
+    }
+  }
+
+  toggleOption(key) {
+    if (this.currentCardAnswered) return;
+    const q = this.getCurrentQuestion();
+    if (!q) return;
+    const correctAnswers = `${q.answer || 'A'}`.split(',').map(s => s.trim());
+
+    if (this.selectedOptions.has(key)) {
+      this.selectedOptions.delete(key);
+    } else {
+      this.selectedOptions.add(key);
+    }
+
+    const buttons = this.optionsContainer.querySelectorAll('.quiz-option-btn');
+    buttons.forEach(btn => {
+      btn.classList.toggle('is-selected', this.selectedOptions.has(btn.dataset.key));
+    });
+
+    if (this.btnSubmitMulti) {
+      const count = this.selectedOptions.size;
+      const target = correctAnswers.length;
+      this.btnSubmitMulti.innerHTML = `<span>🚀 Xác Nhận Đáp Án (Đã chọn ${count}/${target})</span> <span class="kbd-hint" style="background:rgba(255,255,255,0.25); color:#fff; border:none;">Enter</span>`;
+    }
+  }
+
+  submitMultiAnswer() {
+    if (this.currentCardAnswered) return;
+    const q = this.getCurrentQuestion();
+    if (!q) return;
+
+    const correctAnswers = `${q.answer || 'A'}`.split(',').map(s => s.trim());
+    if (this.selectedOptions.size === 0) {
+      if (this.btnSubmitMulti) {
+        this.btnSubmitMulti.style.transform = 'scale(0.97)';
+        setTimeout(() => { if (this.btnSubmitMulti) this.btnSubmitMulti.style.transform = ''; }, 150);
+      }
+      return;
+    }
+
+    this.currentCardAnswered = true;
+
+    const isFullyCorrect = correctAnswers.length === this.selectedOptions.size &&
+                           correctAnswers.every(k => this.selectedOptions.has(k));
+
+    const buttons = this.optionsContainer.querySelectorAll('.quiz-option-btn');
+    buttons.forEach(btn => {
+      btn.disabled = true;
+      const key = btn.dataset.key;
+      btn.classList.remove('is-selected');
+
+      if (this.selectedOptions.has(key)) {
+        btn.classList.add(correctAnswers.includes(key) ? 'selected-correct' : 'selected-wrong');
+      }
+      if (correctAnswers.includes(key) && !this.selectedOptions.has(key)) {
+        btn.classList.add('revealed-correct');
+      }
+    });
+
+    if (this.multiSubmitRow) this.multiSubmitRow.style.display = 'none';
+    this.showFeedback(isFullyCorrect, q);
   }
 
   selectOption(selectedKey) {
@@ -834,22 +948,29 @@ class QuizletApp {
     const buttons = this.optionsContainer.querySelectorAll('.quiz-option-btn');
     buttons.forEach(btn => {
       btn.disabled = true;
+      btn.classList.remove('is-selected');
       if (correctAnswers.includes(btn.dataset.key)) {
         btn.classList.add('revealed-correct');
       }
     });
 
+    if (this.multiSubmitRow) this.multiSubmitRow.style.display = 'none';
     this.showFeedback(null, q);
   }
 
   showFeedback(isCorrect, q) {
     this.feedbackBox.style.display = 'block';
+    const correctAnswers = `${q.answer || 'A'}`.split(',').map(s => s.trim());
+    const isMulti = correctAnswers.length > 1;
+
     if (isCorrect === true) {
       this.feedbackStatus.className = 'feedback-status correct';
-      this.feedbackStatus.innerHTML = `<span>✓ Chính xác! (Đáp án: ${q.answer})</span>`;
+      const label = isMulti ? `✓ Chính xác tuyệt đối! (Đáp án: ${q.answer})` : `✓ Chính xác! (Đáp án: ${q.answer})`;
+      this.feedbackStatus.innerHTML = `<span>${label}</span>`;
     } else if (isCorrect === false) {
       this.feedbackStatus.className = 'feedback-status wrong';
-      this.feedbackStatus.innerHTML = `<span>✕ Chưa đúng! (Đáp án đúng là: ${q.answer})</span>`;
+      const label = isMulti ? `✕ Chưa chính xác! (Đáp án đúng đầy đủ là: ${q.answer})` : `✕ Chưa đúng! (Đáp án đúng là: ${q.answer})`;
+      this.feedbackStatus.innerHTML = `<span>${label}</span>`;
     } else {
       this.feedbackStatus.className = 'feedback-status';
       this.feedbackStatus.innerHTML = `<span style="color:var(--primary);">💡 Đáp án chính xác: ${q.answer}</span>`;
