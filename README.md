@@ -14,12 +14,14 @@
 - Hỗ trợ URL Hash: `#portal`, `#hcm202`, `#mln131`, `#mln133`.
 
 ### 2. 🏛️ Môn MLN131 — Chủ Nghĩa Xã Hội Khoa Học
-- **4 Bộ đề thi FE thực tế mới nhất**:
+- **5 Bộ đề thi FE/RE thực tế mới nhất**:
+  - `FA25 RE`: 60 câu hỏi có đáp án chi tiết & phân tích chuyên sâu, hỗ trợ câu hỏi chọn nhiều đáp án (Câu 41 [A, B], Câu 44 [A, B, C]).
   - `SP26`: 60 câu hỏi có đáp án chi tiết & phân tích chuyên sâu, hỗ trợ câu hỏi chọn nhiều đáp án (Câu 1 [A, C, D], Câu 3 [B, C], Câu 4 [A, B, C]).
   - `SU26 C1FE`: 60 câu hỏi có đáp án chi tiết & phân tích chuyên sâu, hỗ trợ câu hỏi chọn nhiều đáp án (Câu 39 [A, B, C], Câu 41 [A, B], Câu 42 [A, B], Câu 52 [A, C]).
   - `SU26 C1RE`: 60 câu hỏi có đáp án chi tiết & phân tích chuyên sâu, hỗ trợ câu hỏi chọn nhiều đáp án (Câu 54 [A, B], Câu 55 [B, D]).
   - `SU26 C2RE`: 60 câu hỏi có đáp án chi tiết, hỗ trợ các câu hỏi chọn nhiều đáp án (Câu 53 [A, C], Câu 57 [A, B, D], Câu 58 [A, C, D]).
-- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (229 câu độc bản)**: Tự động loại bỏ câu hỏi trùng lặp, giữ lại nguồn đối chiếu chéo giữa các đợt thi (10 câu hỏi xuất hiện lặp lại giữa các đề thi).
+- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (272 câu độc bản)**: Tự động loại bỏ câu hỏi trùng lặp, giữ lại nguồn đối chiếu chéo giữa các đợt thi (27 câu hỏi xuất hiện lặp lại giữa các đề thi).
+- Hỗ trợ câu hỏi nhiều đáp án tương tác mượt mà (chọn nhiều đáp án trước khi nhấn xác nhận / Enter).
 - Hỗ trợ cả 2 chế độ học: **Quizlet Lặp Lại Thông Minh (Spaced Repetition)** và **Bảng Tra Đáp Án Nhanh (Quick Key Tra Cứu)**.
 
 ### 3. 🇻🇳 Môn HCM202 — Tư Tưởng Hồ Chí Minh

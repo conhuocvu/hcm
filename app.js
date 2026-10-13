@@ -70,11 +70,11 @@ class QuizletApp {
         icon: '🏛️',
         badgeText: '🏛️ MLN131',
         badgeClass: 'course-badge-mln',
-        subTitle: 'Kho Đề Chuẩn FPT University — Đề Thi FE (SP26, SU26 C1FE, C1RE, C2RE & Bản Lọc Trùng 229 Câu)',
+        subTitle: 'Kho Đề Chuẩn FPT University — Đề Thi FE (SP26, SU26 C1FE, C1RE, C2RE, FA25 RE & Bản Lọc Trùng 272 Câu)',
         selectorHeadingTitle: 'CHỌN ĐỀ / CHẾ ĐỘ HỌC:',
-        selectorHeadingDesc: 'Học riêng từng đề thi hoặc bản tổng hợp toàn bộ 229 câu hỏi độc bản (đã lọc trùng)',
+        selectorHeadingDesc: 'Học riêng từng đề thi hoặc bản tổng hợp toàn bộ 272 câu hỏi độc bản (đã lọc trùng)',
         defaultExam: 'combined',
-        totalQuestions: 229,
+        totalQuestions: 272,
         exams: window.MLN_DATA || {}
       }
     };
@@ -265,8 +265,11 @@ class QuizletApp {
       let chipClass = 'chip-re';
       if (this.currentCourse === 'mln111') {
         if (key === 'combined') chipClass = 'chip-combined';
+        else if (key === 'mln131_fa25_re') chipClass = 'chip-fa25';
+        else if (key === 'mln131_sp26') chipClass = 'chip-sp25';
         else if (key === 'mln131_su26_c1re') chipClass = 'chip-re';
         else if (key === 'mln131_su26_c2re') chipClass = 'chip-c1fe';
+        else if (key === 'mln131_su26_c1fe') chipClass = 'chip-c1fe';
       } else {
         if (key === 'c1fe') chipClass = 'chip-c1fe';
         else if (key === 'fa25_half1') chipClass = 'chip-fa25';
@@ -394,11 +397,12 @@ class QuizletApp {
       ];
     } else {
       filterOptions = [
-        { label: 'Tất cả (229c)', val: 'all' },
+        { label: 'Tất cả (272c)', val: 'all' },
         { label: 'Đề SP26', val: 'SP26' },
         { label: 'Đề C1FE', val: 'C1FE' },
         { label: 'Đề C1RE', val: 'C1RE' },
-        { label: 'Đề C2RE', val: 'C2RE' }
+        { label: 'Đề C2RE', val: 'C2RE' },
+        { label: 'Đề FA25 RE', val: 'FA25 - RE' }
       ];
     }
 
