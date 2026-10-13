@@ -69,11 +69,11 @@ class QuizletApp {
         icon: '🏛️',
         badgeText: '🏛️ MLN131',
         badgeClass: 'course-badge-mln',
-        subTitle: 'Kho Đề Chuẩn FPT University — Đề Thi FE SU26 (C1RE, C2RE & Bản Lọc Trùng 119 Câu)',
+        subTitle: 'Kho Đề Chuẩn FPT University — Đề Thi FE SU26 (C1FE, C1RE, C2RE & Bản Lọc Trùng 173 Câu)',
         selectorHeadingTitle: 'CHỌN ĐỀ / CHẾ ĐỘ HỌC:',
-        selectorHeadingDesc: 'Học riêng từng đề thi hoặc bản tổng hợp toàn bộ 119 câu hỏi độc bản (đã lọc trùng)',
+        selectorHeadingDesc: 'Học riêng từng đề thi hoặc bản tổng hợp toàn bộ 173 câu hỏi độc bản (đã lọc trùng)',
         defaultExam: 'combined',
-        totalQuestions: 119,
+        totalQuestions: 173,
         exams: window.MLN_DATA || {}
       }
     };
@@ -390,7 +390,8 @@ class QuizletApp {
       ];
     } else {
       filterOptions = [
-        { label: 'Tất cả (119c)', val: 'all' },
+        { label: 'Tất cả (173c)', val: 'all' },
+        { label: 'Đề C1FE', val: 'C1FE' },
         { label: 'Đề C1RE', val: 'C1RE' },
         { label: 'Đề C2RE', val: 'C2RE' }
       ];
