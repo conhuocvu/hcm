@@ -14,7 +14,7 @@
 - Hỗ trợ URL Hash: `#portal`, `#hcm202`, `#mln131`, `#mln133`.
 
 ### 2. 🏛️ Môn MLN131 — Chủ Nghĩa Xã Hội Khoa Học
-- **9 Bộ đề thi FE/RE thực tế đầy đủ nhất**:
+- **10 Bộ đề thi FE/RE thực tế đầy đủ nhất**:
   - `FA25 RE`: 60 câu hỏi có đáp án chi tiết & phân tích chuyên sâu (Câu 41 [A, B], Câu 44 [A, B, C]).
   - `SP26`: 60 câu hỏi có đáp án chi tiết & phân tích chuyên sâu (Câu 1 [A, C, D], Câu 3 [B, C], Câu 4 [A, B, C]).
   - `SU26 C1FE`: 60 câu hỏi có đáp án chi tiết & phân tích chuyên sâu (Câu 39 [A, B, C], Câu 41 [A, B], Câu 42 [A, B], Câu 52 [A, C]).
@@ -23,8 +23,9 @@
   - `SU25 B5 RE`: 60 câu hỏi có đáp án chi tiết (Câu 40 [A, B, C], Câu 41 [A, B], Câu 43 [A, B, C], Câu 44 [A, B, C]).
   - `SU25 B5 (1)`: 60 câu hỏi có đáp án chi tiết (Câu 40 [A, B], Câu 41 [A, B, C], Câu 43 [B, D], Câu 46 [A, B, C]).
   - `SU25 FEKTS`: 60 câu hỏi có đáp án chi tiết (Câu 40 [A, B], Câu 41 [A, B], Câu 43 [A, B, C]).
-  - `SP25 FE`: 60 câu hỏi có đáp án chi tiết (Câu 40 [A, B], Câu 41 [A, B], Câu 42 [A, B, C], Câu 43 [B, D]).
-- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (384 câu độc bản)**: Tự động phát hiện và gộp 156 lượt câu hỏi trùng lặp giữa 9 đề thi (540 câu gốc -> 384 câu duy nhất), giữ nguyên liên kết nguồn gốc đa đề (`sources`) để sinh viên dễ dàng đối chiếu.
+  - `SP25 FE (Ca 1)`: 60 câu hỏi có đáp án chi tiết (Câu 40 [A, B], Câu 41 [A, B], Câu 42 [A, B, C], Câu 43 [B, D]).
+  - `SP25 FE (Ca 2)`: 60 câu hỏi có đáp án chi tiết (Câu 41 [A, B, C], Câu 42 [A, B], Câu 43 [A, B, C], Câu 44 [A, B]).
+- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (414 câu độc bản)**: Tự động phát hiện và gộp 186 lượt câu hỏi trùng lặp giữa 10 đề thi (600 câu gốc -> 414 câu duy nhất), giữ nguyên liên kết nguồn gốc đa đề (`sources`) để sinh viên dễ dàng đối chiếu.
 - Hỗ trợ câu hỏi nhiều đáp án tương tác mượt mà (chọn nhiều đáp án trước khi nhấn xác nhận / Enter).
 - Hỗ trợ cả 2 chế độ học: **Quizlet Lặp Lại Thông Minh (Spaced Repetition)** và **Bảng Tra Đáp Án Nhanh (Quick Key Tra Cứu)**.
 

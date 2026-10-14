@@ -70,11 +70,11 @@ class QuizletApp {
         icon: '🏛️',
         badgeText: '🏛️ MLN131',
         badgeClass: 'course-badge-mln',
-        subTitle: 'Kho Đề Chuẩn FPT University — 9 Đề Thi FE/RE (SP26, SU26, FA25, SU25, SP25 & Bản Lọc Trùng 384 Câu)',
+        subTitle: 'Kho Đề Chuẩn FPT University — 10 Đề Thi FE/RE (SP26, SU26, FA25, SU25, SP25 Ca 1 & Ca 2 & Bản Lọc Trùng 414 Câu)',
         selectorHeadingTitle: 'CHỌN ĐỀ / CHẾ ĐỘ HỌC:',
-        selectorHeadingDesc: 'Học riêng từng đề thi hoặc bản tổng hợp toàn bộ 384 câu hỏi độc bản (đã lọc trùng)',
+        selectorHeadingDesc: 'Học riêng từng đề thi hoặc bản tổng hợp toàn bộ 414 câu hỏi độc bản (đã lọc trùng)',
         defaultExam: 'combined',
-        totalQuestions: 384,
+        totalQuestions: 414,
         exams: window.MLN_DATA || {}
       }
     };
@@ -272,7 +272,7 @@ class QuizletApp {
         else if (key === 'mln131_su26_c1fe') chipClass = 'chip-c1fe';
         else if (key === 'mln131_su25_b5_re' || key === 'mln131_su25_b5_1') chipClass = 'chip-su25';
         else if (key === 'mln131_su25_fekts') chipClass = 'chip-fekts';
-        else if (key === 'mln131_sp25_fe') chipClass = 'chip-sp25';
+        else if (key === 'mln131_sp25_fe' || key === 'mln131_sp25_fe_2') chipClass = 'chip-sp25';
       } else {
         if (key === 'c1fe') chipClass = 'chip-c1fe';
         else if (key === 'fa25_half1') chipClass = 'chip-fa25';
@@ -400,7 +400,7 @@ class QuizletApp {
       ];
     } else {
       filterOptions = [
-        { label: 'Tất cả (384c)', val: 'all' },
+        { label: 'Tất cả (414c)', val: 'all' },
         { label: 'Đề SP26', val: 'SP26' },
         { label: 'Đề C1FE', val: 'C1FE' },
         { label: 'Đề C1RE', val: 'C1RE' },
@@ -409,7 +409,8 @@ class QuizletApp {
         { label: 'Đề SU25 B5 RE', val: 'SU25 - B5 RE' },
         { label: 'Đề SU25 B5 (1)', val: 'SU25 - B5 (1)' },
         { label: 'Đề SU25 FEKTS', val: 'SU25 - FEKTS' },
-        { label: 'Đề SP25 FE', val: 'SP25 - FE' }
+        { label: 'Đề SP25 FE', val: 'SP25 - FE' },
+        { label: 'Đề SP25 FE (2)', val: 'SP25 - FE (2)' }
       ];
     }
 

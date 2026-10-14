@@ -1,8 +1,8 @@
 /**
  * MLN131 EXAMS DATA
  * Generated with full deduplication & multi-source cross-referencing
- * Total unique questions: 384
- * Exams included (9 exams total):
+ * Total unique questions: 414
+ * Exams included (10 exams total):
  *   - MLN131 SU26 C1FE (60 questions)
  *   - MLN131 SU26 C1RE (60 questions)
  *   - MLN131 SU26 C2RE (60 questions)
@@ -12,6 +12,7 @@
  *   - MLN131 SU25 B5 (1) (60 questions)
  *   - MLN131 SU 2025 FEKTS (60 questions)
  *   - MLN131 SP 2025 FE (60 questions)
+ *   - MLN131 SP 2025 FE (2) (60 questions)
  */
 
 window.MLN_DATA = {
@@ -20,7 +21,7 @@ window.MLN_DATA = {
     "name": "Toàn Bộ Câu Hỏi MLN131 (Đã Lọc Trùng)",
     "shortName": "Tổng Hợp Lọc Trùng",
     "semester": "ALL",
-    "total": 384,
+    "total": 414,
     "questions": [
       {
         "id": "mln131_comb_1",
@@ -363,6 +364,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 16
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 60
           }
         ]
       },
@@ -383,6 +388,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 17
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 8
           }
         ]
       },
@@ -451,6 +460,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - B5 (1)",
             "q_num": 56
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 54
           }
         ]
       },
@@ -663,6 +676,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 29
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 33
           }
         ]
       },
@@ -979,6 +996,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 44
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 3
           }
         ]
       },
@@ -1151,6 +1172,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - FEKTS",
             "q_num": 19
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 17
           }
         ]
       },
@@ -1263,6 +1288,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1RE",
             "q_num": 56
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 40
           }
         ]
       },
@@ -1467,6 +1496,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - FEKTS",
             "q_num": 45
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 52
           }
         ]
       },
@@ -1551,6 +1584,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 9
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 47
           }
         ]
       },
@@ -1839,6 +1876,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 22
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 9
           }
         ]
       },
@@ -1907,6 +1948,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 25
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 16
           }
         ]
       },
@@ -2155,6 +2200,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C2RE",
             "q_num": 36
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 36
           }
         ]
       },
@@ -2263,6 +2312,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - FEKTS",
             "q_num": 2
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 7
           }
         ]
       },
@@ -2655,6 +2708,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 41
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 56
           }
         ]
       },
@@ -3203,6 +3260,10 @@ window.MLN_DATA = {
           {
             "exam": "SU26 - C1FE",
             "q_num": 27
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 1
           }
         ]
       },
@@ -3539,6 +3600,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 41
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 42
           }
         ]
       },
@@ -4011,6 +4076,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - B5 RE",
             "q_num": 19
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 20
           }
         ],
         "image": "mln131_sp26_images/q9.webp"
@@ -4124,6 +4193,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - B5 RE",
             "q_num": 5
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 4
           }
         ],
         "image": "mln131_sp26_images/q15.webp"
@@ -4387,6 +4460,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 26
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 32
           }
         ],
         "image": "mln131_sp26_images/q26.webp"
@@ -4575,6 +4652,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - B5 RE",
             "q_num": 16
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 13
           }
         ],
         "image": "mln131_sp26_images/q34.webp"
@@ -4596,6 +4677,10 @@ window.MLN_DATA = {
           {
             "exam": "SP26",
             "q_num": 35
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 14
           }
         ],
         "image": "mln131_sp26_images/q35.webp"
@@ -5491,6 +5576,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 29
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 28
           }
         ]
       },
@@ -5871,6 +5960,10 @@ window.MLN_DATA = {
           {
             "exam": "FA25 - RE",
             "q_num": 52
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 51
           }
         ]
       },
@@ -6035,6 +6128,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - B5 RE",
             "q_num": 1
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 2
           }
         ]
       },
@@ -6375,6 +6472,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - B5 RE",
             "q_num": 28
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 26
           }
         ]
       },
@@ -7107,6 +7208,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - B5 (1)",
             "q_num": 23
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 18
           }
         ]
       },
@@ -7167,6 +7272,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - B5 (1)",
             "q_num": 30
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 31
           }
         ]
       },
@@ -7275,6 +7384,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - B5 (1)",
             "q_num": 36
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 34
           }
         ]
       },
@@ -7466,6 +7579,10 @@ window.MLN_DATA = {
         "sources": [
           {
             "exam": "SU25 - B5 (1)",
+            "q_num": 53
+          },
+          {
+            "exam": "SP25 - FE (2)",
             "q_num": 53
           }
         ]
@@ -7907,6 +8024,10 @@ window.MLN_DATA = {
           {
             "exam": "SU25 - FEKTS",
             "q_num": 57
+          },
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 58
           }
         ]
       },
@@ -8349,6 +8470,786 @@ window.MLN_DATA = {
             "q_num": 58
           }
         ]
+      },
+      {
+        "id": "mln131_comb_385",
+        "combined_id": 385,
+        "exam_code": "SP25 - FE (2)",
+        "question": "QuanhedantocvatongiaoVietNamchiusuchiphoimanhmeboivandegi?",
+        "options": {
+          "A": "Metindidoan",
+          "B": "Vanhoatinnguong",
+          "C": "Tinnguongtruyenthong",
+          "D": "Giaoductruyenthong"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 5
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_386",
+        "combined_id": 386,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Demottongiaoradoicanbaonhieunguongoc?",
+        "options": {
+          "A": "3",
+          "B": "4.",
+          "C": "5",
+          "D": "6"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 6
+          }
+        ],
+        "votes": {
+          "A": 15,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_387",
+        "combined_id": 387,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Danchuxahoichunghiadaduiocphoithaituikhinao?",
+        "options": {
+          "A": "ThuctiendautranhgiaicapPhapvaCongxaParinam1871",
+          "B": "ThuctiendautranhgiaicapVietNam",
+          "C": "Phongtraocachmang1930-1931",
+          "D": "Thanhcongcuacachmangthang8nam1945"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 10
+          }
+        ],
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_388",
+        "combined_id": 388,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Nhanuiocxahoichunghiaradoilaketquacuadieugi?",
+        "options": {
+          "A": "CuoccachmangdogiaicapvosanvanhandanlaodongtienhanhduidisulanhdaocuaDangCongsan",
+          "B": "Suchuyenbientichcuccuanhanuioctusan",
+          "C": "Cuoccachmangtu sandogiaicaptu sanvanhandanlaodongtienhanhdudisulanhdaocuaDang Congsan",
+          "D": "Cuoccachmangvosandogiaicapnongnhantienhanh"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 11
+          }
+        ],
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_389",
+        "combined_id": 389,
+        "exam_code": "SP25 - FE (2)",
+        "question": "MottrongnhuinghuongphattriendanchumaChutichHoChiMinhdaderalagi?",
+        "options": {
+          "A": "Danchulamotgiatrinhanloaichung",
+          "B": "Danchulanguoidanduoctudo,hanhphuc",
+          "C": "DanchulaphattriendatnuocXahoichunghiaoVietNam",
+          "D": "BvaCdeudung"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 12
+          }
+        ],
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_390",
+        "combined_id": 390,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Trongnhanuocphapquyen,dieugiduocthuongton?",
+        "options": {
+          "A": "Quyenloicuagiaicapcongnhan",
+          "B": "Quyenloicuanhanuoc",
+          "C": "Phapluat",
+          "D": "Ychi,nguyenvongcuanhandanlaodong"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 15
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_391",
+        "combined_id": 391,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Honnhanxuatphattutinhyeugiuanamvanuduocxemlahonnhannhuthenao?",
+        "options": {
+          "A": "Honnhanchamtienbo",
+          "B": "Honnhantienbo",
+          "C": "Honnhankhongduiocdambao",
+          "D": "Honnhanhuyetthong"
+        },
+        "answer": "B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 19
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_392",
+        "combined_id": 392,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Viecthuchienchucnangnaocuagiadinhquyetdinhmatdodancuvanguonluclaodongcuamotquocgia vaquocte?",
+        "options": {
+          "A": "Chucnangkinhtevatochuctieudung",
+          "B": "Chuicnangdinhcui",
+          "C": "Chuicnangtaisanxuatraconnguoi",
+          "D": "Chucnanggiaoduc,nuoiduong"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 21
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_393",
+        "combined_id": 393,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Chuicnangtai sanxuatraconnguoi cuagiadinhnenduocthuchientheoxuhuonghan chehaykhuyenkhich?",
+        "options": {
+          "A": "Cankhuyenkhichphattriendephattrienkinhte",
+          "B": "Canhanchedetranhdansoquadong",
+          "C": "Tuytheotingnoi,theotuingnhucaucuthecuaxahoi",
+          "D": "Khongnencanthiep,vidaylachuicnangtunhien,quyentudocuamoigiadinh"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 22
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 18,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_394",
+        "combined_id": 394,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Tronggia dinhtruyen thong,ai duocxem latru cot cua gia dinh?",
+        "options": {
+          "A": "Nguoivo",
+          "B": "Nguoichong",
+          "C": "Cavdvachong",
+          "D": "Nguoicontronggiadinh"
+        },
+        "answer": "B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 23
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_395",
+        "combined_id": 395,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Quanhenaoduioccoilaquanhecobannhattronggiadinh?",
+        "options": {
+          "A": "Quanhehonnhanvahuyetthong",
+          "B": "Quanhequantutrongmotkhonggiansinhton",
+          "C": "Quanhehonnhan",
+          "D": "Quanhenuoiduong"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 24
+          }
+        ],
+        "votes": {
+          "A": 18,
+          "B": 0,
+          "C": 1,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_396",
+        "combined_id": 396,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Sukiengidudcxemlacuoccachmangvosandautientrenthegidixoaboduocgiaicaptusanvathietlap chinhquyencuagiaicapvosan?",
+        "options": {
+          "A": "CongxaPari",
+          "B": "PhongtraoHienchuiongAnh",
+          "C": "CachmangthangMuoiNga",
+          "D": "SuradoicuaQuoctel"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 25
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_397",
+        "combined_id": 397,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Phát kiến nào của C.Mác và Ph.Ăngghen đã khắc phục triệt để được những hạn chế có tính lịch sử của chủ nghĩa xã hội không tưởng Pháp?",
+        "options": {
+          "A": "Học thuyết về sứ mệnh lịch sử toàn thế giới của giai cấp công nhân",
+          "B": "Chủ nghĩa duy vật lịch sử",
+          "C": "Học thuyết về giá trị thặng dư",
+          "D": "Chủ nghĩa duy vật biện chứng"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 27
+          }
+        ],
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_398",
+        "combined_id": 398,
+        "exam_code": "SP25 - FE (2)",
+        "question": "TusaukhiV.l.Lenin.matdennam1953,ailanguoicoanhhuongtructieptrongviecvandungvaphattrienchu nghiaxahoikhoahoc?",
+        "options": {
+          "A": "J.Xtalin",
+          "B": "G.Di-mi-trop",
+          "C": "S.Phurie",
+          "D": "S.Simon"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 29
+          }
+        ],
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_399",
+        "combined_id": 399,
+        "exam_code": "SP25 - FE (2)",
+        "question": "C.MacvaPh.Angghendanhgia:\"Giaicaptusantrongquatrinhthongtrigiaicapchuadaymotthekidataora motlucluongsanxuatnhieuhonvadosohonlucluongcuatatcacacthehetrudcdaygoplaitrongtac phamnao?",
+        "options": {
+          "A": "ChongDuyrinh",
+          "B": "Luockhaokhoakinhte-chinhtri",
+          "C": "TuyenngoncuaDangCongsan",
+          "D": "BoTuban"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 30
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 20,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_400",
+        "combined_id": 400,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Cdcauxahoi-giaicaplagi?",
+        "options": {
+          "A": "Lahethonggiaicap,tanglopxahoitontaikhachquantrongmotchedoxahoinhatdinh,thongquanhung moiquanhevesohuutu lieusanxuatvetochuc,quanlyquatrinhsanxuat,vediavichinhtrixahoi... giua cacgiaicap,tanglopdo",
+          "B": "Lahethonggiaicap,tanglopxahoitontaichuquantrongmotchedoxahoinhatdinh,thongquanhung moiquanhevesohuutulieusanxuat,vetochuc,quanlyquatrinhsanxuat,vediavichinhtrixahoi..giua cacgiaicap,tanglopdo",
+          "C": "Lahethonggiaicap,tanglopxahoitontaikhachquantrongmotchedoxahoinhatdinh,thongqua nhungmoiquanhevephanchiaquyenlucnhanuoc...giuacacgiaicap,tanglopdo",
+          "D": "Lahethonggiai cap,tang lopxahoitontai chuquantrongmotchedoxahoinhatdinh,thongquanhung moiquanhevephanchiaquyenlucnhanudc...giuacacgiaicap,tanglopdo"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 35
+          }
+        ],
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_401",
+        "combined_id": 401,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Onudcta,noi dung chinhtri cua lienminhcong-nong-tri thuc thehienodiemgi?",
+        "options": {
+          "A": "Giuvunglaptruongchinhtri-tutuongcuagiaicapcongnhan,vaitrolanhdaocuaDangCongsanViet Nam,giuvungdoclapdantocvadinhhuongdilenchunghiaxahoi",
+          "B": "Giuvungnenkinhtethitruongtheohuonghiendai,kiendinhconduongdilenchunghiaxahoi",
+          "C": "Giuvungdjavithongtri cuagiai capcongnhanthongquaDangCongsan VietNamtrongmoi lienminh giaicap",
+          "D": "Giuvungvaitrodinhhuong,kimchinamcuakinhtenhanuoctrongnenkinhtethitruongtudohiendai"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 37
+          }
+        ],
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_402",
+        "combined_id": 402,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội, yếu tố nào quyết định mối quan hệ hợp tác, gắn bó chặt chẽ giữa các giai cấp, tầng lớp?",
+        "options": {
+          "A": "Họ cùng nhau cải tạo xã hội cũ, xây dựng xã hội mới trong mọi lĩnh vực của đời sống xã hội",
+          "B": "Họ cùng nhau xây dựng xã hội mới trong mọi lĩnh vực của đời sống xã hội",
+          "C": "Họ cùng nhau cải tạo xã hội cũ trong mọi lĩnh vực của đời sống xã hội",
+          "D": "Họ cùng nhau cải tạo xã hội cũ, xây dựng xã hội mới trong lĩnh vực kinh tế, chính trị"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 38
+          }
+        ],
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_403",
+        "combined_id": 403,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Trongcaccdcauxahoi,cocauxahoinaocovitriquantronghangdau,chiphoicacloaihinhcocauxahoi khac?",
+        "options": {
+          "A": "Cocauxahoi-dantoc",
+          "B": "Cocauxahoidancu",
+          "C": "Cocauxahoi-nghenghiep",
+          "D": "Cocauxahoi-giaicap"
+        },
+        "answer": "D",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 39
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 19
+        }
+      },
+      {
+        "id": "mln131_comb_404",
+        "combined_id": 404,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Theonghiahep,cactieuchixacdinhcacdactrungcobancuamotdantoc-tocnguoilagi?Luachoncac dapandung",
+        "options": {
+          "A": "Congdongvengonngu",
+          "B": "Congdongvevanhoa",
+          "C": "Ythuctugiactocnguoi",
+          "D": "Congdongvelanhtho"
+        },
+        "answer": "A, B, C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 41
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_405",
+        "combined_id": 405,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Voitucachlamothinhthainhanuoc,motchedochinhtri,chodennaydaconhungnendanchunaodava dangtontai?Choncacdapandung.",
+        "options": {
+          "A": "Danchuichuno",
+          "B": "Danchutusan",
+          "C": "Danchuxahoichunghia",
+          "D": "Danchucongsanchunghia"
+        },
+        "answer": "A, B, C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 43
+          }
+        ],
+        "votes": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_406",
+        "combined_id": 406,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Nhungdacdiemcobancuathoikiquadolenchunghiaxahoilagi?",
+        "options": {
+          "A": "Thoikicaitaocachmangsausac,trietdexahoitubanchunghiatrenmoilinhvuc",
+          "B": "Thoikixaydungtungbuoc cosovatchat-kythuatvadoisongtinhthancuachunghiaxahoi",
+          "C": "Thoikidautranhgiai capkhituongquanluicluiongcanbang",
+          "D": "Thoikithuichiennenchuyenchinhlaodong"
+        },
+        "answer": "A, B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 44
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_407",
+        "combined_id": 407,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Giaicapnaoladaibieucholuic luongsanxuattientien,chophuongthucsanxuathiendai?",
+        "options": {
+          "A": "Tuisan",
+          "B": "Nongdan",
+          "C": "Congnhan",
+          "D": "Thongtri"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 45
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 20,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_408",
+        "combined_id": 408,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Vephuiongdienchinhtri-xahoi,giaicapcongnhancovitrinhuthenao?",
+        "options": {
+          "A": "Lanhungnguoinamgiutulieusanxuatcuaxahoitubanchunghia,tutochucsanxuatkinhdoanhlonma khonghoptacvoigiaicapnao",
+          "B": "Lanhungnguoikhongcosohuutulieusanxuatchuyeucuaxahoi,phaibansuclaodongchonhatuban vabiboclotgiatrithangdu",
+          "C": "Lanhungnguoisohuutulieusanxuat,hoptacvoinhatubandekiemsong",
+          "D": "Lanhungnguoicosohuumotsotu lieusanxuatnho,cothetusanxuatnhuingnhole,dephasannen phaibansuclaodongchonhatuibanlachinh"
+        },
+        "answer": "B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 46
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 19,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_409",
+        "combined_id": 409,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Sumenhlichsuithegidicuagiaicapcongnhanlagi?",
+        "options": {
+          "A": "Xoabosuthongtriapbuccuachunghiatuban,xayduingthanhcongchedoxahoimdi-xahoichunghia vacongsanchunghia,tientoimotxahoikhongcongiaicap",
+          "B": "Xoabosuthongtriapbuiccuachedophongkien,xaydungthanhcongchedoxahoimoi-xahoichu nghiavacongsanchunghia,tientoimotxahoikhongcongiaicap",
+          "C": "Xoabosuthongtriapbuccuachedocongxanguyenthuyxaydungthanhcongchedoxahoimoi-xa hoichunghiavacongsanchunghia,tientoimotxahoikhongcongiaicap",
+          "D": "Xoabosuithongtriapbuccuachunghiatuban,xaydungthanhcongchedoxahoimoi-phongkien"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 48
+          }
+        ],
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_410",
+        "combined_id": 410,
+        "exam_code": "SP25 - FE (2)",
+        "question": "PhongtraocongnhanoVietNamvaothekiXXchothaydactrungcuagiaicapcongnhanViatNamkhacvdi giaicapcongnhancacnuoctuibannhuthenao?",
+        "options": {
+          "A": "GiaicapcongnhanVietNamthehiendactinhcachmangveythucgiaicapvacaveythucdantoc",
+          "B": "GiaicapcongnhanVietNamchuiahanghaitrongcacphongtraodautranhnhui congnhancacnuoctui banchunghia",
+          "C": "GiaicapcongnhanVietNamkhiradoichuacosulanhdaokipthoicuaDangCongsannhucacnuoctu banchunghia",
+          "D": "MauthuangiuiagiaicapcongnhanVietNamvagiai captusantronggiaidoannaychuagaygatnhu cac nuoctuibanchunghia"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 49
+          }
+        ],
+        "votes": {
+          "A": 18,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_411",
+        "combined_id": 411,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Thuchiencongnghiephoa,ganliencongnghiephoavoihiendaihoa,daymanhcongnghiephoaganvoi phattrienkinhtetrithuc,baovetainguyen,moitruonglanhiemvucuagiaicapcongnhantrenlinhvucnao?",
+        "options": {
+          "A": "Chinhtri-xahoi",
+          "B": "Kinhte",
+          "C": "Vanhoa",
+          "D": "Tutuong"
+        },
+        "answer": "B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 50
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 19,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_412",
+        "combined_id": 412,
+        "exam_code": "SP25 - FE (2)",
+        "question": "DieugivualathachthucvuataorathoicochoVietNamtrongthoikyquadochunghiaxahoihiennay?",
+        "options": {
+          "A": "Cuoccachmangkhoahoccongnghevaxuthetoancauhoa",
+          "B": "Sutroidaycuachunghiaxahoi,tieubieulaTrungQuoc",
+          "C": "Suthaydoitrattuthegioi",
+          "D": "Sugiatangnhanhchongcualucluonglaodongnuocta"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 55
+          }
+        ],
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_413",
+        "combined_id": 413,
+        "exam_code": "SP25 - FE (2)",
+        "question": "Vematythuyet,conduongcachmangvosannaocothetienhanh,nhungvocunghiem,quyvachuatung xayratrenthuicte?",
+        "options": {
+          "A": "Conduongbaoluiccachmang",
+          "B": "Conduionghoabinh",
+          "C": "Conduongkhoinghiavutrang",
+          "D": "Conduiongbaodonglatdo"
+        },
+        "answer": "B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 57
+          }
+        ],
+        "votes": {
+          "A": 0,
+          "B": 18,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_comb_414",
+        "combined_id": 414,
+        "exam_code": "SP25 - FE (2)",
+        "question": "TheochunghiaMac-Lenin,chunghiaxahoiduochieulagi?",
+        "options": {
+          "A": "Giaidoandaucuahinhthaikinhte-xahoicongsanchunghia",
+          "B": "Mothinhthaikinhte-xahoi",
+          "C": "Lamotchedoxahoi,trongdosuthongtricuagiaicapcongnhanduocxaclap",
+          "D": "Lagiaidoanphattriéencaocuahinhthaikinhte-xahoicongsanchunghia"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "sources": [
+          {
+            "exam": "SP25 - FE (2)",
+            "q_num": 59
+          }
+        ],
+        "votes": {
+          "A": 18,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
       }
     ]
   },
@@ -15692,9 +16593,1274 @@ window.MLN_DATA = {
         "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University."
       }
     ]
+  },
+  "mln131_sp25_fe_2": {
+    "id": "mln131_sp25_fe_2",
+    "name": "Đề Thi FE - MLN131 - SP 2025 - FE (Ca 2)",
+    "shortName": "SP25 - FE (2)",
+    "semester": "SP25",
+    "total": 60,
+    "questions": [
+      {
+        "id": "mln131_sp25_fe_2_1",
+        "q_num": 1,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Các thế lực thù địch sử dụng chiến lược “diễn biến hòa bình” chống phá sự nghiệp xây dựng Tổ quốc xã hội chủ nghĩa của nhân dân ta trên phương diện trọng yếu nào?",
+        "options": {
+          "A": "Ngoại giao",
+          "B": "Chính trị, tư tưởng",
+          "C": "Đạo đức, lối sống",
+          "D": "Quân sự, chạy đua vũ trang"
+        },
+        "answer": "B",
+        "explanation": "Chiến lược 'diễn biến hòa bình' của các thế lực thù địch tập trung mũi nhọn chống phá hàng đầu vào phương diện chính trị, tư tưởng hòng làm phai nhạt lý tưởng và chuyển hóa chế độ.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 14,
+          "C": 4,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_2",
+        "q_num": 2,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Trong một quốc gia đa tộc người thì vấn đề gì cần giải quyết được coi là có ý nghĩa cơ bản nhất để thực hiện quyền bình đẳng giữa các dân tộc?",
+        "options": {
+          "A": "Ban hành hệ thống hiến pháp và pháp luật về quyền bình đẳng giữa các dân tộc",
+          "B": "Nâng cao trình độ dân trí, văn hoá cho đồng bào",
+          "C": "Chống tư tưởng phân biệt chủng tộc, kì thị và chia rẽ dân tộc",
+          "D": "Xoá bỏ dần sự chênh lệch về mọi mặt giữa các dân tộc do lịch sử để lại"
+        },
+        "answer": "D",
+        "explanation": "Xóa bỏ dần sự chênh lệch về trình độ phát triển kinh tế, văn hóa, xã hội giữa các dân tộc do lịch sử để lại là điều kiện cơ bản nhất để thực hiện bình đẳng dân tộc trên thực tế.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 19
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_3",
+        "q_num": 3,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Theo chủ nghĩa Mác - Lênin, tính chất chính trị của tôn giáo xuất hiện từ khi nào?",
+        "options": {
+          "A": "Khi xã hội đã có phân chia giai cấp và đối kháng giai cấp",
+          "B": "Khi xã hội đã thủ tiêu được giai cấp",
+          "C": "Khi loài người bước vào đêm trường trung cổ",
+          "D": "Khi chủ nghĩa Mác - Lênin ra đời"
+        },
+        "answer": "A",
+        "explanation": "Tính chất chính trị của tôn giáo chỉ xuất hiện khi xã hội đã phân chia giai cấp, có sự đối kháng giai cấp và các giai cấp thống trị bóc lột lợi dụng tôn giáo phục vụ cho quyền lợi chính trị của mình.",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_4",
+        "q_num": 4,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Các chủ trương, chính sách phát triển kinh tế - xã hội miền núi, vùng đồng bào các dân tộc thiểu số ở nước ta nhằm mục đích gì?",
+        "options": {
+          "A": "Phát huy tiềm năng phát triển, rút ngắn khoảng cách chênh lệch giữa các vùng, các dân tộc",
+          "B": "Bù đắp cho đồng bào ở các nơi này để động viên họ cố gắng giữ gìn bờ cõi quốc gia",
+          "C": "Giảm thiểu sự lợi dụng điều kiện sống cực khổ của các nơi này để kích động thực hiện mưu đồ chia rẽ",
+          "D": "Tận dụng mọi nguồn lực để tăng trưởng kinh tế khi ở các vùng đồng bằng đã cạn kiệt"
+        },
+        "answer": "A",
+        "explanation": "Mục tiêu chính là phát huy tiềm năng phát triển và từng bước thu hẹp khoảng cách phát triển giữa các vùng miền, các dân tộc.",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_5",
+        "q_num": 5,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "QuanhedantocvatongiaoVietNamchiusuchiphoimanhmeboivandegi?",
+        "options": {
+          "A": "Metindidoan",
+          "B": "Vanhoatinnguong",
+          "C": "Tinnguongtruyenthong",
+          "D": "Giaoductruyenthong"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_6",
+        "q_num": 6,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Demottongiaoradoicanbaonhieunguongoc?",
+        "options": {
+          "A": "3",
+          "B": "4.",
+          "C": "5",
+          "D": "6"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 15,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_7",
+        "q_num": 7,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Đặc trưng nào dưới đây là quan trọng nhất, là cơ sở gắn kết các bộ phận, các thành viên trong dân tộc, tạo nên tính thống nhất, ổn định, bền vững của dân tộc?",
+        "options": {
+          "A": "Chung một vùng lãnh thổ",
+          "B": "Chung một phương thức sinh hoạt kinh tế",
+          "C": "Chung một ngôn ngữ làm công cụ giao tiếp",
+          "D": "Chung một nền văn hóa và tâm lý"
+        },
+        "answer": "B",
+        "explanation": "Cộng đồng về kinh tế (chung phương thức sinh hoạt kinh tế) là đặc trưng quan trọng nhất gắn kết bền chặt các thành viên của dân tộc quốc gia.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_8",
+        "q_num": 8,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Theo quan điểm của chủ nghĩa Mác - Lênin, từ chủ nghĩa tư bản lên chủ nghĩa xã hội tất yếu phải trải qua thời kỳ gì?",
+        "options": {
+          "A": "Phát triển của loài người",
+          "B": "Phát triển lực lượng sản xuất và quan hệ sản xuất",
+          "C": "Quá độ chính trị",
+          "D": "Thay đổi phương thức sản xuất"
+        },
+        "answer": "C",
+        "explanation": "C.Mác khẳng định: 'Giữa xã hội tư bản chủ nghĩa và xã hội cộng sản chủ nghĩa là một thời kỳ cải biến cách mạng từ xã hội nọ sang xã hội kia. Thích ứng với thời kỳ ấy là một thời kỳ quá độ chính trị...'.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 17
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_9",
+        "q_num": 9,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Dân chủ xã hội chủ nghĩa chỉ có thể có và được duy trì với điều kiện tiên quyết là gì?",
+        "options": {
+          "A": "Giai cấp công nhân phải nắm được quyền thống trị xã hội",
+          "B": "Bảo đảm vai trò lãnh đạo duy nhất của Đảng Cộng sản",
+          "C": "Thực hiện dân chủ rộng rãi đối với mọi giai cấp, tầng lớp",
+          "D": "Thực hiện đa nguyên chính trị"
+        },
+        "answer": "B",
+        "explanation": "Điều kiện tiên quyết để xây dựng và củng cố nền dân chủ XHCN là bảo đảm vai trò lãnh đạo duy nhất của Đảng Cộng sản.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_10",
+        "q_num": 10,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Danchuxahoichunghiadaduiocphoithaituikhinao?",
+        "options": {
+          "A": "ThuctiendautranhgiaicapPhapvaCongxaParinam1871",
+          "B": "ThuctiendautranhgiaicapVietNam",
+          "C": "Phongtraocachmang1930-1931",
+          "D": "Thanhcongcuacachmangthang8nam1945"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_11",
+        "q_num": 11,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Nhanuiocxahoichunghiaradoilaketquacuadieugi?",
+        "options": {
+          "A": "CuoccachmangdogiaicapvosanvanhandanlaodongtienhanhduidisulanhdaocuaDangCongsan",
+          "B": "Suchuyenbientichcuccuanhanuioctusan",
+          "C": "Cuoccachmangtu sandogiaicaptu sanvanhandanlaodongtienhanhdudisulanhdaocuaDang Congsan",
+          "D": "Cuoccachmangvosandogiaicapnongnhantienhanh"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_12",
+        "q_num": 12,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "MottrongnhuinghuongphattriendanchumaChutichHoChiMinhdaderalagi?",
+        "options": {
+          "A": "Danchulamotgiatrinhanloaichung",
+          "B": "Danchulanguoidanduoctudo,hanhphuc",
+          "C": "DanchulaphattriendatnuocXahoichunghiaoVietNam",
+          "D": "BvaCdeudung"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_13",
+        "q_num": 13,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Cần làm gì để tăng cường công tác giám sát, phản biện xã hội, phát huy quyền làm chủ của nhân dân ở nước ta?",
+        "options": {
+          "A": "Phát huy vai trò của Mặt trận Tổ quốc và các tổ chức chính trị - xã hội",
+          "B": "Hạn chế khiếu nại tố cáo của người dân",
+          "C": "Giảm bớt các cuộc tiếp xúc cử tri",
+          "D": "Chuyển giao quyền lập pháp cho tư nhân"
+        },
+        "answer": "A",
+        "explanation": "Phát huy vai trò của Mặt trận Tổ quốc Việt Nam và các tổ chức chính trị - xã hội là phương thức cốt lõi để thực hiện giám sát và phản biện xã hội.",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_14",
+        "q_num": 14,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Điền vào chỗ trống: C. Mác và Ph. Ăngghen chỉ rõ: \"Từ chỗ là những hình thức phát triển của các lực lượng sản xuất, những quan hệ sản xuất ấy trở thành những xiềng xích của các lực lượng sản xuất. Khi đó bắt đầu thời đại...\":",
+        "options": {
+          "A": "Một cuộc tổng tiến công",
+          "B": "Một cuộc cải cách",
+          "C": "Tất cả đều đúng",
+          "D": "Một cuộc cách mạng xã hội"
+        },
+        "answer": "D",
+        "explanation": "Theo Lời tựa Góp phần phê phán khoa kinh tế chính trị (1859): 'Khi đó bắt đầu thời đại một cuộc cách mạng xã hội'.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 19
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_15",
+        "q_num": 15,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Trongnhanuocphapquyen,dieugiduocthuongton?",
+        "options": {
+          "A": "Quyenloicuagiaicapcongnhan",
+          "B": "Quyenloicuanhanuoc",
+          "C": "Phapluat",
+          "D": "Ychi,nguyenvongcuanhandanlaodong"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_16",
+        "q_num": 16,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "“Dân chủ quân sự” dùng để chỉ chế độ dân chủ nào?",
+        "options": {
+          "A": "Chế độ cộng sản nguyên thủy",
+          "B": "Chế độ tư bản chủ nghĩa",
+          "C": "Chế độ phong kiến",
+          "D": "Chế độ chiếm hữu nô lệ"
+        },
+        "answer": "A",
+        "explanation": "'Dân chủ quân sự' là thuật ngữ chỉ hình thức dân chủ sơ khai vào giai đoạn tan rã của chế độ cộng sản nguyên thủy, khi các thành viên bộ lạc họp đại hội quyết định việc quân sự và bầu tù trưởng.",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_17",
+        "q_num": 17,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Ở Việt Nam, từ những năm 70 và 80 của thế kỉ XX, Nhà nước đã tuyên truyền, phổ biến và vận động, khuyến khích mỗi cặp vợ chồng có bao nhiêu con?",
+        "options": {
+          "A": "Chỉ nên có từ 1 đến 2 con",
+          "B": "Có từ 4 con trở lên",
+          "C": "Có đủ 3 con",
+          "D": "Càng đông con càng tốt"
+        },
+        "answer": "A",
+        "explanation": "Chính sách dân số - kế hoạch hóa gia đình của Việt Nam từ thập niên 70-80 vận động mỗi cặp vợ chồng 'chỉ nên có từ 1 đến 2 con' để nuôi dạy cho tốt.",
+        "choose_num": 1,
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_18",
+        "q_num": 18,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "KizspyI Question: 23 Nguon goc gay nen tinh trang thong tri cua nguoi dan ong trong gia dinh, su bat binh dang nam, nu, giua vo chong, su no dich doi voi phu nui trong gia dinh la gi?",
+        "options": {
+          "A": "La che do phong kien",
+          "B": "La che do hon nhan phu he",
+          "C": "Lachedotuhuuvetuilieusanxuat",
+          "D": "La cac quan niem dao dtic loi thoi FUONERFLONCOM"
+        },
+        "answer": "C",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 18,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_19",
+        "q_num": 19,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Honnhanxuatphattutinhyeugiuanamvanuduocxemlahonnhannhuthenao?",
+        "options": {
+          "A": "Honnhanchamtienbo",
+          "B": "Honnhantienbo",
+          "C": "Honnhankhongduiocdambao",
+          "D": "Honnhanhuyetthong"
+        },
+        "answer": "B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_20",
+        "q_num": 20,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Cơ sở kinh tế - xã hội để xây dựng gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
+        "options": {
+          "A": "Là sự phát triển của lực lượng sản xuất và tương ứng với nó là quan hệ sản xuất mới, xã hội chủ nghĩa",
+          "B": "Là sự phát triển của trình độ lao động, khoa học kỹ thuật của xã hội",
+          "C": "Là điều kiện lao động, công ăn, việc làm và thu nhập của công dân",
+          "D": "Thiết lập chính quyền nhà nước của giai cấp công nhân và nhân dân lao động"
+        },
+        "answer": "A",
+        "explanation": "Cơ sở kinh tế - xã hội của gia đình trong thời kỳ quá độ là sự phát triển của lực lượng sản xuất và tương ứng với nó là quan hệ sản xuất mới xã hội chủ nghĩa.",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_21",
+        "q_num": 21,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Viecthuchienchucnangnaocuagiadinhquyetdinhmatdodancuvanguonluclaodongcuamotquocgia vaquocte?",
+        "options": {
+          "A": "Chucnangkinhtevatochuctieudung",
+          "B": "Chuicnangdinhcui",
+          "C": "Chuicnangtaisanxuatraconnguoi",
+          "D": "Chucnanggiaoduc,nuoiduong"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_22",
+        "q_num": 22,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Chuicnangtai sanxuatraconnguoi cuagiadinhnenduocthuchientheoxuhuonghan chehaykhuyenkhich?",
+        "options": {
+          "A": "Cankhuyenkhichphattriendephattrienkinhte",
+          "B": "Canhanchedetranhdansoquadong",
+          "C": "Tuytheotingnoi,theotuingnhucaucuthecuaxahoi",
+          "D": "Khongnencanthiep,vidaylachuicnangtunhien,quyentudocuamoigiadinh"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 18,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_23",
+        "q_num": 23,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Tronggia dinhtruyen thong,ai duocxem latru cot cua gia dinh?",
+        "options": {
+          "A": "Nguoivo",
+          "B": "Nguoichong",
+          "C": "Cavdvachong",
+          "D": "Nguoicontronggiadinh"
+        },
+        "answer": "B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_24",
+        "q_num": 24,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Quanhenaoduioccoilaquanhecobannhattronggiadinh?",
+        "options": {
+          "A": "Quanhehonnhanvahuyetthong",
+          "B": "Quanhequantutrongmotkhonggiansinhton",
+          "C": "Quanhehonnhan",
+          "D": "Quanhenuoiduong"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 18,
+          "B": 0,
+          "C": 1,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_25",
+        "q_num": 25,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Sukiengidudcxemlacuoccachmangvosandautientrenthegidixoaboduocgiaicaptusanvathietlap chinhquyencuagiaicapvosan?",
+        "options": {
+          "A": "CongxaPari",
+          "B": "PhongtraoHienchuiongAnh",
+          "C": "CachmangthangMuoiNga",
+          "D": "SuradoicuaQuoctel"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_26",
+        "q_num": 26,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Sau khi chế độ xã hội chủ nghĩa Liên Xô và Đông Âu sụp đổ, chủ nghĩa xã hội khoa học được bổ sung và phát triển như thế nào?",
+        "options": {
+          "A": "Được giới trí thức thế giới nghiên cứu như một học thuyết đã lỗi thời",
+          "B": "Được các nước xã hội chủ nghĩa bổ sung và phát triển trong tình hình mới, phù hợp với bối cảnh từng nước",
+          "C": "Các nước tư bản chủ nghĩa nghiên cứu chủ nghĩa xã hội khoa học như một học thuyết nhằm khắc phục các khuyết tật của thời đại mới",
+          "D": "Được dung hòa cùng với các học thuyết tư sản khác"
+        },
+        "answer": "B",
+        "explanation": "Sau biến cố Liên Xô sụp đổ, các nước XHCN còn lại (như Việt Nam, Trung Quốc) đã kiên định và vận dụng sáng tạo, bổ sung, phát triển CNXHKH phù hợp với đặc điểm và bối cảnh cụ thể của từng nước.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 19,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_27",
+        "q_num": 27,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Phát kiến nào của C.Mác và Ph.Ăngghen đã khắc phục triệt để được những hạn chế có tính lịch sử của chủ nghĩa xã hội không tưởng Pháp?",
+        "options": {
+          "A": "Học thuyết về sứ mệnh lịch sử toàn thế giới của giai cấp công nhân",
+          "B": "Chủ nghĩa duy vật lịch sử",
+          "C": "Học thuyết về giá trị thặng dư",
+          "D": "Chủ nghĩa duy vật biện chứng"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_28",
+        "q_num": 28,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Ai đã đưa ra quan niệm “chủ nghĩa xã hội là sự phản kháng và đấu tranh chống sự bóc lột người lao động, một cuộc đấu tranh nhằm hoàn toàn xóa bỏ sự bóc lột”?",
+        "options": {
+          "A": "S.Phuriê",
+          "B": "V.I.Lênin",
+          "C": "Ph.Ăngghen",
+          "D": "C.Mác"
+        },
+        "answer": "B",
+        "explanation": "Định nghĩa nổi tiếng này về chủ nghĩa xã hội là của V.I.Lênin, nhấn mạnh bản chất nhân văn và mục tiêu giải phóng triệt để người lao động khỏi sự bóc lột.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 20,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_29",
+        "q_num": 29,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "TusaukhiV.l.Lenin.matdennam1953,ailanguoicoanhhuongtructieptrongviecvandungvaphattrienchu nghiaxahoikhoahoc?",
+        "options": {
+          "A": "J.Xtalin",
+          "B": "G.Di-mi-trop",
+          "C": "S.Phurie",
+          "D": "S.Simon"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_30",
+        "q_num": 30,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "C.MacvaPh.Angghendanhgia:\"Giaicaptusantrongquatrinhthongtrigiaicapchuadaymotthekidataora motlucluongsanxuatnhieuhonvadosohonlucluongcuatatcacacthehetrudcdaygoplaitrongtac phamnao?",
+        "options": {
+          "A": "ChongDuyrinh",
+          "B": "Luockhaokhoakinhte-chinhtri",
+          "C": "TuyenngoncuaDangCongsan",
+          "D": "BoTuban"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 20,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_31",
+        "q_num": 31,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Kizspy1Question: 30 Theo nghia rong, chu nghia xa hoi khoa hoc duoc hieu la gi?",
+        "options": {
+          "A": "La mot trong ba bo phan hop thanh chu nghia Mac - Lenin",
+          "B": "La chu nghia Mac - Lenin, luan giai tui cac giac do triet hoc, kinh te hoc chinh tri va chinh tri xa hoi ve su",
+          "C": "La mot hoc thuyet trinh bay su ra doi, phat trien va suy vong cua chu nghia tu ban",
+          "D": "La mot hinh thai kinh te - xa hoi trong tien trinh lich sui tu nhien cua loai nguoi FUOVERFLOAWCO"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "choose_num": 1,
+        "votes": {
+          "A": 1,
+          "B": 16,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_32",
+        "q_num": 32,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Đâu là một phương hướng trong việc phát huy vai trò của phụ nữ trong cơ cấu xã hội Việt Nam hiện nay?",
+        "options": {
+          "A": "Nâng cao trình độ học vấn, chuyên môn và thực hiện bình đẳng giới",
+          "B": "Hạn chế phụ nữ tham gia quản lý nhà nước",
+          "C": "Tập trung phụ nữ vào công việc nội trợ gia đình",
+          "D": "Tách biệt vai trò của phụ nữ khỏi phong trào công nhân"
+        },
+        "answer": "A",
+        "explanation": "Phương hướng phát huy vai trò phụ nữ: nâng cao trình độ, năng lực, tạo điều kiện phát triển toàn diện và thực hiện bình đẳng giới trên mọi lĩnh vực.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 18,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_33",
+        "q_num": 33,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Đâu không phải là một trong những chính sách đối với giai cấp nông dân để đảm bảo sự biến đổi tích cực của giai cấp này trong cơ cấu xã hội - giai cấp ở Việt Nam hiện nay?",
+        "options": {
+          "A": "Hỗ trợ, khuyến khích nông dân học nghề, chuyển dịch cơ cấu lao động",
+          "B": "Tạo điều kiện thuận lợi để tiếp nhận và ứng dụng khoa học - công nghệ, nâng cao năng suất lao động, và từng bước công nghiệp hóa nông nghiệp",
+          "C": "Tạo điều kiện thuận lợi để nông dân chuyển sang làm công nghiệp và dịch vụ",
+          "D": "Ngăn chặn tình trạng chuyển đổi mục đích sử dụng đất nông nghiệp thành các mục đích khác để đảm bảo sinh kế của người nông dân"
+        },
+        "answer": "D",
+        "explanation": "Trong công nghiệp hóa, hiện đại hóa, việc chuyển dịch một phần đất nông nghiệp sang công nghiệp, dịch vụ và đô thị là xu thế khách quan; mục tiêu là quản lý chặt chẽ, hỗ trợ chuyển đổi nghề nghiệp chứ không phải là 'ngăn chặn'.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 20
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_34",
+        "q_num": 34,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "KizspyI Question: 36 Dau khong phai la mot trong nhung nhiem vu cua cac chinh sach lien quan den co cau xa hoi -giai cap?",
+        "options": {
+          "A": "Giai quyet tot cac moi quan he noi bo tuing giai cap",
+          "B": "Huong toi dam bao cong bang xa hoi, thu hep dan khoang cach phat trien va su phan hoa giau ngheo giua cac giai cap, tang lop",
+          "C": "Giai quyet tot cac moi quan he giua giai cap, tang lop nay vdi giai cap, tang lop khac",
+          "D": "Tao dieu kien thuan loi de cac giai cap cong nhan co the canh tranh tot tren tat ca cac linh vuc cua doi song xa hoi FUOVERELOAICOIV!"
+        },
+        "answer": "D",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 19
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_35",
+        "q_num": 35,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Cdcauxahoi-giaicaplagi?",
+        "options": {
+          "A": "Lahethonggiaicap,tanglopxahoitontaikhachquantrongmotchedoxahoinhatdinh,thongquanhung moiquanhevesohuutu lieusanxuatvetochuc,quanlyquatrinhsanxuat,vediavichinhtrixahoi... giua cacgiaicap,tanglopdo",
+          "B": "Lahethonggiaicap,tanglopxahoitontaichuquantrongmotchedoxahoinhatdinh,thongquanhung moiquanhevesohuutulieusanxuat,vetochuc,quanlyquatrinhsanxuat,vediavichinhtrixahoi..giua cacgiaicap,tanglopdo",
+          "C": "Lahethonggiaicap,tanglopxahoitontaikhachquantrongmotchedoxahoinhatdinh,thongqua nhungmoiquanhevephanchiaquyenlucnhanuoc...giuacacgiaicap,tanglopdo",
+          "D": "Lahethonggiai cap,tang lopxahoitontai chuquantrongmotchedoxahoinhatdinh,thongquanhung moiquanhevephanchiaquyenlucnhanudc...giuacacgiaicap,tanglopdo"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_36",
+        "q_num": 36,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Trong thời kì quá độ lên chủ nghĩa xã hội, vấn đề tín ngưỡng và tôn giáo của nhân dân cần được giải quyết trên cơ sở nguyên tắc nào?",
+        "options": {
+          "A": "Hạn chế sự tham gia vào tôn giáo của nhân dân bằng các chính sách xã hội, không can thiệp bằng mệnh lệnh hành chính",
+          "B": "Quyền tự do tín ngưỡng, tôn giáo được tôn trọng và bảo vệ, không ai có quyền can thiệp bằng bất cứ hình thức nào",
+          "C": "Nhà nước liên hiệp với giáo hội các tôn giáo để điều chỉnh họ theo hướng duy vật, vô thần dần dần theo thời gian",
+          "D": "Có những ưu tiên đối với công dân không theo bất cứ tôn giáo nào"
+        },
+        "answer": "B",
+        "explanation": "Nguyên tắc cốt lõi là tôn trọng, bảo đảm và bảo vệ quyền tự do tín ngưỡng, tôn giáo và tự do không tín ngưỡng của nhân dân.",
+        "choose_num": 1,
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_37",
+        "q_num": 37,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Onudcta,noi dung chinhtri cua lienminhcong-nong-tri thuc thehienodiemgi?",
+        "options": {
+          "A": "Giuvunglaptruongchinhtri-tutuongcuagiaicapcongnhan,vaitrolanhdaocuaDangCongsanViet Nam,giuvungdoclapdantocvadinhhuongdilenchunghiaxahoi",
+          "B": "Giuvungnenkinhtethitruongtheohuonghiendai,kiendinhconduongdilenchunghiaxahoi",
+          "C": "Giuvungdjavithongtri cuagiai capcongnhanthongquaDangCongsan VietNamtrongmoi lienminh giaicap",
+          "D": "Giuvungvaitrodinhhuong,kimchinamcuakinhtenhanuoctrongnenkinhtethitruongtudohiendai"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_38",
+        "q_num": 38,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội, yếu tố nào quyết định mối quan hệ hợp tác, gắn bó chặt chẽ giữa các giai cấp, tầng lớp?",
+        "options": {
+          "A": "Họ cùng nhau cải tạo xã hội cũ, xây dựng xã hội mới trong mọi lĩnh vực của đời sống xã hội",
+          "B": "Họ cùng nhau xây dựng xã hội mới trong mọi lĩnh vực của đời sống xã hội",
+          "C": "Họ cùng nhau cải tạo xã hội cũ trong mọi lĩnh vực của đời sống xã hội",
+          "D": "Họ cùng nhau cải tạo xã hội cũ, xây dựng xã hội mới trong lĩnh vực kinh tế, chính trị"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_39",
+        "q_num": 39,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Trongcaccdcauxahoi,cocauxahoinaocovitriquantronghangdau,chiphoicacloaihinhcocauxahoi khac?",
+        "options": {
+          "A": "Cocauxahoi-dantoc",
+          "B": "Cocauxahoidancu",
+          "C": "Cocauxahoi-nghenghiep",
+          "D": "Cocauxahoi-giaicap"
+        },
+        "answer": "D",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 19
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_40",
+        "q_num": 40,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "“Quyền lực nhà nước là thống nhất, có sự phân công, phối hợp, kiểm soát giữa các cơ quan nhà nước trong việc thực hiện các quyền lập pháp, hành pháp, tư pháp” được đề cập tại Đại hội lần thứ bao nhiêu của Đảng?",
+        "options": {
+          "A": "X",
+          "B": "XI",
+          "C": "XII",
+          "D": "XIII"
+        },
+        "answer": "B",
+        "explanation": "Tại Đại hội lần thứ XI (năm 2011), Cương lĩnh (bổ sung và phát triển năm 2011) lần đầu tiên bổ sung nội dung 'kiểm soát' giữa các cơ quan nhà nước trong việc thực hiện các quyền lập pháp, hành pháp, tư pháp.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 2,
+          "C": 6,
+          "D": 9
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_41",
+        "q_num": 41,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Theonghiahep,cactieuchixacdinhcacdactrungcobancuamotdantoc-tocnguoilagi?Luachoncac dapandung",
+        "options": {
+          "A": "Congdongvengonngu",
+          "B": "Congdongvevanhoa",
+          "C": "Ythuctugiactocnguoi",
+          "D": "Congdongvelanhtho"
+        },
+        "answer": "A, B, C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 3,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_42",
+        "q_num": 42,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Theo V.I.Lênin, các xu hướng khách quan của sự phát triển quan hệ dân tộc là gì? (Chọn 2 đáp án đúng)",
+        "options": {
+          "A": "Cộng đồng dân cư muốn tách ra để hình thành cộng đồng dân tộc độc lập",
+          "B": "Các dân tộc trong từng quốc gia, thậm chí các dân tộc ở nhiều quốc gia muốn liên hiệp lại với nhau",
+          "C": "Cộng đồng dân tộc yếu thế có xu hướng sáp nhập với các dân tộc có trình độ phát triển cao hơn",
+          "D": "Cộng đồng dân tộc phát triển hưng thịnh sẽ có ý định tách ra hình thành quốc gia - dân tộc độc lập"
+        },
+        "answer": "A, B",
+        "explanation": "V.I. Lênin nêu hai xu hướng khách quan: (1) Tách ra để hình thành quốc gia dân tộc độc lập (A); (2) Các dân tộc liên hiệp lại với nhau do phát triển kinh tế và giao lưu quốc tế (B).",
+        "choose_num": 2,
+        "votes": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_43",
+        "q_num": 43,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Voitucachlamothinhthainhanuoc,motchedochinhtri,chodennaydaconhungnendanchunaodava dangtontai?Choncacdapandung.",
+        "options": {
+          "A": "Danchuichuno",
+          "B": "Danchutusan",
+          "C": "Danchuxahoichunghia",
+          "D": "Danchucongsanchunghia"
+        },
+        "answer": "A, B, C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 3,
+        "votes": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_44",
+        "q_num": 44,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Nhungdacdiemcobancuathoikiquadolenchunghiaxahoilagi?",
+        "options": {
+          "A": "Thoikicaitaocachmangsausac,trietdexahoitubanchunghiatrenmoilinhvuc",
+          "B": "Thoikixaydungtungbuoc cosovatchat-kythuatvadoisongtinhthancuachunghiaxahoi",
+          "C": "Thoikidautranhgiai capkhituongquanluicluiongcanbang",
+          "D": "Thoikithuichiennenchuyenchinhlaodong"
+        },
+        "answer": "A, B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 2,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_45",
+        "q_num": 45,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Giaicapnaoladaibieucholuic luongsanxuattientien,chophuongthucsanxuathiendai?",
+        "options": {
+          "A": "Tuisan",
+          "B": "Nongdan",
+          "C": "Congnhan",
+          "D": "Thongtri"
+        },
+        "answer": "C",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 20,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_46",
+        "q_num": 46,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Vephuiongdienchinhtri-xahoi,giaicapcongnhancovitrinhuthenao?",
+        "options": {
+          "A": "Lanhungnguoinamgiutulieusanxuatcuaxahoitubanchunghia,tutochucsanxuatkinhdoanhlonma khonghoptacvoigiaicapnao",
+          "B": "Lanhungnguoikhongcosohuutulieusanxuatchuyeucuaxahoi,phaibansuclaodongchonhatuban vabiboclotgiatrithangdu",
+          "C": "Lanhungnguoisohuutulieusanxuat,hoptacvoinhatubandekiemsong",
+          "D": "Lanhungnguoicosohuumotsotu lieusanxuatnho,cothetusanxuatnhuingnhole,dephasannen phaibansuclaodongchonhatuibanlachinh"
+        },
+        "answer": "B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 19,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_47",
+        "q_num": 47,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Trong thời đại hiện nay, ở các nước xã hội chủ nghĩa, nơi các Đảng Cộng Sản đã trở thành đảng cầm quyền, sứ mệnh lịch sử của giai cấp công nhân về chính trị - xã hội là gì?",
+        "options": {
+          "A": "Đấu tranh giành chính quyền về tay giai cấp công nhân và nhân dân lao động",
+          "B": "Đấu tranh đòi các quyền tự do, dân chủ",
+          "C": "Lãnh đạo công cuộc đổi mới, giải quyết thành công các nhiệm vụ trong thời kỳ quá độ lên chủ nghĩa xã hội",
+          "D": "Chống bất công, bất bình đẳng xã hội"
+        },
+        "answer": "C",
+        "explanation": "Ở các nước XHCN, giai cấp công nhân đã nắm chính quyền nên sứ mệnh chính trị - xã hội là lãnh đạo thành công công cuộc đổi mới, xây dựng và bảo vệ chế độ XHCN.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 17,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_48",
+        "q_num": 48,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Sumenhlichsuithegidicuagiaicapcongnhanlagi?",
+        "options": {
+          "A": "Xoabosuthongtriapbuccuachunghiatuban,xayduingthanhcongchedoxahoimdi-xahoichunghia vacongsanchunghia,tientoimotxahoikhongcongiaicap",
+          "B": "Xoabosuthongtriapbuiccuachedophongkien,xaydungthanhcongchedoxahoimoi-xahoichu nghiavacongsanchunghia,tientoimotxahoikhongcongiaicap",
+          "C": "Xoabosuthongtriapbuccuachedocongxanguyenthuyxaydungthanhcongchedoxahoimoi-xa hoichunghiavacongsanchunghia,tientoimotxahoikhongcongiaicap",
+          "D": "Xoabosuithongtriapbuccuachunghiatuban,xaydungthanhcongchedoxahoimoi-phongkien"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_49",
+        "q_num": 49,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "PhongtraocongnhanoVietNamvaothekiXXchothaydactrungcuagiaicapcongnhanViatNamkhacvdi giaicapcongnhancacnuoctuibannhuthenao?",
+        "options": {
+          "A": "GiaicapcongnhanVietNamthehiendactinhcachmangveythucgiaicapvacaveythucdantoc",
+          "B": "GiaicapcongnhanVietNamchuiahanghaitrongcacphongtraodautranhnhui congnhancacnuoctui banchunghia",
+          "C": "GiaicapcongnhanVietNamkhiradoichuacosulanhdaokipthoicuaDangCongsannhucacnuoctu banchunghia",
+          "D": "MauthuangiuiagiaicapcongnhanVietNamvagiai captusantronggiaidoannaychuagaygatnhu cac nuoctuibanchunghia"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 18,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_50",
+        "q_num": 50,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Thuchiencongnghiephoa,ganliencongnghiephoavoihiendaihoa,daymanhcongnghiephoaganvoi phattrienkinhtetrithuc,baovetainguyen,moitruonglanhiemvucuagiaicapcongnhantrenlinhvucnao?",
+        "options": {
+          "A": "Chinhtri-xahoi",
+          "B": "Kinhte",
+          "C": "Vanhoa",
+          "D": "Tutuong"
+        },
+        "answer": "B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 19,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_51",
+        "q_num": 51,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Giai cấp công nhân Việt Nam ra đời trong bối cảnh nào?",
+        "options": {
+          "A": "Trong bối cảnh của các cuộc khai thác thuộc địa của thực dân Pháp ở Việt Nam",
+          "B": "Trong giai đoạn công nghiệp hóa phát triển mạnh mẽ ở nước ta",
+          "C": "Trong phong trào đấu tranh giành chính quyền từ khi có Đảng Cộng sản",
+          "D": "Trong lúc Đảng Cộng sản đã giành được chính quyền"
+        },
+        "answer": "A",
+        "explanation": "Giai cấp công nhân Việt Nam ra đời từ các cuộc khai thác thuộc địa lần thứ nhất và thứ hai của thực dân Pháp vào cuối thế kỷ XIX, đầu thế kỷ XX (ra đời trước cả giai cấp tư sản dân tộc Việt Nam).",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_52",
+        "q_num": 52,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Dựa trên phương diện chính trị - xã hội, giai cấp công nhân được hiểu như thế nào?",
+        "options": {
+          "A": "Là những người nông dân nghèo bị bóc lột sức lao động",
+          "B": "Là những người tri thức tham gia vào sản xuất",
+          "C": "Là sản phẩm xã hội của quá trình phát triển tư bản chủ nghĩa",
+          "D": "A và B đều đúng"
+        },
+        "answer": "C",
+        "explanation": "Về phương diện chính trị - xã hội: Giai cấp công nhân là sản phẩm xã hội của quá trình phát triển TBCN, không có tư liệu sản xuất, phải bán sức lao động và bị bóc lột giá trị thặng dư.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 20,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_53",
+        "q_num": 53,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Kizspy1Question: 53 Dien cum tu thich hop vao (.): Ve ly luan, khong the nghi ngo gi duoc rang giua .. va... co mot thoi ky qua do rquip teyu",
+        "options": {
+          "A": "Chu nghia tui ban/ chui nghia cong san",
+          "B": "Chu nghia tu ban/ Giai cap cong nhan",
+          "C": "Nhan dan lao dong/ chinh quyen",
+          "D": "Chinh tri/ xa hoi RUONERFLONEOIU"
+        },
+        "answer": "A",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "choose_num": 1,
+        "votes": {
+          "A": 19,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_54",
+        "q_num": 54,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam hiện nay, hình thức phân phối nào giữ vai trò chủ đạo?",
+        "options": {
+          "A": "Phân phối theo lao động",
+          "B": "Phân phối quỹ phúc lợi xã hội",
+          "C": "Phân phối theo nhu cầu",
+          "D": "Phân phối theo bao cấp"
+        },
+        "answer": "A",
+        "explanation": "Trong nền kinh tế thị trường định hướng XHCN, hình thức phân phối theo lao động (theo kết quả lao động và hiệu quả kinh tế) giữ vai trò chủ đạo.",
+        "choose_num": 1,
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_55",
+        "q_num": 55,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "DieugivualathachthucvuataorathoicochoVietNamtrongthoikyquadochunghiaxahoihiennay?",
+        "options": {
+          "A": "Cuoccachmangkhoahoccongnghevaxuthetoancauhoa",
+          "B": "Sutroidaycuachunghiaxahoi,tieubieulaTrungQuoc",
+          "C": "Suthaydoitrattuthegioi",
+          "D": "Sugiatangnhanhchongcualucluonglaodongnuocta"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 20,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_56",
+        "q_num": 56,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Theo C.Mác và Ph.Ăngghen, hình thái kinh tế - xã hội cộng sản chủ nghĩa phát triển như thế nào?",
+        "options": {
+          "A": "Phát triển theo hình xoáy ốc",
+          "B": "Phát triển ý muốn chủ quan của con người",
+          "C": "Phát triển theo sở thích của một đấng siêu nhiên nào đó trong vũ trụ",
+          "D": "Phát triển từ thấp lên cao"
+        },
+        "answer": "D",
+        "explanation": "Hình thái kinh tế - xã hội cộng sản chủ nghĩa phát triển theo quy luật từ thấp lên cao, bắt đầu từ thời kỳ quá độ đến giai đoạn chủ nghĩa xã hội và tiến lên giai đoạn cao là chủ nghĩa cộng sản.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 19
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_57",
+        "q_num": 57,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Vematythuyet,conduongcachmangvosannaocothetienhanh,nhungvocunghiem,quyvachuatung xayratrenthuicte?",
+        "options": {
+          "A": "Conduongbaoluiccachmang",
+          "B": "Conduionghoabinh",
+          "C": "Conduongkhoinghiavutrang",
+          "D": "Conduiongbaodonglatdo"
+        },
+        "answer": "B",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 18,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_58",
+        "q_num": 58,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "fuoverflow i7 Theo chu nghia Mac -Lenin, hinh thai kinh te-xa hoi cong san chu nghia co khac biet dac truing nao voi cac hinh thai kinh te -xa hoi chiem huu no le, phong kien va tu ban chu nghia?",
+        "options": {
+          "A": "Hinh thai kinh te-xa hoi cong san chu nghia la giai doan phat trien cao nhat va cuoi cung cua lich su loai nguoi",
+          "B": "Hinh thai kinh te-xa hoi cong san chu nghia khac biet ve chat, do la xa hoi khong co giai cap doi khang nhu cac xa hoi truoc do",
+          "C": "Hinh thai kinh te -xa hoi cong san chu nghia la phien ban dieu chinh tot hon tu tu ban chu nghia",
+          "D": "Hinh thai kinh te - xa hoi cong san chu nghia la quay tro lai cong san nguyen thuy"
+        },
+        "answer": "B",
+        "explanation": "Đáp án đúng theo chuẩn ngân hàng câu hỏi đề thi MLN131 FPT University.",
+        "choose_num": 1,
+        "votes": {
+          "A": 0,
+          "B": 18,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_59",
+        "q_num": 59,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "TheochunghiaMac-Lenin,chunghiaxahoiduochieulagi?",
+        "options": {
+          "A": "Giaidoandaucuahinhthaikinhte-xahoicongsanchunghia",
+          "B": "Mothinhthaikinhte-xahoi",
+          "C": "Lamotchedoxahoi,trongdosuthongtricuagiaicapcongnhanduocxaclap",
+          "D": "Lagiaidoanphattriéencaocuahinhthaikinhte-xahoicongsanchunghia"
+        },
+        "answer": "A",
+        "explanation": "Đáp án chuẩn theo đề thi thực tế FPT University môn MLN131 (SP25 FE Ca 2).",
+        "choose_num": 1,
+        "votes": {
+          "A": 18,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "mln131_sp25_fe_2_60",
+        "q_num": 60,
+        "exam_code": "MLN131 SP25 FE (2)",
+        "question": "Thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam hiện nay đang tồn tại hình thức phân phối nào?",
+        "options": {
+          "A": "Phân phối theo tiền lương",
+          "B": "Phân phối theo lao động, theo mức độ đóng góp và quỹ phúc lợi xã hội",
+          "C": "Phân phối theo tiền lương và phân phối theo nhu cầu",
+          "D": "Phân phối theo bao cấp"
+        },
+        "answer": "B",
+        "explanation": "Ở Việt Nam hiện nay thực hiện nhiều hình thức phân phối: phân phối theo kết quả lao động, hiệu quả kinh tế; phân phối theo mức độ đóng góp vốn cùng các nguồn lực khác; và phân phối thông qua hệ thống an sinh xã hội, quỹ phúc lợi xã hội.",
+        "choose_num": 1,
+        "votes": {
+          "A": 18,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      }
+    ]
   }
 };
-
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = window.MLN_DATA;
-}
