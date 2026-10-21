@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
@@ -302,14 +302,20 @@
 
             <!-- Decision buttons: Repeat vs Mastered -->
             <div class="decision-buttons" id="decisionToolbar" style="display: none;">
-              <button id="btnRepeat" class="btn-decision btn-repeat">
-                <span>🔄 Chưa nhớ (Lặp lại sau)</span>
-                <span class="kbd-hint">Phím 1 hoặc ←</span>
+              <button id="btnNext" class="btn-decision btn-next">
+                <span>➡️ Câu tiếp theo</span>
+                <span class="kbd-hint">Space / Enter</span>
               </button>
-              <button id="btnMastered" class="btn-decision btn-mastered">
-                <span>✅ Đã nhớ (Thuộc rồi)</span>
-                <span class="kbd-hint">Phím 2 hoặc →</span>
-              </button>
+              <div class="decision-override-row">
+                <button id="btnRepeat" class="btn-decision-subtle btn-subtle-repeat" title="Đổi thành Chưa nhớ (Lặp lại sau)">
+                  <span>🔄 Chưa nhớ (Lặp lại)</span>
+                  <span class="kbd-hint">Phím 1</span>
+                </button>
+                <button id="btnMastered" class="btn-decision-subtle btn-subtle-mastered" title="Đổi thành Đã nhớ (Thuộc rồi)">
+                  <span>✅ Đã nhớ</span>
+                  <span class="kbd-hint">Phím 2</span>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -358,6 +364,6 @@
   <!-- Load Data and Logic -->
   <script src="data.js"></script>
   <script src="mln_data.js"></script>
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

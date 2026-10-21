@@ -154,6 +154,7 @@ class QuizletApp {
     this.feedbackText = document.getElementById('feedbackText');
     this.decisionToolbar = document.getElementById('decisionToolbar');
     this.btnReveal = document.getElementById('btnReveal');
+    this.btnNext = document.getElementById('btnNext');
     this.btnRepeat = document.getElementById('btnRepeat');
     this.btnMastered = document.getElementById('btnMastered');
     this.imgPreviewBox = document.getElementById('imgPreviewBox');
@@ -593,8 +594,15 @@ class QuizletApp {
 
     // Card buttons
     if (this.btnReveal) this.btnReveal.addEventListener('click', () => this.revealAnswer());
-    if (this.btnRepeat) this.btnRepeat.addEventListener('click', () => this.handleDecision(false));
-    if (this.btnMastered) this.btnMastered.addEventListener('click', () => this.handleDecision(true));
+    if (this.btnNext) this.btnNext.addEventListener('click', () => this.nextQuestion());
+    if (this.btnRepeat) this.btnRepeat.addEventListener('click', () => {
+      this.recordDecision(false);
+      this.nextQuestion();
+    });
+    if (this.btnMastered) this.btnMastered.addEventListener('click', () => {
+      this.recordDecision(true);
+      this.nextQuestion();
+    });
     if (this.btnToggleImg) this.btnToggleImg.addEventListener('click', () => this.toggleImage());
     if (this.btnSubmitMulti) this.btnSubmitMulti.addEventListener('click', () => this.submitMultiAnswer());
 
@@ -707,13 +715,18 @@ class QuizletApp {
           }
         }
       } else {
-        // After card answered / revealed: Decision
+        // After card answered / revealed:
         if (key === '1' || key === 'L' || key === 'ARROWLEFT') {
           e.preventDefault();
-          this.handleDecision(false); // Chưa nhớ
-        } else if (key === '2' || key === 'R' || key === 'ARROWRIGHT' || key === 'ENTER' || key === ' ') {
+          this.recordDecision(false);
+          this.nextQuestion();
+        } else if (key === '2') {
           e.preventDefault();
-          this.handleDecision(true); // Đã nhớ
+          this.recordDecision(true);
+          this.nextQuestion();
+        } else if (key === 'ENTER' || key === ' ' || key === 'ARROWRIGHT' || key === 'R') {
+          e.preventDefault();
+          this.nextQuestion();
         }
       }
     });
@@ -949,6 +962,7 @@ class QuizletApp {
     });
 
     if (this.multiSubmitRow) this.multiSubmitRow.style.display = 'none';
+    this.recordDecision(isFullyCorrect);
     this.showFeedback(isFullyCorrect, q);
   }
 
@@ -972,6 +986,7 @@ class QuizletApp {
       }
     });
 
+    this.recordDecision(isCorrect);
     this.showFeedback(isCorrect, q);
   }
 
@@ -992,6 +1007,7 @@ class QuizletApp {
     });
 
     if (this.multiSubmitRow) this.multiSubmitRow.style.display = 'none';
+    this.recordDecision(false);
     this.showFeedback(null, q);
   }
 
@@ -1002,15 +1018,15 @@ class QuizletApp {
 
     if (isCorrect === true) {
       this.feedbackStatus.className = 'feedback-status correct';
-      const label = isMulti ? `✓ Chính xác tuyệt đối! (Đáp án: ${q.answer})` : `✓ Chính xác! (Đáp án: ${q.answer})`;
+      const label = isMulti ? `✓ Chính xác tuyệt đối! (Đáp án: ${q.answer}) • Đã thuộc ✅` : `✓ Chính xác! (Đáp án: ${q.answer}) • Đã thuộc ✅`;
       this.feedbackStatus.innerHTML = `<span>${label}</span>`;
     } else if (isCorrect === false) {
       this.feedbackStatus.className = 'feedback-status wrong';
-      const label = isMulti ? `✕ Chưa chính xác! (Đáp án đúng đầy đủ là: ${q.answer})` : `✕ Chưa đúng! (Đáp án đúng là: ${q.answer})`;
+      const label = isMulti ? `✕ Chưa chính xác! (Đáp án đúng: ${q.answer}) • Chưa thuộc 🔄` : `✕ Chưa đúng! (Đáp án đúng: ${q.answer}) • Chưa thuộc 🔄`;
       this.feedbackStatus.innerHTML = `<span>${label}</span>`;
     } else {
       this.feedbackStatus.className = 'feedback-status';
-      this.feedbackStatus.innerHTML = `<span style="color:var(--primary);">💡 Đáp án chính xác: ${q.answer}</span>`;
+      this.feedbackStatus.innerHTML = `<span style="color:var(--primary);">💡 Đáp án chính xác: ${q.answer} • Chưa thuộc 🔄</span>`;
     }
 
     let extraHtml = '';
@@ -1036,7 +1052,7 @@ class QuizletApp {
     this.decisionToolbar.style.display = 'flex';
   }
 
-  handleDecision(isMastered) {
+  recordDecision(isMastered) {
     const q = this.getCurrentQuestion();
     if (!q) return;
 
@@ -1053,8 +1069,28 @@ class QuizletApp {
     }
 
     this.saveProgress();
+    this.updateStats();
+    this.updatePortalProgress();
+    this.updateDecisionButtonsState(isMastered);
+  }
+
+  updateDecisionButtonsState(isMastered) {
+    if (this.btnMastered) {
+      this.btnMastered.classList.toggle('active', Boolean(isMastered));
+    }
+    if (this.btnRepeat) {
+      this.btnRepeat.classList.toggle('active', !isMastered);
+    }
+  }
+
+  nextQuestion() {
     this.currentIndex++;
     this.render();
+  }
+
+  handleDecision(isMastered) {
+    this.recordDecision(isMastered);
+    this.nextQuestion();
   }
 
   updateStats() {
