@@ -110,7 +110,7 @@ header {
   top: 0;
   z-index: 50;
   padding: 14px 24px;
-  transition: background-color 0.25s ease, border-color 0.25s ease;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.25s ease, border-color 0.25s ease;
 }
 
 .header-inner {
@@ -249,6 +249,35 @@ main {
   margin-bottom: 20px;
   box-shadow: var(--shadow-card);
   transition: all 0.25s ease;
+}
+
+.btn-toggle-exam-list {
+  background: var(--surface-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.btn-toggle-exam-list:hover {
+  background: var(--surface-hover);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.exam-selector-card.collapsed .exam-pills-row {
+  display: none !important;
+}
+
+.exam-selector-card.collapsed .exam-selector-top {
+  margin-bottom: 0 !important;
 }
 
 .exam-selector-top {
@@ -1598,12 +1627,458 @@ main {
 }
 
 @media (max-width: 768px) {
-  .exam-pills-row { grid-template-columns: 1fr; }
-  .header-inner { flex-direction: column; align-items: flex-start; gap: 14px; }
-  .header-controls { width: 100%; justify-content: space-between; }
-  .decision-buttons { flex-direction: column; }
-  .quiz-card { padding: 20px 16px; }
-  .portal-view { padding: 24px 16px 40px; }
-  .portal-topbar { margin-bottom: 20px; }
+  /* ================= APP HEADER COMPACT FOR MOBILE ================= */
+  header {
+    padding: 7px 12px;
+    padding-top: max(7px, env(safe-area-inset-top));
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  /* Smart auto-hide on scroll down to free up 100% screen for quiz */
+  header.header--hidden {
+    transform: translateY(-100%);
+    box-shadow: none;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+    max-width: 100%;
+  }
+
+  /* Row 1: Brand, course badge, exam title */
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    width: 100%;
+    min-height: 32px;
+  }
+
+  .btn-switch-course {
+    padding: 5px 9px;
+    font-size: 0.78rem;
+    border-radius: 8px;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+
+  .current-course-badge {
+    font-size: 0.72rem;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+
+  .brand-titles {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .brand-title {
+    font-size: 0.88rem;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+  }
+
+  .brand-sub {
+    display: none !important; /* Hide verbose subtitle on mobile */
+  }
+
+  /* Row 2: Tabs & Theme Toggle */
+  .header-controls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+
+  .nav-tabs {
+    flex: 1;
+    display: flex;
+    padding: 2px;
+    border-radius: 9px;
+    gap: 3px;
+  }
+
+  .tab-btn {
+    flex: 1;
+    justify-content: center;
+    padding: 5px 6px;
+    font-size: 0.78rem;
+    border-radius: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    gap: 4px;
+  }
+
+  .theme-toggle-btn {
+    padding: 5px 8px;
+    height: 30px;
+    min-width: 32px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+
+  .theme-toggle-btn .theme-text {
+    display: none; /* Hide text on mobile to keep button compact */
+  }
+
+  /* ================= MAIN CONTAINER ================= */
+  main {
+    padding: 8px 10px 40px;
+    padding-bottom: max(40px, env(safe-area-inset-bottom));
+  }
+
+  /* ================= EXAM SELECTOR ON MOBILE ================= */
+  .exam-selector-card {
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    border-radius: var(--radius-sm);
+  }
+
+  .exam-selector-top {
+    margin-bottom: 8px;
+    gap: 6px;
+  }
+
+  .selector-icon {
+    font-size: 1.05rem;
+  }
+
+  .selector-title {
+    font-size: 0.76rem;
+    letter-spacing: 0.02em;
+  }
+
+  .selector-desc {
+    display: none; /* Hide long description on mobile */
+  }
+
+  .dataset-stats-badge {
+    font-size: 0.72rem;
+    padding: 2px 7px;
+  }
+
+  /* Swipeable horizontal pill row instead of vertical 600px stack */
+  .exam-pills-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 6px;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scroll-snap-type: x proximity;
+  }
+
+  .exam-pills-row::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .exam-pills-row::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+  }
+
+  .exam-pill-btn {
+    flex: 0 0 auto;
+    min-width: 135px;
+    max-width: 170px;
+    padding: 7px 9px;
+    border-radius: 9px;
+    gap: 2px;
+    scroll-snap-align: start;
+  }
+
+  .pill-chip {
+    font-size: 0.65rem;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+
+  .pill-name {
+    font-size: 0.78rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .pill-meta {
+    font-size: 0.68rem;
+  }
+
+  /* ================= PROGRESS & STATS ON MOBILE ================= */
+  .quiz-progress-bar-container {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border-radius: var(--radius-sm);
+  }
+
+  .quiz-stats-row {
+    font-size: 0.76rem;
+    margin-bottom: 6px;
+    gap: 6px;
+  }
+
+  .stat-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .stat-tag {
+    font-size: 0.72rem;
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+
+  .progress-track {
+    height: 6px;
+    border-radius: 4px;
+  }
+
+  .icon-btn {
+    height: 28px;
+    font-size: 0.85rem;
+    border-radius: 7px;
+  }
+
+  .quiz-stats-row .icon-btn {
+    width: 28px;
+    padding: 0;
+  }
+
+  #btnToggleImg {
+    width: auto !important;
+    padding: 4px 10px;
+    font-size: 0.74rem;
+    white-space: nowrap;
+    border-radius: 7px;
+    flex-shrink: 0;
+  }
+
+  /* ================= QUIZLET CARD ON MOBILE ================= */
+  #quizletView {
+    gap: 10px;
+  }
+
+  .quiz-card {
+    padding: 14px 12px;
+    border-radius: 14px;
+    min-height: auto;
+    scroll-margin-top: 85px;
+  }
+
+  .card-top {
+    margin-bottom: 10px;
+    gap: 6px;
+  }
+
+  .q-badge {
+    font-size: 0.74rem;
+    padding: 3px 8px;
+  }
+
+  .q-exam-tag {
+    font-size: 0.72rem;
+    padding: 3px 6px;
+  }
+
+  .badge-multi-select {
+    font-size: 0.72rem;
+    padding: 3px 6px;
+  }
+
+  .q-text {
+    font-size: 1.02rem;
+    line-height: 1.45;
+    margin-bottom: 12px;
+    font-weight: 700;
+  }
+
+  .quiz-options {
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .option-btn {
+    padding: 10px 12px;
+    border-radius: 10px;
+    gap: 10px;
+    min-height: 46px;
+  }
+
+  .opt-prefix {
+    width: 26px;
+    height: 26px;
+    font-size: 0.8rem;
+    border-radius: 6px;
+  }
+
+  .opt-text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .opt-key-hint {
+    display: none; /* Hide desktop keyboard hints on touch mobile */
+  }
+
+  .kbd-hint {
+    display: none; /* Hide desktop Space, Enter hints on touch mobile */
+  }
+
+  .quiz-feedback {
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+  }
+
+  .feedback-status {
+    font-size: 0.92rem;
+    margin-bottom: 6px;
+  }
+
+  .feedback-text {
+    font-size: 0.84rem;
+    line-height: 1.45;
+  }
+
+  .card-footer {
+    margin-top: 4px;
+  }
+
+  .btn-reveal {
+    padding: 11px 16px;
+    font-size: 0.88rem;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .decision-buttons {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .btn-decision {
+    padding: 11px 16px;
+    font-size: 0.88rem;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn-submit-multi {
+    padding: 11px 16px;
+    font-size: 0.88rem;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* ================= LIST VIEW ON MOBILE ================= */
+  .quick-key-card {
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: var(--radius-sm);
+  }
+
+  .quick-key-card h3 {
+    font-size: 0.86rem;
+    margin-bottom: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .key-grid {
+    grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+    gap: 4px;
+    max-height: 190px;
+  }
+
+  .key-item {
+    padding: 3px 2px;
+    font-size: 0.7rem;
+    border-radius: 6px;
+  }
+
+  .search-input {
+    padding: 10px 14px;
+    font-size: 0.88rem;
+  }
+
+  .list-card {
+    padding: 12px 10px;
+    border-radius: 12px;
+    scroll-margin-top: 85px;
+  }
+
+  /* ================= PORTAL VIEW ON MOBILE ================= */
+  .portal-view {
+    padding: 20px 14px 36px;
+  }
+
+  .portal-topbar {
+    margin-bottom: 20px;
+  }
+
+  .portal-hero {
+    margin-bottom: 24px;
+  }
+
+  .portal-hero-title {
+    font-size: 1.65rem;
+    margin-bottom: 12px;
+  }
+
+  .portal-hero-desc {
+    font-size: 0.85rem;
+  }
+
+  .course-card {
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+
+  .portal-features-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+/* Extra small devices (iPhone SE, Galaxy fold, etc. <= 400px) */
+@media (max-width: 400px) {
+  .btn-switch-course .btn-label-text {
+    display: none;
+  }
+
+  .brand-title {
+    max-width: 135px;
+  }
+
+  .tab-btn {
+    font-size: 0.72rem;
+    padding: 5px 3px;
+  }
 }
 

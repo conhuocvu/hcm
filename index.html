@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 
@@ -164,14 +164,14 @@
   <div id="appStudyView" class="app-study-view" style="display:none;">
 
     <!-- App Header -->
-    <header>
+    <header id="appHeader" class="app-header">
       <div class="header-inner">
         <div class="brand">
           <button id="btnBackToPortal" class="btn-switch-course" title="Quay lại trang chọn môn (Phím ESC hoặc P)">
-            <span>🏠 Đổi môn</span>
+            <span>🏠 <span class="btn-label-text">Đổi môn</span></span>
           </button>
           <span class="current-course-badge course-badge-hcm" id="currentCourseBadge">🇻🇳 HCM202</span>
-          <div>
+          <div class="brand-titles">
             <div class="brand-title" id="appMainTitle">HCM202 — SU26 — RE</div>
             <div class="brand-sub" id="appSubTitle">Ôn thi Tư tưởng Hồ Chí Minh (Spaced Repetition & Multi-Exam)</div>
           </div>
@@ -200,8 +200,8 @@
     <main>
 
       <!-- EXAM / DATASET SELECTOR TOOLBAR -->
-      <section class="exam-selector-card">
-        <div class="exam-selector-top">
+      <section class="exam-selector-card" id="examSelectorCard">
+        <div class="exam-selector-top" id="examSelectorTop">
           <div class="exam-selector-heading">
             <span class="selector-icon">🎯</span>
             <div>
@@ -209,7 +209,12 @@
               <div class="selector-desc" id="selectorHeadingDesc">Học riêng từng đề thi hoặc tổng hợp toàn bộ câu hỏi (có lọc trùng)</div>
             </div>
           </div>
-          <div class="dataset-stats-badge" id="activeExamStatsBadge">Đang tải...</div>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <div class="dataset-stats-badge" id="activeExamStatsBadge">Đang tải...</div>
+            <button id="btnToggleExamList" class="btn-toggle-exam-list" title="Thu gọn / Mở rộng danh sách đề" aria-label="Toggle Exam List">
+              <span id="toggleExamIcon">▴</span>
+            </button>
+          </div>
         </div>
         
         <!-- Dynamic Pills Container -->
@@ -353,6 +358,6 @@
   <!-- Load Data and Logic -->
   <script src="data.js"></script>
   <script src="mln_data.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>

@@ -350,7 +350,13 @@ class QuizletApp {
     // Update active pill UI
     if (this.examPillsContainer) {
       this.examPillsContainer.querySelectorAll('.exam-pill-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.exam === examKey);
+        const isActive = btn.dataset.exam === examKey;
+        btn.classList.toggle('active', isActive);
+        if (isActive && window.innerWidth <= 768) {
+          try {
+            btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+          } catch (e) {}
+        }
       });
     }
 
@@ -601,6 +607,22 @@ class QuizletApp {
     const btnShuffle = document.getElementById('btnShuffle');
     if (btnShuffle) btnShuffle.addEventListener('click', () => this.shuffleQueue());
 
+    // Exam selector card toggle on mobile/desktop
+    const btnToggleExamList = document.getElementById('btnToggleExamList');
+    const examSelectorCard = document.getElementById('examSelectorCard');
+    const toggleExamIcon = document.getElementById('toggleExamIcon');
+    if (btnToggleExamList && examSelectorCard) {
+      btnToggleExamList.addEventListener('click', () => {
+        const isCollapsed = examSelectorCard.classList.toggle('collapsed');
+        if (toggleExamIcon) {
+          toggleExamIcon.textContent = isCollapsed ? '▾' : '▴';
+        }
+      });
+    }
+
+    // Initialize smart header scroll (auto-hide on scroll down for mobile)
+    this.initSmartHeaderScroll();
+
     // Search input
     if (this.searchInput) {
       this.searchInput.addEventListener('input', (e) => this.filterList(e.target.value));
@@ -699,6 +721,9 @@ class QuizletApp {
 
   switchMode(mode) {
     this.currentMode = mode;
+    const header = document.getElementById('appHeader');
+    if (header) header.classList.remove('header--hidden');
+
     if (mode === 'quizlet') {
       this.tabQuizlet.classList.add('active');
       this.tabList.classList.remove('active');
@@ -1253,6 +1278,36 @@ class QuizletApp {
       el.style.borderColor = 'var(--primary)';
       setTimeout(() => { el.style.borderColor = ''; }, 1500);
     }
+  }
+
+  /* ================= SMART MOBILE HEADER SCROLL ================= */
+  initSmartHeaderScroll() {
+    const header = document.getElementById('appHeader') || document.querySelector('header');
+    if (!header) return;
+
+    let lastScrollY = window.scrollY;
+    let ticking = false;
+
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const currentScrollY = window.scrollY;
+          if (window.innerWidth <= 768) {
+            // Only hide header when user scrolls down noticeably past top zone
+            if (currentScrollY > 70 && currentScrollY > lastScrollY + 8) {
+              header.classList.add('header--hidden');
+            } else if (currentScrollY < lastScrollY - 6 || currentScrollY <= 20) {
+              header.classList.remove('header--hidden');
+            }
+          } else {
+            header.classList.remove('header--hidden');
+          }
+          lastScrollY = Math.max(0, currentScrollY);
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
   }
 }
 
