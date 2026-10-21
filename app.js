@@ -33,6 +33,7 @@ class QuizletApp {
     this.currentCardAnswered = false;
     this.selectedOptions = new Set();
     this.round = 1;
+    this.autoAdvanceTimer = null;
 
     // Initialize UI
     this.initElements();
@@ -631,6 +632,22 @@ class QuizletApp {
     // Initialize smart header scroll (auto-hide on scroll down for mobile)
     this.initSmartHeaderScroll();
 
+    // Pause auto-advance timer if user hovers or touches the explanation box to read
+    if (this.feedbackBox) {
+      this.feedbackBox.addEventListener('mouseenter', () => {
+        if (this.autoAdvanceTimer) {
+          clearTimeout(this.autoAdvanceTimer);
+          this.autoAdvanceTimer = null;
+        }
+      });
+      this.feedbackBox.addEventListener('touchstart', () => {
+        if (this.autoAdvanceTimer) {
+          clearTimeout(this.autoAdvanceTimer);
+          this.autoAdvanceTimer = null;
+        }
+      }, { passive: true });
+    }
+
     // Search input
     if (this.searchInput) {
       this.searchInput.addEventListener('input', (e) => this.filterList(e.target.value));
@@ -768,6 +785,11 @@ class QuizletApp {
 
   /* ================= QUIZLET CARD ENGINE ================= */
   render() {
+    if (this.autoAdvanceTimer) {
+      clearTimeout(this.autoAdvanceTimer);
+      this.autoAdvanceTimer = null;
+    }
+
     this.updateStats();
 
     if (this.allQuestions.length === 0) {
@@ -964,11 +986,22 @@ class QuizletApp {
     if (this.multiSubmitRow) this.multiSubmitRow.style.display = 'none';
     this.recordDecision(isFullyCorrect);
     this.showFeedback(isFullyCorrect, q);
+
+    // Auto-advance: Correct -> 500ms; Wrong -> 1800ms
+    const delay = isFullyCorrect ? 500 : 1800;
+    this.autoAdvanceTimer = setTimeout(() => {
+      this.nextQuestion();
+    }, delay);
   }
 
   selectOption(selectedKey) {
     if (this.currentCardAnswered) return;
     this.currentCardAnswered = true;
+
+    if (this.autoAdvanceTimer) {
+      clearTimeout(this.autoAdvanceTimer);
+      this.autoAdvanceTimer = null;
+    }
 
     const q = this.getCurrentQuestion();
     const correctAnswers = `${q.answer || 'A'}`.split(',').map(s => s.trim());
@@ -988,6 +1021,12 @@ class QuizletApp {
 
     this.recordDecision(isCorrect);
     this.showFeedback(isCorrect, q);
+
+    // Auto-advance: Correct -> 500ms; Wrong -> 1800ms
+    const delay = isCorrect ? 500 : 1800;
+    this.autoAdvanceTimer = setTimeout(() => {
+      this.nextQuestion();
+    }, delay);
   }
 
   revealAnswer() {
@@ -1084,6 +1123,10 @@ class QuizletApp {
   }
 
   nextQuestion() {
+    if (this.autoAdvanceTimer) {
+      clearTimeout(this.autoAdvanceTimer);
+      this.autoAdvanceTimer = null;
+    }
     this.currentIndex++;
     this.render();
   }
