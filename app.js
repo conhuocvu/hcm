@@ -282,6 +282,7 @@ class QuizletApp {
         else if (key === 'fekts') chipClass = 'chip-fekts';
         else if (key === 'sp25_fe') chipClass = 'chip-sp25';
         else if (key === 'fa24_re') chipClass = 'chip-fa24-re';
+        else if (key === 'hcm_quen') chipClass = 'chip-quen';
         else if (key === 'combined') chipClass = 'chip-combined';
       }
 
@@ -862,6 +863,7 @@ class QuizletApp {
       else if (src.exam.includes('SP25')) tagClass = 'tag-sp25';
       else if (src.exam.includes('SU25') || src.exam.includes('B5')) tagClass = 'tag-su25';
       else if (src.exam.includes('FA24')) tagClass = 'tag-fa24-re';
+      else if (src.exam.includes('Quên') || src.exam.includes('quen')) tagClass = 'tag-quen';
       this.qExamTag.className = `q-exam-tag ${tagClass}`;
       this.qExamTag.textContent = `Đề ${src.exam} #${src.q_num}`;
     } else {
@@ -877,6 +879,7 @@ class QuizletApp {
       else if (code.includes('SP25')) tagClass = 'tag-sp25';
       else if (code.includes('SU25')) tagClass = 'tag-su25';
       else if (code.includes('FA24')) tagClass = 'tag-fa24-re';
+      else if (code.includes('Quên') || code.includes('quen')) tagClass = 'tag-quen';
       this.qExamTag.className = `q-exam-tag ${tagClass}`;
       this.qExamTag.textContent = q.exam_code || `Đề ${this.currentExam.toUpperCase()}`;
     }
@@ -1293,6 +1296,7 @@ class QuizletApp {
         else if (s.exam.includes('SP25')) tagClass = 'tag-sp25';
         else if (s.exam.includes('SU25') || s.exam.includes('B5')) tagClass = 'tag-su25';
         else if (s.exam.includes('FA24')) tagClass = 'tag-fa24-re';
+        else if (s.exam.includes('Quên') || s.exam.includes('quen')) tagClass = 'tag-quen';
         sourceTagHtml = `<span class="q-exam-tag ${tagClass}">Đề ${s.exam} #${s.q_num}</span>`;
       } else {
         const code = q.exam_code || '';
@@ -1307,6 +1311,7 @@ class QuizletApp {
         else if (code.includes('SP25')) tagClass = 'tag-sp25';
         else if (code.includes('SU25')) tagClass = 'tag-su25';
         else if (code.includes('FA24')) tagClass = 'tag-fa24-re';
+        else if (code.includes('Quên') || code.includes('quen')) tagClass = 'tag-quen';
         sourceTagHtml = `<span class="q-exam-tag ${tagClass}">${q.exam_code || ''}</span>`;
       }
 

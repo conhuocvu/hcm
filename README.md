@@ -30,7 +30,7 @@
 - Hỗ trợ cả 2 chế độ học: **Quizlet Lặp Lại Thông Minh (Spaced Repetition)** và **Bảng Tra Đáp Án Nhanh (Quick Key Tra Cứu)**.
 
 ### 3. 🇻🇳 Môn HCM202 — Tư Tưởng Hồ Chí Minh
-- **Đầy đủ 7 bộ đề thi thực tế mới nhất**:
+- **Đầy đủ 7 bộ đề thi thực tế mới nhất + 1 Bộ Đề Hay Quên**:
   - `SU26 RE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SU26 C1FE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `FA25 HALF1`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
@@ -38,7 +38,8 @@
   - `SU25 FEKTS`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `SP25 FE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
   - `FA24 RE`: 60 câu hỏi có đáp án chi tiết & ảnh gốc
-- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (280 câu độc bản)** kèm 420 ảnh chụp đề gốc và đối chiếu biến thể.
+  - `Hay Quên (HCM Quên)`: 133 câu hỏi trọng điểm hay quên (tổng hợp từ 145 ảnh chụp đề thực tế qua 2 đợt `hcm quen` & `hcm quen 1`, đã tự động lọc trùng các câu lặp và giải quyết các câu biến thể đáp án)
+- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (280 câu độc bản)** kèm 565 ảnh chụp đề gốc và đối chiếu biến thể.
 
 ### 4. 🎴 Hai chế độ luyện thi chuyên sâu
 - **Chế độ Quizlet (Spaced Repetition)**: Tự động ghi nhớ các câu chưa thuộc, lặp lại ngắt quãng theo vòng đến khi thuộc 100%.
