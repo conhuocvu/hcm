@@ -1,6 +1,6 @@
 # 🎓 FPT Quiz Master — Nền Tảng Ôn Thi Trắc Nghiệm Đa Môn FPT University
 
-Ứng dụng web ôn thi trắc nghiệm thông minh dành cho sinh viên **FPT University**, tích hợp trang chọn môn học trực quan trước khi vào, hỗ trợ hai môn lý luận chính trị trọng điểm: **HCM202 (Tư tưởng Hồ Chí Minh)** và **MLN131 (Chủ nghĩa xã hội khoa học)**.
+Ứng dụng web ôn thi trắc nghiệm thông minh dành cho sinh viên **FPT University**, tích hợp trang chọn môn học trực quan trước khi vào, hỗ trợ 3 môn lý luận chính trị trọng điểm: **HCM202 (Tư tưởng Hồ Chí Minh)**, **MLN131 (Chủ nghĩa xã hội khoa học)** và **VNR202 (Lịch sử Đảng Cộng sản Việt Nam)**.
 
 ---
 
@@ -9,9 +9,9 @@
 ### 1. 🧭 Trang Chọn Môn Học (Portal Landing View)
 - Giao diện chào đón hiện đại, trực quan trước khi vào ôn tập.
 - Thẻ thông tin chi tiết từng môn kèm tiến độ ghi nhớ theo thời gian thực (real-time progress bar).
-- Phím tắt chọn nhanh (`Phím 1` cho HCM202, `Phím 2` cho MLN131).
+- Phím tắt chọn nhanh (`Phím 1` cho HCM202, `Phím 2` cho MLN131, `Phím 3` cho VNR202).
 - Nút **"🏠 Đổi môn"** (Phím `ESC` hoặc `P`) trên thanh điều hướng giúp chuyển đổi linh hoạt bất cứ lúc nào.
-- Hỗ trợ URL Hash: `#portal`, `#hcm202`, `#mln131`, `#mln133`.
+- Hỗ trợ URL Hash: `#portal`, `#hcm202`, `#mln131`, `#mln133`, `#vnr202`, `#vnr`.
 
 ### 2. 🏛️ Môn MLN131 — Chủ Nghĩa Xã Hội Khoa Học
 - **10 Bộ đề thi FE/RE thực tế đầy đủ nhất**:
@@ -41,7 +41,19 @@
   - `Hay Quên (HCM Quên)`: 133 câu hỏi trọng điểm hay quên (tổng hợp từ 145 ảnh chụp đề thực tế qua 2 đợt `hcm quen` & `hcm quen 1`, đã tự động lọc trùng các câu lặp và giải quyết các câu biến thể đáp án)
 - **Bản Tổng Hợp Lọc Trùng Toàn Bộ (280 câu độc bản)** kèm 565 ảnh chụp đề gốc và đối chiếu biến thể.
 
-### 4. 🎴 Hai chế độ luyện thi chuyên sâu
+### 4. 🚩 Môn VNR202 — Lịch Sử Đảng Cộng Sản Việt Nam
+- **8 Bộ đề thi thực tế chuẩn format FPT University**:
+  - `Đề Ôn Tập 1`: 25 câu hỏi kèm ảnh đề gốc (`vnr/1/`) và giải thích chi tiết
+  - `Đề Ôn Tập 2`: 30 câu hỏi kèm ảnh đề gốc (`vnr/2/`) và giải thích chi tiết
+  - `Đề Ôn Tập 3`: 30 câu hỏi kèm ảnh đề gốc (`vnr/3/`) và giải thích chi tiết
+  - `Đề Ôn Tập 4`: 30 câu hỏi kèm ảnh đề gốc (`vnr/4/`) và giải thích chi tiết
+  - `Đề Ôn Tập 5`: 25 câu hỏi kèm ảnh đề gốc (`vnr/5/`) và giải thích chi tiết
+  - `Đề Ôn Tập 6`: 30 câu hỏi kèm ảnh đề gốc (`vnr/6/`) và giải thích chi tiết
+  - `Đề Ôn Tập 7`: 30 câu hỏi kèm ảnh đề gốc (`vnr/7/`) và giải thích chi tiết
+  - `Đề Ôn Tập 8`: 20 câu hỏi kèm ảnh đề gốc (`vnr/8/`) và giải thích chi tiết
+- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (170 câu độc bản)**: Tự động đối chiếu chéo và gộp 50 lượt câu hỏi trùng lặp giữa 8 đề (220 câu gốc -> 170 câu duy nhất), giữ nguyên liên kết đa nguồn `sources` và 220 ảnh gốc minh chứng.
+
+### 5. 🎴 Hai chế độ luyện thi chuyên sâu
 - **Chế độ Quizlet (Spaced Repetition)**: Tự động ghi nhớ các câu chưa thuộc, lặp lại ngắt quãng theo vòng đến khi thuộc 100%.
 - **Chế độ Danh sách & Tra cứu nhanh (Quick Key)**: Bảng tra đáp án toàn bộ câu hỏi và bộ tìm kiếm tức thì theo từ khóa.
 - **Tiện ích học tập**: Dark/Light mode (`Phím T`), phím tắt số (`1-4`, `A-D`, `Space/Enter`, `← / →`).

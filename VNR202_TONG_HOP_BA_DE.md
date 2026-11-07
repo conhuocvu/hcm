@@ -1,39 +1,45 @@
-# BẢNG TỔNG HỢP VNR202 — TOÀN BỘ CÂU HỎI ĐÃ LỌC TRÙNG (80 CÂU)
-> **Nguồn đề tổng hợp**: Đề 1 (25 câu - `vnr/1/`) + Đề 2 (30 câu - `vnr/2/`) + Đề 3 (30 câu - `vnr/3/`)
-> **Tổng số câu hỏi độc bản**: **80 câu trắc nghiệm** (Đã đối chiếu lọc trùng hoàn toàn giữa 3 đề)
-> **Số câu trùng lặp giữa các đề**: 5 câu (Đề 3 #7 ≡ Đề 2 #10, Đề 3 #12 ≡ Đề 2 #19, Đề 3 #15 ≡ Đề 2 #7, Đề 3 #23 ≡ Đề 2 #1, Đề 3 #25 ≡ Đề 2 #23)
+# BẢNG TỔNG HỢP VNR202 — TOÀN BỘ CÂU HỎI ĐÃ LỌC TRÙNG (103 CÂU)
+> **Nguồn đề tổng hợp**: Đề 1 (25 câu) + Đề 2 (30 câu) + Đề 3 (30 câu) + Đề 4 (30 câu)
+> **Tổng số câu hỏi độc bản**: **103 câu trắc nghiệm** (Đã đối chiếu lọc trùng hoàn toàn giữa 4 đề)
+> **Tổng số ảnh đề gốc đính kèm**: 115 ảnh gốc
 > **Mục tiêu**: Bộ ngân hàng câu hỏi ôn thi toàn diện đạt điểm tối đa môn VNR202 tại FPT University.
 
 ---
 
-## BẢNG TỔNG HỢP ĐÁP ÁN TOÀN DIỆN (QUICK KEY 80 CÂU)
+## BẢNG TỔNG HỢP ĐÁP ÁN TOÀN DIỆN (QUICK KEY 103 CÂU)
 
 | Câu | Nguồn | Đáp án | Câu | Nguồn | Đáp án | Câu | Nguồn | Đáp án | Câu | Nguồn | Đáp án |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | Đề 1 | **D** | **21** | Đề 1 | **D** | **41** | Đề 2 | **B** | **61** | Đề 3 | **D** |
-| **2** | Đề 1 | **C** | **22** | Đề 1 | **D** | **42** | Đề 2 | **A** | **62** | Đề 3 | **C** |
-| **3** | Đề 1 | **B** | **23** | Đề 1 | **B** | **43** | Đề 2 | **A** | **63** | Đề 3 | **A** |
-| **4** | Đề 1 | **A** | **24** | Đề 1 | **B** | **44** | Đề 19/12 | **C** | **64** | Đề 3 | **B** |
-| **5** | Đề 1 | **C** | **25** | Đề 1 | **D** | **45** | Đề 2 | **D** | **65** | Đề 3 | **C** |
-| **6** | Đề 1 | **A** | **26** | Đề 1/23 | **A** | **46** | Đề 2 | **A** | **66** | Đề 3 | **D** |
-| **7** | Đề 1 | **A** | **27** | Đề 2 | **B** | **47** | Đề 2 | **C** | **67** | Đề 3 | **C** |
-| **8** | Đề 1 | **A** | **28** | Đề 2 | **C** | **48** | Đề 23/25 | **A** | **68** | Đề 3 | **A** |
-| **9** | Đề 1 | **C** | **29** | Đề 2 | **C** | **49** | Đề 2 | **A** | **69** | Đề 3 | **B** |
-| **10** | Đề 1 | **A** | **30** | Đề 2 | **B** | **50** | Đề 2 | **C** | **70** | Đề 3 | **C** |
-| **11** | Đề 1 | **B** | **31** | Đề 2 | **D** | **51** | Đề 2 | **B** | **71** | Đề 3 | **B** |
-| **12** | Đề 1 | **D** | **32** | Đề 7/15 | **C** | **52** | Đề 2 | **B** | **72** | Đề 3 | **A** |
-| **13** | Đề 1 | **C** | **33** | Đề 2 | **B** | **53** | Đề 2 | **A** | **73** | Đề 3 | **A** |
-| **14** | Đề 1 | **D** | **34** | Đề 2 | **D** | **54** | Đề 2 | **B** | **74** | Đề 3 | **A** |
-| **15** | Đề 1 | **A** | **35** | Đề 10/7 | **D** | **55** | Đề 2 | **A** | **75** | Đề 3 | **A** |
-| **16** | Đề 1 | **B** | **36** | Đề 2 | **C** | **56** | Đề 3 | **C** | **76** | Đề 3 | **B** |
-| **17** | Đề 1 | **C** | **37** | Đề 2 | **C** | **57** | Đề 3 | **B** | **77** | Đề 3 | **D** |
-| **18** | Đề 1 | **A** | **38** | Đề 2 | **D** | **58** | Đề 3 | **A** | **78** | Đề 3 | **D** |
-| **19** | Đề 1 | **D** | **39** | Đề 2 | **B** | **59** | Đề 3 | **D** | **79** | Đề 3 | **D** |
-| **20** | Đề 1 | **D** | **40** | Đề 2 | **A** | **60** | Đề 3 | **C** | **80** | Đề 3 | **B** |
+| **1** | Đề 1 | **D** | **27** | 2 Đề | **B** | **53** | Đề 2 | **A** | **79** | Đề 3 | **D** |
+| **2** | Đề 1 | **C** | **28** | Đề 2 | **C** | **54** | Đề 2 | **B** | **80** | Đề 3 | **B** |
+| **3** | Đề 1 | **B** | **29** | Đề 2 | **C** | **55** | Đề 2 | **A** | **81** | Đề 4 | **D** |
+| **4** | Đề 1 | **A** | **30** | Đề 2 | **B** | **56** | Đề 3 | **C** | **82** | Đề 4 | **A** |
+| **5** | Đề 1 | **C** | **31** | Đề 2 | **D** | **57** | Đề 3 | **B** | **83** | Đề 4 | **C** |
+| **6** | Đề 1 | **A** | **32** | 2 Đề | **C** | **58** | Đề 3 | **A** | **84** | Đề 4 | **D** |
+| **7** | Đề 1 | **A** | **33** | 2 Đề | **B** | **59** | Đề 3 | **D** | **85** | Đề 4 | **B** |
+| **8** | Đề 1 | **A** | **34** | Đề 2 | **D** | **60** | Đề 3 | **C** | **86** | Đề 4 | **A** |
+| **9** | Đề 1 | **C** | **35** | 2 Đề | **D** | **61** | Đề 3 | **D** | **87** | Đề 4 | **A** |
+| **10** | Đề 1 | **A** | **36** | Đề 2 | **C** | **62** | Đề 3 | **C** | **88** | Đề 4 | **B** |
+| **11** | Đề 1 | **B** | **37** | Đề 2 | **C** | **63** | Đề 3 | **A** | **89** | Đề 4 | **C** |
+| **12** | Đề 1 | **D** | **38** | Đề 2 | **D** | **64** | Đề 3 | **B** | **90** | Đề 4 | **A** |
+| **13** | Đề 1 | **C** | **39** | Đề 2 | **B** | **65** | Đề 3 | **C** | **91** | Đề 4 | **A** |
+| **14** | Đề 1 | **D** | **40** | Đề 2 | **A** | **66** | Đề 3 | **D** | **92** | Đề 4 | **C** |
+| **15** | Đề 1 | **A** | **41** | Đề 2 | **B** | **67** | Đề 3 | **C** | **93** | Đề 4 | **D** |
+| **16** | Đề 1 | **B** | **42** | Đề 2 | **A** | **68** | Đề 3 | **A** | **94** | Đề 4 | **B** |
+| **17** | Đề 1 | **C** | **43** | Đề 2 | **A** | **69** | 2 Đề | **B** | **95** | Đề 4 | **B** |
+| **18** | Đề 1 | **A** | **44** | 3 Đề | **C** | **70** | Đề 3 | **C** | **96** | Đề 4 | **B** |
+| **19** | Đề 1 | **D** | **45** | Đề 2 | **D** | **71** | Đề 3 | **B** | **97** | Đề 4 | **B** |
+| **20** | Đề 1 | **D** | **46** | Đề 2 | **A** | **72** | Đề 3 | **A** | **98** | Đề 4 | **C** |
+| **21** | Đề 1 | **D** | **47** | Đề 2 | **C** | **73** | Đề 3 | **A** | **99** | Đề 4 | **D** |
+| **22** | Đề 1 | **D** | **48** | 2 Đề | **A** | **74** | Đề 3 | **A** | **100** | Đề 4 | **A** |
+| **23** | Đề 1 | **B** | **49** | 2 Đề | **A** | **75** | 2 Đề | **A** | **101** | Đề 4 | **D** |
+| **24** | Đề 1 | **B** | **50** | Đề 2 | **C** | **76** | 2 Đề | **B** | **102** | Đề 4 | **D** |
+| **25** | Đề 1 | **D** | **51** | Đề 2 | **B** | **77** | Đề 3 | **D** | **103** | Đề 4 | **A** |
+| **26** | 2 Đề | **A** | **52** | Đề 2 | **B** | **78** | Đề 3 | **D** | | | |
 
 ---
 
-## NỘI DUNG CHI TIẾT 80 CÂU HỎI ĐÃ LỌC TRÙNG
+## NỘI DUNG CHI TIẾT 103 CÂU HỎI ĐÃ LỌC TRÙNG
 
 ### Câu 1 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 1 (Câu 1)]</span>
 
@@ -425,7 +431,7 @@
 
 ---
 
-### Câu 27 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 2 (Câu 2)]</span>
+### Câu 27 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 2 (Câu 2), VNR202 - Đề 4 (Câu 30)]</span>
 
 **Tháng 3/1938, Đảng quyết định thành lập tổ chức nào để tập hợp rộng rãi lực lượng đông đảo nhân dân chống phát-xít và tay sai phản động?**
 
@@ -435,7 +441,7 @@
 - [D] Mặt trận Nhân dân phản đế Đông Dương
 
 > **Đáp án chính xác**: **B**  
-> **Nguồn gốc đề**: VNR202 - Đề 2 (Câu 2) — Ảnh: `vnr/2/2.jpg`  
+> **Nguồn gốc đề**: VNR202 - Đề 2 (Câu 2), VNR202 - Đề 4 (Câu 30) — Ảnh: `vnr/2/2.jpg`, `vnr/4/30.jpg`  
 > **Giải thích chi tiết**: Tại Hội nghị Ban Chấp hành Trung ương họp tháng 3/1938, Đảng quyết định đổi tên Mặt trận Thống nhất nhân dân phản đế Đông Dương thành Mặt trận Dân chủ Đông Dương để tập hợp rộng rãi quần chúng đấu tranh chống phát xít, tay sai và chiến tranh đế quốc.
 
 ---
@@ -515,7 +521,7 @@
 
 ---
 
-### Câu 33 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 2 (Câu 8)]</span>
+### Câu 33 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 2 (Câu 8), VNR202 - Đề 4 (Câu 23)]</span>
 
 **Cần phải coi trọng phương pháp tổng kết thực tiễn lịch sử gắn với nghiên cứu lý luận trong nghiên cứu Lịch sử Đảng Cộng sản Việt Nam để:**
 
@@ -525,7 +531,7 @@
 - [D] Làm hài lòng người dân trong quá trình lãnh đạo cách mạng của Đảng
 
 > **Đáp án chính xác**: **B**  
-> **Nguồn gốc đề**: VNR202 - Đề 2 (Câu 8) — Ảnh: `vnr/2/8.jpg`  
+> **Nguồn gốc đề**: VNR202 - Đề 2 (Câu 8), VNR202 - Đề 4 (Câu 23) — Ảnh: `vnr/2/8.jpg`, `vnr/4/23.jpg`  
 > **Giải thích chi tiết**: Tổng kết thực tiễn lịch sử gắn với nghiên cứu lý luận là phương pháp khoa học nhằm rút ra các bài học kinh nghiệm, làm sáng tỏ các quy luật khách quan trong sự lãnh đạo của Đảng đối với cách mạng Việt Nam.
 
 ---
@@ -680,7 +686,7 @@
 
 ---
 
-### Câu 44 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 2 (Câu 19), VNR202 - Đề 3 (Câu 12)]</span>
+### Câu 44 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 2 (Câu 19), VNR202 - Đề 3 (Câu 12), VNR202 - Đề 4 (Câu 14)]</span>
 
 **Là một ngành của khoa học lịch sử, Lịch sử Đảng Cộng sản Việt Nam có các chức năng, nhiệm vụ của khoa học lịch sử, đồng thời còn có thêm các chức năng nổi bật khác là:**
 
@@ -690,7 +696,7 @@
 - [D] Chức năng nhận thức, điều tiết, chọn lọc và tìm kiếm
 
 > **Đáp án chính xác**: **C**  
-> **Nguồn gốc đề**: VNR202 - Đề 2 (Câu 19), VNR202 - Đề 3 (Câu 12) — Ảnh: `vnr/2/19.jpg`, `vnr/3/12.jpg`  
+> **Nguồn gốc đề**: VNR202 - Đề 2 (Câu 19), VNR202 - Đề 3 (Câu 12), VNR202 - Đề 4 (Câu 14) — Ảnh: `vnr/2/19.jpg`, `vnr/3/12.jpg`, `vnr/4/14.jpg`  
 > **Giải thích chi tiết**: Khoa học Lịch sử Đảng Cộng sản Việt Nam thực hiện 3 nhóm chức năng cốt lõi: Chức năng nhận thức (cung cấp tri thức chân thực về tiến trình lịch sử); Chức năng giáo dục (giáo dục lý tưởng, niềm tin cách mạng); Chức năng dự báo và phê phán (định hướng tương lai và đấu tranh chống các luận điệu sai trái).
 
 ---
@@ -755,7 +761,7 @@
 
 ---
 
-### Câu 49 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 2 (Câu 24)]</span>
+### Câu 49 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 2 (Câu 24), VNR202 - Đề 4 (Câu 24)]</span>
 
 **Đâu là mặt hạn chế của cuộc cải cách ruộng đất (1957) do Đảng phát động?**
 
@@ -765,7 +771,7 @@
 - [D] Chia ruộng đất chưa đồng đều cho người nông dân
 
 > **Đáp án chính xác**: **A**  
-> **Nguồn gốc đề**: VNR202 - Đề 2 (Câu 24) — Ảnh: `vnr/2/24.jpg`  
+> **Nguồn gốc đề**: VNR202 - Đề 2 (Câu 24), VNR202 - Đề 4 (Câu 24) — Ảnh: `vnr/2/24.jpg`, `vnr/4/24.jpg`  
 > **Giải thích chi tiết**: Trong cuộc cải cách ruộng đất ở miền Bắc, Đảng và Nhà nước đã mắc phải một số sai lầm nghiêm trọng mang tính chủ quan, giáo điều, độc đoán, quan liêu, dẫn đến việc xử lý oan sai cho nhiều người (sau đó Đảng và Bác Hồ đã chân thành nhận khuyết điểm và tiến hành công tác sửa sai).
 
 ---
@@ -1055,7 +1061,7 @@
 
 ---
 
-### Câu 69 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 3 (Câu 17)]</span>
+### Câu 69 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 3 (Câu 17), VNR202 - Đề 4 (Câu 8)]</span>
 
 **Lực lượng tham gia phong trào 1930–1931 chủ yếu là:**
 
@@ -1065,7 +1071,7 @@
 - [D] Nông dân và binh lính Pháp
 
 > **Đáp án chính xác**: **B**  
-> **Nguồn gốc đề**: VNR202 - Đề 3 (Câu 17) — Ảnh: `vnr/3/17.jpg`  
+> **Nguồn gốc đề**: VNR202 - Đề 3 (Câu 17), VNR202 - Đề 4 (Câu 8) — Ảnh: `vnr/3/17.jpg`, `vnr/4/8.jpg`  
 > **Giải thích chi tiết**: Cao trào cách mạng 1930-1931 có quy mô rộng lớn khắp 3 kỳ, trong đó lực lượng tham gia đông đảo, giữ vai trò chủ lực và tiên phong là giai cấp công nhân và nông dân.
 
 ---
@@ -1145,7 +1151,7 @@
 
 ---
 
-### Câu 75 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 3 (Câu 24)]</span>
+### Câu 75 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 3 (Câu 24), VNR202 - Đề 4 (Câu 13)]</span>
 
 **Điền vào chỗ trống từ còn thiếu để hoàn thành câu nói sau của Chủ tịch Hồ Chí Minh: “Ngày nay chúng ta đã xây dựng nên nước Việt Nam Dân chủ Cộng hoà. Nhưng nếu nước độc lập mà dân không được hưởng ......thì độc lập cũng chẳng có ý nghĩa gì”, (Trích Thư gửi Uỷ ban nhân dân các kỳ, tỉnh, huyện và làng ngày 17/10/1945)**
 
@@ -1155,12 +1161,12 @@
 - [D] Ruộng đất, ấm no
 
 > **Đáp án chính xác**: **A**  
-> **Nguồn gốc đề**: VNR202 - Đề 3 (Câu 24) — Ảnh: `vnr/3/24.jpg`  
+> **Nguồn gốc đề**: VNR202 - Đề 3 (Câu 24), VNR202 - Đề 4 (Câu 13) — Ảnh: `vnr/3/24.jpg`, `vnr/4/13.jpg`  
 > **Giải thích chi tiết**: Trong Thư gửi Ủy ban nhân dân các kỳ, tỉnh, huyện và làng ngày 17/10/1945, Bác Hồ căn dặn: 'Ngày nay chúng ta đã xây dựng nên nước Việt Nam Dân chủ Cộng hoà. Nhưng nếu nước độc lập mà dân không được hưởng hạnh phúc, tự do thì độc lập cũng chẳng có ý nghĩa gì'.
 
 ---
 
-### Câu 76 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 3 (Câu 26)]</span>
+### Câu 76 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 3 (Câu 26), VNR202 - Đề 4 (Câu 3)]</span>
 
 **Một trong những ý nghĩa của việc nghiên cứu, học tập môn học Lịch sử Đảng Cộng sản Việt Nam đối với sinh viên là:**
 
@@ -1170,7 +1176,7 @@
 - [D] Tham gia xây dựng cải cách, cải tổ Đảng theo mô hình của Đông Âu và Liên Xô nhằm làm cho Đảng thêm vững mạnh
 
 > **Đáp án chính xác**: **B**  
-> **Nguồn gốc đề**: VNR202 - Đề 3 (Câu 26) — Ảnh: `vnr/3/26.jpg`  
+> **Nguồn gốc đề**: VNR202 - Đề 3 (Câu 26), VNR202 - Đề 4 (Câu 3) — Ảnh: `vnr/3/26.jpg`, `vnr/4/3.jpg`  
 > **Giải thích chi tiết**: Ý nghĩa to lớn của môn học đối với sinh viên là bồi dưỡng lý tưởng cách mạng, truyền thống đấu tranh bất khuất của dân tộc và củng cố niềm tin vững chắc vào sự lãnh đạo sáng suốt của Đảng Cộng sản Việt Nam.
 
 ---
@@ -1232,5 +1238,350 @@
 > **Đáp án chính xác**: **B**  
 > **Nguồn gốc đề**: VNR202 - Đề 3 (Câu 30) — Ảnh: `vnr/3/30.jpg`  
 > **Giải thích chi tiết**: Hội nghị hợp nhất các tổ chức cộng sản thành lập Đảng Cộng sản Việt Nam đầu năm 1930 đã thống nhất 3 tổ chức cộng sản riêng rẽ thành một chính đảng duy nhất, tạo bước ngoặt vĩ đại cho phong trào cách mạng Việt Nam.
+
+---
+
+### Câu 81 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 1)]</span>
+
+**Tổ chức được thành lập vào năm 1941 để lãnh đạo trực tiếp phong trào giải phóng dân tộc là:**
+
+- [A] Mặt trận Tổ quốc Việt Nam
+- [B] Mặt trận Dân chủ Đông Dương
+- [C] Mặt trận Dân tộc thống nhất
+- **[D] Mặt trận Việt Minh**
+
+> **Đáp án chính xác**: **D**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 1) — Ảnh: `vnr/4/1.jpg`  
+> **Giải thích chi tiết**: Ngày 19/5/1941, tại Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 ở Pác Bó (Cao Bằng), theo đề nghị của đồng chí Nguyễn Ái Quốc, Mặt trận Việt Nam Độc lập Đồng minh (gọi tắt là Việt Minh) được thành lập nhằm đoàn kết toàn thể các tầng lớp nhân dân chống đế quốc, phát xít, giành độc lập dân tộc.
+
+---
+
+### Câu 82 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 2)]</span>
+
+**Tính chất của cuộc Cách mạng Tháng Tám năm 1945 là:**
+
+- **[A] Cuộc cách mạng giải phóng dân tộc**
+- [B] Cuộc cách mạng tư sản
+- [C] Cuộc cách mạng giải phóng giai cấp
+- [D] Cuộc cách mạng khoa học kỹ thuật
+
+> **Đáp án chính xác**: **A**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 2) — Ảnh: `vnr/4/2.jpg`  
+> **Giải thích chi tiết**: Cách mạng Tháng Tám năm 1945 là một cuộc cách mạng giải phóng dân tộc mang tính chất nhân dân sâu sắc, dân chủ mới; nhiệm vụ số một và hàng đầu là đánh đổ ách thống trị của phát xít Nhật và thực dân Pháp để giành độc lập, tự do cho Tổ quốc.
+
+---
+
+### Câu 83 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 4)]</span>
+
+**Nguyễn Ái Quốc đã chuẩn bị điều kiện nào dưới đây cho việc thành lập Đảng?**
+
+- [A] Tuyên truyền văn hóa dân tộc
+- [B] Thuyết phục chính phủ Pháp cải cách
+- **[C] Truyền bá chủ nghĩa Mác – Lênin, đào tạo cán bộ, thống nhất tổ chức**
+- [D] Xây dựng liên minh công – nông – sĩ
+
+> **Đáp án chính xác**: **C**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 4) — Ảnh: `vnr/4/4.jpg`  
+> **Giải thích chi tiết**: Từ năm 1921 đến 1930, đồng chí Nguyễn Ái Quốc đã có công lao to lớn chuẩn bị chu đáo về tư tưởng, chính trị và tổ chức cho sự ra đời của Đảng: truyền bá chủ nghĩa Mác - Lênin vào trong nước, mở các lớp huấn luyện cán bộ tại Quảng Châu và chủ trì hợp nhất các tổ chức cộng sản.
+
+---
+
+### Câu 84 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 5)]</span>
+
+**Hoạt động nào dưới đây được Chủ tịch Hồ Chí Minh đặc biệt coi trọng, thể hiện tính ưu việt của chế độ mới, góp phần tích cực xây dựng hệ thống chính quyền cách mạng, phát huy quyền làm chủ của nhân dân?**
+
+- [A] Khai hoang làm kinh tế mới
+- [B] Trồng cây gây rừng
+- [C] Cải cách ruộng đất
+- **[D] Chống giặc dốt, xoá nạn mù chữ**
+
+> **Đáp án chính xác**: **D**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 5) — Ảnh: `vnr/4/5.jpg`  
+> **Giải thích chi tiết**: Ngay sau khi thành lập nước, Chủ tịch Hồ Chí Minh đã coi việc 'chống giặc dốt, xóa nạn mù chữ' là một nhiệm vụ cấp bách hàng đầu vì 'Một dân tộc dốt là một dân tộc yếu', nhân dân phải biết đọc, biết viết mới hiểu quyền lợi, nghĩa vụ của mình và phát huy thực sự quyền làm chủ đất nước.
+
+---
+
+### Câu 85 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 6)]</span>
+
+**Yếu tố nào dưới đây được xem như là kinh nghiệm của Đảng trong lãnh đạo kháng chiến chống Pháp và can thiệp Mỹ giai đoạn 1945 – 1954?**
+
+- [A] Đề ra được phương châm xuyên suốt trong cuộc kháng chiến là lối đánh nhanh, thắng nhanh
+- **[B] Kết hợp chặt chẽ và giải quyết đúng đắn mối quan hệ giữa hai nhiệm vụ cơ bản vừa kháng chiến vừa kiến quốc**
+- [C] Có những sách lược ngoại giao khôn khéo để tranh thủ sự ủng hộ của các nước xã hội chủ nghĩa anh em
+- [D] Tập trung toàn bộ sức lực của toàn Đảng, toàn dân vào xây dựng và phát triển lực lượng vũ trang
+
+> **Đáp án chính xác**: **B**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 6) — Ảnh: `vnr/4/6.jpg`  
+> **Giải thích chi tiết**: Một bài học kinh nghiệm tiêu biểu của Đảng trong cuộc kháng chiến chống thực dân Pháp (1945-1954) là kết hợp chặt chẽ và giải quyết đúng đắn mối quan hệ giữa hai nhiệm vụ chiến lược: vừa kháng chiến đánh giặc giải phóng quê hương, vừa kiến quốc xây dựng chế độ mới và hậu phương vững mạnh.
+
+---
+
+### Câu 86 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 7)]</span>
+
+**Nha Bình dân học vụ được thành lập vào năm nào?**
+
+- **[A] 1945**
+- [B] 1965
+- [C] 1975
+- [D] 1955
+
+> **Đáp án chính xác**: **A**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 7) — Ảnh: `vnr/4/7.jpg`  
+> **Giải thích chi tiết**: Ngày 8/9/1945, Chính phủ lâm thời nước Việt Nam Dân chủ Cộng hòa do Chủ tịch Hồ Chí Minh đứng đầu đã ban hành Sắc lệnh số 17-SL thành lập Nha Bình dân học vụ để phụ trách việc chống mù chữ trên toàn quốc.
+
+---
+
+### Câu 87 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 9)]</span>
+
+**Đông Dương Cộng sản Đảng và An Nam Cộng sản Đảng được ra đời từ tổ chức tiền thân nào dưới đây?**
+
+- **[A] Hội Việt Nam Cách mạng Thanh niên**
+- [B] Việt Nam Cách mạng đồng chí Hội
+- [C] Tâm tâm xã
+- [D] Tân Việt Cách mạng Đảng
+
+> **Đáp án chính xác**: **A**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 9) — Ảnh: `vnr/4/9.jpg`  
+> **Giải thích chi tiết**: Năm 1929, phong trào cách mạng phát triển mạnh mẽ dẫn tới sự phân hóa tích cực của Hội Việt Nam Cách mạng Thanh niên: chi bộ cộng sản đầu tiên lập ra Đông Dương Cộng sản Đảng (6/1929 tại Bắc Kỳ), tiếp sau đó bộ phận cán bộ tiên tiến của Hội ở Nam Kỳ thành lập An Nam Cộng sản Đảng (8/1929).
+
+---
+
+### Câu 88 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 10)]</span>
+
+**Hình thức đấu tranh chủ yếu của cách mạng Việt Nam trong thời kỳ 1941–1945 là:**
+
+- [A] Đàm phán trực tiếp với Pháp và Nhật
+- **[B] Đấu tranh vũ trang kết hợp chính trị**
+- [C] Biểu tình vũ trang toàn quốc
+- [D] Đấu tranh nghị trường kết hợp biểu tình
+
+> **Đáp án chính xác**: **B**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 10) — Ảnh: `vnr/4/10.jpg`  
+> **Giải thích chi tiết**: Trong thời kỳ 1941-1945, Hội nghị Trung ương 8 (5/1941) đã xác định rõ hình thức đấu tranh chủ yếu là kết hợp khởi nghĩa vũ trang từng phần, đấu tranh vũ trang với đấu tranh chính trị của quần chúng, tiến tới Tổng khởi nghĩa giành chính quyền khi thời cơ chín muồi.
+
+---
+
+### Câu 89 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 11)]</span>
+
+**Nhiệm vụ trọng tâm của Đảng trong giai đoạn 1932–1935 là:**
+
+- [A] Tập trung đấu tranh nghị trường
+- [B] Xây dựng lực lượng quân sự chính quy
+- **[C] Khôi phục hệ thống tổ chức và củng cố phong trào cách mạng**
+- [D] Mở rộng khởi nghĩa vũ trang
+
+> **Đáp án chính xác**: **C**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 11) — Ảnh: `vnr/4/11.jpg`  
+> **Giải thích chi tiết**: Sau khi cao trào 1930-1931 bị thực dân Pháp đàn áp tàn khốc, các tổ chức cơ sở đảng tan vỡ, nhiều đồng chí lãnh đạo bị bắt và hy sinh; nhiệm vụ trung tâm, sống còn của Đảng giai đoạn 1932-1935 là kiên trì đấu tranh phục hồi hệ thống tổ chức Đảng từ cơ sở đến Trung ương và củng cố phong trào đấu tranh của quần chúng.
+
+---
+
+### Câu 90 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 12)]</span>
+
+**Một trong những mục đích của Trung ương Đảng khi chủ động mở Chiến dịch Biên giới Thu Đông 1950 là:**
+
+- **[A] Mở rộng căn cứ địa Việt Bắc**
+- [B] Ngăn chặn sự tiếp viện của Mỹ cho quân đội Pháp
+- [C] Để giành thắng lợi quan trọng nhằm kết thúc chiến tranh với Pháp
+- [D] Khai thông biên giới Việt Nam – Lào – Campuchia
+
+> **Đáp án chính xác**: **A**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 12) — Ảnh: `vnr/4/12.jpg`  
+> **Giải thích chi tiết**: Tháng 6/1950, Trung ương Đảng quyết định mở Chiến dịch Biên giới với ba mục đích chiến lược trọng tâm: 1. Tiêu diệt một bộ phận quan trọng sinh lực địch; 2. Khai thông đường liên lạc quốc tế nối liền Việt Nam với Trung Quốc và các nước XHCN; 3. Củng cố và mở rộng căn cứ địa kháng chiến Việt Bắc.
+
+---
+
+### Câu 91 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 15)]</span>
+
+**Bản Hiệp định Sơ bộ được ký ngày 6/3/1946 có ý nghĩa to lớn với cách mạng Việt Nam bởi vì sẽ giúp chúng ta có thêm thời gian:**
+
+- **[A] Chuẩn bị lực lượng mọi mặt cho cuộc kháng chiến với Pháp**
+- [B] Xây dựng chủ nghĩa xã hội
+- [C] Tổ chức bầu cử
+- [D] Khai hoang các vùng đất phía Nam
+
+> **Đáp án chính xác**: **A**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 15) — Ảnh: `vnr/4/15.jpg`  
+> **Giải thích chi tiết**: Bằng việc ký kết Hiệp định Sơ bộ 6/3/1946, ta đã khéo léo đẩy được 20 vạn quân Tưởng ra khỏi miền Bắc, tránh cùng một lúc chạm trán hai kẻ thù lớn và tranh thủ thời gian hòa hoãn quý báu để chuẩn bị lực lượng về mọi mặt cho cuộc kháng chiến trường kỳ không thể tránh khỏi chống thực dân Pháp.
+
+---
+
+### Câu 92 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 16)]</span>
+
+**Hình thức “Đồng Khởi” của nhân dân miền Nam (1960) lần đầu tiên diễn ra ở tỉnh:**
+
+- [A] Cà Mau
+- [B] Tiền Giang
+- **[C] Bến Tre**
+- [D] Cần Thơ
+
+> **Đáp án chính xác**: **C**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 16) — Ảnh: `vnr/4/16.jpg`  
+> **Giải thích chi tiết**: Phong trào 'Đồng Khởi' nổ ra mở màn rực rỡ từ ngày 17/1/1960 tại ba xã Định Thủy, Phước Hiệp, Bình Khánh (huyện Mỏ Cày, tỉnh Bến Tre) dưới sự chỉ đạo của Tỉnh ủy Bến Tre do đồng chí Nguyễn Thị Định đứng đầu.
+
+---
+
+### Câu 93 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 17)]</span>
+
+**Chính sách nào của Nhật – Pháp đã gây ra nạn đói lớn ở Việt Nam cuối năm 1944 – đầu năm 1945?**
+
+- [A] Kiểm soát toàn bộ hệ thống đường xá
+- [B] Đầu tư vào những ngành công nghiệp phục vụ quân sự
+- [C] Xuất khẩu các nguyên liệu chiến lược sang Nhật Bản
+- **[D] Bắt người dân nhổ lúa, trồng đay lấy nguyên liệu phục vụ chiến tranh**
+
+> **Đáp án chính xác**: **D**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 17) — Ảnh: `vnr/4/17.jpg`  
+> **Giải thích chi tiết**: Chính sách bắt nhân dân ta nhổ lúa, hoa màu để trồng đay, thầu dầu phục vụ chiến tranh phát xít cùng việc thu mua thóc gạo ép buộc với giá rẻ mạt của liên minh phát xít Nhật - thực dân Pháp đã gây nên thảm họa nạn đói lịch sử năm Ất Dậu làm hơn 2 triệu người chết đói ở miền Bắc.
+
+---
+
+### Câu 94 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 18)]</span>
+
+**Người chủ trì Hội nghị thành lập Đảng Cộng sản Việt Nam là:**
+
+- [A] Trần Phú
+- **[B] Nguyễn Ái Quốc**
+- [C] Nguyễn Đức Cảnh
+- [D] Lê Hồng Phong
+
+> **Đáp án chính xác**: **B**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 18) — Ảnh: `vnr/4/18.jpg`  
+> **Giải thích chi tiết**: Hội nghị hợp nhất các tổ chức cộng sản thành lập Đảng Cộng sản Việt Nam (diễn ra từ ngày 6/1/1930 tại Cửu Long, Hương Cảng, Trung Quốc) do đồng chí Nguyễn Ái Quốc chủ trì với tư cách phái viên của Quốc tế Cộng sản.
+
+---
+
+### Câu 95 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 19)]</span>
+
+**Điền từ còn thiếu vào chỗ trống: “Một dân tộc dốt là một dân tộc ......Vì vậy tôi đề nghị mở một chiến dịch chống nạn mù chữ.” (Trích phát biểu của Chủ tịch Hồ Chí Minh tại buổi họp đầu tiên của Hội đồng Chính phủ ngày 3/9/1945)**
+
+- [A] Hèn
+- **[B] Yếu**
+- [C] Kém
+- [D] Đói
+
+> **Đáp án chính xác**: **B**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 19) — Ảnh: `vnr/4/19.jpg`  
+> **Giải thích chi tiết**: Trong phiên họp đầu tiên của Chính phủ lâm thời ngày 3/9/1945, Bác Hồ đã chỉ rõ: 'Một dân tộc dốt là một dân tộc yếu. Vì vậy tôi đề nghị mở một chiến dịch để chống nạn mù chữ'.
+
+---
+
+### Câu 96 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 20)]</span>
+
+**Đặc điểm nổi bật về phương thức đấu tranh trong phong trào 1930–1931 là:**
+
+- [A] Đấu tranh nghị trường hợp pháp
+- **[B] Đấu tranh chính trị kết hợp với đấu tranh vũ trang tự phát**
+- [C] Đấu tranh thương lượng với thực dân Pháp
+- [D] Đấu tranh quân sự quy mô lớn
+
+> **Đáp án chính xác**: **B**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 20) — Ảnh: `vnr/4/20.jpg`  
+> **Giải thích chi tiết**: Điểm nổi bật của cao trào cách mạng 1930-1931 là sự kết hợp chặt chẽ giữa đấu tranh chính trị của quần chúng (bãi công, biểu tình) với đấu tranh vũ trang tự phát (đội tự vệ đỏ, tự vệ cảm tử) đập tan bộ máy tay sai phong kiến ở nhiều thôn xã.
+
+---
+
+### Câu 97 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 21)]</span>
+
+**Trong nghiên cứu Lịch sử Đảng Cộng sản Việt Nam, khi xem xét, đối chiếu các hiện tượng lịch sử trong hình thức tổng quát nhằm mục đích vạch ra bản chất, quy luật, khuynh hướng chung trong sự vận động của sự vật thì đó là cách nghiên cứu dựa trên:**
+
+- [A] Phương pháp lịch sử
+- **[B] Phương pháp logic**
+- [C] Phương pháp chọn lọc
+- [D] Phương pháp làm việc nhóm
+
+> **Đáp án chính xác**: **B**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 21) — Ảnh: `vnr/4/21.jpg`  
+> **Giải thích chi tiết**: Phương pháp logic là phương pháp nghiên cứu hiện tượng lịch sử trong hình thức tổng quát, trừu tượng hóa khỏi những chi tiết ngẫu nhiên, nhằm làm rõ bản chất, các quy luật nội tại và khuynh hướng vận động cơ bản của lịch sử Đảng.
+
+---
+
+### Câu 98 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 22)]</span>
+
+**Để làm thất bại âm mưu “Diệt Cộng, cầm Hồ, phá Việt Minh” của quân Tưởng và tay sai, Đảng và Chính phủ ta đã thực hiện sách lược:**
+
+- [A] Ký nhiều hòa ước có lợi cho quân Nhật
+- [B] Đưa ra nhiều yêu sách đòi quân Tưởng phải rút quân khỏi Việt Nam
+- **[C] Triệt để lợi dụng mâu thuẫn kẻ thù, hòa hoãn, nhân nhượng có nguyên tắc với quân Tưởng**
+- [D] Tiến hành các cuộc xung đột vũ trang với quân Tưởng
+
+> **Đáp án chính xác**: **C**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 22) — Ảnh: `vnr/4/22.jpg`  
+> **Giải thích chi tiết**: Nhằm vô hiệu hóa âm mưu nham hiểm 'Diệt Cộng, cầm Hồ, phá Việt Minh' của tướng Lư Hán và bè lũ tay sai, Đảng và Chính phủ đã thực hiện sách lược 'Hoa - Việt thân thiện', hòa hoãn, nhân nhượng có nguyên tắc, nhường 70 ghế Quốc hội và cung cấp lương thực để giữ vững độc lập chủ quyền.
+
+---
+
+### Câu 99 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 25)]</span>
+
+**Người chủ trì Hội nghị Trung ương 8 (5/1941) là:**
+
+- [A] Trường Chinh
+- [B] Võ Nguyên Giáp
+- [C] Phạm Văn Đồng
+- **[D] Nguyễn Ái Quốc**
+
+> **Đáp án chính xác**: **D**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 25) — Ảnh: `vnr/4/25.jpg`  
+> **Giải thích chi tiết**: Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 họp từ ngày 10 đến 19/5/1941 tại lán Khuổi Nặm, Pác Bó (Hà Quảng, Cao Bằng) do đồng chí Nguyễn Ái Quốc chủ trì, đánh dấu bước hoàn chỉnh chủ trương chuyển hướng chỉ đạo chiến lược cách mạng của Đảng.
+
+---
+
+### Câu 100 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 26)]</span>
+
+**Đặc điểm lớn nhất của xã hội Việt Nam dưới ách thống trị của thực dân Pháp là:**
+
+- **[A] Một xã hội thuộc địa nửa phong kiến**
+- [B] Một xã hội tư bản chủ nghĩa phát triển
+- [C] Một xã hội dân chủ kiểu mới
+- [D] Một xã hội phong kiến thuần túy
+
+> **Đáp án chính xác**: **A**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 26) — Ảnh: `vnr/4/26.jpg`  
+> **Giải thích chi tiết**: Sau khi đặt ách cai trị lên nước ta, thực dân Pháp duy trì quan hệ sản xuất phong kiến cấu kết với bộ máy quan lại tay sai, đồng thời áp đặt ách thống trị tư bản thuộc địa, biến Việt Nam từ một xã hội phong kiến độc lập thành một xã hội thuộc địa nửa phong kiến.
+
+---
+
+### Câu 101 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 27)]</span>
+
+**Tính chất và nhiệm vụ của cách mạng Việt Nam được thể hiện trong tác phẩm “Đường Kách mệnh” của Nguyễn Ái Quốc là:**
+
+- [A] Canh tân đất nước theo xu hướng của Minh Trị duy tân ở Nhật
+- [B] Cách mạng xã hội chủ nghĩa để đi lên xã hội cộng sản
+- [C] Tư sản dân quyền và thổ địa cách mạng để đi tới xã hội cộng sản
+- **[D] Cách mạng giải phóng dân tộc mở đường tiến lên chủ nghĩa xã hội**
+
+> **Đáp án chính xác**: **D**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 27) — Ảnh: `vnr/4/27.jpg`  
+> **Giải thích chi tiết**: Trong tác phẩm Đường Kách mệnh (1927), Nguyễn Ái Quốc chỉ rõ tính chất và nhiệm vụ của cách mạng Việt Nam: Trước hết là làm cách mạng giải phóng dân tộc đánh đổ đế quốc thực dân, mở đường đi lên chủ nghĩa xã hội và chủ nghĩa cộng sản.
+
+---
+
+### Câu 102 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 28)]</span>
+
+**Nguyên nhân sâu xa nào dẫn đến sự kiện Toàn quốc kháng chiến vào cuối năm 1946 của cách mạng Việt Nam?**
+
+- [A] Việt Nam đã có lực lượng hải quân và không quân đủ mạnh để chống Pháp
+- [B] Quân Pháp ở Việt Nam liên tục bội ước với mong muốn dâng nước ta cho Nhật
+- [C] Quân Pháp ở Việt Nam đình chiến, kéo dài thời gian rút quân khỏi Việt Nam
+- **[D] Quân Pháp ở Việt Nam bộc lộ rõ thái độ bội ước, quyết tâm muốn xâm lược nước ta một lần nữa**
+
+> **Đáp án chính xác**: **D**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 28) — Ảnh: `vnr/4/28.jpg`  
+> **Giải thích chi tiết**: Nguyên nhân sâu xa bùng nổ cuộc Toàn quốc kháng chiến (19/12/1946) là do dã tâm xâm lược trở lại nước ta của thực dân Pháp. Mặc dù Chính phủ ta đã rất thiện chí nhân nhượng qua Hiệp định Sơ bộ và Tạm ước 14/9, thực dân Pháp vẫn liên tiếp bội ước, khiêu khích và gửi tối hậu thư đòi tước vũ khí của ta.
+
+---
+
+### Câu 103 <span style="font-size:0.85rem; color:#6b7280;">[VNR202 - Đề 4 (Câu 29)]</span>
+
+**Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập vào thời gian nào?**
+
+- **[A] Tháng 12 năm 1944**
+- [B] Tháng 9 năm 1941
+- [C] Tháng 5 năm 1943
+- [D] Tháng 3 năm 1945
+
+> **Đáp án chính xác**: **A**  
+> **Nguồn gốc đề**: VNR202 - Đề 4 (Câu 29) — Ảnh: `vnr/4/29.jpg`  
+> **Giải thích chi tiết**: Đội Việt Nam Tuyên truyền Giải phóng quân (tiền thân của Quân đội nhân dân Việt Nam) được thành lập vào ngày 22 tháng 12 năm 1944 tại khu rừng Sam Cao, giữa hai tổng Hoàng Hoa Thám và Trần Hưng Đạo thuộc châu Nguyên Bình, tỉnh Cao Bằng, do đồng chí Võ Nguyên Giáp chỉ huy.
 
 ---

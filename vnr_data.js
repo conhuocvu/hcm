@@ -1,21 +1,27 @@
 /**
  * VNR202 EXAMS DATA — Lịch sử Đảng Cộng sản Việt Nam
  * Generated with full deduplication & multi-exam support
- * Total unique questions: 80
+ * Total unique questions: 170
  * Exams included:
- *   - VNR202 Đề Ôn Tập 1 (25 câu từ thư mục vnr/1)
- *   - VNR202 Đề Ôn Tập 2 (30 câu từ thư mục vnr/2)
- *   - VNR202 Đề Ôn Tập 3 (30 câu từ thư mục vnr/3)
+ *   - VNR202 — Đề Ôn Tập 1 (25 Câu Gốc) (từ thư mục vnr/1)
+ *   - VNR202 — Đề Ôn Tập 2 (30 Câu Gốc) (từ thư mục vnr/2)
+ *   - VNR202 — Đề Ôn Tập 3 (30 Câu Gốc) (từ thư mục vnr/3)
+ *   - VNR202 — Đề Ôn Tập 4 (30 Câu Gốc) (từ thư mục vnr/4)
+ *   - VNR202 — Đề Ôn Tập 5 (25 Câu Gốc) (từ thư mục vnr/5)
+ *   - VNR202 — Đề Ôn Tập 6 (30 Câu Gốc) (từ thư mục vnr/6)
+ *   - VNR202 — Đề Ôn Tập 7 (30 Câu Gốc) (từ thư mục vnr/7)
+ *   - VNR202 — Đề Ôn Tập 8 (20 Câu Gốc) (từ thư mục vnr/8)
  */
 
 window.VNR_DATA = {
+  
   "combined": {
     "id": "combined",
-    "name": "Toàn Bộ Câu Hỏi VNR202 (Đã Lọc Trùng 80 Câu)",
-    "shortName": "Tổng Hợp (80 Câu)",
+    "name": "Toàn Bộ Câu Hỏi VNR202 (Đã Lọc Trùng 170 Câu)",
+    "shortName": "Tổng Hợp (170 Câu)",
     "badge": "Tổng Hợp",
     "semester": "VNR202",
-    "total": 80,
+    "total": 170,
     "questions": [
       {
         "id": 1,
@@ -83,6 +89,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 1",
             "q_num": 3,
             "image": "vnr/1/3.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 15,
+            "image": "vnr/6/15.jpg"
           }
         ]
       },
@@ -617,6 +628,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 23,
             "image": "vnr/3/23.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 3,
+            "image": "vnr/5/3.jpg"
           }
         ]
       },
@@ -640,6 +656,16 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 2,
             "image": "vnr/2/2.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 30,
+            "image": "vnr/4/30.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 5,
+            "image": "vnr/7/5.jpg"
           }
         ]
       },
@@ -663,6 +689,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 3,
             "image": "vnr/2/3.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 11,
+            "image": "vnr/7/11.jpg"
           }
         ]
       },
@@ -732,6 +763,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 6,
             "image": "vnr/2/6.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 15,
+            "image": "vnr/5/15.jpg"
           }
         ]
       },
@@ -783,6 +819,16 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 8,
             "image": "vnr/2/8.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 23,
+            "image": "vnr/4/23.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 17,
+            "image": "vnr/5/17.jpg"
           }
         ]
       },
@@ -857,6 +903,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 11,
             "image": "vnr/2/11.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 9,
+            "image": "vnr/7/9.jpg"
           }
         ]
       },
@@ -903,6 +954,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 13,
             "image": "vnr/2/13.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 21,
+            "image": "vnr/6/21.jpg"
           }
         ]
       },
@@ -926,6 +982,16 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 14,
             "image": "vnr/2/14.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 5,
+            "image": "vnr/5/5.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 28,
+            "image": "vnr/7/28.jpg"
           }
         ]
       },
@@ -972,6 +1038,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 16,
             "image": "vnr/2/16.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 6,
+            "image": "vnr/6/6.jpg"
           }
         ]
       },
@@ -1018,6 +1089,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 18,
             "image": "vnr/2/18.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 7,
+            "image": "vnr/6/7.jpg"
           }
         ]
       },
@@ -1046,6 +1122,16 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 12,
             "image": "vnr/3/12.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 14,
+            "image": "vnr/4/14.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 8,
+            "image": "vnr/5/8.jpg"
           }
         ]
       },
@@ -1143,6 +1229,16 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 25,
             "image": "vnr/3/25.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 25,
+            "image": "vnr/6/25.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 4,
+            "image": "vnr/7/4.jpg"
           }
         ]
       },
@@ -1166,6 +1262,16 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 24,
             "image": "vnr/2/24.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 24,
+            "image": "vnr/4/24.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 29,
+            "image": "vnr/7/29.jpg"
           }
         ]
       },
@@ -1258,6 +1364,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 28,
             "image": "vnr/2/28.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 24,
+            "image": "vnr/6/24.jpg"
           }
         ]
       },
@@ -1281,6 +1392,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 2",
             "q_num": 29,
             "image": "vnr/2/29.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 12,
+            "image": "vnr/5/12.jpg"
           }
         ]
       },
@@ -1350,6 +1466,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 2,
             "image": "vnr/3/2.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 16,
+            "image": "vnr/7/16.jpg"
           }
         ]
       },
@@ -1396,6 +1517,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 4,
             "image": "vnr/3/4.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 18,
+            "image": "vnr/6/18.jpg"
           }
         ]
       },
@@ -1442,6 +1568,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 6,
             "image": "vnr/3/6.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 14,
+            "image": "vnr/5/14.jpg"
           }
         ]
       },
@@ -1626,6 +1757,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 17,
             "image": "vnr/3/17.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 8,
+            "image": "vnr/4/8.jpg"
           }
         ]
       },
@@ -1718,6 +1854,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 21,
             "image": "vnr/3/21.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 3,
+            "image": "vnr/6/3.jpg"
           }
         ]
       },
@@ -1741,6 +1882,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 22,
             "image": "vnr/3/22.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 4,
+            "image": "vnr/6/4.jpg"
           }
         ]
       },
@@ -1764,6 +1910,16 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 24,
             "image": "vnr/3/24.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 13,
+            "image": "vnr/4/13.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 19,
+            "image": "vnr/6/19.jpg"
           }
         ]
       },
@@ -1787,6 +1943,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 26,
             "image": "vnr/3/26.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 3,
+            "image": "vnr/4/3.jpg"
           }
         ]
       },
@@ -1810,6 +1971,11 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 27,
             "image": "vnr/3/27.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 1,
+            "image": "vnr/5/1.jpg"
           }
         ]
       },
@@ -1856,6 +2022,16 @@ window.VNR_DATA = {
             "exam": "VNR202 - Đề 3",
             "q_num": 29,
             "image": "vnr/3/29.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 1,
+            "image": "vnr/6/1.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 21,
+            "image": "vnr/7/21.jpg"
           }
         ]
       },
@@ -1881,20 +2057,2145 @@ window.VNR_DATA = {
             "image": "vnr/3/30.jpg"
           }
         ]
+      },
+      {
+        "id": 81,
+        "combined_id": 81,
+        "uid": "vnr202_comb_81",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Tổ chức được thành lập vào năm 1941 để lãnh đạo trực tiếp phong trào giải phóng dân tộc là:",
+        "options": {
+          "A": "Mặt trận Tổ quốc Việt Nam",
+          "B": "Mặt trận Dân chủ Đông Dương",
+          "C": "Mặt trận Dân tộc thống nhất",
+          "D": "Mặt trận Việt Minh"
+        },
+        "answer": "D",
+        "explanation": "Ngày 19/5/1941, tại Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 ở Pác Bó (Cao Bằng), theo đề nghị của đồng chí Nguyễn Ái Quốc, Mặt trận Việt Nam Độc lập Đồng minh (gọi tắt là Việt Minh) được thành lập nhằm đoàn kết toàn thể các tầng lớp nhân dân chống đế quốc, phát xít, giành độc lập dân tộc.",
+        "image": "vnr/4/1.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 1,
+            "image": "vnr/4/1.jpg"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "combined_id": 82,
+        "uid": "vnr202_comb_82",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Tính chất của cuộc Cách mạng Tháng Tám năm 1945 là:",
+        "options": {
+          "A": "Cuộc cách mạng giải phóng dân tộc",
+          "B": "Cuộc cách mạng tư sản",
+          "C": "Cuộc cách mạng giải phóng giai cấp",
+          "D": "Cuộc cách mạng khoa học kỹ thuật"
+        },
+        "answer": "A",
+        "explanation": "Cách mạng Tháng Tám năm 1945 là một cuộc cách mạng giải phóng dân tộc mang tính chất nhân dân sâu sắc, dân chủ mới; nhiệm vụ số một và hàng đầu là đánh đổ ách thống trị của phát xít Nhật và thực dân Pháp để giành độc lập, tự do cho Tổ quốc.",
+        "image": "vnr/4/2.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 2,
+            "image": "vnr/4/2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "combined_id": 83,
+        "uid": "vnr202_comb_83",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Nguyễn Ái Quốc đã chuẩn bị điều kiện nào dưới đây cho việc thành lập Đảng?",
+        "options": {
+          "A": "Tuyên truyền văn hóa dân tộc",
+          "B": "Thuyết phục chính phủ Pháp cải cách",
+          "C": "Truyền bá chủ nghĩa Mác – Lênin, đào tạo cán bộ, thống nhất tổ chức",
+          "D": "Xây dựng liên minh công – nông – sĩ"
+        },
+        "answer": "C",
+        "explanation": "Từ năm 1921 đến 1930, đồng chí Nguyễn Ái Quốc đã có công lao to lớn chuẩn bị chu đáo về tư tưởng, chính trị và tổ chức cho sự ra đời của Đảng: truyền bá chủ nghĩa Mác - Lênin vào trong nước, mở các lớp huấn luyện cán bộ tại Quảng Châu và chủ trì hợp nhất các tổ chức cộng sản.",
+        "image": "vnr/4/4.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 4,
+            "image": "vnr/4/4.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 2,
+            "image": "vnr/6/2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "combined_id": 84,
+        "uid": "vnr202_comb_84",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Hoạt động nào dưới đây được Chủ tịch Hồ Chí Minh đặc biệt coi trọng, thể hiện tính ưu việt của chế độ mới, góp phần tích cực xây dựng hệ thống chính quyền cách mạng, phát huy quyền làm chủ của nhân dân?",
+        "options": {
+          "A": "Khai hoang làm kinh tế mới",
+          "B": "Trồng cây gây rừng",
+          "C": "Cải cách ruộng đất",
+          "D": "Chống giặc dốt, xoá nạn mù chữ"
+        },
+        "answer": "D",
+        "explanation": "Ngay sau khi thành lập nước, Chủ tịch Hồ Chí Minh đã coi việc 'chống giặc dốt, xóa nạn mù chữ' là một nhiệm vụ cấp bách hàng đầu vì 'Một dân tộc dốt là một dân tộc yếu', nhân dân phải biết đọc, biết viết mới hiểu quyền lợi, nghĩa vụ của mình và phát huy thực sự quyền làm chủ đất nước.",
+        "image": "vnr/4/5.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 5,
+            "image": "vnr/4/5.jpg"
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "combined_id": 85,
+        "uid": "vnr202_comb_85",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Yếu tố nào dưới đây được xem như là kinh nghiệm của Đảng trong lãnh đạo kháng chiến chống Pháp và can thiệp Mỹ giai đoạn 1945 – 1954?",
+        "options": {
+          "A": "Đề ra được phương châm xuyên suốt trong cuộc kháng chiến là lối đánh nhanh, thắng nhanh",
+          "B": "Kết hợp chặt chẽ và giải quyết đúng đắn mối quan hệ giữa hai nhiệm vụ cơ bản vừa kháng chiến vừa kiến quốc",
+          "C": "Có những sách lược ngoại giao khôn khéo để tranh thủ sự ủng hộ của các nước xã hội chủ nghĩa anh em",
+          "D": "Tập trung toàn bộ sức lực của toàn Đảng, toàn dân vào xây dựng và phát triển lực lượng vũ trang"
+        },
+        "answer": "B",
+        "explanation": "Một bài học kinh nghiệm tiêu biểu của Đảng trong cuộc kháng chiến chống thực dân Pháp (1945-1954) là kết hợp chặt chẽ và giải quyết đúng đắn mối quan hệ giữa hai nhiệm vụ chiến lược: vừa kháng chiến đánh giặc giải phóng quê hương, vừa kiến quốc xây dựng chế độ mới và hậu phương vững mạnh.",
+        "image": "vnr/4/6.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 6,
+            "image": "vnr/4/6.jpg"
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "combined_id": 86,
+        "uid": "vnr202_comb_86",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Nha Bình dân học vụ được thành lập vào năm nào?",
+        "options": {
+          "A": "1945",
+          "B": "1965",
+          "C": "1975",
+          "D": "1955"
+        },
+        "answer": "A",
+        "explanation": "Ngày 8/9/1945, Chính phủ lâm thời nước Việt Nam Dân chủ Cộng hòa do Chủ tịch Hồ Chí Minh đứng đầu đã ban hành Sắc lệnh số 17-SL thành lập Nha Bình dân học vụ để phụ trách việc chống mù chữ trên toàn quốc.",
+        "image": "vnr/4/7.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 7,
+            "image": "vnr/4/7.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 29,
+            "image": "vnr/6/29.jpg"
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "combined_id": 87,
+        "uid": "vnr202_comb_87",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Đông Dương Cộng sản Đảng và An Nam Cộng sản Đảng được ra đời từ tổ chức tiền thân nào dưới đây?",
+        "options": {
+          "A": "Hội Việt Nam Cách mạng Thanh niên",
+          "B": "Việt Nam Cách mạng đồng chí Hội",
+          "C": "Tâm tâm xã",
+          "D": "Tân Việt Cách mạng Đảng"
+        },
+        "answer": "A",
+        "explanation": "Năm 1929, phong trào cách mạng phát triển mạnh mẽ dẫn tới sự phân hóa tích cực của Hội Việt Nam Cách mạng Thanh niên: chi bộ cộng sản đầu tiên lập ra Đông Dương Cộng sản Đảng (6/1929 tại Bắc Kỳ), tiếp sau đó bộ phận cán bộ tiên tiến của Hội ở Nam Kỳ thành lập An Nam Cộng sản Đảng (8/1929).",
+        "image": "vnr/4/9.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 9,
+            "image": "vnr/4/9.jpg"
+          }
+        ]
+      },
+      {
+        "id": 88,
+        "combined_id": 88,
+        "uid": "vnr202_comb_88",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Hình thức đấu tranh chủ yếu của cách mạng Việt Nam trong thời kỳ 1941–1945 là:",
+        "options": {
+          "A": "Đàm phán trực tiếp với Pháp và Nhật",
+          "B": "Đấu tranh vũ trang kết hợp chính trị",
+          "C": "Biểu tình vũ trang toàn quốc",
+          "D": "Đấu tranh nghị trường kết hợp biểu tình"
+        },
+        "answer": "B",
+        "explanation": "Trong thời kỳ 1941-1945, Hội nghị Trung ương 8 (5/1941) đã xác định rõ hình thức đấu tranh chủ yếu là kết hợp khởi nghĩa vũ trang từng phần, đấu tranh vũ trang với đấu tranh chính trị của quần chúng, tiến tới Tổng khởi nghĩa giành chính quyền khi thời cơ chín muồi.",
+        "image": "vnr/4/10.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 10,
+            "image": "vnr/4/10.jpg"
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "combined_id": 89,
+        "uid": "vnr202_comb_89",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Nhiệm vụ trọng tâm của Đảng trong giai đoạn 1932–1935 là:",
+        "options": {
+          "A": "Tập trung đấu tranh nghị trường",
+          "B": "Xây dựng lực lượng quân sự chính quy",
+          "C": "Khôi phục hệ thống tổ chức và củng cố phong trào cách mạng",
+          "D": "Mở rộng khởi nghĩa vũ trang"
+        },
+        "answer": "C",
+        "explanation": "Sau khi cao trào 1930-1931 bị thực dân Pháp đàn áp tàn khốc, các tổ chức cơ sở đảng tan vỡ, nhiều đồng chí lãnh đạo bị bắt và hy sinh; nhiệm vụ trung tâm, sống còn của Đảng giai đoạn 1932-1935 là kiên trì đấu tranh phục hồi hệ thống tổ chức Đảng từ cơ sở đến Trung ương và củng cố phong trào đấu tranh của quần chúng.",
+        "image": "vnr/4/11.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 11,
+            "image": "vnr/4/11.jpg"
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "combined_id": 90,
+        "uid": "vnr202_comb_90",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Một trong những mục đích của Trung ương Đảng khi chủ động mở Chiến dịch Biên giới Thu Đông 1950 là:",
+        "options": {
+          "A": "Mở rộng căn cứ địa Việt Bắc",
+          "B": "Ngăn chặn sự tiếp viện của Mỹ cho quân đội Pháp",
+          "C": "Để giành thắng lợi quan trọng nhằm kết thúc chiến tranh với Pháp",
+          "D": "Khai thông biên giới Việt Nam – Lào – Campuchia"
+        },
+        "answer": "A",
+        "explanation": "Tháng 6/1950, Trung ương Đảng quyết định mở Chiến dịch Biên giới với ba mục đích chiến lược trọng tâm: 1. Tiêu diệt một bộ phận quan trọng sinh lực địch; 2. Khai thông đường liên lạc quốc tế nối liền Việt Nam với Trung Quốc và các nước XHCN; 3. Củng cố và mở rộng căn cứ địa kháng chiến Việt Bắc.",
+        "image": "vnr/4/12.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 12,
+            "image": "vnr/4/12.jpg"
+          }
+        ]
+      },
+      {
+        "id": 91,
+        "combined_id": 91,
+        "uid": "vnr202_comb_91",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Bản Hiệp định Sơ bộ được ký ngày 6/3/1946 có ý nghĩa to lớn với cách mạng Việt Nam bởi vì sẽ giúp chúng ta có thêm thời gian:",
+        "options": {
+          "A": "Chuẩn bị lực lượng mọi mặt cho cuộc kháng chiến với Pháp",
+          "B": "Xây dựng chủ nghĩa xã hội",
+          "C": "Tổ chức bầu cử",
+          "D": "Khai hoang các vùng đất phía Nam"
+        },
+        "answer": "A",
+        "explanation": "Bằng việc ký kết Hiệp định Sơ bộ 6/3/1946, ta đã khéo léo đẩy được 20 vạn quân Tưởng ra khỏi miền Bắc, tránh cùng một lúc chạm trán hai kẻ thù lớn và tranh thủ thời gian hòa hoãn quý báu để chuẩn bị lực lượng về mọi mặt cho cuộc kháng chiến trường kỳ không thể tránh khỏi chống thực dân Pháp.",
+        "image": "vnr/4/15.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 15,
+            "image": "vnr/4/15.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 22,
+            "image": "vnr/6/22.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 27,
+            "image": "vnr/7/27.jpg"
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "combined_id": 92,
+        "uid": "vnr202_comb_92",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Hình thức “Đồng Khởi” của nhân dân miền Nam (1960) lần đầu tiên diễn ra ở tỉnh:",
+        "options": {
+          "A": "Cà Mau",
+          "B": "Tiền Giang",
+          "C": "Bến Tre",
+          "D": "Cần Thơ"
+        },
+        "answer": "C",
+        "explanation": "Phong trào 'Đồng Khởi' nổ ra mở màn rực rỡ từ ngày 17/1/1960 tại ba xã Định Thủy, Phước Hiệp, Bình Khánh (huyện Mỏ Cày, tỉnh Bến Tre) dưới sự chỉ đạo của Tỉnh ủy Bến Tre do đồng chí Nguyễn Thị Định đứng đầu.",
+        "image": "vnr/4/16.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 16,
+            "image": "vnr/4/16.jpg"
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "combined_id": 93,
+        "uid": "vnr202_comb_93",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Chính sách nào của Nhật – Pháp đã gây ra nạn đói lớn ở Việt Nam cuối năm 1944 – đầu năm 1945?",
+        "options": {
+          "A": "Kiểm soát toàn bộ hệ thống đường xá",
+          "B": "Đầu tư vào những ngành công nghiệp phục vụ quân sự",
+          "C": "Xuất khẩu các nguyên liệu chiến lược sang Nhật Bản",
+          "D": "Bắt người dân nhổ lúa, trồng đay lấy nguyên liệu phục vụ chiến tranh"
+        },
+        "answer": "D",
+        "explanation": "Chính sách bắt nhân dân ta nhổ lúa, hoa màu để trồng đay, thầu dầu phục vụ chiến tranh phát xít cùng việc thu mua thóc gạo ép buộc với giá rẻ mạt của liên minh phát xít Nhật - thực dân Pháp đã gây nên thảm họa nạn đói lịch sử năm Ất Dậu làm hơn 2 triệu người chết đói ở miền Bắc.",
+        "image": "vnr/4/17.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 17,
+            "image": "vnr/4/17.jpg"
+          }
+        ]
+      },
+      {
+        "id": 94,
+        "combined_id": 94,
+        "uid": "vnr202_comb_94",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Người chủ trì Hội nghị thành lập Đảng Cộng sản Việt Nam là:",
+        "options": {
+          "A": "Trần Phú",
+          "B": "Nguyễn Ái Quốc",
+          "C": "Nguyễn Đức Cảnh",
+          "D": "Lê Hồng Phong"
+        },
+        "answer": "B",
+        "explanation": "Hội nghị hợp nhất các tổ chức cộng sản thành lập Đảng Cộng sản Việt Nam (diễn ra từ ngày 6/1/1930 tại Cửu Long, Hương Cảng, Trung Quốc) do đồng chí Nguyễn Ái Quốc chủ trì với tư cách phái viên của Quốc tế Cộng sản.",
+        "image": "vnr/4/18.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 18,
+            "image": "vnr/4/18.jpg"
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "combined_id": 95,
+        "uid": "vnr202_comb_95",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Điền từ còn thiếu vào chỗ trống: “Một dân tộc dốt là một dân tộc ......Vì vậy tôi đề nghị mở một chiến dịch chống nạn mù chữ.” (Trích phát biểu của Chủ tịch Hồ Chí Minh tại buổi họp đầu tiên của Hội đồng Chính phủ ngày 3/9/1945)",
+        "options": {
+          "A": "Hèn",
+          "B": "Yếu",
+          "C": "Kém",
+          "D": "Đói"
+        },
+        "answer": "B",
+        "explanation": "Trong phiên họp đầu tiên của Chính phủ lâm thời ngày 3/9/1945, Bác Hồ đã chỉ rõ: 'Một dân tộc dốt là một dân tộc yếu. Vì vậy tôi đề nghị mở một chiến dịch để chống nạn mù chữ'.",
+        "image": "vnr/4/19.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 19,
+            "image": "vnr/4/19.jpg"
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "combined_id": 96,
+        "uid": "vnr202_comb_96",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Đặc điểm nổi bật về phương thức đấu tranh trong phong trào 1930–1931 là:",
+        "options": {
+          "A": "Đấu tranh nghị trường hợp pháp",
+          "B": "Đấu tranh chính trị kết hợp với đấu tranh vũ trang tự phát",
+          "C": "Đấu tranh thương lượng với thực dân Pháp",
+          "D": "Đấu tranh quân sự quy mô lớn"
+        },
+        "answer": "B",
+        "explanation": "Điểm nổi bật của cao trào cách mạng 1930-1931 là sự kết hợp chặt chẽ giữa đấu tranh chính trị của quần chúng (bãi công, biểu tình) với đấu tranh vũ trang tự phát (đội tự vệ đỏ, tự vệ cảm tử) đập tan bộ máy tay sai phong kiến ở nhiều thôn xã.",
+        "image": "vnr/4/20.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 20,
+            "image": "vnr/4/20.jpg"
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "combined_id": 97,
+        "uid": "vnr202_comb_97",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Trong nghiên cứu Lịch sử Đảng Cộng sản Việt Nam, khi xem xét, đối chiếu các hiện tượng lịch sử trong hình thức tổng quát nhằm mục đích vạch ra bản chất, quy luật, khuynh hướng chung trong sự vận động của sự vật thì đó là cách nghiên cứu dựa trên:",
+        "options": {
+          "A": "Phương pháp lịch sử",
+          "B": "Phương pháp logic",
+          "C": "Phương pháp chọn lọc",
+          "D": "Phương pháp làm việc nhóm"
+        },
+        "answer": "B",
+        "explanation": "Phương pháp logic là phương pháp nghiên cứu hiện tượng lịch sử trong hình thức tổng quát, trừu tượng hóa khỏi những chi tiết ngẫu nhiên, nhằm làm rõ bản chất, các quy luật nội tại và khuynh hướng vận động cơ bản của lịch sử Đảng.",
+        "image": "vnr/4/21.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 21,
+            "image": "vnr/4/21.jpg"
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "combined_id": 98,
+        "uid": "vnr202_comb_98",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Để làm thất bại âm mưu “Diệt Cộng, cầm Hồ, phá Việt Minh” của quân Tưởng và tay sai, Đảng và Chính phủ ta đã thực hiện sách lược:",
+        "options": {
+          "A": "Ký nhiều hòa ước có lợi cho quân Nhật",
+          "B": "Đưa ra nhiều yêu sách đòi quân Tưởng phải rút quân khỏi Việt Nam",
+          "C": "Triệt để lợi dụng mâu thuẫn kẻ thù, hòa hoãn, nhân nhượng có nguyên tắc với quân Tưởng",
+          "D": "Tiến hành các cuộc xung đột vũ trang với quân Tưởng"
+        },
+        "answer": "C",
+        "explanation": "Nhằm vô hiệu hóa âm mưu nham hiểm 'Diệt Cộng, cầm Hồ, phá Việt Minh' của tướng Lư Hán và bè lũ tay sai, Đảng và Chính phủ đã thực hiện sách lược 'Hoa - Việt thân thiện', hòa hoãn, nhân nhượng có nguyên tắc, nhường 70 ghế Quốc hội và cung cấp lương thực để giữ vững độc lập chủ quyền.",
+        "image": "vnr/4/22.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 22,
+            "image": "vnr/4/22.jpg"
+          }
+        ]
+      },
+      {
+        "id": 99,
+        "combined_id": 99,
+        "uid": "vnr202_comb_99",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Người chủ trì Hội nghị Trung ương 8 (5/1941) là:",
+        "options": {
+          "A": "Trường Chinh",
+          "B": "Võ Nguyên Giáp",
+          "C": "Phạm Văn Đồng",
+          "D": "Nguyễn Ái Quốc"
+        },
+        "answer": "D",
+        "explanation": "Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 họp từ ngày 10 đến 19/5/1941 tại lán Khuổi Nặm, Pác Bó (Hà Quảng, Cao Bằng) do đồng chí Nguyễn Ái Quốc chủ trì, đánh dấu bước hoàn chỉnh chủ trương chuyển hướng chỉ đạo chiến lược cách mạng của Đảng.",
+        "image": "vnr/4/25.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 25,
+            "image": "vnr/4/25.jpg"
+          }
+        ]
+      },
+      {
+        "id": 100,
+        "combined_id": 100,
+        "uid": "vnr202_comb_100",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Đặc điểm lớn nhất của xã hội Việt Nam dưới ách thống trị của thực dân Pháp là:",
+        "options": {
+          "A": "Một xã hội thuộc địa nửa phong kiến",
+          "B": "Một xã hội tư bản chủ nghĩa phát triển",
+          "C": "Một xã hội dân chủ kiểu mới",
+          "D": "Một xã hội phong kiến thuần túy"
+        },
+        "answer": "A",
+        "explanation": "Sau khi đặt ách cai trị lên nước ta, thực dân Pháp duy trì quan hệ sản xuất phong kiến cấu kết với bộ máy quan lại tay sai, đồng thời áp đặt ách thống trị tư bản thuộc địa, biến Việt Nam từ một xã hội phong kiến độc lập thành một xã hội thuộc địa nửa phong kiến.",
+        "image": "vnr/4/26.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 26,
+            "image": "vnr/4/26.jpg"
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "combined_id": 101,
+        "uid": "vnr202_comb_101",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Tính chất và nhiệm vụ của cách mạng Việt Nam được thể hiện trong tác phẩm “Đường Kách mệnh” của Nguyễn Ái Quốc là:",
+        "options": {
+          "A": "Canh tân đất nước theo xu hướng của Minh Trị duy tân ở Nhật",
+          "B": "Cách mạng xã hội chủ nghĩa để đi lên xã hội cộng sản",
+          "C": "Tư sản dân quyền và thổ địa cách mạng để đi tới xã hội cộng sản",
+          "D": "Cách mạng giải phóng dân tộc mở đường tiến lên chủ nghĩa xã hội"
+        },
+        "answer": "D",
+        "explanation": "Trong tác phẩm Đường Kách mệnh (1927), Nguyễn Ái Quốc chỉ rõ tính chất và nhiệm vụ của cách mạng Việt Nam: Trước hết là làm cách mạng giải phóng dân tộc đánh đổ đế quốc thực dân, mở đường đi lên chủ nghĩa xã hội và chủ nghĩa cộng sản.",
+        "image": "vnr/4/27.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 27,
+            "image": "vnr/4/27.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 5,
+            "image": "vnr/6/5.jpg"
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "combined_id": 102,
+        "uid": "vnr202_comb_102",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Nguyên nhân sâu xa nào dẫn đến sự kiện Toàn quốc kháng chiến vào cuối năm 1946 của cách mạng Việt Nam?",
+        "options": {
+          "A": "Việt Nam đã có lực lượng hải quân và không quân đủ mạnh để chống Pháp",
+          "B": "Quân Pháp ở Việt Nam liên tục bội ước với mong muốn dâng nước ta cho Nhật",
+          "C": "Quân Pháp ở Việt Nam đình chiến, kéo dài thời gian rút quân khỏi Việt Nam",
+          "D": "Quân Pháp ở Việt Nam bộc lộ rõ thái độ bội ước, quyết tâm muốn xâm lược nước ta một lần nữa"
+        },
+        "answer": "D",
+        "explanation": "Nguyên nhân sâu xa bùng nổ cuộc Toàn quốc kháng chiến (19/12/1946) là do dã tâm xâm lược trở lại nước ta của thực dân Pháp. Mặc dù Chính phủ ta đã rất thiện chí nhân nhượng qua Hiệp định Sơ bộ và Tạm ước 14/9, thực dân Pháp vẫn liên tiếp bội ước, khiêu khích và gửi tối hậu thư đòi tước vũ khí của ta.",
+        "image": "vnr/4/28.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 28,
+            "image": "vnr/4/28.jpg"
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "combined_id": 103,
+        "uid": "vnr202_comb_103",
+        "exam_code": "VNR202 - Đề 4",
+        "question": "Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập vào thời gian nào?",
+        "options": {
+          "A": "Tháng 12 năm 1944",
+          "B": "Tháng 9 năm 1941",
+          "C": "Tháng 5 năm 1943",
+          "D": "Tháng 3 năm 1945"
+        },
+        "answer": "A",
+        "explanation": "Đội Việt Nam Tuyên truyền Giải phóng quân (tiền thân của Quân đội nhân dân Việt Nam) được thành lập vào ngày 22 tháng 12 năm 1944 tại khu rừng Sam Cao, giữa hai tổng Hoàng Hoa Thám và Trần Hưng Đạo thuộc châu Nguyên Bình, tỉnh Cao Bằng, do đồng chí Võ Nguyên Giáp chỉ huy.",
+        "image": "vnr/4/29.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 4",
+            "q_num": 29,
+            "image": "vnr/4/29.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 13,
+            "image": "vnr/5/13.jpg"
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "combined_id": 104,
+        "uid": "vnr202_comb_104",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Cuối thế kỷ XIX – đầu thế kỷ XX, nhiệm vụ hàng đầu cần phải được giải quyết cấp thiết của cách mạng Việt Nam là:",
+        "options": {
+          "A": "Chia lại ruộng đất",
+          "B": "Giải phóng dân tộc",
+          "C": "Đấu tranh giai cấp",
+          "D": "Canh tân đất nước"
+        },
+        "answer": "B",
+        "explanation": "Dưới ách thống trị tàn bạo của thực dân Pháp, mâu thuẫn chủ yếu và gay gắt nhất trong xã hội Việt Nam là mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp xâm lược và tay sai phản động. Do đó, nhiệm vụ hàng đầu, cấp thiết số 1 của cách mạng Việt Nam là giải phóng dân tộc, giành độc lập tự do.",
+        "image": "vnr/5/2.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 2,
+            "image": "vnr/5/2.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 1,
+            "image": "vnr/7/1.jpg"
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "combined_id": 105,
+        "uid": "vnr202_comb_105",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Văn kiện đầu tiên của Đảng được thông qua tại Hội nghị thành lập là:",
+        "options": {
+          "A": "Luận cương chính trị",
+          "B": "Báo cáo chính trị",
+          "C": "Tuyên ngôn của Quốc tế Cộng sản",
+          "D": "Chính cương vắn tắt và Sách lược vắn tắt"
+        },
+        "answer": "D",
+        "explanation": "Hội nghị thành lập Đảng Cộng sản Việt Nam (đầu năm 1930) do Nguyễn Ái Quốc chủ trì đã thông qua các văn kiện đầu tiên gồm: Chánh cương vắn tắt của Đảng, Sách lược vắn tắt của Đảng, Chương trình tóm tắt và Điều lệ vắn tắt của Đảng (hợp thành Cương lĩnh chính trị đầu tiên).",
+        "image": "vnr/5/4.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 4,
+            "image": "vnr/5/4.jpg"
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "combined_id": 106,
+        "uid": "vnr202_comb_106",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Sau Cách mạng Tháng Tám năm 1945, kẻ thù nguy hiểm nhất của nước ta là:",
+        "options": {
+          "A": "Thực dân Pháp",
+          "B": "Thực dân Anh",
+          "C": "Quân đội Tưởng Giới Thạch",
+          "D": "Phát-xít Nhật"
+        },
+        "answer": "A",
+        "explanation": "Sau ngày 2/9/1945, nước ta phải đối phó với nhiều kẻ thù (quân Tưởng, quân Anh, quân Nhật, các đảng phái phản động), nhưng thực dân Pháp là kẻ thù nguy hiểm nhất vì chúng có dã tâm xâm lược và tái lập ách thống trị thực dân lên toàn bộ cõi Đông Dương.",
+        "image": "vnr/5/6.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 6,
+            "image": "vnr/5/6.jpg"
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "combined_id": 107,
+        "uid": "vnr202_comb_107",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Ý nghĩa lớn nhất của phong trào 1930–1931 là gì?",
+        "options": {
+          "A": "Khẳng định vai trò lãnh đạo của Đảng và tinh thần đấu tranh của quần chúng",
+          "B": "Thúc đẩy cải cách ruộng đất",
+          "C": "Thể hiện tinh thần yêu nước của tầng lớp trung lưu",
+          "D": "Giành chính quyền trên cả nước"
+        },
+        "answer": "A",
+        "explanation": "Phong trào cách mạng 1930 - 1931 với đỉnh cao là Xô viết Nghệ - Tĩnh có ý nghĩa lịch sử to lớn: khẳng định trên thực tế vai trò lãnh đạo cách mạng của Đảng Cộng sản Việt Nam, rèn luyện đội ngũ đảng viên và khẳng định tinh thần, sức mạnh quật khởi của liên minh công - nông, trở thành cuộc diễn tập đầu tiên chuẩn bị cho Cách mạng Tháng Tám 1945.",
+        "image": "vnr/5/7.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 7,
+            "image": "vnr/5/7.jpg"
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "combined_id": 108,
+        "uid": "vnr202_comb_108",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Một trong những tổ chức công khai được thành lập trong phong trào 1936–1939 là:",
+        "options": {
+          "A": "Đông Dương đại hội – nơi tập hợp yêu cầu cải thiện dân sinh, dân chủ",
+          "B": "Việt Nam Giải phóng quân – lực lượng vũ trang đầu tiên của Đảng",
+          "C": "Hội Phục Việt với chương trình cải cách nông nghiệp",
+          "D": "Mặt trận Tổ quốc Việt Nam – tổ chức đại diện nhân dân"
+        },
+        "answer": "A",
+        "explanation": "Trong thời kỳ 1936 - 1939, Đảng đã chủ trương phát động phong trào Đông Dương Đại hội (giữa năm 1936) nhằm vận động quần chúng thảo luận và gửi 'dân nguyện' (bản yêu sách đòi các quyền tự do, dân sinh, dân chủ) tới phái đoàn điều tra của Quốc hội Pháp sang Đông Dương.",
+        "image": "vnr/5/9.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 9,
+            "image": "vnr/5/9.jpg"
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "combined_id": 109,
+        "uid": "vnr202_comb_109",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Hiệp định Pa-ri về chấm dứt chiến tranh, lập lại hoà bình ở Việt Nam đã tạo ra bước ngoặt mới trong cuộc kháng chiến chống Mỹ cứu nước của dân tộc Việt Nam vì từ Hiệp định này, quân Mỹ đã phải:",
+        "options": {
+          "A": "Rút quân khỏi Việt Nam, tạo thế xoay chuyển có lợi cho cách mạng",
+          "B": "Rút quân hoàn toàn ra khỏi miền Bắc Việt Nam",
+          "C": "Ngừng ném bom tất cả các thành phố trọng điểm ở miền Nam",
+          "D": "Bồi thường chiến phí cho các Cựu chiến binh Việt Nam"
+        },
+        "answer": "A",
+        "explanation": "Hiệp định Paris (27/1/1973) buộc Mỹ và quân đồng minh phải rút hết quân viễn chinh về nước, chấm dứt hoàn toàn sự can thiệp quân sự trực tiếp của quân đội Mỹ ở miền Nam Việt Nam. Điều này đã tạo ra thời cơ chiến lược và thế so sánh lực lượng xoay chuyển có lợi căn bản cho cách mạng miền Nam, tiến tới đánh đổ chính quyền ngụy Sài Gòn, giải phóng hoàn toàn miền Nam.",
+        "image": "vnr/5/10.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 10,
+            "image": "vnr/5/10.jpg"
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "combined_id": 110,
+        "uid": "vnr202_comb_110",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Sự kiện nào đánh dấu bước ngoặt trong cuộc đời hoạt động cách mạng của Nguyễn Ái Quốc – từ người yêu nước trở thành người cộng sản?",
+        "options": {
+          "A": "Ra đi tìm đường cứu nước",
+          "B": "Bỏ phiếu tán thành việc gia nhập Quốc tế III và tham gia thành lập Đảng Cộng sản Pháp",
+          "C": "Gửi Bản yêu sách của nhân dân An Nam tới Hội nghị Véc-xây",
+          "D": "Đọc bản Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của Lênin"
+        },
+        "answer": "B",
+        "explanation": "Tháng 12/1920, tại Đại hội XVIII Đảng Xã hội Pháp họp tại thành phố Tours, Nguyễn Ái Quốc đã bỏ phiếu tán thành gia nhập Quốc tế Cộng sản (Quốc tế III) và tham gia sáng lập Đảng Cộng sản Pháp. Sự kiện này đánh dấu bước ngoặt quyết định: từ một người yêu nước tiến bộ trở thành một chiến sĩ cộng sản đầu tiên của dân tộc Việt Nam.",
+        "image": "vnr/5/11.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 11,
+            "image": "vnr/5/11.jpg"
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "combined_id": 111,
+        "uid": "vnr202_comb_111",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Trong phương pháp nghiên cứu, học tập môn học Lịch sử Đảng Cộng sản Việt Nam cần phải dựa trên phương pháp luận khoa học mác-xít, đồng thời phải nắm vững chủ nghĩa nào dưới đây để xem xét và nhận thức lịch sử một cách khách quan, trung thực và đúng quy luật?",
+        "options": {
+          "A": "Chủ nghĩa duy lý và chủ nghĩa duy vật lịch sử",
+          "B": "Chủ nghĩa duy vật và chủ nghĩa duy tâm",
+          "C": "Chủ nghĩa duy lý và chủ nghĩa duy vật biện chứng",
+          "D": "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử"
+        },
+        "answer": "D",
+        "explanation": "Phương pháp luận nghiên cứu Lịch sử Đảng Cộng sản Việt Nam dựa trên nền tảng của chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh, đòi hỏi người nghiên cứu phải quán triệt và nắm vững chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử để nhận thức hiện thực lịch sử một cách khách quan, khoa học, toàn diện và đúng quy luật.",
+        "image": "vnr/5/16.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 16,
+            "image": "vnr/5/16.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 20,
+            "image": "vnr/7/20.jpg"
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "combined_id": 112,
+        "uid": "vnr202_comb_112",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Trong Cương lĩnh đầu tiên, lực lượng cách mạng chủ yếu được xác định là:",
+        "options": {
+          "A": "Tư sản dân tộc",
+          "B": "Công nhân và nông dân",
+          "C": "Địa chủ tiến bộ",
+          "D": "Trí thức tiểu tư sản"
+        },
+        "answer": "B",
+        "explanation": "Cương lĩnh chính trị đầu tiên (2/1930) nêu rõ: Công nhân và nông dân là lực lượng nòng cốt, chủ yếu, là 'gốc cách mệnh'. Đảng phải dựa vào công - nông, đồng thời đoàn kết với các giai cấp, tầng lớp yêu nước khác.",
+        "image": "vnr/5/18.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 18,
+            "image": "vnr/5/18.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 11,
+            "image": "vnr/6/11.jpg"
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "combined_id": 113,
+        "uid": "vnr202_comb_113",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Khẩu hiệu được nhân dân các tỉnh Nam Bộ dùng để nâng cao tinh thần chiến đấu trong những ngày đầu chống thực dân Pháp xâm lược lần thứ hai là:",
+        "options": {
+          "A": "Thà chết tự do còn hơn sống nô lệ",
+          "B": "Vững tay súng, chắc tay cày",
+          "C": "Quyết tử để Tổ quốc quyết sinh",
+          "D": "Thóc không thiếu một cân, quân không thiếu một người"
+        },
+        "answer": "A",
+        "explanation": "Khi thực dân Pháp nổ súng đánh chiếm Sài Gòn ngày 23/9/1945 hòng xâm lược nước ta lần thứ hai, đồng bào và chiến sĩ Nam Bộ đã quật khởi chiến đấu với ý chí kiên cường và khẩu hiệu đanh thép: 'Thà chết tự do còn hơn sống nô lệ!'.",
+        "image": "vnr/5/19.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 19,
+            "image": "vnr/5/19.jpg"
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "combined_id": 114,
+        "uid": "vnr202_comb_114",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Cuộc kháng chiến chống Pháp xâm lược lần thứ hai của nhân dân ta được diễn ra vào thời gian nào?",
+        "options": {
+          "A": "1946 – 1954",
+          "B": "1930 – 1945",
+          "C": "1858 – 1930",
+          "D": "1945 – 1975"
+        },
+        "answer": "A",
+        "explanation": "Cuộc kháng chiến toàn quốc chống thực dân Pháp xâm lược lần thứ hai của nhân dân ta bắt đầu từ ngày 19/12/1946 (Lời kêu gọi toàn quốc kháng chiến của Chủ tịch Hồ Chí Minh) và kết thúc thắng lợi năm 1954 với chiến dịch Điện Biên Phủ và Hiệp định Giơ-ne-vơ.",
+        "image": "vnr/5/20.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 20,
+            "image": "vnr/5/20.jpg"
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "combined_id": 115,
+        "uid": "vnr202_comb_115",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Sự kiện nào dưới đây đã tạo ra thời cơ thuận lợi cho nhân dân ta giành lại độc lập vào tháng 8/1945?",
+        "options": {
+          "A": "Sự nổi dậy giành thắng lợi của nhân dân các nước Tây Âu",
+          "B": "Sự đầu hàng vô điều kiện của phát-xít Nhật",
+          "C": "Sự thất bại của Hồng quân Liên Xô tại mặt trận Xô-Đức",
+          "D": "Sự thất bại của phe phát-xít tại chiến trường châu Mỹ"
+        },
+        "answer": "B",
+        "explanation": "Việc phát-xít Nhật tuyên bố đầu hàng Đồng minh vô điều kiện (giữa tháng 8/1945) đã đẩy quân Nhật ở Đông Dương vào thế hoang mang rệu rã, chính quyền bù nhìn Trần Trọng Kim tê liệt. Đây chính là thời cơ ngàn năm có một để toàn dân ta tiến hành Tổng khởi nghĩa Tháng Tám giành chính quyền.",
+        "image": "vnr/5/21.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 21,
+            "image": "vnr/5/21.jpg"
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "combined_id": 116,
+        "uid": "vnr202_comb_116",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Ở Châu Á, quân phiệt Nhật đã đầu hàng Đồng minh vô điều kiện vào năm nào?",
+        "options": {
+          "A": "1945 – 11/8/1945",
+          "B": "1940",
+          "C": "1950",
+          "D": "1942"
+        },
+        "answer": "A",
+        "explanation": "Tại chiến trường châu Á - Thái Bình Dương, phát-xít Nhật đã chấp nhận đầu hàng Đồng minh vô điều kiện vào tháng 8/1945 (ngày 15/8/1945 Nhật hoàng phát thanh tuyên bố đầu hàng, ký hiệp ước đầu hàng chính thức ngày 2/9/1945). Mốc năm 1945 là đáp án chính xác.",
+        "image": "vnr/5/22.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 22,
+            "image": "vnr/5/22.jpg"
+          }
+        ]
+      },
+      {
+        "id": 117,
+        "combined_id": 117,
+        "uid": "vnr202_comb_117",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Đối tượng nghiên cứu của khoa học Lịch sử Đảng Cộng sản Việt Nam là:",
+        "options": {
+          "A": "Các văn kiện của Đảng chuẩn bị được lưu hành",
+          "B": "Sự ra đời, phát triển và hoạt động lãnh đạo của Đảng qua các thời kỳ lịch sử",
+          "C": "Những mặt hạn chế trong quá trình lãnh đạo của Đảng",
+          "D": "Các cán bộ, đảng viên Đảng Cộng sản Việt Nam"
+        },
+        "answer": "B",
+        "explanation": "Đối tượng nghiên cứu của khoa học Lịch sử Đảng Cộng sản Việt Nam là sự ra đời, phát triển và hoạt động lãnh đạo của Đảng qua các thời kỳ lịch sử; làm sáng tỏ các quy luật, bài học kinh nghiệm và thành tựu của cách mạng Việt Nam dưới sự lãnh đạo của Đảng.",
+        "image": "vnr/5/23.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 23,
+            "image": "vnr/5/23.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 10,
+            "image": "vnr/6/10.jpg"
+          }
+        ]
+      },
+      {
+        "id": 118,
+        "combined_id": 118,
+        "uid": "vnr202_comb_118",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Động lực của cách mạng Việt Nam được xác định trong Đại hội đại biểu toàn quốc lần thứ II của Đảng (2/1951) gồm các giai cấp và tầng lớp nào?",
+        "options": {
+          "A": "Phong kiến, nông dân, tư sản dân tộc và tư sản mại bản",
+          "B": "Phong kiến, nông dân, công nhân và tư sản dân tộc",
+          "C": "Công nhân, nông dân, tiểu tư sản và tư sản mại bản",
+          "D": "Công nhân, nông dân, tiểu tư sản và tư sản dân tộc"
+        },
+        "answer": "D",
+        "explanation": "Chính cương Đảng Lao động Việt Nam được thông qua tại Đại hội II (2/1951) xác định: Động lực của cách mạng Việt Nam gồm giai cấp công nhân, giai cấp nông dân, giai cấp tiểu tư sản và giai cấp tư sản dân tộc; trong đó nền tảng là giai cấp công nhân, giai cấp nông dân và lao động trí óc.",
+        "image": "vnr/5/24.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 24,
+            "image": "vnr/5/24.jpg"
+          },
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 25,
+            "image": "vnr/7/25.jpg"
+          }
+        ]
+      },
+      {
+        "id": 119,
+        "combined_id": 119,
+        "uid": "vnr202_comb_119",
+        "exam_code": "VNR202 - Đề 5",
+        "question": "Mục tiêu chiến lược của Cương lĩnh chính trị đầu tiên là gì?",
+        "options": {
+          "A": "Lật đổ thực dân Pháp, đánh đổ phong kiến, xây dựng chủ nghĩa xã hội",
+          "B": "Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản",
+          "C": "Giành độc lập dân tộc và tiến lên chủ nghĩa xã hội",
+          "D": "Cách mạng dân tộc dân chủ nhân dân để tiến lên xã hội chủ nghĩa"
+        },
+        "answer": "B",
+        "explanation": "Cương lĩnh chính trị đầu tiên do lãnh tụ Nguyễn Ái Quốc soạn thảo (2/1930) xác định phương hướng chiến lược của cách mạng Việt Nam là: 'Chủ trương làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản'.",
+        "image": "vnr/5/25.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 5",
+            "q_num": 25,
+            "image": "vnr/5/25.jpg"
+          }
+        ]
+      },
+      {
+        "id": 120,
+        "combined_id": 120,
+        "uid": "vnr202_comb_120",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Cách mạng giành chính quyền ở Hà Nội trong Cách mạng Tháng Tám nổ ra vào thời gian nào?",
+        "options": {
+          "A": "19/8/1945",
+          "B": "25/8/1945",
+          "C": "23/8/1945",
+          "D": "18/8/1945"
+        },
+        "answer": "A",
+        "explanation": "Ngày 19/8/1945, dưới sự lãnh đạo của Thành ủy Hà Nội và Ủy ban Khởi nghĩa, cuộc mít tinh khổng lồ tại Quảng trường Nhà hát Lớn đã nhanh chóng biến thành cuộc biểu tình tuần hành vũ trang, đánh chiếm Phủ Khâm sai Bắc Kỳ, Tòa Thị chính, Trại lính Bảo an, giành thắng lợi vang dội và trọn vẹn tại Thủ đô Hà Nội.",
+        "image": "vnr/6/8.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 8,
+            "image": "vnr/6/8.jpg"
+          }
+        ]
+      },
+      {
+        "id": 121,
+        "combined_id": 121,
+        "uid": "vnr202_comb_121",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Các cuộc khởi nghĩa Bắc Sơn, Nam Kỳ (1940) và binh biến Đô Lương (1941) đã để lại bài học kinh nghiệm gì cho cách mạng Việt Nam?",
+        "options": {
+          "A": "Thời cơ trong khởi nghĩa giành chính quyền",
+          "B": "Tiến hành tổng khởi nghĩa trước, có thể bỏ qua khởi nghĩa từng phần",
+          "C": "Khởi nghĩa vũ trang và chiến tranh du kích",
+          "D": "Đấu tranh trên lĩnh vực ngoại giao"
+        },
+        "answer": "C",
+        "explanation": "Các cuộc khởi nghĩa Bắc Sơn, Nam Kỳ và binh biến Đô Lương tuy chưa thành công do nổ ra sớm khi điều kiện chưa chín muồi, nhưng đã để lại cho Đảng ta những bài học kinh nghiệm thực tiễn vô cùng quý báu về khởi nghĩa vũ trang, chiến thuật du kích, xây dựng căn cứ địa cách mạng và duy trì lực lượng vũ trang nhân dân.",
+        "image": "vnr/6/9.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 9,
+            "image": "vnr/6/9.jpg"
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "combined_id": 122,
+        "uid": "vnr202_comb_122",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Tính chất điển hình nhất của Cách mạng Tháng Tám năm 1945 là gì?",
+        "options": {
+          "A": "Một cuộc cách mạng tư sản dân quyền",
+          "B": "Một cuộc cách mạng xã hội chủ nghĩa kiểu mới",
+          "C": "Một cuộc cách mạng dân tộc dân chủ nhân dân",
+          "D": "Một cuộc khởi nghĩa nông dân quy mô lớn"
+        },
+        "answer": "C",
+        "explanation": "Cách mạng Tháng Tám năm 1945 là một cuộc cách mạng giải phóng dân tộc mang tính chất dân tộc dân chủ nhân dân sâu sắc: vừa lật đổ ách thống trị của phát-xít và đế quốc thực dân để giành độc lập dân tộc, vừa đánh đổ chế độ phong kiến ngàn năm để xây dựng chính quyền dân chủ nhân dân.",
+        "image": "vnr/6/12.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 12,
+            "image": "vnr/6/12.jpg"
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "combined_id": 123,
+        "uid": "vnr202_comb_123",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Phong trào đình công, bãi công của công nhân Việt Nam trong những năm 1926 – 1929 thuộc khuynh hướng nào?",
+        "options": {
+          "A": "Khuynh hướng dân chủ tư sản",
+          "B": "Khuynh hướng vô sản",
+          "C": "Khuynh hướng dân chủ",
+          "D": "Khuynh hướng phong kiến"
+        },
+        "answer": "B",
+        "explanation": "Trong giai đoạn 1926 - 1929, phong trào công nhân Việt Nam phát triển nhảy vọt cả về số lượng và chất lượng dưới tác động truyền bá chủ nghĩa Mác - Lênin và phong trào 'vô sản hóa' (1928), chuyển biến mạnh mẽ từ đấu tranh tự phát sang đấu tranh tự giác và hoàn toàn phát triển theo khuynh hướng vô sản.",
+        "image": "vnr/6/13.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 13,
+            "image": "vnr/6/13.jpg"
+          }
+        ]
+      },
+      {
+        "id": 124,
+        "combined_id": 124,
+        "uid": "vnr202_comb_124",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Bối cảnh quốc tế tác động trực tiếp đến sự chuyển hướng chỉ đạo của Đảng năm 1936 là gì?",
+        "options": {
+          "A": "Cuộc khủng hoảng kinh tế kéo dài tại Mỹ và châu Âu",
+          "B": "Chiến tranh giữa Liên Xô và các nước tư bản phương Tây",
+          "C": "Chủ nghĩa phát xít lên cầm quyền ở Đức, Ý, Nhật đe dọa hòa bình thế giới",
+          "D": "Cách mạng dân chủ ở Tây Ban Nha"
+        },
+        "answer": "C",
+        "explanation": "Nguy cơ chủ nghĩa phát xít lên cầm quyền ở Đức, Ý, Nhật và ráo riết chuẩn bị chiến tranh thế giới mới đã đe dọa trực tiếp nền hòa bình và an ninh nhân loại. Đại hội VII Quốc tế Cộng sản (7/1935) kêu gọi thành lập Mặt trận Nhân dân chống phát xít. Bối cảnh đó đã tác động trực tiếp đến Hội nghị Trung ương tháng 7/1936 của Đảng ta để chuyển hướng chỉ đạo chiến lược và sách lược.",
+        "image": "vnr/6/14.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 14,
+            "image": "vnr/6/14.jpg"
+          }
+        ]
+      },
+      {
+        "id": 125,
+        "combined_id": 125,
+        "uid": "vnr202_comb_125",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Mặt trận Dân tộc giải phóng miền Nam Việt Nam được thành lập ngày 20/12/1960 có ý nghĩa như là:",
+        "options": {
+          "A": "Một tổ chức ngoại giao với nhiệm vụ kêu gọi sự ủng hộ của những người yêu chuộng hoà bình thế giới đối với cuộc kháng chiến chống Mỹ của nhân dân ta",
+          "B": "Một tổ chức vũ trang với nhiệm vụ huấn luyện, đào tạo quân đội Việt Minh",
+          "C": "Một tổ chức chính trị để tập hợp rộng rãi quần chúng nhân dân đoàn kết đấu tranh chống lại chính quyền độc tài của Ngô Đình Diệm",
+          "D": "Một tổ chức xã hội với nhiệm vụ chăm lo đời sống cho con em những người cộng sản"
+        },
+        "answer": "C",
+        "explanation": "Mặt trận Dân tộc giải phóng miền Nam Việt Nam ra đời ngày 20/12/1960 nhằm tập hợp, đoàn kết rộng rãi các tầng lớp nhân dân, các dân tộc, tôn giáo, các tổ chức và nhân sĩ yêu nước ở miền Nam để cùng nhau đánh đổ ách thống trị thực dân mới của đế quốc Mỹ và chế độ độc tài tay sai Ngô Đình Diệm.",
+        "image": "vnr/6/16.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 16,
+            "image": "vnr/6/16.jpg"
+          }
+        ]
+      },
+      {
+        "id": 126,
+        "combined_id": 126,
+        "uid": "vnr202_comb_126",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Đại hội đại biểu toàn quốc lần thứ III (9/1960) của Đảng họp ở đâu?",
+        "options": {
+          "A": "Hà Giang",
+          "B": "Hà Nội",
+          "C": "Bắc Ninh",
+          "D": "Tuyên Quang"
+        },
+        "answer": "B",
+        "explanation": "Đại hội đại biểu toàn quốc lần thứ III của Đảng họp từ ngày 5 đến ngày 10/9/1960 tại Thủ đô Hà Nội. Đại hội đã đề ra đường lối chiến lược cách mạng chung của cả nước trong giai đoạn mới: tiến hành đồng thời hai chiến lược cách mạng ở hai miền Nam - Bắc.",
+        "image": "vnr/6/17.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 17,
+            "image": "vnr/6/17.jpg"
+          }
+        ]
+      },
+      {
+        "id": 127,
+        "combined_id": 127,
+        "uid": "vnr202_comb_127",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Trong Cương lĩnh chính trị đầu tiên, Đảng xác định “mục tiêu chiến lược của cách mạng Việt Nam là ......và thổ địa cách mạng để đi tới xã hội cộng sản.” Từ còn thiếu trong chỗ trống là:",
+        "options": {
+          "A": "Xã hội chủ nghĩa",
+          "B": "Dân tộc dân chủ",
+          "C": "Dân tộc dân chủ nhân dân",
+          "D": "Dân quyền cách mạng"
+        },
+        "answer": "D",
+        "explanation": "Trong Chánh cương vắn tắt của Đảng (2/1930), Nguyễn Ái Quốc xác định phương hướng chiến lược: 'Chủ trương làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản'. Vì vậy cụm từ chính xác điền vào chỗ trống là 'Dân quyền cách mạng'.",
+        "image": "vnr/6/20.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 20,
+            "image": "vnr/6/20.jpg"
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "combined_id": 128,
+        "uid": "vnr202_comb_128",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Điểm nổi bật về phương pháp cách mạng trong Cương lĩnh đầu tiên là:",
+        "options": {
+          "A": "Đấu tranh hợp pháp và nghị trường",
+          "B": "Đấu tranh quân sự kết hợp bạo loạn",
+          "C": "Bạo lực cách mạng do công – nông lãnh đạo",
+          "D": "Thỏa hiệp với các giai cấp bóc lột"
+        },
+        "answer": "C",
+        "explanation": "Cương lĩnh chính trị đầu tiên của Đảng chỉ rõ phương pháp cách mạng giải phóng dân tộc là con đường bạo lực cách mạng của quần chúng nhân dân do liên minh công nông làm nền tảng và dưới sự lãnh đạo của giai cấp công nhân.",
+        "image": "vnr/6/23.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 23,
+            "image": "vnr/6/23.jpg"
+          }
+        ]
+      },
+      {
+        "id": 129,
+        "combined_id": 129,
+        "uid": "vnr202_comb_129",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Tác phẩm nào dưới đây của Nguyễn Ái Quốc đã đề cập đến những vấn đề cơ bản của một cương lĩnh chính trị, chuẩn bị về tư tưởng, chính trị cho việc thành lập Đảng?",
+        "options": {
+          "A": "Nhật ký trong tù (1943)",
+          "B": "Bản án chế độ thực dân Pháp (1925)",
+          "C": "Đông Dương (1924)",
+          "D": "Đường Kách mệnh (1927)"
+        },
+        "answer": "D",
+        "explanation": "Tác phẩm 'Đường Kách mệnh' (xuất bản đầu năm 1927) đã trình bày một cách hệ thống những quan điểm cơ bản của chủ nghĩa Mác - Lênin về con đường giải phóng dân tộc, chuẩn bị trực tiếp về tư tưởng và chính trị cho sự ra đời của Đảng Cộng sản Việt Nam.",
+        "image": "vnr/6/26.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 26,
+            "image": "vnr/6/26.jpg"
+          }
+        ]
+      },
+      {
+        "id": 130,
+        "combined_id": 130,
+        "uid": "vnr202_comb_130",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Bản chất của Hiệp ước Hoa – Pháp (28/2/1946) đã chà đạp lên nền độc lập của Việt Nam và hợp pháp hoá hành động xâm lược của:",
+        "options": {
+          "A": "Thực dân Pháp",
+          "B": "Quân đội Trung Quốc",
+          "C": "Đế quốc Mỹ",
+          "D": "Quân đội Nhật Bản"
+        },
+        "answer": "A",
+        "explanation": "Hiệp ước Hoa - Pháp (28/2/1946) là sự thỏa hiệp bẩn thỉu giữa chính phủ Tưởng và thực dân Pháp sau lưng nhân dân ta, đã chà đạp thô bạo lên độc lập chủ quyền của Việt Nam và tạo cớ hợp pháp hóa cho quân đội viễn chinh Pháp kéo ra miền Bắc thay thế quân Tưởng chiếm đóng nước ta.",
+        "image": "vnr/6/27.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 27,
+            "image": "vnr/6/27.jpg"
+          }
+        ]
+      },
+      {
+        "id": 131,
+        "combined_id": 131,
+        "uid": "vnr202_comb_131",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Nghị quyết Bộ Chính trị tháng 9/1954 đã đề ra nhiệm vụ cụ thể, trước mắt cho cách mạng miền Nam là:",
+        "options": {
+          "A": "Bằng mọi cách yêu cầu quân đội Pháp rút hết quân về nước",
+          "B": "Giúp miền Bắc xây dựng chủ nghĩa xã hội nhanh, mạnh, vững chắc",
+          "C": "Đề ra kế hoạch phát triển kinh tế miền Nam theo hướng tư bản chủ nghĩa",
+          "D": "Tập hợp mọi lực lượng đấu tranh nhằm lật đổ chính quyền bù nhìn thân Mỹ, hoàn thành thống nhất Tổ quốc"
+        },
+        "answer": "D",
+        "explanation": "Nghị quyết Bộ Chính trị tháng 9/1954 chỉ rõ nhiệm vụ trước mắt của cách mạng miền Nam: chuyển từ đấu tranh vũ trang sang đấu tranh chính trị, đòi thi hành Hiệp định Giơ-ne-vơ, đòi tự do dân chủ, tập hợp rộng rãi lực lượng dân tộc dân chủ nhằm lật đổ chính quyền bù nhìn thân Mỹ, thực hiện hòa bình thống nhất Tổ quốc.",
+        "image": "vnr/6/28.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 28,
+            "image": "vnr/6/28.jpg"
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "combined_id": 132,
+        "uid": "vnr202_comb_132",
+        "exam_code": "VNR202 - Đề 6",
+        "question": "Khẩu hiệu cách mạng nổi bật trong phong trào 1930–1931 là:",
+        "options": {
+          "A": "Tự do – Hòa bình – Hữu nghị",
+          "B": "Đả đảo đế quốc – Đả đảo phong kiến",
+          "C": "Độc lập dân tộc – Chủ nghĩa xã hội",
+          "D": "Dân sinh – Dân chủ – Dân quyền"
+        },
+        "answer": "B",
+        "explanation": "Trong phong trào cách mạng 1930 - 1931, quần chúng nhân dân đã vùng dậy đấu tranh với hai khẩu hiệu chiến lược xuyên suốt: 'Đả đảo chủ nghĩa đế quốc! Đả đảo phong kiến!' đòi độc lập dân tộc và ruộng đất cho dân cày.",
+        "image": "vnr/6/30.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 6",
+            "q_num": 30,
+            "image": "vnr/6/30.jpg"
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "combined_id": 133,
+        "uid": "vnr202_comb_133",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Tháng 3/1959, chính quyền Ngô Đình Diệm đã:",
+        "options": {
+          "A": "Thông qua luật 10/59, đặt những người cộng sản ra khỏi vòng pháp luật",
+          "B": "Tuyên bố đặt miền Nam trong tình trạng chiến tranh",
+          "C": "Tự giải tán, đưa Ngô Đình Nhu lên cầm quyền",
+          "D": "Mang quân ra xâm lược miền Bắc Việt Nam"
+        },
+        "answer": "B",
+        "explanation": "Tháng 3/1959, chính quyền Ngô Đình Diệm công khai tuyên bố 'đặt miền Nam trong tình trạng chiến tranh'. Sau đó, ngày 6/5/1959, Diệm ký ban hành Luật 10/59 lê máy chém đi khắp miền Nam, đặt những người cộng sản và nhân dân yêu nước ra ngoài vòng pháp luật.",
+        "image": "vnr/7/2.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 2,
+            "image": "vnr/7/2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "combined_id": 134,
+        "uid": "vnr202_comb_134",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Trong Sắc lệnh về nghĩa vụ quân sự được Hồ Chí Minh ký ban hành tháng 11/1949 đã đề cập đến việc ưu tiên phát triển lực lượng ba thứ quân. Ba thứ quân đó gồm:",
+        "options": {
+          "A": "Thanh niên xung phong, bộ đội chủ lực, dân quân du kích",
+          "B": "Bộ đội chủ lực, bộ đội địa phương, thanh niên xung phong",
+          "C": "Thanh niên xung phong, bộ đội địa phương, dân quân du kích",
+          "D": "Bộ đội chủ lực, bộ đội địa phương, dân quân du kích"
+        },
+        "answer": "D",
+        "explanation": "Ba thứ quân của lực lượng vũ trang nhân dân Việt Nam được hoàn thiện tổ chức gồm: Bộ đội chủ lực (các đại đoàn, trung đoàn cơ động chiến lược), Bộ đội địa phương (gắn với địa bàn tỉnh, huyện) và Dân quân du kích / tự vệ (ở cơ sở làng, xã).",
+        "image": "vnr/7/3.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 3,
+            "image": "vnr/7/3.jpg"
+          }
+        ]
+      },
+      {
+        "id": 135,
+        "combined_id": 135,
+        "uid": "vnr202_comb_135",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Hình thức đấu tranh chủ yếu trong phong trào 1936–1939 là gì?",
+        "options": {
+          "A": "Đấu tranh vũ trang kết hợp bạo động bí mật ở nông thôn",
+          "B": "Đấu tranh quân sự kết hợp khởi nghĩa cục bộ tại các đô thị lớn",
+          "C": "Đấu tranh công khai, hợp pháp và nửa hợp pháp thông qua các hội nghị, kiến nghị",
+          "D": "Vận động công khai trên báo chí và các tổ chức hợp pháp"
+        },
+        "answer": "C",
+        "explanation": "Điểm nổi bật nhất của phong trào dân chủ 1936 - 1939 là Đảng đã triệt để lợi dụng điều kiện thuận lợi để tổ chức đấu tranh công khai, hợp pháp và nửa hợp pháp: phong trào Đông Dương Đại hội thu thập dân nguyện, mít tinh, bãi công, đấu tranh trên báo chí và nghị trường.",
+        "image": "vnr/7/6.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 6,
+            "image": "vnr/7/6.jpg"
+          }
+        ]
+      },
+      {
+        "id": 136,
+        "combined_id": 136,
+        "uid": "vnr202_comb_136",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Chiến dịch nào đã được Đảng phát động từ năm 1951?",
+        "options": {
+          "A": "Chiến dịch Nam Lào",
+          "B": "Chiến dịch Tây Bắc Thu Đông",
+          "C": "Chiến dịch Hoà Bình",
+          "D": "Chiến dịch Thượng Lào"
+        },
+        "answer": "C",
+        "explanation": "Chiến dịch Hòa Bình được Đảng và Bộ Tổng tư lệnh mở từ ngày 10/12/1951 đến ngày 25/2/1952 nhằm đánh bại âm mưu chiếm đóng Hòa Bình của thực dân Pháp (kế hoạch Đờ Lát đơ Tát-xi-nhi), giữ vững hành lang chiến lược nối liền Việt Bắc với Liên khu 3 và Liên khu 4.",
+        "image": "vnr/7/7.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 7,
+            "image": "vnr/7/7.jpg"
+          }
+        ]
+      },
+      {
+        "id": 137,
+        "combined_id": 137,
+        "uid": "vnr202_comb_137",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Sự kiện nào đánh dấu giai cấp công nhân Việt Nam đã bước đầu đi vào đấu tranh tự giác?",
+        "options": {
+          "A": "Bãi công của công nhân thợ nhuộm Sài Gòn – Chợ Lớn (1922)",
+          "B": "Bãi công của công nhân nhà máy sợi Nam Định (1930)",
+          "C": "Tổng bãi công của công nhân Bắc Kỳ (1922)",
+          "D": "Bãi công của thợ máy xưởng Ba Son cảng Sài Gòn (1925)"
+        },
+        "answer": "D",
+        "explanation": "Cuộc bãi công của hơn 1.000 thợ máy xưởng Ba Son (cảng Sài Gòn) vào tháng 8/1925 do đồng chí Tôn Đức Thắng lãnh đạo đánh dấu bước ngoặt quan trọng: phong trào công nhân Việt Nam bước đầu chuyển từ đấu tranh tự phát sang đấu tranh tự giác (bãi công có tổ chức Công hội bí mật, gắn yêu sách kinh tế với tinh thần quốc tế vô sản ủng hộ cách mạng Trung Quốc).",
+        "image": "vnr/7/8.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 8,
+            "image": "vnr/7/8.jpg"
+          }
+        ]
+      },
+      {
+        "id": 138,
+        "combined_id": 138,
+        "uid": "vnr202_comb_138",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Phong trào nào dưới đây đã được phát triển mạnh và nhận được sự ủng hộ của hàng triệu người dân miền Nam trong giai đoạn đầu của cuộc kháng chiến chống Mỹ?",
+        "options": {
+          "A": "Dồn dân, lập ấp",
+          "B": "Di dân ra miền Bắc Việt Nam",
+          "C": "Đưa cộng sản ra ngoài vòng pháp luật",
+          "D": "Đấu tranh đòi hiệp thương tổng tuyển cử"
+        },
+        "answer": "D",
+        "explanation": "Trong giai đoạn đầu (1954 - 1959), nhân dân miền Nam đã dấy lên phong trào đấu tranh chính trị rộng khắp và bền bỉ đòi chính quyền Ngô Đình Diệm phải thi hành nghiêm chỉnh Hiệp định Giơ-ne-vơ, bảo vệ hòa bình, thực hiện các quyền tự do dân chủ và đặc biệt là đấu tranh đòi hiệp thương tổng tuyển cử để hòa bình thống nhất Tổ quốc.",
+        "image": "vnr/7/10.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 10,
+            "image": "vnr/7/10.jpg"
+          }
+        ]
+      },
+      {
+        "id": 139,
+        "combined_id": 139,
+        "uid": "vnr202_comb_139",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Trận Điện Biên Phủ (7/1954) thắng lợi đã mang lại ý nghĩa rất lớn không chỉ đối với cách mạng Việt Nam, mà còn cả đối với cách mạng thế giới vì:",
+        "options": {
+          "A": "Làm sụp đổ hệ thống phát-xít ở các nước châu Âu",
+          "B": "Giúp các quốc gia tư bản ở Châu Á – Âu – Mỹ Latinh tự giải phóng cho mình",
+          "C": "Báo hiệu sự thắng lợi của nhân dân các dân tộc bị áp bức, sự sụp đổ của chủ nghĩa thực dân",
+          "D": "Báo hiệu sự sụp đổ không thể tránh khỏi của chủ nghĩa tư bản"
+        },
+        "answer": "C",
+        "explanation": "Chiến thắng Điện Biên Phủ 'được ghi vào lịch sử dân tộc như một Bạch Đằng, một Chi Lăng hay một Đống Đa trong thế kỷ XX, và đi vào lịch sử thế giới như một chiến công chói lọi đột phá thành trì của hệ thống nô dịch thuộc địa của chủ nghĩa đế quốc', báo hiệu sự thắng lợi của nhân dân các dân tộc bị áp bức và sự sụp đổ của chủ nghĩa thực dân cũ trên phạm vi toàn cầu.",
+        "image": "vnr/7/12.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 12,
+            "image": "vnr/7/12.jpg"
+          }
+        ]
+      },
+      {
+        "id": 140,
+        "combined_id": 140,
+        "uid": "vnr202_comb_140",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Chiến thuật quân sự “trực thăng vận” và “thiết xa vận” được Mỹ áp dụng trong chiến lược chiến tranh nào ở miền Nam Việt Nam?",
+        "options": {
+          "A": "Việt Nam hoá chiến tranh",
+          "B": "Chiến tranh cục bộ",
+          "C": "Chiến tranh đơn phương",
+          "D": "Chiến tranh đặc biệt"
+        },
+        "answer": "D",
+        "explanation": "Trong chiến lược 'Chiến tranh đặc biệt' (1961 - 1965), đế quốc Mỹ đã trang bị tối tân cho quân đội ngụy Sài Gòn và áp dụng các chiến thuật tác chiến mới mang tính cơ động cao bằng phương tiện chiến tranh hiện đại của Mỹ là 'trực thăng vận' và 'thiết xa vận'.",
+        "image": "vnr/7/13.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 13,
+            "image": "vnr/7/13.jpg"
+          }
+        ]
+      },
+      {
+        "id": 141,
+        "combined_id": 141,
+        "uid": "vnr202_comb_141",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Sự ra đời của ba tổ chức cộng sản diễn ra trong vòng nửa cuối năm 1929 đã khẳng định điều gì?",
+        "options": {
+          "A": "Cách mạng Việt Nam đã đủ mạnh để đương đầu với thực dân Pháp",
+          "B": "Cách mạng Việt Nam đã vượt qua khủng hoảng về đường lối lãnh đạo",
+          "C": "Cách mạng Việt Nam đã có bước phát triển về chất, phù hợp với yêu cầu của lịch sử",
+          "D": "Cách mạng Việt Nam đã trở thành một bộ phận của cách mạng thế giới"
+        },
+        "answer": "C",
+        "explanation": "Sự xuất hiện nối tiếp của 3 tổ chức cộng sản năm 1929 (Đông Dương Cộng sản Đảng, An Nam Cộng sản Đảng, Đông Dương Cộng sản Liên đoàn) là kết quả tất yếu của sự kết hợp giữa chủ nghĩa Mác - Lênin với phong trào công nhân và phong trào yêu nước, khẳng định bước phát triển nhảy vọt về chất của cách mạng Việt Nam, đặt ra yêu cầu cấp thiết phải hợp nhất thành một Đảng Cộng sản duy nhất.",
+        "image": "vnr/7/14.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 14,
+            "image": "vnr/7/14.jpg"
+          }
+        ]
+      },
+      {
+        "id": 142,
+        "combined_id": 142,
+        "uid": "vnr202_comb_142",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Hội nghị Trung ương lần thứ 6 (11/1939) đã xác định nhiệm vụ trước mắt của cách mạng Việt Nam là gì?",
+        "options": {
+          "A": "Tổ chức khởi nghĩa vũ trang giành chính quyền trên toàn quốc",
+          "B": "Đánh đổ phong kiến tay sai và tư sản phản động",
+          "C": "Đấu tranh hợp pháp đòi dân sinh, dân chủ",
+          "D": "Giải phóng dân tộc là nhiệm vụ hàng đầu"
+        },
+        "answer": "D",
+        "explanation": "Hội nghị Ban Chấp hành Trung ương Đảng lần thứ VI (11/1939) họp tại Bà Điểm (Gia Định) do Tổng Bí thư Nguyễn Văn Cừ chủ trì đã khẳng định chuyển hướng chỉ đạo chiến lược: đặt nhiệm vụ giải phóng dân tộc lên hàng đầu, tạm gác khẩu hiệu cách mạng ruộng đất nhằm tập trung mũi nhọn chống đế quốc phát xít và bè lũ tay sai.",
+        "image": "vnr/7/15.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 15,
+            "image": "vnr/7/15.jpg"
+          }
+        ]
+      },
+      {
+        "id": 143,
+        "combined_id": 143,
+        "uid": "vnr202_comb_143",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Tác phẩm nào của Nguyễn Ái Quốc đã vạch rõ âm mưu và thủ đoạn của chủ nghĩa đế quốc che giấu tội ác dưới cái vỏ bọc “khai hoá văn minh”?",
+        "options": {
+          "A": "Đường Kách mệnh",
+          "B": "Con rồng tre",
+          "C": "Nhật ký trong tù",
+          "D": "Bản án chế độ thực dân Pháp"
+        },
+        "answer": "D",
+        "explanation": "Tác phẩm 'Bản án chế độ thực dân Pháp' (xuất bản năm 1925 tại Paris) của Nguyễn Ái Quốc đã tố cáo và vạch trần tội ác tàn bạo, dã man của thực dân Pháp tại các thuộc địa ẩn sau chiêu bài mị dân 'khai hóa văn minh'.",
+        "image": "vnr/7/17.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 17,
+            "image": "vnr/7/17.jpg"
+          }
+        ]
+      },
+      {
+        "id": 144,
+        "combined_id": 144,
+        "uid": "vnr202_comb_144",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Cách mạng Tháng Tám là kết quả của quá trình đấu tranh nào?",
+        "options": {
+          "A": "Một cuộc vận động hòa bình do trí thức lãnh đạo",
+          "B": "Một quá trình nổi dậy liên tục từ đầu thế kỷ XX đến 1945",
+          "C": "Một cuộc khởi nghĩa ngắn hạn, tự phát của quần chúng",
+          "D": "Một phong trào cải cách hành chính do thực dân Pháp khởi xướng"
+        },
+        "answer": "B",
+        "explanation": "Cách mạng Tháng Tám 1945 là kết tinh của cả một quá trình đấu tranh anh dũng, quật khởi và nổi dậy liên tục của nhân dân Việt Nam từ đầu thế kỷ XX đến 1945, đặc biệt là 15 năm chuẩn bị công phu dưới sự lãnh đạo sáng suốt của Đảng Cộng sản Việt Nam qua ba cuộc tập dượt cách mạng vĩ đại.",
+        "image": "vnr/7/18.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 18,
+            "image": "vnr/7/18.jpg"
+          }
+        ]
+      },
+      {
+        "id": 145,
+        "combined_id": 145,
+        "uid": "vnr202_comb_145",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Điểm mới của phong trào công nhân Việt Nam cuối những năm 1920 là gì?",
+        "options": {
+          "A": "Kết hợp với phong trào yêu nước tư sản",
+          "B": "Gắn với chủ nghĩa Mác – Lênin và mang tính chính trị rõ rệt",
+          "C": "Có tổ chức bí mật rộng khắp",
+          "D": "Gắn bó với phong trào nông dân"
+        },
+        "answer": "B",
+        "explanation": "Vào cuối những năm 1920 (nhất là sau phong trào 'vô sản hóa' năm 1928), phong trào công nhân nước ta đã có sự chuyển biến về chất: phong trào gắn liền với việc tiếp thu chủ nghĩa Mác - Lênin, chuyển từ đấu tranh tự phát sang tự giác, mang tính chính trị rõ rệt và trở thành ngọn cờ lãnh đạo cách mạng Việt Nam.",
+        "image": "vnr/7/19.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 19,
+            "image": "vnr/7/19.jpg"
+          }
+        ]
+      },
+      {
+        "id": 146,
+        "combined_id": 146,
+        "uid": "vnr202_comb_146",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Khẩu hiệu “Không thành công thì cũng thành nhân” được sử dụng trong cuộc khởi nghĩa nào dưới đây?",
+        "options": {
+          "A": "Ba Đình",
+          "B": "Hương Khê",
+          "C": "Bãi Sậy",
+          "D": "Yên Bái"
+        },
+        "answer": "D",
+        "explanation": "Khẩu hiệu bi tráng 'Không thành công thì cũng thành nhân' là tuyên ngôn của Nguyễn Thái Học và các yếu nhân của Việt Nam Quốc dân Đảng trong cuộc Khởi nghĩa Yên Bái bùng nổ vào đêm 9/2/1930.",
+        "image": "vnr/7/22.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 22,
+            "image": "vnr/7/22.jpg"
+          }
+        ]
+      },
+      {
+        "id": 147,
+        "combined_id": 147,
+        "uid": "vnr202_comb_147",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Ý nghĩa tích cực của Luận cương chính trị là:",
+        "options": {
+          "A": "Đề cao vị trí của giai cấp tư sản dân tộc",
+          "B": "Phản ánh tư tưởng dân tộc chủ nghĩa sâu sắc",
+          "C": "Xác lập tư tưởng cải cách ôn hòa",
+          "D": "Khẳng định rõ ràng vai trò của công – nông trong cách mạng"
+        },
+        "answer": "D",
+        "explanation": "Mặc dù còn có những hạn chế nhất định, song Luận cương chính trị tháng 10/1930 do Tổng Bí thư Trần Phú khởi thảo có ý nghĩa tích cực rất lớn: khẳng định tính chất cách mạng vô sản ở Đông Dương, khẳng định vai trò lãnh đạo tuyệt đối của giai cấp công nhân và xác định liên minh công - nông là động lực chính của cách mạng.",
+        "image": "vnr/7/23.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 23,
+            "image": "vnr/7/23.jpg"
+          }
+        ]
+      },
+      {
+        "id": 148,
+        "combined_id": 148,
+        "uid": "vnr202_comb_148",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "So với Cương lĩnh đầu tiên, Luận cương chính trị có điểm nào sau đây?",
+        "options": {
+          "A": "Thiên về đấu tranh giai cấp và coi nhẹ dân tộc",
+          "B": "Tập trung xây dựng mặt trận đoàn kết toàn dân",
+          "C": "Nhấn mạnh tính dân tộc hơn giai cấp",
+          "D": "Xác định rõ chiến lược cách mạng lâu dài"
+        },
+        "answer": "A",
+        "explanation": "Hạn chế lớn của Luận cương chính trị tháng 10/1930 so với Cương lĩnh đầu tiên (2/1930) là: nặng về đấu tranh giai cấp và cách mạng ruộng đất, coi nhẹ nhiệm vụ giải phóng dân tộc; chưa đánh giá đúng khả năng cách mạng của tầng lớp tiểu tư sản, tư sản dân tộc và trung tiểu địa chủ yêu nước.",
+        "image": "vnr/7/24.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 24,
+            "image": "vnr/7/24.jpg"
+          }
+        ]
+      },
+      {
+        "id": 149,
+        "combined_id": 149,
+        "uid": "vnr202_comb_149",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Hình thức đấu tranh mới xuất hiện trong phong trào dân chủ 1936 – 1939 ở Việt Nam là:",
+        "options": {
+          "A": "Đấu tranh chính trị",
+          "B": "Mít-tinh biểu tình",
+          "C": "Đấu tranh nghị trường",
+          "D": "Bãi khoá, bãi công"
+        },
+        "answer": "C",
+        "explanation": "Trong phong trào 1936 - 1939, lần đầu tiên Đảng lãnh đạo quần chúng sử dụng hình thức 'đấu tranh nghị trường' (tham gia tranh cử vào các Viện Dân biểu Bắc Kỳ, Trung Kỳ, Hội đồng Quản hạt Nam Kỳ) để mở rộng tuyên truyền cương lĩnh của Đảng và bảo vệ quyền lợi của nhân dân lao động.",
+        "image": "vnr/7/26.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 26,
+            "image": "vnr/7/26.jpg"
+          }
+        ]
+      },
+      {
+        "id": 150,
+        "combined_id": 150,
+        "uid": "vnr202_comb_150",
+        "exam_code": "VNR202 - Đề 7",
+        "question": "Đặc điểm nổi bật nhất của phong trào 1936–1939 so với 1930–1931 là gì?",
+        "options": {
+          "A": "Có sự liên kết với phong trào yêu nước vũ trang ở miền Nam Trung Quốc",
+          "B": "Hướng đến thành lập chính quyền cách mạng lâm thời trên phạm vi cả nước",
+          "C": "Đấu tranh kết hợp bí mật và vũ trang với quy mô mở rộng ra vùng nông thôn",
+          "D": "Đấu tranh công khai về dân sinh, dân chủ trong khuôn khổ pháp luật thực dân"
+        },
+        "answer": "D",
+        "explanation": "Đặc điểm nổi bật nhất của phong trào 1936 - 1939 là hình thức đấu tranh công khai, nửa công khai, hợp pháp và nửa hợp pháp về dân sinh, dân chủ, cơm áo, hòa bình trong khuôn khổ pháp luật thực dân, khác với phong trào 1930 - 1931 mang tính chất bạo lực vũ trang lật đổ chính quyền địch.",
+        "image": "vnr/7/30.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 7",
+            "q_num": 30,
+            "image": "vnr/7/30.jpg"
+          }
+        ]
+      },
+      {
+        "id": 151,
+        "combined_id": 151,
+        "uid": "vnr202_comb_151",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Từ nửa sau thế kỷ XIX, chủ nghĩa tư bản chuyển biến như thế nào?",
+        "options": {
+          "A": "Từ giai đoạn chiếm hữu tập thể sang chiếm hữu tư nhân",
+          "B": "Từ giai đoạn tự do cạnh tranh sang giai đoạn chiếm hữu",
+          "C": "Từ giai đoạn tự do cạnh tranh sang giai đoạn độc quyền",
+          "D": "Từ giai đoạn chiếm hữu tư nhân sang giai đoạn công hữu"
+        },
+        "answer": "C",
+        "explanation": "Từ nửa sau thế kỷ XIX, chủ nghĩa tư bản trên thế giới đã chuyển biến mạnh mẽ từ giai đoạn tự do cạnh tranh sang giai đoạn độc quyền (chủ nghĩa đế quốc), tăng cường xâm chiếm và phân chia thuộc địa trên toàn cầu.",
+        "image": "vnr/8/1.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 1,
+            "image": "vnr/8/1.jpg"
+          }
+        ]
+      },
+      {
+        "id": 152,
+        "combined_id": 152,
+        "uid": "vnr202_comb_152",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Năm 1862, để giam cầm người Việt Nam yêu nước chống Pháp, thực dân Pháp đã xây dựng nhà tù nào?",
+        "options": {
+          "A": "Nhà tù Hỏa Lò",
+          "B": "Nhà tù Côn Đảo",
+          "C": "Nhà tù Phú Quốc",
+          "D": "Nhà tù Lao Bảo"
+        },
+        "answer": "B",
+        "explanation": "Ngày 1/2/1862, Thống đốc Nam Kỳ người Pháp là Bonard đã ký quyết định thành lập nhà tù Côn Đảo với hệ thống hầm ngục tàn bạo nhằm giam cầm, tra tấn và đày ải những chiến sĩ yêu nước và cách mạng Việt Nam.",
+        "image": "vnr/8/2.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 2,
+            "image": "vnr/8/2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 153,
+        "combined_id": 153,
+        "uid": "vnr202_comb_153",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Trong cao trào kháng Nhật cứu nước 1945, ở các tỉnh Bắc Bộ và Bắc Trung Bộ đã nêu cao khẩu hiệu nào?",
+        "options": {
+          "A": "Thành lập chính quyền cách mạng",
+          "B": "Tăng lương, giảm giờ làm",
+          "C": "Phá kho thóc, giải quyết nạn đói",
+          "D": "Dân cày có ruộng"
+        },
+        "answer": "C",
+        "explanation": "Trước thảm họa nạn đói nghiêm trọng đầu năm 1945 cướp đi sinh mạng hơn 2 triệu đồng bào, Đảng ta đã kịp thời đề ra khẩu hiệu 'Phá kho thóc Nhật để giải quyết nạn đói'. Phong trào này đã đáp ứng nguyện vọng sinh tử, cấp bách nhất của quần chúng nhân dân, thổi bùng lên ngọn lửa tổng khởi nghĩa.",
+        "image": "vnr/8/3.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 3,
+            "image": "vnr/8/3.jpg"
+          }
+        ]
+      },
+      {
+        "id": 154,
+        "combined_id": 154,
+        "uid": "vnr202_comb_154",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Đâu không phải là bài học kinh nghiệm của Cách mạng Tháng Tám?",
+        "options": {
+          "A": "Về xây dựng Đảng phải xây dựng một Đảng cách mạng tiên phong của giai cấp công nhân, nhân dân lao động và toàn dân tộc Việt Nam, tuyệt đối trung thành với lợi ích giai cấp và dân tộc",
+          "B": "Về phương pháp cách mạng kết hợp đấu tranh chính trị với đấu tranh vũ trang, tiến hành chiến tranh du kích cục bộ và khởi nghĩa từng phần",
+          "C": "Về chỉ đạo chiến lược trong cách mạng thuộc địa, phải đặt nhiệm vụ giải phóng dân tộc lên hàng đầu, còn nhiệm vụ cách mạng ruộng đất cần tạm thời gác lại",
+          "D": "Về xây dựng lực lượng cách mạng trên cơ sở liên minh công – nông, chỉ cần khơi dậy tinh thần công – nông"
+        },
+        "answer": "D",
+        "explanation": "Về xây dựng lực lượng, Cách mạng Tháng Tám rút ra bài học: phải xây dựng khối liên minh công nông vững chắc làm nền tảng, đồng thời phải đoàn kết, tập hợp rộng rãi toàn thể các tầng lớp, giai cấp yêu nước trong Mặt trận Việt Minh. Quan điểm 'chỉ cần khơi dậy tinh thần công - nông' là phiến diện, không đầy đủ.",
+        "image": "vnr/8/4.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 4,
+            "image": "vnr/8/4.jpg"
+          }
+        ]
+      },
+      {
+        "id": 155,
+        "combined_id": 155,
+        "uid": "vnr202_comb_155",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Quyết tâm thúc đẩy quá trình Mỹ thay thế Pháp ở Việt Nam và Đông Dương tại Hội nghị Giơnevơ là của tổng thống Mỹ nào?",
+        "options": {
+          "A": "Warren G. Harding",
+          "B": "Dwight D. Eisenhower",
+          "C": "John F. Kennedy",
+          "D": "Harry S. Truman"
+        },
+        "answer": "B",
+        "explanation": "Tổng thống Mỹ Dwight D. Eisenhower (nhiệm kỳ 1953 - 1961) với 'học thuyết quân cờ Domino' đã chỉ đạo phái đoàn Mỹ không ký Tuyên bố cuối cùng của Hội nghị Giơnevơ 1954 và quyết tâm can thiệp trực tiếp, hất cẳng Pháp để dựng lên chính quyền tay sai Ngô Đình Diệm ở miền Nam Việt Nam.",
+        "image": "vnr/8/5.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 5,
+            "image": "vnr/8/5.jpg"
+          }
+        ]
+      },
+      {
+        "id": 156,
+        "combined_id": 156,
+        "uid": "vnr202_comb_156",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Năm 1950, Việt Nam Dân chủ Cộng hòa chưa thiết lập quan hệ ngoại giao với nước nào sau đây?",
+        "options": {
+          "A": "Liên Xô",
+          "B": "Trung Quốc",
+          "C": "Cuba",
+          "D": "Triều Tiên"
+        },
+        "answer": "C",
+        "explanation": "Đầu năm 1950, Việt Nam Dân chủ Cộng hòa đã thiết lập quan hệ ngoại giao với Trung Quốc (18/1/1950), Liên Xô (30/1/1950) và CHDCND Triều Tiên (31/1/1950). Riêng Cộng hòa Cuba thiết lập quan hệ ngoại giao với Việt Nam vào ngày 2/12/1960 (sau khi Cách mạng Cuba thành công 1959).",
+        "image": "vnr/8/6.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 6,
+            "image": "vnr/8/6.jpg"
+          }
+        ]
+      },
+      {
+        "id": 157,
+        "combined_id": 157,
+        "uid": "vnr202_comb_157",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Ngày 16/8/1945, Đại hội quốc dân họp ở đâu?",
+        "options": {
+          "A": "Tân Trào",
+          "B": "Hà Quảng",
+          "C": "Định Hoá",
+          "D": "Cao Lộc"
+        },
+        "answer": "A",
+        "explanation": "Chiều ngày 16/8/1945, Đại hội đại biểu Quốc dân (Đại hội Quốc dân Tân Trào) đã khai mạc trọng thể tại đình Tân Trào (huyện Sơn Dương, tỉnh Tuyên Quang). Đại hội tán thành chủ trương Tổng khởi nghĩa của Đảng và bầu ra Ủy ban Dân tộc giải phóng Việt Nam do Hồ Chí Minh làm Chủ tịch.",
+        "image": "vnr/8/7.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 7,
+            "image": "vnr/8/7.jpg"
+          }
+        ]
+      },
+      {
+        "id": 158,
+        "combined_id": 158,
+        "uid": "vnr202_comb_158",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Đâu không phải là nhiệm vụ trước mắt mà Đại hội đại biểu lần thứ nhất của Đảng đề ra?",
+        "options": {
+          "A": "Củng cố và phát triển Đảng",
+          "B": "Đẩy mạnh cuộc vận động tập hợp quần chúng",
+          "C": "Mở rộng tuyên truyền chống đế quốc, chống chiến tranh...",
+          "D": "Xây dựng chính quyền cách mạng"
+        },
+        "answer": "D",
+        "explanation": "Đại hội đại biểu lần thứ I của Đảng (3/1935 tại Ma Cao, Trung Quốc) xác định 3 nhiệm vụ trước mắt nhằm khôi phục hệ thống tổ chức Đảng và phong trào cách mạng: 1. Củng cố và phát triển Đảng; 2. Đẩy mạnh vận động tập hợp quần chúng; 3. Mở rộng tuyên truyền chống đế quốc, chống chiến tranh. Giai đoạn này Đảng chưa trực tiếp đặt ra nhiệm vụ xây dựng chính quyền cách mạng.",
+        "image": "vnr/8/8.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 8,
+            "image": "vnr/8/8.jpg"
+          }
+        ]
+      },
+      {
+        "id": 159,
+        "combined_id": 159,
+        "uid": "vnr202_comb_159",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Ai là Trưởng đoàn đàm phán của Chính phủ Cách mạng Lâm thời Cộng hòa Miền Nam Việt Nam tại Hội nghị Pari về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam?",
+        "options": {
+          "A": "Nguyễn Hữu Thọ",
+          "B": "Nguyễn Thị Bình",
+          "C": "Nguyễn Thị Định",
+          "D": "Nguyễn Thị Thập"
+        },
+        "answer": "B",
+        "explanation": "Tại Hội nghị Paris (1969 - 1973), đồng chí Nguyễn Thị Bình giữ cương vị Bộ trưởng Bộ Ngoại giao và là Trưởng đoàn đàm phán của Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam. Bà là một trong 4 vị trưởng đoàn đã đặt bút ký Hiệp định Paris ngày 27/1/1973.",
+        "image": "vnr/8/9.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 9,
+            "image": "vnr/8/9.jpg"
+          }
+        ]
+      },
+      {
+        "id": 160,
+        "combined_id": 160,
+        "uid": "vnr202_comb_160",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Việc thống nhất các tổ chức cộng sản thành một chính đảng duy nhất được hoàn thành vào thời gian nào?",
+        "options": {
+          "A": "Ngày 6/1/1930",
+          "B": "Ngày 1/5/1930",
+          "C": "Ngày 3/2/1930",
+          "D": "Ngày 24/2/1930"
+        },
+        "answer": "D",
+        "explanation": "Hội nghị hợp nhất đầu năm 1930 mới chỉ hợp nhất Đông Dương Cộng sản Đảng và An Nam Cộng sản Đảng. Đến ngày 24/2/1930, theo yêu cầu của Đông Dương Cộng sản Liên đoàn, Ban Chấp hành Trung ương lâm thời đã họp và công nhận Đông Dương Cộng sản Liên đoàn chính thức gia nhập Đảng Cộng sản Việt Nam, hoàn tất trọn vẹn việc thống nhất 3 tổ chức cộng sản thành một chính đảng duy nhất.",
+        "image": "vnr/8/10.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 10,
+            "image": "vnr/8/10.jpg"
+          }
+        ]
+      },
+      {
+        "id": 161,
+        "combined_id": 161,
+        "uid": "vnr202_comb_161",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Năm 1919, trên chiến hạm của Pháp ở Hắc Hải, ai là người tham gia đấu tranh chống can thiệp vào nước Nga XôViết?",
+        "options": {
+          "A": "Tôn Đức Thắng",
+          "B": "Hồ Chí Minh",
+          "C": "V.I. Lênin",
+          "D": "Trần Đại Nghĩa"
+        },
+        "answer": "A",
+        "explanation": "Năm 1919, người thợ máy Việt Nam Tôn Đức Thắng tham gia phục vụ trên chiến hạm France của hải quân Pháp tại Biển Đen (Hắc Hải) đã dũng cảm kéo lá cờ đỏ ủng hộ Nhà nước Xô viết non trẻ, phản đối cuộc can thiệp vũ trang của các nước đế quốc chống lại Cách mạng Tháng Mười Nga.",
+        "image": "vnr/8/11.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 11,
+            "image": "vnr/8/11.jpg"
+          }
+        ]
+      },
+      {
+        "id": 162,
+        "combined_id": 162,
+        "uid": "vnr202_comb_162",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Ngày 23/12/1929, Nguyễn Ái Quốc đến Hồng Kông để tiến hành hội nghị hợp nhất các tổ chức cộng sản thành một chính đảng duy nhất của Việt Nam với tư cách là gì?",
+        "options": {
+          "A": "Tư cách là người đại diện chính trị của Quốc tế Cộng sản",
+          "B": "Tư cách là phái viên của Quốc tế Cộng sản",
+          "C": "Tư cách là người đại diện hợp pháp của Quốc tế Xã hội Chủ nghĩa",
+          "D": "Tư cách là người lãnh đạo cách mạng Việt Nam"
+        },
+        "answer": "B",
+        "explanation": "Nguyễn Ái Quốc tới Hương Cảng (Hồng Kông) chủ trì Hội nghị thành lập Đảng đầu năm 1930 với tư cách là phái viên của Quốc tế Cộng sản (Comintern), có đầy đủ thẩm quyền quyết định việc hợp nhất các tổ chức cộng sản ở Đông Dương thành một chính đảng duy nhất.",
+        "image": "vnr/8/12.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 12,
+            "image": "vnr/8/12.jpg"
+          }
+        ]
+      },
+      {
+        "id": 163,
+        "combined_id": 163,
+        "uid": "vnr202_comb_163",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "“Trung Nam Bắc đều là bờ cõi của ta, nước ta nhất định sẽ thống nhất, đồng bào cả nước nhất định được giải phóng”. Câu nói trên là của ai?",
+        "options": {
+          "A": "Võ Nguyên Giáp",
+          "B": "Trường Chinh",
+          "C": "Hồ Chí Minh",
+          "D": "Lê Duẩn"
+        },
+        "answer": "C",
+        "explanation": "Đây là câu nói nổi tiếng thể hiện ý chí gang thép và niềm tin tất thắng vào sự nghiệp độc lập, thống nhất non sông của Chủ tịch Hồ Chí Minh trong Thư gửi đồng bào cả nước năm 1946.",
+        "image": "vnr/8/13.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 13,
+            "image": "vnr/8/13.jpg"
+          }
+        ]
+      },
+      {
+        "id": 164,
+        "combined_id": 164,
+        "uid": "vnr202_comb_164",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Hội nghị lần thứ tám Ban Chấp hành Trung ương Đảng (5/1941) đã nhấn mạnh mâu thuẫn chủ yếu đòi hỏi phải được giải quyết cấp bách là gì?",
+        "options": {
+          "A": "Mâu thuẫn giữa dân tộc Việt Nam với đế quốc Pháp và phátxít Nhật",
+          "B": "Mâu thuẫn giữa giai cấp công nhân Việt Nam với giai cấp tư sản Pháp",
+          "C": "Mâu thuẫn giữa giai cấp nông dân với giai cấp địa chủ và bọn thực dân Pháp",
+          "D": "Mâu thuẫn giữa dân tộc Việt Nam với đế quốc Pháp và bọn phong kiến phản động"
+        },
+        "answer": "A",
+        "explanation": "Hội nghị Trung ương 8 (5/1941) họp tại Pác Bó dưới sự chủ trì của Nguyễn Ái Quốc đã xác định: Trong lúc này, quyền lợi của bộ phận, của giai cấp phải đặt dưới sự sinh tử tồn vong của quốc gia dân tộc; mâu thuẫn chủ yếu và cấp bách hàng đầu là mâu thuẫn giữa toàn thể dân tộc Việt Nam với đế quốc phát xít Pháp - Nhật.",
+        "image": "vnr/8/14.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 14,
+            "image": "vnr/8/14.jpg"
+          }
+        ]
+      },
+      {
+        "id": 165,
+        "combined_id": 165,
+        "uid": "vnr202_comb_165",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Đảng xác định nhiệm vụ trước mắt của cách mạng Việt Nam ngay sau Hiệp định Giơnevơ năm 1954 về Đông Dương được ký kết là gì?",
+        "options": {
+          "A": "Tiến hành cách mạng xã hội chủ nghĩa và cách mạng dân tộc dân chủ nhân dân",
+          "B": "Khôi phục kinh tế, tiếp tục cuộc cách mạng dân tộc dân chủ nhân dân",
+          "C": "Khôi phục kinh tế, hoàn thành cách mạng dân tộc dân chủ nhân dân",
+          "D": "Khôi phục kinh tế, hàn gắn vết thương chiến tranh, đòi thi hành Hiệp định Giơnevơ"
+        },
+        "answer": "D",
+        "explanation": "Ngay sau Hiệp định Giơnevơ 1954, đất nước tạm thời bị chia cắt làm hai miền. Miền Bắc vừa được giải phóng còn ngổn ngang khó khăn do chiến tranh tàn phá, miền Nam bị đế quốc Mỹ và tay sai phá hoại hiệp định. Do đó, Đảng xác định nhiệm vụ trước mắt là khôi phục kinh tế, hàn gắn vết thương chiến tranh ở miền Bắc và đấu tranh chính trị đòi thi hành nghiêm chỉnh Hiệp định Giơnevơ.",
+        "image": "vnr/8/15.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 15,
+            "image": "vnr/8/15.jpg"
+          }
+        ]
+      },
+      {
+        "id": 166,
+        "combined_id": 166,
+        "uid": "vnr202_comb_166",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "“Cao trào kháng Nhật, cứu nước là một cuộc khởi nghĩa từng phần, chiến tranh..., giành chính quyền ở những nơi có điều kiện.” Từ còn thiếu trong dấu... là gì?",
+        "options": {
+          "A": "Toàn diện trường kỳ",
+          "B": "Chính nghĩa",
+          "C": "Du kích cục bộ",
+          "D": "Từng phần"
+        },
+        "answer": "C",
+        "explanation": "Chỉ thị lịch sử 'Nhật - Pháp bắn nhau và hành động của chúng ta' (12/3/1945) nhận định: Cao trào kháng Nhật cứu nước là 'một cuộc khởi nghĩa từng phần, chiến tranh du kích cục bộ, giành chính quyền ở những nơi có điều kiện, chuẩn bị cho tổng khởi nghĩa'.",
+        "image": "vnr/8/16.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 16,
+            "image": "vnr/8/16.jpg"
+          }
+        ]
+      },
+      {
+        "id": 167,
+        "combined_id": 167,
+        "uid": "vnr202_comb_167",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Chủ tịch Hồ Chí Minh soạn “Tuyên ngôn độc lập” ở đâu?",
+        "options": {
+          "A": "Nhà số 48, Hàng Ngang, Hà Nội",
+          "B": "Nhà số 48, Làng Chèm, Hà Nội",
+          "C": "Nhà số 48, Làng Tân Trào, Tuyên Quang",
+          "D": "Nhà số 48, Làng Vạn Phúc, Hà Đông;"
+        },
+        "answer": "A",
+        "explanation": "Sau khi từ chiến khu Việt Bắc về tới Hà Nội cuối tháng 8/1945, tại căn gác số 48 Hàng Ngang (ngôi nhà của nhà tư sản yêu nước Trịnh Văn Bô), Chủ tịch Hồ Chí Minh đã trực tiếp khởi thảo bản Tuyên ngôn Độc lập khai sinh ra nước Việt Nam Dân chủ Cộng hòa.",
+        "image": "vnr/8/17.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 17,
+            "image": "vnr/8/17.jpg"
+          }
+        ]
+      },
+      {
+        "id": 168,
+        "combined_id": 168,
+        "uid": "vnr202_comb_168",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "An Nam Cộng sản Đảng xuất bản Tạp chí gì để làm cơ quan ngôn luận của mình?",
+        "options": {
+          "A": "Tạp chí Búa liềm",
+          "B": "Tạp chí Giải phóng",
+          "C": "Tạp chí Bônsơvích",
+          "D": "Báo Thanh niên"
+        },
+        "answer": "C",
+        "explanation": "An Nam Cộng sản Đảng (thành lập tháng 8/1929 tại Nam Kỳ) đã xuất bản Tạp chí Bônsơvích làm cơ quan ngôn luận lý luận chính thức. (Đông Dương Cộng sản Đảng thành lập tháng 6/1929 tại Bắc Kỳ xuất bản báo Búa Liềm).",
+        "image": "vnr/8/18.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 18,
+            "image": "vnr/8/18.jpg"
+          }
+        ]
+      },
+      {
+        "id": 169,
+        "combined_id": 169,
+        "uid": "vnr202_comb_169",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Chủ trương sai lầm “thanh trừ trí, phú, địa, hào, đào tận gốc trốc tận rễ” năm 1931 do cấp uỷ nào đưa ra?",
+        "options": {
+          "A": "Ban Chấp hành Trung ương",
+          "B": "Xứ uỷ Bắc kỳ",
+          "C": "Xứ uỷ Nam kỳ",
+          "D": "Xứ uỷ Trung kỳ"
+        },
+        "answer": "D",
+        "explanation": "Khẩu hiệu và chủ trương cực đoan, mang nặng tính biệt phái 'tả' khuynh 'Trí phú địa hào đào tận gốc trốc tận rễ' năm 1931 là do Xứ uỷ Trung kỳ đề ra trong cao trào Xô viết Nghệ Tĩnh, gây tổn hại nghiêm trọng đến khối đại đoàn kết dân tộc.",
+        "image": "vnr/8/19.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 19,
+            "image": "vnr/8/19.jpg"
+          }
+        ]
+      },
+      {
+        "id": 170,
+        "combined_id": 170,
+        "uid": "vnr202_comb_170",
+        "exam_code": "VNR202 - Đề 8",
+        "question": "Luận cương chính trị tháng 10/1930 xác định mâu thuẫn chủ yếu và gay gắt trong xã hội Đông Dương là gì?",
+        "options": {
+          "A": "Mâu thuẫn kinh tế",
+          "B": "Mâu thuẫn giai cấp",
+          "C": "Mâu thuẫn chính trị",
+          "D": "Mâu thuẫn dân tộc"
+        },
+        "answer": "B",
+        "explanation": "Luận cương chính trị tháng 10/1930 do Tổng Bí thư Trần Phú khởi thảo nhấn mạnh mâu thuẫn giai cấp diễn ra gay gắt giữa một bên là thợ thuyền, dân cày và các phần tử lao khổ với một bên là địa chủ phong kiến và tư bản đế quốc, coi đó là mâu thuẫn chủ yếu nhất của xã hội Đông Dương.",
+        "image": "vnr/8/20.jpg",
+        "sources": [
+          {
+            "exam": "VNR202 - Đề 8",
+            "q_num": 20,
+            "image": "vnr/8/20.jpg"
+          }
+        ]
       }
     ]
   },
   "vnr202_de1": {
     "id": "vnr202_de1",
     "name": "VNR202 — Đề Ôn Tập 1 (25 Câu Gốc)",
-    "shortName": "Đề 1 (25 Câu)",
+    "shortName": "Đề 1 (25c)",
     "badge": "Đề 1",
     "semester": "VNR202",
     "total": 25,
     "questions": [
       {
         "id": 1,
-        "uid": "vnr202_1",
+        "uid": "vnr202_de1_1",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -1912,7 +4213,7 @@ window.VNR_DATA = {
       },
       {
         "id": 2,
-        "uid": "vnr202_2",
+        "uid": "vnr202_de1_2",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -1930,7 +4231,7 @@ window.VNR_DATA = {
       },
       {
         "id": 3,
-        "uid": "vnr202_3",
+        "uid": "vnr202_de1_3",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -1948,7 +4249,7 @@ window.VNR_DATA = {
       },
       {
         "id": 4,
-        "uid": "vnr202_4",
+        "uid": "vnr202_de1_4",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -1966,7 +4267,7 @@ window.VNR_DATA = {
       },
       {
         "id": 5,
-        "uid": "vnr202_5",
+        "uid": "vnr202_de1_5",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -1984,7 +4285,7 @@ window.VNR_DATA = {
       },
       {
         "id": 6,
-        "uid": "vnr202_6",
+        "uid": "vnr202_de1_6",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2002,7 +4303,7 @@ window.VNR_DATA = {
       },
       {
         "id": 7,
-        "uid": "vnr202_7",
+        "uid": "vnr202_de1_7",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2020,7 +4321,7 @@ window.VNR_DATA = {
       },
       {
         "id": 8,
-        "uid": "vnr202_8",
+        "uid": "vnr202_de1_8",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2038,7 +4339,7 @@ window.VNR_DATA = {
       },
       {
         "id": 9,
-        "uid": "vnr202_9",
+        "uid": "vnr202_de1_9",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2056,7 +4357,7 @@ window.VNR_DATA = {
       },
       {
         "id": 10,
-        "uid": "vnr202_10",
+        "uid": "vnr202_de1_10",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2074,7 +4375,7 @@ window.VNR_DATA = {
       },
       {
         "id": 11,
-        "uid": "vnr202_11",
+        "uid": "vnr202_de1_11",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2092,7 +4393,7 @@ window.VNR_DATA = {
       },
       {
         "id": 12,
-        "uid": "vnr202_12",
+        "uid": "vnr202_de1_12",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2110,7 +4411,7 @@ window.VNR_DATA = {
       },
       {
         "id": 13,
-        "uid": "vnr202_13",
+        "uid": "vnr202_de1_13",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2128,7 +4429,7 @@ window.VNR_DATA = {
       },
       {
         "id": 14,
-        "uid": "vnr202_14",
+        "uid": "vnr202_de1_14",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2146,7 +4447,7 @@ window.VNR_DATA = {
       },
       {
         "id": 15,
-        "uid": "vnr202_15",
+        "uid": "vnr202_de1_15",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2164,7 +4465,7 @@ window.VNR_DATA = {
       },
       {
         "id": 16,
-        "uid": "vnr202_16",
+        "uid": "vnr202_de1_16",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2182,7 +4483,7 @@ window.VNR_DATA = {
       },
       {
         "id": 17,
-        "uid": "vnr202_17",
+        "uid": "vnr202_de1_17",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2200,7 +4501,7 @@ window.VNR_DATA = {
       },
       {
         "id": 18,
-        "uid": "vnr202_18",
+        "uid": "vnr202_de1_18",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2218,7 +4519,7 @@ window.VNR_DATA = {
       },
       {
         "id": 19,
-        "uid": "vnr202_19",
+        "uid": "vnr202_de1_19",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2236,7 +4537,7 @@ window.VNR_DATA = {
       },
       {
         "id": 20,
-        "uid": "vnr202_20",
+        "uid": "vnr202_de1_20",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2254,7 +4555,7 @@ window.VNR_DATA = {
       },
       {
         "id": 21,
-        "uid": "vnr202_21",
+        "uid": "vnr202_de1_21",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2272,7 +4573,7 @@ window.VNR_DATA = {
       },
       {
         "id": 22,
-        "uid": "vnr202_22",
+        "uid": "vnr202_de1_22",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2290,7 +4591,7 @@ window.VNR_DATA = {
       },
       {
         "id": 23,
-        "uid": "vnr202_23",
+        "uid": "vnr202_de1_23",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2308,7 +4609,7 @@ window.VNR_DATA = {
       },
       {
         "id": 24,
-        "uid": "vnr202_24",
+        "uid": "vnr202_de1_24",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2326,7 +4627,7 @@ window.VNR_DATA = {
       },
       {
         "id": 25,
-        "uid": "vnr202_25",
+        "uid": "vnr202_de1_25",
         "exam": "vnr202_de1",
         "exam_code": "VNR202 - Đề 1",
         "exam_title": "VNR202 — Đề Ôn Tập 1",
@@ -2347,7 +4648,7 @@ window.VNR_DATA = {
   "vnr202_de2": {
     "id": "vnr202_de2",
     "name": "VNR202 — Đề Ôn Tập 2 (30 Câu Gốc)",
-    "shortName": "Đề 2 (30 Câu)",
+    "shortName": "Đề 2 (30c)",
     "badge": "Đề 2",
     "semester": "VNR202",
     "total": 30,
@@ -2897,7 +5198,7 @@ window.VNR_DATA = {
   "vnr202_de3": {
     "id": "vnr202_de3",
     "name": "VNR202 — Đề Ôn Tập 3 (30 Câu Gốc)",
-    "shortName": "Đề 3 (30 Câu)",
+    "shortName": "Đề 3 (30c)",
     "badge": "Đề 3",
     "semester": "VNR202",
     "total": 30,
@@ -3443,7 +5744,2488 @@ window.VNR_DATA = {
         "image": "vnr/3/30.jpg"
       }
     ]
+  },
+  "vnr202_de4": {
+    "id": "vnr202_de4",
+    "name": "VNR202 — Đề Ôn Tập 4 (30 Câu Gốc)",
+    "shortName": "Đề 4 (30c)",
+    "badge": "Đề 4",
+    "semester": "VNR202",
+    "total": 30,
+    "questions": [
+      {
+        "id": 1,
+        "uid": "vnr202_de4_1",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 1,
+        "question": "Tổ chức được thành lập vào năm 1941 để lãnh đạo trực tiếp phong trào giải phóng dân tộc là:",
+        "options": {
+          "A": "Mặt trận Tổ quốc Việt Nam",
+          "B": "Mặt trận Dân chủ Đông Dương",
+          "C": "Mặt trận Dân tộc thống nhất",
+          "D": "Mặt trận Việt Minh"
+        },
+        "answer": "D",
+        "explanation": "Ngày 19/5/1941, tại Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 ở Pác Bó (Cao Bằng), theo đề nghị của đồng chí Nguyễn Ái Quốc, Mặt trận Việt Nam Độc lập Đồng minh (gọi tắt là Việt Minh) được thành lập nhằm đoàn kết toàn thể các tầng lớp nhân dân chống đế quốc, phát xít, giành độc lập dân tộc.",
+        "image": "vnr/4/1.jpg"
+      },
+      {
+        "id": 2,
+        "uid": "vnr202_de4_2",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 2,
+        "question": "Tính chất của cuộc Cách mạng Tháng Tám năm 1945 là:",
+        "options": {
+          "A": "Cuộc cách mạng giải phóng dân tộc",
+          "B": "Cuộc cách mạng tư sản",
+          "C": "Cuộc cách mạng giải phóng giai cấp",
+          "D": "Cuộc cách mạng khoa học kỹ thuật"
+        },
+        "answer": "A",
+        "explanation": "Cách mạng Tháng Tám năm 1945 là một cuộc cách mạng giải phóng dân tộc mang tính chất nhân dân sâu sắc, dân chủ mới; nhiệm vụ số một và hàng đầu là đánh đổ ách thống trị của phát xít Nhật và thực dân Pháp để giành độc lập, tự do cho Tổ quốc.",
+        "image": "vnr/4/2.jpg"
+      },
+      {
+        "id": 3,
+        "uid": "vnr202_de4_3",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 3,
+        "question": "Một trong những ý nghĩa của việc nghiên cứu, học tập môn học Lịch sử Đảng Cộng sản Việt Nam đối với sinh viên là:",
+        "options": {
+          "A": "Tin vào sự lãnh đạo của Đảng đưa đất nước tiến nhanh, mạnh, vững chắc theo con đường tư bản chủ nghĩa",
+          "B": "Giáo dục lý tưởng, truyền thống đấu tranh của Đảng, bồi đắp niềm tin vào sự lãnh đạo của Đảng",
+          "C": "Tích cực cổ vũ, tham gia vào quá trình “tự diễn biến”, “tự chuyển hoá” trong Đảng",
+          "D": "Tham gia xây dựng cải cách, cải tổ Đảng theo mô hình của Đông Âu và Liên Xô nhằm làm cho Đảng thêm vững mạnh"
+        },
+        "answer": "B",
+        "explanation": "Nghiên cứu, học tập Lịch sử Đảng giúp sinh viên hiểu rõ quá trình dựng xây và bảo vệ đất nước đầy hy sinh oanh liệt, từ đó giáo dục lý tưởng cách mạng, bồi đắp niềm tin vững chắc vào đường lối lãnh đạo của Đảng.",
+        "image": "vnr/4/3.jpg"
+      },
+      {
+        "id": 4,
+        "uid": "vnr202_de4_4",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 4,
+        "question": "Nguyễn Ái Quốc đã chuẩn bị điều kiện nào dưới đây cho việc thành lập Đảng?",
+        "options": {
+          "A": "Tuyên truyền văn hóa dân tộc",
+          "B": "Thuyết phục chính phủ Pháp cải cách",
+          "C": "Truyền bá chủ nghĩa Mác – Lênin, đào tạo cán bộ, thống nhất tổ chức",
+          "D": "Xây dựng liên minh công – nông – sĩ"
+        },
+        "answer": "C",
+        "explanation": "Từ năm 1921 đến 1930, đồng chí Nguyễn Ái Quốc đã có công lao to lớn chuẩn bị chu đáo về tư tưởng, chính trị và tổ chức cho sự ra đời của Đảng: truyền bá chủ nghĩa Mác - Lênin vào trong nước, mở các lớp huấn luyện cán bộ tại Quảng Châu và chủ trì hợp nhất các tổ chức cộng sản.",
+        "image": "vnr/4/4.jpg"
+      },
+      {
+        "id": 5,
+        "uid": "vnr202_de4_5",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 5,
+        "question": "Hoạt động nào dưới đây được Chủ tịch Hồ Chí Minh đặc biệt coi trọng, thể hiện tính ưu việt của chế độ mới, góp phần tích cực xây dựng hệ thống chính quyền cách mạng, phát huy quyền làm chủ của nhân dân?",
+        "options": {
+          "A": "Khai hoang làm kinh tế mới",
+          "B": "Trồng cây gây rừng",
+          "C": "Cải cách ruộng đất",
+          "D": "Chống giặc dốt, xoá nạn mù chữ"
+        },
+        "answer": "D",
+        "explanation": "Ngay sau khi thành lập nước, Chủ tịch Hồ Chí Minh đã coi việc 'chống giặc dốt, xóa nạn mù chữ' là một nhiệm vụ cấp bách hàng đầu vì 'Một dân tộc dốt là một dân tộc yếu', nhân dân phải biết đọc, biết viết mới hiểu quyền lợi, nghĩa vụ của mình và phát huy thực sự quyền làm chủ đất nước.",
+        "image": "vnr/4/5.jpg"
+      },
+      {
+        "id": 6,
+        "uid": "vnr202_de4_6",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 6,
+        "question": "Yếu tố nào dưới đây được xem như là kinh nghiệm của Đảng trong lãnh đạo kháng chiến chống Pháp và can thiệp Mỹ giai đoạn 1945 – 1954?",
+        "options": {
+          "A": "Đề ra được phương châm xuyên suốt trong cuộc kháng chiến là lối đánh nhanh, thắng nhanh",
+          "B": "Kết hợp chặt chẽ và giải quyết đúng đắn mối quan hệ giữa hai nhiệm vụ cơ bản vừa kháng chiến vừa kiến quốc",
+          "C": "Có những sách lược ngoại giao khôn khéo để tranh thủ sự ủng hộ của các nước xã hội chủ nghĩa anh em",
+          "D": "Tập trung toàn bộ sức lực của toàn Đảng, toàn dân vào xây dựng và phát triển lực lượng vũ trang"
+        },
+        "answer": "B",
+        "explanation": "Một bài học kinh nghiệm tiêu biểu của Đảng trong cuộc kháng chiến chống thực dân Pháp (1945-1954) là kết hợp chặt chẽ và giải quyết đúng đắn mối quan hệ giữa hai nhiệm vụ chiến lược: vừa kháng chiến đánh giặc giải phóng quê hương, vừa kiến quốc xây dựng chế độ mới và hậu phương vững mạnh.",
+        "image": "vnr/4/6.jpg"
+      },
+      {
+        "id": 7,
+        "uid": "vnr202_de4_7",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 7,
+        "question": "Nha Bình dân học vụ được thành lập vào năm nào?",
+        "options": {
+          "A": "1945",
+          "B": "1965",
+          "C": "1975",
+          "D": "1955"
+        },
+        "answer": "A",
+        "explanation": "Ngày 8/9/1945, Chính phủ lâm thời nước Việt Nam Dân chủ Cộng hòa do Chủ tịch Hồ Chí Minh đứng đầu đã ban hành Sắc lệnh số 17-SL thành lập Nha Bình dân học vụ để phụ trách việc chống mù chữ trên toàn quốc.",
+        "image": "vnr/4/7.jpg"
+      },
+      {
+        "id": 8,
+        "uid": "vnr202_de4_8",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 8,
+        "question": "Lực lượng tham gia phong trào 1930–1931 chủ yếu là:",
+        "options": {
+          "A": "Công nhân và nông dân",
+          "B": "Tư sản dân tộc và địa chủ tiến bộ",
+          "C": "Nông dân và trí thức",
+          "D": "Nông dân và binh lính Pháp"
+        },
+        "answer": "A",
+        "explanation": "Cao trào cách mạng 1930-1931 với đỉnh cao là Xô viết Nghệ - Tĩnh diễn ra với quy mô rộng khắp, trong đó giai cấp công nhân và nông dân là hai lực lượng tham gia chủ yếu và nòng cốt, tạo nên khối liên minh công nông vững chắc.",
+        "image": "vnr/4/8.jpg"
+      },
+      {
+        "id": 9,
+        "uid": "vnr202_de4_9",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 9,
+        "question": "Đông Dương Cộng sản Đảng và An Nam Cộng sản Đảng được ra đời từ tổ chức tiền thân nào dưới đây?",
+        "options": {
+          "A": "Hội Việt Nam Cách mạng Thanh niên",
+          "B": "Việt Nam Cách mạng đồng chí Hội",
+          "C": "Tâm tâm xã",
+          "D": "Tân Việt Cách mạng Đảng"
+        },
+        "answer": "A",
+        "explanation": "Năm 1929, phong trào cách mạng phát triển mạnh mẽ dẫn tới sự phân hóa tích cực của Hội Việt Nam Cách mạng Thanh niên: chi bộ cộng sản đầu tiên lập ra Đông Dương Cộng sản Đảng (6/1929 tại Bắc Kỳ), tiếp sau đó bộ phận cán bộ tiên tiến của Hội ở Nam Kỳ thành lập An Nam Cộng sản Đảng (8/1929).",
+        "image": "vnr/4/9.jpg"
+      },
+      {
+        "id": 10,
+        "uid": "vnr202_de4_10",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 10,
+        "question": "Hình thức đấu tranh chủ yếu của cách mạng Việt Nam trong thời kỳ 1941–1945 là:",
+        "options": {
+          "A": "Đàm phán trực tiếp với Pháp và Nhật",
+          "B": "Đấu tranh vũ trang kết hợp chính trị",
+          "C": "Biểu tình vũ trang toàn quốc",
+          "D": "Đấu tranh nghị trường kết hợp biểu tình"
+        },
+        "answer": "B",
+        "explanation": "Trong thời kỳ 1941-1945, Hội nghị Trung ương 8 (5/1941) đã xác định rõ hình thức đấu tranh chủ yếu là kết hợp khởi nghĩa vũ trang từng phần, đấu tranh vũ trang với đấu tranh chính trị của quần chúng, tiến tới Tổng khởi nghĩa giành chính quyền khi thời cơ chín muồi.",
+        "image": "vnr/4/10.jpg"
+      },
+      {
+        "id": 11,
+        "uid": "vnr202_de4_11",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 11,
+        "question": "Nhiệm vụ trọng tâm của Đảng trong giai đoạn 1932–1935 là:",
+        "options": {
+          "A": "Tập trung đấu tranh nghị trường",
+          "B": "Xây dựng lực lượng quân sự chính quy",
+          "C": "Khôi phục hệ thống tổ chức và củng cố phong trào cách mạng",
+          "D": "Mở rộng khởi nghĩa vũ trang"
+        },
+        "answer": "C",
+        "explanation": "Sau khi cao trào 1930-1931 bị thực dân Pháp đàn áp tàn khốc, các tổ chức cơ sở đảng tan vỡ, nhiều đồng chí lãnh đạo bị bắt và hy sinh; nhiệm vụ trung tâm, sống còn của Đảng giai đoạn 1932-1935 là kiên trì đấu tranh phục hồi hệ thống tổ chức Đảng từ cơ sở đến Trung ương và củng cố phong trào đấu tranh của quần chúng.",
+        "image": "vnr/4/11.jpg"
+      },
+      {
+        "id": 12,
+        "uid": "vnr202_de4_12",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 12,
+        "question": "Một trong những mục đích của Trung ương Đảng khi chủ động mở Chiến dịch Biên giới Thu Đông 1950 là:",
+        "options": {
+          "A": "Mở rộng căn cứ địa Việt Bắc",
+          "B": "Ngăn chặn sự tiếp viện của Mỹ cho quân đội Pháp",
+          "C": "Để giành thắng lợi quan trọng nhằm kết thúc chiến tranh với Pháp",
+          "D": "Khai thông biên giới Việt Nam – Lào – Campuchia"
+        },
+        "answer": "A",
+        "explanation": "Tháng 6/1950, Trung ương Đảng quyết định mở Chiến dịch Biên giới với ba mục đích chiến lược trọng tâm: 1. Tiêu diệt một bộ phận quan trọng sinh lực địch; 2. Khai thông đường liên lạc quốc tế nối liền Việt Nam với Trung Quốc và các nước XHCN; 3. Củng cố và mở rộng căn cứ địa kháng chiến Việt Bắc.",
+        "image": "vnr/4/12.jpg"
+      },
+      {
+        "id": 13,
+        "uid": "vnr202_de4_13",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 13,
+        "question": "Điền vào chỗ trống từ còn thiếu để hoàn thành câu nói sau của Chủ tịch Hồ Chí Minh: “Ngày nay chúng ta đã xây dựng nên nước Việt Nam Dân chủ Cộng hoà. Nhưng nếu nước độc lập mà dân không được hưởng ......thì độc lập cũng chẳng có ý nghĩa gì”, (Trích Thư gửi Uỷ ban nhân dân các kỳ, tỉnh, huyện và làng ngày 17/10/1945)",
+        "options": {
+          "A": "Cơm ăn, áo mặc",
+          "B": "Ruộng đất, ấm no",
+          "C": "Hạnh phúc, công bằng",
+          "D": "Hạnh phúc, tự do"
+        },
+        "answer": "D",
+        "explanation": "Trong bức Thư gửi UBND các kỳ, tỉnh, huyện và làng ngày 17/10/1945, Bác Hồ viết: 'Ngày nay chúng ta đã xây dựng nên nước Việt Nam Dân chủ Cộng hoà. Nhưng nếu nước độc lập mà dân không được hưởng hạnh phúc, tự do thì độc lập cũng chẳng có ý nghĩa gì'.",
+        "image": "vnr/4/13.jpg"
+      },
+      {
+        "id": 14,
+        "uid": "vnr202_de4_14",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 14,
+        "question": "Là một ngành của khoa học lịch sử, Lịch sử Đảng Cộng sản Việt Nam có các chức năng, nhiệm vụ của khoa học lịch sử, đồng thời còn có thêm các chức năng nổi bật khác là:",
+        "options": {
+          "A": "Chức năng giáo dục, sàng lọc, tuyên truyền và tìm kiếm",
+          "B": "Chức năng nhận thức, điều tiết, chọn lọc và tìm kiếm",
+          "C": "Chức năng nhận thức, giáo dục, dự báo và phê phán",
+          "D": "Chức năng tuyên truyền, phổ cập, giáo huấn và phổ quát"
+        },
+        "answer": "C",
+        "explanation": "Lịch sử Đảng Cộng sản Việt Nam có 4 chức năng cốt lõi được ghi trong giáo trình chuẩn: Chức năng nhận thức, Chức năng giáo dục, Chức năng dự báo và Chức năng phê phán.",
+        "image": "vnr/4/14.jpg"
+      },
+      {
+        "id": 15,
+        "uid": "vnr202_de4_15",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 15,
+        "question": "Bản Hiệp định Sơ bộ được ký ngày 6/3/1946 có ý nghĩa to lớn với cách mạng Việt Nam bởi vì sẽ giúp chúng ta có thêm thời gian:",
+        "options": {
+          "A": "Chuẩn bị lực lượng mọi mặt cho cuộc kháng chiến với Pháp",
+          "B": "Xây dựng chủ nghĩa xã hội",
+          "C": "Tổ chức bầu cử",
+          "D": "Khai hoang các vùng đất phía Nam"
+        },
+        "answer": "A",
+        "explanation": "Bằng việc ký kết Hiệp định Sơ bộ 6/3/1946, ta đã khéo léo đẩy được 20 vạn quân Tưởng ra khỏi miền Bắc, tránh cùng một lúc chạm trán hai kẻ thù lớn và tranh thủ thời gian hòa hoãn quý báu để chuẩn bị lực lượng về mọi mặt cho cuộc kháng chiến trường kỳ không thể tránh khỏi chống thực dân Pháp.",
+        "image": "vnr/4/15.jpg"
+      },
+      {
+        "id": 16,
+        "uid": "vnr202_de4_16",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 16,
+        "question": "Hình thức “Đồng Khởi” của nhân dân miền Nam (1960) lần đầu tiên diễn ra ở tỉnh:",
+        "options": {
+          "A": "Cà Mau",
+          "B": "Tiền Giang",
+          "C": "Bến Tre",
+          "D": "Cần Thơ"
+        },
+        "answer": "C",
+        "explanation": "Phong trào 'Đồng Khởi' nổ ra mở màn rực rỡ từ ngày 17/1/1960 tại ba xã Định Thủy, Phước Hiệp, Bình Khánh (huyện Mỏ Cày, tỉnh Bến Tre) dưới sự chỉ đạo của Tỉnh ủy Bến Tre do đồng chí Nguyễn Thị Định đứng đầu.",
+        "image": "vnr/4/16.jpg"
+      },
+      {
+        "id": 17,
+        "uid": "vnr202_de4_17",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 17,
+        "question": "Chính sách nào của Nhật – Pháp đã gây ra nạn đói lớn ở Việt Nam cuối năm 1944 – đầu năm 1945?",
+        "options": {
+          "A": "Kiểm soát toàn bộ hệ thống đường xá",
+          "B": "Đầu tư vào những ngành công nghiệp phục vụ quân sự",
+          "C": "Xuất khẩu các nguyên liệu chiến lược sang Nhật Bản",
+          "D": "Bắt người dân nhổ lúa, trồng đay lấy nguyên liệu phục vụ chiến tranh"
+        },
+        "answer": "D",
+        "explanation": "Chính sách bắt nhân dân ta nhổ lúa, hoa màu để trồng đay, thầu dầu phục vụ chiến tranh phát xít cùng việc thu mua thóc gạo ép buộc với giá rẻ mạt của liên minh phát xít Nhật - thực dân Pháp đã gây nên thảm họa nạn đói lịch sử năm Ất Dậu làm hơn 2 triệu người chết đói ở miền Bắc.",
+        "image": "vnr/4/17.jpg"
+      },
+      {
+        "id": 18,
+        "uid": "vnr202_de4_18",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 18,
+        "question": "Người chủ trì Hội nghị thành lập Đảng Cộng sản Việt Nam là:",
+        "options": {
+          "A": "Trần Phú",
+          "B": "Nguyễn Ái Quốc",
+          "C": "Nguyễn Đức Cảnh",
+          "D": "Lê Hồng Phong"
+        },
+        "answer": "B",
+        "explanation": "Hội nghị hợp nhất các tổ chức cộng sản thành lập Đảng Cộng sản Việt Nam (diễn ra từ ngày 6/1/1930 tại Cửu Long, Hương Cảng, Trung Quốc) do đồng chí Nguyễn Ái Quốc chủ trì với tư cách phái viên của Quốc tế Cộng sản.",
+        "image": "vnr/4/18.jpg"
+      },
+      {
+        "id": 19,
+        "uid": "vnr202_de4_19",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 19,
+        "question": "Điền từ còn thiếu vào chỗ trống: “Một dân tộc dốt là một dân tộc ......Vì vậy tôi đề nghị mở một chiến dịch chống nạn mù chữ.” (Trích phát biểu của Chủ tịch Hồ Chí Minh tại buổi họp đầu tiên của Hội đồng Chính phủ ngày 3/9/1945)",
+        "options": {
+          "A": "Hèn",
+          "B": "Yếu",
+          "C": "Kém",
+          "D": "Đói"
+        },
+        "answer": "B",
+        "explanation": "Trong phiên họp đầu tiên của Chính phủ lâm thời ngày 3/9/1945, Bác Hồ đã chỉ rõ: 'Một dân tộc dốt là một dân tộc yếu. Vì vậy tôi đề nghị mở một chiến dịch để chống nạn mù chữ'.",
+        "image": "vnr/4/19.jpg"
+      },
+      {
+        "id": 20,
+        "uid": "vnr202_de4_20",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 20,
+        "question": "Đặc điểm nổi bật về phương thức đấu tranh trong phong trào 1930–1931 là:",
+        "options": {
+          "A": "Đấu tranh nghị trường hợp pháp",
+          "B": "Đấu tranh chính trị kết hợp với đấu tranh vũ trang tự phát",
+          "C": "Đấu tranh thương lượng với thực dân Pháp",
+          "D": "Đấu tranh quân sự quy mô lớn"
+        },
+        "answer": "B",
+        "explanation": "Điểm nổi bật của cao trào cách mạng 1930-1931 là sự kết hợp chặt chẽ giữa đấu tranh chính trị của quần chúng (bãi công, biểu tình) với đấu tranh vũ trang tự phát (đội tự vệ đỏ, tự vệ cảm tử) đập tan bộ máy tay sai phong kiến ở nhiều thôn xã.",
+        "image": "vnr/4/20.jpg"
+      },
+      {
+        "id": 21,
+        "uid": "vnr202_de4_21",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 21,
+        "question": "Trong nghiên cứu Lịch sử Đảng Cộng sản Việt Nam, khi xem xét, đối chiếu các hiện tượng lịch sử trong hình thức tổng quát nhằm mục đích vạch ra bản chất, quy luật, khuynh hướng chung trong sự vận động của sự vật thì đó là cách nghiên cứu dựa trên:",
+        "options": {
+          "A": "Phương pháp lịch sử",
+          "B": "Phương pháp logic",
+          "C": "Phương pháp chọn lọc",
+          "D": "Phương pháp làm việc nhóm"
+        },
+        "answer": "B",
+        "explanation": "Phương pháp logic là phương pháp nghiên cứu hiện tượng lịch sử trong hình thức tổng quát, trừu tượng hóa khỏi những chi tiết ngẫu nhiên, nhằm làm rõ bản chất, các quy luật nội tại và khuynh hướng vận động cơ bản của lịch sử Đảng.",
+        "image": "vnr/4/21.jpg"
+      },
+      {
+        "id": 22,
+        "uid": "vnr202_de4_22",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 22,
+        "question": "Để làm thất bại âm mưu “Diệt Cộng, cầm Hồ, phá Việt Minh” của quân Tưởng và tay sai, Đảng và Chính phủ ta đã thực hiện sách lược:",
+        "options": {
+          "A": "Ký nhiều hòa ước có lợi cho quân Nhật",
+          "B": "Đưa ra nhiều yêu sách đòi quân Tưởng phải rút quân khỏi Việt Nam",
+          "C": "Triệt để lợi dụng mâu thuẫn kẻ thù, hòa hoãn, nhân nhượng có nguyên tắc với quân Tưởng",
+          "D": "Tiến hành các cuộc xung đột vũ trang với quân Tưởng"
+        },
+        "answer": "C",
+        "explanation": "Nhằm vô hiệu hóa âm mưu nham hiểm 'Diệt Cộng, cầm Hồ, phá Việt Minh' của tướng Lư Hán và bè lũ tay sai, Đảng và Chính phủ đã thực hiện sách lược 'Hoa - Việt thân thiện', hòa hoãn, nhân nhượng có nguyên tắc, nhường 70 ghế Quốc hội và cung cấp lương thực để giữ vững độc lập chủ quyền.",
+        "image": "vnr/4/22.jpg"
+      },
+      {
+        "id": 23,
+        "uid": "vnr202_de4_23",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 23,
+        "question": "Cần phải coi trọng phương pháp tổng kết thực tiễn lịch sử gắn với nghiên cứu lý luận trong nghiên cứu Lịch sử Đảng Cộng sản Việt Nam để:",
+        "options": {
+          "A": "Làm rõ kinh nghiệm, bài học, quy luật phát triển của cách mạng Việt Nam",
+          "B": "Chứng tỏ sự linh hoạt trong các bước đề ra đường lối, chủ trương của Đảng",
+          "C": "Làm hài lòng người dân trong quá trình lãnh đạo cách mạng của Đảng",
+          "D": "Dễ dàng thống kê những thành tựu mà Đảng đạt được trong lãnh đạo cách mạng"
+        },
+        "answer": "A",
+        "explanation": "Việc tổng kết thực tiễn lịch sử gắn liền với nghiên cứu lý luận là nhằm đúc rút những kinh nghiệm quý báu, các bài học sâu sắc và quy luật vận động nội tại của cách mạng Việt Nam, qua đó bổ sung, phát triển lý luận cách mạng trong giai đoạn mới.",
+        "image": "vnr/4/23.jpg"
+      },
+      {
+        "id": 24,
+        "uid": "vnr202_de4_24",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 24,
+        "question": "Đâu là mặt hạn chế của cuộc cải cách ruộng đất (1957) do Đảng phát động?",
+        "options": {
+          "A": "Độc đoán, quan liêu, gây ra oan sai không đáng có",
+          "B": "Chia ruộng đất chưa đồng đều cho người nông dân",
+          "C": "Gây cản trở trong việc nâng cao năng suất cây trồng, vật nuôi",
+          "D": "Không chia lại ruộng đất cho các gia đình bần, cố nông"
+        },
+        "answer": "A",
+        "explanation": "Trong cuộc cải cách ruộng đất ở miền Bắc, do áp dụng máy móc rập khuôn kinh nghiệm nước ngoài, vi phạm nguyên tắc dân chủ nội bộ, quan liêu, độc đoán nên đã dẫn đến việc quy sai thành phần giai cấp, xử lý oan sai cho nhiều cán bộ, đảng viên trung kiên và nông dân kháng chiến.",
+        "image": "vnr/4/24.jpg"
+      },
+      {
+        "id": 25,
+        "uid": "vnr202_de4_25",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 25,
+        "question": "Người chủ trì Hội nghị Trung ương 8 (5/1941) là:",
+        "options": {
+          "A": "Trường Chinh",
+          "B": "Võ Nguyên Giáp",
+          "C": "Phạm Văn Đồng",
+          "D": "Nguyễn Ái Quốc"
+        },
+        "answer": "D",
+        "explanation": "Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 họp từ ngày 10 đến 19/5/1941 tại lán Khuổi Nặm, Pác Bó (Hà Quảng, Cao Bằng) do đồng chí Nguyễn Ái Quốc chủ trì, đánh dấu bước hoàn chỉnh chủ trương chuyển hướng chỉ đạo chiến lược cách mạng của Đảng.",
+        "image": "vnr/4/25.jpg"
+      },
+      {
+        "id": 26,
+        "uid": "vnr202_de4_26",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 26,
+        "question": "Đặc điểm lớn nhất của xã hội Việt Nam dưới ách thống trị của thực dân Pháp là:",
+        "options": {
+          "A": "Một xã hội thuộc địa nửa phong kiến",
+          "B": "Một xã hội tư bản chủ nghĩa phát triển",
+          "C": "Một xã hội dân chủ kiểu mới",
+          "D": "Một xã hội phong kiến thuần túy"
+        },
+        "answer": "A",
+        "explanation": "Sau khi đặt ách cai trị lên nước ta, thực dân Pháp duy trì quan hệ sản xuất phong kiến cấu kết với bộ máy quan lại tay sai, đồng thời áp đặt ách thống trị tư bản thuộc địa, biến Việt Nam từ một xã hội phong kiến độc lập thành một xã hội thuộc địa nửa phong kiến.",
+        "image": "vnr/4/26.jpg"
+      },
+      {
+        "id": 27,
+        "uid": "vnr202_de4_27",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 27,
+        "question": "Tính chất và nhiệm vụ của cách mạng Việt Nam được thể hiện trong tác phẩm “Đường Kách mệnh” của Nguyễn Ái Quốc là:",
+        "options": {
+          "A": "Canh tân đất nước theo xu hướng của Minh Trị duy tân ở Nhật",
+          "B": "Cách mạng xã hội chủ nghĩa để đi lên xã hội cộng sản",
+          "C": "Tư sản dân quyền và thổ địa cách mạng để đi tới xã hội cộng sản",
+          "D": "Cách mạng giải phóng dân tộc mở đường tiến lên chủ nghĩa xã hội"
+        },
+        "answer": "D",
+        "explanation": "Trong tác phẩm Đường Kách mệnh (1927), Nguyễn Ái Quốc chỉ rõ tính chất và nhiệm vụ của cách mạng Việt Nam: Trước hết là làm cách mạng giải phóng dân tộc đánh đổ đế quốc thực dân, mở đường đi lên chủ nghĩa xã hội và chủ nghĩa cộng sản.",
+        "image": "vnr/4/27.jpg"
+      },
+      {
+        "id": 28,
+        "uid": "vnr202_de4_28",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 28,
+        "question": "Nguyên nhân sâu xa nào dẫn đến sự kiện Toàn quốc kháng chiến vào cuối năm 1946 của cách mạng Việt Nam?",
+        "options": {
+          "A": "Việt Nam đã có lực lượng hải quân và không quân đủ mạnh để chống Pháp",
+          "B": "Quân Pháp ở Việt Nam liên tục bội ước với mong muốn dâng nước ta cho Nhật",
+          "C": "Quân Pháp ở Việt Nam đình chiến, kéo dài thời gian rút quân khỏi Việt Nam",
+          "D": "Quân Pháp ở Việt Nam bộc lộ rõ thái độ bội ước, quyết tâm muốn xâm lược nước ta một lần nữa"
+        },
+        "answer": "D",
+        "explanation": "Nguyên nhân sâu xa bùng nổ cuộc Toàn quốc kháng chiến (19/12/1946) là do dã tâm xâm lược trở lại nước ta của thực dân Pháp. Mặc dù Chính phủ ta đã rất thiện chí nhân nhượng qua Hiệp định Sơ bộ và Tạm ước 14/9, thực dân Pháp vẫn liên tiếp bội ước, khiêu khích và gửi tối hậu thư đòi tước vũ khí của ta.",
+        "image": "vnr/4/28.jpg"
+      },
+      {
+        "id": 29,
+        "uid": "vnr202_de4_29",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 29,
+        "question": "Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập vào thời gian nào?",
+        "options": {
+          "A": "Tháng 12 năm 1944",
+          "B": "Tháng 9 năm 1941",
+          "C": "Tháng 5 năm 1943",
+          "D": "Tháng 3 năm 1945"
+        },
+        "answer": "A",
+        "explanation": "Đội Việt Nam Tuyên truyền Giải phóng quân (tiền thân của Quân đội nhân dân Việt Nam) được thành lập vào ngày 22 tháng 12 năm 1944 tại khu rừng Sam Cao, giữa hai tổng Hoàng Hoa Thám và Trần Hưng Đạo thuộc châu Nguyên Bình, tỉnh Cao Bằng, do đồng chí Võ Nguyên Giáp chỉ huy.",
+        "image": "vnr/4/29.jpg"
+      },
+      {
+        "id": 30,
+        "uid": "vnr202_de4_30",
+        "exam": "vnr202_de4",
+        "exam_code": "VNR202 - Đề 4",
+        "exam_title": "VNR202 — Đề Ôn Tập 4",
+        "q_num": 30,
+        "question": "Tháng 3/1938, Đảng quyết định thành lập tổ chức nào để tập hợp rộng rãi lực lượng đông đảo nhân dân chống phát-xít và tay sai phản động?",
+        "options": {
+          "A": "Mặt trận Dân chủ Đông Dương",
+          "B": "Mặt trận Thống nhất Dân tộc phản đế Đông Dương",
+          "C": "Mặt trận Liên Việt",
+          "D": "Mặt trận Nhân dân phản đế Đông Dương"
+        },
+        "answer": "A",
+        "explanation": "Tại Hội nghị Ban Chấp hành Trung ương Đảng họp tháng 3/1938, Đảng quyết định đổi tên Mặt trận Thống nhất nhân dân phản đế Đông Dương thành Mặt trận Dân chủ Đông Dương nhằm tập hợp rộng rãi hơn nữa các tầng lớp nhân dân đấu tranh chống phát xít và phản động thuộc địa.",
+        "image": "vnr/4/30.jpg"
+      }
+    ]
+  },
+  "vnr202_de5": {
+    "id": "vnr202_de5",
+    "name": "VNR202 — Đề Ôn Tập 5 (25 Câu Gốc)",
+    "shortName": "Đề 5 (25c)",
+    "badge": "Đề 5",
+    "semester": "VNR202",
+    "total": 25,
+    "questions": [
+      {
+        "id": 1,
+        "uid": "vnr202_de5_1",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 1,
+        "question": "Tình hình tài chính của nước ta sau Cách mạng Tháng Tám có đặc điểm nổi bật là:",
+        "options": {
+          "A": "Nền tài chính quốc gia bước đầu được xây dựng",
+          "B": "Lệ thuộc vào các ngân hàng của Pháp và Nhật",
+          "C": "Ngân khố nhà nước trống rỗng",
+          "D": "Bị quân đội Trung Hoa Dân Quốc thao túng"
+        },
+        "answer": "C",
+        "explanation": "Sau Cách mạng Tháng Tám 1945, nền tài chính nước ta kiệt quệ: ngân khố quốc gia gần như trống rỗng (chỉ có 1,23 triệu đồng, trong đó quá nửa là tiền rách không tiêu được), Ngân hàng Đông Dương vẫn nằm trong tay tư bản Pháp, quân Tưởng tung ra tiền quan kim, quốc tệ gây lũng đoạn thị trường.",
+        "image": "vnr/5/1.jpg"
+      },
+      {
+        "id": 2,
+        "uid": "vnr202_de5_2",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 2,
+        "question": "Cuối thế kỷ XIX – đầu thế kỷ XX, nhiệm vụ hàng đầu cần phải được giải quyết cấp thiết của cách mạng Việt Nam là:",
+        "options": {
+          "A": "Chia lại ruộng đất",
+          "B": "Giải phóng dân tộc",
+          "C": "Đấu tranh giai cấp",
+          "D": "Canh tân đất nước"
+        },
+        "answer": "B",
+        "explanation": "Dưới ách thống trị tàn bạo của thực dân Pháp, mâu thuẫn chủ yếu và gay gắt nhất trong xã hội Việt Nam là mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp xâm lược và tay sai phản động. Do đó, nhiệm vụ hàng đầu, cấp thiết số 1 của cách mạng Việt Nam là giải phóng dân tộc, giành độc lập tự do.",
+        "image": "vnr/5/2.jpg"
+      },
+      {
+        "id": 3,
+        "uid": "vnr202_de5_3",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 3,
+        "question": "Yếu tố nào quyết định sự thất bại của các phong trào yêu nước trước năm 1930?",
+        "options": {
+          "A": "Thiếu tổ chức quân sự chuyên nghiệp",
+          "B": "Không nhận được sự hỗ trợ quốc tế",
+          "C": "Phụ thuộc vào các phong trào ở Trung Quốc",
+          "D": "Không có sự lãnh đạo của một giai cấp tiên tiến với lý luận cách mạng khoa học"
+        },
+        "answer": "D",
+        "explanation": "Sự thất bại của các phong trào yêu nước theo khuynh hướng phong kiến (Cần Vương, Yên Thế) và dân chủ tư sản (Đông Du, Duy Tân, khởi nghĩa Yên Bái) chứng tỏ sự bế tắc về đường lối và giai cấp lãnh đạo. Nguyên nhân sâu xa quyết định là chưa có giai cấp tiên tiến lãnh đạo với lý luận cách mạng khoa học (chủ nghĩa Mác - Lênin).",
+        "image": "vnr/5/3.jpg"
+      },
+      {
+        "id": 4,
+        "uid": "vnr202_de5_4",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 4,
+        "question": "Văn kiện đầu tiên của Đảng được thông qua tại Hội nghị thành lập là:",
+        "options": {
+          "A": "Luận cương chính trị",
+          "B": "Báo cáo chính trị",
+          "C": "Tuyên ngôn của Quốc tế Cộng sản",
+          "D": "Chính cương vắn tắt và Sách lược vắn tắt"
+        },
+        "answer": "D",
+        "explanation": "Hội nghị thành lập Đảng Cộng sản Việt Nam (đầu năm 1930) do Nguyễn Ái Quốc chủ trì đã thông qua các văn kiện đầu tiên gồm: Chánh cương vắn tắt của Đảng, Sách lược vắn tắt của Đảng, Chương trình tóm tắt và Điều lệ vắn tắt của Đảng (hợp thành Cương lĩnh chính trị đầu tiên).",
+        "image": "vnr/5/4.jpg"
+      },
+      {
+        "id": 5,
+        "uid": "vnr202_de5_5",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 5,
+        "question": "Nguyên nhân nào dưới đây được xem là nguyên nhân gây ra một số sai lầm trong cải cách ruộng đất ở miền Bắc?",
+        "options": {
+          "A": "Do miền Bắc còn nhiều ruộng đất bỏ hoang, vô chủ",
+          "B": "Do có sự chống đối quyết liệt từ người dân, đặc biệt là nông dân",
+          "C": "Do chủ quan, giáo điều, không xuất phát từ tình hình thực tiễn ở nông thôn miền Bắc sau ngày giải phóng",
+          "D": "Do không có sự chuẩn bị kĩ lưỡng trước khi tiến hành cải cách"
+        },
+        "answer": "C",
+        "explanation": "Sai lầm trong cải cách ruộng đất (1953 - 1956) bắt nguồn từ tư tưởng chủ quan, giáo điều, dập khuôn máy móc kinh nghiệm nước ngoài, không xuất phát từ đặc điểm cơ cấu giai cấp và tình hình cụ thể ở nông thôn miền Bắc sau ngày giải phóng.",
+        "image": "vnr/5/5.jpg"
+      },
+      {
+        "id": 6,
+        "uid": "vnr202_de5_6",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 6,
+        "question": "Sau Cách mạng Tháng Tám năm 1945, kẻ thù nguy hiểm nhất của nước ta là:",
+        "options": {
+          "A": "Thực dân Pháp",
+          "B": "Thực dân Anh",
+          "C": "Quân đội Tưởng Giới Thạch",
+          "D": "Phát-xít Nhật"
+        },
+        "answer": "A",
+        "explanation": "Sau ngày 2/9/1945, nước ta phải đối phó với nhiều kẻ thù (quân Tưởng, quân Anh, quân Nhật, các đảng phái phản động), nhưng thực dân Pháp là kẻ thù nguy hiểm nhất vì chúng có dã tâm xâm lược và tái lập ách thống trị thực dân lên toàn bộ cõi Đông Dương.",
+        "image": "vnr/5/6.jpg"
+      },
+      {
+        "id": 7,
+        "uid": "vnr202_de5_7",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 7,
+        "question": "Ý nghĩa lớn nhất của phong trào 1930–1931 là gì?",
+        "options": {
+          "A": "Khẳng định vai trò lãnh đạo của Đảng và tinh thần đấu tranh của quần chúng",
+          "B": "Thúc đẩy cải cách ruộng đất",
+          "C": "Thể hiện tinh thần yêu nước của tầng lớp trung lưu",
+          "D": "Giành chính quyền trên cả nước"
+        },
+        "answer": "A",
+        "explanation": "Phong trào cách mạng 1930 - 1931 với đỉnh cao là Xô viết Nghệ - Tĩnh có ý nghĩa lịch sử to lớn: khẳng định trên thực tế vai trò lãnh đạo cách mạng của Đảng Cộng sản Việt Nam, rèn luyện đội ngũ đảng viên và khẳng định tinh thần, sức mạnh quật khởi của liên minh công - nông, trở thành cuộc diễn tập đầu tiên chuẩn bị cho Cách mạng Tháng Tám 1945.",
+        "image": "vnr/5/7.jpg"
+      },
+      {
+        "id": 8,
+        "uid": "vnr202_de5_8",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 8,
+        "question": "Là một ngành của khoa học lịch sử, Lịch sử Đảng Cộng sản Việt Nam có các chức năng, nhiệm vụ của khoa học lịch sử, đồng thời còn có thêm các chức năng nổi bật khác là:",
+        "options": {
+          "A": "Chức năng nhận thức, giáo dục, dự báo và phê phán",
+          "B": "Chức năng nhận thức, điều tiết, chọn lọc và tìm kiếm",
+          "C": "Chức năng tuyên truyền, phổ cập, giáo huấn và phổ quát",
+          "D": "Chức năng giáo dục, sàng lọc, tuyên truyền và tìm kiếm"
+        },
+        "answer": "A",
+        "explanation": "Theo giáo trình Lịch sử Đảng Cộng sản Việt Nam, môn học có 4 chức năng cơ bản, nổi bật: Chức năng nhận thức, Chức năng giáo dục, Chức năng dự báo và Chức năng phê phán.",
+        "image": "vnr/5/8.jpg"
+      },
+      {
+        "id": 9,
+        "uid": "vnr202_de5_9",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 9,
+        "question": "Một trong những tổ chức công khai được thành lập trong phong trào 1936–1939 là:",
+        "options": {
+          "A": "Đông Dương đại hội – nơi tập hợp yêu cầu cải thiện dân sinh, dân chủ",
+          "B": "Việt Nam Giải phóng quân – lực lượng vũ trang đầu tiên của Đảng",
+          "C": "Hội Phục Việt với chương trình cải cách nông nghiệp",
+          "D": "Mặt trận Tổ quốc Việt Nam – tổ chức đại diện nhân dân"
+        },
+        "answer": "A",
+        "explanation": "Trong thời kỳ 1936 - 1939, Đảng đã chủ trương phát động phong trào Đông Dương Đại hội (giữa năm 1936) nhằm vận động quần chúng thảo luận và gửi 'dân nguyện' (bản yêu sách đòi các quyền tự do, dân sinh, dân chủ) tới phái đoàn điều tra của Quốc hội Pháp sang Đông Dương.",
+        "image": "vnr/5/9.jpg"
+      },
+      {
+        "id": 10,
+        "uid": "vnr202_de5_10",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 10,
+        "question": "Hiệp định Pa-ri về chấm dứt chiến tranh, lập lại hoà bình ở Việt Nam đã tạo ra bước ngoặt mới trong cuộc kháng chiến chống Mỹ cứu nước của dân tộc Việt Nam vì từ Hiệp định này, quân Mỹ đã phải:",
+        "options": {
+          "A": "Rút quân khỏi Việt Nam, tạo thế xoay chuyển có lợi cho cách mạng",
+          "B": "Rút quân hoàn toàn ra khỏi miền Bắc Việt Nam",
+          "C": "Ngừng ném bom tất cả các thành phố trọng điểm ở miền Nam",
+          "D": "Bồi thường chiến phí cho các Cựu chiến binh Việt Nam"
+        },
+        "answer": "A",
+        "explanation": "Hiệp định Paris (27/1/1973) buộc Mỹ và quân đồng minh phải rút hết quân viễn chinh về nước, chấm dứt hoàn toàn sự can thiệp quân sự trực tiếp của quân đội Mỹ ở miền Nam Việt Nam. Điều này đã tạo ra thời cơ chiến lược và thế so sánh lực lượng xoay chuyển có lợi căn bản cho cách mạng miền Nam, tiến tới đánh đổ chính quyền ngụy Sài Gòn, giải phóng hoàn toàn miền Nam.",
+        "image": "vnr/5/10.jpg"
+      },
+      {
+        "id": 11,
+        "uid": "vnr202_de5_11",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 11,
+        "question": "Sự kiện nào đánh dấu bước ngoặt trong cuộc đời hoạt động cách mạng của Nguyễn Ái Quốc – từ người yêu nước trở thành người cộng sản?",
+        "options": {
+          "A": "Ra đi tìm đường cứu nước",
+          "B": "Bỏ phiếu tán thành việc gia nhập Quốc tế III và tham gia thành lập Đảng Cộng sản Pháp",
+          "C": "Gửi Bản yêu sách của nhân dân An Nam tới Hội nghị Véc-xây",
+          "D": "Đọc bản Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của Lênin"
+        },
+        "answer": "B",
+        "explanation": "Tháng 12/1920, tại Đại hội XVIII Đảng Xã hội Pháp họp tại thành phố Tours, Nguyễn Ái Quốc đã bỏ phiếu tán thành gia nhập Quốc tế Cộng sản (Quốc tế III) và tham gia sáng lập Đảng Cộng sản Pháp. Sự kiện này đánh dấu bước ngoặt quyết định: từ một người yêu nước tiến bộ trở thành một chiến sĩ cộng sản đầu tiên của dân tộc Việt Nam.",
+        "image": "vnr/5/11.jpg"
+      },
+      {
+        "id": 12,
+        "uid": "vnr202_de5_12",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 12,
+        "question": "Điền từ còn thiếu vào chỗ trống: “Đảng Cộng sản Việt Nam là đội tiền phong của giai cấp công nhân, đồng thời là đội tiền phong của nhân dân lao động và của dân tộc Việt Nam, đại biểu trung thành lợi ích của giai cấp công nhân, nhân dân lao động và của dân tộc. Đảng lấy chủ nghĩa Mác – Lênin và Tư tưởng Hồ Chí Minh làm nền tảng tư tưởng, kim chỉ nam cho hành động, lấy ......làm nguyên tắc tổ chức cơ bản” (Văn kiện Đại hội XI của Đảng)",
+        "options": {
+          "A": "Đoàn kết thống nhất trong Đảng",
+          "B": "Tập trung dân chủ",
+          "C": "Kỷ luật nghiêm minh, tự giác",
+          "D": "Phê bình và tự phê bình"
+        },
+        "answer": "B",
+        "explanation": "Theo Điều lệ Đảng Cộng sản Việt Nam và Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên CNXH (bổ sung, phát triển năm 2011 tại Đại hội XI), Đảng lấy 'tập trung dân chủ' làm nguyên tắc tổ chức cơ bản.",
+        "image": "vnr/5/12.jpg"
+      },
+      {
+        "id": 13,
+        "uid": "vnr202_de5_13",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 13,
+        "question": "Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập vào thời gian nào?",
+        "options": {
+          "A": "Tháng 12 năm 1944",
+          "B": "Tháng 3 năm 1945",
+          "C": "Tháng 9 năm 1941",
+          "D": "Tháng 5 năm 1943"
+        },
+        "answer": "A",
+        "explanation": "Đội Việt Nam Tuyên truyền Giải phóng quân (tiền thân của Quân đội nhân dân Việt Nam) được thành lập ngày 22/12/1944 theo chỉ thị của lãnh tụ Hồ Chí Minh, tại khu rừng giữa hai tổng Hoàng Hoa Thám và Trần Hưng Đạo (Cao Bằng) do đồng chí Võ Nguyên Giáp trực tiếp chỉ huy.",
+        "image": "vnr/5/13.jpg"
+      },
+      {
+        "id": 14,
+        "uid": "vnr202_de5_14",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 14,
+        "question": "Theo Luận cương chính trị, động lực cách mạng là liên minh:",
+        "options": {
+          "A": "Nông dân – tư sản dân tộc",
+          "B": "Công nhân – nông dân",
+          "C": "Công nhân – trí thức",
+          "D": "Công nhân – địa chủ tiến bộ"
+        },
+        "answer": "B",
+        "explanation": "Luận cương chính trị tháng 10/1930 do Trần Phú khởi thảo xác định: Động lực cách mạng là giai cấp công nhân và nông dân (liên minh công nông), trong đó giai cấp vô sản là lực lượng lãnh đạo.",
+        "image": "vnr/5/14.jpg"
+      },
+      {
+        "id": 15,
+        "uid": "vnr202_de5_15",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 15,
+        "question": "Ai đã được Bộ Chính trị giao chức vụ Tư lệnh kiêm Bí thư Đảng uỷ chiến dịch Điện Biên Phủ?",
+        "options": {
+          "A": "Hồ Chí Minh",
+          "B": "Nguyễn Vịnh",
+          "C": "Nguyễn Chí Thanh",
+          "D": "Võ Nguyên Giáp"
+        },
+        "answer": "D",
+        "explanation": "Ngày 6/12/1953, Bộ Chính trị họp quyết định mở chiến dịch Điện Biên Phủ và giao trọng trách cho Đại tướng Võ Nguyên Giáp làm Chỉ huy trưởng kiêm Bí thư Đảng ủy chiến dịch Điện Biên Phủ.",
+        "image": "vnr/5/15.jpg"
+      },
+      {
+        "id": 16,
+        "uid": "vnr202_de5_16",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 16,
+        "question": "Trong phương pháp nghiên cứu, học tập môn học Lịch sử Đảng Cộng sản Việt Nam cần phải dựa trên phương pháp luận khoa học mác-xít, đồng thời phải nắm vững chủ nghĩa nào dưới đây để xem xét và nhận thức lịch sử một cách khách quan, trung thực và đúng quy luật?",
+        "options": {
+          "A": "Chủ nghĩa duy lý và chủ nghĩa duy vật lịch sử",
+          "B": "Chủ nghĩa duy vật và chủ nghĩa duy tâm",
+          "C": "Chủ nghĩa duy lý và chủ nghĩa duy vật biện chứng",
+          "D": "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử"
+        },
+        "answer": "D",
+        "explanation": "Phương pháp luận nghiên cứu Lịch sử Đảng Cộng sản Việt Nam dựa trên nền tảng của chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh, đòi hỏi người nghiên cứu phải quán triệt và nắm vững chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử để nhận thức hiện thực lịch sử một cách khách quan, khoa học, toàn diện và đúng quy luật.",
+        "image": "vnr/5/16.jpg"
+      },
+      {
+        "id": 17,
+        "uid": "vnr202_de5_17",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 17,
+        "question": "Cần phải coi trọng phương pháp tổng kết thực tiễn lịch sử gắn với nghiên cứu lý luận trong nghiên cứu Lịch sử Đảng Cộng sản Việt Nam để:",
+        "options": {
+          "A": "Chứng tỏ sự linh hoạt trong các bước đề ra đường lối, chủ trương của Đảng",
+          "B": "Làm rõ kinh nghiệm, bài học, quy luật phát triển của cách mạng Việt Nam",
+          "C": "Làm hài lòng người dân trong quá trình lãnh đạo cách mạng của Đảng",
+          "D": "Dễ dàng thống kê những thành tựu mà Đảng đạt được trong lãnh đạo cách mạng"
+        },
+        "answer": "B",
+        "explanation": "Tổng kết thực tiễn lịch sử gắn liền với nghiên cứu lý luận giúp làm sáng tỏ các kinh nghiệm, bài học quý báu và các quy luật vận động, phát triển khách quan của cách mạng Việt Nam dưới sự lãnh đạo của Đảng.",
+        "image": "vnr/5/17.jpg"
+      },
+      {
+        "id": 18,
+        "uid": "vnr202_de5_18",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 18,
+        "question": "Trong Cương lĩnh đầu tiên, lực lượng cách mạng chủ yếu được xác định là:",
+        "options": {
+          "A": "Tư sản dân tộc",
+          "B": "Công nhân và nông dân",
+          "C": "Địa chủ tiến bộ",
+          "D": "Trí thức tiểu tư sản"
+        },
+        "answer": "B",
+        "explanation": "Cương lĩnh chính trị đầu tiên (2/1930) nêu rõ: Công nhân và nông dân là lực lượng nòng cốt, chủ yếu, là 'gốc cách mệnh'. Đảng phải dựa vào công - nông, đồng thời đoàn kết với các giai cấp, tầng lớp yêu nước khác.",
+        "image": "vnr/5/18.jpg"
+      },
+      {
+        "id": 19,
+        "uid": "vnr202_de5_19",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 19,
+        "question": "Khẩu hiệu được nhân dân các tỉnh Nam Bộ dùng để nâng cao tinh thần chiến đấu trong những ngày đầu chống thực dân Pháp xâm lược lần thứ hai là:",
+        "options": {
+          "A": "Thà chết tự do còn hơn sống nô lệ",
+          "B": "Vững tay súng, chắc tay cày",
+          "C": "Quyết tử để Tổ quốc quyết sinh",
+          "D": "Thóc không thiếu một cân, quân không thiếu một người"
+        },
+        "answer": "A",
+        "explanation": "Khi thực dân Pháp nổ súng đánh chiếm Sài Gòn ngày 23/9/1945 hòng xâm lược nước ta lần thứ hai, đồng bào và chiến sĩ Nam Bộ đã quật khởi chiến đấu với ý chí kiên cường và khẩu hiệu đanh thép: 'Thà chết tự do còn hơn sống nô lệ!'.",
+        "image": "vnr/5/19.jpg"
+      },
+      {
+        "id": 20,
+        "uid": "vnr202_de5_20",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 20,
+        "question": "Cuộc kháng chiến chống Pháp xâm lược lần thứ hai của nhân dân ta được diễn ra vào thời gian nào?",
+        "options": {
+          "A": "1946 – 1954",
+          "B": "1930 – 1945",
+          "C": "1858 – 1930",
+          "D": "1945 – 1975"
+        },
+        "answer": "A",
+        "explanation": "Cuộc kháng chiến toàn quốc chống thực dân Pháp xâm lược lần thứ hai của nhân dân ta bắt đầu từ ngày 19/12/1946 (Lời kêu gọi toàn quốc kháng chiến của Chủ tịch Hồ Chí Minh) và kết thúc thắng lợi năm 1954 với chiến dịch Điện Biên Phủ và Hiệp định Giơ-ne-vơ.",
+        "image": "vnr/5/20.jpg"
+      },
+      {
+        "id": 21,
+        "uid": "vnr202_de5_21",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 21,
+        "question": "Sự kiện nào dưới đây đã tạo ra thời cơ thuận lợi cho nhân dân ta giành lại độc lập vào tháng 8/1945?",
+        "options": {
+          "A": "Sự nổi dậy giành thắng lợi của nhân dân các nước Tây Âu",
+          "B": "Sự đầu hàng vô điều kiện của phát-xít Nhật",
+          "C": "Sự thất bại của Hồng quân Liên Xô tại mặt trận Xô-Đức",
+          "D": "Sự thất bại của phe phát-xít tại chiến trường châu Mỹ"
+        },
+        "answer": "B",
+        "explanation": "Việc phát-xít Nhật tuyên bố đầu hàng Đồng minh vô điều kiện (giữa tháng 8/1945) đã đẩy quân Nhật ở Đông Dương vào thế hoang mang rệu rã, chính quyền bù nhìn Trần Trọng Kim tê liệt. Đây chính là thời cơ ngàn năm có một để toàn dân ta tiến hành Tổng khởi nghĩa Tháng Tám giành chính quyền.",
+        "image": "vnr/5/21.jpg"
+      },
+      {
+        "id": 22,
+        "uid": "vnr202_de5_22",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 22,
+        "question": "Ở Châu Á, quân phiệt Nhật đã đầu hàng Đồng minh vô điều kiện vào năm nào?",
+        "options": {
+          "A": "1945 – 11/8/1945",
+          "B": "1940",
+          "C": "1950",
+          "D": "1942"
+        },
+        "answer": "A",
+        "explanation": "Tại chiến trường châu Á - Thái Bình Dương, phát-xít Nhật đã chấp nhận đầu hàng Đồng minh vô điều kiện vào tháng 8/1945 (ngày 15/8/1945 Nhật hoàng phát thanh tuyên bố đầu hàng, ký hiệp ước đầu hàng chính thức ngày 2/9/1945). Mốc năm 1945 là đáp án chính xác.",
+        "image": "vnr/5/22.jpg"
+      },
+      {
+        "id": 23,
+        "uid": "vnr202_de5_23",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 23,
+        "question": "Đối tượng nghiên cứu của khoa học Lịch sử Đảng Cộng sản Việt Nam là:",
+        "options": {
+          "A": "Các văn kiện của Đảng chuẩn bị được lưu hành",
+          "B": "Sự ra đời, phát triển và hoạt động lãnh đạo của Đảng qua các thời kỳ lịch sử",
+          "C": "Những mặt hạn chế trong quá trình lãnh đạo của Đảng",
+          "D": "Các cán bộ, đảng viên Đảng Cộng sản Việt Nam"
+        },
+        "answer": "B",
+        "explanation": "Đối tượng nghiên cứu của khoa học Lịch sử Đảng Cộng sản Việt Nam là sự ra đời, phát triển và hoạt động lãnh đạo của Đảng qua các thời kỳ lịch sử; làm sáng tỏ các quy luật, bài học kinh nghiệm và thành tựu của cách mạng Việt Nam dưới sự lãnh đạo của Đảng.",
+        "image": "vnr/5/23.jpg"
+      },
+      {
+        "id": 24,
+        "uid": "vnr202_de5_24",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 24,
+        "question": "Động lực của cách mạng Việt Nam được xác định trong Đại hội đại biểu toàn quốc lần thứ II của Đảng (2/1951) gồm các giai cấp và tầng lớp nào?",
+        "options": {
+          "A": "Phong kiến, nông dân, tư sản dân tộc và tư sản mại bản",
+          "B": "Phong kiến, nông dân, công nhân và tư sản dân tộc",
+          "C": "Công nhân, nông dân, tiểu tư sản và tư sản mại bản",
+          "D": "Công nhân, nông dân, tiểu tư sản và tư sản dân tộc"
+        },
+        "answer": "D",
+        "explanation": "Chính cương Đảng Lao động Việt Nam được thông qua tại Đại hội II (2/1951) xác định: Động lực của cách mạng Việt Nam gồm giai cấp công nhân, giai cấp nông dân, giai cấp tiểu tư sản và giai cấp tư sản dân tộc; trong đó nền tảng là giai cấp công nhân, giai cấp nông dân và lao động trí óc.",
+        "image": "vnr/5/24.jpg"
+      },
+      {
+        "id": 25,
+        "uid": "vnr202_de5_25",
+        "exam": "vnr202_de5",
+        "exam_code": "VNR202 - Đề 5",
+        "exam_title": "VNR202 — Đề Ôn Tập 5",
+        "q_num": 25,
+        "question": "Mục tiêu chiến lược của Cương lĩnh chính trị đầu tiên là gì?",
+        "options": {
+          "A": "Lật đổ thực dân Pháp, đánh đổ phong kiến, xây dựng chủ nghĩa xã hội",
+          "B": "Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản",
+          "C": "Giành độc lập dân tộc và tiến lên chủ nghĩa xã hội",
+          "D": "Cách mạng dân tộc dân chủ nhân dân để tiến lên xã hội chủ nghĩa"
+        },
+        "answer": "B",
+        "explanation": "Cương lĩnh chính trị đầu tiên do lãnh tụ Nguyễn Ái Quốc soạn thảo (2/1930) xác định phương hướng chiến lược của cách mạng Việt Nam là: 'Chủ trương làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản'.",
+        "image": "vnr/5/25.jpg"
+      }
+    ]
+  },
+  "vnr202_de6": {
+    "id": "vnr202_de6",
+    "name": "VNR202 — Đề Ôn Tập 6 (30 Câu Gốc)",
+    "shortName": "Đề 6 (30c)",
+    "badge": "Đề 6",
+    "semester": "VNR202",
+    "total": 30,
+    "questions": [
+      {
+        "id": 1,
+        "uid": "vnr202_de6_1",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 1,
+        "question": "Một trong những nhiệm vụ hàng đầu khi nghiên cứu khoa học Lịch sử Đảng Cộng sản Việt Nam là:",
+        "options": {
+          "A": "Chọn lọc ra những sự kiện lịch sử nổi bật để tái hiện lại sự thành công trong quá trình lãnh đạo của Đảng",
+          "B": "Làm cho người học hiểu được quyền lực của Đảng, từ đó thêm trung thành với đường lối lãnh đạo của Đảng",
+          "C": "Tìm hiểu về lịch sử ra đời của đảng cộng sản trên thế giới",
+          "D": "Khẳng định, chứng minh giá trị khoa học của những mục tiêu chiến lược và sách lược cách mạng mà Đảng đề ra trong cương lĩnh"
+        },
+        "answer": "D",
+        "explanation": "Nhiệm vụ hàng đầu của khoa học Lịch sử Đảng là làm sáng tỏ, khẳng định và chứng minh giá trị khoa học và giá trị thực tiễn của các mục tiêu chiến lược, sách lược cách mạng mà Đảng đã đề ra qua từng giai đoạn lịch sử.",
+        "image": "vnr/6/1.jpg"
+      },
+      {
+        "id": 2,
+        "uid": "vnr202_de6_2",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 2,
+        "question": "Nguyễn Ái Quốc đã chuẩn bị điều kiện nào dưới đây cho việc thành lập Đảng?",
+        "options": {
+          "A": "Truyền bá chủ nghĩa Mác – Lênin, đào tạo cán bộ, thống nhất tổ chức",
+          "B": "Thuyết phục chính phủ Pháp cải cách",
+          "C": "Tuyên truyền văn hóa dân tộc",
+          "D": "Xây dựng liên minh công – nông – sĩ"
+        },
+        "answer": "A",
+        "explanation": "Nguyễn Ái Quốc đã có công lao to lớn chuẩn bị chu đáo về tư tưởng, chính trị và tổ chức cho việc thành lập Đảng: tích cực truyền bá chủ nghĩa Mác - Lênin vào phong trào công nhân và phong trào yêu nước, mở các lớp huấn luyện đào tạo cán bộ cách mạng tại Quảng Châu và chủ trì hợp nhất các tổ chức cộng sản đầu năm 1930.",
+        "image": "vnr/6/2.jpg"
+      },
+      {
+        "id": 3,
+        "uid": "vnr202_de6_3",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 3,
+        "question": "Ngày 15/2/1961, các lực lượng vũ trang ở miền Nam được thống nhất với tên gọi mới là:",
+        "options": {
+          "A": "Cục giải phóng miền Nam Việt Nam",
+          "B": "Đội giải phóng miền Nam Việt Nam",
+          "C": "Hội giải phóng miền Nam Việt Nam",
+          "D": "Quân giải phóng miền Nam Việt Nam"
+        },
+        "answer": "D",
+        "explanation": "Ngày 15/2/1961, tại chiến khu Đ, thực hiện chủ trương của Bộ Chính trị và Trung ương Cục miền Nam, các lực lượng vũ trang giải phóng ở miền Nam đã được thống nhất lại với tên gọi chính thức là 'Quân giải phóng miền Nam Việt Nam'.",
+        "image": "vnr/6/3.jpg"
+      },
+      {
+        "id": 4,
+        "uid": "vnr202_de6_4",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 4,
+        "question": "Hình thức bầu cử nào dưới đây được Đảng đề ra để người dân bầu Quốc hội và thành lập Chính phủ chính thức vào ngày 6/1/1946?",
+        "options": {
+          "A": "Giơ tay bầu trực tiếp",
+          "B": "Đại cử tri đoàn",
+          "C": "Chấp chính quan",
+          "D": "Phổ thông đầu phiếu"
+        },
+        "answer": "D",
+        "explanation": "Cuộc Tổng tuyển cử đầu tiên bầu Quốc hội khoá I của nước Việt Nam Dân chủ Cộng hòa ngày 6/1/1946 được tiến hành theo nguyên tắc dân chủ tiến bộ nhất: phổ thông đầu phiếu, bình đẳng, trực tiếp và bỏ phiếu kín.",
+        "image": "vnr/6/4.jpg"
+      },
+      {
+        "id": 5,
+        "uid": "vnr202_de6_5",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 5,
+        "question": "Tính chất và nhiệm vụ của cách mạng Việt Nam được thể hiện trong tác phẩm “Đường Kách mệnh” của Nguyễn Ái Quốc là:",
+        "options": {
+          "A": "Cách mạng xã hội chủ nghĩa để đi lên xã hội cộng sản",
+          "B": "Tư sản dân quyền và thổ địa cách mạng để đi tới xã hội cộng sản",
+          "C": "Cách mạng giải phóng dân tộc mở đường tiến lên chủ nghĩa xã hội",
+          "D": "Canh tân đất nước theo xu hướng của Minh Trị duy tân ở Nhật"
+        },
+        "answer": "C",
+        "explanation": "Trong tác phẩm 'Đường Kách mệnh' (1927), Nguyễn Ái Quốc chỉ rõ tính chất và nhiệm vụ của cách mạng Việt Nam: trước hết là cuộc cách mạng giải phóng dân tộc (dân tộc cách mệnh) đánh đổ đế quốc thực dân, giành độc lập tự do cho đồng bào, mở đường tiến lên làm cách mạng xã hội chủ nghĩa (giai cấp cách mệnh và thế giới cách mệnh).",
+        "image": "vnr/6/5.jpg"
+      },
+      {
+        "id": 6,
+        "uid": "vnr202_de6_6",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 6,
+        "question": "Bối cảnh quốc tế trực tiếp tác động đến tình hình Việt Nam giai đoạn 1939–1945 là:",
+        "options": {
+          "A": "Chiến tranh thế giới thứ hai bùng nổ",
+          "B": "Chiến tranh biên giới Trung – Nhật",
+          "C": "Khủng hoảng tài chính toàn cầu",
+          "D": "Cách mạng dân chủ ở Đông Âu lan rộng"
+        },
+        "answer": "A",
+        "explanation": "Tháng 9/1939, Chiến tranh thế giới thứ hai bùng nổ. Nước Pháp tham chiến và ở Đông Dương, thực dân Pháp thực hiện chính sách thời chiến phản động, đàn áp phong trào cách mạng và bóc lột thuộc địa phục vụ chiến tranh. Sau đó, tháng 9/1940 phát-xít Nhật nhảy vào Đông Dương, biến nước ta thành thuộc địa chịu ách thống trị kép Nhật - Pháp.",
+        "image": "vnr/6/6.jpg"
+      },
+      {
+        "id": 7,
+        "uid": "vnr202_de6_7",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 7,
+        "question": "Mâu thuẫn cơ bản của xã hội Việt Nam kể từ khi Pháp xâm lược là gì?",
+        "options": {
+          "A": "Mâu thuẫn giữa dân tộc ta với thực dân Pháp, mâu thuẫn giữa nông dân với địa chủ phong kiến",
+          "B": "Mâu thuẫn giữa nông dân với địa chủ phong kiến, mâu thuẫn giữa tư sản với vô sản",
+          "C": "Mâu thuẫn giữa công nhân với tư bản, mâu thuẫn giữa nông dân với địa chủ phong kiến",
+          "D": "Mâu thuẫn giữa nông dân, công nhân với địa chủ phong kiến"
+        },
+        "answer": "A",
+        "explanation": "Từ khi thực dân Pháp xâm lược và biến nước ta thành xã hội thuộc địa nửa phong kiến, trong lòng xã hội Việt Nam tồn tại hai mâu thuẫn cơ bản: mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp xâm lược (mâu thuẫn dân tộc) và mâu thuẫn giữa giai cấp nông dân với giai cấp địa chủ phong kiến (mâu thuẫn giai cấp).",
+        "image": "vnr/6/7.jpg"
+      },
+      {
+        "id": 8,
+        "uid": "vnr202_de6_8",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 8,
+        "question": "Cách mạng giành chính quyền ở Hà Nội trong Cách mạng Tháng Tám nổ ra vào thời gian nào?",
+        "options": {
+          "A": "19/8/1945",
+          "B": "25/8/1945",
+          "C": "23/8/1945",
+          "D": "18/8/1945"
+        },
+        "answer": "A",
+        "explanation": "Ngày 19/8/1945, dưới sự lãnh đạo của Thành ủy Hà Nội và Ủy ban Khởi nghĩa, cuộc mít tinh khổng lồ tại Quảng trường Nhà hát Lớn đã nhanh chóng biến thành cuộc biểu tình tuần hành vũ trang, đánh chiếm Phủ Khâm sai Bắc Kỳ, Tòa Thị chính, Trại lính Bảo an, giành thắng lợi vang dội và trọn vẹn tại Thủ đô Hà Nội.",
+        "image": "vnr/6/8.jpg"
+      },
+      {
+        "id": 9,
+        "uid": "vnr202_de6_9",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 9,
+        "question": "Các cuộc khởi nghĩa Bắc Sơn, Nam Kỳ (1940) và binh biến Đô Lương (1941) đã để lại bài học kinh nghiệm gì cho cách mạng Việt Nam?",
+        "options": {
+          "A": "Thời cơ trong khởi nghĩa giành chính quyền",
+          "B": "Tiến hành tổng khởi nghĩa trước, có thể bỏ qua khởi nghĩa từng phần",
+          "C": "Khởi nghĩa vũ trang và chiến tranh du kích",
+          "D": "Đấu tranh trên lĩnh vực ngoại giao"
+        },
+        "answer": "C",
+        "explanation": "Các cuộc khởi nghĩa Bắc Sơn, Nam Kỳ và binh biến Đô Lương tuy chưa thành công do nổ ra sớm khi điều kiện chưa chín muồi, nhưng đã để lại cho Đảng ta những bài học kinh nghiệm thực tiễn vô cùng quý báu về khởi nghĩa vũ trang, chiến thuật du kích, xây dựng căn cứ địa cách mạng và duy trì lực lượng vũ trang nhân dân.",
+        "image": "vnr/6/9.jpg"
+      },
+      {
+        "id": 10,
+        "uid": "vnr202_de6_10",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 10,
+        "question": "Đối tượng nghiên cứu của khoa học Lịch sử Đảng Cộng sản Việt Nam là:",
+        "options": {
+          "A": "Các văn kiện của Đảng chuẩn bị được lưu hành",
+          "B": "Những mặt hạn chế trong quá trình lãnh đạo của Đảng",
+          "C": "Các cán bộ, đảng viên Đảng Cộng sản Việt Nam",
+          "D": "Sự ra đời, phát triển và hoạt động lãnh đạo của Đảng qua các thời kỳ lịch sử"
+        },
+        "answer": "D",
+        "explanation": "Đối tượng nghiên cứu của khoa học Lịch sử Đảng Cộng sản Việt Nam là toàn bộ sự ra đời, phát triển và hoạt động lãnh đạo của Đảng qua các thời kỳ lịch sử; chỉ ra những quy luật phát triển tất yếu và những bài học kinh nghiệm sâu sắc cho cách mạng Việt Nam.",
+        "image": "vnr/6/10.jpg"
+      },
+      {
+        "id": 11,
+        "uid": "vnr202_de6_11",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 11,
+        "question": "Trong Cương lĩnh đầu tiên, lực lượng cách mạng chủ yếu được xác định là:",
+        "options": {
+          "A": "Địa chủ tiến bộ",
+          "B": "Trí thức tiểu tư sản",
+          "C": "Tư sản dân tộc",
+          "D": "Công nhân và nông dân"
+        },
+        "answer": "D",
+        "explanation": "Cương lĩnh chính trị đầu tiên của Đảng (tháng 2/1930) xác định giai cấp công nhân và nông dân là lực lượng nòng cốt, cơ bản và chủ yếu của cách mạng, là 'cái gốc của cách mệnh'.",
+        "image": "vnr/6/11.jpg"
+      },
+      {
+        "id": 12,
+        "uid": "vnr202_de6_12",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 12,
+        "question": "Tính chất điển hình nhất của Cách mạng Tháng Tám năm 1945 là gì?",
+        "options": {
+          "A": "Một cuộc cách mạng tư sản dân quyền",
+          "B": "Một cuộc cách mạng xã hội chủ nghĩa kiểu mới",
+          "C": "Một cuộc cách mạng dân tộc dân chủ nhân dân",
+          "D": "Một cuộc khởi nghĩa nông dân quy mô lớn"
+        },
+        "answer": "C",
+        "explanation": "Cách mạng Tháng Tám năm 1945 là một cuộc cách mạng giải phóng dân tộc mang tính chất dân tộc dân chủ nhân dân sâu sắc: vừa lật đổ ách thống trị của phát-xít và đế quốc thực dân để giành độc lập dân tộc, vừa đánh đổ chế độ phong kiến ngàn năm để xây dựng chính quyền dân chủ nhân dân.",
+        "image": "vnr/6/12.jpg"
+      },
+      {
+        "id": 13,
+        "uid": "vnr202_de6_13",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 13,
+        "question": "Phong trào đình công, bãi công của công nhân Việt Nam trong những năm 1926 – 1929 thuộc khuynh hướng nào?",
+        "options": {
+          "A": "Khuynh hướng dân chủ tư sản",
+          "B": "Khuynh hướng vô sản",
+          "C": "Khuynh hướng dân chủ",
+          "D": "Khuynh hướng phong kiến"
+        },
+        "answer": "B",
+        "explanation": "Trong giai đoạn 1926 - 1929, phong trào công nhân Việt Nam phát triển nhảy vọt cả về số lượng và chất lượng dưới tác động truyền bá chủ nghĩa Mác - Lênin và phong trào 'vô sản hóa' (1928), chuyển biến mạnh mẽ từ đấu tranh tự phát sang đấu tranh tự giác và hoàn toàn phát triển theo khuynh hướng vô sản.",
+        "image": "vnr/6/13.jpg"
+      },
+      {
+        "id": 14,
+        "uid": "vnr202_de6_14",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 14,
+        "question": "Bối cảnh quốc tế tác động trực tiếp đến sự chuyển hướng chỉ đạo của Đảng năm 1936 là gì?",
+        "options": {
+          "A": "Cuộc khủng hoảng kinh tế kéo dài tại Mỹ và châu Âu",
+          "B": "Chiến tranh giữa Liên Xô và các nước tư bản phương Tây",
+          "C": "Chủ nghĩa phát xít lên cầm quyền ở Đức, Ý, Nhật đe dọa hòa bình thế giới",
+          "D": "Cách mạng dân chủ ở Tây Ban Nha"
+        },
+        "answer": "C",
+        "explanation": "Nguy cơ chủ nghĩa phát xít lên cầm quyền ở Đức, Ý, Nhật và ráo riết chuẩn bị chiến tranh thế giới mới đã đe dọa trực tiếp nền hòa bình và an ninh nhân loại. Đại hội VII Quốc tế Cộng sản (7/1935) kêu gọi thành lập Mặt trận Nhân dân chống phát xít. Bối cảnh đó đã tác động trực tiếp đến Hội nghị Trung ương tháng 7/1936 của Đảng ta để chuyển hướng chỉ đạo chiến lược và sách lược.",
+        "image": "vnr/6/14.jpg"
+      },
+      {
+        "id": 15,
+        "uid": "vnr202_de6_15",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 15,
+        "question": "Nhiệm vụ của cách mạng Việt Nam được Đảng ta xác định trong thời kỳ 1936–1939 là:",
+        "options": {
+          "A": "Đánh đuổi quân đội Tưởng Giới Thạch và các phe phái phản động ở trong nước",
+          "B": "Đánh đổ thực dân và tay sai",
+          "C": "Chống phát-xít, chống chiến tranh đế quốc, chống bọn phản động thuộc địa, đòi tự do, dân chủ, cơm áo hòa bình",
+          "D": "Tịch thu ruộng đất của địa chủ phong kiến chia cho dân cày"
+        },
+        "answer": "C",
+        "explanation": "Trong thời kỳ 1936 - 1939, Đảng xác định kẻ thù trước mắt nguy hại nhất là bọn phản động thuộc địa và tay sai; nhiệm vụ trước mắt là chống phát xít, chống chiến tranh đế quốc, đòi tự do, dân chủ, cơm áo và hòa bình.",
+        "image": "vnr/6/15.jpg"
+      },
+      {
+        "id": 16,
+        "uid": "vnr202_de6_16",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 16,
+        "question": "Mặt trận Dân tộc giải phóng miền Nam Việt Nam được thành lập ngày 20/12/1960 có ý nghĩa như là:",
+        "options": {
+          "A": "Một tổ chức ngoại giao với nhiệm vụ kêu gọi sự ủng hộ của những người yêu chuộng hoà bình thế giới đối với cuộc kháng chiến chống Mỹ của nhân dân ta",
+          "B": "Một tổ chức vũ trang với nhiệm vụ huấn luyện, đào tạo quân đội Việt Minh",
+          "C": "Một tổ chức chính trị để tập hợp rộng rãi quần chúng nhân dân đoàn kết đấu tranh chống lại chính quyền độc tài của Ngô Đình Diệm",
+          "D": "Một tổ chức xã hội với nhiệm vụ chăm lo đời sống cho con em những người cộng sản"
+        },
+        "answer": "C",
+        "explanation": "Mặt trận Dân tộc giải phóng miền Nam Việt Nam ra đời ngày 20/12/1960 nhằm tập hợp, đoàn kết rộng rãi các tầng lớp nhân dân, các dân tộc, tôn giáo, các tổ chức và nhân sĩ yêu nước ở miền Nam để cùng nhau đánh đổ ách thống trị thực dân mới của đế quốc Mỹ và chế độ độc tài tay sai Ngô Đình Diệm.",
+        "image": "vnr/6/16.jpg"
+      },
+      {
+        "id": 17,
+        "uid": "vnr202_de6_17",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 17,
+        "question": "Đại hội đại biểu toàn quốc lần thứ III (9/1960) của Đảng họp ở đâu?",
+        "options": {
+          "A": "Hà Giang",
+          "B": "Hà Nội",
+          "C": "Bắc Ninh",
+          "D": "Tuyên Quang"
+        },
+        "answer": "B",
+        "explanation": "Đại hội đại biểu toàn quốc lần thứ III của Đảng họp từ ngày 5 đến ngày 10/9/1960 tại Thủ đô Hà Nội. Đại hội đã đề ra đường lối chiến lược cách mạng chung của cả nước trong giai đoạn mới: tiến hành đồng thời hai chiến lược cách mạng ở hai miền Nam - Bắc.",
+        "image": "vnr/6/17.jpg"
+      },
+      {
+        "id": 18,
+        "uid": "vnr202_de6_18",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 18,
+        "question": "Đâu là chính sách được Đảng và Chủ tịch Hồ Chí Minh dùng để đối phó với quân Tưởng?",
+        "options": {
+          "A": "Liên minh với quân đội Pháp để đuổi quân Tưởng về nước",
+          "B": "Giao thiệp thân thiện, ứng xử mềm dẻo, linh hoạt với yêu sách của quân Tưởng và tay sai",
+          "C": "Mời Tưởng Giới Thạch làm chủ tịch Quốc hội nước Việt Nam Dân chủ Cộng hoà",
+          "D": "Giao chính phủ cho quân đội của Tưởng, Đảng rút lui vào hoạt động bí mật"
+        },
+        "answer": "B",
+        "explanation": "Từ sau Cách mạng Tháng Tám đến trước ngày 6/3/1946, Đảng và Chủ tịch Hồ Chí Minh đã thực hiện chủ trương 'Hoa - Việt thân thiện', ứng xử mềm dẻo, nhân nhượng có nguyên tắc đối với quân Tưởng và tay sai nhằm cô lập kẻ thù nguy hiểm nhất là thực dân Pháp.",
+        "image": "vnr/6/18.jpg"
+      },
+      {
+        "id": 19,
+        "uid": "vnr202_de6_19",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 19,
+        "question": "Điền vào chỗ trống từ còn thiếu để hoàn thành câu nói sau của Chủ tịch Hồ Chí Minh: “Ngày nay chúng ta đã xây dựng nên nước Việt Nam Dân chủ Cộng hoà. Nhưng nếu nước độc lập mà dân không được hưởng ......thì độc lập cũng chẳng có ý nghĩa gì”, (Trích Thư gửi Uỷ ban nhân dân các kỳ, tỉnh, huyện và làng ngày 17/10/1945)",
+        "options": {
+          "A": "Hạnh phúc, tự do",
+          "B": "Cơm ăn, áo mặc",
+          "C": "Hạnh phúc, công bằng",
+          "D": "Ruộng đất, ấm no"
+        },
+        "answer": "A",
+        "explanation": "Trong bức thư gửi Ủy ban nhân dân các kỳ, tỉnh, huyện và làng ngày 17/10/1945, Bác Hồ căn dặn cán bộ chính quyền: 'Ngày nay chúng ta đã xây dựng nên nước Việt Nam Dân chủ Cộng hòa. Nhưng nếu nước độc lập mà dân không được hưởng hạnh phúc tự do, thì độc lập cũng chẳng có ý nghĩa gì'.",
+        "image": "vnr/6/19.jpg"
+      },
+      {
+        "id": 20,
+        "uid": "vnr202_de6_20",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 20,
+        "question": "Trong Cương lĩnh chính trị đầu tiên, Đảng xác định “mục tiêu chiến lược của cách mạng Việt Nam là ......và thổ địa cách mạng để đi tới xã hội cộng sản.” Từ còn thiếu trong chỗ trống là:",
+        "options": {
+          "A": "Xã hội chủ nghĩa",
+          "B": "Dân tộc dân chủ",
+          "C": "Dân tộc dân chủ nhân dân",
+          "D": "Dân quyền cách mạng"
+        },
+        "answer": "D",
+        "explanation": "Trong Chánh cương vắn tắt của Đảng (2/1930), Nguyễn Ái Quốc xác định phương hướng chiến lược: 'Chủ trương làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản'. Vì vậy cụm từ chính xác điền vào chỗ trống là 'Dân quyền cách mạng'.",
+        "image": "vnr/6/20.jpg"
+      },
+      {
+        "id": 21,
+        "uid": "vnr202_de6_21",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 21,
+        "question": "Lá cờ đỏ sao vàng lần đầu tiên xuất hiện trong cuộc khởi nghĩa nào sau đây?",
+        "options": {
+          "A": "Khởi nghĩa Yên Bái (1927)",
+          "B": "Khởi nghĩa Yên Bái (1930)",
+          "C": "Khởi nghĩa Nam Kỳ (1940)",
+          "D": "Binh biến Đô Lương (1941)"
+        },
+        "answer": "C",
+        "explanation": "Lá cờ đỏ sao vàng năm cánh lần đầu tiên xuất hiện và tung bay trong cuộc Khởi nghĩa Nam Kỳ bùng nổ vào đêm 22 rạng ngày 23/11/1940 tại các tỉnh Nam Bộ.",
+        "image": "vnr/6/21.jpg"
+      },
+      {
+        "id": 22,
+        "uid": "vnr202_de6_22",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 22,
+        "question": "Bản Hiệp định Sơ bộ được ký ngày 6/3/1946 có ý nghĩa to lớn với cách mạng Việt Nam bởi vì sẽ giúp chúng ta có thêm thời gian:",
+        "options": {
+          "A": "Khai hoang các vùng đất phía Nam",
+          "B": "Xây dựng chủ nghĩa xã hội",
+          "C": "Chuẩn bị lực lượng mọi mặt cho cuộc kháng chiến với Pháp",
+          "D": "Tổ chức bầu cử"
+        },
+        "answer": "C",
+        "explanation": "Hiệp định Sơ bộ 6/3/1946 giúp ta tránh được cuộc chiến đấu bất lợi cùng lúc với nhiều kẻ thù, đẩy được 20 vạn quân Tưởng về nước và tranh thủ thời gian hòa hoãn quý báu để củng cố lực lượng, chuẩn bị mọi mặt cho cuộc kháng chiến lâu dài chống Pháp.",
+        "image": "vnr/6/22.jpg"
+      },
+      {
+        "id": 23,
+        "uid": "vnr202_de6_23",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 23,
+        "question": "Điểm nổi bật về phương pháp cách mạng trong Cương lĩnh đầu tiên là:",
+        "options": {
+          "A": "Đấu tranh hợp pháp và nghị trường",
+          "B": "Đấu tranh quân sự kết hợp bạo loạn",
+          "C": "Bạo lực cách mạng do công – nông lãnh đạo",
+          "D": "Thỏa hiệp với các giai cấp bóc lột"
+        },
+        "answer": "C",
+        "explanation": "Cương lĩnh chính trị đầu tiên của Đảng chỉ rõ phương pháp cách mạng giải phóng dân tộc là con đường bạo lực cách mạng của quần chúng nhân dân do liên minh công nông làm nền tảng và dưới sự lãnh đạo của giai cấp công nhân.",
+        "image": "vnr/6/23.jpg"
+      },
+      {
+        "id": 24,
+        "uid": "vnr202_de6_24",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 24,
+        "question": "Trong giai đoạn 1954 – 1965, Đảng đã gặp khó khăn gì trong lãnh đạo cách mạng ở hai miền Nam Bắc?",
+        "options": {
+          "A": "Thực dân Pháp vẫn chưa chịu rút quân về nước",
+          "B": "Cục diện Chiến tranh lạnh trên thế giới diễn ra rất căng thẳng",
+          "C": "Đất nước ta bị chia làm hai miền với hai chế độ khác biệt",
+          "D": "Đế quốc Mỹ mang quân ra miền Bắc Việt Nam"
+        },
+        "answer": "C",
+        "explanation": "Đặc điểm lớn nhất và cũng là khó khăn chưa có tiền lệ là đất nước ta tạm thời bị chia cắt làm hai miền với hai chế độ chính trị - xã hội khác nhau: miền Bắc tiến lên CNXH, miền Nam nằm dưới ách thống trị của đế quốc Mỹ và tay sai.",
+        "image": "vnr/6/24.jpg"
+      },
+      {
+        "id": 25,
+        "uid": "vnr202_de6_25",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 25,
+        "question": "Việc tiến hành thảo luận, trao đổi các vấn đề do giảng viên đưa ra để có thể hiểu rõ hơn nội dung của môn học Lịch sử Đảng Cộng sản Việt Nam thì được gọi là:",
+        "options": {
+          "A": "Phương pháp làm việc khách quan",
+          "B": "Phương pháp làm việc chủ quan",
+          "C": "Phương pháp làm việc biện chứng",
+          "D": "Phương pháp làm việc nhóm"
+        },
+        "answer": "D",
+        "explanation": "Thảo luận, trao đổi các chủ đề học tập giữa các sinh viên dưới sự hướng dẫn của giảng viên là phương pháp làm việc nhóm nhằm phát huy tính chủ động, tư duy phân tích của người học.",
+        "image": "vnr/6/25.jpg"
+      },
+      {
+        "id": 26,
+        "uid": "vnr202_de6_26",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 26,
+        "question": "Tác phẩm nào dưới đây của Nguyễn Ái Quốc đã đề cập đến những vấn đề cơ bản của một cương lĩnh chính trị, chuẩn bị về tư tưởng, chính trị cho việc thành lập Đảng?",
+        "options": {
+          "A": "Nhật ký trong tù (1943)",
+          "B": "Bản án chế độ thực dân Pháp (1925)",
+          "C": "Đông Dương (1924)",
+          "D": "Đường Kách mệnh (1927)"
+        },
+        "answer": "D",
+        "explanation": "Tác phẩm 'Đường Kách mệnh' (xuất bản đầu năm 1927) đã trình bày một cách hệ thống những quan điểm cơ bản của chủ nghĩa Mác - Lênin về con đường giải phóng dân tộc, chuẩn bị trực tiếp về tư tưởng và chính trị cho sự ra đời của Đảng Cộng sản Việt Nam.",
+        "image": "vnr/6/26.jpg"
+      },
+      {
+        "id": 27,
+        "uid": "vnr202_de6_27",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 27,
+        "question": "Bản chất của Hiệp ước Hoa – Pháp (28/2/1946) đã chà đạp lên nền độc lập của Việt Nam và hợp pháp hoá hành động xâm lược của:",
+        "options": {
+          "A": "Thực dân Pháp",
+          "B": "Quân đội Trung Quốc",
+          "C": "Đế quốc Mỹ",
+          "D": "Quân đội Nhật Bản"
+        },
+        "answer": "A",
+        "explanation": "Hiệp ước Hoa - Pháp (28/2/1946) là sự thỏa hiệp bẩn thỉu giữa chính phủ Tưởng và thực dân Pháp sau lưng nhân dân ta, đã chà đạp thô bạo lên độc lập chủ quyền của Việt Nam và tạo cớ hợp pháp hóa cho quân đội viễn chinh Pháp kéo ra miền Bắc thay thế quân Tưởng chiếm đóng nước ta.",
+        "image": "vnr/6/27.jpg"
+      },
+      {
+        "id": 28,
+        "uid": "vnr202_de6_28",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 28,
+        "question": "Nghị quyết Bộ Chính trị tháng 9/1954 đã đề ra nhiệm vụ cụ thể, trước mắt cho cách mạng miền Nam là:",
+        "options": {
+          "A": "Bằng mọi cách yêu cầu quân đội Pháp rút hết quân về nước",
+          "B": "Giúp miền Bắc xây dựng chủ nghĩa xã hội nhanh, mạnh, vững chắc",
+          "C": "Đề ra kế hoạch phát triển kinh tế miền Nam theo hướng tư bản chủ nghĩa",
+          "D": "Tập hợp mọi lực lượng đấu tranh nhằm lật đổ chính quyền bù nhìn thân Mỹ, hoàn thành thống nhất Tổ quốc"
+        },
+        "answer": "D",
+        "explanation": "Nghị quyết Bộ Chính trị tháng 9/1954 chỉ rõ nhiệm vụ trước mắt của cách mạng miền Nam: chuyển từ đấu tranh vũ trang sang đấu tranh chính trị, đòi thi hành Hiệp định Giơ-ne-vơ, đòi tự do dân chủ, tập hợp rộng rãi lực lượng dân tộc dân chủ nhằm lật đổ chính quyền bù nhìn thân Mỹ, thực hiện hòa bình thống nhất Tổ quốc.",
+        "image": "vnr/6/28.jpg"
+      },
+      {
+        "id": 29,
+        "uid": "vnr202_de6_29",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 29,
+        "question": "Nha Bình dân học vụ được thành lập vào năm nào?",
+        "options": {
+          "A": "1975",
+          "B": "1965",
+          "C": "1955",
+          "D": "1945"
+        },
+        "answer": "D",
+        "explanation": "Ngày 8/9/1945, Chủ tịch Chính phủ lâm thời Hồ Chí Minh ban hành Sắc lệnh số 17-SL thành lập Nha Bình dân học vụ phụ trách công tác chống nạn mù chữ trong cả nước.",
+        "image": "vnr/6/29.jpg"
+      },
+      {
+        "id": 30,
+        "uid": "vnr202_de6_30",
+        "exam": "vnr202_de6",
+        "exam_code": "VNR202 - Đề 6",
+        "exam_title": "VNR202 — Đề Ôn Tập 6",
+        "q_num": 30,
+        "question": "Khẩu hiệu cách mạng nổi bật trong phong trào 1930–1931 là:",
+        "options": {
+          "A": "Tự do – Hòa bình – Hữu nghị",
+          "B": "Đả đảo đế quốc – Đả đảo phong kiến",
+          "C": "Độc lập dân tộc – Chủ nghĩa xã hội",
+          "D": "Dân sinh – Dân chủ – Dân quyền"
+        },
+        "answer": "B",
+        "explanation": "Trong phong trào cách mạng 1930 - 1931, quần chúng nhân dân đã vùng dậy đấu tranh với hai khẩu hiệu chiến lược xuyên suốt: 'Đả đảo chủ nghĩa đế quốc! Đả đảo phong kiến!' đòi độc lập dân tộc và ruộng đất cho dân cày.",
+        "image": "vnr/6/30.jpg"
+      }
+    ]
+  },
+  "vnr202_de7": {
+    "id": "vnr202_de7",
+    "name": "VNR202 — Đề Ôn Tập 7 (30 Câu Gốc)",
+    "shortName": "Đề 7 (30c)",
+    "badge": "Đề 7",
+    "semester": "VNR202",
+    "total": 30,
+    "questions": [
+      {
+        "id": 1,
+        "uid": "vnr202_de7_1",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 1,
+        "question": "Cuối thế kỷ XIX – đầu thế kỷ XX, nhiệm vụ hàng đầu cần phải được giải quyết cấp thiết của cách mạng Việt Nam là:",
+        "options": {
+          "A": "Đấu tranh giai cấp",
+          "B": "Canh tân đất nước",
+          "C": "Giải phóng dân tộc",
+          "D": "Chia lại ruộng đất"
+        },
+        "answer": "C",
+        "explanation": "Dưới ách thống trị tàn bạo của thực dân Pháp, mâu thuẫn chủ yếu và gay gắt nhất trong xã hội Việt Nam là mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp xâm lược và tay sai phản động. Do đó, nhiệm vụ hàng đầu, cấp thiết số 1 của cách mạng Việt Nam là giải phóng dân tộc, giành độc lập tự do.",
+        "image": "vnr/7/1.jpg"
+      },
+      {
+        "id": 2,
+        "uid": "vnr202_de7_2",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 2,
+        "question": "Tháng 3/1959, chính quyền Ngô Đình Diệm đã:",
+        "options": {
+          "A": "Thông qua luật 10/59, đặt những người cộng sản ra khỏi vòng pháp luật",
+          "B": "Tuyên bố đặt miền Nam trong tình trạng chiến tranh",
+          "C": "Tự giải tán, đưa Ngô Đình Nhu lên cầm quyền",
+          "D": "Mang quân ra xâm lược miền Bắc Việt Nam"
+        },
+        "answer": "B",
+        "explanation": "Tháng 3/1959, chính quyền Ngô Đình Diệm công khai tuyên bố 'đặt miền Nam trong tình trạng chiến tranh'. Sau đó, ngày 6/5/1959, Diệm ký ban hành Luật 10/59 lê máy chém đi khắp miền Nam, đặt những người cộng sản và nhân dân yêu nước ra ngoài vòng pháp luật.",
+        "image": "vnr/7/2.jpg"
+      },
+      {
+        "id": 3,
+        "uid": "vnr202_de7_3",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 3,
+        "question": "Trong Sắc lệnh về nghĩa vụ quân sự được Hồ Chí Minh ký ban hành tháng 11/1949 đã đề cập đến việc ưu tiên phát triển lực lượng ba thứ quân. Ba thứ quân đó gồm:",
+        "options": {
+          "A": "Thanh niên xung phong, bộ đội chủ lực, dân quân du kích",
+          "B": "Bộ đội chủ lực, bộ đội địa phương, thanh niên xung phong",
+          "C": "Thanh niên xung phong, bộ đội địa phương, dân quân du kích",
+          "D": "Bộ đội chủ lực, bộ đội địa phương, dân quân du kích"
+        },
+        "answer": "D",
+        "explanation": "Ba thứ quân của lực lượng vũ trang nhân dân Việt Nam được hoàn thiện tổ chức gồm: Bộ đội chủ lực (các đại đoàn, trung đoàn cơ động chiến lược), Bộ đội địa phương (gắn với địa bàn tỉnh, huyện) và Dân quân du kích / tự vệ (ở cơ sở làng, xã).",
+        "image": "vnr/7/3.jpg"
+      },
+      {
+        "id": 4,
+        "uid": "vnr202_de7_4",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 4,
+        "question": "Việc tiến hành thảo luận, trao đổi các vấn đề do giảng viên đưa ra để có thể hiểu rõ hơn nội dung của môn học Lịch sử Đảng Cộng sản Việt Nam thì được gọi là:",
+        "options": {
+          "A": "Phương pháp làm việc nhóm",
+          "B": "Phương pháp làm việc chủ quan",
+          "C": "Phương pháp làm việc khách quan",
+          "D": "Phương pháp làm việc biện chứng"
+        },
+        "answer": "A",
+        "explanation": "Thảo luận, trao đổi nhóm giữa các sinh viên dưới sự hướng dẫn của giảng viên là phương pháp làm việc nhóm nhằm giúp người học chủ động tiếp cận, phân tích và đào sâu nội dung môn học.",
+        "image": "vnr/7/4.jpg"
+      },
+      {
+        "id": 5,
+        "uid": "vnr202_de7_5",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 5,
+        "question": "Tháng 3/1938, Đảng quyết định thành lập tổ chức nào để tập hợp rộng rãi lực lượng đông đảo nhân dân chống phát-xít và tay sai phản động?",
+        "options": {
+          "A": "Mặt trận Liên Việt",
+          "B": "Mặt trận Nhân dân phản đế Đông Dương",
+          "C": "Mặt trận Dân chủ Đông Dương",
+          "D": "Mặt trận Thống nhất Dân tộc phản đế Đông Dương"
+        },
+        "answer": "C",
+        "explanation": "Hội nghị Ban Chấp hành Trung ương Đảng họp tháng 3/1938 tại Bà Điểm (Hóc Môn, Gia Định) do Tổng Bí thư Hà Huy Tập chủ trì đã quyết định đổi tên Mặt trận Thống nhất Nhân dân Phản đế Đông Dương thành 'Mặt trận Dân chủ Đông Dương' nhằm tập hợp rộng rãi mọi lực lượng tiến bộ chống phát xít và tay sai phản động.",
+        "image": "vnr/7/5.jpg"
+      },
+      {
+        "id": 6,
+        "uid": "vnr202_de7_6",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 6,
+        "question": "Hình thức đấu tranh chủ yếu trong phong trào 1936–1939 là gì?",
+        "options": {
+          "A": "Đấu tranh vũ trang kết hợp bạo động bí mật ở nông thôn",
+          "B": "Đấu tranh quân sự kết hợp khởi nghĩa cục bộ tại các đô thị lớn",
+          "C": "Đấu tranh công khai, hợp pháp và nửa hợp pháp thông qua các hội nghị, kiến nghị",
+          "D": "Vận động công khai trên báo chí và các tổ chức hợp pháp"
+        },
+        "answer": "C",
+        "explanation": "Điểm nổi bật nhất của phong trào dân chủ 1936 - 1939 là Đảng đã triệt để lợi dụng điều kiện thuận lợi để tổ chức đấu tranh công khai, hợp pháp và nửa hợp pháp: phong trào Đông Dương Đại hội thu thập dân nguyện, mít tinh, bãi công, đấu tranh trên báo chí và nghị trường.",
+        "image": "vnr/7/6.jpg"
+      },
+      {
+        "id": 7,
+        "uid": "vnr202_de7_7",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 7,
+        "question": "Chiến dịch nào đã được Đảng phát động từ năm 1951?",
+        "options": {
+          "A": "Chiến dịch Nam Lào",
+          "B": "Chiến dịch Tây Bắc Thu Đông",
+          "C": "Chiến dịch Hoà Bình",
+          "D": "Chiến dịch Thượng Lào"
+        },
+        "answer": "C",
+        "explanation": "Chiến dịch Hòa Bình được Đảng và Bộ Tổng tư lệnh mở từ ngày 10/12/1951 đến ngày 25/2/1952 nhằm đánh bại âm mưu chiếm đóng Hòa Bình của thực dân Pháp (kế hoạch Đờ Lát đơ Tát-xi-nhi), giữ vững hành lang chiến lược nối liền Việt Bắc với Liên khu 3 và Liên khu 4.",
+        "image": "vnr/7/7.jpg"
+      },
+      {
+        "id": 8,
+        "uid": "vnr202_de7_8",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 8,
+        "question": "Sự kiện nào đánh dấu giai cấp công nhân Việt Nam đã bước đầu đi vào đấu tranh tự giác?",
+        "options": {
+          "A": "Bãi công của công nhân thợ nhuộm Sài Gòn – Chợ Lớn (1922)",
+          "B": "Bãi công của công nhân nhà máy sợi Nam Định (1930)",
+          "C": "Tổng bãi công của công nhân Bắc Kỳ (1922)",
+          "D": "Bãi công của thợ máy xưởng Ba Son cảng Sài Gòn (1925)"
+        },
+        "answer": "D",
+        "explanation": "Cuộc bãi công của hơn 1.000 thợ máy xưởng Ba Son (cảng Sài Gòn) vào tháng 8/1925 do đồng chí Tôn Đức Thắng lãnh đạo đánh dấu bước ngoặt quan trọng: phong trào công nhân Việt Nam bước đầu chuyển từ đấu tranh tự phát sang đấu tranh tự giác (bãi công có tổ chức Công hội bí mật, gắn yêu sách kinh tế với tinh thần quốc tế vô sản ủng hộ cách mạng Trung Quốc).",
+        "image": "vnr/7/8.jpg"
+      },
+      {
+        "id": 9,
+        "uid": "vnr202_de7_9",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 9,
+        "question": "Phong trào dân chủ 1936–1939 được Đảng lãnh đạo dưới hình thức mặt trận nào?",
+        "options": {
+          "A": "Mặt trận Dân chủ Đông Dương nhằm tập hợp các lực lượng yêu nước tiến bộ",
+          "B": "Mặt trận Liên Việt do trí thức khởi xướng tại Hà Nội",
+          "C": "Mặt trận Dân tộc thống nhất được tổ chức bởi giai cấp công nhân",
+          "D": "Mặt trận Nhân dân thống nhất chống phát xít ở Đông Dương"
+        },
+        "answer": "A",
+        "explanation": "Phong trào dân chủ 1936 - 1939 do Đảng lãnh đạo dưới danh nghĩa Mặt trận Nhân dân Phản đế Đông Dương (1936) và sau đó đổi thành Mặt trận Dân chủ Đông Dương (3/1938) nhằm tập hợp rộng rãi mọi giai cấp, tầng lớp yêu nước tiến bộ đấu tranh chống phát xít, phản động thuộc địa, đòi tự do, dân chủ, cơm áo, hòa bình.",
+        "image": "vnr/7/9.jpg"
+      },
+      {
+        "id": 10,
+        "uid": "vnr202_de7_10",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 10,
+        "question": "Phong trào nào dưới đây đã được phát triển mạnh và nhận được sự ủng hộ của hàng triệu người dân miền Nam trong giai đoạn đầu của cuộc kháng chiến chống Mỹ?",
+        "options": {
+          "A": "Dồn dân, lập ấp",
+          "B": "Di dân ra miền Bắc Việt Nam",
+          "C": "Đưa cộng sản ra ngoài vòng pháp luật",
+          "D": "Đấu tranh đòi hiệp thương tổng tuyển cử"
+        },
+        "answer": "D",
+        "explanation": "Trong giai đoạn đầu (1954 - 1959), nhân dân miền Nam đã dấy lên phong trào đấu tranh chính trị rộng khắp và bền bỉ đòi chính quyền Ngô Đình Diệm phải thi hành nghiêm chỉnh Hiệp định Giơ-ne-vơ, bảo vệ hòa bình, thực hiện các quyền tự do dân chủ và đặc biệt là đấu tranh đòi hiệp thương tổng tuyển cử để hòa bình thống nhất Tổ quốc.",
+        "image": "vnr/7/10.jpg"
+      },
+      {
+        "id": 11,
+        "uid": "vnr202_de7_11",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 11,
+        "question": "Sau Cách mạng Tháng Tám năm 1945, Nhà nước Việt Nam Dân chủ Cộng hoà đã gặp khó khăn gì trong lĩnh vực đối ngoại?",
+        "options": {
+          "A": "Các nước tư bản bao vây, cấm vận nước ta",
+          "B": "Các nước trong khối ASEAN cắt viện trợ về vũ khí và lương thực cho nước ta",
+          "C": "Chưa có quốc gia nào ủng hộ lập trường độc lập và công nhận địa vị pháp lý về mặt nhà nước của Việt Nam",
+          "D": "Mối quan hệ giữa nước ta với các nước xã hội chủ nghĩa ở Đông Âu trở nên xấu đi"
+        },
+        "answer": "C",
+        "explanation": "Sau ngày 2/9/1945, nước Việt Nam Dân chủ Cộng hòa ở vào thế bị cô lập hoàn toàn trên trường quốc tế: chưa có bất kỳ một quốc gia nào trên thế giới công nhận nền độc lập và địa vị pháp lý của Nhà nước ta.",
+        "image": "vnr/7/11.jpg"
+      },
+      {
+        "id": 12,
+        "uid": "vnr202_de7_12",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 12,
+        "question": "Trận Điện Biên Phủ (7/1954) thắng lợi đã mang lại ý nghĩa rất lớn không chỉ đối với cách mạng Việt Nam, mà còn cả đối với cách mạng thế giới vì:",
+        "options": {
+          "A": "Làm sụp đổ hệ thống phát-xít ở các nước châu Âu",
+          "B": "Giúp các quốc gia tư bản ở Châu Á – Âu – Mỹ Latinh tự giải phóng cho mình",
+          "C": "Báo hiệu sự thắng lợi của nhân dân các dân tộc bị áp bức, sự sụp đổ của chủ nghĩa thực dân",
+          "D": "Báo hiệu sự sụp đổ không thể tránh khỏi của chủ nghĩa tư bản"
+        },
+        "answer": "C",
+        "explanation": "Chiến thắng Điện Biên Phủ 'được ghi vào lịch sử dân tộc như một Bạch Đằng, một Chi Lăng hay một Đống Đa trong thế kỷ XX, và đi vào lịch sử thế giới như một chiến công chói lọi đột phá thành trì của hệ thống nô dịch thuộc địa của chủ nghĩa đế quốc', báo hiệu sự thắng lợi của nhân dân các dân tộc bị áp bức và sự sụp đổ của chủ nghĩa thực dân cũ trên phạm vi toàn cầu.",
+        "image": "vnr/7/12.jpg"
+      },
+      {
+        "id": 13,
+        "uid": "vnr202_de7_13",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 13,
+        "question": "Chiến thuật quân sự “trực thăng vận” và “thiết xa vận” được Mỹ áp dụng trong chiến lược chiến tranh nào ở miền Nam Việt Nam?",
+        "options": {
+          "A": "Việt Nam hoá chiến tranh",
+          "B": "Chiến tranh cục bộ",
+          "C": "Chiến tranh đơn phương",
+          "D": "Chiến tranh đặc biệt"
+        },
+        "answer": "D",
+        "explanation": "Trong chiến lược 'Chiến tranh đặc biệt' (1961 - 1965), đế quốc Mỹ đã trang bị tối tân cho quân đội ngụy Sài Gòn và áp dụng các chiến thuật tác chiến mới mang tính cơ động cao bằng phương tiện chiến tranh hiện đại của Mỹ là 'trực thăng vận' và 'thiết xa vận'.",
+        "image": "vnr/7/13.jpg"
+      },
+      {
+        "id": 14,
+        "uid": "vnr202_de7_14",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 14,
+        "question": "Sự ra đời của ba tổ chức cộng sản diễn ra trong vòng nửa cuối năm 1929 đã khẳng định điều gì?",
+        "options": {
+          "A": "Cách mạng Việt Nam đã đủ mạnh để đương đầu với thực dân Pháp",
+          "B": "Cách mạng Việt Nam đã vượt qua khủng hoảng về đường lối lãnh đạo",
+          "C": "Cách mạng Việt Nam đã có bước phát triển về chất, phù hợp với yêu cầu của lịch sử",
+          "D": "Cách mạng Việt Nam đã trở thành một bộ phận của cách mạng thế giới"
+        },
+        "answer": "C",
+        "explanation": "Sự xuất hiện nối tiếp của 3 tổ chức cộng sản năm 1929 (Đông Dương Cộng sản Đảng, An Nam Cộng sản Đảng, Đông Dương Cộng sản Liên đoàn) là kết quả tất yếu của sự kết hợp giữa chủ nghĩa Mác - Lênin với phong trào công nhân và phong trào yêu nước, khẳng định bước phát triển nhảy vọt về chất của cách mạng Việt Nam, đặt ra yêu cầu cấp thiết phải hợp nhất thành một Đảng Cộng sản duy nhất.",
+        "image": "vnr/7/14.jpg"
+      },
+      {
+        "id": 15,
+        "uid": "vnr202_de7_15",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 15,
+        "question": "Hội nghị Trung ương lần thứ 6 (11/1939) đã xác định nhiệm vụ trước mắt của cách mạng Việt Nam là gì?",
+        "options": {
+          "A": "Tổ chức khởi nghĩa vũ trang giành chính quyền trên toàn quốc",
+          "B": "Đánh đổ phong kiến tay sai và tư sản phản động",
+          "C": "Đấu tranh hợp pháp đòi dân sinh, dân chủ",
+          "D": "Giải phóng dân tộc là nhiệm vụ hàng đầu"
+        },
+        "answer": "D",
+        "explanation": "Hội nghị Ban Chấp hành Trung ương Đảng lần thứ VI (11/1939) họp tại Bà Điểm (Gia Định) do Tổng Bí thư Nguyễn Văn Cừ chủ trì đã khẳng định chuyển hướng chỉ đạo chiến lược: đặt nhiệm vụ giải phóng dân tộc lên hàng đầu, tạm gác khẩu hiệu cách mạng ruộng đất nhằm tập trung mũi nhọn chống đế quốc phát xít và bè lũ tay sai.",
+        "image": "vnr/7/15.jpg"
+      },
+      {
+        "id": 16,
+        "uid": "vnr202_de7_16",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 16,
+        "question": "Một trong những biện pháp củng cố lực lượng vũ trang cách mạng được Chính phủ lâm thời đề ra sau ngày bầu cử Quốc hội là:",
+        "options": {
+          "A": "Sát nhập quân đội Việt Nam vào quân đội Hoàng gia Anh",
+          "B": "Giải tán các đội dân quân tự vệ địa phương",
+          "C": "Tích cực mua sắm vũ khí, lương thực",
+          "D": "Thực hiện các cuộc diễn tập hải quân trên quy mô lớn với các nước xã hội chủ nghĩa"
+        },
+        "answer": "C",
+        "explanation": "Sau Tổng tuyển cử đầu năm 1946, Chính phủ lâm thời đã tích cực vận động nhân dân đóng góp cho Quỹ quốc phòng, đẩy mạnh việc sản xuất và mua sắm thêm vũ khí, đạn dược, tích trữ lương thực để xây dựng và củng cố lực lượng vũ trang cách mạng.",
+        "image": "vnr/7/16.jpg"
+      },
+      {
+        "id": 17,
+        "uid": "vnr202_de7_17",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 17,
+        "question": "Tác phẩm nào của Nguyễn Ái Quốc đã vạch rõ âm mưu và thủ đoạn của chủ nghĩa đế quốc che giấu tội ác dưới cái vỏ bọc “khai hoá văn minh”?",
+        "options": {
+          "A": "Đường Kách mệnh",
+          "B": "Con rồng tre",
+          "C": "Nhật ký trong tù",
+          "D": "Bản án chế độ thực dân Pháp"
+        },
+        "answer": "D",
+        "explanation": "Tác phẩm 'Bản án chế độ thực dân Pháp' (xuất bản năm 1925 tại Paris) của Nguyễn Ái Quốc đã tố cáo và vạch trần tội ác tàn bạo, dã man của thực dân Pháp tại các thuộc địa ẩn sau chiêu bài mị dân 'khai hóa văn minh'.",
+        "image": "vnr/7/17.jpg"
+      },
+      {
+        "id": 18,
+        "uid": "vnr202_de7_18",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 18,
+        "question": "Cách mạng Tháng Tám là kết quả của quá trình đấu tranh nào?",
+        "options": {
+          "A": "Một cuộc vận động hòa bình do trí thức lãnh đạo",
+          "B": "Một quá trình nổi dậy liên tục từ đầu thế kỷ XX đến 1945",
+          "C": "Một cuộc khởi nghĩa ngắn hạn, tự phát của quần chúng",
+          "D": "Một phong trào cải cách hành chính do thực dân Pháp khởi xướng"
+        },
+        "answer": "B",
+        "explanation": "Cách mạng Tháng Tám 1945 là kết tinh của cả một quá trình đấu tranh anh dũng, quật khởi và nổi dậy liên tục của nhân dân Việt Nam từ đầu thế kỷ XX đến 1945, đặc biệt là 15 năm chuẩn bị công phu dưới sự lãnh đạo sáng suốt của Đảng Cộng sản Việt Nam qua ba cuộc tập dượt cách mạng vĩ đại.",
+        "image": "vnr/7/18.jpg"
+      },
+      {
+        "id": 19,
+        "uid": "vnr202_de7_19",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 19,
+        "question": "Điểm mới của phong trào công nhân Việt Nam cuối những năm 1920 là gì?",
+        "options": {
+          "A": "Kết hợp với phong trào yêu nước tư sản",
+          "B": "Gắn với chủ nghĩa Mác – Lênin và mang tính chính trị rõ rệt",
+          "C": "Có tổ chức bí mật rộng khắp",
+          "D": "Gắn bó với phong trào nông dân"
+        },
+        "answer": "B",
+        "explanation": "Vào cuối những năm 1920 (nhất là sau phong trào 'vô sản hóa' năm 1928), phong trào công nhân nước ta đã có sự chuyển biến về chất: phong trào gắn liền với việc tiếp thu chủ nghĩa Mác - Lênin, chuyển từ đấu tranh tự phát sang tự giác, mang tính chính trị rõ rệt và trở thành ngọn cờ lãnh đạo cách mạng Việt Nam.",
+        "image": "vnr/7/19.jpg"
+      },
+      {
+        "id": 20,
+        "uid": "vnr202_de7_20",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 20,
+        "question": "Trong phương pháp nghiên cứu, học tập môn học Lịch sử Đảng Cộng sản Việt Nam cần phải dựa trên phương pháp luận khoa học mác-xít, đồng thời phải nắm vững chủ nghĩa nào dưới đây để xem xét và nhận thức lịch sử một cách khách quan, trung thực và đúng quy luật?",
+        "options": {
+          "A": "Chủ nghĩa duy lý và chủ nghĩa duy vật lịch sử",
+          "B": "Chủ nghĩa duy lý và chủ nghĩa duy vật biện chứng",
+          "C": "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử",
+          "D": "Chủ nghĩa duy vật và chủ nghĩa duy tâm"
+        },
+        "answer": "C",
+        "explanation": "Phương pháp luận nghiên cứu môn Lịch sử Đảng Cộng sản Việt Nam đòi hỏi phải dựa trên nền tảng của chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh, cụ thể là phải nắm vững chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử để nhận thức lịch sử một cách khách quan, khoa học và đúng quy luật.",
+        "image": "vnr/7/20.jpg"
+      },
+      {
+        "id": 21,
+        "uid": "vnr202_de7_21",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 21,
+        "question": "Một trong những nhiệm vụ hàng đầu khi nghiên cứu khoa học Lịch sử Đảng Cộng sản Việt Nam là:",
+        "options": {
+          "A": "Làm cho người học hiểu được quyền lực của Đảng, từ đó thêm trung thành với đường lối lãnh đạo của Đảng",
+          "B": "Tìm hiểu về lịch sử ra đời của đảng cộng sản trên thế giới",
+          "C": "Chọn lọc ra những sự kiện lịch sử nổi bật để tái hiện lại sự thành công trong quá trình lãnh đạo của Đảng",
+          "D": "Khẳng định, chứng minh giá trị khoa học của những mục tiêu chiến lược và sách lược cách mạng mà Đảng đề ra trong cương lĩnh"
+        },
+        "answer": "D",
+        "explanation": "Nhiệm vụ hàng đầu của khoa học Lịch sử Đảng là làm sáng tỏ, khẳng định và chứng minh giá trị khoa học và giá trị thực tiễn của các mục tiêu chiến lược, sách lược cách mạng mà Đảng đã đề ra trong cương lĩnh qua từng giai đoạn lịch sử.",
+        "image": "vnr/7/21.jpg"
+      },
+      {
+        "id": 22,
+        "uid": "vnr202_de7_22",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 22,
+        "question": "Khẩu hiệu “Không thành công thì cũng thành nhân” được sử dụng trong cuộc khởi nghĩa nào dưới đây?",
+        "options": {
+          "A": "Ba Đình",
+          "B": "Hương Khê",
+          "C": "Bãi Sậy",
+          "D": "Yên Bái"
+        },
+        "answer": "D",
+        "explanation": "Khẩu hiệu bi tráng 'Không thành công thì cũng thành nhân' là tuyên ngôn của Nguyễn Thái Học và các yếu nhân của Việt Nam Quốc dân Đảng trong cuộc Khởi nghĩa Yên Bái bùng nổ vào đêm 9/2/1930.",
+        "image": "vnr/7/22.jpg"
+      },
+      {
+        "id": 23,
+        "uid": "vnr202_de7_23",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 23,
+        "question": "Ý nghĩa tích cực của Luận cương chính trị là:",
+        "options": {
+          "A": "Đề cao vị trí của giai cấp tư sản dân tộc",
+          "B": "Phản ánh tư tưởng dân tộc chủ nghĩa sâu sắc",
+          "C": "Xác lập tư tưởng cải cách ôn hòa",
+          "D": "Khẳng định rõ ràng vai trò của công – nông trong cách mạng"
+        },
+        "answer": "D",
+        "explanation": "Mặc dù còn có những hạn chế nhất định, song Luận cương chính trị tháng 10/1930 do Tổng Bí thư Trần Phú khởi thảo có ý nghĩa tích cực rất lớn: khẳng định tính chất cách mạng vô sản ở Đông Dương, khẳng định vai trò lãnh đạo tuyệt đối của giai cấp công nhân và xác định liên minh công - nông là động lực chính của cách mạng.",
+        "image": "vnr/7/23.jpg"
+      },
+      {
+        "id": 24,
+        "uid": "vnr202_de7_24",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 24,
+        "question": "So với Cương lĩnh đầu tiên, Luận cương chính trị có điểm nào sau đây?",
+        "options": {
+          "A": "Thiên về đấu tranh giai cấp và coi nhẹ dân tộc",
+          "B": "Tập trung xây dựng mặt trận đoàn kết toàn dân",
+          "C": "Nhấn mạnh tính dân tộc hơn giai cấp",
+          "D": "Xác định rõ chiến lược cách mạng lâu dài"
+        },
+        "answer": "A",
+        "explanation": "Hạn chế lớn của Luận cương chính trị tháng 10/1930 so với Cương lĩnh đầu tiên (2/1930) là: nặng về đấu tranh giai cấp và cách mạng ruộng đất, coi nhẹ nhiệm vụ giải phóng dân tộc; chưa đánh giá đúng khả năng cách mạng của tầng lớp tiểu tư sản, tư sản dân tộc và trung tiểu địa chủ yêu nước.",
+        "image": "vnr/7/24.jpg"
+      },
+      {
+        "id": 25,
+        "uid": "vnr202_de7_25",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 25,
+        "question": "Động lực của cách mạng Việt Nam được xác định trong Đại hội đại biểu toàn quốc lần thứ II của Đảng (2/1951) gồm các giai cấp và tầng lớp nào?",
+        "options": {
+          "A": "Công nhân, nông dân, tiểu tư sản và tư sản dân tộc",
+          "B": "Phong kiến, nông dân, công nhân và tư sản dân tộc",
+          "C": "Công nhân, nông dân, tiểu tư sản và tư sản mại bản",
+          "D": "Phong kiến, nông dân, tư sản dân tộc và tư sản mại bản"
+        },
+        "answer": "A",
+        "explanation": "Chính cương Đảng Lao động Việt Nam (thông qua tại Đại hội II tháng 2/1951) xác định: Động lực của cách mạng Việt Nam gồm có giai cấp công nhân, giai cấp nông dân, giai cấp tiểu tư sản và giai cấp tư sản dân tộc; trong đó nền tảng là công nhân, nông dân và trí thức.",
+        "image": "vnr/7/25.jpg"
+      },
+      {
+        "id": 26,
+        "uid": "vnr202_de7_26",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 26,
+        "question": "Hình thức đấu tranh mới xuất hiện trong phong trào dân chủ 1936 – 1939 ở Việt Nam là:",
+        "options": {
+          "A": "Đấu tranh chính trị",
+          "B": "Mít-tinh biểu tình",
+          "C": "Đấu tranh nghị trường",
+          "D": "Bãi khoá, bãi công"
+        },
+        "answer": "C",
+        "explanation": "Trong phong trào 1936 - 1939, lần đầu tiên Đảng lãnh đạo quần chúng sử dụng hình thức 'đấu tranh nghị trường' (tham gia tranh cử vào các Viện Dân biểu Bắc Kỳ, Trung Kỳ, Hội đồng Quản hạt Nam Kỳ) để mở rộng tuyên truyền cương lĩnh của Đảng và bảo vệ quyền lợi của nhân dân lao động.",
+        "image": "vnr/7/26.jpg"
+      },
+      {
+        "id": 27,
+        "uid": "vnr202_de7_27",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 27,
+        "question": "Bản Hiệp định Sơ bộ được ký ngày 6/3/1946 có ý nghĩa to lớn với cách mạng Việt Nam bởi vì sẽ giúp chúng ta có thêm thời gian:",
+        "options": {
+          "A": "Xây dựng chủ nghĩa xã hội",
+          "B": "Tổ chức bầu cử",
+          "C": "Khai hoang các vùng đất phía Nam",
+          "D": "Chuẩn bị lực lượng mọi mặt cho cuộc kháng chiến với Pháp"
+        },
+        "answer": "D",
+        "explanation": "Hiệp định Sơ bộ 6/3/1946 giúp ta đẩy được 20 vạn quân Tưởng về nước, tránh đối đầu quân sự cùng lúc với nhiều kẻ thù và tranh thủ thời gian hòa hoãn quý báu để chuẩn bị lực lượng toàn diện cho cuộc kháng chiến trường kỳ chống thực dân Pháp.",
+        "image": "vnr/7/27.jpg"
+      },
+      {
+        "id": 28,
+        "uid": "vnr202_de7_28",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 28,
+        "question": "Nguyên nhân nào dưới đây được xem là nguyên nhân gây ra một số sai lầm trong cải cách ruộng đất ở miền Bắc?",
+        "options": {
+          "A": "Do có sự chống đối quyết liệt từ người dân, đặc biệt là nông dân",
+          "B": "Do không có sự chuẩn bị kĩ lưỡng trước khi tiến hành cải cách",
+          "C": "Do chủ quan, giáo điều, không xuất phát từ tình hình thực tiễn ở nông thôn miền Bắc sau ngày giải phóng",
+          "D": "Do miền Bắc còn nhiều ruộng đất bỏ hoang, vô chủ"
+        },
+        "answer": "C",
+        "explanation": "Sai lầm trong cải cách ruộng đất (1953 - 1956) bắt nguồn từ tư tưởng chủ quan, giáo điều, dập khuôn máy móc kinh nghiệm nước ngoài, không xuất phát từ đặc điểm cơ cấu giai cấp và tình hình cụ thể ở nông thôn miền Bắc sau ngày giải phóng.",
+        "image": "vnr/7/28.jpg"
+      },
+      {
+        "id": 29,
+        "uid": "vnr202_de7_29",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 29,
+        "question": "Đâu là mặt hạn chế của cuộc cải cách ruộng đất (1957) do Đảng phát động?",
+        "options": {
+          "A": "Gây cản trở trong việc nâng cao năng suất cây trồng, vật nuôi",
+          "B": "Không chia lại ruộng đất cho các gia đình bần, cố nông",
+          "C": "Chia ruộng đất chưa đồng đều cho người nông dân",
+          "D": "Độc đoán, quan liêu, gây ra oan sai không đáng có"
+        },
+        "answer": "D",
+        "explanation": "Trong cải cách ruộng đất, do phương pháp tiến hành độc đoán, quan liêu, mở rộng quá mức diện đấu tố và quy sai thành phần giai cấp nên đã gây ra những oan sai đau lòng không đáng có đối với một số cán bộ, đảng viên và người dân.",
+        "image": "vnr/7/29.jpg"
+      },
+      {
+        "id": 30,
+        "uid": "vnr202_de7_30",
+        "exam": "vnr202_de7",
+        "exam_code": "VNR202 - Đề 7",
+        "exam_title": "VNR202 — Đề Ôn Tập 7",
+        "q_num": 30,
+        "question": "Đặc điểm nổi bật nhất của phong trào 1936–1939 so với 1930–1931 là gì?",
+        "options": {
+          "A": "Có sự liên kết với phong trào yêu nước vũ trang ở miền Nam Trung Quốc",
+          "B": "Hướng đến thành lập chính quyền cách mạng lâm thời trên phạm vi cả nước",
+          "C": "Đấu tranh kết hợp bí mật và vũ trang với quy mô mở rộng ra vùng nông thôn",
+          "D": "Đấu tranh công khai về dân sinh, dân chủ trong khuôn khổ pháp luật thực dân"
+        },
+        "answer": "D",
+        "explanation": "Đặc điểm nổi bật nhất của phong trào 1936 - 1939 là hình thức đấu tranh công khai, nửa công khai, hợp pháp và nửa hợp pháp về dân sinh, dân chủ, cơm áo, hòa bình trong khuôn khổ pháp luật thực dân, khác với phong trào 1930 - 1931 mang tính chất bạo lực vũ trang lật đổ chính quyền địch.",
+        "image": "vnr/7/30.jpg"
+      }
+    ]
+  },
+  "vnr202_de8": {
+    "id": "vnr202_de8",
+    "name": "VNR202 — Đề Ôn Tập 8 (20 Câu Gốc)",
+    "shortName": "Đề 8 (20c)",
+    "badge": "Đề 8",
+    "semester": "VNR202",
+    "total": 20,
+    "questions": [
+      {
+        "id": 1,
+        "uid": "vnr202_de8_1",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 1,
+        "question": "Từ nửa sau thế kỷ XIX, chủ nghĩa tư bản chuyển biến như thế nào?",
+        "options": {
+          "A": "Từ giai đoạn chiếm hữu tập thể sang chiếm hữu tư nhân",
+          "B": "Từ giai đoạn tự do cạnh tranh sang giai đoạn chiếm hữu",
+          "C": "Từ giai đoạn tự do cạnh tranh sang giai đoạn độc quyền",
+          "D": "Từ giai đoạn chiếm hữu tư nhân sang giai đoạn công hữu"
+        },
+        "answer": "C",
+        "explanation": "Từ nửa sau thế kỷ XIX, chủ nghĩa tư bản trên thế giới đã chuyển biến mạnh mẽ từ giai đoạn tự do cạnh tranh sang giai đoạn độc quyền (chủ nghĩa đế quốc), tăng cường xâm chiếm và phân chia thuộc địa trên toàn cầu.",
+        "image": "vnr/8/1.jpg"
+      },
+      {
+        "id": 2,
+        "uid": "vnr202_de8_2",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 2,
+        "question": "Năm 1862, để giam cầm người Việt Nam yêu nước chống Pháp, thực dân Pháp đã xây dựng nhà tù nào?",
+        "options": {
+          "A": "Nhà tù Hỏa Lò",
+          "B": "Nhà tù Côn Đảo",
+          "C": "Nhà tù Phú Quốc",
+          "D": "Nhà tù Lao Bảo"
+        },
+        "answer": "B",
+        "explanation": "Ngày 1/2/1862, Thống đốc Nam Kỳ người Pháp là Bonard đã ký quyết định thành lập nhà tù Côn Đảo với hệ thống hầm ngục tàn bạo nhằm giam cầm, tra tấn và đày ải những chiến sĩ yêu nước và cách mạng Việt Nam.",
+        "image": "vnr/8/2.jpg"
+      },
+      {
+        "id": 3,
+        "uid": "vnr202_de8_3",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 3,
+        "question": "Trong cao trào kháng Nhật cứu nước 1945, ở các tỉnh Bắc Bộ và Bắc Trung Bộ đã nêu cao khẩu hiệu nào?",
+        "options": {
+          "A": "Thành lập chính quyền cách mạng",
+          "B": "Tăng lương, giảm giờ làm",
+          "C": "Phá kho thóc, giải quyết nạn đói",
+          "D": "Dân cày có ruộng"
+        },
+        "answer": "C",
+        "explanation": "Trước thảm họa nạn đói nghiêm trọng đầu năm 1945 cướp đi sinh mạng hơn 2 triệu đồng bào, Đảng ta đã kịp thời đề ra khẩu hiệu 'Phá kho thóc Nhật để giải quyết nạn đói'. Phong trào này đã đáp ứng nguyện vọng sinh tử, cấp bách nhất của quần chúng nhân dân, thổi bùng lên ngọn lửa tổng khởi nghĩa.",
+        "image": "vnr/8/3.jpg"
+      },
+      {
+        "id": 4,
+        "uid": "vnr202_de8_4",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 4,
+        "question": "Đâu không phải là bài học kinh nghiệm của Cách mạng Tháng Tám?",
+        "options": {
+          "A": "Về xây dựng Đảng phải xây dựng một Đảng cách mạng tiên phong của giai cấp công nhân, nhân dân lao động và toàn dân tộc Việt Nam, tuyệt đối trung thành với lợi ích giai cấp và dân tộc",
+          "B": "Về phương pháp cách mạng kết hợp đấu tranh chính trị với đấu tranh vũ trang, tiến hành chiến tranh du kích cục bộ và khởi nghĩa từng phần",
+          "C": "Về chỉ đạo chiến lược trong cách mạng thuộc địa, phải đặt nhiệm vụ giải phóng dân tộc lên hàng đầu, còn nhiệm vụ cách mạng ruộng đất cần tạm thời gác lại",
+          "D": "Về xây dựng lực lượng cách mạng trên cơ sở liên minh công – nông, chỉ cần khơi dậy tinh thần công – nông"
+        },
+        "answer": "D",
+        "explanation": "Về xây dựng lực lượng, Cách mạng Tháng Tám rút ra bài học: phải xây dựng khối liên minh công nông vững chắc làm nền tảng, đồng thời phải đoàn kết, tập hợp rộng rãi toàn thể các tầng lớp, giai cấp yêu nước trong Mặt trận Việt Minh. Quan điểm 'chỉ cần khơi dậy tinh thần công - nông' là phiến diện, không đầy đủ.",
+        "image": "vnr/8/4.jpg"
+      },
+      {
+        "id": 5,
+        "uid": "vnr202_de8_5",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 5,
+        "question": "Quyết tâm thúc đẩy quá trình Mỹ thay thế Pháp ở Việt Nam và Đông Dương tại Hội nghị Giơnevơ là của tổng thống Mỹ nào?",
+        "options": {
+          "A": "Warren G. Harding",
+          "B": "Dwight D. Eisenhower",
+          "C": "John F. Kennedy",
+          "D": "Harry S. Truman"
+        },
+        "answer": "B",
+        "explanation": "Tổng thống Mỹ Dwight D. Eisenhower (nhiệm kỳ 1953 - 1961) với 'học thuyết quân cờ Domino' đã chỉ đạo phái đoàn Mỹ không ký Tuyên bố cuối cùng của Hội nghị Giơnevơ 1954 và quyết tâm can thiệp trực tiếp, hất cẳng Pháp để dựng lên chính quyền tay sai Ngô Đình Diệm ở miền Nam Việt Nam.",
+        "image": "vnr/8/5.jpg"
+      },
+      {
+        "id": 6,
+        "uid": "vnr202_de8_6",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 6,
+        "question": "Năm 1950, Việt Nam Dân chủ Cộng hòa chưa thiết lập quan hệ ngoại giao với nước nào sau đây?",
+        "options": {
+          "A": "Liên Xô",
+          "B": "Trung Quốc",
+          "C": "Cuba",
+          "D": "Triều Tiên"
+        },
+        "answer": "C",
+        "explanation": "Đầu năm 1950, Việt Nam Dân chủ Cộng hòa đã thiết lập quan hệ ngoại giao với Trung Quốc (18/1/1950), Liên Xô (30/1/1950) và CHDCND Triều Tiên (31/1/1950). Riêng Cộng hòa Cuba thiết lập quan hệ ngoại giao với Việt Nam vào ngày 2/12/1960 (sau khi Cách mạng Cuba thành công 1959).",
+        "image": "vnr/8/6.jpg"
+      },
+      {
+        "id": 7,
+        "uid": "vnr202_de8_7",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 7,
+        "question": "Ngày 16/8/1945, Đại hội quốc dân họp ở đâu?",
+        "options": {
+          "A": "Tân Trào",
+          "B": "Hà Quảng",
+          "C": "Định Hoá",
+          "D": "Cao Lộc"
+        },
+        "answer": "A",
+        "explanation": "Chiều ngày 16/8/1945, Đại hội đại biểu Quốc dân (Đại hội Quốc dân Tân Trào) đã khai mạc trọng thể tại đình Tân Trào (huyện Sơn Dương, tỉnh Tuyên Quang). Đại hội tán thành chủ trương Tổng khởi nghĩa của Đảng và bầu ra Ủy ban Dân tộc giải phóng Việt Nam do Hồ Chí Minh làm Chủ tịch.",
+        "image": "vnr/8/7.jpg"
+      },
+      {
+        "id": 8,
+        "uid": "vnr202_de8_8",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 8,
+        "question": "Đâu không phải là nhiệm vụ trước mắt mà Đại hội đại biểu lần thứ nhất của Đảng đề ra?",
+        "options": {
+          "A": "Củng cố và phát triển Đảng",
+          "B": "Đẩy mạnh cuộc vận động tập hợp quần chúng",
+          "C": "Mở rộng tuyên truyền chống đế quốc, chống chiến tranh...",
+          "D": "Xây dựng chính quyền cách mạng"
+        },
+        "answer": "D",
+        "explanation": "Đại hội đại biểu lần thứ I của Đảng (3/1935 tại Ma Cao, Trung Quốc) xác định 3 nhiệm vụ trước mắt nhằm khôi phục hệ thống tổ chức Đảng và phong trào cách mạng: 1. Củng cố và phát triển Đảng; 2. Đẩy mạnh vận động tập hợp quần chúng; 3. Mở rộng tuyên truyền chống đế quốc, chống chiến tranh. Giai đoạn này Đảng chưa trực tiếp đặt ra nhiệm vụ xây dựng chính quyền cách mạng.",
+        "image": "vnr/8/8.jpg"
+      },
+      {
+        "id": 9,
+        "uid": "vnr202_de8_9",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 9,
+        "question": "Ai là Trưởng đoàn đàm phán của Chính phủ Cách mạng Lâm thời Cộng hòa Miền Nam Việt Nam tại Hội nghị Pari về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam?",
+        "options": {
+          "A": "Nguyễn Hữu Thọ",
+          "B": "Nguyễn Thị Bình",
+          "C": "Nguyễn Thị Định",
+          "D": "Nguyễn Thị Thập"
+        },
+        "answer": "B",
+        "explanation": "Tại Hội nghị Paris (1969 - 1973), đồng chí Nguyễn Thị Bình giữ cương vị Bộ trưởng Bộ Ngoại giao và là Trưởng đoàn đàm phán của Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam. Bà là một trong 4 vị trưởng đoàn đã đặt bút ký Hiệp định Paris ngày 27/1/1973.",
+        "image": "vnr/8/9.jpg"
+      },
+      {
+        "id": 10,
+        "uid": "vnr202_de8_10",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 10,
+        "question": "Việc thống nhất các tổ chức cộng sản thành một chính đảng duy nhất được hoàn thành vào thời gian nào?",
+        "options": {
+          "A": "Ngày 6/1/1930",
+          "B": "Ngày 1/5/1930",
+          "C": "Ngày 3/2/1930",
+          "D": "Ngày 24/2/1930"
+        },
+        "answer": "D",
+        "explanation": "Hội nghị hợp nhất đầu năm 1930 mới chỉ hợp nhất Đông Dương Cộng sản Đảng và An Nam Cộng sản Đảng. Đến ngày 24/2/1930, theo yêu cầu của Đông Dương Cộng sản Liên đoàn, Ban Chấp hành Trung ương lâm thời đã họp và công nhận Đông Dương Cộng sản Liên đoàn chính thức gia nhập Đảng Cộng sản Việt Nam, hoàn tất trọn vẹn việc thống nhất 3 tổ chức cộng sản thành một chính đảng duy nhất.",
+        "image": "vnr/8/10.jpg"
+      },
+      {
+        "id": 11,
+        "uid": "vnr202_de8_11",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 11,
+        "question": "Năm 1919, trên chiến hạm của Pháp ở Hắc Hải, ai là người tham gia đấu tranh chống can thiệp vào nước Nga XôViết?",
+        "options": {
+          "A": "Tôn Đức Thắng",
+          "B": "Hồ Chí Minh",
+          "C": "V.I. Lênin",
+          "D": "Trần Đại Nghĩa"
+        },
+        "answer": "A",
+        "explanation": "Năm 1919, người thợ máy Việt Nam Tôn Đức Thắng tham gia phục vụ trên chiến hạm France của hải quân Pháp tại Biển Đen (Hắc Hải) đã dũng cảm kéo lá cờ đỏ ủng hộ Nhà nước Xô viết non trẻ, phản đối cuộc can thiệp vũ trang của các nước đế quốc chống lại Cách mạng Tháng Mười Nga.",
+        "image": "vnr/8/11.jpg"
+      },
+      {
+        "id": 12,
+        "uid": "vnr202_de8_12",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 12,
+        "question": "Ngày 23/12/1929, Nguyễn Ái Quốc đến Hồng Kông để tiến hành hội nghị hợp nhất các tổ chức cộng sản thành một chính đảng duy nhất của Việt Nam với tư cách là gì?",
+        "options": {
+          "A": "Tư cách là người đại diện chính trị của Quốc tế Cộng sản",
+          "B": "Tư cách là phái viên của Quốc tế Cộng sản",
+          "C": "Tư cách là người đại diện hợp pháp của Quốc tế Xã hội Chủ nghĩa",
+          "D": "Tư cách là người lãnh đạo cách mạng Việt Nam"
+        },
+        "answer": "B",
+        "explanation": "Nguyễn Ái Quốc tới Hương Cảng (Hồng Kông) chủ trì Hội nghị thành lập Đảng đầu năm 1930 với tư cách là phái viên của Quốc tế Cộng sản (Comintern), có đầy đủ thẩm quyền quyết định việc hợp nhất các tổ chức cộng sản ở Đông Dương thành một chính đảng duy nhất.",
+        "image": "vnr/8/12.jpg"
+      },
+      {
+        "id": 13,
+        "uid": "vnr202_de8_13",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 13,
+        "question": "“Trung Nam Bắc đều là bờ cõi của ta, nước ta nhất định sẽ thống nhất, đồng bào cả nước nhất định được giải phóng”. Câu nói trên là của ai?",
+        "options": {
+          "A": "Võ Nguyên Giáp",
+          "B": "Trường Chinh",
+          "C": "Hồ Chí Minh",
+          "D": "Lê Duẩn"
+        },
+        "answer": "C",
+        "explanation": "Đây là câu nói nổi tiếng thể hiện ý chí gang thép và niềm tin tất thắng vào sự nghiệp độc lập, thống nhất non sông của Chủ tịch Hồ Chí Minh trong Thư gửi đồng bào cả nước năm 1946.",
+        "image": "vnr/8/13.jpg"
+      },
+      {
+        "id": 14,
+        "uid": "vnr202_de8_14",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 14,
+        "question": "Hội nghị lần thứ tám Ban Chấp hành Trung ương Đảng (5/1941) đã nhấn mạnh mâu thuẫn chủ yếu đòi hỏi phải được giải quyết cấp bách là gì?",
+        "options": {
+          "A": "Mâu thuẫn giữa dân tộc Việt Nam với đế quốc Pháp và phátxít Nhật",
+          "B": "Mâu thuẫn giữa giai cấp công nhân Việt Nam với giai cấp tư sản Pháp",
+          "C": "Mâu thuẫn giữa giai cấp nông dân với giai cấp địa chủ và bọn thực dân Pháp",
+          "D": "Mâu thuẫn giữa dân tộc Việt Nam với đế quốc Pháp và bọn phong kiến phản động"
+        },
+        "answer": "A",
+        "explanation": "Hội nghị Trung ương 8 (5/1941) họp tại Pác Bó dưới sự chủ trì của Nguyễn Ái Quốc đã xác định: Trong lúc này, quyền lợi của bộ phận, của giai cấp phải đặt dưới sự sinh tử tồn vong của quốc gia dân tộc; mâu thuẫn chủ yếu và cấp bách hàng đầu là mâu thuẫn giữa toàn thể dân tộc Việt Nam với đế quốc phát xít Pháp - Nhật.",
+        "image": "vnr/8/14.jpg"
+      },
+      {
+        "id": 15,
+        "uid": "vnr202_de8_15",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 15,
+        "question": "Đảng xác định nhiệm vụ trước mắt của cách mạng Việt Nam ngay sau Hiệp định Giơnevơ năm 1954 về Đông Dương được ký kết là gì?",
+        "options": {
+          "A": "Tiến hành cách mạng xã hội chủ nghĩa và cách mạng dân tộc dân chủ nhân dân",
+          "B": "Khôi phục kinh tế, tiếp tục cuộc cách mạng dân tộc dân chủ nhân dân",
+          "C": "Khôi phục kinh tế, hoàn thành cách mạng dân tộc dân chủ nhân dân",
+          "D": "Khôi phục kinh tế, hàn gắn vết thương chiến tranh, đòi thi hành Hiệp định Giơnevơ"
+        },
+        "answer": "D",
+        "explanation": "Ngay sau Hiệp định Giơnevơ 1954, đất nước tạm thời bị chia cắt làm hai miền. Miền Bắc vừa được giải phóng còn ngổn ngang khó khăn do chiến tranh tàn phá, miền Nam bị đế quốc Mỹ và tay sai phá hoại hiệp định. Do đó, Đảng xác định nhiệm vụ trước mắt là khôi phục kinh tế, hàn gắn vết thương chiến tranh ở miền Bắc và đấu tranh chính trị đòi thi hành nghiêm chỉnh Hiệp định Giơnevơ.",
+        "image": "vnr/8/15.jpg"
+      },
+      {
+        "id": 16,
+        "uid": "vnr202_de8_16",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 16,
+        "question": "“Cao trào kháng Nhật, cứu nước là một cuộc khởi nghĩa từng phần, chiến tranh..., giành chính quyền ở những nơi có điều kiện.” Từ còn thiếu trong dấu... là gì?",
+        "options": {
+          "A": "Toàn diện trường kỳ",
+          "B": "Chính nghĩa",
+          "C": "Du kích cục bộ",
+          "D": "Từng phần"
+        },
+        "answer": "C",
+        "explanation": "Chỉ thị lịch sử 'Nhật - Pháp bắn nhau và hành động của chúng ta' (12/3/1945) nhận định: Cao trào kháng Nhật cứu nước là 'một cuộc khởi nghĩa từng phần, chiến tranh du kích cục bộ, giành chính quyền ở những nơi có điều kiện, chuẩn bị cho tổng khởi nghĩa'.",
+        "image": "vnr/8/16.jpg"
+      },
+      {
+        "id": 17,
+        "uid": "vnr202_de8_17",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 17,
+        "question": "Chủ tịch Hồ Chí Minh soạn “Tuyên ngôn độc lập” ở đâu?",
+        "options": {
+          "A": "Nhà số 48, Hàng Ngang, Hà Nội",
+          "B": "Nhà số 48, Làng Chèm, Hà Nội",
+          "C": "Nhà số 48, Làng Tân Trào, Tuyên Quang",
+          "D": "Nhà số 48, Làng Vạn Phúc, Hà Đông;"
+        },
+        "answer": "A",
+        "explanation": "Sau khi từ chiến khu Việt Bắc về tới Hà Nội cuối tháng 8/1945, tại căn gác số 48 Hàng Ngang (ngôi nhà của nhà tư sản yêu nước Trịnh Văn Bô), Chủ tịch Hồ Chí Minh đã trực tiếp khởi thảo bản Tuyên ngôn Độc lập khai sinh ra nước Việt Nam Dân chủ Cộng hòa.",
+        "image": "vnr/8/17.jpg"
+      },
+      {
+        "id": 18,
+        "uid": "vnr202_de8_18",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 18,
+        "question": "An Nam Cộng sản Đảng xuất bản Tạp chí gì để làm cơ quan ngôn luận của mình?",
+        "options": {
+          "A": "Tạp chí Búa liềm",
+          "B": "Tạp chí Giải phóng",
+          "C": "Tạp chí Bônsơvích",
+          "D": "Báo Thanh niên"
+        },
+        "answer": "C",
+        "explanation": "An Nam Cộng sản Đảng (thành lập tháng 8/1929 tại Nam Kỳ) đã xuất bản Tạp chí Bônsơvích làm cơ quan ngôn luận lý luận chính thức. (Đông Dương Cộng sản Đảng thành lập tháng 6/1929 tại Bắc Kỳ xuất bản báo Búa Liềm).",
+        "image": "vnr/8/18.jpg"
+      },
+      {
+        "id": 19,
+        "uid": "vnr202_de8_19",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 19,
+        "question": "Chủ trương sai lầm “thanh trừ trí, phú, địa, hào, đào tận gốc trốc tận rễ” năm 1931 do cấp uỷ nào đưa ra?",
+        "options": {
+          "A": "Ban Chấp hành Trung ương",
+          "B": "Xứ uỷ Bắc kỳ",
+          "C": "Xứ uỷ Nam kỳ",
+          "D": "Xứ uỷ Trung kỳ"
+        },
+        "answer": "D",
+        "explanation": "Khẩu hiệu và chủ trương cực đoan, mang nặng tính biệt phái 'tả' khuynh 'Trí phú địa hào đào tận gốc trốc tận rễ' năm 1931 là do Xứ uỷ Trung kỳ đề ra trong cao trào Xô viết Nghệ Tĩnh, gây tổn hại nghiêm trọng đến khối đại đoàn kết dân tộc.",
+        "image": "vnr/8/19.jpg"
+      },
+      {
+        "id": 20,
+        "uid": "vnr202_de8_20",
+        "exam": "vnr202_de8",
+        "exam_code": "VNR202 - Đề 8",
+        "exam_title": "VNR202 — Đề Ôn Tập 8",
+        "q_num": 20,
+        "question": "Luận cương chính trị tháng 10/1930 xác định mâu thuẫn chủ yếu và gay gắt trong xã hội Đông Dương là gì?",
+        "options": {
+          "A": "Mâu thuẫn kinh tế",
+          "B": "Mâu thuẫn giai cấp",
+          "C": "Mâu thuẫn chính trị",
+          "D": "Mâu thuẫn dân tộc"
+        },
+        "answer": "B",
+        "explanation": "Luận cương chính trị tháng 10/1930 do Tổng Bí thư Trần Phú khởi thảo nhấn mạnh mâu thuẫn giai cấp diễn ra gay gắt giữa một bên là thợ thuyền, dân cày và các phần tử lao khổ với một bên là địa chủ phong kiến và tư bản đế quốc, coi đó là mâu thuẫn chủ yếu nhất của xã hội Đông Dương.",
+        "image": "vnr/8/20.jpg"
+      }
+    ]
   }
+
 };
 
 // Alias for compatibility

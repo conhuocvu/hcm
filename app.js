@@ -88,9 +88,9 @@ class QuizletApp {
         badgeClass: 'course-badge-vnr',
         subTitle: 'Kho Đề Chuẩn FPT University — Lịch sử Đảng Cộng sản Việt Nam (Spaced Repetition & Kèm Ảnh Đề Gốc)',
         selectorHeadingTitle: 'CHỌN BỘ ĐỀ / CHẾ ĐỘ HỌC:',
-        selectorHeadingDesc: 'Học riêng từng bộ đề thi hoặc bản tổng hợp toàn bộ 80 câu hỏi (đã lọc trùng)',
+        selectorHeadingDesc: 'Học riêng từng bộ đề thi hoặc bản tổng hợp toàn bộ 170 câu hỏi (đã lọc trùng)',
         defaultExam: 'combined',
-        totalQuestions: 80,
+        totalQuestions: 170,
         exams: window.VNR_DATA || {}
       }
     };
@@ -434,10 +434,15 @@ class QuizletApp {
       ];
     } else if (this.currentCourse === 'vnr202') {
       filterOptions = [
-        { label: 'Tất cả (80c)', val: 'all' },
+        { label: 'Tất cả (170c)', val: 'all' },
         { label: 'Đề 1 (25c)', val: 'Đề 1' },
         { label: 'Đề 2 (30c)', val: 'Đề 2' },
-        { label: 'Đề 3 (30c)', val: 'Đề 3' }
+        { label: 'Đề 3 (30c)', val: 'Đề 3' },
+        { label: 'Đề 4 (30c)', val: 'Đề 4' },
+        { label: 'Đề 5 (25c)', val: 'Đề 5' },
+        { label: 'Đề 6 (30c)', val: 'Đề 6' },
+        { label: 'Đề 7 (30c)', val: 'Đề 7' },
+        { label: 'Đề 8 (20c)', val: 'Đề 8' }
       ];
     } else {
       filterOptions = [
@@ -583,7 +588,7 @@ class QuizletApp {
 
     // 3. Calculate VNR202 progress
     let vnrMastered = 0;
-    const vnrTotal = this.courses.vnr202 ? (this.courses.vnr202.totalQuestions || 80) : 80;
+    const vnrTotal = this.courses.vnr202 ? (this.courses.vnr202.totalQuestions || 170) : 170;
     try {
       const vnrSaved = localStorage.getItem('fpt_progress_vnr202_combined') || 
                        localStorage.getItem('fpt_progress_vnr202_vnr202_de1');
