@@ -1361,6 +1361,10 @@ main {
   background: linear-gradient(90deg, #0284c7, #38bdf8, #818cf8);
 }
 
+.course-card.card-vnr::before {
+  background: linear-gradient(90deg, #dc2626, #ef4444, #f59e0b);
+}
+
 .course-card:hover {
   transform: translateY(-8px);
   border-color: var(--border-light);
@@ -1375,6 +1379,11 @@ main {
 .course-card.card-mln:hover {
   border-color: rgba(56, 189, 248, 0.5);
   box-shadow: 0 20px 40px rgba(56, 189, 248, 0.2);
+}
+
+.course-card.card-vnr:hover {
+  border-color: rgba(239, 68, 68, 0.5);
+  box-shadow: 0 20px 40px rgba(239, 68, 68, 0.2);
 }
 
 .course-card-top {
@@ -1405,6 +1414,11 @@ main {
   border: 1px solid rgba(56, 189, 248, 0.3);
 }
 
+.card-vnr .course-icon-badge {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.2), rgba(185, 28, 28, 0.1));
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
 .course-badge-pill {
   padding: 5px 12px;
   border-radius: 999px;
@@ -1423,6 +1437,12 @@ main {
   background: rgba(56, 189, 248, 0.15);
   color: #38bdf8;
   border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.card-vnr .course-badge-pill {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
 }
 
 .course-code {
@@ -1515,6 +1535,10 @@ main {
   background: linear-gradient(90deg, #0284c7, #38bdf8);
 }
 
+.card-vnr .course-progress-fill {
+  background: linear-gradient(90deg, #dc2626, #f87171);
+}
+
 .btn-enter-course {
   display: flex;
   align-items: center;
@@ -1550,6 +1574,17 @@ main {
 .card-mln .btn-enter-course:hover {
   background: linear-gradient(135deg, #0ea5e9, #0284c7);
   box-shadow: 0 6px 20px rgba(2, 132, 199, 0.45);
+}
+
+.card-vnr .btn-enter-course {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(220, 38, 38, 0.3);
+}
+
+.card-vnr .btn-enter-course:hover {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.45);
 }
 
 /* Portal Feature Row */
@@ -1647,6 +1682,19 @@ main {
   border: 1px solid rgba(56, 189, 248, 0.3);
 }
 
+.current-course-badge.course-badge-vnr {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* VNR Exam Pill Chips */
+.chip-vnr {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
 /* MLN Exam / Chapter Pill Chips */
 .chip-chuong1 {
   background: rgba(6, 182, 212, 0.15);
@@ -1694,6 +1742,12 @@ main {
   background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(239, 68, 68, 0.2));
   color: #fbbf24;
   border: 1px solid rgba(245, 158, 11, 0.4);
+}
+
+.tag-vnr {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
 }
 
 @media (max-width: 1024px) {

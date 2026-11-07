@@ -77,12 +77,28 @@ class QuizletApp {
         defaultExam: 'combined',
         totalQuestions: 414,
         exams: window.MLN_DATA || {}
+      },
+      vnr202: {
+        id: 'vnr202',
+        code: 'VNR202',
+        name: 'VNR202 — Lịch sử Đảng Cộng sản Việt Nam',
+        shortName: 'VNR202',
+        icon: '🚩',
+        badgeText: '🚩 VNR202',
+        badgeClass: 'course-badge-vnr',
+        subTitle: 'Kho Đề Chuẩn FPT University — Lịch sử Đảng Cộng sản Việt Nam (Spaced Repetition & Kèm Ảnh Đề Gốc)',
+        selectorHeadingTitle: 'CHỌN BỘ ĐỀ / CHẾ ĐỘ HỌC:',
+        selectorHeadingDesc: 'Học riêng từng bộ đề thi hoặc bản tổng hợp toàn bộ 80 câu hỏi (đã lọc trùng)',
+        defaultExam: 'combined',
+        totalQuestions: 80,
+        exams: window.VNR_DATA || {}
       }
     };
 
     // Aliases for convenient course routing
     this.courses.mln131 = this.courses.mln111;
     this.courses.mln133 = this.courses.mln111;
+    this.courses.vnr = this.courses.vnr202;
 
     // Backward compatibility for external scripts
     window.COURSES_DATA = this.courses;
@@ -97,12 +113,16 @@ class QuizletApp {
     // Portal Elements
     this.btnEnterHCM = document.getElementById('btnEnterHCM');
     this.btnEnterMLN = document.getElementById('btnEnterMLN');
+    this.btnEnterVNR = document.getElementById('btnEnterVNR');
     this.cardSelectHCM = document.getElementById('cardSelectHCM');
     this.cardSelectMLN = document.getElementById('cardSelectMLN');
+    this.cardSelectVNR = document.getElementById('cardSelectVNR');
     this.portalHcmProgressText = document.getElementById('portalHcmProgressText');
     this.portalHcmProgressBar = document.getElementById('portalHcmProgressBar');
     this.portalMlnProgressText = document.getElementById('portalMlnProgressText');
     this.portalMlnProgressBar = document.getElementById('portalMlnProgressBar');
+    this.portalVnrProgressText = document.getElementById('portalVnrProgressText');
+    this.portalVnrProgressBar = document.getElementById('portalVnrProgressBar');
 
     // Portal Theme Toggle
     this.btnPortalThemeToggle = document.getElementById('btnPortalThemeToggle');
@@ -181,6 +201,8 @@ class QuizletApp {
       this.selectCourse('hcm202', false);
     } else if (hash === '#mln131' || hash.startsWith('#mln131') || hash === '#mln133' || hash.startsWith('#mln133') || hash === '#mln111' || hash.startsWith('#mln111') || hash.startsWith('#mln')) {
       this.selectCourse('mln111', false);
+    } else if (hash === '#vnr202' || hash.startsWith('#vnr202') || hash === '#vnr' || hash.startsWith('#vnr')) {
+      this.selectCourse('vnr202', false);
     } else {
       // By default, display the Portal View for user to select course
       this.showPortal(false);
@@ -265,7 +287,10 @@ class QuizletApp {
 
       // Pick chip class
       let chipClass = 'chip-re';
-      if (this.currentCourse === 'mln111') {
+      if (this.currentCourse === 'vnr202') {
+        if (key === 'combined') chipClass = 'chip-combined';
+        else chipClass = 'chip-vnr';
+      } else if (this.currentCourse === 'mln111') {
         if (key === 'combined') chipClass = 'chip-combined';
         else if (key === 'mln131_fa25_re') chipClass = 'chip-fa25';
         else if (key === 'mln131_sp26') chipClass = 'chip-sp25';
@@ -406,6 +431,13 @@ class QuizletApp {
         { label: 'Đề FEKTS', val: 'SU25 - FEKTS' },
         { label: 'Đề SP25', val: 'SP25 - FE' },
         { label: 'Đề FA24 RE', val: 'FA24 - RE' }
+      ];
+    } else if (this.currentCourse === 'vnr202') {
+      filterOptions = [
+        { label: 'Tất cả (80c)', val: 'all' },
+        { label: 'Đề 1 (25c)', val: 'Đề 1' },
+        { label: 'Đề 2 (30c)', val: 'Đề 2' },
+        { label: 'Đề 3 (30c)', val: 'Đề 3' }
       ];
     } else {
       filterOptions = [
@@ -548,6 +580,30 @@ class QuizletApp {
     if (this.portalMlnProgressBar) {
       this.portalMlnProgressBar.style.width = `${mlnPct}%`;
     }
+
+    // 3. Calculate VNR202 progress
+    let vnrMastered = 0;
+    const vnrTotal = this.courses.vnr202 ? (this.courses.vnr202.totalQuestions || 80) : 80;
+    try {
+      const vnrSaved = localStorage.getItem('fpt_progress_vnr202_combined') || 
+                       localStorage.getItem('fpt_progress_vnr202_vnr202_de1');
+      if (vnrSaved) {
+        const parsed = JSON.parse(vnrSaved);
+        vnrMastered = (parsed.masteredIds || []).length;
+      }
+    } catch (e) {}
+
+    const vnrPct = vnrTotal > 0 ? Math.min(100, Math.round((vnrMastered / vnrTotal) * 100)) : 0;
+    if (this.portalVnrProgressText) {
+      if (vnrTotal > 0) {
+        this.portalVnrProgressText.textContent = `${vnrMastered} / ${vnrTotal} câu (${vnrPct}%)`;
+      } else {
+        this.portalVnrProgressText.textContent = `0 câu (Chờ cung cấp đề)`;
+      }
+    }
+    if (this.portalVnrProgressBar) {
+      this.portalVnrProgressBar.style.width = `${vnrPct}%`;
+    }
   }
 
   /* ================= THEME ENGINE ================= */
@@ -582,8 +638,10 @@ class QuizletApp {
     // Portal course selection
     if (this.btnEnterHCM) this.btnEnterHCM.addEventListener('click', () => this.selectCourse('hcm202'));
     if (this.btnEnterMLN) this.btnEnterMLN.addEventListener('click', () => this.selectCourse('mln111'));
+    if (this.btnEnterVNR) this.btnEnterVNR.addEventListener('click', () => this.selectCourse('vnr202'));
     if (this.cardSelectHCM) this.cardSelectHCM.addEventListener('click', () => this.selectCourse('hcm202'));
     if (this.cardSelectMLN) this.cardSelectMLN.addEventListener('click', () => this.selectCourse('mln111'));
+    if (this.cardSelectVNR) this.cardSelectVNR.addEventListener('click', () => this.selectCourse('vnr202'));
 
     // Switch Course (back to Portal)
     if (this.btnBackToPortal) {
@@ -661,8 +719,10 @@ class QuizletApp {
         if (this.currentView !== 'portal') this.showPortal(false);
       } else if (hash.includes('hcm202')) {
         if (this.currentCourse !== 'hcm202' || this.currentView !== 'study') this.selectCourse('hcm202', false);
-      } else if (hash.includes('mln111')) {
+      } else if (hash.includes('mln111') || hash.includes('mln131')) {
         if (this.currentCourse !== 'mln111' || this.currentView !== 'study') this.selectCourse('mln111', false);
+      } else if (hash.includes('vnr202') || hash.includes('vnr')) {
+        if (this.currentCourse !== 'vnr202' || this.currentView !== 'study') this.selectCourse('vnr202', false);
       }
     });
 
@@ -689,6 +749,11 @@ class QuizletApp {
         if (key === '2' || key === 'M') {
           e.preventDefault();
           this.selectCourse('mln111');
+          return;
+        }
+        if (key === '3' || key === 'V') {
+          e.preventDefault();
+          this.selectCourse('vnr202');
           return;
         }
         return;
@@ -1297,6 +1362,7 @@ class QuizletApp {
         else if (s.exam.includes('SU25') || s.exam.includes('B5')) tagClass = 'tag-su25';
         else if (s.exam.includes('FA24')) tagClass = 'tag-fa24-re';
         else if (s.exam.includes('Quên') || s.exam.includes('quen')) tagClass = 'tag-quen';
+        else if (s.exam.includes('VNR202') || s.exam.includes('VNR')) tagClass = 'tag-vnr';
         sourceTagHtml = `<span class="q-exam-tag ${tagClass}">Đề ${s.exam} #${s.q_num}</span>`;
       } else {
         const code = q.exam_code || '';

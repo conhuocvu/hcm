@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FPT Quiz Master — Ôn Thi Trắc Nghiệm Đa Môn (HCM202 & MLN131)</title>
+  <title>FPT Quiz Master — Ôn Thi Trắc Nghiệm Đa Môn (HCM202, MLN131 & VNR202)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
@@ -117,6 +117,43 @@
         <button class="btn-enter-course" id="btnEnterMLN">
           <span>🚀 Vào Ôn Thi MLN131</span>
           <span style="font-size:0.85rem; opacity:0.85; font-family:'JetBrains Mono',monospace;">[Phím 2]</span>
+        </button>
+      </article>
+
+      <!-- Course Card 3: VNR202 -->
+      <article class="course-card card-vnr" id="cardSelectVNR" tabindex="0" role="button" aria-label="Chọn ôn thi môn VNR202">
+        <div class="course-card-top">
+          <div class="course-icon-badge">🚩</div>
+          <span class="course-badge-pill">3 Đề + 1 Tổng Hợp</span>
+        </div>
+
+        <div class="course-code">VNR202</div>
+        <h2 class="course-name">Lịch sử Đảng Cộng sản VN</h2>
+        <p class="course-desc">
+          Bộ đề trắc nghiệm qua 3 kỳ thi thực tế (Đề 1: 25 câu, Đề 2: 30 câu, Đề 3: 30 câu) và bản tổng hợp lọc trùng 80 câu chuẩn format FPT University kèm 85 ảnh gốc và giải thích chi tiết.
+        </p>
+
+        <div class="course-tags-row">
+          <span class="course-tag">⭐ 80 câu lọc trùng</span>
+          <span class="course-tag">📝 3 đề thi thực tế</span>
+          <span class="course-tag">🖼️ 85 ảnh gốc</span>
+          <span class="course-tag">💡 Giải thích chi tiết</span>
+          <span class="course-tag">⚡ Spaced Repetition</span>
+        </div>
+
+        <div class="course-progress-box">
+          <div class="course-progress-header">
+            <span>Tiến độ ghi nhớ:</span>
+            <strong id="portalVnrProgressText">0 / 80 câu (0%)</strong>
+          </div>
+          <div class="course-progress-track">
+            <div class="course-progress-fill" id="portalVnrProgressBar" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <button class="btn-enter-course" id="btnEnterVNR">
+          <span>🚀 Vào Ôn Thi VNR202</span>
+          <span style="font-size:0.85rem; opacity:0.85; font-family:'JetBrains Mono',monospace;">[Phím 3]</span>
         </button>
       </article>
 
@@ -365,6 +402,7 @@
   <!-- Load Data and Logic -->
   <script src="data.js"></script>
   <script src="mln_data.js"></script>
+  <script src="vnr_data.js"></script>
   <script src="app.js?v=5"></script>
 </body>
 </html>
