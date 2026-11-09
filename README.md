@@ -42,7 +42,7 @@
 - **Bản Tổng Hợp Lọc Trùng Toàn Bộ (280 câu độc bản)** kèm 565 ảnh chụp đề gốc và đối chiếu biến thể.
 
 ### 4. 🚩 Môn VNR202 — Lịch Sử Đảng Cộng Sản Việt Nam
-- **8 Bộ đề thi thực tế chuẩn format FPT University**:
+- **10 Bộ đề thi thực tế chuẩn format FPT University**:
   - `Đề Ôn Tập 1`: 25 câu hỏi kèm ảnh đề gốc (`vnr/1/`) và giải thích chi tiết
   - `Đề Ôn Tập 2`: 30 câu hỏi kèm ảnh đề gốc (`vnr/2/`) và giải thích chi tiết
   - `Đề Ôn Tập 3`: 30 câu hỏi kèm ảnh đề gốc (`vnr/3/`) và giải thích chi tiết
@@ -51,7 +51,9 @@
   - `Đề Ôn Tập 6`: 30 câu hỏi kèm ảnh đề gốc (`vnr/6/`) và giải thích chi tiết
   - `Đề Ôn Tập 7`: 30 câu hỏi kèm ảnh đề gốc (`vnr/7/`) và giải thích chi tiết
   - `Đề Ôn Tập 8`: 20 câu hỏi kèm ảnh đề gốc (`vnr/8/`) và giải thích chi tiết
-- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (170 câu độc bản)**: Tự động đối chiếu chéo và gộp 50 lượt câu hỏi trùng lặp giữa 8 đề (220 câu gốc -> 170 câu duy nhất), giữ nguyên liên kết đa nguồn `sources` và 220 ảnh gốc minh chứng.
+  - `Đề Ôn Tập 9`: 30 câu hỏi kèm ảnh đề gốc (`vnr/9/`) và giải thích chi tiết
+  - `Đề Ôn Tập 10`: 25 câu hỏi kèm ảnh đề gốc (`vnr/10/`) và giải thích chi tiết
+- **Bản Tổng Hợp Lọc Trùng Toàn Bộ (201 câu độc bản)**: Tự động đối chiếu chéo và gộp 74 lượt câu hỏi trùng lặp giữa 10 đề (275 câu gốc -> 201 câu duy nhất), giữ nguyên liên kết đa nguồn `sources` và 275 ảnh gốc minh chứng.
 
 ### 5. 🎴 Hai chế độ luyện thi chuyên sâu
 - **Chế độ Quizlet (Spaced Repetition)**: Tự động ghi nhớ các câu chưa thuộc, lặp lại ngắt quãng theo vòng đến khi thuộc 100%.

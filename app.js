@@ -88,9 +88,9 @@ class QuizletApp {
         badgeClass: 'course-badge-vnr',
         subTitle: 'Kho Đề Chuẩn FPT University — Lịch sử Đảng Cộng sản Việt Nam (Spaced Repetition & Kèm Ảnh Đề Gốc)',
         selectorHeadingTitle: 'CHỌN BỘ ĐỀ / CHẾ ĐỘ HỌC:',
-        selectorHeadingDesc: 'Học riêng từng bộ đề thi hoặc bản tổng hợp toàn bộ 170 câu hỏi (đã lọc trùng)',
+        selectorHeadingDesc: 'Học riêng từng bộ đề thi hoặc bản tổng hợp toàn bộ 201 câu hỏi (đã lọc trùng)',
         defaultExam: 'combined',
-        totalQuestions: 170,
+        totalQuestions: 201,
         exams: window.VNR_DATA || {}
       }
     };
@@ -383,7 +383,7 @@ class QuizletApp {
         if (isActive && window.innerWidth <= 768) {
           try {
             btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
-          } catch (e) {}
+          } catch (e) { }
         }
       });
     }
@@ -434,7 +434,7 @@ class QuizletApp {
       ];
     } else if (this.currentCourse === 'vnr202') {
       filterOptions = [
-        { label: 'Tất cả (170c)', val: 'all' },
+        { label: 'Tất cả (201c)', val: 'all' },
         { label: 'Đề 1 (25c)', val: 'Đề 1' },
         { label: 'Đề 2 (30c)', val: 'Đề 2' },
         { label: 'Đề 3 (30c)', val: 'Đề 3' },
@@ -442,7 +442,9 @@ class QuizletApp {
         { label: 'Đề 5 (25c)', val: 'Đề 5' },
         { label: 'Đề 6 (30c)', val: 'Đề 6' },
         { label: 'Đề 7 (30c)', val: 'Đề 7' },
-        { label: 'Đề 8 (20c)', val: 'Đề 8' }
+        { label: 'Đề 8 (20c)', val: 'Đề 8' },
+        { label: 'Đề 9 (30c)', val: 'Đề 9' },
+        { label: 'Đề 10 (25c)', val: 'Đề 10' }
       ];
     } else {
       filterOptions = [
@@ -553,7 +555,7 @@ class QuizletApp {
         const parsed = JSON.parse(hcmSaved);
         hcmMastered = (parsed.masteredIds || []).length;
       }
-    } catch (e) {}
+    } catch (e) { }
 
     const hcmPct = Math.min(100, Math.round((hcmMastered / hcmTotal) * 100));
     if (this.portalHcmProgressText) {
@@ -572,7 +574,7 @@ class QuizletApp {
         const parsed = JSON.parse(mlnSaved);
         mlnMastered = (parsed.masteredIds || []).length;
       }
-    } catch (e) {}
+    } catch (e) { }
 
     const mlnPct = mlnTotal > 0 ? Math.min(100, Math.round((mlnMastered / mlnTotal) * 100)) : 0;
     if (this.portalMlnProgressText) {
@@ -588,15 +590,15 @@ class QuizletApp {
 
     // 3. Calculate VNR202 progress
     let vnrMastered = 0;
-    const vnrTotal = this.courses.vnr202 ? (this.courses.vnr202.totalQuestions || 170) : 170;
+    const vnrTotal = this.courses.vnr202 ? (this.courses.vnr202.totalQuestions || 201) : 201;
     try {
-      const vnrSaved = localStorage.getItem('fpt_progress_vnr202_combined') || 
-                       localStorage.getItem('fpt_progress_vnr202_vnr202_de1');
+      const vnrSaved = localStorage.getItem('fpt_progress_vnr202_combined') ||
+        localStorage.getItem('fpt_progress_vnr202_vnr202_de1');
       if (vnrSaved) {
         const parsed = JSON.parse(vnrSaved);
         vnrMastered = (parsed.masteredIds || []).length;
       }
-    } catch (e) {}
+    } catch (e) { }
 
     const vnrPct = vnrTotal > 0 ? Math.min(100, Math.round((vnrMastered / vnrTotal) * 100)) : 0;
     if (this.portalVnrProgressText) {
@@ -1040,7 +1042,7 @@ class QuizletApp {
     this.currentCardAnswered = true;
 
     const isFullyCorrect = correctAnswers.length === this.selectedOptions.size &&
-                           correctAnswers.every(k => this.selectedOptions.has(k));
+      correctAnswers.every(k => this.selectedOptions.has(k));
 
     const buttons = this.optionsContainer.querySelectorAll('.quiz-option-btn');
     buttons.forEach(btn => {
@@ -1325,9 +1327,9 @@ class QuizletApp {
     const filtered = this.allQuestions.filter(q => {
       // 1. Exam source or chapter filter
       if (filter !== 'all') {
-        const matchesExam = (q.sources || []).some(s => s.exam.includes(filter)) || 
-                            (q.exam_code || '').includes(filter) ||
-                            (q.chapter || '').includes(filter);
+        const matchesExam = (q.sources || []).some(s => s.exam.includes(filter)) ||
+          (q.exam_code || '').includes(filter) ||
+          (q.chapter || '').includes(filter);
         if (!matchesExam) return false;
       }
 
